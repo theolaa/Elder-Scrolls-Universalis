@@ -1,0 +1,156 @@
+monarchy_mechanic = {
+	monarchy = yes
+	heir = yes
+	queen = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	custom_attributes = {
+		enables_aristocratic_idea_group = yes
+	}
+}
+
+autocracy_reform = {
+	icon = "crown"
+	allow_normal_conversion = yes
+	legacy_equivalent = despotic_monarchy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		max_states = 1
+		global_unrest = -1
+		unjustified_demands = -0.10
+		global_autonomy = -0.05
+		max_absolutism = 5
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+celestial_empire = {
+	icon = "celestial_empire"
+	allow_normal_conversion = no
+	potential = {
+		is_emperor_of_china = yes
+		NOT = { has_global_flag = empire_of_china_dismantled }
+	}
+	legacy_equivalent = celestial_empire_legacy
+	lock_level_when_selected = yes
+	maintain_dynasty = yes
+	allow_force_tributary = no
+	valid_for_nation_designer = no
+	nation_designer_cost = 0
+	factions = {
+		temples
+		enuchs
+		bureaucrats
+	}
+
+	fixed_rank = 3
+	start_territory_to_estates = 0.75
+
+	modifiers = {
+		prestige = 0.5
+		global_institution_spread = 0.10
+		embracement_cost = -0.10
+	}
+	
+	ai = {
+		factor = 1000 # should always be picked if available
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	conditional = {
+		allow = { has_dlc = "Mandate of Heaven" }
+		has_meritocracy = yes
+		factions = {}
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+english_monarchy = {
+	icon = "constitution"
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		has_dlc = "Common Sense"
+	}
+	legacy_equivalent = english_monarchy_legacy
+	start_territory_to_estates = 0.35
+	modifiers = {
+		max_states = 1
+		legitimacy = 0.25
+		global_unrest = -1
+		global_autonomy = -0.025
+		max_absolutism = -30
+	}
+
+	conditional = {
+		allow = { has_dlc = "Common Sense" }
+		has_parliament = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+elective_monarchy = {
+	icon = "ballot_box"
+	allow_normal_conversion = yes
+	legacy_equivalent = elective_monarchy_legacy
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		vassal_income = 0.10
+		global_unrest = -1
+		max_absolutism = -30
+		max_states = 1
+		global_autonomy = -0.025
+	}
+
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		is_elective = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		militarised_society = yes
+	}
+}
+
+mamluk_government = {
+	icon = "indian_crown"
+	allow_normal_conversion = yes
+	legacy_equivalent = mamluk_government_legacy
+	heir = no
+	queen = no
+
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	modifiers = {
+		num_accepted_cultures = 1
+		global_autonomy = -0.025
+		monarch_admin_power = 1
+		same_culture_advisor_cost = -0.10
+		promote_culture_cost = -0.10
+		max_states = 1
+	}
+
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			mamluk_mechanic
+		}
+		foreign_slave_rulers = yes
+	}
+}

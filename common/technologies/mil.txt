@@ -1,0 +1,842 @@
+monarch_power = MIL
+
+ahead_of_time = {
+    global_regiment_cost = -0.10
+	defensiveness = 0.10
+}
+
+technology = {
+	# Tech 0
+	year = 2
+	
+	sprite_level = 1
+	
+	infantry_fire		= 	0.50
+	infantry_shock 		= 	0.25	
+	cavalry_fire  		= 	0.15
+	cavalry_shock  		= 	0.75
+	artillery_fire		=	1.0
+	artillery_shock 	=	0.10
+	
+	land_morale 		= 	1.0
+
+	enable = I00
+	enable = C00
+}
+
+technology = {
+	# Tech 1
+	year = 10
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 2
+	year = 30
+	
+	infantry_fire		= 	0.10
+	
+	enable = I01
+	enable = I02
+}
+
+technology = {
+	# Tech 3
+	year = 60
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 4
+	year = 90
+	
+	supply_limit 		= 	0.10
+}
+
+technology = {
+	# Tech 5
+	year = 120
+	
+	cavalry_fire  		= 	0.10
+	enable = C01
+	enable = C02
+	
+	barracks = yes
+}
+
+technology = {
+	# Tech 6
+	year = 150
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 7
+	year = 180
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 8
+	year = 210
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 9
+	year = 240
+
+	supply_limit 		= 	0.15
+}
+
+technology = {
+	# Tech 10
+	year = 270
+
+	land_morale 	= 	0.25
+	
+	fort_15th = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 11
+	year = 300
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 12
+	year = 325
+	
+	infantry_fire		= 	0.10
+	
+	enable = I11
+	enable = I12
+}
+
+technology = {
+	# Tech 13
+	year = 350
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 14
+	year = 375
+	
+	supply_limit 		= 	0.10
+}
+
+technology = {
+	# Tech 15
+	year = 400
+	
+	cavalry_fire  		= 	0.10
+	enable = C11
+	enable = C12
+	
+	regimental_camp = yes
+}
+
+technology = {
+	# Tech 16
+	year = 425
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 17
+	year = 450
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 18
+	year = 475
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 19
+	year = 500
+
+	supply_limit 		= 	0.15
+}
+
+technology = {
+	# Tech 20
+	year = 525
+
+	military_tactics 		= 	0.25
+	
+	sprite_level = 2
+	
+	armory = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 21
+	year = 550
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 22
+	year = 575
+	
+	infantry_fire		= 	0.10
+	
+	enable = I21
+	enable = I22
+}
+
+technology = {
+	# Tech 23
+	year = 600
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 24
+	year = 625
+	
+	supply_limit 		= 	0.10
+}
+
+technology = {
+	# Tech 25
+	year = 650
+	
+	cavalry_fire  		= 	0.10
+	enable = C21
+	enable = C22
+	
+	earth_rampart = yes
+}
+
+technology = {
+	# Tech 26
+	year = 675
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 27
+	year = 700
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 28
+	year = 725
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 29
+	year = 750
+
+	supply_limit 		= 	0.15
+}
+
+technology = {
+	# Tech 30
+	year = 775
+
+	land_morale 	= 	0.25
+	
+	march_building = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 31
+	year = 800
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 32
+	year = 825
+	
+	infantry_fire		= 	0.10
+	
+	enable = I31
+	enable = I32
+}
+
+technology = {
+	# Tech 33
+	year = 850
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 34
+	year = 875
+	
+	supply_limit 		= 	0.10
+}
+
+technology = {
+	# Tech 35
+	year = 900
+	
+	cavalry_fire  		= 	0.10
+	enable = C31
+	enable = C32
+	
+	weapons = yes
+}
+
+technology = {
+	# Tech 36
+	year = 925
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 37
+	year = 950
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 38
+	year = 975
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 39
+	year = 1000
+
+	supply_limit 		= 	0.15
+}
+
+technology = {
+	# Tech 40
+	year = 1025
+
+	military_tactics 		= 	0.25
+	
+	sprite_level = 3
+	
+	constable = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 41
+	year = 1050
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 42
+	year = 1075
+	
+	infantry_fire		= 	0.10
+	
+	enable = I41
+	enable = I42
+}
+
+technology = {
+	# Tech 43
+	year = 1100
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 44
+	year = 1125
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 45
+	year = 1150
+	
+	cavalry_fire  		= 	0.10
+	enable = C41
+	enable = C42
+	
+	fort_16th = yes
+}
+
+technology = {
+	# Tech 46
+	year = 1175
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 47
+	year = 1200
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 48
+	year = 1225
+	
+	artillery_fire		=	0.10
+	enable = A41
+	enable = A42
+}
+
+technology = {
+	# Tech 49
+	year = 1250
+
+	artillery_shock 	=	0.05
+}
+
+technology = {
+	# Tech 50
+	year = 1275
+
+	land_morale 	= 	0.25
+	
+	conscription_center = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 51
+	year = 1300
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 52
+	year = 1325
+	
+	infantry_fire		= 	0.10
+	
+	enable = I51
+	enable = I52
+}
+
+technology = {
+	# Tech 53
+	year = 1350
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 54
+	year = 1375
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 55
+	year = 1400
+	
+	cavalry_fire  		= 	0.10
+	enable = C51
+	enable = C52
+	
+	arsenal = yes
+}
+
+technology = {
+	# Tech 56
+	year = 1425
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 57
+	year = 1450
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 58
+	year = 1475
+	
+	artillery_fire		=	0.10
+	enable = A51
+	enable = A52
+}
+
+technology = {
+	# Tech 59
+	year = 1500
+
+	artillery_shock 	=	0.05
+}
+
+technology = {
+	# Tech 60
+	year = 1525
+
+	military_tactics		= 	0.25
+	
+	sprite_level = 4
+	
+	tenaille = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 61
+	year = 1550
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 62
+	year = 1575
+	
+	infantry_fire		= 	0.10
+	
+	enable = I61
+	enable = I62
+}
+
+technology = {
+	# Tech 63
+	year = 1600
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 64
+	year = 1625
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 65
+	year = 1650
+	
+	cavalry_fire  		= 	0.10
+	enable = C61
+	enable = C62
+	
+	mills = yes
+}
+
+technology = {
+	# Tech 66
+	year = 1675
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 67
+	year = 1700
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 68
+	year = 1725
+	
+	artillery_fire		=	0.10
+	enable = A61
+	enable = A62
+	
+}
+
+technology = {
+	# Tech 69
+	year = 1750
+
+	artillery_shock 	=	0.05
+}
+
+technology = {
+	# Tech 70
+	year = 1775
+
+	land_morale 	= 	0.25
+	
+	fort_17th = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 71
+	year = 1800
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 72
+	year = 1825
+	
+	infantry_fire		= 	0.10
+	
+	enable = I71
+	enable = I72
+}
+
+technology = {
+	# Tech 73
+	year = 1850
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 74
+	year = 1875
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 75
+	year = 1900
+	
+	cavalry_fire  		= 	0.10
+	enable = C71
+	enable = C72
+	
+	training_fields = yes
+}
+
+technology = {
+	# Tech 76
+	year = 1925
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 77
+	year = 1950
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 78
+	year = 1975
+	
+	artillery_fire		=	0.10
+	enable = A71
+	enable = A72
+}
+
+technology = {
+	# Tech 79
+	year = 2000
+
+	artillery_shock 	=	0.05
+}
+
+technology = {
+	# Tech 80
+	year = 2025
+
+	military_tactics 		= 	0.25
+	
+	sprite_level = 5
+	
+	redoubt = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 81
+	year = 2050
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 82
+	year = 2075
+	
+	infantry_fire		= 	0.10
+	
+	enable = I81
+	enable = I82
+}
+
+technology = {
+	# Tech 83
+	year = 2100
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 84
+	year = 2125
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 85
+	year = 2150
+	
+	cavalry_fire  		= 	0.10
+	enable = C81
+	enable = C82
+	
+	furnace = yes
+}
+
+technology = {
+	# Tech 86
+	year = 2175
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 87
+	year = 2200
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 88
+	year = 2225
+	
+	artillery_fire		=	0.10
+	enable = A81
+	enable = A82
+}
+
+technology = {
+	# Tech 89
+	year = 2250
+
+	artillery_shock 	=	0.05
+}
+
+technology = {
+	# Tech 90
+	year = 2275
+
+	land_morale 		= 	0.25
+	
+	war_college = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 91
+	year = 2300
+	
+	maneuver_value 		= 	0.10
+}
+
+technology = {
+	# Tech 92
+	year = 2325
+	
+	infantry_fire		= 	0.10
+	
+	enable = I90
+}
+
+technology = {
+	# Tech 93
+	year = 2350
+	
+	infantry_shock 		= 	0.05
+}
+
+technology = {
+	# Tech 94
+	year = 2375
+	
+	supply_limit 		= 	0.25
+}
+
+technology = {
+	# Tech 95
+	year = 2400
+	
+	cavalry_fire  		= 	0.10
+	enable = C90
+	
+	fort_18th = yes
+}
+
+technology = {
+	# Tech 96
+	year = 2425
+	
+	cavalry_shock  		= 	0.05
+}
+
+technology = {
+	# Tech 97
+	year = 2450
+	
+	combat_width = 5
+}
+
+technology = {
+	# Tech 98
+	year = 2475
+	
+	artillery_fire		=	0.10
+	enable = A90
+}
+
+technology = {
+	# Tech 99
+	year = 2500
+
+	artillery_shock 	=	0.05
+}

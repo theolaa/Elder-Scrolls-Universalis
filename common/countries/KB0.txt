@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 228 229 229 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Anaxes #0" = 10
+	"Aruz #0" = 10
+	"Demis #0" = 10
+	"Dias #0" = 10
+	"Erunas #0" = 10
+	"Gatanas #0" = 10
+	"Grel #0" = 10
+	"Ifriz #0" = 10
+	"Ilambris-Athor #0" = 10
+	"Ilambris-Zaven #0" = 10
+	"Kehothar #0" = 10
+	"Khash-Ti #0" = 10
+	"Medrike #0" = 10
+	"Moath #0" = 10
+	"Orthe #0" = 10
+	"Rathine #0" = 10
+	"Tanchelm #0" = 10
+	"Vaekar #0" = 10
+	"Volar #0" = 10
+	"Voriak #0" = 10
+
+	"Akata #0" = -10
+	"Dekamma #0" = -10
+	"Ephae #0" = -10
+	"Issmi #0" = -10
+	"Kvotai #0" = -10
+	"Lyranth #0" = -10
+	"Mati #0" = -10
+	"Raynia #0" = -10
+	"Velark #0" = -10
+	"Vonshala #0" = -10
+}
+
+leader_names = {
+    Aez Akezel Amkaos Anaxes Anhaedra Aruz Atris Bha Bogtro Demis Dhrur Dias Dogas Dregas Druitularg Erunas Gamir Gatanas Gnilokelo Grel Grexev Ifriz Ilambris-Athor Ilambris-Zaven Imago Jabran Kathutet Kehothar Khash-Ti Khefletak Kothutuilk Krazzt Kyngogurth Maxus Medrike Methats Mirel Moath Nariam Orthe Ranyu Rathine Reive Riparius Rukhan Sahrith Seris Skoria Solkyn Sumeer Tachnim Tanchelm Tazzak Tuzunkykz Uldun Vaekar Velehk Verkynvayl Volar Voriak Vregas Vyrotesn Xalxorkig Xiven Xvarik Xznotell Ykal Zexxil Zzedenkathik
+}
+
+ship_names = {
+	Akata Angata Barasatii Brolsgerbwd Chuna Clorsatari Codaermet Davlinn Dayarrus Dekamma Desha Doshia Drulshasa Duneir Ephae Gadrah Gytha-Kitha Issmi Kaneh Kixathi Kvotai Lyranth Marruz Mati Mireh Mirok Nacarra Raynia Rykuna Staada Tephra Ukaezai Urata Valkyn Velark Vintev Vonshala Xxthauaa Zenaida Zudeh 
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

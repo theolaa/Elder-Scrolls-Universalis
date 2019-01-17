@@ -1,0 +1,150 @@
+country_decisions = {
+
+	republican_administration = {
+		major = yes
+		potential = {
+		    has_dlc = "Common Sense"
+			NOT = { government = republic }
+			NOT = { government = tribal }
+			NOT = { government = native }
+			is_emperor_of_china = no
+			is_emperor = no
+		}
+		allow =  {
+		    OR = {
+			AND = {
+			government = monarchy
+		    NOT = { legitimacy = 50 }
+			}
+			AND = {
+			government = theocracy
+		    NOT = { devotion = 50 }
+			}
+			}
+			stability = 3
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			is_at_war = no 
+			is_subject = no
+		}
+		effect = {
+		    add_stability = -3
+			change_government_via_reform = republic
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	theocratic_administration = {
+		major = yes
+		potential = {
+		    has_dlc = "Common Sense"
+			NOT = { government = theocracy }
+			NOT = { government = tribal }
+			NOT = { government = native }
+			is_emperor_of_china = no
+			is_emperor = no
+		}
+		allow =  {
+		    OR = {
+			AND = {
+			government = monarchy
+		    NOT = { legitimacy = 50 }
+			}
+			AND = {
+			government = republic
+		    NOT = { republican_tradition = 50 }
+			}
+			}
+			stability = 3
+			full_idea_group = religious_ideas
+			full_idea_group = diplomatic_ideas
+			is_at_war = no 
+			is_subject = no
+		}
+		effect = {
+		    add_stability = -3
+			change_government_via_reform = theocracy
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	monarchic_administration = {
+		major = yes
+		potential = {
+		    has_dlc = "Common Sense"
+			NOT = { government = monarchy }
+			NOT = { government = tribal }
+			NOT = { government = native }
+		}
+		allow =  {
+		    OR = {
+			AND = {
+			government = republic
+		    NOT = { republican_tradition = 50 }
+			}
+			AND = {
+			government = theocracy
+		    NOT = { devotion = 50 }
+			}
+			}
+			stability = 3
+			full_idea_group = influence_ideas
+			full_idea_group = expansion_ideas
+			is_at_war = no 
+			is_subject = no
+		}
+		effect = {
+		    add_stability = -3
+			change_government_via_reform = monarchy
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	formalize_separation_of_powers = {
+		potential = {
+			has_parliament = yes
+			NOT = {
+				has_country_modifier = separation_of_powers
+			}
+		}
+		allow = {
+			stability = 3
+			advisor = statesman
+			is_at_war = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "separation_of_powers"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transitional_state_integration = {
+	major = yes
+	potential = {
+	        is_subject_of_type = transitional_state
+		}
+	allow =  {
+	    NOT = { overextension_percentage = 0.01 }
+		}
+	effect = {
+		overlord = {
+		inherit = ROOT
+		}
+		}
+	ai_will_do = {
+			factor = 1
+		}
+    }
+	
+}

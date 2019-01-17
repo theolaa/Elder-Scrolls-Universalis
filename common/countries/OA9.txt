@@ -1,0 +1,59 @@
+graphical_culture = asiangfx
+
+color = { 229 187 48 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Tosh #0" = 10
+	"Nir #0" = 10
+	"Xass #0" = 10
+	"Damush #0" = 10
+	"Kor #0" = 10
+	"Nohe #0" = 10
+	"Meh #0" = 10
+	"Kodo #0" = 10
+	"Rama #0" = 10
+	"Yas #0" = 10
+	"Sand #0" = 10
+	"Vos #0" = 10
+	"Yonn #0" = 10
+	"Tasa #0" = 10
+	"Gana #0" = 10
+	"Tamo #0" = 10
+	"Toan #0" = 10
+	"Nowu #0" = 10
+	"Arak #0" = 10
+	"Vana #0" = 10
+
+	"Kini #0" = -10
+	"Limi #0" = -10
+	"Koshi #0" = -10
+	"Limi #0" = -10
+	"Noani #0" = -10
+	"Redi #0" = -10
+	"Rini #0" = -10
+	"Zari #0" = -10
+	"Tari #0" = -10
+	"Raji #0" = -10
+}
+
+leader_names = {
+    Tosh Raka Aran Nara Mana Nama Nana Nanma Kara Loh Nir Xass Kina Los Damush Jalu Nywu Rin Sugy Har Sube Hisa Nuw Jiwo Memush Kor Nohe Hila Tyga Reda Ryl Pege Mas Nynn Jell Nima Ruda Meh Sosh Sash Tash Rosh Rash Kosh Kash Doka Cemush Rym Nyva Kodo Lima Ludo Kont Nay Biba Yano Ter Lan Lok Qas Ham Nogh Fal Nosh Qorr Las Ronn Noh Moh Boj Sand Cosh Zal Rama Yas Dass Nash Laz Vos Pol Fow Boc Fand Bag Nok Cath Tak Jan Raz Car Baf Hak Xas Yonn Mar Bak Vaph Mab Rog Hal Laph Nol Joch Wama Tasa Gana Wora Poch Qoch Yomo Can Hach Towu Pamo Qack Sach Pora Tamo Tako Gock Malu Zoch Yach Vasa Jasa Lomo Yara Nona Homa Coka Wolu Toan Yan Yamo Hora Rana Pack Tach Noan Qash Loma Dach Bobe Qoka Famo Kasa Yama Bomo Qogy Nock Mach Lash Ragy Yona Xobe Xana Gora Rava Gada Nowu Arak Ghra Hira Amsa Jira Sama Vana Kala Kama
+}
+
+ship_names = {
+	Babi Bagi Bobi Bohi Cemusi Damusi Dasi Doki Fandi Gori Hali Hari Hisi Jali Jeli Jiwi Jusi Kari Kashi Kini Kodi Konti Kori Koshi Lasi Li Limi Lohi Loki Lomi Losi Ludi Masi Mehi Memusi Mi Nami Nani Nanmi Nari Niri Noani Nohi Nowi Nuwi Nyni Nyvi Pegi Poli Qashi Raki Redi Rini Roshi Rudi Ryli Rymi Sipi Soshi Subi Sugi Tashi Tosi Tygi Xasi Yami Yasi Zari Ziri Rami Kali Miri Tari Ravi Gadi Gabi Hiri Jiri Mati Vani Aji Pati Raji Kami Mani Siri
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

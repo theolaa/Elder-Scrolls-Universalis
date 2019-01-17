@@ -1,0 +1,51 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "ES_BLACK_MARSH_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BLACK_MARSH_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_RED_MOUNTAIN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_RED_MOUNTAIN_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+    spriteType = {
+		name = "ES_START_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_START_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "GE_GOLD_COINS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/GE_GOLD_COINS_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "GE_HRE_CRUSADE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/GE_HRE_CRUSADE_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_TRADE_GOODS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_TRADE_GOODS_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_STATE_COLLAPSE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_STATE_COLLAPSE_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_PROVINCE_COLLAPSE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_PROVINCE_COLLAPSE_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+}

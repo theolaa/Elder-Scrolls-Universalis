@@ -1,0 +1,159 @@
+namespace = es_1_scenario
+
+country_event = {
+	id = es_1_scenario.1
+	title = es_1_scenario.1.t
+	desc = es_1_scenario.1.d
+	picture = MONGOL_BANNERS_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { is_year = 65 }
+		owns = 271
+    }
+
+	mean_time_to_happen = {
+		days = 1		
+	}
+
+	option = {
+		name = "es_1_scenario.1.a"
+		ai_chance = { factor = 25 }
+		every_owned_province = {
+		limit = {
+		OR = {
+		region = central_cyrodiil_lr
+		region = hammerfell_lr
+		}
+		}
+		add_core = ROOT
+		}
+		set_global_flag = dawn_era_elven_claims_flag
+	}
+	option = {
+		name = "es_1_scenario.1.b"	
+		ai_chance = { factor = 50 }
+		every_country = {
+		limit = {
+		capital_scope = {
+		OR = {
+		region = central_cyrodiil_lr
+		region = hammerfell_lr
+		}
+		}
+		}
+		add_truce_with = ROOT
+		hidden_effect = { add_truce_with = FROM }
+		}
+		set_global_flag = dawn_era_indepandance_flag
+		add_prestige = 10
+	}	
+	option = {
+		name = "es_1_scenario.1.a"
+		ai_chance = { factor = 25 }
+		create_alliance = CB8
+		create_alliance = HB3
+		set_global_flag = dawn_era_triumvirate_allience_flag
+		add_opinion = {
+        who = CB8
+        modifier = es_1_triumvirate
+        }
+		add_opinion = {
+        who = HB3
+        modifier = es_1_triumvirate
+        }
+	}
+}
+
+country_event = {
+	id = es_1_scenario.2
+	title = es_1_scenario.2.t
+	desc = es_1_scenario.2.d
+	picture = MONGOL_BANNERS_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { is_year = 65 }
+		OR = {
+        owns = 1206	
+        owns = 1510	
+		}
+		OR = {
+		has_global_flag = dawn_era_elven_claims_flag
+		has_global_flag = dawn_era_indepandance_flag
+		has_global_flag = dawn_era_triumvirate_allience_flag
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 1		
+	}
+
+	option = {
+		name = "es_1_scenario.2.a"
+		trigger = {
+		has_global_flag = dawn_era_elven_claims_flag
+		}
+		every_country = {
+		limit = {
+		capital_scope = {
+		OR = {
+		region = central_cyrodiil_lr
+		region = hammerfell_lr
+		}
+		}
+		}
+		add_country_modifier = {
+		name = "01_prepare_for_war"
+		duration = 3650
+		}
+		}
+	}
+	option = {
+		name = "es_1_scenario.2.b"	
+		trigger = {
+		has_global_flag = dawn_era_indepandance_flag
+		}
+		every_country = {
+		limit = {
+		capital_scope = {
+		OR = {
+		region = central_cyrodiil_lr
+		region = hammerfell_lr
+		}
+		}
+		}
+		add_country_modifier = {
+		name = "01_indepandance"
+		duration = 3650
+		}
+		}
+	}	
+	option = {
+		name = "es_1_scenario.2.c"
+		trigger = {
+		has_global_flag = dawn_era_triumvirate_allience_flag
+		}
+		add_opinion = {
+        who = SA6
+        modifier = es_1_triumvirate
+        }
+		if = {
+		limit = { tag = CB8 }
+		add_opinion = {
+        who = HB3
+        modifier = es_1_triumvirate
+        }
+		create_alliance = HB3
+		}
+		else = {
+		add_opinion = {
+        who = CB8
+        modifier = es_1_triumvirate
+        }
+		create_alliance = CB8
+		}
+	}
+}

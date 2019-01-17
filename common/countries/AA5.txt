@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 45 181 35 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Amusei #0" = 10
+	"Asheeus #0" = 10
+	"Beeheisei #0" = 10
+	"Chalish #0" = 10
+	"Chalureel #0" = 10
+	"Daneem #0" = 10
+	"Dezanu #0" = 10
+	"Ghelos #0" = 10
+	"Hathei #0" = 10
+	"Heedul #0" = 10
+	"Meenosh #0" = 10
+	"Meensuda #0" = 10
+	"Neetinei #0" = 10
+	"Nodeeus #0" = 10
+	"Veekas #0" = 10
+	"Veenaza #0" = 10
+	"Veezara #0" = 10
+	"Wayiteh #0" = 10
+	"Yelnicin #0" = 10
+	"Yelus #0" = 10
+	
+	"Akeenus #0" = -10
+	"Akishan #0" = -10
+	"Aleeta #0" = -10
+	"Chalaree #0" = -10
+	"Damee #0" = -10
+	"Eutei #0" = -10
+	"Ianix #0" = -10
+	"Meenai #0" = -10
+	"Xula #0" = -10
+	"Zollassa #0" = -10
+}
+
+leader_names = {
+    Abijoo-Anoo Ah-Malz Ah-Ra Ahaht-Ei Ahaht-Naat Ajum-Kajin Alan-Tei Am-Sakka Amusei An-Jeen-Sakka An-Jeen-Seek An-Taeed An-Zaw Anooz-Izt Anooz-Lar Aojee-Da Aojee-Ei Aojee-Mota Aomee-Shehs Aseepa Asheeus Ashgar Asum Atl-Xulith Az-Muz Azeenus Azeex-Eix Azinar Azjai-Tee Baar-Taeed Bahrei Banka Bar-Neeus Barnaxi Batar-Meej Batuus Beeheisei Beek-Kajin Beek-Metaku Beem-Ja Beem-Jee Beem-Kiurz Beenalz Benas Beshnus Bewlus Bezeer Bijot Bimee-Kas Binyaar Bosekus Brand-Ra Brand-Shei Bun-Teemeeta Bunach Bunish Bur-Tee Bur-Waska Busheeus Buujhan Buxutheeus Chakuk Chalish Chalureel Chanka Chee-Sakka Chee-Sei Cheedal-Gah Cheedal-Jeen Chilwir Chitakus Chiwish Chulz Chuna Claurth Dakee-Goh Dakee-Mota Dal-Eekwa Dan-Ru Daneem Dar Darasken Dazash Debameel Deed-Mema Deeh Deejeeta Deekonus Deekum Deekus Deerkaza Deerlus Deet-Zeeus Deetum-Ja Demeepa Depasa-Chath Derkeethus Deroh-Metaku Dezanu Dowoseez Dreekius Dreet-Lai Dreevureesh Drumarz Dunaxith Effe-Tei Ei-Ei Ei-Eiuus Ei-Etaku Eleedal-Kia Eleedal-Lai Eleedal-Lei Eoki Er-Jaseen Er-Teeus Ereel-Dum Esqoo Gah Gah-Dum Gajul-Lei Gam-Kur Geeh-Lurz Geel Geel-Gei Geel-Lah Geem Ghelos Gilustulm Gin-Wulm Gjomee-Loh Gom-Tulm Gulum-Ei Haj-Ei Hal-Nei Han-Tulm Haran Hareeya Hathei Heedul Heek-Dimik Heem-Jas Heem-La Heir-Marza Heir-Zish Hikathus Hixeeh-Raj Hjorn Huleeya Huzei Iggistill Ilas-Tei Ilus Im-Kajin Im-Kilaya Im-Nei Im-Zish Inee Itan Ixtah-Nasha Ja-Reet Jaraleet Jaree-Ra Jasaiin Jee Jee-Tah Jee-Tul Jeeba-Eius Jeela Jeelius Jeelus Jeelus-Tei Jeer-Maht Jeer-Tei Jeetum-Tulm Jeetum-Ze Jilux Jin-Ei Julan Junal-Lei Juunei Kamatpa Kamax-Ei Kankeeus Keema-Ja Keema-Ru Keema-Ta Keerasa-Lan Keerasa-Tan Keesekeeth Kepanuu Kiameed Klankaatu Kluleesh Kud-Lan Kudleez Lara-Eix Loh-Jat Lohupeel Lotash Luh-Maxath Luteema Maahi Madesi Maheelius Mahei Mahei-Muz Maneeshik Marz-Ja Mathei Meejapa Meeleeh-Een Meema-Zaw Meenjee Meenosh Meensuda Meer Meer-Mesei Mere-Glim Miharil Mikeesh Milos Miun-Eidu Miun-Gei Mobareed Mohimeem Mopakuz Motuu Mujeen Muranatepa Mush-Mere Mush-Shei Muz-Shah Nam-Shah Napetui Nazuux Nebutil Neeluka Neeti-Nur Neetinei Neetrenaza Neetzara Nema-Pachat Neposh Netapatuu Nexith Nodeeus Nomu Nosaleeth Nowajeem Noyei-Heem Nuduxith Nulaz-Eidu Nuleez Obaxith Odeel-Shehs Okalg Okan-Sakka Okan-Shei Okaw Okaw-Dar Okeeh Oleed-Ei Oleen-Gei Oleen-Jei Oleen-Tul Olik-Jah Olink-Nur Onuja Onurai-Betu Oosh Opatieel Otumeel Otumi-Lar Owai-Leem Pacheeva Pacheevutar Pad-Ei Paduxi Pajeen Parash Peeradeeh Pejureel Pekai-Jee Petaxai Pideelus Pimaxi-Loh Pimaxi-Zeeus Pimsy Pojeel Porliss-Caith Powaj Radeelan Radithax Rareel Rarez Rasha Redieeus Ree-Kia Reeh-Jah Reekisk Reemukeeus Reenum Reesa Reezal-Jul Resari Rezei Rultkath Rupah Rushmeek Sakeepa Sakeeus Saliith Sar-Keer Schiavas Seemarz Seewul Sejaijilax Shadutsei Shakiis Shanil-Nei Shehs Silm-Dar Sissithik Skalasha Skeehei Skeetul Sureeus Tah-Tehat Taleel-Bex Talen-Jei Talen-Lurash Tan-Skee Tanaka Tanan Tee-Lan Tee-Marza Teeba-Ei Teegla Teeka Teekeeus Teelawei Teinaava Teineeja Terezeeus Tikaasi Tikkus Tim-Jush Tlixilja Tlosee Topeeth-Gih Topith-Kuz Tsatheitepa Tsatva-Lan Tsleeixth Tsoglaez Tul Tulalurash Tumma-Beekus Tun-Zeeus Tunbam-Kahz Ukatsei Ukawei Ukka-Dimik Ukka-Malz Ula Ulawa Ullis Uralgnaza Usha Usheeja Ushmeek Uta-Chuna Uta-Ra Utadeek Utamukeeus Utatul Uxith-Ei Vara-Zeen Veekas Veelisheeh Veenaza Veezara Visskar Vistha-Jush Vistha-Kai Voneesh Vudeelal Vuh-Dimik Vushtulm Vuskayeeth Wanam-Jush Wanan-Dum Wanum-Neeus Wayiteh Weebam-Na Weedum-Eius Weeltul Weer Wideem-Voh Wih-Eius Wud-Neeus Wuja-Lei Wuja-Sei Wuleen-Shei Wumeek Wunalz Wuthilul Xal-Geh Xhon-Mehl Xil-Vilax Xozuka Yelnicin Yelus Yinz'r Yinz-Hei 
+	}
+
+ship_names = {
+	Adzi-Mota Ah-Kajul Ah-Meesei Ah-Mudeska Ah-Seeba Ah-Zish Ahaht Ahaht-Malz Ajim-Kiurz Ajul-Kahz Akeenus Akish Akishan Aleeta Aleeto Am-Eepa Am-Jasuda Am-Meesei Am-Ra Amatkeeus Amussa An-Dar An-Deesei An-Jeen Anozz-Crath Aseis Asheemar Asska Awas Az-Loh Azbai-Meenus Azeez-Eix Azum Bahrez Banalz Bar-Beekus Baseekus Baseenar Beek-Ja Beek-Nassa Beek-Nei Beek-Ru Beekatan Beekaw Beela Beelei Beem-Tei Beewos Beexutl Bejeen Ber-Jaseen Ber-Lurash Betzi Bezarbeeh Bijum-Mei Bishalus Bixitleesh Bokeeus Buki Bur-Meema Bura-Natoo Chalaree Chana-La Chanaius Chaneej Chanil-Lee Chee-Dooka Chee-Dum Chee-Osheeka Chee-Saak Cheesh-Meeus Cheesh-Mei Chimatei Chirurgeon Cholasistu Chosumeel Chukka-Li Churasu Dafeeso Dajaheel Dakee Dakee-Kia Daleez Damatez Damee Damonalus Dan-Meesei Dar-Liurz Dar-Ma Dar-Zish Dasha Dee-Nur Dee-Weska Deechee-Noo Deegeeta Deeja Deel Deem-Ja Deesh-Meeus Deet-Waska Deetsan Deetul Deetwos Dergla Desh-Wazei Detu-Meeus Deyapa Dosa Dosu-Nur Dreet-Wulm Druja Drujal Druxolneeus Duk-Marza Easeeto Eatzapa El-Lurasha Ereel-Lei Ereel-Maxath Ereel-Sa Eukkaneeus Eutei Ezei Fal-Xoc Gah-Ju Geeh Geeh-Dooka Geeh-Sakka Geel-Nur Ghekuknaza Gideelar Gih-Ja Gilm Gin-Wan Gish Haj-Tei Haj-Tulm Hal-Liurz Han-Ma Hara-Na Heed-Jush Heed-Nakal Heek-Sa Heem-Dum Heita-Meen Hidja Hiis-Ja Hikinu Hixultvutar Hul Hul-Tei Ianix Imhey Inue Io-Io Itan-Nur Ix-Utha Jazeez-Geel Jee-Ma Jeeba-Naza Jeeba-Noo Jeed-Ei Jeeda-Tei Jeelus-Lei Jeetum Jotep-Jasaiin Jukka Junal-Nakal Juutenma Kal-Ma Kal-Mei Kaloo Kani-Meedish Kasa Keel-Kia Keel-Lurash Keel-Raniur Keerasa Keerava Kiurz Kizta Kizta-Lee Kizta-Raj Klumuk Kud-Ei Kud-Jat Kudda Kulusi Kunasheeth Lara-Geel Lara-Ma Lara-Zish Leel-Vata Leetu Lineem Lohulurash Lorpat-Xeed Loseitsei Lunsu Luraxith Luxultava Mach-Na Mach-Neeus Mahei-Jee Mahei-Ma Markka Martul Marz Marz-Loh Meedish Meeh-Mei Meema-Na Meen-Sa Meenai Meenai-Enoo Meenai-Makka Meer-Zish Meerana Mereel Mewah-Lee Milah Milaw Mim-Jas Mim-Jeen Mim-Naza Misei Miuni Mujee-Naat Murak-Lei Muz-Medul Muz-Muz Muz-Ra Na-Kesh Najeepa Nakuma Nam-Ja Nam-La Nameel Natalgreesh Nathrasa Nebaxireet Neeja-Meen Neeka Neer Neesha Neeta-Li Neetizei Neetra Nesh-Ja Nesh-Tan Niima Nijuna Nijuneel Nojaxia Nokama Nolu-Azza Nomu-Goh Nowa Nubaree Nukorash Nuleem-Malem Numeen Nuralg Nush Nutum Nuwisha Ocheeva Odeel-Medul Odeel-Tul Okur Olank-Neeus Oleed-Meen Omeeta On-Wan On-Wazei Onai-Ruul Onasha Onurai-Maht Osheeja Otumi-Wulm Owai-La Pad-Maxath Padeehei Padeel Pakee Pameel Pash-Riha Pasha Peek-Majin Peekeus Peelgah Pegareem Pekai-Vilax Pinooh Porath Pujeerish Pulaya Puweel Puyatha Rabeen-Ei Raleetal Rana Ree-Kilaya Ree-Zish Reeh-Li Reeh-Nur Reekatul Reekaturl Reekeepa Reesa Ruko Rupaheel Rutabeeh Ruxultav Sali-Jah Sanax Saxolt Seed-Neeus Seen-Rei Seif-ij Shahvee Shaleez Shanil-Ja Sharava Shatalg Shatasha Shatuna Shazara-Ta Sheer Shei-Beekus Shei-Chuna Shei-Osheeja Shuliish Shumeesh Sigerthe Silm-Jusha Simeesh Sisar Skaleel Skeetees Slim-Jah Sumanirr Supo-Gith Supowateer Talen-Dum Tana-Teeus Tar-Ei Tar-Jekka Tar-Meena Tar-Shehs Tasha Teeba-Deesei Teeba-Ja Teeba-Makka Teegya Telixith Terameen Tim-Kasi Tlixult Tlonkaan Tludul Tsona-Ei Tulut Tumaka Tumma-Shah Tunbam-Na Uazee Ukasha Ukka-Meedish Ula-Reen Uta-Deeka Uta-Tei Uwa-Jekka Uwa-Meenus Veek-Gai Veemarz Veest-Halu Veest-Nakal Veezil Veth-Veidal Villa Vorh Vuh-Naat Wahirat Wanam-Betu Wanam-Jaa Wareem Weedum-Ja Weewish Wemeerit Wenaxi Wih-Jat Witseidutsei Wuja-Ei Wujeeta Wuleen-Ze Wusha Xijai-Teel Xil-Go Xil-Zish Xixuai Xohaneel Xula Zasha-Ja Zatzu Zollassa 
+	}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

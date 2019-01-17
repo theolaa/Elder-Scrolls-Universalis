@@ -1,0 +1,83 @@
+graphical_culture = easterngfx
+
+color = { 41 35 199 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Gorgos #0" = 10
+	"Gremfell #0" = 10
+	"Otar #0" = 10
+	"Olaf #0" = 10
+	"Svon #0" = 10
+	"Ros #0" = 10
+	"Harald #0" = 10
+	"Ralpagh #0" = 10
+	"Noaheim #0" = 10
+	"Valomar #0" = 10
+	"Einmor #0" = 10
+	"Volsung #0" = 10
+	"Krosis #0" = 10
+	"Jjauf #0" = 10
+	"Korl #0" = 10
+	"Nhsmir #0" = 10
+	"Fhaal #0" = 10
+	"Einhelf #0" = 10
+	"Vrolwyr #0" = 10
+	"Deilmark #0" = 10
+	
+	"Alleir #0" = -10
+	"Thaalma #0" = -10
+	"Yet #0" = -10
+	"Kyetre #0" = -10
+	"Swalne #0" = -10
+	"Jarli #0" = -10
+	"Elja #0" = -10
+	"Mjell #0" = -10
+	"Njemae #0" = -10
+	"Fjorli #0" = -10
+}
+
+leader_names = {
+    Bjor Bjornal Khaalthe Alabar Hegm Bjurl Dahnaor Dahn Gorgos
+	Jeorr Hans Fefmem Gamalleir Dyssl Gremfell Hgmm Febhrad Bhag
+	Ysgrim Ysgramor Hevnoraak Krosis Morokei Nahkrrin Otar Rahgot
+	Ahzidal Dukaan Miraak Vahlok Zahkriisos Vokun Volsung Konahrik
+	Wuuthrad Tsunaltir Stuhnalmir Tstunal Morgan Olaf Hsaarik
+	Gyre Grimwelt Stenv Stenvul Fjurlt Vrolwyr Deilmark Hguelg
+	Frendlmegh Thendjar Unjor Hghewenntar Djaffidd Gfeful Dugal Ttuj
+	Einhelf Amornen Tefflnen Gjaarigh Urul Uru Dgaargl Nenmor
+	Svir Hgelhelm Haalj Crendandel Hfewl Nuil Fvelfrim Nhemakhela
+	Gald Ugawen Thehp Naandl Mjtujjor Jarnnmegh Sveinhelf Nenthwen
+	Jaaril Einmor Mnoor Thurwhn Nhsmir Fhaal Mjaaloc Thletnn
+	Bjrochtehl Fhethe Llaldesmiir Wyndl Maewyn Svenredd Kaene Einnjoral
+	Jjarkaak Ciriul Gwemlthrest Ruald Einndmel Sorshen Thoraj Rrummrir
+	Grethnaal Swemnen Jjauf Korl Jkorl Njimal Bjimal Thalld
+	Valomar Halomar Noaheim Guri Khalokehl Jorgal Ghem Ralpagh
+	Rohard Olwep Kaejis Ysmieil Tethahld Harald Yaljar Lochlet
+	Taloc Hletno Ocne Thethel Neyn Jorel Vrage Hwamjar Hoomdell
+	Hwem Stuhn Olaj Jarmungdrung Ysmalos Gulgar Solst Svon Ros
+	Andl Rald
+}
+
+ship_names = {
+	Vramali Jarli Alleir Elja Ingridal Mjarili Shanjenen Unalt Krim Kjhelt Fjorli
+	Mjemk Soress Anshalf Khela Akhela Vemmab Borgasa Nem Yet Vashina Frekshild
+	Dahnarlyet Mem Chemua Ghroja Alduga Thaalma Kyetre Miri Hisys Talo Njorna
+	Bjorna Dahna Teb Mbjanal Fehg Tsjari Jeghwyr Shenya Maefwe Mjhro Mjoll
+	Mjuul Swalne Njnenya Frendetter Rebec Heimgrud Marthelk Nbikki Ysmehka
+	Dolweppa Mjanor Ysret Kfalta Gehmora Nue Lundga Bysri Njemae Jora
+	Thoom Sha Mjell
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

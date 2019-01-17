@@ -1,0 +1,59 @@
+graphical_culture = easterngfx
+
+color = { 7 50 152 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Aegrothius #0" = 10
+	"Aenar #0" = 10
+	"Agarmir #0" = 10
+	"Bathmar #0" = 10
+	"Bormir #0" = 10
+	"Brond #0" = 10
+	"Carsten #0" = 10
+	"Dengeir #0" = 10
+	"Derek #0" = 10
+	"Esbern #0" = 10
+	"Forstaag #0" = 10
+	"Garthar #0" = 10
+	"Geilir #0" = 10
+	"Kraldar #0" = 10
+	"Logrolf #0" = 10
+	"Orgnar #0" = 10
+	"Regner #0" = 10
+	"Ragnarus #0" = 10
+	"Reinhardt #0" = 10
+	"Wulfgar #0" = 10
+
+	"Aela #0" = -10
+	"Brina #0" = -10
+	"Eisa #0" = -10
+	"Inge #0" = -10
+	"Merilis #0" = -10
+	"Oriella #0" = -10
+	"Susanna #0" = -10
+	"Tilma #0" = -10
+	"Una #0" = -10
+	"Vigdis #0" = -10
+}
+
+leader_names = {
+    Abbard Adalvald Adding Addvar Addvild Aegrothius Aenar Agarmir Agmaer Agnar Agning Agnorith Agristyr Agristair Alabistyr Alabistair Alding Aldis Alfarinn Alfhedil Algot Alistyr Alistair Allding Alof Alvor Alvring Andistyr Andistair Andrelheim Andurs Angrenor Angvild Areas Argis Arkming Arnbjorn Arngeir Arnod Arnaud Arnskar Arrald Asbjorn Asgeir Asgrim Aslfur Assur Atar Audmund Avulstein Badnir Balbus Baldur Baldur Balfring Balgruuf Balimund Barirrid Barknar Baslod Bathmar Bato Batou Bedistyr Bedastair Bedraflod Bedrir Beirand Beirir Belharza Belharza Belrand Benkum Benor Bersi Bittneld Bjadmund Bjalfi Bjorlam Bolgeir Bolli Bolund Borgny Bormir Borri Borvir Botrir Bottar Brandr Briehl Brill Briring Brond Bronrod Brunwulf Lupus Brurid Bryngrim Brynjolf Brynjolfr Bulfrek Burd Calder Carsten Christer Cristus Daglin Dagur Dathman Dengeir Derek Ericus Drahff Drennen Dryngheid Dunistyr Dunistair Edwistyr Edwistair Eifid Eimar Einarr Einarth Eitar Elgrim Embry Engar Ennbjof Eorlund Ergnir Erich Erich Ericus Erik Ericus Erikur Ericus Erlendr Erling Esbern Eslaf Fafnir Falk Fanar Farengar Farengar Farkas Felldir Fenrig Finn Fjol Fjorgeir Fjori Fjorkvar Fjorrod Fjotreid Flinjar Forstaag Fraki Frald Frik Frodnar Frofnir Froki Frorkmar Frothar Fultheim Galmar Garding Garthar Gauldur Geilir Geirlund Geirmund Gellir Gestur Gissur Gjak Gjuk Gloth Godrod Gogrek Golldir Gondistyr Gondistair Gonnar Gorm Gort Gralnach Graring Gregor Gregorius Grimvar Grisvar Gromm Grunding Gudling Gukimir Gunder Gundlar Gunjar Gunmar Gunnar Guthrum Haakon Hakon Hadrik Hadring Hadvar Haening Haesmar Hafid Hafnar Hagrad Hakar Haki Haknir Hakon Hakon Hallvaror Halof Halund Haming Hamlof Hamvir Hans Hanse Harald Harold Hardin Hargar Harkon Hakon Harlaug Harrald Harold Haskill Hakon Havilstein Heddic Hefadmir Heidmir Heifnir Heimskr Heimvar Heinrich Ericus Helgreir Helvard Hemming Henrik Ericus Herd Herebane Herebane Hern Hewnon Higil Hil Hirnir Hisin Hjar Hjoldir Hjornskar Hjorunn Jorunn Hjrondir Hlar Hlofgar Hloggar Hlora Hlormar Hoag Hod Hodlismod Hofgrir Hogni Hoki Holgeir Holger Holmar Honmund Honthjolf Horgeir Horik Horkvir Horm Horstar Hrargal Hrein Hridi Hrisskar Hroar Hroggar Hrol Hroldan Hroldar Hrollod Hrolmir Hrondar Hrongar Hrothmund Hrundi Hulgarth Hunroor Hurg Hurnfing Hurolf Hylf Idlami Idolaf Igmund Ingmar Irlof Irnskar Irroke Istar Itar Ivar Iver Jayred Jeek Jenssen Jervar Jesper Jod Jofnhild Jofthor Jolf Jolgeir Jollring Jomarr Jon Jon Jorck Jorg Jon Jorgen Jon Joric Jorleif Jorn Jon Jorundr Jorunn Jorunn Julgen Jurgen Kai Kalthar Karl Keld Khosey Kibell Kieran Kjar Kjeld Kjoric Kleppr Klimmek Knjakr Knud Knurguri Kodlak Kodrir Korir Korst Kottir Kraldar Kunthar Kust Kyr Lars Larthjar Lassnr Leifur Leigelf Lemkil Leofric Llewellyn Lod Lodi Lodvar Logrof Logrolf Logvaar Lokil Lokir Lond Lorenz Lorkmir Lorod Lortheim Lund Lynch Lynoit Maering Manheim Mantiarco Marcurius Markus Marcurius Mathies Maul Mendel Mikael Mikael Mikhael Mikael Mogens Molgrom Mordistyr Mordistair Mralki Narfi Nelkir Nels Newheim Niels Nikulas Nils Norring Odar Odfel Odmi Oengul Ogmund Olaf Olav Olav Olav Olfand Olfor Olfrid Ollrod Olmgerd Ongar Onmi Onmund Orgnar Orgnolf Ormvard Orthjolf Ortis Osbert Osbert Pactur Pelf Peristyr Peristair Radd Raerek Raflod Ragnar Ragnarus Rakoslod Ralof Ranmir Rargal Regner Ragnarus Reinhardt Reistr Reven Reves Rhorlak Rigel Rigmor Rissing Roberick Robertus Rodistyr Rodistair Roggi Roggvar Roggvir Rolard Rolf Rolff Rolgarel Roliand Rorik Rorlund Rundi Rustleif Sabjorn Saerlund Saetring Sarnir Sattir Savard Shalidor Sibbi Siddgeir Sifknir Sifnar Sigaar Sigar Sigurd Sigvatr Sild Sinding Sinmir Sirgar Sittar Sjarnfid Sjoring Sjorvar Skaggi Skald Skavnir Skeggr Skjoldr Skjor Skuli Skulnar Skulvar Snadir Snar Snedbrir Snilf Snilling Snorreid Snorri Solaf Sold Sond Sor Sorkvild Stalf Star Steapa Steirod Sten Stenvar Stern Stig Storn Styrbjorn Styrr Sulvar Svartr Sven Svog Swyk Talsgar Thadgeir Thaer Tharstan Tharsten Theodistyr Theodistair Thian Thjollod Thonar Thongar Thongvor Thonjolf Thonnir Thorald Thorek Thorig Thorig Thoring Thoriz Thorkild Thormoor Thorygg Thorig Throgar Throknolf Thromgar Thrud Thrynn Thurek Tobias Tolan Tolfdir Tolgan Toralf Torbal Torbjorn Torkild Torolf Torsten Torvar Torygg Tove Trilf Tristastyr Trististair Tsun Tulvur Tymvaul Uhtred Uhtred Ulfberth Ulfe Ulfgar Ulfr Ulfric Unmid Urfing Vald Valdar Valdemar Valdimar Valdr Valgeir Valund Vanik Vekel Velfred Verner Vidgrod Viding Vidkun Vidrald Vigge Vignar Vigunn Vilkas Vilod Vipir Virgerd Virkmund Volk Vongvild Vorstag Vrage Vulwulf Lupus Warhaft Welleg Wilhelm Augustus Wilmuth Augustus Wulfgar Wulfharth Wulfmare Wuunferth Ylgar Yngling Yngol Yngvar Ynir Yrsarald Ysgramor Ysmir
+}
+
+ship_names = {
+	Abelone Adisla Aela Aeri Aeta Agata Agna Agneta Agnete Agni Agnis Aldi Alea Alfhild Alga Alva Alvide Anekke Angi Anise Anja Anska Argi Ari Asta Astrid Aumsi Barri Beitild Bergljot Bergritte Betrid Birna Bjartur Bodil Bolfrida Boti Brasteir Breya Brida Brina Britte Bryling Clarisse Dagny Danica Dorthe Drifa Drusba Edith Edla Eigma Eirid Eiruki Eisa Ekkhi Elda Elisif Isabel Ellya Else Emfrid Erdi Eris Erna Evette Eydis Eyja Faida Fastred Fjola Fjori Fjotra Frabbi Fralia Freir Freydis Frida Fridrika Frilgeth Fruki Fryfnhild Fryssa Fura Gerda Gerdur Gisela Gisli Gormlaith Greidil Grelka Grelod Grerid Greta Grete Grosta Gwendolyn Haelga Haema Hafjorg Hamal Haran Heddvild Hefid Hela Helga Helgi Helgird Hermir Hert Hestla Hidar Hild Hilde Hillevi Hjolfrodi Hjorta Hoddreid Holmgeira Horski Hrefna Hreirek Hroa Hroki Hrordis Huki Hulda Hyring Iddra Idgrod Igna Ilfhild Illdi Imsin Inge Ingjard Ingokning Ingrid Ingun Iona Irgnir Jala Jensine Jolding Jolethe Jora Jordis Kar Karita Karoline Katla Kili Kintyra Kirsten Kjolver Kolfinna Lailla Lami Leidela Liesl Lillith Lisaa Lisbet Lydia Lynly Lyris Mabjaarn Macalla Maeva Malene Maren Margarte Margret Matlara Maven Memna Mera Merete Merilis Merta Mette Mildrith Minette Mjoll Narri Nilsine Njada Nura Nurnhilde Olava Olda Olfeigr Olfina Ondi Oriella Orla Petrine Rangela Reylia Rigmor Rikke Ringvild Risi Rona Rostlogi Ruki Runa Samar Serana Signy Sigrid Silda Siri Sissel Skjorta Sofie Sonir Sonje Sorli Sottilde Susanna Svana Svari Svenja Swanhvir Sylgja Tekla Temba Thaena Thalestris Thora Threki Throna Thunmund Thyra Tilde Tilma Tormir Tova Ulfrun Ulrika Una Ursine Uthgerd Val Valerica Valeria Vigdis Vori Wibke Ygfa Ysolda
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

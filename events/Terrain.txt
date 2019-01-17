@@ -1,0 +1,209 @@
+namespace = es_terrain
+
+country_event = {
+	id = es_terrain.1
+	title = "es_terrain.1.t"
+	desc = "es_terrain.1.d"
+	picture = ES_BLACK_MARSH_eventPicture
+	
+	trigger = {
+		NOT = { culture_group = marsh_cg }
+		NOT = { culture_group = kothringi_cg }
+		any_owned_province = {
+		region = black_marsh_lr
+		NOT = { has_province_modifier = marsh_jungles }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "es_terrain.1.a"
+		every_owned_province = {
+		    limit = {
+			owned_by = ROOT
+		    region = black_marsh_lr
+		    NOT = { has_province_modifier = marsh_jungles }
+			}
+			add_province_modifier = {
+					name = marsh_jungles
+					duration = -1
+			    }
+		}
+	}
+}
+
+country_event = {
+	id = es_terrain.2
+	title = "es_terrain.2.t"
+	desc = "es_terrain.2.d"
+	picture = ES_BLACK_MARSH_eventPicture
+	
+	trigger = {
+	    OR = {
+		culture_group = marsh_cg
+		culture_group = kothringi_cg
+		}
+		any_owned_province = {
+		region = black_marsh_lr
+		has_province_modifier = marsh_jungles
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "es_terrain.2.a"
+		every_owned_province = {
+		    limit = {
+			owned_by = ROOT
+		    region = black_marsh_lr
+		    has_province_modifier = marsh_jungles
+			}
+			remove_province_modifier = marsh_jungles
+		}
+	}
+}
+
+country_event = {
+	id = es_terrain.3
+	title = "es_terrain.3.t"
+	desc = "es_terrain.3.d"
+	picture = ES_RED_MOUNTAIN_eventPicture
+	
+	major = yes
+	
+	trigger = {
+	    ai = no
+	    NOT = { has_country_modifier = red_mountain_eruption }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+	}
+	
+	option = {
+		name = "es_terrain.3.a"
+		hidden_effect = {
+		random_list = {
+		    50 = {
+			    every_province = {
+		        limit = {
+				OR = {
+		        region = morrowind_lr
+				region = vvardenfell_lr
+				}
+			    }
+			add_province_modifier = {
+					name = temp-ashland
+					duration = 9125
+			    }
+		        }
+			every_country = {
+			limit = {
+			capital_scope = {
+			OR = {
+		        region = morrowind_lr
+				region = vvardenfell_lr
+				}
+			}
+			}
+			add_manpower = -100
+			}
+			}
+			25 = {
+			    every_province = {
+		        limit = {
+				OR = {
+		        region = morrowind_lr
+				region = vvardenfell_lr
+				region = black_marsh_lr
+				region = western_skyrim_lr
+				region = eastern_skyrim_lr
+				}
+			    }
+			add_province_modifier = {
+					name = temp-ashland
+					duration = 18250
+			    }
+			}
+			every_country = {
+			limit = {
+			capital_scope = {
+			OR = {
+		        region = morrowind_lr
+				region = vvardenfell_lr
+				region = black_marsh_lr
+				region = western_skyrim_lr
+				region = eastern_skyrim_lr
+				}
+			}
+			}
+			add_manpower = -250
+			}
+			}
+			15 = {
+			    every_province = {
+		        limit = {
+				continent = Tamriel
+			    }
+			add_province_modifier = {
+					name = temp-ashland
+					duration = 27375
+			    }
+			}
+			every_country = {
+			limit = {
+			capital_scope = {
+			continent = Tamriel
+			}
+			}
+			add_manpower = -350
+			}
+			}
+			10 = {
+			    every_province = {
+			add_province_modifier = {
+					name = temp-ashland
+					duration = 36500
+			    }
+			}
+			every_country = {
+			add_manpower = -500
+			}
+			}
+		}
+		add_country_modifier = {
+		name = "red_mountain_eruption"
+		duration = 36500
+		}
+		every_province = {
+		        limit = {
+		        OR = {
+				area = morrowind_21_la
+				area = morrowind_20_la
+				area = morrowind_19_la
+				area = morrowind_18_la
+				}
+			    }
+			if = { 
+			limit = { base_tax = 4 }
+			add_base_tax = -3
+		    }
+		    if = { 
+			limit = { base_production = 4 }
+			add_base_production = -3
+		    }
+		    if = { 
+			limit = { base_manpower = 4 }
+			add_base_manpower = -3
+		    }
+		}
+		}
+		
+	}
+}

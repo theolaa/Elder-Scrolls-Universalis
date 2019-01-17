@@ -1,0 +1,13 @@
+owner = DA6
+controller = DA6
+add_core = DA6
+culture = atmoran
+religion = dragon_cult
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = unknown
+base_manpower = 1
+capital = "Vegranlildr"
+is_city = yes
+discovered_by = atmora_tg

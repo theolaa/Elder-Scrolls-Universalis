@@ -1,0 +1,23 @@
+owner = NA9
+controller = NA9
+add_core = NA9
+culture = nord
+religion = nordic_pantheon
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Dawnstar" 
+is_city = yes
+discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
+
+center_of_trade = 1
+
+68.1.1 = {
+	owner = SKY
+	controller = SKY
+	add_core = SKY
+}
+
+fort_15th = yes

@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 229 226 224 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Alandro #0" = 10
+    "Nerevar #0" = 10
+    "Vehk #0" = 10
+	"Seth #0" = 10
+	"Faryl #0" = 10
+	"Abadael #0" = 10
+	"Bedt #0" = 10
+	"Doht #0" = 10
+	"Quam #0" = 10
+	"Roht #0" = 10
+	"Assemmus #0" = 10
+	"Hairan #0" = 10
+	"Maesat #0" = 10
+	"Nirait #0" = 10
+	"Sannit #0" = 10
+	"Teshmus #0" = 10
+	"Tibdan #0" = 10
+	"Yantus #0" = 10
+	"Zainat #0" = 10
+	"Zairan #0" = 10
+
+	"Ayem #0" = -10
+	"Iya #0" = -10
+	"Tayem #0" = -10
+	"Maela #0" = -10
+	"Nirai #0" = -10
+	"Tashpi #0" = -10
+	"Tissamsi #0" = -10
+	"Zula #0" = -10
+	"Kireth #0" = -10
+	"Nilae #0" = -10
+}
+
+leader_names = {
+    Vehk Seth Veloth Voryn Athynic Alandro Nerevar Arslic Hefhed Neloth Sotha Baloth Faryl Dravin Daynos Raynor Galur Zylmoc Abadael Bedt Doht Geth Jeb Koht Meht Neht Oht Quam Roht Yoodt Ababael Abassel Abibaal Abishpulu Adairan Adaishah Addammus Addarnat Adibael Ahasour Ahaz Ainat Anasour Anit Asha-Ammu Ashibaal Ashu-Ahhe Ashuma-Nud Ashur-Dan Assaba-Bentus Assallit Assamanut Assamma-Idan Assantus Assatlit Assemmus Assurdan Balur Beden Conoon Dakin Dralas Dun-Ilu Dunsalipal Dutadalk Elibael Emul-Ran Erur-Dan Esar-Don Esib-Nummu Hainab Hairan Han-Ammu Hannat Hassour Hemus Hentus Hetman Hibaddar Hinammu Hirarend Ibarnadad Ibasour Ilasour Kanat Kanit Kanud Kashtes Kaushad Kausi Kind Kitbael Kummi-Namus Kund Lassour Mabarrabael Maesat Mal Malay Manat Mansilamat Massarapal Massour Mibdinahaz Minassour Minisun Minnibi Musan Mut Nind Ninimilk Ninirrasour Nirait Nund Odaishah Ohibaal Patababi Patus Pilun Punibi Ranabi Sakin Sakulerib Sal Salattanat Salay Salmat Salmus Sannit Sargon Seldus Selk Selkirnemus Shabinbael Shanat Shanit Shannat Shanud Shargon Shilipuran Shimsun Shin Shipal Shirerib Shullay Subenend Sul-Matuul Talkin Teshmus Tibdan Tinti Tis Truan Tubilalk Tussurradad Ulabael Ulath-Pal Yahaz Yakin Yakum Yan Yanit Yantus Yapal Yassour Yeherradad Yen Yenammu Zabamund Zabarbael Zainat Zairan Zalabelk Zalit Zallay Zanat Zanmulk Zebba Zebdusipal Zelaku Zelay Zenabi Zennammu Ainab Maeonius Missun Mubdan Odairan Zallit Mausur Zershishi Dunel Edras Naryn Mandran Vaves Farvyn Marvyn Telvon Nivan Sadal Balreth Vildras
+}
+
+ship_names = {
+	Ayem Iya Tayem Xayah Ekem Cess Lyr Payem Hekem Yahkem Zyr Drurile Mathesa Naryu Addut-Lamanu Adusamsi Ahanabi Ansu Antu Ashamanu Asharapli Ashumanu Assamanu Assi Assimusa Assirari Assumanu Benudni Berapli Dissu Elitlaya Elumabi Hainab Hairan Hanarai Hannabi Hansi Hinummu Ibanammu Kammu Kausha Kummu Kurapli Kushishi Lanabi Maela Maeli Mamusa Manabi Manat Man-Ilu Midnabi Mi-Ilu Milynea Mimanu Minabibi Missamsi Munbebi Musa Nammu Nibani Nirai Peakstar Pilu Raishi Rasamsi Rawia Sakiran Samsi Santinti Seba Sen Senipu Shali Shallath-Piremus Shinammu Shishi Shulki Shullay Sinnammu Sonummu Tashpi Tissamsi Tunipy Tussi Ulibabi Ulisamsi Urshamusa Vabbar Yanabani Yan-Ahhe Yanibi Yenabi Zaba Zabi Zanummu Zennammu Zula Manirai Manu Nummu Shara Zebba Mamaea Tenaru Verara Tavi Kireth Nilae Vaama
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

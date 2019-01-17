@@ -1,0 +1,59 @@
+graphical_culture = southamericagfx
+
+color = { 90  8  183 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Anemon #0" = 10
+	"Argas #0" = 10
+	"Argenum #0" = 10
+	"Blein #0" = 10
+	"Bowron #0" = 10
+	"Cingulnya #0" = 10
+	"Cladin #0" = 10
+	"Colaadron #0" = 10
+	"Elanwan #0" = 10
+	"Elirel #0" = 10
+	"Ivenorum #0" = 10
+	"Kardan #0" = 10
+	"Lirgarlan #0" = 10
+	"Maliran #0" = 10
+	"Mallan #0" = 10
+	"Neiral #0" = 10
+	"Norevalion #0" = 10
+	"Noryesar #0" = 10
+	"Rodros #0" = 10
+	"Pelius #0" = 10
+	
+	"Adeo #0" = -10
+	"Argena #0" = -10
+	"Ayalea #0" = -10
+	"Karia #0" = -10
+	"Edora #0" = -10
+	"Eladana #0" = -10
+	"Elaise #0" = -10
+	"Nelrene #0" = -10
+	"Ivenora #0" = -10
+	"Ilyria #0" = -10
+}
+
+leader_names = {
+    Acamas Anemon Argas Argenum Arnum Arran Arstul Aryaamo Avis Benolin Berion Blaid Blein Bowron Bradwin Braln Cabrelas Caladran Calin Camandar Caren Cingulnya Cladin Colaadron Dolin Edor Eilgun Elaboran Elanwan Elirel Enarin Endern Endnum Erant Erion Ernum Galdain Gandor Ginderin Godaillon Gogain Gorain Goren Gren Grenum Hebranum Heculoa Hemorohes Homrin Iphidamas Isanmetil Ivenorum Jyklos Kardan Lagnum Larnil Larrin Linundil Lirgarlan Maliran Mallan Malleroth Mater Menwil Merant Merelan Meret Mirel Monwe Neiral Norevalion Noryesar Ohmanil Ordrin Orglan Orgnas Orgnum Orgrain Orinsul Ornon Padawan Parondo Pelius Penwil Perras Qraalel Rodros Sairon Tanon Ugaridge Uldor Ulondil Undan Uumernenil Valaran Vare
+}
+
+ship_names = {
+	Adeo Agansa Aglene Aliane Angenere Argena Ayalea Benans Brala Bre Briged Caladria Cectyda Chryseis Cinurmion Conena Despina Dylora Edora Eladana Elaise Enare Erlna Galine Gandra Ganema Gese Gevele Goria Grunda Guinel Hetsha Ilyria Irinwe Isalla Ismenida Ismi Ivenora Jahlasri Jansa Karia Lagna Libala Lioles Lonena Lorasa Lusie Malla Miliance Moriana Nalla Neidir Nelrene Nirdrine Ohalorne Orga Orgna Panardil Pedawe Sadoine Sameht Staada Stela Terirwen Udico Umuor Virindi Yalorasse 
+}	
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

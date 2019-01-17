@@ -1,0 +1,23 @@
+pirate_government = {
+	rank = {
+		1 = PIRATE_REPUBLIC
+		2 = PIRATE_CONFEDERACY
+		3 = GRAND_PIRATE_CONFEDERACY
+	}
+
+	ruler_male = {
+		1 = CAPTAIN
+		2 = GRAND_CAPTAIN
+		3 = GRAND_ADMIRAL
+	}
+
+	ruler_female = {
+		1 = CAPTAIN_fem
+		2 = GRAND_CAPTAIN_fem
+		3 = ADMIRAL_fem
+	}
+
+	trigger = {
+		has_reform = pirate_republic_reform
+	}
+}

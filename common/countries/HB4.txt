@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 225 233 148 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Agehane #0" = 10
+	"Amthersil #0" = 10
+	"Ashane #0" = 10
+	"Calinden #0" = 10
+	"Ceyran #0" = 10
+	"Delthelel #0" = 10
+	"Dynichi #0" = 10
+	"Endarre #0" = 10
+	"Filestis #0" = 10
+	"Gharomir #0" = 10
+	"Hergor #0" = 10
+	"Laloriaran #0" = 10
+	"Malyon #0" = 10
+	"Odilon #0" = 10
+	"Quaronaldil #0" = 10
+	"Sildane #0" = 10
+	"Thordhul #0" = 10
+    "Varondil #0" = 10
+	"Wendomir #0" = 10
+	"Yeghane #0" = 10
+	
+	"Amarie #0" = -10
+	"Amtherisaya #0" = -10
+	"Deninque #0" = -10
+	"Denthasque #0" = -10
+	"Elanwe #0" = -10
+	"Iniel #0" = -10
+	"Sendaya #0" = -10
+	"Silque #0" = -10
+	"Velsilsima #0" = -10
+	"Vivicka #0" = -10
+}
+
+leader_names = {
+    Agehane Amdir Amthersil Anghaur Angoromir Anumaril Ashane Bokaur Boraril Calinden Celethelel Cenedelin Ceyran Dathomelil Dejaril Delthelel Denhaur Durhane Dynichi Eldhul Endarre Enthelel Ethandane Feluthisimir Filestis Gararil Genethelel Ghahane Gharomir Gordhaur Hadhuul Haromir Henomir Hergor Hinaril Hinmir Hinomir Inachi Kalduril Kindamir Ktamne Laloriaran Lellethel Lenethelel Lexelel Limthelel Lnejhaur Lotlethel Lucaril Mabaril Malimane Malyon Megur Molthoril Naraur Nihanre Nilichi Nodethelel Nym Odilon Ormomir Ostarand Piudanmil Piuthan Quaronaldil Sadhelel Sildane Sutaril Thordhul Thursaladil Tinichi Tjurhane Uluscant Umaril Untamir Uuril Varondil Vayichi Wendomir Xaphane Xolomir Yeghane 
+}
+	
+ship_names = {
+	Acknada Aldicka Altrissimicka Amarie Amtherisaya Ansisila Anurraame Belanda Bokuna Cabinque Canthismulque Cetdaya Clobinque Cowuna Creluna Curano Deldaya Deninque Denthasque Derlata Dominique Dominica Elanwe Emparsilaya Giwuna Gothilma Gullada Halinque Hinodaya Hroma Hrunua Inalada Indosia Iniel Islada Istrimaya Kindslodaya Ktahamaya Kufnada Kununa Lamidana Lanath Lannessa Liticka Lolinique Loruna Losilia Lunasaya Lunicka Malicka Molthorque Mordaya Morilye Napicka Nisthunque Nuralanya Palolel Parthisila Piupaleda Raticka Raynada Resdava Rodlata Ryglada Samlada Saslata Semasila Sendaya Silque Sirdaya Sulanda Syclada Tilimque Urenenya Valasha Velsilsima Vernua Vivicka Wendenque Wynaldia Xessicka 
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

@@ -1,0 +1,59 @@
+graphical_culture = easterngfx
+
+color = { 8 8 216 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Bohoon #0" = 10
+	"Boyong #0" = 10
+	"Chaeok #0" = 10
+	"Damin #0" = 10
+	"Dojae #0" = 10
+	"Eunjung #0" = 10
+	"Hahoon #0" = 10
+	"Hanbin #0" = 10
+	"Haok #0" = 10
+	"Joogeun #0" = 10
+	"Joseon #0" = 10
+	"Kwangnam #0" = 10
+	"Minseong #0" = 10
+	"Mungeon #0" = 10
+	"Namwook #0" = 10
+	"Sonam #0" = 10
+	"Soonil #0" = 10
+	"Wonseon #0" = 10
+	"Youngseon #0" = 10
+	"Youngyeon #0" = 10
+
+	"Byungji #0" = -10
+	"Chaea #0" = -10
+	"Daemi #0" = -10
+	"Eunhye #0" = -10
+	"Hea #0" = -10
+	"Mungi #0" = -10
+	"Sanga #0" = -10
+	"Soonmi #0" = -10
+	"Taeja #0" = -10
+	"Yoona #0" = -10
+}
+
+leader_names = {
+    Bogeun Bohoon Bosun Bowoong Boyong Byungho Byungwook Chaeok Changhwan Changjin Chulchul Chulho Chuljae Chuljoon Chulok Chunbin Chunhoon Chunwook Daejoon Daekyung Daesik Damin Dochul Dojae Dokyung Donghyuk Dongmin Dongsoo Dosoo Dosun Doyoung Eunbin Eunhye Eunjung Eunseok Eunsik Eunsoo Eunyong Eunyoung Habin Hahoon Hanbin Hanhoon Hanhwan Hannam Hansik Haok Hawook Heil Heyjoo Hongjin Hongok Hosun Hyesoo Hyohyuk Hyoil Hyoseon Hyosook Hyowoo Hyungchul Hyunghoon Inseok Inyoon Jaebin Jaejin Jiyong Jongsook Jongyong Joogeun Joonam Joonmin Joonseok Joonwon Jooseon Joosook Joseon Kibin Kwangnam Kwangseon Kwangyoung Kyungmin Kyusun Manhee Manho Manhwan Manil Manjoon Manok Mansun Minjin Minjoo Minseong Minsun Miseon Miseong Miyeon Miyong Miyoon Munchul Mungeon Munhee Munhwan Munjin Munseong Munwook Myunghyun Myungjoon Myungseok Myungtae Myungwon Namchul Namhwan Namjoo Namsun Namwook Sanghoon Sangyong Sebin Sechul Seokyung Seonggeun Seongjung Seongsik Seongwoong Seook Seowon Seungkyung Seungwoo Seungwook Seungyoung Sewoong Shinchul Shinseon Shiok Shisook Shiwook Sohoon Sonam Soonil Soonjin Sukjoo Sukseok Suksik Sukyong Sukyoon Sukyoung Sunseong Sunsik Taeja Wonkyung Wonseok Wonseon Wonseong Wonyeon Wonyong Woosun Yejin Yekyung Yeonil Yeonjin Yewook Yonggeun Yongha Yonghyuk Yongwoo Yoonjin Yoonyoon Yoosoo Youngho Youngseong Youngyeon
+}
+
+ship_names = {
+	Bohwa Byungji Chaea Chaemi Changgi Changhwa Changji Chuljae Daea Daemi Dahee Daja Dojae Donga Donggi Donghee Eunhye Hahye Hajae Hea Hongji Hyogi Inhwa Inhye Jaegi Jaeha Jaeji Jihee Jija Jina Jinhwa Jinjae Jonggi Jongja Jooji Joonhwa Joonja Kyuha Kyuja Kyumi Kyungji Mana Manhee Migi Mihye Mungi Munha Munhee Munji Myunggi Namji Sanga Sangja Seja Seoa Seoha Seomi Seongtae Shihwa Shija Shinja Shinji Sogi Soja Soonja Soonmi Sukhee Sunhye Taeja Wonji Wontae Yea Yeha Yeja Yongha Yooa Yoogi Yoohwa Yooja Yoona Yoonhwa Yoonja Youngmi
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

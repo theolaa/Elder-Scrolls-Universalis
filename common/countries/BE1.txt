@@ -1,0 +1,59 @@
+graphical_culture = easterngfx
+
+color = { 85 226 236 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Abalard #0" = 10
+	"Adalard #0" = 10
+	"Aillard #0" = 10
+	"Athel #0" = 10
+	"Delane #0" = 10
+	"Dorel #0" = 10
+	"Emmerard #0" = 10
+	"Glaubert #0" = 10
+	"Grancis #0" = 10
+	"Horstle #0" = 10
+	"Kathner #0" = 10
+	"Lureau #0" = 10
+	"Nilas #0" = 10
+	"Ormax #0" = 10
+	"Raldan #0" = 10
+	"Sternis #0" = 10
+	"Sylon #0" = 10
+	"Tamien #0" = 10
+	"Vallis #0" = 10
+	"Valton #0" = 10
+	
+	"Adelaide #0" = -10
+	"Adele #0" = -10
+	"Beatrice #0" = -10
+	"Delphine #0" = -10
+	"Diana #0" = -10
+	"Elara #0" = -10
+	"Margaret #0" = -10
+	"Synette #0" = -10
+	"Vienne #0" = -10
+	"Zoe #0" = -10
+}
+
+leader_names = {
+    Abalard Absolard Absolet Achibert Achille Adair Adalard Addrald Adeber Adel Adistair Adnot Adrone Adwen Adwig Aelwin Agrane Agrard Agrore Agroryan Agryctor Agryn Agrynak Agryrick Agryval Agrywyr Ailex Aillard Aime Aimeric Ajac Alabane Alabard Alabore Alaboryan Alabyctor Alabyn Alabynak Alabyrick Alabyval Alabywyr Alaird Albec Alberic Albert Aldouin Aleron Alesace Alexain Alezan Alfred Alinon Allard Allunen Alodie Alphaury Alvaren Alvuin Amable Amaund Amberic Ambroise Amelus Amiable Amiberl Anatole Andane Andard Andbert Andore Andoryan Andrec Androche Androne Andyctor Andyn Andyrick Andyval Andywyr Angof Annibal Antonin Aphren Archimbert Archimbide Aresin Aribert Armand Armaund Armel Armin Arnand Arniel Arnitole Arnoth Arnousten Arphevic Astav Astien Athanin Athel Atroque Aude Auglard Aveberl Avent Baldin Baldrian Baldrick Balik Balin Banning Banyrick Baragon Barjot Barnabe Barnand Barthel Baryctor Basile Basilien Bastien Baurion Beaubel Beaunois Bedane Bedard Bedore Bedoryan Bedyctor Bedyn Bedyrick Bedyval Begnaud Belchimac Belethor Belic Bendt Benjamund Benjamyn Benoit Benry Beran Bereditte Bergamot Beric Berjamund Bernard Bernardine Bertran Bertrand Berwick Beryn Birard Blaise Blasius Blithe Boeuf Braden Bradon Braig Bran Brandish Brandon Bric Brice Bruc Bruce Brucetus Brulo Brunile Bruno Brussec Bryant Bryce Buneau Burdog Cahusque Calden Calixte Calum Canollot Cantier Caoiss Cavot Cedran Cedric Celann Celarion Celnard Cesamund Chantot Charlebert Charlemic Charlemund Charlerel Charleric Charques Chervain Chrismin Christian Churley Ciel Cimon Cirges Claude Claumin Clegaine Clement Clinton Colby Colin Colwin Condier Condrenn Corbyn Cordier Corentin Corintthac Corrick Cortoran Corwyn Crenard Crendal Cullen Curnard Curtice Cynric Cyntoine Cyrill Dacele Daimbert Daine Dalan Dalenc Damard Damian Danders Danforth Dantoine Danual Darcy Daribert Daric Darren Darryn Darvell Davier Debentien Degaine Degaratien Delacourt Delane Destane Detritus Deveral Devin Dhalen Didier Dilborn Dimitri Donnogal Dorand Dore Dorel Dracien Dran Draven Drivien Dryston Dugen Dunane Dunard Duncan Dunimond Dunore Dunoryan Dunyctor Dunyrick Dunyval Dunywyr Duraeg Dyric Eadric Ealis Eamond Edain Eddard Edgar Edgard Edin Edmund Edreld Edric Edrien Edryg Edwane Edwastyr Edweg Edwin Edwore Edworyan Edwyctor Edwyn Edwyrick Edwyval Edwywyr Elbert Ellic Elnis Eltrys Emeric Emiliard Emmandic Emmanuel Emmerard Emory Emoryan Endemel Enmon Ennemond Erind Erj Ernand Ernele Ernest Ernirus Escabert Escamel Esmond Esquier Esteve Ethian Etiache Etienne Eugal Evien Evrart Fabrice Farangel Faric Farvour Felipe Felyx Fenas Ferarilie Fergus Ferou Ferrand Ferrum Finious Finn Florenot Florent Floyd Folbert Fonten Fontenot Francois Francynak Frederic Frederuno Frizkav Frostien Frubert Frugo Fugues Fulvert Fuques Gaban Gabin Gaboryan Gabrien Gaffer Gailen Gaillard Gallivere Gan Ganet Garbert Gargrell Garron Garth Garvey Gasparien Gaston Gauldur Gavric Gawayne Gedric Gelem Gelvin Gennove Geon Geor Gepard Gepelem Geric Gerrald Gessure Gib Gierry Gilbard Gillard Ginus Giorges Giraud Gitienne Glaubert Glover Godwin Gondane Gondard Gondore Gondoryan Gondyctor Gondyn Gondyrick Gondyval Gondywyr Gorag Goren Graham Grancis Grandeau Granden Granier Grantham Greg Grivier Grobert Grugues Gudyn Guitaut Gustave Guybert Guybrush Guymund Guyseph Gyrard Gyron Hacques Halar Handyn Hannibal Harbin Haskill Hastrel Hathrasil Hennabear Henrien Herane Herluin Heron Herric Hescot Heseph Hierot Hilaire Holbert Horstle Hoster Hubert Huet Hughes Hulbert Hurien Hurlburt Idaron Idhdean Igleric Igmund Ignobert Ilzo Imedhnain Inwold Irbran Irnand Irving Istirus Jacmund Jadien Jadier Jagar Jakarn Jakben Janvin Jarnot Jascien Jasper Jauffre Jean Jean-Jacques Jean-Pierre Jeanciele Jerall Jeran Jerard Jeraud Jerian Jernald Jesper Jhared Jocien Joheric Joile Jolippe Jollivet Jonah Joncis Jorden Jory Jossen Jouane Jowan Juberic Kalhot Kalin Kasorayn Kastus Kasynac Kathner Kauric Kellis Kelmen Kevinne Kilian Kip Kirk Krag Krasdore Kyrtos Labhraidh Lanard Lanie Lanobert Lantoine Laroche Lauric Laurient Lazare Leclaude Len Lenet Lennoc Leo Leobert Leobois Leof Leofric Leon Leonaud Leric Leseph Lesuin Lewin Lionel Lisien Lister Listien Loghain Lorant Lort Louis Loupel Louveau Luc Ludippe Lureau Lurelien Luther Lywel Maldred Malkoran Manis Marbet Marco Marcoryan Marjaques Marley Marnest Marone Marwig Mathieu Mathon Matthiaume Matys Maul Maurice Maxelot Maxim Mebestien Mederic Menoit Merard Mercer Meric Merien Merten Merthierry Merthyval Merton Michaniel Michebert Micholas Mirasal Mirten Mivier Mordane Mordard Mordore Mordoryan Mordyctor Mordyn Mordyrick Mordyval Mordywyr Morten Munche Muran Mylo Myn Nathaniel Nellic Nemic Nicholas Nicolard Nilas Nirine Noah Noam Noleon Nolore Nombert Nompar Norbert Octieve Octin Octivien Odei Ogier Olarz Olwin Omistyr Omluag Ondre Onfroi Onri Ormax Orrard Orrent Orvel Oscar Ouard Oubelic Ourson Owen Paldrin Parelle Parquier Parsifal Pascal Pascual Patraud Paul Paulemond Paulin Paur Pavel Perane Perard Perien Perore Peroryan Perranas Perrine Perrot Perry Perth Peryctor Peryn Perynak Peryrick Peryval Perywyr Peverel Phaistyr Phane Phelain Phelibert Philien Philimac Phinis Phylgeon Phynaster Pierre Pierric Pierrie Pilou Piper Pitof Porthippe Praxin Quentyn Quinton Quiston Rahd Raldan Rallaume Ramis Ranser Raolin Raphael Raylen Reberio Reges Relien Remic Renard Renardou Renchant Renko Renoit Renwic Rerlas Richion Ricque Riente Robier Rocheric Rodane Rodard Rodmand Rodolphe Rodore Rodoryan Rodyctor Rodyn Rodyval Rodywyr Rogeraud Rogier Rogolphe Rohlbert Roland Rolbert Romain Rondach Rowley Rubyn Ruran Rurestian Sadun Saehon Salach Salazar Sammis Sarvith Serge Sergerien Sernays Serrien Severin Silas Simine Sirion Socucius Solumor Sorais Soran Sosil Spencer Staubin Stenwick Stephile Sternis Stibbons Stral Strastnoc Stromm Styriche Sunel Suriel Sutler Sylon Taig Tamien Telfour Tetra Tevenot Thadgen Theobald Theodane Theodard Theodore Theodoryan Theodyctor Theodyn Theodyrick Theodyval Theodywyr Theophile Theranis Therich Therron Thetrard Theyo Thibauld Thibierry Thibret Thierric Thierry Thorley Thorpe Tildus Tommen Topheric Traelius Trano Treves Trierre Tristard Tristore Tristoryan Tristyctor Tristyn Tristyrick Tristyval Tristywyr Tryste Tsiniuc Tuthul Tynan Tyree Urfon Usquebald Usquenot Uthane Uthard Uthastyr Utheccan Uthistair Uthistyr Uthoryan Uthyctor Uthyrick Uthyval Uthywyr Vaford Valcent Valentois Vallis Valton Vance Varaine Vardan Varnis Vaurice Velan Velian Vencobert Verdrey Verel Verney Veronard Vertrand Vicmond Victraud Vierry Vignac Vilhim Vilum Vincebald Vincein Virgeraud Virgile Vontan Vorthag Vyctor Vyrois Warrane Wergital Weylin Weynon Wilkes Winston Wylon Wynn Xandier Xavier Xavippe Yanis Ylbert Ylvandre Yncien Yngwie Yugene Zacharie Zackael Zakhaleh Zalbec Zavierry Zavour Zibaran 
+}
+
+ship_names = {
+	Abelle Adelaide Adele Aditte Adrienne Ales Alice Alison Allison Alyssa Ama Amalia Amarie Amy Angeline Anna Annabelle Annie Antoinetta Anya Arielle Asciene Aurane Aurine Aurnie Babette Beatrice Belene Belladonna Bernadette Bernice Biene Blanche Bothela Brienne Cairine Callia Candice Caroline Catherine Charlotte Cienne Claudette Colette Constance Coraline Dabienne Darene Delphine Derelle Diana Donella Edana Edre Edwinna Elanna Elara Elinor Elisa Eliza Elizabyth Elizabeth Elona Elyssa Emily Emma Emusette Eola Erith Erline Ermentrude Escalette Eselde Estelle Eugenie Evangline Evelyn Fasele Fasile Felice Fianna Fiona Francine Gulitte Gwyn Gwynolda Gyna Gina Gywneth Helviane Heniele Idunhael Irene Isabeau Isabella Isabelle Isabel Janece Janeve Jeanne Jeberilie Joan Jolie Joslin Julienne Laelette Leila Lielle Lilian Liliana Lily Lirielle Lisa Lisette Lleraya Louisa Louise Luciana Mabrelle Malielle Maline Maranique Marelle Margaret Marguerite Marie Marielle Mariette Marthe Mary Maria Masalinie Matilda Mathilda Matilde Maurrie Melie Melisandre Mena Michel Milie Mirabelle Mitanne Morgana Morrigan Muriel Nadine Nanette Pierlette Piernette Relie Rianciene Rochelle Rosa Rose Rosalyn Rosalin Rosie Sabine Sosia Surane Sybille Synette Ursanne Vienne Virene Yvara Zoe 
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

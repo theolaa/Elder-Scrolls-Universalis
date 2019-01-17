@@ -1,0 +1,121 @@
+heretic_religion = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {	
+        OR = {
+		 AND = {
+		 religion = tribunal_pantheon
+		 has_personal_deity = Nerevar
+		 }
+		 AND = {
+		 religion = malacath_cult
+		 OR = {
+		 has_personal_deity = Mauloch
+		 has_personal_deity = Trinimac
+		 }
+		 }
+		 AND = {
+		 religion = reclamations_pantheon
+		 OR = {
+		 has_personal_deity = Almalexia
+		 has_personal_deity = Sotha_Sil
+		 has_personal_deity = Vivec
+		 }
+		 }
+		}	
+	}
+    global_unrest = 1
+	stability_cost_modifier = 0.10
+	ae_impact = 0.10
+	
+}
+
+daedra_religion = {
+	potential = {
+	    always = yes
+	}
+
+	trigger = {	
+        OR = {
+		religion_group = daedric_group
+		 AND = {
+		 religion = nordic_pantheon
+		 OR = {
+		 has_personal_deity = Mora
+		 has_personal_deity = Maloch
+		 }
+		 }
+		 AND = {
+		 religion = bosmer_pantheon
+		 has_personal_deity = Mora
+		 }
+		 AND = {
+		 religion = tribunal_pantheon
+		 OR = {
+		 has_personal_deity = Azura
+		 has_personal_deity = Boethiah
+		 has_personal_deity = Lorkhan
+		 has_personal_deity = Mephala
+		 }
+		 }
+		 AND = {
+		 religion = khajiiti_pantheon
+		 OR = {
+		 has_personal_deity = Azurah
+		 has_personal_deity = Hermorah
+		 has_personal_deity = Hircine
+		 has_personal_deity = Merrunz
+		 has_personal_deity = Mafala
+		 has_personal_deity = Namiira
+		 has_personal_deity = Sheoggorath
+		 }
+		 }
+		 AND = {
+		 religion = kothri_pantheon
+		 has_personal_deity = Clavicus_Vile
+		 }
+		 }	
+	}
+    global_unrest = 2.5
+	stability_cost_modifier = 0.15
+	ae_impact = 0.15
+}
+
+
+evil_religion = {
+	potential = {
+	    always = yes
+	}
+
+	trigger = {	
+		OR = {
+		religion = dremora_pantheon
+		religion = dragon_cult
+		 AND = {
+		 religion = nordic_pantheon
+		 OR = {
+		 has_personal_deity = Alduin
+		 has_personal_deity = Orkey
+		 }
+		 }
+		 AND = {
+		 religion = tribunal_pantheon
+		 OR = {
+		 has_personal_deity = Malacath
+		 has_personal_deity = Mehrunes
+		 has_personal_deity = Bal
+		 has_personal_deity = Sheogorath
+		 }
+		 }
+		 AND = {
+		 religion_group = yokudan_group
+		 has_personal_deity = Malooc
+		 }
+		}
+	}
+    global_unrest = 5
+	stability_cost_modifier = 0.25
+	ae_impact = 0.25
+}

@@ -1,0 +1,49 @@
+tribe_mechanic = {
+	tribal = yes
+	monarchy = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	heir = yes
+	queen = yes
+}
+
+steppe_horde = {
+	icon = "horde_riding"
+	allow_normal_conversion = no
+	tribal = yes
+	monarchy = yes
+	heir = yes
+	queen = yes
+	potential = {
+		culture_group = chimeris_cg
+	}
+	legacy_equivalent = steppe_horde_legacy
+	nomad = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+		culture_group = chimeris_cg
+	}
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+	    max_states = 1
+		global_manpower_modifier = 0.10
+		land_forcelimit_modifier = 0.10
+		loot_amount = 0.10
+		global_institution_spread = -0.15
+		reinforce_cost_modifier = -0.10
+		cav_to_inf_ratio = 0.10
+		movement_speed = 0.10
+		years_of_nationalism = -5
+		has_banners = 1
+	}
+	
+	conditional = {
+		allow = { has_dlc = "The Cossacks" }
+		government_abilities = {
+			cossacks_mechanic
+		}
+	}
+}

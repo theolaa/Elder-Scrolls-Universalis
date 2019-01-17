@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 162 166 182 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Aicantar #0" = 10
+	"Aicessar #0" = 10
+	"Aiden #0" = 10
+    "Caelestion #0" = 10
+	"Calcelmo #0" = 10
+	"Celarus #0" = 10
+	"Celedaen #0" = 10
+	"Enrion #0" = 10
+	"Eraamion #0" = 10
+	"Estormo #0" = 10
+	"Faelian #0" = 10
+	"Fainertil #0" = 10
+	"Falanaamo #0" = 10
+	"Nelacar #0" = 10
+	"Nerien #0" = 10
+	"Orthorn #0" = 10
+	"Sinderion #0" = 10
+	"Viarmo #0" = 10
+	"Vingalmo #0" = 10
+	"Yanniss #0" = 10
+	
+	"Anaire #0" = -10
+	"Ardaline #0" = -10
+	"Atraena #0" = -10
+	"Celria #0" = -10
+	"Elante #0" = -10
+	"Faire #0" = -10
+	"Faralda #0" = -10
+	"Iniel #0" = -10
+	"Ranaline #0" = -10
+	"Ruma #0" = -10
+}
+
+leader_names = {
+    Aesril Aicantar Aicessar Aiden Aldaril Alinor Almion Aluvus Amballicil Amrod Amroth Amuur Anarenen Ancano Ancotar Andil Angalmo Angoril Angoth Angrod Annanar Apaladith Aramril Aranath Areldil Areldur Aringoth Arkved Armion Arondil Aronil Arrille Arterion Athellor Athring Beladriel Caelestion Calcelmo Calcemo Calindil Carandial Carecalmo Caryarel Cassimoran Celarus Celedaen Celegriath Chimere Cirion Curinure Earil Earmil Edhelbor Eldamil Elidor Emeloth Engwe Enrion Eraamion Errandil Erundil Estormo Faelian Fainertil Falanaamo Falcar Fanildil Fasendil Fiiriel Galgaliel Gelebor Gerrick Gilgondorin Gladroon Gyrnasse Halion Hecerinde Henantier Hindaril Hirtel Honditar Hyarnarenquar Iachesis Ilmiril Inganar Iroroon Itermerel Kardryn Karoodil Kyanka Landorume Lathenil Linwe Lithnilian Mankar Mannimarco Meanen Melaran Merandil Merildor Meryaran Miramor Mirtil Mollimo Moranarg Mororurg Mossanon Muril Naarifin Nande Nelacar Nerien Nirilor Norionil Nurelion Ocato Ohtimbar Olquar Ondolemar Orintur Ormil Orthorn Parmion Qorwynn Quaranir Quarde Raven Rimintil Rulindil Rumare Runil Ryain Rynandor Salmo Sanyon Seanwen Serenarth Seridur Sidanyis Sinderion Sinyaramen Sorcalin Suurootan Taheritae Tandil Tauryon Telinturco Thargallith Tilmo Torval Tragrim Trechtus Tumindil Tunengore Tusamircil Tyermaillin Ugaridge Ulundil Umbacano Undil Ungarion Uulernil Valmir Viarmo Vingalmo Volanaro Voranil Vorian Vorianus Vyrthur Yakov Yanniss Yannod Yarmondur Yarnar 
+}
+
+ship_names = {
+	Agarwen Alwaen Anaire Angalsama Anirne Aranalda Ardaline Ardarume Ariente Arivanya Arquen Aryarie Astante Atraena Aurelinwae Calmaninde Camandil Camilonwe Caminalda Carahil Caranya Celria Cindanwe Ciralinde Culumaire Cumanya Curwe Dhaunayne Earana Eilonwy Elanande Elante Eldafire Elenwen Endarie Erissare Erranil Estalenya Estirdalin Estoril Faire Faralda Fistelle Helende Hession Hlidara Iirenoore Imare Iniel Irinwe Karinnarre Lilatha Lilyarel Lorurmend Medora Minorne Mirie Mirkrand Muurine Naenra Nalcarya Nenya Nerussa Niranye Nirya Ohtesse Palonirya Ranaline Reldith Ruma Siltalaure Sirilonwe Sondaale Sontaire Taarie Tandilwe Tarerane Tenyeminwe Termanwe Valie Varulae Viraninde 
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

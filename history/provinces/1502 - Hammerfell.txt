@@ -1,0 +1,15 @@
+owner = HB2
+controller = HB2
+add_core = HB2
+culture = ayleid
+religion = hermeus_mora_cult
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = unknown
+base_manpower = 3
+capital = "Hegathe" 
+is_city = yes
+discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
+
+fort_15th = yes

@@ -1,0 +1,23 @@
+owner = NB2
+controller = NB2
+add_core = NB2
+culture = nord
+religion = nordic_pantheon
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = unknown
+base_manpower = 5
+capital = "Whiterun" 
+is_city = yes
+discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
+
+center_of_trade = 2
+
+68.1.1 = {
+	owner = SKY
+	controller = SKY
+	add_core = SKY
+}
+
+fort_15th = yes

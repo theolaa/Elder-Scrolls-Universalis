@@ -1,0 +1,15 @@
+01_prepare_for_war = {
+    land_morale = 0.10
+	global_spy_defence = 0.10
+	global_regiment_cost = -0.10
+	production_efficiency = -0.10
+	trade_efficiency = -0.10
+}
+
+01_indepandance = {
+    land_morale = -0.10
+	global_spy_defence = -0.10
+	global_regiment_cost = 0.10
+	production_efficiency = 0.10
+	trade_efficiency = 0.10
+}

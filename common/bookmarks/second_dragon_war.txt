@@ -1,0 +1,16 @@
+bookmark = {
+	name = SECOND_DRAGON_WAR
+	desc = SECOND_DRAGON_WAR_DESC
+	date = 65.1.1
+	
+	center = 1572
+	default = yes
+	
+	country = SA6
+	country = VA3
+	country = CB8
+	country = HB3
+	country = BA3
+	country = NB0
+	country = MA1
+}

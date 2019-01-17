@@ -1,0 +1,59 @@
+graphical_culture = asiangfx
+
+color = { 11 188 11 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Aixnieras #0" = 10
+	"Auznieras #0" = 10
+	"Benieras #0" = 10
+	"Bhalarix #0" = 10
+	"Baixien #0" = 10
+	"Cainieras #0" = 10
+	"Caixen #0" = 10
+	"Cazuras #0" = 10
+	"Deixie #0" = 10
+	"Deirak #0" = 10
+	"Euralas #0" = 10
+	"Eucladri #0" = 10
+	"Ferxidue #0" = 10
+	"Forlarn #0" = 10
+	"Galaras #0" = 10
+	"Hosarien #0" = 10
+	"Hallas #0" = 10
+	"Meirras #0" = 10
+	"Tseiferi #0" = 10
+	"Vajaras #0" = 10
+	
+	"Akiara #0" = -10
+	"Adrera #0" = -10
+	"Biara #0" = -10
+	"Corwes #0" = -10
+	"Eira #0" = -10
+	"Gaera #0" = -10
+	"Paxia #0" = -10
+	"Ranis #0" = -10
+	"Tiara #0" = -10
+	"Viawes #0" = -10
+}
+
+leader_names = {
+    Aixnieras Auznieras Aixie Aixras Aixen Auzilas Auzien Asuras Aenirix Azurix Azurien Amurix Ainieras Akzarein Aksuladri Benieras Benirix Balurix Balrien Bhaalras Bhalarix Boixen Bozrien Belalarn Boirix Berxidue Bariyas Bellas Baixien Bazhferi Cainieras Cavirien Caravershu Cairshu Carsidue Caxie Caixen Cazuras Czarien Czanieras Cthoriyas Cthizen Chanidri Covalaxhi Czovras Deixie Deirak Deishidri Dorras Deshferi Dersidri Derallas Demorien Decaladri Demoladri Dzothizen Dzorras Dzofien Dishalarn Davirferi Eixras Euzadri Euralas Eucladri Emothizen Ezalarn Evirlas Eviryas Enirvas Enirix Ekras Ekxan Evolaxhi Eidreri Einieras Fershu Ferxidue Forlarn Forxan Ges Ghafien Galaras Gasiaxhi Gerslien Gaidri Galixan Gemoraj Genolaxhi Ginieferi Ghaleri Halien Hecarshu Hecateri Havirlas Hersien Hosarien Hyras Hyrix Hallas Hashferi Hseixan Havimferi Hashadri Helidue Hajaras Heizho Kavrshu Khaie Khalarn Khodreri Koniesidue Khovirlas Khorien Khelxan Kilxan Kzofien Keshalarn Keshalaxhi Kejaras Kamaraxhi Keinidri  Javirlas Jhovarak Masaxhi Movarien Mitsaferi Mitalaxhi Miterix Maladri Morallas Merxan Malixan Meirras Mayaxhi Moniyas Mexien Navidri Novalarn Noleri Nafsidue Nafien Novoras Naflas Nothizien Nezuras Noirix Nakarras Nozvien Nayaxhi Nomiyas Nidri Oliaxzhi Ouixan Ostaferi Orsidue Obelix Oerras Polaxhi Pazvidri Polarix Polxan Pontaleri Poixen Pentieras Partharas Pyras Qavirlas Quznieras Qixras Qixen Quxien Qenirix Qzurein Qkzarien Qersidue Qvolaxhi Qzofien Qinieras Qhaleri Qosarien Qothizen Res Raleri Ridri Rayafien Rayalarn Reisidue Rayofien Ranieras Rayaleri Raxie Rezlidue Rezaxhi Ravidri Reizho Remerien Dinieras Ves Kalien Savirien Chorak Vershu Versidue Shaie Mishaxhi Xhaferi Yirix Tseixan Chouko Kalarn Rallas Saviras Savien Savidri Tseien Saveri Rallalien Diniexan Saviaxhi Xhaflas Versidri Silarn Dinieferi Kalilarn Sidlien Savirix Kaleri Vesras Verxan Sidrxan Verlarn Mishferi Rallaras Savirlas Versien Mislien Kalahaxhi Diniesidue Xhalien Savxan Sidri Versiaxhi Versirix Mishidri Saviridri Sidreri Tseilas Dinilarn Mishalarn Misdue Xhalarn Savsidue Kalidue Verslien Verien Tseidue Kalixan Kalaras Tseieri Verdue Savirferi Tseiferi Ralxan Xhafsidue Savirlien Xhafien Ralien Tseisidue Dinieien Sidien Savirsidue Xhaien Kalasidue Sien Xhaein Sidsidue Mishsidue Nayaras Natraj Navaj Naysidue Asaph Verras Veyzho Hanzho Vajaras Variyas 
+}
+
+ship_names = {
+	Aiata Auziata Asurita Astara Aksata Akiara Aixnis Aleiwes Aleira Agatis Aiawes Adrera Amiara Axmis Ainis Beiwes Benata Biwes Bolera Beliera Bozwes Barwes Biara Biliara Biata Beshwes Beshara Bersis Boniaes Bomiara Cavata Caixata Canita Caywes Corwes Catnis Caira Ciawes Cita Czunita Czarara Czaris Coveita Coira Cora Daria Dveta Demis Deira Demoira Dalwes Dvora Dvonis Devora Dezrata Dezraes Dia Dis Diara Dies Dzara Evata Ekiara Elita Eira Eaes Eviata Egis Eliera Elis Ekais Eidis Emata Emoleira Ekara Evora Fiata Faiwes Fanis Flita Fora Fara Flara Fliata Fotis Gaera Goris Govata Gomiata Gomara Heiwes Haita Hanis Heira Hara Haikis Harara Hetara Helita Homia Homa Hosta Horia Hora Haria Hariata Hokia Hokiata Hesteis Hecteis Herata Hetita Hectis Hexis Hexia Hexa Iria Igis Imiata Ivara Imata Igeira Ikawes Iais Jata Jiawes Jis Jamera Jinis Jora Juniera Kita Kima Klia Klara Klera Kleida Keira Kowes Khalwes Khorata Khora Kamara Kamora Kamis Ovara Ovira Ovis Omiera Onida Pieta Palara Piara Pata Parota Pamara Paxia Paxis Phoxis Phoma Qata Qaxita Qanis Qajita Qis Qvata Qara Qzora Qzeis Qiwes Qayara Qayira Qexia Qhalara Qhalisa Rvata Reita Reis Remis Ranis Renita Rtis Rtira Rezara Rezira Rayala Rai Roni Romia Svata Sara Saita Sokis Sorwes Seira Skara Skarwes Steis Sumeis Sviawes Somis Stara Stra Soliera Seshara Tara Tviata Talis Tamis Tilis Tis Tiara Tera Tetwes Tetis Xis Xymeira Xara Yara Yaris Zorwes Vata Leiwes Kiara Ganis Lita Geita Lira Leira Gaes Giaes Geira Viawes Gis Kiawes Viata Kiata Kiwes Kais Lera Leis Liara Liasa Liata Liais Vais Viara Viaes Kara Kis Niaes Xelara Amata Hogara Lara Dannis Pladais Nesolis Qhoveliaes Qhovzamis Giranis Zaeranis Eltara Czuzana Czudoxia Deleia Egleida Tanis Donis Kloliexis Lalexis Jarexis Delixada 
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

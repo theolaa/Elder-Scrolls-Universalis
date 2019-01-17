@@ -1,0 +1,369 @@
+loyalty_of_subjects = {
+    reduced_liberty_desire = 9999
+}
+
+marsh_jungles = {
+    local_friendly_movement_speed = -0.25
+}
+
+ever-ashland = {
+    local_development_cost = 0.25
+	local_build_time = 0.25
+	regiment_recruit_speed = 0.25
+}
+
+temp-ashland = {
+    local_development_cost = 0.25
+	local_tax_modifier = -0.25
+	local_production_efficiency = -0.25
+}
+
+red_mountain_eruption = {
+}
+
+water_trade_modifier = {
+    province_trade_power_value = 10
+    picture = "estuary_icon"
+}
+
+land_trade_modifier = {
+   province_trade_power_value = 10
+   picture = "trade_value"
+}
+
+points_1 = {
+}
+
+points_2 = {
+}
+
+points_3 = {
+}
+
+dev = {
+   local_culture_conversion_cost = -0.25
+}
+
+ai_time = {
+}
+
+bonds_emission = {
+   interest = 3.5											
+   inflation_reduction = -0.23
+}
+
+d_b = {
+}
+
+n_b = {
+   global_unrest = 10
+   stability_cost_modifier = 1.0
+}
+
+war_emission = {
+   interest = 2.5
+   inflation_reduction = -0.21
+}
+
+d_w = {
+}
+
+n_w = {
+   war_exhaustion_cost = 0.5
+   war_exhaustion = 0.25
+}
+
+adm_dev = {
+   build_cost = -0.35
+   build_time = -0.5
+   trade_efficiency = 0.10
+   global_own_trade_power = 0.15
+   global_foreign_trade_power = 0.25
+}
+
+dip_dev = {
+   global_sailors_modifier = 0.5
+   sailors_recovery_speed = 0.25
+   global_ship_cost = -0.5
+   global_ship_repair = 1.0
+   global_ship_recruit_speed = -0.5
+}
+
+mil_dev = {
+   global_manpower_modifier = 0.5
+   manpower_recovery_speed = 0.25
+   global_regiment_cost = -0.5
+   possible_mercenaries = 1.0
+   global_regiment_recruit_speed = -0.5
+}
+
+trade_time = {
+}
+
+crisis_time = {
+}
+
+rise_time = {
+}
+
+harmonized_ancient_group = {
+   religious_unity = 0.10
+   religion = yes
+}
+
+harmonized_northern_group = {
+   land_forcelimit_modifier  = 0.10
+   religion = yes
+}
+
+harmonized_bosmer_group = {
+   land_attrition = -0.10
+   religion = yes
+}
+
+harmonized_divines_group = {
+   diplomatic_reputation = 1
+   religion = yes
+}
+
+harmonized_khajiiti_group = {
+   recover_army_morale_speed = 0.10
+   religion = yes
+}
+
+harmonized_yokudan_group = {
+   trade_efficiency = 0.10
+   religion = yes
+}
+
+harmonized_orcish_group = {
+   army_tradition_decay = -0.10
+   religion = yes
+}
+
+harmonized_kothri_group = {
+   global_trade_power = 0.10
+   religion = yes
+}
+
+harmonized_chimer_group = {
+   global_missionary_strength = 0.01
+   religion = yes
+}
+
+harmonized_sload_group = {
+   advisor_pool = 1
+   religion = yes
+}
+
+harmonized_serpant_group = {
+   land_morale = 0.10
+   religion = yes
+}
+
+harmonized_marukhism_group = {
+   culture_conversion_cost = -0.10
+   religion = yes
+}
+
+harmonized_dragon_group = {
+   tolerance_own = 1
+   religion = yes
+}
+
+harmonized_hist_group = {
+   development_cost = -0.1
+   religion = yes
+}
+
+harmonized_reason_and_logic_group = {
+   defensiveness = 0.10
+   religion = yes
+}
+
+harmonized_old_group = {
+   advisor_cost = -0.1
+   religion = yes
+}
+
+harmonized_tsaesci_group = {
+   global_unrest = -1
+   religion = yes
+}
+
+harmonized_tang_mo_group = {
+   stability_cost_modifier = -0.10
+   religion = yes
+}
+
+harmonized_kamal_group = {
+   global_autonomy = -0.05
+   religion = yes
+}
+
+harmonized_dremora_group = {
+   global_regiment_cost = -0.10
+   religion = yes
+}
+
+harmonized_daedra_group = {
+   free_leader_pool = 1
+   religion = yes
+}
+
+post_office_area_modifier = {
+	local_institution_spread = 0.15
+	province_trade_power_modifier = 0.15
+}
+
+glorious_monument_area_modifier = {
+	local_unrest = -1.0
+}
+
+treasury_office_area_modifier = {
+	trade_goods_size_modifier = 0.25
+}
+
+constable_area_modifier = {
+	local_tax_modifier = 0.15
+}
+
+royal_palace_area_modifier = {
+	local_autonomy = -0.10
+}
+
+war_college_area_modifier = {
+	local_manpower_modifier = 1.0
+}
+
+admiralty_area_modifier = {
+	local_sailors_modifier = 1.0
+}
+
+birthplace_of_legalism = {
+	local_tax_modifier = 0.1
+}
+
+birthplace_of_ancient_imperialism = {
+	local_regiment_cost = -0.1
+}
+
+birthplace_of_caste_system = {
+	local_unrest = -1
+}
+
+birthplace_of_organized_religion = {
+	local_missionary_strength = -0.01
+}
+
+birthplace_of_serfdom = {
+	local_manpower_modifier = 0.1
+}
+
+birthplace_of_manorialism = {
+	local_production_efficiency = 0.1
+}
+
+birthplace_of_early_feudalism = {
+	local_defensiveness = 0.1
+}
+
+birthplace_of_crop_rotation = {
+	garrison_growth = 0.1
+}
+
+birthplace_of_civil_service = {
+	local_build_cost = -0.1
+}
+
+birthplace_of_manuscript_culture = {
+	local_institution_spread = 0.1
+}
+
+birthplace_of_scholasticism = {
+	allowed_num_of_buildings = 1
+}
+
+birthplace_of_guilds = {
+	trade_value_modifier = 0.1
+}
+
+birthplace_of_medicine = {
+	supply_limit_modifier = 0.1
+}
+
+birthplace_of_feudalism = {
+	regiment_recruit_speed = -0.1
+}
+
+birthplace_of_imperialism = {
+	land_forcelimit = 0.1
+}
+
+birthplace_of_industrialization = {
+	trade_goods_size_modifier = 0.10
+}
+
+birthplace_of_nationalism = {
+	local_hostile_attrition = 1
+}
+
+birthplace_of_electrification = {
+	local_development_cost = -0.10
+}
+
+krantor_crane_1 = {
+	global_trade_power = 0.10
+	trade_efficiency = 0.1
+	dip_tech_cost_modifier = -0.025
+}
+
+hall_of_worthies_1 = {
+	prestige_decay = -0.01
+}
+
+the_state_is_me_1 = {
+	yearly_absolutism = 1.0
+}
+
+russian_patriarchate_1 = {
+	war_exhaustion_cost = -0.25
+}
+
+the_declaration_of_indulgence_1 = {
+	tolerance_heretic = 1
+	stability_cost_modifier = 0.10
+	religion = yes
+}
+
+the_suffragan_bishop_act_1 = {
+	stability_cost_modifier = -0.10
+	global_tax_modifier = -0.05
+	religion = yes
+}
+
+religious_sect_tolerance_1 = {
+	tolerance_heretic = 1
+	global_missionary_strength = 0.01
+	religion = yes
+}
+
+gods_pleased = {
+	global_missionary_strength = 0.025
+	land_morale = 0.10
+	stability_cost_modifier = -0.10
+}
+
+reformed_clergy = {
+	global_missionary_strength = 0.01
+	stability_cost_modifier = -0.1
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	religion = yes
+}
+
+grand_tournament = {
+	prestige = 0.25
+	stability_cost_modifier = -0.10
+}

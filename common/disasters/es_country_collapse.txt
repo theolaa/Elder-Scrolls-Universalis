@@ -1,0 +1,102 @@
+es_country_collapse = {
+	potential = {
+		always = yes
+	}
+
+	can_start = {
+		OR = {
+		NOT = { stability = 0 }
+		war_exhaustion = 10
+		}
+	}
+	
+	can_stop = {
+	    stability = 3
+		is_at_war = no
+		if = {
+		limit = {
+		NOT = { government = native }
+		}
+		OR = {
+		    legitimacy = 90
+			republican_tradition = 90
+			devotion = 90
+			horde_unity = 90
+			meritocracy = 90
+		}
+		}
+		NOT = { war_exhaustion = 1 }
+	}
+		
+	progress = {
+	    modifier = {
+			factor = 1
+		OR = {
+		AND = {
+		government = monarchy
+		NOT = { legitimacy = 90 }
+		}
+		AND = {
+		government = republic
+		NOT = { republican_tradition = 90 }
+		}
+		AND = {
+		government = theocracy
+		NOT = { devotion = 90 }
+		}
+		AND = {
+		is_nomad = yes
+		NOT = { horde_unity = 90 }
+		}
+		AND = {
+		is_emperor_of_china = yes
+		NOT = { meritocracy = 90 }
+		}
+		}
+		}
+		modifier = {
+			factor = 1
+			revolt_percentage = 0.10
+		}	
+		modifier = {
+			factor = 1
+			overextension_percentage = 0.10
+		}
+        modifier = {
+			factor = 1
+			is_at_war = yes
+		}		
+		modifier = {
+			factor = 1
+			NOT = { stability = 3 }
+		}
+        modifier = {
+			factor = 1
+			war_exhaustion = 5
+		} 
+	}
+	
+	can_end = {
+		stability = 3
+		is_at_war = no
+		NOT = { war_exhaustion = 1 }
+	}
+
+	modifier = {
+	    stability_cost_modifier = 1.0
+		global_unrest = 10
+		legitimacy = -5
+		republican_tradition = -5
+		devotion = -5
+		horde_unity = -5
+		meritocracy = -5
+	}	
+	
+	on_start = es_collapse.1
+	on_end = ge_revolution.27
+	
+	on_monthly = {
+		events = {
+		}
+	}
+}

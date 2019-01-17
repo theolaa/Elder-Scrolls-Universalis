@@ -1,0 +1,2092 @@
+country_decisions = {
+
+    pyandonea_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = PYA }
+			primary_culture = maorner
+		}
+		provinces_to_highlight = {
+			province_id = 224		
+			province_id = 219
+			province_id = 209
+			province_id = 240
+			province_id = 231
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 224		
+			owns_core_province = 219
+			owns_core_province = 209
+			owns_core_province = 240
+			owns_core_province = 231
+			
+		}
+		effect = {
+			change_tag = PYA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	summerset_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SUM }
+			primary_culture = altmer
+		}
+		provinces_to_highlight = {
+			province_id = 271		
+			province_id = 284
+			province_id = 263
+			province_id = 250
+			province_id = 299
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 271		
+			owns_core_province = 284
+			owns_core_province = 263
+			owns_core_province = 250
+			owns_core_province = 299
+			
+		}
+		effect = {
+			change_tag = SUM
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	yokuda_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = YOK }
+			primary_culture = yokudan
+		}
+		provinces_to_highlight = {
+			province_id = 335		
+			province_id = 337
+			province_id = 350
+			province_id = 345
+			province_id = 355
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 335		
+			owns_core_province = 337
+			owns_core_province = 350
+			owns_core_province = 345
+			owns_core_province = 355
+			
+		}
+		effect = {
+			change_tag = YOK
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	thrass_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = THR }
+			primary_culture = sload
+		}
+		provinces_to_highlight = {
+			province_id = 320		
+			province_id = 321
+			province_id = 323
+			province_id = 324
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 320		
+			owns_core_province = 321
+			owns_core_province = 323
+			owns_core_province = 324
+		}
+		effect = {
+			change_tag = THR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	skyrim_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SKY }
+			primary_culture = nord
+		}
+		provinces_to_highlight = {
+			province_id = 1342		
+			province_id = 1275
+			province_id = 1319
+			province_id = 1299
+			province_id = 1306
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1342		
+			owns_core_province = 1275
+			owns_core_province = 1319
+			owns_core_province = 1299
+			owns_core_province = 1306
+		}
+		effect = {
+			change_tag = SKY
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	western_skyrim_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = WSK }
+			NOT = { exists = SKY }
+			NOT = { exists = OLD }
+			primary_culture = nord
+		}
+		provinces_to_highlight = {
+			province_id = 1342		
+			province_id = 1291
+			province_id = 1355
+			province_id = 1331
+			province_id = 1325
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1342		
+			owns_core_province = 1291
+			owns_core_province = 1355
+			owns_core_province = 1331
+			owns_core_province = 1325
+		}
+		effect = {
+			change_tag = WSK
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	eastern_skyrim_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ESK }
+			NOT = { exists = SKY }
+			NOT = { exists = OLD }
+			primary_culture = nord
+		}
+		provinces_to_highlight = {
+			province_id = 1275		
+			province_id = 1306
+			province_id = 1319
+			province_id = 1268
+			province_id = 1286
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1275		
+			owns_core_province = 1306
+			owns_core_province = 1319
+			owns_core_province = 1268
+			owns_core_province = 1286
+		}
+		effect = {
+			change_tag = ESK
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	old_kingdom_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = OLD }
+			primary_culture = nord
+		}
+		provinces_to_highlight = {
+			province_id = 1342		
+			province_id = 1275
+			province_id = 1400
+			province_id = 1369
+			province_id = 970
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1342		
+			owns_core_province = 1275
+			owns_core_province = 1400
+			owns_core_province = 1369
+			owns_core_province = 970
+		}
+		effect = {
+			change_tag = OLD
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	volkkihar_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = VOL }
+			primary_culture = vampire
+		}
+		provinces_to_highlight = {
+			province_id = 1344		
+			province_id = 1345
+			province_id = 1346
+			province_id = 1347
+			province_id = 1348
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1344		
+			owns_core_province = 1345
+			owns_core_province = 1346
+			owns_core_province = 1347
+			owns_core_province = 1348
+		}
+		effect = {
+			change_tag = VOL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	winter_elves_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = WIN }
+			primary_culture = snow_elven
+		}
+		provinces_to_highlight = {
+			province_id = 1313		
+			province_id = 1280
+			province_id = 1268
+			province_id = 1286
+			province_id = 1291
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1313		
+			owns_core_province = 1280
+			owns_core_province = 1268
+			owns_core_province = 1286
+			owns_core_province = 1291
+		}
+		effect = {
+			change_tag = WIN
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reach_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = REA }
+			primary_culture = reachmen
+		}
+		provinces_to_highlight = {
+			province_id = 1355		
+			province_id = 1331
+			province_id = 1296
+			province_id = 1294
+			province_id = 1357
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1355		
+			owns_core_province = 1331
+			owns_core_province = 1296
+			owns_core_province = 1294
+			owns_core_province = 1357
+		}
+		effect = {
+			change_tag = REA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	colovia_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = COL }
+			NOT = { exists = CYR }
+			NOT = { exists = TAM }
+			primary_culture = colovian
+		}
+		provinces_to_highlight = {
+			province_id = 1161		
+			province_id = 1163
+			province_id = 1173
+			province_id = 1179
+			province_id = 1150
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1161		
+			owns_core_province = 1163
+			owns_core_province = 1173
+			owns_core_province = 1179
+			owns_core_province = 1150
+		}
+		effect = {
+			change_tag = COL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	heartlands_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HEA }
+			NOT = { exists = CYR }
+			NOT = { exists = TAM }
+			primary_culture = imperial
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1130
+			province_id = 1134
+			province_id = 1144
+			province_id = 1139
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1130
+			owns_core_province = 1134
+			owns_core_province = 1144
+			owns_core_province = 1139
+		}
+		effect = {
+			change_tag = HEA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	nibenean_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = NIB }
+			NOT = { exists = CYR }
+			NOT = { exists = TAM }
+			primary_culture = nibenean
+		}
+		provinces_to_highlight = {
+			province_id = 1120		
+			province_id = 1226
+			province_id = 1230
+			province_id = 1209
+			province_id = 1251
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1120		
+			owns_core_province = 1226
+			owns_core_province = 1230
+			owns_core_province = 1209
+			owns_core_province = 1251
+		}
+		effect = {
+			change_tag = NIB
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ayleid_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = AYL }
+			NOT = { tag = HAM }
+			primary_culture = ayleid
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1130
+			province_id = 1134
+			province_id = 1144
+			province_id = 1139
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1130
+			owns_core_province = 1134
+			owns_core_province = 1144
+			owns_core_province = 1139
+		}
+		effect = {
+			change_tag = AYL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cyrodiil_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = CYR }
+			NOT = { exists = TAM }
+			primary_culture = imperial
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1161
+			province_id = 1120
+			province_id = 1251
+			province_id = 1184
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1161
+			owns_core_province = 1120
+			owns_core_province = 1251
+			owns_core_province = 1184
+		}
+		effect = {
+			change_tag = CYR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tamriel_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = TAM }
+			primary_culture = imperial
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1342
+			province_id = 1002
+			province_id = 922
+			province_id = 1369
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1342
+			owns_core_province = 1002
+			owns_core_province = 922
+			owns_core_province = 1369
+		}
+		effect = {
+			change_tag = TAM
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	alessian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ALE }
+			NOT = { government = theocracy }
+			primary_culture = nedic
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1130
+			province_id = 1134
+			province_id = 1144
+			province_id = 1139
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1130
+			owns_core_province = 1134
+			owns_core_province = 1144
+			owns_core_province = 1139
+		}
+		effect = {
+			change_tag = ALE
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	order_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ORD }
+		    government = theocracy
+			primary_culture = nedic
+		}
+		provinces_to_highlight = {
+			province_id = 1206		
+			province_id = 1130
+			province_id = 1134
+			province_id = 1144
+			province_id = 1139
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1206		
+			owns_core_province = 1130
+			owns_core_province = 1134
+			owns_core_province = 1144
+			owns_core_province = 1139
+		}
+		effect = {
+			change_tag = ORD
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hammerfell_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HAM }
+			NOT = { tag = AYL }
+			OR = {
+			primary_culture = ayleid
+			primary_culture = redguard
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 1510		
+			province_id = 1478
+			province_id = 1446
+			province_id = 1482
+			province_id = 1474
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1510		
+			owns_core_province = 1478
+			owns_core_province = 1446
+			owns_core_province = 1482
+			owns_core_province = 1474
+		}
+		effect = {
+			change_tag = HAM
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	high_rock_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = HIG }
+			primary_culture = breton
+		}
+		provinces_to_highlight = {
+			province_id = 1369		
+			province_id = 1379
+			province_id = 1394
+			province_id = 1400
+			province_id = 1424
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1369		
+			owns_core_province = 1379
+			owns_core_province = 1394
+			owns_core_province = 1400
+			owns_core_province = 1424
+		}
+		effect = {
+			change_tag = HIG
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	direnii_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = DIR }
+			primary_culture = altmer
+		}
+		provinces_to_highlight = {
+			province_id = 1369		
+			province_id = 1379
+			province_id = 1382
+			province_id = 1376
+			province_id = 1384
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1369		
+			owns_core_province = 1379
+			owns_core_province = 1382
+			owns_core_province = 1376
+			owns_core_province = 1384
+		}
+		effect = {
+			change_tag = DIR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	orsimer_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ORS }
+			primary_culture = orsimer
+		}
+		provinces_to_highlight = {
+			province_id = 1391		
+			province_id = 1406
+			province_id = 1431
+			province_id = 1388
+			province_id = 1403
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1391		
+			owns_core_province = 1406
+			owns_core_province = 1431
+			owns_core_province = 1388
+			owns_core_province = 1403
+		}
+		effect = {
+			change_tag = ORS
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	elsweyr_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ELS }
+			primary_culture = khajiiti
+		}
+		provinces_to_highlight = {
+			province_id = 922		
+			province_id = 933
+			province_id = 888
+			province_id = 912
+			province_id = 915
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 922		
+			owns_core_province = 933
+			owns_core_province = 888
+			owns_core_province = 912
+			owns_core_province = 915
+		}
+		effect = {
+			change_tag = ELS
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anequinan_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ANE }
+			primary_culture = anequinan
+		}
+		provinces_to_highlight = {
+			province_id = 889		
+			province_id = 895
+			province_id = 888
+			province_id = 905
+			province_id = 912
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 889		
+			owns_core_province = 895
+			owns_core_province = 888
+			owns_core_province = 905
+			owns_core_province = 912
+		}
+		effect = {
+			change_tag = ANE
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pellitinian_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = PEL }
+			primary_culture = pellitinian
+		}
+		provinces_to_highlight = {
+			province_id = 922		
+			province_id = 933
+			province_id = 929
+			province_id = 926
+			province_id = 915
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 922		
+			owns_core_province = 933
+			owns_core_province = 929
+			owns_core_province = 926
+			owns_core_province = 915
+		}
+		effect = {
+			change_tag = PEL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	vallenwood_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = VAL }
+			primary_culture = bosmer
+		}
+		provinces_to_highlight = {
+			province_id = 820		
+			province_id = 844
+			province_id = 857
+			province_id = 834
+			province_id = 868
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 820		
+			owns_core_province = 844
+			owns_core_province = 857
+			owns_core_province = 834
+			owns_core_province = 868
+		}
+		effect = {
+			change_tag = VAL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	southern_orsinium_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SOR }
+			primary_culture = wood_orsimer
+		}
+		provinces_to_highlight = {
+			province_id = 815		
+			province_id = 827
+			province_id = 829
+			province_id = 833
+			province_id = 825
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 815		
+			owns_core_province = 827
+			owns_core_province = 829
+			owns_core_province = 833
+			owns_core_province = 825
+		}
+		effect = {
+			change_tag = SOR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	imga_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = IMG }
+			primary_culture = imga
+		}
+		provinces_to_highlight = {
+			province_id = 820		
+			province_id = 844
+			province_id = 857
+			province_id = 834
+			province_id = 868
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 820		
+			owns_core_province = 844
+			owns_core_province = 857
+			owns_core_province = 834
+			owns_core_province = 868
+		}
+		effect = {
+			change_tag = IMG
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	argonia_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ARG }
+			OR = {
+			primary_culture = argonian
+			primary_culture = archein
+			primary_culture = agaceph
+			primary_culture = naga
+			}
+		}
+		provinces_to_highlight = {
+			province_id = 1075		
+			province_id = 1098
+			province_id = 1087
+			province_id = 1072
+			province_id = 1064
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1075		
+			owns_core_province = 1098
+			owns_core_province = 1087
+			owns_core_province = 1072
+			owns_core_province = 1064
+		}
+		effect = {
+			change_tag = ARG
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	chimer_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = CHI }
+			primary_culture = chimer
+		}
+		provinces_to_highlight = {
+			province_id = 1002		
+			province_id = 995
+			province_id = 1017
+			province_id = 985
+			province_id = 990
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1002		
+			owns_core_province = 995
+			owns_core_province = 1017
+			owns_core_province = 985
+			owns_core_province = 990
+		}
+		effect = {
+			change_tag = CHI
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dwemer_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = DWE }
+			primary_culture = dwemer
+		}
+		provinces_to_highlight = {
+			province_id = 970		
+			province_id = 981
+			province_id = 976
+			province_id = 965
+			province_id = 961
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 970		
+			owns_core_province = 981
+			owns_core_province = 976
+			owns_core_province = 965
+			owns_core_province = 961
+		}
+		effect = {
+			change_tag = DWE
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ashland_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ASH }
+			primary_culture = ashlander
+		}
+		provinces_to_highlight = {
+			province_id = 1043		
+			province_id = 1037
+			province_id = 1045
+			province_id = 1046
+			province_id = 1052
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1043		
+			owns_core_province = 1037
+			owns_core_province = 1045
+			owns_core_province = 1046
+			owns_core_province = 1052
+		}
+		effect = {
+			change_tag = ASH
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	atmora_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ATM }
+			primary_culture = atmoran
+			NOT = { religion = dragon_cult }
+		}
+		provinces_to_highlight = {
+			province_id = 357		
+			province_id = 367
+			province_id = 373
+			province_id = 384
+			province_id = 363
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 357		
+			owns_core_province = 367
+			owns_core_province = 373
+			owns_core_province = 384
+			owns_core_province = 363
+		}
+		effect = {
+			change_tag = ATM
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dragon_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = DRA }
+			primary_culture = atmoran
+			religion = dragon_cult
+		}
+		provinces_to_highlight = {
+			province_id = 357		
+			province_id = 367
+			province_id = 373
+			province_id = 384
+			province_id = 363
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 357		
+			owns_core_province = 367
+			owns_core_province = 373
+			owns_core_province = 384
+			owns_core_province = 363
+		}
+		effect = {
+			change_tag = DRA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	roscrea_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ROS }
+			NOT = { tag = ATM }
+			NOT = { tag = DRA }
+			primary_culture = atmoran
+		}
+		provinces_to_highlight = {
+			province_id = 389		
+			province_id = 370
+			province_id = 395
+			province_id = 392
+			province_id = 393
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 389		
+			owns_core_province = 370
+			owns_core_province = 395
+			owns_core_province = 392
+			owns_core_province = 393
+		}
+		effect = {
+			change_tag = ROS
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tsaesci_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = TSA }
+			primary_culture = tsaesci
+		}
+		provinces_to_highlight = {
+			province_id = 724		
+			province_id = 695
+			province_id = 700
+			province_id = 702
+			province_id = 688
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 724		
+			owns_core_province = 695
+			owns_core_province = 700
+			owns_core_province = 702
+			owns_core_province = 688
+		}
+		effect = {
+			change_tag = TSA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	po_tun_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = POT }
+			primary_culture = po_tun
+		}
+		provinces_to_highlight = {
+			province_id = 611		
+			province_id = 646
+			province_id = 631
+			province_id = 624
+			province_id = 662
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 611		
+			owns_core_province = 646
+			owns_core_province = 631
+			owns_core_province = 624
+			owns_core_province = 662
+		}
+		effect = {
+			change_tag = POT
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cathnoquey_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = CAT }
+			NOT = { tag = ISL }
+			NOT = { tag = ESR }
+			primary_culture = islander
+		}
+		provinces_to_highlight = {
+			province_id = 407		
+			province_id = 410
+			province_id = 411
+			province_id = 413
+			province_id = 414
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 407		
+			owns_core_province = 410
+			owns_core_province = 411
+			owns_core_province = 413
+			owns_core_province = 414
+		}
+		effect = {
+			change_tag = CAT
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tangmo_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = TAN }
+			primary_culture = tangmo
+		}
+		provinces_to_highlight = {
+			province_id = 561		
+			province_id = 545
+			province_id = 542
+			province_id = 583
+			province_id = 597
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 561		
+			owns_core_province = 545
+			owns_core_province = 542
+			owns_core_province = 583
+			owns_core_province = 597
+		}
+		effect = {
+			change_tag = TAN
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	akaviri_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = AKA }
+			primary_culture = akaviri
+		}
+		provinces_to_highlight = {
+			province_id = 724		
+			province_id = 695
+			province_id = 700
+			province_id = 702
+			province_id = 688
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 724		
+			owns_core_province = 695
+			owns_core_province = 700
+			owns_core_province = 702
+			owns_core_province = 688
+		}
+		effect = {
+			change_tag = AKA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	upper_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = UPP }
+			NOT = { tag = AKA }
+			primary_culture = akaviri
+		}
+		provinces_to_highlight = {
+			province_id = 750		
+			province_id = 743
+			province_id = 757
+			province_id = 761
+			province_id = 763
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 750		
+			owns_core_province = 743
+			owns_core_province = 757
+			owns_core_province = 761
+			owns_core_province = 763
+		}
+		effect = {
+			change_tag = UPP
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	island_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ISL }
+			NOT = { tag = CAT }
+			primary_culture = islander
+		}
+		provinces_to_highlight = {
+			province_id = 800		
+			province_id = 799
+			province_id = 806
+			province_id = 795
+			province_id = 793
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 800		
+			owns_core_province = 799
+			owns_core_province = 806
+			owns_core_province = 795
+			owns_core_province = 793
+		}
+		effect = {
+			change_tag = ISL
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	esroniet_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = ESR }
+			NOT = { tag = ISL }
+			primary_culture = islander
+		}
+		provinces_to_highlight = {
+			province_id = 1549		
+			province_id = 800
+			province_id = 805
+			province_id = 806
+			province_id = 808
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1549		
+			owns_core_province = 800
+			owns_core_province = 805
+			owns_core_province = 806
+			owns_core_province = 808
+		}
+		effect = {
+			change_tag = ESR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	red_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = RED }
+			owns = 1062
+		}
+		provinces_to_highlight = {
+			province_id = 1062	
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1062	
+		}
+		effect = {
+			change_tag = RED
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kamal_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = KAM }
+			primary_culture = kamal
+		}
+		provinces_to_highlight = {
+			province_id = 479		
+			province_id = 493
+			province_id = 507
+			province_id = 517
+			province_id = 471
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 479		
+			owns_core_province = 493
+			owns_core_province = 507
+			owns_core_province = 517
+			owns_core_province = 471
+		}
+		effect = {
+			change_tag = KAM
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	dremora_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = DRE }
+			primary_culture = dremora
+		}
+		provinces_to_highlight = {
+			province_id = 426		
+			province_id = 420
+			province_id = 443
+			province_id = 432
+			province_id = 458
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 426		
+			owns_core_province = 420
+			owns_core_province = 443
+			owns_core_province = 432
+			owns_core_province = 458
+		}
+		effect = {
+			change_tag = DRE
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kothringi_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = KOT }
+			primary_culture = kothringi
+		}
+		provinces_to_highlight = {
+			province_id = 1075		
+			province_id = 1098
+			province_id = 1087
+			province_id = 1072
+			province_id = 1064
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1075		
+			owns_core_province = 1098
+			owns_core_province = 1087
+			owns_core_province = 1072
+			owns_core_province = 1064
+		}
+		effect = {
+			change_tag = KOT
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

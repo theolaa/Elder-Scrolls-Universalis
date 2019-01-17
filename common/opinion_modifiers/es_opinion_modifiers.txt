@@ -1,0 +1,5 @@
+es_1_triumvirate = {
+	opinion = 200
+	years = 10
+	yearly_decay = 5
+}

@@ -1,0 +1,59 @@
+graphical_culture = westerngfx
+
+color = { 230 178 5 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Anchard #0" = 10
+	"Brazzefk #0" = 10
+	"Dhark #0" = 10
+	"Dumac #0" = 10
+	"Gharen #0" = 10
+	"Klathzgar #0" = 10
+	"Mzulchond #0" = 10
+	"Nevith #0" = 10
+	"Radac #0" = 10
+	"Yagrum #0" = 10
+	"Rthuand #0" = 10
+	"Dhalac #0" = 10
+	"Nevidit #0" = 10
+	"Rathas #0" = 10
+	"Dagrac #0" = 10
+	"Dhagrac #0" = 10
+	"Raletharn #0" = 10
+	"Athazgar #0" = 10
+	"Anchalbar #0" = 10
+	"Agrurd #0" = 10
+	
+	"Nhenwess #0" = -10
+	"Athand #0" = -10
+	"Duolara #0" = -10
+	"Mird #0" = -10
+	"Ilhend #0" = -10
+	"Szaren #0" = -10
+	"Davlara #0" = -10
+	"Yradhis #0" = -10
+	"Ylrelirda #0" = -10
+	"Jaretrez #0" = -10
+}
+
+leader_names = {
+    Anchard Brazzefk Bthuand Cuolec Dalen-Zanchu Dhark Dumac Gharen Ihlendam Jnaggo Kagrenac Klathzgar Mithas Mzulchond Nbthld Nchylbar Nchunak Nevith Razak Rkungthunch Sthovin Dahrk Radac Yagrum Chiulec Chrafru Rthuand Dhalac Nevidit Bthund Kavvazar Nendam Schtrafak Schtobrac Rathas Neddit Dulen Damrand Sthomac Ythamin Yradzir Brazzerlac Dagrac Dhagrac Cuongar Nchuamord Raletharn Danch Tchaznak Mchand Ythadgir Nchubond Athazgar Irhalec Rkumrond Anchalbar Neznak Agrurd
+}
+
+ship_names = {
+	Bluthanch Kamdida Nhenwess Nchurek Nrifrinn Kathzgar Mlildilan Mimrond Blutrez Mzunach Kahner Athand Duolara Katchan Ctunch Ghronac Klagrac Mird Ilhend Schtralac Mzuvnak Rahlac Suodrak Irhavind Dhagrum Mithld Ralendam Suofrak Szaren Nchuvin Chulen Dhafrak Solirda Davlara Yradhis Alzivzal Ryahner Nadryna Mhefwinn Ithofwinn Doumzlin Tatchis Alzilnmer Drilamch Yradrys Thrilnmer Naflis Glivlara Dahrada Chefwinn Ryathanch Yzravrin Araznara Kzuabryn Ruenwess Gzihvlin Somtrin Rlodlen Ylrelirda Mramdida Jaretrez Jomzlin
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

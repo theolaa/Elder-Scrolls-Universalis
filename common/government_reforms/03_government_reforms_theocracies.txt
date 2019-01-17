@@ -1,0 +1,74 @@
+theocracy_mechanic = {
+	has_devotion = yes
+	rulers_can_be_generals = no
+	heirs_can_be_generals = no
+	royal_marriage = no
+	different_religion_acceptance = -25
+	different_religion_group_acceptance = -50
+	religion = yes
+	heir = yes
+	basic_reform = yes # = invisible/does not take up a slot
+	valid_for_nation_designer = no
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
+	}
+}
+
+#Leadership
+leading_clergy_reform = {
+	allow_normal_conversion = yes
+	legacy_equivalent = theocratic_government
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	modifiers = {
+		max_states = 1
+		tolerance_own = 1
+		tolerance_heathen = -1
+	}
+}
+
+monastic_order_reform = {
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 10
+	icon = "monks"
+	allow_normal_conversion = yes
+	legacy_equivalent = monastic_order_government
+	monastic = yes
+	fixed_rank = 1
+	modifiers = {
+		max_states = 1
+		tolerance_own = 1
+		fort_maintenance_modifier = -0.10
+	}
+}
+
+papacy_reform = {
+	potential = {
+		tag = RED
+	}
+
+	modifiers = {
+		max_states = 1
+		tolerance_own = 1
+		prestige_per_development_from_conversion = 0.33
+		global_autonomy = -0.05
+	}
+	valid_for_nation_designer = no
+	icon = "papacy"
+	allow_normal_conversion = yes
+	legacy_equivalent = papal_government
+	papacy = yes
+	allow_convert = no
+	lock_level_when_selected = yes
+	fixed_rank = 2
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}

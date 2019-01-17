@@ -1,0 +1,58 @@
+graphical_culture = westerngfx
+
+color = { 80 108 110 }
+
+historical_idea_groups = {
+}
+
+historical_units = {
+}
+
+monarch_names = {
+	"Ababael #0" = 10
+	"Baela #0" = 10
+	"Chirah #0" = 10
+	"Dabinukal #0" = 10
+	"Dethrel #0" = 10
+	"Drillk #0" = 10
+	"Dussir #0" = 10
+	"Eral #0" = 10
+	"Erunassur #0" = 10
+	"Gareth #0" = 10
+	"Helushk #0" = 10
+	"Lleram #0" = 10
+	"Ulster #0" = 10
+	"Abaaleb #0" = 10
+	"Huug #0" = 10
+	"Maakul #0" = 10
+	"Shul #0" = 10
+	"Zuuk #0" = 10
+	
+	"Dassi #0" = -10
+	"Desha #0" = -10
+	"Hamu #0" = -10
+	"Kedis #0" = -10
+	"Lunutli #0" = -10
+	"Maeonius #0" = -10
+	"Morag #0" = -10
+	"Sarase #0" = -10
+	"Sienna #0" = -10
+	"Suhlak #0" = -10
+	"Sana #0" = -10
+}
+
+leader_names = {
+    Ababael Baela Chirah Dabinukal Dethrel Drillk Dussir Eral Erunassur Gareth Helushk Lleram Ulster Abaaleb Huug Maakul Shul Zuuk
+}
+
+ship_names = {
+    Dassi Desha Hamu Kedis Lunutli Maeonius Morag Sarase Sienna Suhlak Sana
+}
+
+army_names = {
+	"Army of $PROVINCE$" 
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

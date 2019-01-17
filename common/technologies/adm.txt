@@ -1,0 +1,787 @@
+monarch_power = ADM
+
+ahead_of_time = {
+	production_efficiency = 0.10
+	yearly_corruption = -0.05
+}
+
+technology = {
+	# Tech 0
+	year = 2
+
+	may_support_rebels = yes
+    may_force_march = yes
+	
+	native_earthwork = yes
+	native_palisade = yes
+	native_fortified_house = yes
+	native_three_sisters_field = yes
+	native_irrigation = yes
+	native_storehouse = yes
+	native_longhouse = yes
+	native_sweat_lodge = yes
+	native_great_trail = yes
+	native_ceremonial_fire_pit = yes
+	
+	temple = yes
+}
+
+technology = {
+	# Tech 1
+	year = 10
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 2
+	year = 30
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 3
+	year = 60
+	
+	allowed_idea_groups = 1
+}
+
+technology = {
+	# Tech 4
+	year = 90
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 5
+	year = 120
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 6
+	year = 150
+	
+	production_efficiency	 =	0.05
+	
+}
+
+technology = {
+	# Tech 7
+	year = 180
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 8
+	year = 210
+	
+	allowed_idea_groups = 2
+}
+
+technology = {
+	# Tech 9
+	year = 240
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 10
+	year = 270
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 11
+	year = 300
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 12
+	year = 325
+	
+	max_states = 1
+	
+	road_network = yes
+}
+
+technology = {
+	# Tech 13
+	year = 350
+	
+	allowed_idea_groups = 3
+}
+
+technology = {
+	# Tech 14
+	year = 375
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 15
+	year = 400
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 16
+	year = 425
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 17
+	year = 450
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 18
+	year = 475
+	
+	allowed_idea_groups = 4
+	
+	glorious_monument = yes
+}
+
+technology = {
+	# Tech 19
+	year = 500
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 20
+	year = 525
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 21
+	year = 550
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 22
+	year = 575
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 23
+	year = 600
+	
+	allowed_idea_groups = 5
+}
+
+technology = {
+	# Tech 24
+	year = 625
+	
+    development_efficiency = 0.05
+	
+	college = yes
+}
+
+technology = {
+	# Tech 25
+	year = 650
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 26
+	year = 675
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 27
+	year = 700
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 28
+	year = 725
+	
+	allowed_idea_groups = 6
+}
+
+technology = {
+	# Tech 29
+	year = 750
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 30
+	year = 775
+
+	administrative_efficiency = 0.05
+	
+	mint = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 31
+	year = 800
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 32
+	year = 825
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 33
+	year = 850
+	
+	allowed_idea_groups = 7
+}
+
+technology = {
+	# Tech 34
+	year = 875
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 35
+	year = 900
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 36
+	year = 925
+	
+	production_efficiency	 =	0.05
+	
+	courthouse = yes
+}
+
+technology = {
+	# Tech 37
+	year = 950
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 38
+	year = 975
+	
+	allowed_idea_groups = 8
+}
+
+technology = {
+	# Tech 39
+	year = 1000
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 40
+	year = 1025
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 41
+	year = 1050
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 42
+	year = 1075
+	
+	max_states = 1
+	
+	cathedral = yes
+}
+
+technology = {
+	# Tech 43
+	year = 1100
+	
+	allowed_idea_groups = 9
+}
+
+technology = {
+	# Tech 44
+	year = 1125
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 45
+	year = 1150
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 46
+	year = 1175
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 47
+	year = 1200
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 48
+	year = 1225
+	
+	allowed_idea_groups = 10
+	
+	canal = yes
+}
+
+technology = {
+	# Tech 49
+	year = 1250
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 50
+	year = 1275
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 51
+	year = 1300
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 52
+	year = 1325
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 53
+	year = 1350
+	
+	allowed_idea_groups = 11
+}
+
+technology = {
+	# Tech 54
+	year = 1375
+	
+    development_efficiency = 0.05
+	
+	town_hall = yes
+}
+
+technology = {
+	# Tech 55
+	year = 1400
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 56
+	year = 1425
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 57
+	year = 1450
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 58
+	year = 1475
+	
+	allowed_idea_groups = 12
+}
+
+technology = {
+	# Tech 59
+	year = 1500
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 60
+	year = 1525
+
+	administrative_efficiency = 0.05
+	
+	university = yes
+}
+
+#######################################################################
+
+technology = {
+	# Tech 61
+	year = 1550
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 62
+	year = 1575
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 63
+	year = 1600
+	
+	allowed_idea_groups = 13
+}
+
+technology = {
+	# Tech 64
+	year = 1625
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 65
+	year = 1650
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 66
+	year = 1675
+	
+	production_efficiency	 =	0.05
+	
+	treasury_office = yes
+}
+
+technology = {
+	# Tech 67
+	year = 1700
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 68
+	year = 1725
+	
+	allowed_idea_groups = 14
+}
+
+technology = {
+	# Tech 69
+	year = 1750
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 70
+	year = 1775
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 71
+	year = 1800
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 72
+	year = 1825
+	
+	max_states = 1
+	
+	tax_assessor = yes
+}
+
+technology = {
+	# Tech 73
+	year = 1850
+	
+	allowed_idea_groups = 15
+}
+
+technology = {
+	# Tech 74
+	year = 1875
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 75
+	year = 1900
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 76
+	year = 1925
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 77
+	year = 1950
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 78
+	year = 1975
+	
+	allowed_idea_groups = 16
+	
+	royal_palace = yes
+}
+
+technology = {
+	# Tech 79
+	year = 2000
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 80
+	year = 2025
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 81
+	year = 2050
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 82
+	year = 2075
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 83
+	year = 2100
+	
+	allowed_idea_groups = 17
+}
+
+technology = {
+	# Tech 84
+	year = 2125
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 85
+	year = 2150
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 86
+	year = 2175
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 87
+	year = 2200
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 88
+	year = 2225
+	
+	allowed_idea_groups = 18
+}
+
+technology = {
+	# Tech 89
+	year = 2250
+	
+	development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 90
+	year = 2275
+
+	administrative_efficiency = 0.05
+	
+}
+
+#######################################################################
+
+technology = {
+	# Tech 91
+	year = 2300
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 92
+	year = 2325
+	
+	max_states = 1
+	
+}
+
+technology = {
+	# Tech 93
+	year = 2350
+	
+	allowed_idea_groups = 19
+}
+
+technology = {
+	# Tech 94
+	year = 2375
+	
+    development_efficiency = 0.05
+}
+
+technology = {
+	# Tech 95
+	year = 2400
+	
+	administrative_efficiency = 0.05
+	
+}
+
+technology = {
+	# Tech 96
+	year = 2425
+	
+	production_efficiency	 =	0.05
+}
+
+technology = {
+	# Tech 97
+	year = 2450
+	
+	max_states = 1
+}
+
+technology = {
+	# Tech 98
+	year = 2475
+	
+	allowed_idea_groups = 20
+}
+
+technology = {
+	# Tech 99
+	year = 2500
+	
+	development_efficiency = 0.05
+}
