@@ -361,14 +361,14 @@ create_native_reservation = {
 		is_subject_of_type = client_vassal
 		is_subject_of_type = vassal
 		}
-		government = tribal
+		government = native
 		is_subject_of = ROOT
 		is_lesser_in_union = no
 		}
 	}
 	is_allowed = {
     FROM = {
-	government = tribal
+	government = native
 	}
 	}
 	on_accept = {

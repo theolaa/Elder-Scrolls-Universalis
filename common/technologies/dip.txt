@@ -21,7 +21,7 @@ technology = {
 	may_agitate_for_liberty = yes
 	may_infiltrate_administration = yes
 	
-	trade_range				=	25
+	trade_range				=	50
 	
 	enable = T00
 	enable = G00
@@ -34,14 +34,14 @@ technology = {
 	# Tech 1
 	year = 10
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 2
 	year = 30
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -80,7 +80,7 @@ technology = {
 	# Tech 7
 	year = 180
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -113,14 +113,14 @@ technology = {
 	# Tech 11
 	year = 300
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 12
 	year = 325
 	
-	range					=	25
+	range					=	50
 	
 	shipyard = yes
 }
@@ -164,7 +164,7 @@ technology = {
 	# Tech 17
 	year = 450
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -196,14 +196,14 @@ technology = {
 	# Tech 21
 	year = 550
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 22
 	year = 575
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -246,7 +246,7 @@ technology = {
 	# Tech 27
 	year = 700
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -279,14 +279,14 @@ technology = {
 	# Tech 31
 	year = 800
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 32
 	year = 825
 	
-	range					=	25
+	range					=	50
 	
 	farm_estate = yes
 }
@@ -330,7 +330,7 @@ technology = {
 	# Tech 37
 	year = 950
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -362,14 +362,14 @@ technology = {
 	# Tech 41
 	year = 1050
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 42
 	year = 1075
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -412,7 +412,7 @@ technology = {
 	# Tech 47
 	year = 1200
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -447,14 +447,14 @@ technology = {
 	# Tech 51
 	year = 1300
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 52
 	year = 1325
 	
-	range					=	25
+	range					=	50
 	
 	counting_house = yes
 }
@@ -498,7 +498,7 @@ technology = {
 	# Tech 57
 	year = 1450
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -530,14 +530,14 @@ technology = {
 	# Tech 61
 	year = 1550
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 62
 	year = 1575
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -580,7 +580,7 @@ technology = {
 	# Tech 67
 	year = 1700
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -613,14 +613,14 @@ technology = {
 	# Tech 71
 	year = 1800
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 72
 	year = 1825
 	
-	range					=	25
+	range					=	50
 	
 	customs_house = yes
 }
@@ -664,7 +664,7 @@ technology = {
 	# Tech 77
 	year = 1950
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -696,14 +696,14 @@ technology = {
 	# Tech 81
 	year = 2050
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 82
 	year = 2075
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -746,7 +746,7 @@ technology = {
 	# Tech 87
 	year = 2200
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {
@@ -777,14 +777,14 @@ technology = {
 	# Tech 91
 	year = 2300
 	
-	trade_range				=	10
+	trade_range				=	25
 }
 
 technology = {
 	# Tech 92
 	year = 2325
 	
-	range					=	25
+	range					=	50
 	
 }
 
@@ -825,7 +825,7 @@ technology = {
 	# Tech 97
 	year = 2450
 	
-	trade_range				=	15
+	trade_range				=	25
 }
 
 technology = {

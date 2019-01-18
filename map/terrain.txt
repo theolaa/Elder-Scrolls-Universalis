@@ -421,45 +421,6 @@ categories =  {
 		}		
 		
 	}
-
-	argonia = {
-	    color = { 213 144 199 }
-	
-	    type = marsh
-		sound_type = forest
-		
-		supply_limit = 5
-		movement_cost = 1.3
-		local_development_cost = 0.25
-		nation_designer_cost_multiplier = 0.85
-		defence = 1
-	}
-
-	mangrove_swamp = {
-	    color = { 80 129 101 }
-		
-		type = marsh
-		sound_type = forest
-		
-		supply_limit = 5
-		movement_cost = 1.3
-		local_development_cost = 0.25
-		nation_designer_cost_multiplier = 0.85
-		defence = 1
-	}
-
-	valen_woods = {
-	    color = { 91 123 45 }
-		
-		type = forest
-		sound_type = forest
-		
-		supply_limit = 5
-		movement_cost = 1.3
-		local_development_cost = 0.25
-		nation_designer_cost_multiplier = 0.85
-		defence = 1
-	}
 	
 }
 	

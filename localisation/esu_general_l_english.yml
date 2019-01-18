@@ -562,6 +562,12 @@
  holy_order_1_is_our:0 "$NAME|Y$ is our Holy Order."
  holy_order_1_no_overlord_dow:0 "You can't declare war on your own Holy Order."
  
+ native_reservation_title:0 "Native Reservation"
+ native_reservation_title_plural:0 "Native Reservations"
+ native_reservation_long_desc:0 "The Native Reservation."
+ native_reservation_is_our:0 "$NAME|Y$ is our Native Reservation"
+ native_reservation_no_overlord_dow:0 "You can't declare war on your own Native Reservation."
+ 
  ge_1_timer:0 "Transitional State"
  ge_1_unrest:0 "Local Unrest"
  ge_2_timer:0 "Personal Union"
