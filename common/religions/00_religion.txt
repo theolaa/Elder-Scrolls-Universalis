@@ -10,7 +10,7 @@ ancient_group = {
 
 	altmeri_pantheon = {
 		color = { 236 223 33 }
-		icon = 17
+		icon = 1
 		country = {
 			tolerance_own = 1
 			tolerance_heretic = 1
@@ -30,7 +30,7 @@ ancient_group = {
 	
 	snow_elves_pantheon = {
 		color = { 230 222 100 }
-		icon = 18
+		icon = 2
 		country = {
 			tolerance_own = 1
 			religious_unity = 0.10
@@ -66,7 +66,7 @@ northern_group = {
 
 	nordic_pantheon = {
 		color = { 77 145 138 }
-		icon = 20
+		icon = 3
 		country = {
 		    land_morale = 0.10
 			land_forcelimit_modifier  = 0.10
@@ -98,7 +98,7 @@ bosmer_group = {
 	
 	bosmer_pantheon = {
 		color = { 24 137 43 }
-		icon = 21
+		icon = 4
 		country = {
 			land_attrition = -0.10
 		    garrison_size = 0.10
@@ -131,7 +131,7 @@ divines_group = {
 	
 	eight_divines = {
 		color = { 77 101 198 }
-		icon = 4
+		icon = 5
 		country = {
 			global_spy_defence = 0.10
 		    enemy_core_creation = 0.10
@@ -153,7 +153,7 @@ divines_group = {
 	
 	nine_divines = {
 		color = { 23 65 230 }
-		icon = 1
+		icon = 6
 		country = {
 			diplomatic_reputation = 1
 		    prestige_decay = -0.01
@@ -175,7 +175,7 @@ divines_group = {
 	
 	twelve_divines = {
 		color = { 9 38 154 }
-		icon = 2
+		icon = 7
 		country = {
 		    global_unrest = -1
 			num_accepted_cultures = 1
@@ -210,7 +210,7 @@ khajiiti_group = {
 	
 	khajiiti_pantheon = {
 		color = { 202 230 59 }
-		icon = 71
+		icon = 8
 		country = {
 		    dip_tech_cost_modifier = -0.10
 			recover_army_morale_speed = 0.10
@@ -244,7 +244,7 @@ yokudan_group = {
 	
 	yokudan_pantheon = {
 		color = { 230 167 40 }
-		icon = 5
+		icon = 9
 		country = {
 			heir_chance = 1.0
 			trade_efficiency = 0.10
@@ -264,7 +264,7 @@ yokudan_group = {
 	
 	redguard_pantheon = {
 		color = { 198 135 11 }
-		icon = 6
+		icon = 10
 		country = {
 		    heir_chance = 1.0
 			land_morale = 0.10
@@ -299,7 +299,7 @@ orsimer_group = {
 	
 	malacath_cult = {
 		color = { 24 122 14 }
-		icon = 15
+		icon = 11
 		country = {
 			army_tradition_decay = -0.10
 	        defensiveness = 0.10
@@ -332,7 +332,7 @@ kothri_group = {
 	
 	kothri_pantheon = {
 		color = { 236 201 26 }
-		icon = 43
+		icon = 12
 		country = {
 		    fire_damage_received = -0.10
 			global_trade_power = 0.10
@@ -365,7 +365,7 @@ chimer_group = {
 	
 	chimer_pantheon = {
 		color = { 203 203 205 }
-		icon = 8
+		icon = 13
 		country = {
 		    diplomatic_reputation = 1
 			papal_influence = 1
@@ -556,7 +556,7 @@ chimer_group = {
 	
 	tribunal_pantheon = {
 		color = { 170 11 202 }
-		icon = 13
+		icon = 14
 		country = {
 			tolerance_own = 1
 		    global_missionary_strength = 0.01
@@ -576,7 +576,7 @@ chimer_group = {
 	
 	reclamations_pantheon = {
 		color = { 10 14 146 }
-		icon = 14
+		icon = 15
 		country = {
 			tolerance_heretic = 1
 		    religious_unity = 0.1
@@ -612,7 +612,7 @@ sload_group = {
 
 	sload_faith = {
 		color = { 42 174 208 }
-		icon = 23
+		icon = 16
 		country = {
 			advisor_pool = 1
 			advisor_cost = -0.1
@@ -652,7 +652,7 @@ serpant_group = {
 
 	serpant_king = {
 		color = { 130 210 96 }
-		icon = 37
+		icon = 17
 		country = {
 			land_morale = 0.10
 			global_unrest = -1
@@ -688,7 +688,7 @@ dragon_group = {
 	
 	dragon_cult = {
 		color = { 202 208 43 }
-		icon = 80
+		icon = 18
 		country = {
 		    tolerance_own = 1
 			stability_cost_modifier = -0.1
@@ -893,7 +893,7 @@ marukhism_group = {
 	
 	marukhism = {
 		color = { 243 212 12 }
-		icon = 75
+		icon = 19
 		country = {
 			tolerance_own = 1
 			culture_conversion_cost = -0.10
@@ -926,7 +926,7 @@ hist_group = {
 	
 	hist = {
 		color = { 255 255 255 }
-		icon = 10
+		icon = 20
 		country = {
 			development_cost = -0.1
 		    tolerance_heathen = 1
@@ -960,7 +960,7 @@ reason_and_logic_group = {
 
 	reason_and_logic_cult = {
 		color = { 40 40 166 }
-		icon = 33
+		icon = 21
 		country = {
 		    siege_ability = 0.10
 			defensiveness = 0.10
@@ -1002,7 +1002,7 @@ old_group = {
 
 	old_gods_cult = {
 		color = { 239 110 217 }
-		icon = 11
+		icon = 22
 		country = {
 			land_morale = 0.10
 		    advisor_cost = -0.1
@@ -1035,7 +1035,7 @@ tsaesci_group = {
 	
 	tsaesci_pantheon = {
 		color = { 138 44 85 }
-		icon = 29
+		icon = 23
 		country = {
 			discipline = 0.05
 			global_unrest = -1
@@ -1068,7 +1068,7 @@ tang_mo_group = {
 	
 	tang_mo_pantheon = {
 		color = { 22 232 127 }
-		icon = 25
+		icon = 24
 		country = {
 			advisor_pool = 1
 			stability_cost_modifier = -0.10
@@ -1103,7 +1103,7 @@ kamal_group = {
 	
 	kamal_pantheon = {
 		color = { 233 172 30 }
-		icon = 27
+		icon = 25
 		country = {
 			tolerance_own = 1
 			global_autonomy = -0.05
@@ -1134,7 +1134,7 @@ dremora_group = {
 	
 	dremora_pantheon = {
 		color = { 121 15 117 }
-		icon = 79
+		icon = 26
 		country = {
 			cav_to_inf_ratio = 0.10
 			global_regiment_cost = -0.10
@@ -1167,7 +1167,7 @@ daedric_group = {
 	
 	molog_bal_cult = {
 		color = { 145 0 0 }
-		icon = 57
+		icon = 27
 		country = {
 			free_leader_pool = 1
 	        heir_chance = 1.0
@@ -1202,7 +1202,7 @@ daedric_group = {
 	
 	meridia_cult = {
 		color = { 172 181 193 }
-		icon = 55
+		icon = 28
 		country = {
 			land_morale = 0.10
 			global_manpower_modifier = 0.10
@@ -1237,7 +1237,7 @@ daedric_group = {
 	
 	mehrunes_dagon_cult = {
 		color = { 138 7 68 }
-		icon = 51
+		icon = 29
 		country = {
 			fire_damage = 0.10
 	        loot_amount = 0.10
@@ -1272,7 +1272,7 @@ daedric_group = {
 	
 	hermeus_mora_cult = {
 		color = { 26 70 43 }
-		icon = 45
+		icon = 30
 		country = {
 			technology_cost = -0.10
 	        global_institution_spread = 0.10
@@ -1322,7 +1322,7 @@ po_tun_group = {
 	
 	po_tun_pantheon = {
 		color = { 236 240 123 }
-		icon = 35
+		icon = 31
 		country = {
 			tolerance_heathen = 1
 			adm_tech_cost_modifier = -0.10
