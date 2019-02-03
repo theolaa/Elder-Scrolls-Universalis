@@ -180,7 +180,7 @@ wool = {
 			}
 		}
 		modifier = {
-			factor = 3.5
+			factor = 2.5
 			OR = {
 			region = western_skyrim_lr
 			region = eastern_skyrim_lr

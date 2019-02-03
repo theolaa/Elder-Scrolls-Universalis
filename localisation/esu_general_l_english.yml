@@ -1,5 +1,8 @@
 ﻿l_english:
 
+ ge_increase_support_title:0 "Increase Governmental Support"
+ ge_increase_support_desc:0 " "
+
  es_revolution:0 "Revolution"
  desc_es_revolution:0 "People no longer support your government."
  es_country_collapse:0 "Country Collapse"

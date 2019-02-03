@@ -4,65 +4,90 @@ country_event = {
 	id = es_1_scenario.1
 	title = es_1_scenario.1.t
 	desc = es_1_scenario.1.d
-	picture = MONGOL_BANNERS_eventPicture	
+	picture = ES_THRONEROOM_1_eventPicture	
 	
 	fire_only_once = yes
 	
 	trigger = {
 		NOT = { is_year = 65 }
+		OR = {
+		culture_group = high_elves_cg
+		culture_group = snow_elves_cg
+		}
+		OR = {
 		owns = 271
+		owns = 1206
+		owns = 1510
+		owns = 1379
+		owns = 1313
+		}
     }
 
 	mean_time_to_happen = {
-		days = 1		
+		days = 23725		
 	}
 
 	option = {
 		name = "es_1_scenario.1.a"
-		ai_chance = { factor = 25 }
-		every_owned_province = {
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "01_focus_on_war"
+		duration = 9125
+		}
+		if = {
 		limit = {
-		OR = {
-		region = central_cyrodiil_lr
+		owns = 271
+		}
+		every_province = {
+		limit = {
+		region = central_syrodiil_lr
+		}
+		add_claim = ROOT
+		}
+		}
+		if = {
+		limit = {
+		owns = 1379
+		}
+		every_province = {
+		limit = {
 		region = hammerfell_lr
 		}
+		add_claim = ROOT
 		}
-		add_core = ROOT
 		}
-		set_global_flag = dawn_era_elven_claims_flag
+		if = {
+		limit = {
+		owns = 1313
+		}
+		every_province = {
+		limit = {
+		culture = nord
+		}
+		add_claim = ROOT
+		}
+		}
 	}
 	option = {
 		name = "es_1_scenario.1.b"	
-		ai_chance = { factor = 50 }
-		every_country = {
-		limit = {
-		capital_scope = {
-		OR = {
-		region = central_cyrodiil_lr
-		region = hammerfell_lr
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "01_focus_on_trade"
+		duration = 9125
 		}
-		}
-		}
-		add_truce_with = ROOT
-		hidden_effect = { add_truce_with = FROM }
-		}
-		set_global_flag = dawn_era_indepandance_flag
-		add_prestige = 10
 	}	
 	option = {
-		name = "es_1_scenario.1.a"
-		ai_chance = { factor = 25 }
-		create_alliance = CB8
-		create_alliance = HB3
-		set_global_flag = dawn_era_triumvirate_allience_flag
-		add_opinion = {
-        who = CB8
-        modifier = es_1_triumvirate
-        }
-		add_opinion = {
-        who = HB3
-        modifier = es_1_triumvirate
-        }
+		name = "es_1_scenario.1.c"
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "01_focus_on_internal_sphere"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_1_scenario.1.e"
+		ai_chance = { factor = 0 }
+		add_prestige = 5
 	}
 }
 
@@ -70,90 +95,102 @@ country_event = {
 	id = es_1_scenario.2
 	title = es_1_scenario.2.t
 	desc = es_1_scenario.2.d
-	picture = MONGOL_BANNERS_eventPicture	
+	picture = ES_WAR_IS_NEAR_eventPicture	
 	
 	fire_only_once = yes
 	
 	trigger = {
-		NOT = { is_year = 65 }
-		OR = {
-        owns = 1206	
-        owns = 1510	
-		}
-		OR = {
-		has_global_flag = dawn_era_elven_claims_flag
-		has_global_flag = dawn_era_indepandance_flag
-		has_global_flag = dawn_era_triumvirate_allience_flag
-		}
+		culture_group = snow_elves_cg
+		owns = 952
     }
 
 	mean_time_to_happen = {
-		days = 1		
+		days = 23725		
 	}
 
 	option = {
 		name = "es_1_scenario.2.a"
-		trigger = {
-		has_global_flag = dawn_era_elven_claims_flag
-		}
-		every_country = {
-		limit = {
-		capital_scope = {
-		OR = {
-		region = central_cyrodiil_lr
-		region = hammerfell_lr
-		}
-		}
-		}
-		add_country_modifier = {
-		name = "01_prepare_for_war"
-		duration = 3650
-		}
-		}
+		ai_chance = { factor = 33 }
+		add_trust = {
+        who = NB0
+        value = 50
+        mutual = yes
+        }
 	}
 	option = {
-		name = "es_1_scenario.2.b"	
-		trigger = {
-		has_global_flag = dawn_era_indepandance_flag
-		}
-		every_country = {
-		limit = {
-		capital_scope = {
-		OR = {
-		region = central_cyrodiil_lr
-		region = hammerfell_lr
-		}
-		}
-		}
+		name = "es_1_scenario.2.b"
+		ai_chance = { factor = 33 }
+		create_alliance = MA5
+		add_prestige = -25
+	}
+	option = {
+		name = "es_1_scenario.2.b"
+		ai_chance = { factor = 33 }
+		create_alliance = MB9
+		add_prestige = -25
+	}
+	option = {
+		name = "es_1_scenario.1.c"
+		ai_chance = { factor = 0 }
+		add_prestige = 5
+	}
+}
+
+country_event = {
+	id = es_1_scenario.3
+	title = es_1_scenario.3.t
+	desc = es_1_scenario.3.d
+    picture = ES_ELDENROOT_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		culture_group = bosmer_cg
+		owns = 820
+    }
+
+	mean_time_to_happen = {
+		days = 23725		
+	}
+
+	option = {
+		name = "es_1_scenario.3.a"
+		ai_chance = { factor = 50 }
+		add_prestige = -50
+		define_ruler = {
+        name = "Eplear"
+        dynasty = "Camoran"
+        adm = 1
+        dip = 3
+        mil = 7
+        age = 35
+        claim = 100
+        }
+		define_heir = {
+        dynasty = "Camoran"
+        age = 1
+        adm = 2
+        dip = 3
+        mil = 2
+        claim = 100   
+        }
+		define_consort = {
+        culture = bosmer
+        adm = 7
+        dip = 3
+        mil = 1
+        female = yes
+        }
+	}
+	option = {
+		name = "es_1_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_stability = -3
+		add_prestige = 25
 		add_country_modifier = {
-		name = "01_indepandance"
+		name = "01_camoran_unrest"
 		duration = 3650
 		}
-		}
-	}	
-	option = {
-		name = "es_1_scenario.2.c"
-		trigger = {
-		has_global_flag = dawn_era_triumvirate_allience_flag
-		}
-		add_opinion = {
-        who = SA6
-        modifier = es_1_triumvirate
-        }
-		if = {
-		limit = { tag = CB8 }
-		add_opinion = {
-        who = HB3
-        modifier = es_1_triumvirate
-        }
-		create_alliance = HB3
-		}
-		else = {
-		add_opinion = {
-        who = CB8
-        modifier = es_1_triumvirate
-        }
-		create_alliance = CB8
-		}
 	}
+	
 }

@@ -190,6 +190,12 @@ sea_of_dreams_sr = {
  }
 }
 
+new_sea_lr = {
+ areas = {
+ new_sea_la
+ }
+}
+
 pyandonea_lr = {
  areas = {
  pyandonea_1_la

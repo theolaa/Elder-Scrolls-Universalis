@@ -176,6 +176,11 @@ entity = {
 }
 
 entity = {
+	name = "tradenode_terrain"
+	pdxmesh = "tradenode_terrain"
+}
+
+entity = {
 	name = "coin"
 	pdxmesh = "coin"
 }

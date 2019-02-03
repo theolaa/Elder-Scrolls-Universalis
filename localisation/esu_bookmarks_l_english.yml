@@ -6,10 +6,50 @@
  01_prepare_for_war:0 "Prepare for War"
  01_indepandance:0 "Independace"
  
- es_1_scenario.1.t:0 "Future of Former Colonies"
- es_1_scenario.1.d:0 "For centuries, the center of the world was the Summerset Islands. However, nothing lasts forever under the sun of Magnus. And our colonies de facto gained independence. What do we have to do? Become friends? Do not notice them? Or start preparing for war?"
- es_1_scenario.1.a:0 "Prepare for War!"
- es_1_scenario.1.b:0 "Are you talking about those, who live among wastlands?"
- es_1_scenario.1.c:0 "We can accomplish much together..."
+ es_1_scenario.1.t:0 "Sunset of Merethic Era"
+ es_1_scenario.1.d:0 "For centuries elves ruled the Taamriel. However, nothing lasts forever under the sun of Magnus. But we will not allow time to sweep us to the side of history - we can still fight for power over this world... the only question is... which way?"
+ es_1_scenario.1.a:0 "We will conquer those who claim our place."
+ es_1_scenario.1.b:0 "The world is ruled by the one who rules the trade."
+ es_1_scenario.1.c:0 "If we will deal with internal problems, we will solve external ones."
+ es_1_scenario.1.e:0 "We still Rule this World."
  
- es_1_scenario.2.t:0 "Our Independance "
+ es_1_scenario.2.t:0 "Our Old Republic"
+ es_1_scenario.2.d:0 "For centuries, we ruled Solstheim, an island of stability in the midst of a sea of chaos. However, every year it becomes obvious that our security is under threat. And we need to decide with whom to stand back to back in the face of future evils."
+ es_1_scenario.2.a:0 "Stay with Nilheim."
+ es_1_scenario.2.b:0 "Side with Dwemers."
+ es_1_scenario.2.c:0 "Side with Ashlanders."
+ es_1_scenario.2.e:0 "Nothing threatens us."
+ 
+ es_1_scenario.3.t:0 "Threaty of Eldenroot"
+ es_1_scenario.3.d:0 "The long war for the throne of Valenwood ended with the signing of the treaty of Eldenroot, the provisions of which were guaranteed: the federal structure of the Kingdom, the non-interference of the Altmer in the internal affairs of Valenwood and the transfer of the throne to the Camoran dynasty. The first two positions have already been fulfilled ... only the third remains..."
+ es_1_scenario.3.a:0 "Glory to Camoran Dynasty!"
+ es_1_scenario.3.b:0 "This was not a peace treaty, but just a temporary truce!"
+ 
+ SECOND_DRAGON_WAR:0 "Second Dragon War"
+ SECOND_DRAGON_WAR_DESC:0 "Many years have passed since the slave fetters of the dragon priests were broken. It cost the lives of hundreds of heroes, thousands of warriors who followed them, and tens of thousands of those who did not wait for their return. But we forget the lessons of the past ... And once again people began to worship the damned in the hope of gaining power, wealth, or simply happiness. They raised mighty priests, restored shrines and temples, and began to kill those who tried to stop them. It seems that a new war is already inevitable."
+ 
+ es_2_scenario.1.t:0 "Rise of Dragon Cult"
+ es_2_scenario.1.d:0 "Years have passed since our brothers and sisters in faith were defeated at the hands of godless barbarians. Our rulers were destroyed, our warriors were killed, and thousands of people were driven into the barren lands of Atmora. But now everything has changed. We rose from the ashes. Glory to the Cult of the Dragons!"
+ es_2_scenario.1.a:0 "Glory to Dragon Cult!"
+ es_2_scenario.1.b:0 "Find the Dragon Batards and kill them all!"
+ 
+ es_2_scenario.3.t:0 "Priests want War"
+ es_2_scenario.3.d:0 "Our powerful rulers believe that the infidels have walked this land for too long. It's time to turn them on, or kill all those who resist."
+ es_2_scenario.3.a:0 "Glory to Dragon Cult!"
+ es_2_scenario.3.b:0 "We are not ready for Holy War yet..."
+ 
+ es_2_scenario.4.t:0 "Rise of the Fallen"
+ es_2_scenario.4.d:0 "Rumors do not lie. Dragon priests rose again from their graves and began to prepare for the next war. And we will have to accept this challenge, in the name of our ancestors, in the name of our freedom and in the future of our children."
+ es_2_scenario.4.a:0 "Prepare for War!"
+ es_2_scenario.4.b:0 "We have no reason to hide. Our rulers are finally back."
+ 
+ es_2_scenario.5.t:0 "Second Dragon War"
+ es_2_scenario.5.d:0 "The storm is gathering over Atmor. Dragon priests unleash another war against mortals. Do we remember our duty this time?"
+ es_2_scenario.5.a:0 "We will join our brothers!"
+ es_2_scenario.5.b:0 "Send the gold and the troops."
+ es_2_scenario.5.c:0 "This is not our war anymore."
+ 
+ DISLOYAL_DRAGON_PRIESTS:0 "Dragon Priests are disloyal."
+ 
+ SECOND_NORDIC_ELVEN_WAR:0 "Second Nordic-Elven War"
+ SECOND_NORDIC_ELVEN_WAR_DESC:0 "People came to Tamriel as refugees from the fading Atmora. Then they became full-fledged residents, having founded cities along the entire northern coast. Then came the Night of Tears, which claimed thousands of lives as well as humans and elves. But humans and elves were able to negotiate and live in a world ... which is now bursting at the seams."

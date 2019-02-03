@@ -48,4 +48,40 @@ spriteTypes = {
 		allwaystransparent = yes
 	} 
 	
+	spriteType = {
+		name = "ES_ELDENROOT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ELDENROOT_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_THRONEROOM_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_THRONEROOM_1_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_WAR_IS_NEAR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_WAR_IS_NEAR_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_RISE_OF_DRAGONS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_RISE_OF_DRAGONS_eventPicture.dds"
+		allwaystransparent = yes
+	} 
+	
+	spriteType = {
+		name = "ES_DRAGON_WAR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DRAGON_WAR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_WAR_WITH_DRAGONS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_WAR_WITH_DRAGONS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 }

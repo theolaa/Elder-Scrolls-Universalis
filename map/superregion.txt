@@ -53,6 +53,7 @@ eastern_ocean_superregion = {
 	sunken_sea_sr
 	great_akaviri_sea_sr
 	mediterranean_sea_sr
+	new_sea_lr
 }
 
 tamriel_ocean_superregion = {

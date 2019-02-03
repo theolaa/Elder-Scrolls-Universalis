@@ -1,5 +1,59 @@
 country_decisions = {
 
+    ge_increase_support = {
+	    major = yes
+		potential = {
+          always = yes
+          ai = no
+		  NOT = { has_dlc = "Rights of Man" }
+		}
+		allow = {
+		mil_power = 100
+			 OR = {
+		AND = {
+		government = monarchy
+		NOT = { legitimacy = 91 }
+		}
+		AND = {
+		government = republic
+		NOT = { republican_tradition = 91 }
+		}
+		AND = {
+		government = theocracy
+		has_dlc = "Common Sense"
+		NOT = { devotion = 91 }
+		}
+		AND = {
+		government = theocracy
+		NOT = { has_dlc = "Common Sense" }
+		NOT = { legitimacy = 91 }
+		}
+		AND = {
+		is_nomad = yes
+		has_dlc = "The Cossacks"
+		NOT = { horde_unity = 91 }
+		}
+		AND = {
+		is_nomad = yes
+		NOT = { has_dlc = "The Cossacks" }
+		NOT = { legitimacy = 91 }
+		}
+		AND = {
+		is_emperor_of_china = yes
+		NOT = { meritocracy = 91 }
+		}
+		}
+		}
+		effect = {
+		add_mil_power = -100
+		add_legitimacy = 10
+		add_republican_tradition = 10
+		add_devotion = 10
+		add_horde_unity = 10
+		add_meritocracy = 10
+		}
+	}
+
     points_menu_open = {
 	    major = yes
 		potential = {
