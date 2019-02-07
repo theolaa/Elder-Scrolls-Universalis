@@ -214,7 +214,7 @@ country_decisions = {
 		}
 		effect = {
 		
-		IF = {
+		if = {
         limit = {
         NOT = { inflation = 20 }		  
 		}		
@@ -222,7 +222,7 @@ country_decisions = {
 		add_inflation = 2.5
 		}
 		
-		IF = {
+		if = {
         limit = {
         NOT = { inflation = 35 }
 		inflation = 20		  
@@ -231,7 +231,7 @@ country_decisions = {
 		add_inflation = 2.5
 		}
 		
-		IF = {
+		if = {
         limit = {
         NOT = { inflation = 45 }
 		inflation = 35	  
@@ -240,7 +240,7 @@ country_decisions = {
 		add_inflation = 2.5
 		}
 		
-		IF = {
+		if = {
         limit = {
         NOT = { inflation = 50 }
 		inflation = 45	  
@@ -249,7 +249,7 @@ country_decisions = {
 		add_inflation = 2.5
 		}
 		
-		IF = {
+		if = {
         limit = {
 		inflation = 50	  
 		}		

@@ -121,12 +121,12 @@ alliance = {
 	first = MA5
 	second = NA2
 	start_date = 2.1.1
-	end_date = 9999.1.1
+	end_date = 221.1.1
 }
 
 alliance = {
 	first = MA5
 	second = NB1
 	start_date = 2.1.1
-	end_date = 9999.1.1
+	end_date = 221.1.1
 }

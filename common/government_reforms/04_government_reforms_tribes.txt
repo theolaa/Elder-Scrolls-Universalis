@@ -9,7 +9,7 @@ tribe_mechanic = {
 
 steppe_horde = {
 	icon = "horde_riding"
-	allow_normal_conversion = no
+	allow_normal_conversion = yes
 	tribal = yes
 	monarchy = yes
 	heir = yes

@@ -5082,7 +5082,7 @@ guiTypes = {
 
 		shieldtype = {
 			name ="LeftShield"
-			spriteType = "GFX_shield_fancy"
+			spriteType = "GFX_mega_flag"
 			position = { x= 37 y = 217 }
 		}
 		guiButtonType = {
@@ -5396,7 +5396,7 @@ guiTypes = {
 
 		shieldtype = {
 			name ="LeftShield"
-			spriteType = "GFX_shield_fancy"
+			spriteType = "GFX_mega_flag"
 			position = { x= 18 y = 78 }
 		}
 

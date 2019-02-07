@@ -84,4 +84,94 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	spriteType = {
+		name = "BATTLE_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/BATTLE_1_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SIEGE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SIEGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_RUINS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_RUINS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_MIGRATION_CAMP_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MIGRATION_CAMP_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BATTLE_2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/BATTLE_2_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_01_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_01_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_02_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_02_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_03_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_03_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ETHERIAL_ORE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ETHERIAL_ORE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DWEMERS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DWEMERS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BLACK_REACH_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BLACK_REACH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_LETTER_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_LETTER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_RELIGION_CONVERSION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_RELIGION_CONVERSION_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ALESSIAN_REVOLT"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ALESSIAN_REVOLT.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_MILITARY_CAMP_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MILITARY_CAMP_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 }

@@ -157,7 +157,7 @@ guiTypes = {
 		guiButtonType = {
 			position = { x= 111 y = 41 }
 			name = "player_shield"
-			quadTextureSprite ="GFX_shield_fancy"
+			quadTextureSprite ="GFX_mega_flag"
 		}
 		
 		iconType = {

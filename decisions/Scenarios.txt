@@ -1,0 +1,92 @@
+country_decisions = {
+
+    es_3_repair_walls_of_forelhost = {
+	    major = yes
+		potential = {
+        tag = FOR
+		NOT = { is_year = 140 }
+		1265 = {
+		NOT = { has_province_modifier = 03_walls_of_forelhost }
+		}
+		}
+		allow = {
+		tag = FOR
+		NOT = { is_year = 140 }
+		owns = 1265
+		1265 = {
+		NOT = { has_province_modifier = 03_walls_of_forelhost }
+		}
+		treasury = 100
+		}
+		effect = {
+		add_treasury = -100
+		1265 = {
+		add_province_modifier = {
+		name = "03_walls_of_forelhost"
+		duration = -1
+		}
+		add_building = fort_15th
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_5_enslave_elves = {
+		potential = {
+        any_owned_province = {
+		has_province_modifier = 05_elven_migration
+		}
+		}
+		allow = {
+		any_owned_province = {
+		has_province_modifier = 05_elven_migration
+		}
+		treasury = 250
+        }
+		effect = {
+		add_treasury = -250
+		random_owned_province = {
+		limit = {
+		has_province_modifier = 05_elven_migration
+		}
+		remove_province_modifier = 05_elven_migration
+		add_province_modifier = {
+		name = "05_elven_slaves"
+		duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_5_remove_slaves = {
+		potential = {
+        any_owned_province = {
+		has_province_modifier = 05_elven_slaves
+		}
+		}
+		allow = {
+		any_owned_province = {
+		has_province_modifier = 05_elven_slaves
+		NOT = { culture = snow_elven }
+		}
+		treasury = 500
+        }
+		effect = {
+		add_treasury = -500
+		random_owned_province = {
+		limit = {
+		has_province_modifier = 05_elven_slaves
+		}
+		remove_province_modifier = 05_elven_slaves
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

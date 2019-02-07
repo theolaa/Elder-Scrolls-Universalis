@@ -109,3 +109,24 @@ alliance = {
 	start_date = 68.1.1
 	end_date = 9999.1.1
 }
+
+vassal = {
+	first = WIN
+	second = FOR
+	start_date = 109.1.1
+	end_date = 139.1.1
+}
+
+alliance = {
+	first = WIN
+	second = FOR
+	start_date = 139.1.1
+	end_date = 189.1.1
+}
+
+alliance = {
+	first = WIN
+	second = REA
+	start_date = 139.1.1
+	end_date = 189.1.1
+}

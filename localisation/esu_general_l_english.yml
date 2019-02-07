@@ -50,6 +50,9 @@
  hold_grand_tournament_desc:0 " "
  
  republican_administration_title:0 "Adopt Republic Administration"
+ republican_administration_desc:0 " "
+ monarchic_administration_title:0 "Adopt Monarchic Administration"
+ monarchic_administration_desc:0 " "
  
  build_lubeck_krantor_1_title:0 "Build Grand Crane"
  move_capital_to_rome_1_title:0 "Move Capital to Red Mountain"

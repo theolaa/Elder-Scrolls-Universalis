@@ -1,0 +1,14 @@
+bookmark = {
+	name = ALESSIAN_REVOLT
+	desc = ALESSIAN_REVOLT_DESC
+	date = 242.1.1
+	
+	center = 1206
+	default = yes
+	
+	country = AYL
+	country = SKY
+	country = VAL
+	country = SUM
+	country = DWE
+}

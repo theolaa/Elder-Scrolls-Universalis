@@ -1,0 +1,85 @@
+namespace = es_0_scenario
+
+country_event = {
+	id = es_0_scenario.1
+	title = es_0_scenario.1.t
+	desc = es_0_scenario.1.d
+	picture = ES_01_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 20
+    }
+
+	mean_time_to_happen = {
+		days = 9125		
+	}
+
+	option = {
+		name = "es_0_scenario.1.a"
+		ai_chance = { factor = 100 }
+		add_prestige = 5
+		add_country_modifier = {
+		name = "00_far_legend"
+		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_0_scenario.2
+	title = es_0_scenario.2.t
+	desc = es_0_scenario.2.d
+	picture = ES_02_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 68
+		capital_scope = { continent = Tamriel }
+    }
+
+	mean_time_to_happen = {
+		days = 9125		
+	}
+
+	option = {
+		name = "es_0_scenario.2.a"
+		ai_chance = { factor = 100 }
+		random_owned_province = {
+		limit = {
+		is_capital = no
+		}
+		add_devastation = 100
+		}
+	}
+}
+
+country_event = {
+	id = es_0_scenario.3
+	title = es_0_scenario.3.t
+	desc = es_0_scenario.3.d
+	picture = ES_03_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 200
+		capital_scope = { continent = Tamriel }
+    }
+
+	mean_time_to_happen = {
+		days = 9125		
+	}
+
+	option = {
+		name = "es_0_scenario.2.a"
+		ai_chance = { factor = 100 }
+		add_prestige = 5
+		add_country_modifier = {
+		name = "00_tamrilian_tractates"
+		duration = 9125
+		}
+	}
+}

@@ -30,7 +30,7 @@ autocracy_reform = {
 
 celestial_empire = {
 	icon = "celestial_empire"
-	allow_normal_conversion = no
+	allow_normal_conversion = yes
 	potential = {
 		is_emperor_of_china = yes
 		NOT = { has_global_flag = empire_of_china_dismantled }

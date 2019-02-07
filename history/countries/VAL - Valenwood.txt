@@ -5,3 +5,58 @@ technology_group = tamriel_tg
 religion = bosmer_pantheon
 primary_culture = bosmer
 capital = 820
+
+68.1.1 = {
+	monarch = {
+		name = "Eplear"
+		dynasty = "Camoran"
+		birth_date = 2.1.1
+		adm = 1
+		dip = 3
+		mil = 7
+	}
+}
+
+72.1.1 = {
+	monarch = {
+		name = "Erthas"
+		dynasty = "Camoran"
+		birth_date = 54.1.1
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
+139.1.1 = {
+	monarch = {
+		name = "Orthelos"
+		dynasty = "Camoran"
+		birth_date = 115.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+
+195.1.1 = {
+    monarch = {
+		name = "Arganar"
+		dynasty = "Camoran"
+		birth_date = 176.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+208.1.1 = {
+    monarch = {
+		name = "Ulthorn"
+		dynasty = "Camoran"
+		birth_date = 192.1.1
+		adm = 3
+		dip = 5
+		mil = 5
+	}
+}

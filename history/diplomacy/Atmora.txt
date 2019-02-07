@@ -37,5 +37,5 @@ alliance = {
 	first = DA1
 	second = NA3
 	start_date = 2.1.1
-	end_date = 68.1.1
+	end_date = 109.1.1
 }

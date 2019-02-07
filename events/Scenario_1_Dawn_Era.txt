@@ -42,7 +42,7 @@ country_event = {
 		limit = {
 		region = central_syrodiil_lr
 		}
-		add_claim = ROOT
+		add_core = ROOT
 		}
 		}
 		if = {
@@ -102,6 +102,7 @@ country_event = {
 	trigger = {
 		culture_group = snow_elves_cg
 		owns = 952
+		NOT = { is_year = 109 }
     }
 
 	mean_time_to_happen = {
@@ -147,6 +148,7 @@ country_event = {
 	trigger = {
 		culture_group = bosmer_cg
 		owns = 820
+		NOT = { is_year = 68 }
     }
 
 	mean_time_to_happen = {

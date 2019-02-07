@@ -1,4 +1,34 @@
 ﻿l_english:
+
+ 01_focus_on_war:0 "Focus on War"
+ 01_focus_on_trade:0 "Focus on Trade"
+ 01_focus_on_internal_sphere:0 "Focus on Internal Sphere"
+ 01_camoran_unrest:0 "Camoran Unrest"
+ 02_prepare_for_war:0 "Prepare for War"
+ 03_prepare_for_war:0 "Prepare for War"
+ 03_walls_of_forelhost:0 "Walls of Forelhost"
+ 04_last_stand_defence:0 "Last Stand Defence Doctrine"
+ 04_fanatics_in_the_army:0 "Fanatics in the Army"
+ 05_religious_war:0 "Religious War"
+ 05_elven_migration:0 "Elven Migration"
+ 05_elven_slaves:0 "Elven Slaves"
+ 06_etherial_mine:0 "Etherial Mine"
+ 06_etherial_crisis:0 "Etherial Crisis"
+ 00_far_legend:0 "Far Legend"
+ 00_tamrilian_tractates:0 "Tamrilian Tractates"
+
+ es_0_scenario.1.t:0 "The Isle of Artaeum"
+ es_0_scenario.1.d:0 "The Breton aurthor Voernet writes a tale about magnoficant island of Artaem - the home of mysterious Psijic Order."
+ es_0_scenario.1.a:0 "We will find it!"
+ 
+ es_0_scenario.2.t:0 "Visit from Atmora"
+ es_0_scenario.2.d:0 "Yesterday one of our cities was raided by two Atmoran ships. However, witnesses claim that the decks of the ships were laden with crew corpses. It seems that they died of hunger and hypothermia."
+ es_0_scenario.2.a:0 "Is this the end of Atmora?"
+ 
+ es_0_scenario.3.t:0 "Tamrilean Tractates"
+ es_0_scenario.3.d:0 "Khosey completed his greatest creation - Tamrilean Tractates."
+ es_0_scenario.3.a:0 "I definetly should read it."
+
  DAWN_OF_FIRST_ERA:0 "Dawn of First Era"
  DAWN_OF_FIRST_ERA_DESC:0 "The dawn of the First Era is the sunset of the elven hegemony in Tamriel. In Valenwood, another war of succession ends, putting a representative of the Camoran dynasty on a wooden throne. Taking advantage of this, the Ayleid Territories were able to gain independence and create own state around the White-Gold Tower. The Colonies in Hammerfell, united around the city of Illiat Bay, Santiel, could also feel the wind of freedom. Even the Hegemony of Direnii, which could barely hold the territory in the North of the country, could not prevent this. The White Elfs are also doing badly, as most of their territory is already under the control of settlers from Atmora."
  
@@ -53,3 +83,115 @@
  
  SECOND_NORDIC_ELVEN_WAR:0 "Second Nordic-Elven War"
  SECOND_NORDIC_ELVEN_WAR_DESC:0 "People came to Tamriel as refugees from the fading Atmora. Then they became full-fledged residents, having founded cities along the entire northern coast. Then came the Night of Tears, which claimed thousands of lives as well as humans and elves. But humans and elves were able to negotiate and live in a world ... which is now bursting at the seams."
+ 
+ es_3_scenario.1.t:0 "Nordic-Elven Crisis"
+ es_3_scenario.1.d:0 "Years passed, after the conclusion of peace, which ended the first war with the Nords. We accepted these shameful conditions in the hope that it is possible to negotiate with the new neighbor in the future. However, the continuing expansion of the Nords to the south leaves us no choice but to start a new war."
+ es_3_scenario.1.a:0 "Let's smash this bastards!"
+ es_3_scenario.1.b:0 "War cannot be an answer to any question... We should try to talk."
+ 
+ es_3_scenario.2.t:0 "War is Near"
+ es_3_scenario.2.d:0 "Our spies report that the elves are planning another provocation on the border, and even a full-scale war. The only question is ... will they take this step?"
+ es_3_scenario.2.a:0 "Let's prepare to the conflict..."
+ es_3_scenario.2.b:0 "They are hoping to crush us? It is a joke."
+ 
+ es_3_repair_walls_of_forelhost_title:0 "Repair Walls of Forelhost"
+ es_3_repair_walls_of_forelhost_desc:0 " "
+ 
+ THIRD_NORDIC_ELVEN_WAR:0 "Third Nordic-Elven War"
+ THIRD_NORDIC_ELVEN_WAR_DESC:0 "Elves have always been a threat to humans. False, envious, intolerant. We lived under their yoke, suffered defeats from their armies, bowed before their every whim. But it's time to put an end to this."
+ 
+ es_4_scenario.1.t:0 "Proposal of Randagulf"
+ es_4_scenario.1.d:0 "The elves are broken. They lost most of their territories and almost all of their fighting spirit. Randagulf, your faithful commander, believes that the time is right to end the suffering of this people."
+ es_4_scenario.1.a:0 "Indeed... it's time to end our rivalry."
+ es_4_scenario.1.b:0 "Enough Blood!"
+ 
+ es_4_scenario.2.t:0 "Last Stand Doctrine"
+ es_4_scenario.2.d:0 "Nords are a threat to us. It is obvious. Their art of warfare ... is impressive. Therefore, our generals are proposing to adopt a new doctrine that will help change the course of the war."
+ es_4_scenario.2.a:0 "Better find a good general."
+ es_4_scenario.2.b:0 "Gods will be proud of our Warriors!"
+ 
+ es_4_scenario.3.t:0 "Fanatics in the Army"
+ es_4_scenario.3.d:0 "The clergy believes that our army ... is not fanatical in its intentions. Of course, they offer their assistance in this matter. But ... should we agree?"
+ es_4_scenario.3.a:0 "Of cause!"
+ es_4_scenario.3.b:0 "I do not think so..."
+ 
+ es_4_scenario.4.t:0 "Eastern Frontiers"
+ es_4_scenario.4.d:0 "The territories in the east belong to peoples who do not seek to inhabit them, fearing the invasion of elves. At the same time, our people huddle in the tiny mountain valleys. Somehow this is not very fair ..."
+ es_4_scenario.4.a:0 "We will fight for living space!"
+ es_4_scenario.4.b:0 "Everything is fine... at least for now."
+ 
+ es_4_scenario.5.t:0 "Applewatch Path"
+ es_4_scenario.5.d:0 "Controll under Applewatch path is vital importance, since it is the only connection between Cyrodiil and Skyrim. We must take it under our controll!"
+ es_4_scenario.5.a:0 "Prepare the invasion!"
+ es_4_scenario.5.b:0 "We are not intrested in it."
+ 
+ NARFINSEL_SCHISM:0 "Narfinsel Schism"
+ NARFINSEL_SCHISM_DESC:0 "The followers of Aedra and Daedra have existed in Cyrodiil since the arrival of the elves into these lands. For a long time they lived side by side and could find opportunities for the peaceful resolution of all disputes that arose. However, over time, the number of contradictions accumulated. And in the end an event occurred, later called, the Schism of Narfinsel."
+ 
+ es_5_scenario.1.t:0 "Narfinsel Schism"
+ es_5_scenario.1.d:0 "This night the dirty pagans crushed several shrines of our Daedric lords. Now they are going around the capital, demanding to choose the "true path", threatening to raise the country's population to revolt otherwise. It is unacceptable!"
+ es_5_scenario.1.a:0 "Crush the pagans!"
+ es_5_scenario.1.b:0 "Maybe it is time to worship Aedra?"
+ 
+ es_5_scenario.2.t:0 "Elven Migration"
+ es_5_scenario.2.d:0 "More and more elves are migrating to our country. If we settle them in some area, they will thank us for it. Does it sound profitable?"
+ es_5_scenario.2.a:0 "They are Welcomed!"
+ es_5_scenario.2.b:0 "Sorry, but not this time..."
+ 
+ es_5_scenario.3.t:0 "Scouring of Wendelbek"
+ es_5_scenario.3.d:0 "Today we learned that a battle took place near Wendelbek between the followers of Aedra and the Daedra. Despite the fact that the Daedra fans managed to win, the death toll is incalculable."
+ es_5_scenario.3.a:0 "It is a Tragedy for our Nation..."
+ 
+ es_5_enslave_elves_title:0 "Enslave Elves"
+ es_5_enslave_elves_desc:0 " "
+ es_5_remove_slaves_title:0 "Remove Slaves"
+ es_5_remove_slaves_desc:0 " "
+ 
+ es_5_scenario.4.t:0 "Herecy in a province"
+ es_5_scenario.4.d:0 "Herecy spreads to one of our provinces. Majority of population is already converted. We must stop it!"
+ es_5_scenario.4.a:0 "Disaster!"
+ 
+ ETHERIAL_WAR:0 "Etherial Crisis"
+ ETHERIAL_WAR_DESC:0 "The Etherial Crisis marked a series of events that followed the discovery of a new mineral, Etherium, in the depths of the Black Reach and which resulted in rivalry between Dwemer clans in many of their cities for possessing this rare resource."
+ 
+ es_6_scenario.1.t:0 "Discover of Etherial Ore"
+ es_6_scenario.1.d:0 "In the caves of the Black Reach, there was an absolutely amazing discovery - the colossal deposit of a new mineral. It has unique properties that can be used in all areas of life, science and industry. It is assumed that this mineral came to Nirn from space, along with a meteorite, from the impact of which both the Black Reach itself and the lake Yorgrim above it were formed, therefore this mineral was named Ether."
+ es_6_scenario.1.a:0 "Magnificent!"
+ 
+ es_6_scenario.2.t:0 "Etheriel Crisis"
+ es_6_scenario.2.d:0 "Obviously, a wonderful mineral is not enough for everyone. Although the deposits are rich, they will not be able to satisfy even the half Tamriel. This is understood not only by us, but also by numerous clans that have already begun to fight among themselves for the newly mined crumbs."
+ es_6_scenario.2.a: "Awful!"
+ 
+ es_6_scenario.3.t:0 "Intervantion into Black Reach"
+ es_6_scenario.3.d:0 "We can try to occupy the Black Reach, as ruling clans want. However, we can remove our claims from it and quit the battle... as it seams the price can be too high."
+ es_6_scenario.3.a:0 "Never!"
+ es_6_scenario.3.b:0 "There is no too high price for peace..."
+ 
+ es_6_scenario.4.t:0 "Ultimatum from the Neighbour"
+ es_6_scenario.4.d:0 "One of our neighbours threatens to declare a war on us, if we do not remove our claims from Black Reach."
+ es_6_scenario.4.a:0 "We will fight for our country!"
+ es_6_scenario.4.b:0 "Accept the Ultimatum."
+ 
+ ALESSIAN_REVOLT:0 "Alessian Revolt"
+ ALESSIAN_REVOLT_DESC:0 "Nedian people fell under dependence on the Ayleids, which later become a slavery, many centuries ago. Their labor was used in production, agriculture, they were sacrificed to harsh gods ... and they were simply bullied. Year after year. From century to century. The uprising led by Alessia sprang from a spark. But the flame from it will destroy the verified foundations for centuries."
+ 
+ es_7_scenario.1.t:0 "Alessian Revolt"
+ es_7_scenario.1.d:0 "Slaves raised another uprising against our just and legitimate rule. We have already mobilized troops and sent them towards the rebels. However, unlike the previous uprisings, we are forced to note the excessive number of rebels and their high fighting spirit, which may be due to the high popularity of the leaders of the uprising. Their names are being clarified."
+ es_7_scenario.1.a:0 "We cannot stop the rebels, they have captured White-Gold Tower!"
+ es_7_scenario.1.b:0 "We cannot defeat the rebels, so we can try to fulfill there demands."
+ es_7_scenario.1.c:0 "Death to all rebellions!"
+ 
+ es_7_scenario.2.t:0 "Slave Revolt"
+ es_7_scenario.2.d:0 "Now we can definatly confirm that new slave revolt is happening. We can join rebels to fight agains our masters. Or we can wait and try to start our own war later."
+ es_7_scenario.2.a:0 "Join the revolt!"
+ es_7_scenario.2.b:0 "We will wait..."
+ 
+ es_7_scenario.3.t:0 "Slave revolt in Cyrodiil"
+ es_7_scenario.3.d:0 "A great slave rebellion is now going all over Cyrodiil. We can try to help the rebels. As it is said: 'The enemy of my enemy, my friend.'"
+ es_7_scenario.3.a:0 "Help the rebellion!"
+ es_7_scenario.3.b:0 "Not this time..."
+ 
+ es_7_scenario.4.t:0 "Fall of Ayleids"
+ es_7_scenario.4.d:0 "Obviously, the Ayleids are weaker than ever. Their end is near. We can use this to regain power over a former colony."
+ es_7_scenario.4.a:0 "We will return Cyrodiil!"
+ es_7_scenario.4.b:0 "We should focus on other problems..."

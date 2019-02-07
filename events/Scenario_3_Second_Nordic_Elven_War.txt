@@ -1,0 +1,115 @@
+namespace = es_3_scenario
+
+country_event = {
+	id = es_3_scenario.1
+	title = es_3_scenario.1.t
+	desc = es_3_scenario.1.d
+	picture = BATTLE_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = snow_elves_cg
+		is_year = 109
+		NOT = { is_year = 139 }
+		owns = 1313
+    }
+
+	mean_time_to_happen = {
+		days = 10950		
+	}
+
+	option = {
+		name = "es_3_scenario.1.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		culture = nord
+		}
+		add_claim = ROOT
+		}
+		if = {
+		limit = { exists = NA3 }
+		declare_war_with_cb = {
+				who = NA3
+				casus_belli = cb_gn_empire
+		}
+		}
+		if = {
+		limit = { exists = SKY }
+		declare_war_with_cb = {
+				who = SKY
+				casus_belli = cb_gn_empire
+		}
+		}
+		if = {
+		limit = { exists = WSK }
+		declare_war_with_cb = {
+				who = WSK
+				casus_belli = cb_gn_empire
+		}
+		}
+		if = {
+		limit = { exists = ESK }
+		declare_war_with_cb = {
+				who = ESK
+				casus_belli = cb_gn_empire
+		}
+		}
+	}
+	option = {
+		name = "es_3_scenario.1.b"
+		ai_chance = { factor = 50 }
+		add_stability = 1
+		add_prestige = -25
+		if = {
+		limit = { exists = NA3 }
+		add_truce_with = NA3
+		}
+		if = {
+		limit = { exists = SKY }
+		add_truce_with = SKY
+		}
+		if = {
+		limit = { exists = WSK }
+		add_truce_with = WSK
+		}
+		if = {
+		limit = { exists = ESK }
+		add_truce_with = ESK
+		}
+	}
+}
+
+country_event = {
+	id = es_3_scenario.2
+	title = es_3_scenario.2.t
+	desc = es_3_scenario.2.d
+	picture = ES_WAR_IS_NEAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = northern_cg
+		is_year = 109
+		NOT = { is_year = 139 }
+		owns = 1275
+    }
+
+	mean_time_to_happen = {
+		days = 2190		
+	}
+
+	option = {
+		name = "es_3_scenario.2.a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "03_prepare_for_war"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_3_scenario.2.b"
+		ai_chance = { factor = 50 }
+	}
+}

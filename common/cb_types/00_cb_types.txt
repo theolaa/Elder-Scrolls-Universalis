@@ -945,6 +945,13 @@ cb_gn_empire = {
 		NOT = { alliance_with = FROM }
 		is_great_power = yes
 		FROM = { is_great_power = yes }
+		OR = {
+		ai = no
+		AND = {
+		ai = yes
+		FROM = { ai = no }
+		}
+		}
 	}
 
 	war_goal = ge_empire

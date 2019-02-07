@@ -1,0 +1,34 @@
+native_basic_reform = {
+	basic_reform = yes
+	native_mechanic = yes
+	allow_migration = yes
+	valid_for_new_country = no
+	allow_convert = yes
+	republican_name = yes
+	royal_marriage = no
+	fixed_rank = 1
+	modifiers = {
+		stability_cost_modifier = -0.33
+		land_maintenance_modifier = -0.25
+		global_institution_spread = -0.35
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	nation_designer_trigger = {
+	    OR = {
+		culture_group = northern_cg
+		culture_group = half_blood_cg
+		culture_group = orsimer_cg
+		culture_group = khajiiti_cg
+		culture_group = imga_cg
+		culture_group = marsh_cg
+		culture_group = kothringi_cg
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			tribal_federation_mechanic
+		}
+	}
+}

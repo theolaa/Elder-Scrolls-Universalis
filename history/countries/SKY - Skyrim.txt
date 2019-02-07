@@ -5,3 +5,47 @@ technology_group = tamriel_tg
 religion = nordic_pantheon
 primary_culture = nord
 capital = 1275
+
+139.1.1 = {
+	monarch = {
+		name = "Harald"
+		dynasty = "Ysgramor"
+		birth_date = 113.1.1
+		adm = 4
+		dip = 7
+		mil = 5
+	}
+}
+
+221.1.1 = {
+	monarch = {
+		name = "Hjalmer"
+		dynasty = "Ysgramor"
+		birth_date = 143.1.1
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+
+222.1.1 = {
+	monarch = {
+		name = "Vrage"
+		dynasty = "Ysgramor"
+		birth_date = 172.1.1
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+240.1.1 = {
+	monarch = {
+		name = "Gellir"
+		dynasty = "Ysgramor"
+		birth_date = 210.1.1
+		adm = 4
+		dip = 5
+		mil = 7
+	}
+}

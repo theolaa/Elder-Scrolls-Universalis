@@ -1,0 +1,258 @@
+namespace = es_7_scenario
+
+country_event = {
+	id = es_7_scenario.1
+	title = es_7_scenario.1.t
+	desc = es_7_scenario.1.d
+	picture = ES_ALESSIAN_REVOLT
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 242
+		NOT = { is_year = 266 }
+		NOT = { culture_group = cyrodiil_cg }
+		owns = 1206
+    }
+
+	mean_time_to_happen = {
+		days = 8760	
+	}
+
+	option = {
+		name = "es_7_scenario.1.a"
+		ai_chance = { factor = 33 }
+		change_tag = ALE
+		change_religion = eight_divines
+		every_province = {
+		limit = {
+		owned_by = ROOT
+		}
+		change_religion = eight_divines
+		}
+		every_country = {
+		limit = {
+		vassal_of = ROOT
+		}
+		change_religion = eight_divines
+		}
+	}
+	option = {
+		name = "es_7_scenario.1.b"
+		ai_chance = { factor = 33 }
+		set_global_flag = alessian_rebellion_flag
+		every_province = {
+		limit = {
+		owned_by = ROOT
+		}
+		change_religion = eight_divines
+		}
+        every_country = {
+		limit = {
+		vassal_of = ROOT
+		}
+		change_religion = eight_divines
+		}
+	}
+	option = {
+		name = "es_7_scenario.1.c"
+		ai_chance = { factor = 33 }
+		set_global_flag = alessian_rebellion_flag
+		add_stability = -1
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+		random_owned_province = {
+		limit = { is_capital = no }
+		cede_province = ALE
+		change_religion = eight_divines
+		}
+	}
+}
+
+country_event = {
+	id = es_7_scenario.2
+	title = es_7_scenario.2.t
+	desc = es_7_scenario.2.d
+	picture = GE_HRE_CRUSADE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_global_flag = alessian_rebellion_flag
+		culture_group = cyrodiil_cg
+		OR = {
+		ai = no
+		is_vassal = yes
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 1	
+	}
+
+	option = {
+		name = "es_7_scenario.2.a"
+		trigger = { 
+		OR = {
+		ai = no
+		NOT = { exists = ALE }
+		}
+		}
+		ai_chance = { factor = 50 }
+		change_tag = ALE
+		change_religion = eight_divines
+		every_province = {
+		limit = {
+		owned_by = ROOT
+		}
+		change_religion = eight_divines
+		}
+	}
+	option = {
+		name = "es_7_scenario.2.a"
+		trigger = { ai = yes }
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		owned_by = ROOT
+		}
+		change_religion = eight_divines
+		}
+		ALE = {
+		inherit = ROOT
+		}
+	}
+	option = {
+		name = "es_7_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+	}
+}
+
+country_event = {
+	id = es_7_scenario.3
+	title = es_7_scenario.3.t
+	desc = es_7_scenario.3.d
+	picture = ES_MILITARY_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 242
+		NOT = { is_year = 266 }
+		exists = ALE
+		OR = {
+		AND = {
+		culture_group = dwemer_cg
+		owns = 970
+		}
+		AND = {
+		culture_group = bosmer_cg
+		owns = 820
+		}
+		AND = {
+		culture_group = northern_cg
+		owns = 1275
+		}
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 3650	
+	}
+
+	option = {
+		name = "es_7_scenario.3.a"
+		ai_chance = { factor = 50 }
+		add_treasury = -500
+		add_manpower = -10
+		ALE = {
+		add_treasury = 500
+		add_manpower = 10
+		}
+	}
+	option = {
+		name = "es_7_scenario.3.b"
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = es_7_scenario.4
+	title = es_7_scenario.4.t
+	desc = es_7_scenario.4.d
+	picture = ES_THRONEROOM_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 242
+		NOT = { is_year = 266 }
+		exists = ALE
+		culture_group = high_elves_cg
+		owns = 271
+    }
+
+	mean_time_to_happen = {
+		days = 3650
+	}
+
+	option = {
+		name = "es_7_scenario.4.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = central_syrodiil_lr
+		}
+		add_core = ROOT
+		}
+	}
+	option = {
+		name = "es_7_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -25
+	}
+}

@@ -1,0 +1,68 @@
+namespace = ESU_DISCOVERY
+
+# Handle Discovery
+country_event = {
+	id = ESU_DISCOVERY.1
+	title = ESU_DISCOVERY.1.title
+	desc = USE_DISCOVERY.1.desc
+	picture = ASSASSINATION_eventPicture
+	
+    hidden = yes
+    
+	trigger = {
+        NOT = { has_country_flag = revealed_map }
+	}
+	
+	immediate = {   
+        set_country_flag = revealed_map
+    }
+	
+	option = {
+		name = ESU_DISCOVERY.1.option.a
+		
+		# Tamriel
+		# Pyandonea
+		# Yokuda
+		IF = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = tamriel_superregion
+						superregion = pyandonea_superregion
+						superregion = yokuda_superregion
+					}
+				}
+			}
+			
+			tamriel_superregion = {
+				discover_country = ROOT
+			}
+			pyandonea_superregion = {
+				discover_country = ROOT
+			}
+			yokuda_superregion = {
+				discover_country = ROOT
+			}
+			
+		}
+		
+		# Akavir
+		IF = {
+			limit = {
+				capital_scope = {
+					OR = {
+						superregion = akavir_superregion
+					}
+				}
+			}
+			akavir_superregion = {
+				discover_country = ROOT
+			}
+			atmora_superregion = {
+				discover_country = ROOT
+			}
+			
+		}
+    }
+}
+

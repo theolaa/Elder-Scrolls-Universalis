@@ -17,3 +17,14 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = WIN
 	add_core = WIN
 }
+
+139.1.1 = {
+	owner = SKY
+	controller = SKY
+	add_core = SKY
+}
+
+189.1.1 = {
+	religion = nordic_pantheon
+	culture = nord
+}

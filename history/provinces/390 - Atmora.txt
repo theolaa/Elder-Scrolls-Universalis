@@ -17,3 +17,10 @@ discovered_by = atmora_tg
 	controller = DRA
 	add_core = DRA
 }
+
+109.1.1 = {
+	owner = DB0
+	controller = DB0
+	add_core = DB0
+	religion = nordic_pantheon
+}

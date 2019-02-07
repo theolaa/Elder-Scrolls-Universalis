@@ -1,0 +1,195 @@
+namespace = es_4_scenario
+
+country_event = {
+	id = es_4_scenario.1
+	title = es_4_scenario.1.t
+	desc = es_4_scenario.1.d
+	picture = ES_SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = northern_cg
+		is_year = 139
+		NOT = { is_year = 189 }
+		owns = 1275
+    }
+
+	mean_time_to_happen = {
+		days = 18250		
+	}
+
+	option = {
+		name = "es_4_scenario.1.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		culture = snow_elven
+		}
+		add_claim = ROOT
+		}
+		define_general = {
+		name = "Randagulf"
+        shock = 5
+        fire = 5
+        manuever = 5
+        siege = 5
+        }
+	}
+	option = {
+		name = "es_4_scenario.1.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -10
+	}
+}
+
+country_event = {
+	id = es_4_scenario.2
+	title = es_4_scenario.2.t
+	desc = es_4_scenario.2.d
+	picture = ES_WAR_IS_NEAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = snow_elves_cg
+		is_year = 139
+		NOT = { is_year = 189 }
+		owns = 1288
+    }
+
+	mean_time_to_happen = {
+		days = 18250		
+	}
+
+	option = {
+		name = "es_4_scenario.2.a"
+		ai_chance = { factor = 50 }
+		define_general = {
+        shock = 5
+        fire = 5
+        manuever = 5
+        siege = 5
+        }
+	}
+	option = {
+		name = "es_4_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "04_last_stand_defence"
+		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_4_scenario.3
+	title = es_4_scenario.3.t
+	desc = es_4_scenario.3.d
+	picture = ES_DRAGON_WAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = snow_elves_cg
+		is_year = 139
+		NOT = { is_year = 189 }
+		tag = FOR
+		NOT = { has_country_modifier = 04_fanatics_in_the_army }
+    }
+
+	mean_time_to_happen = {
+		days = 1825		
+	}
+
+	option = {
+		name = "es_4_scenario.3.a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "04_fanatics_in_the_army"
+		duration = 18250
+		}
+	}
+	option = {
+		name = "es_4_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_estate_loyalty_modifier = {
+        estate = estate_church
+	    desc = DISLOYAL_DRAGON_PRIESTS
+        loyalty = -10
+        duration = 1825
+        }
+	}
+}
+
+country_event = {
+	id = es_4_scenario.4
+	title = es_4_scenario.4.t
+	desc = es_4_scenario.4.d
+	picture = ES_RUINS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = half_blood_cg
+		is_year = 139
+		NOT = { is_year = 189 }
+		owns = 1355
+    }
+
+	mean_time_to_happen = {
+		days = 18250	
+	}
+
+	option = {
+		name = "es_4_scenario.4.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = western_skyrim_lr
+		NOT = { owned_by = ROOT }
+		}
+		add_claim = ROOT
+		}
+		add_stability = -1
+	}
+	option = {
+		name = "es_4_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -15
+	}
+}
+
+country_event = {
+	id = es_4_scenario.5
+	title = es_4_scenario.5.t
+	desc = es_4_scenario.5.d
+	picture = BATTLE_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = high_elves_cg
+		is_year = 139
+		NOT = { is_year = 189 }
+		owns = 1206
+		NOT = { owns = 1287 }
+    }
+
+	mean_time_to_happen = {
+		days = 18250	
+	}
+
+	option = {
+		name = "es_4_scenario.5.a"
+		ai_chance = { factor = 50 }
+		1287 = {
+		add_core = ROOT
+		}
+	}
+	option = {
+		name = "es_4_scenario.5.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -5
+	}
+}
