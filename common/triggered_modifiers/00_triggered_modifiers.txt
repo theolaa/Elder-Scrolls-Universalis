@@ -18,7 +18,7 @@ east_akaviri_trade_route = {
 	}
 
 	trigger = {
-		has_discovered = 602
+		has_discovered = 702
 		num_of_ports = 5
 		has_idea = quest_for_the_new_world
 		any_active_trade_node = {

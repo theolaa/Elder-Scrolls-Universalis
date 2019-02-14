@@ -316,7 +316,7 @@ free_city = {
 		development_cost = -0.10
 		max_absolutism = -25
 	}
-	fixed_rank = 1
+	fixed_rank = 4
 
 	custom_attributes = {
 		locked_government_type = yes

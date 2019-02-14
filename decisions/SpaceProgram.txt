@@ -3,12 +3,12 @@ country_decisions = {
 	start_space_program = {
 		major = yes
 		potential = {
-			always = no
-			total_development = 400
+			dip_tech = 70
+			total_development = 1000
 			NOT = { has_country_modifier = space_program }
 		}
 		allow = {
-			dip_tech = 88
+			dip_tech = 70
 			treasury = 10000
 			adm_power = 100
 			mil_power = 100
@@ -58,7 +58,7 @@ country_decisions = {
 		}
 		allow = {
 			has_country_modifier = space_program
-			dip_tech = 88
+			dip_tech = 70
 			treasury = 5000
 		}
 		effect = {
@@ -68,7 +68,6 @@ country_decisions = {
 			add_dip_power = 50
 			add_mil_power = 50
 			set_country_flag = satellite_into_orbit
-			custom_tooltip = "enables_more_space_missions"
 		}
 		ai_will_do = {
 			factor = 1
@@ -83,7 +82,7 @@ country_decisions = {
 		}
 		allow = {
 			has_country_modifier = space_program
-			dip_tech = 90
+			dip_tech = 70
 			treasury = 10000
 		}
 		effect = {
@@ -107,7 +106,7 @@ country_decisions = {
 		}
 		allow = {
 			has_country_modifier = space_program
-			dip_tech = 88
+			dip_tech = 70
 			treasury = 10000
 		}
 		effect = {
@@ -129,7 +128,7 @@ country_decisions = {
 		}
 		allow = {
 			has_country_modifier = space_program
-			dip_tech = 92
+			dip_tech = 70
 			treasury = 15000
 		}
 		effect = {
@@ -151,7 +150,7 @@ country_decisions = {
 		}
 		allow = {
 			has_country_modifier = space_program
-			dip_tech = 92
+			dip_tech = 70
 			treasury = 15000
 		}
 		effect = {

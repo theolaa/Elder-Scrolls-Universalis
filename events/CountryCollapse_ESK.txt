@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = NE1 }
 		NOT = { capital_scope = { area = skyrim_1_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_white_elves_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_1_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = NA1
 		}
 		create_vassal = NA1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_1_la
-		}
-		add_core = NE1
-		}
-		create_vassal = NE1
-		}
 		}
 		
 		if = {
@@ -66,10 +52,6 @@ country_event = {
 		NOT = { exists = NE2 }
 		NOT = { capital_scope = { area = skyrim_2_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_2_la
@@ -77,16 +59,6 @@ country_event = {
 		add_core = NA2
 		}
 		create_vassal = NA2
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_2_la
-		}
-		add_core = NE2
-		}
-		create_vassal = NE2
-		}
 		}
 		
 		if = {
@@ -115,10 +87,6 @@ country_event = {
 		NOT = { exists = NE4 }
 		NOT = { capital_scope = { area = skyrim_4_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_white_elves_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_4_la
@@ -126,16 +94,6 @@ country_event = {
 		add_core = NA4
 		}
 		create_vassal = NA4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_4_la
-		}
-		add_core = NE4
-		}
-		create_vassal = NE4
-		}
 		}
 		
 		if = {
@@ -147,10 +105,6 @@ country_event = {
 		NOT = { exists = NE5 }
 		NOT = { capital_scope = { area = skyrim_5_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_white_elves_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_5_la
@@ -158,16 +112,6 @@ country_event = {
 		add_core = NA5
 		}
 		create_vassal = NA5
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_5_la
-		}
-		add_core = NE5
-		}
-		create_vassal = NE5
-		}
 		}
 		
 		if = {
@@ -213,10 +157,6 @@ country_event = {
 		NOT = { exists = NF0 }
 		NOT = { capital_scope = { area = skyrim_10_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_white_elves_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_10_la
@@ -224,16 +164,6 @@ country_event = {
 		add_core = NB0
 		}
 		create_vassal = NB0
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_10_la
-		}
-		add_core = NF0
-		}
-		create_vassal = NF0
-		}
 		}
 		
 		if = {
@@ -245,10 +175,6 @@ country_event = {
 		NOT = { exists = NF1 }
 		NOT = { capital_scope = { area = skyrim_11_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_11_la
@@ -256,16 +182,6 @@ country_event = {
 		add_core = NB1
 		}
 		create_vassal = NB1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_11_la
-		}
-		add_core = NF1
-		}
-		create_vassal = NF1
-		}
 		}
 		
 		if = {

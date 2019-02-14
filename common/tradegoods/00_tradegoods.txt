@@ -462,7 +462,11 @@ slaves = {
 		local_missionary_strength = 0.01
 	}
 	chance = {
+		factor = 10
+		modifier = {
 		factor = 0
+		continent = Tamriel 
+		}
 	}
 }
 

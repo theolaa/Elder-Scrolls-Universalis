@@ -40,7 +40,16 @@ es_country_collapse = {
 	}
 	
 	can_end = {
+	    OR = {
+		AND = {
+		ai = no
 		stability = 3
+		}
+		AND = {
+		ai = yes
+		stability = 0
+		}
+		}
 		is_at_war = no
 		NOT = { war_exhaustion = 1 }
 	}

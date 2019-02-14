@@ -94,6 +94,9 @@
  es_3_scenario.2.a:0 "Let's prepare to the conflict..."
  es_3_scenario.2.b:0 "They are hoping to crush us? It is a joke."
  
+ es_3_forelhost_title:0 "Release Forelhost"
+ es_3_forelhost_desc:0 "Release Forelhost"
+ 
  es_3_repair_walls_of_forelhost_title:0 "Repair Walls of Forelhost"
  es_3_repair_walls_of_forelhost_desc:0 " "
  

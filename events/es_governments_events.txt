@@ -78,11 +78,34 @@ country_event = {
 		government = theocracy
 		}
 		random_list = {
-		50 = {
+		33 = {
 		add_government_reform = leading_clergy_reform
 		}
-		50 = {
+		33 = {
 		add_government_reform = monastic_order_reform
+		}
+		33 = {
+		add_government_reform = religious_republic_reform
+		}
+		}
+		}
+		
+		if = {
+		limit = {
+		government = tribal
+		}
+		random_list = {
+		25 = {
+		add_government_reform = steppe_horde
+		}
+		25 = {
+		add_government_reform = tribal_federation
+		}
+		25 = {
+		add_government_reform = tribal_kingdom
+		}
+		25 = {
+		add_government_reform = tribal_despotism
 		}
 		}
 		}

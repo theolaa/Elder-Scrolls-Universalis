@@ -27,7 +27,7 @@ heretic_religion = {
 		}	
 	}
     global_unrest = 1
-	stability_cost_modifier = 0.10
+	diplomatic_reputation = -1.0
 	ae_impact = 0.10
 	
 }
@@ -78,9 +78,9 @@ daedra_religion = {
 		 }
 		 }	
 	}
-    global_unrest = 2.5
-	stability_cost_modifier = 0.15
-	ae_impact = 0.15
+    reduced_liberty_desire = -10
+	stability_cost_modifier = 0.25
+	harsh_treatment_cost = 0.35
 }
 
 
@@ -115,7 +115,7 @@ evil_religion = {
 		 }
 		}
 	}
-    global_unrest = 5
-	stability_cost_modifier = 0.25
+    diplomatic_reputation = -1.0
 	ae_impact = 0.25
+	harsh_treatment_cost = 0.50
 }

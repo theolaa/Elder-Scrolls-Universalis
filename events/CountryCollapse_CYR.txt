@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = CE3 }
 		NOT = { capital_scope = { area = cyrodiil_3_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_3_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = CA3
 		}
 		create_vassal = CA3
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_3_la
-		}
-		add_core = CE3
-		}
-		create_vassal = CE3
-		}
 		}
 		
 		if = {
@@ -66,10 +52,6 @@ country_event = {
 		NOT = { exists = CE4 }
 		NOT = { capital_scope = { area = cyrodiil_4_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_4_la
@@ -77,16 +59,6 @@ country_event = {
 		add_core = CA4
 		}
 		create_vassal = CA4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_4_la
-		}
-		add_core = CE4
-		}
-		create_vassal = CE4
-		}
 		}
 		
 		if = {
@@ -98,10 +70,6 @@ country_event = {
 		NOT = { exists = CE5 }
 		NOT = { capital_scope = { area = cyrodiil_5_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_5_la
@@ -109,16 +77,6 @@ country_event = {
 		add_core = CA5
 		}
 		create_vassal = CA5
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_5_la
-		}
-		add_core = CE5
-		}
-		create_vassal = CE5
-		}
 		}
 		
 		if = {
@@ -130,10 +88,6 @@ country_event = {
 		NOT = { exists = CE6 }
 		NOT = { capital_scope = { area = cyrodiil_6_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_6_la
@@ -141,16 +95,6 @@ country_event = {
 		add_core = CA6
 		}
 		create_vassal = CA6
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_6_la
-		}
-		add_core = CE6
-		}
-		create_vassal = CE6
-		}
 		}
 		
 		if = {
@@ -162,10 +106,6 @@ country_event = {
 		NOT = { exists = CF7 }
 		NOT = { capital_scope = { area = cyrodiil_17_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_17_la
@@ -173,16 +113,6 @@ country_event = {
 		add_core = CB7
 		}
 		create_vassal = CB7
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_17_la
-		}
-		add_core = CF7
-		}
-		create_vassal = CF7
-		}
 		}
 		
 		if = {
@@ -194,10 +124,6 @@ country_event = {
 		NOT = { exists = CF8 }
 		NOT = { capital_scope = { area = cyrodiil_18_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = ayleid_fall_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = cyrodiil_18_la
@@ -206,18 +132,7 @@ country_event = {
 		}
 		create_vassal = CB8
 		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = cyrodiil_18_la
 		}
-		add_core = CF8
-		}
-		create_vassal = CF8
-		}
-		}
-		
-	    }
 	}
 	
 	option = {

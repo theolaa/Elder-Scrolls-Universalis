@@ -78,7 +78,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-	    ai = no
+	    tag = RED
 	    NOT = { has_country_modifier = red_mountain_eruption }
 	}
 	

@@ -88,7 +88,6 @@ newer_idea_adm_modifiers = {
 		level_cost_3 = 9
 		level_cost_4 = 18	
 		level_cost_5 = 25
-		level_cost_5 = 25
         max_level = 5
 	}
 	custom_max_states = {

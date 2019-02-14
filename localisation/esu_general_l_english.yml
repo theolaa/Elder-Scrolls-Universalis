@@ -1,5 +1,46 @@
 ﻿l_english:
 
+ MORE_SLAVES:0 "More Slaves"
+ LESS_SLAVES:0 "Less Slaves"
+ MORE_WINE:0 "More Wine"
+ LESS_WINE:0 "Less Wine"
+ 
+ space_program:0 "Mundus Program"
+ space_station:0 "Mundus Station"
+ moon_base:0 "Secunda Base"
+ mars_base:0 "Masser Base"
+ 
+ enslaved_province:0 "Enslaved Province"
+ liberated_province:0 "Liberated Province"
+ banned_production:0 "Banned Production"
+ 
+ start_space_program:0 "Start Mundus Program"
+ end_space_program:0 "End Mundus Program"
+ send_a_satellite_into_orbit:0 "Organise the First Mundus Flight"
+ establish_a_space_station:0 "Establish a Mundus Station"
+ mission_to_moon:0 "Mission to Secunda"
+ establish_a_moon_colony:0 "Establish a Secunda Colony"
+ establish_a_mars_colony:0 "Establish a Masser Colony"
+ 
+ enslave_population_title:0 "Enslave Population"
+ enslave_population_desc:0 " "
+ liberate_population_title:0 "Liberate Population"
+ liberate_population_desc:0 " "
+ bannes_alcohol_production_title:0 "Ban Alchohol Production"
+ bannes_alcohol_production_desc:0 " "
+ remove_alcohol_ban_title:0 "Remove Alcohol Ban"
+ remove_alcohol_ban_desc:0 " "
+ bannes_narcotics_production_title:0 "Ban Narcotics Production"
+ bannes_narcotics_production_desc:0 " "
+ remove_narcotics_ban_title:0 "Remove Narcotics Ban"
+ remove_narcotics_ban_desc:0 " "
+
+ religious_republic_reform:0 "Religious Republic"
+ religious_republic_reform_desc:0 "The form of government in which the church plays an important role in governing the country and is its most important pillar."
+ 
+ military_order_reform:0 "Military Order"
+ military_order_reform_desc:0 "The form of government of various factions and organizations."
+
  ge_increase_support_title:0 "Increase Governmental Support"
  ge_increase_support_desc:0 " "
 
@@ -784,6 +825,14 @@
  kamal_nation_desc:0 " "
  dremora_nation_desc:0 " "
  kothringi_nation_desc:0 " "
+ 
+ RANK_4: "Level 4"
+ RANK_5: "Level 5"
+ RANK_6: "Level 6"
+ RANK_7: "Level 7"
+ RANK_8: "Level 8"
+ RANK_9: "Level 9"
+ RANK_10: "Level 10"
  
  es_government.t:0 " "
  es_government.d:0 " "

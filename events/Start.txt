@@ -16,12 +16,7 @@ country_event = {
 		months = 1
 	}
 	
-	immediate = {
-		add_country_modifier = {
-				name = "red_mountain_eruption"
-				duration = 36500
-				hidden = yes
-		}				
+	immediate = {		
 		if = {
 		limit = {
 		NOT = { is_year = 50 }
@@ -93,6 +88,11 @@ country_event = {
 	
 	immediate = {
 	    hidden_effect = {
+		add_country_modifier = {
+				name = "red_mountain_eruption"
+				duration = 36500
+				hidden = yes
+		}	
 		add_country_modifier = {
 				name = "rise_time"
 				duration = 365

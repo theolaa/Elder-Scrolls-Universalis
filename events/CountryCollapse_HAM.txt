@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = HE1 }
 		NOT = { capital_scope = { area = hammerfell_1_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_1_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = HA1
 		}
 		create_vassal = HA1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_1_la
-		}
-		add_core = HE1
-		}
-		create_vassal = HE1
-		}
 		}
 		
 		if = {
@@ -66,10 +52,6 @@ country_event = {
 		NOT = { exists = HE2 }
 		NOT = { capital_scope = { area = hammerfell_2_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_2_la
@@ -77,16 +59,6 @@ country_event = {
 		add_core = HA2
 		}
 		create_vassal = HA2
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_2_la
-		}
-		add_core = HE2
-		}
-		create_vassal = HE2
-		}
 		}
 		
 		if = {
@@ -98,10 +70,6 @@ country_event = {
 		NOT = { exists = HE3 }
 		NOT = { capital_scope = { area = hammerfell_3_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_3_la
@@ -109,16 +77,6 @@ country_event = {
 		add_core = HA3
 		}
 		create_vassal = HA3
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_3_la
-		}
-		add_core = HE3
-		}
-		create_vassal = HE3
-		}
 		}
 		
 		if = {
@@ -130,10 +88,6 @@ country_event = {
 		NOT = { exists = HE4 }
 		NOT = { capital_scope = { area = hammerfell_4_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_4_la
@@ -141,16 +95,6 @@ country_event = {
 		add_core = HA4
 		}
 		create_vassal = HA4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_4_la
-		}
-		add_core = HE4
-		}
-		create_vassal = HE4
-		}
 		}
 		
 		if = {
@@ -162,10 +106,6 @@ country_event = {
 		NOT = { exists = HE5 }
 		NOT = { capital_scope = { area = hammerfell_5_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_5_la
@@ -173,16 +113,6 @@ country_event = {
 		add_core = HA5
 		}
 		create_vassal = HA5
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_5_la
-		}
-		add_core = HE5
-		}
-		create_vassal = HE5
-		}
 		}
 		
 		if = {
@@ -194,10 +124,6 @@ country_event = {
 		NOT = { exists = HE6 }
 		NOT = { capital_scope = { area = hammerfell_6_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_6_la
@@ -205,16 +131,6 @@ country_event = {
 		add_core = HA6
 		}
 		create_vassal = HA6
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_6_la
-		}
-		add_core = HE6
-		}
-		create_vassal = HE6
-		}
 		}
 		
 		if = {
@@ -226,10 +142,6 @@ country_event = {
 		NOT = { exists = HE7 }
 		NOT = { capital_scope = { area = hammerfell_7_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_7_la
@@ -237,16 +149,6 @@ country_event = {
 		add_core = HA7
 		}
 		create_vassal = HA7
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_7_la
-		}
-		add_core = HE7
-		}
-		create_vassal = HE7
-		}
 		}
 		
 		if = {
@@ -258,10 +160,6 @@ country_event = {
 		NOT = { exists = HE8 }
 		NOT = { capital_scope = { area = hammerfell_8_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_8_la
@@ -269,16 +167,6 @@ country_event = {
 		add_core = HA8
 		}
 		create_vassal = HA8
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_8_la
-		}
-		add_core = HE8
-		}
-		create_vassal = HE8
-		}
 		}
 		
 		if = {
@@ -290,10 +178,6 @@ country_event = {
 		NOT = { exists = HE9 }
 		NOT = { capital_scope = { area = hammerfell_9_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_9_la
@@ -301,16 +185,6 @@ country_event = {
 		add_core = HA9
 		}
 		create_vassal = HA9
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_9_la
-		}
-		add_core = HE9
-		}
-		create_vassal = HE9
-		}
 		}
 		
 		if = {
@@ -322,27 +196,13 @@ country_event = {
 		NOT = { exists = HF0 }
 		NOT = { capital_scope = { area = hammerfell_10_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_10_la
 		}
-		add_core = HF0
+		add_core = HB0
 		}
-		create_vassal = HF0
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_10_la
-		}
-		add_core = HF0
-		}
-		create_vassal = HF0
-		}
+		create_vassal = HB0
 		}
 		
 		if = {
@@ -354,27 +214,13 @@ country_event = {
 		NOT = { exists = HF1 }
 		NOT = { capital_scope = { area = hammerfell_11_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_11_la
 		}
-		add_core = HF1
+		add_core = HB1
 		}
-		create_vassal = HF1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_11_la
-		}
-		add_core = HF1
-		}
-		create_vassal = HF1
-		}
+		create_vassal = HB1
 		}
 		
 		if = {
@@ -386,27 +232,13 @@ country_event = {
 		NOT = { exists = HF2 }
 		NOT = { capital_scope = { area = hammerfell_12_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_12_la
 		}
-		add_core = HF2
+		add_core = HB2
 		}
-		create_vassal = HF2
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_12_la
-		}
-		add_core = HF2
-		}
-		create_vassal = HF2
-		}
+		create_vassal = HB2
 		}
 		
 		if = {
@@ -418,27 +250,13 @@ country_event = {
 		NOT = { exists = HF3 }
 		NOT = { capital_scope = { area = hammerfell_13_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_13_la
 		}
-		add_core = HF3
+		add_core = HB3
 		}
-		create_vassal = HF3
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_13_la
-		}
-		add_core = HF3
-		}
-		create_vassal = HF3
-		}
+		create_vassal = HB3
 		}
 		
 		if = {
@@ -450,27 +268,13 @@ country_event = {
 		NOT = { exists = HF4 }
 		NOT = { capital_scope = { area = hammerfell_14_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = redguard_migration_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = hammerfell_14_la
 		}
-		add_core = HF4
+		add_core = HB4
 		}
-		create_vassal = HF4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = hammerfell_14_la
-		}
-		add_core = HF4
-		}
-		create_vassal = HF4
-		}
+		create_vassal = HB4
 		}
 		
 	    }

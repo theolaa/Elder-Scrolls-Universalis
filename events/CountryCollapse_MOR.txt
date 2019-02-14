@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = ME4 }
 		NOT = { capital_scope = { area = morrowind_4_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = morrowind_4_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = MA4
 		}
 		create_vassal = MA4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_4_la
-		}
-		add_core = ME4
-		}
-		create_vassal = ME4
-		}
 		}
 		
 		if = {
@@ -66,10 +52,6 @@ country_event = {
 		NOT = { exists = ME5 }
 		NOT = { capital_scope = { area = morrowind_5_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = morrowind_5_la
@@ -77,16 +59,6 @@ country_event = {
 		add_core = MA5
 		}
 		create_vassal = MA5
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_5_la
-		}
-		add_core = ME5
-		}
-		create_vassal = ME5
-		}
 		}
 		
 		if = {
@@ -98,10 +70,6 @@ country_event = {
 		NOT = { exists = ME6 }
 		NOT = { capital_scope = { area = morrowind_6_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = morrowind_6_la
@@ -109,16 +77,6 @@ country_event = {
 		add_core = MA6
 		}
 		create_vassal = MA6
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_6_la
-		}
-		add_core = ME6
-		}
-		create_vassal = ME6
-		}
 		}
 		
 		if = {
@@ -130,10 +88,6 @@ country_event = {
 		NOT = { exists = ME7 }
 		NOT = { capital_scope = { area = morrowind_7_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = morrowind_7_la
@@ -141,16 +95,7 @@ country_event = {
 		add_core = MA7
 		}
 		create_vassal = MA7
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_7_la
-		}
-		add_core = ME7
-		}
 		create_vassal = ME7
-		}
 		}
 		
 		if = {

@@ -1,5 +1,5 @@
 government = monarchy
-government_rank = 2
+government_rank = 3
 mercantilism = 1
 technology_group = akavir_tg
 religion = dragon_cult

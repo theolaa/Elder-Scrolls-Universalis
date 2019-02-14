@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = BE1 }
 		NOT = { capital_scope = { area = high_1_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_direnii_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = high_1_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = BA1
 		}
 		create_vassal = BA1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = high_1_la
-		}
-		add_core = BE1
-		}
-		create_vassal = BE1
-		}
 		}
 		
 		if = {
@@ -66,10 +52,6 @@ country_event = {
 		NOT = { exists = BE2 }
 		NOT = { capital_scope = { area = high_2_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_direnii_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = high_2_la
@@ -77,16 +59,6 @@ country_event = {
 		add_core = BA2
 		}
 		create_vassal = BA2
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = high_2_la
-		}
-		add_core = BE2
-		}
-		create_vassal = BE2
-		}
 		}
 		
 		if = {
@@ -98,10 +70,6 @@ country_event = {
 		NOT = { exists = BE3 }
 		NOT = { capital_scope = { area = high_3_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_direnii_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = high_3_la
@@ -109,16 +77,6 @@ country_event = {
 		add_core = BA3
 		}
 		create_vassal = BA3
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = high_3_la
-		}
-		add_core = BE3
-		}
-		create_vassal = BE3
-		}
 		}
 		
 		if = {
@@ -130,10 +88,6 @@ country_event = {
 		NOT = { exists = BE4 }
 		NOT = { capital_scope = { area = high_4_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_direnii_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = high_4_la
@@ -141,16 +95,6 @@ country_event = {
 		add_core = BA4
 		}
 		create_vassal = BA4
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = high_4_la
-		}
-		add_core = BE4
-		}
-		create_vassal = BE4
-		}
 		}
 		
 		if = {

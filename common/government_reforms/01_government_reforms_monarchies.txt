@@ -47,7 +47,7 @@ celestial_empire = {
 		bureaucrats
 	}
 
-	fixed_rank = 3
+	fixed_rank = 10
 	start_territory_to_estates = 0.75
 
 	modifiers = {

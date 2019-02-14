@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = NE6 }
 		NOT = { capital_scope = { area = skyrim_6_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = fall_of_white_elves_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = skyrim_6_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = NA6
 		}
 		create_vassal = NA6
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = skyrim_6_la
-		}
-		add_core = NE6
-		}
-		create_vassal = NE6
-		}
 		}
 		
 		if = {

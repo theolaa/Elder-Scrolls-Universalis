@@ -9,15 +9,8 @@ theocracy_mechanic = {
 	heir = yes
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
-	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
-		government_abilities = {
-			feudal_theocracy_mechanic
-		}
-	}
 }
 
-#Leadership
 leading_clergy_reform = {
 	allow_normal_conversion = yes
 	legacy_equivalent = theocratic_government
@@ -27,7 +20,13 @@ leading_clergy_reform = {
 	modifiers = {
 		max_states = 1
 		tolerance_own = 1
-		tolerance_heathen = -1
+		global_missionary_strength = 0.01
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			iqta_mechanic
+		}
 	}
 }
 
@@ -35,16 +34,22 @@ monastic_order_reform = {
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
 	valid_for_nation_designer = yes
-	nation_designer_cost = 10
+	nation_designer_cost = 0
 	icon = "monks"
 	allow_normal_conversion = yes
 	legacy_equivalent = monastic_order_government
 	monastic = yes
-	fixed_rank = 1
+	fixed_rank = 3
 	modifiers = {
 		max_states = 1
 		tolerance_own = 1
 		fort_maintenance_modifier = -0.10
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
 	}
 }
 
@@ -52,7 +57,6 @@ papacy_reform = {
 	potential = {
 		tag = RED
 	}
-
 	modifiers = {
 		max_states = 1
 		tolerance_own = 1
@@ -66,9 +70,95 @@ papacy_reform = {
 	papacy = yes
 	allow_convert = no
 	lock_level_when_selected = yes
-	fixed_rank = 2
+	fixed_rank = 7
 
 	custom_attributes = {
 		locked_government_type = yes
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+}
+
+religious_republic_reform = {
+	icon = "parliament"
+	allow_normal_conversion = yes
+	modifiers = {
+		max_absolutism = -50
+		merchants = 1
+		caravan_power = 0.10
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	legacy_equivalent = theocratic_government
+	boost_income = yes
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			iqta_mechanic
+		}
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		lottery_election = yes
+		election_on_death = yes
+	}
+	has_term_election = no
+}
+
+military_order_reform = {
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	icon = "people_walking"
+	allow_normal_conversion = yes
+	legacy_equivalent = monastic_order_government
+	monastic = yes
+	fixed_rank = 3
+	modifiers = {
+		max_states = 1
+		land_morale = 0.10
+		spy_offence = 0.10
+	}
+	conditional = {
+		allow = { has_dlc = "Cradle of Civilization" }
+		government_abilities = {
+			feudal_theocracy_mechanic
+		}
 	}
 }

@@ -34,10 +34,6 @@ country_event = {
 		NOT = { exists = ME1 }
 		NOT = { capital_scope = { area = morrowind_1_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = nordic_solsteim_flag }
-		}
 		every_owned_province = {
 		limit = {
 		area = morrowind_1_la
@@ -45,16 +41,6 @@ country_event = {
 		add_core = MA1
 		}
 		create_vassal = MA1
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_1_la
-		}
-		add_core = ME1
-		}
-		create_vassal = ME1
-		}
 		}
 		
 		if = {
@@ -66,27 +52,13 @@ country_event = {
 		NOT = { exists = ME2 }
 		NOT = { capital_scope = { area = morrowind_2_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
-		area = morrowind_1_la
+		area = morrowind_2_la
 		}
 		add_core = MA2
 		}
 		create_vassal = MA2
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_1_la
-		}
-		add_core = ME2
-		}
-		create_vassal = ME2
-		}
 		}
 		
 		if = {
@@ -98,27 +70,13 @@ country_event = {
 		NOT = { exists = ME3 }
 		NOT = { capital_scope = { area = morrowind_3_la } }
 		}
-		if = {
-		limit = {
-		NOT = { has_global_flag = dwemer_dissapearence_flag }
-		}
 		every_owned_province = {
 		limit = {
-		area = morrowind_1_la
+		area = morrowind_3_la
 		}
 		add_core = MA3
 		}
 		create_vassal = MA3
-		}
-		else = {
-		every_owned_province = {
-		limit = {
-		area = morrowind_1_la
-		}
-		add_core = ME3
-		}
-		create_vassal = ME3
-		}
 		}
 		
 		if = {
