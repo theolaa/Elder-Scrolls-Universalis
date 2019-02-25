@@ -9,45 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"Anno #0" = 10
-	"Anogho #0" = 10
-	"Azmo #0" = 10
-	"Bamazo #0" = 10
-	"Congir #0" = 10
-	"Dongir #0" = 10
-	"Fongyr #0" = 10
-	"Fezola #0" = 10
-	"Gholo #0" = 10
-	"Kempo #0" = 10
-	"Kangir #0" = 10
-	"Mong #0" = 10
-	"Nakada #0" = 10
-	"Phong #0" = 10
-	"Tengu #0" = 10
-	"Songyr #0" = 10
-	"Sonogo #0" = 10
-	"Vento #0" = 10
-	"Zuno #0" = 10
-	"Rango #0" = 10
+	"Elas #0" = 10
+	"Shasvush #0" = 10
+	"Ralut #0" = 10
+	"Asvan #0" = 10
+	"Yucabhan #0" = 10
+	"Cajnirtus #0" = 10
+	"Prabanut #0" = 10
+	"Brirpeyir #0" = 10
+	"Hejuhabhay #0" = 10
+	"Ibhrarhuvyunt #0" = 10
+	"Jorpet #0" = 10
+	"Jushmad #0" = 10
+	"Alus #0" = 10
+	"Guhmas #0" = 10
+	"Dajnobay #0" = 10
+	"Debirhut #0" = 10
+	"Ubhraken #0" = 10
+	"Ravarhid #0" = 10
+	"Dacurmivor #0" = 10
+	"Kalgatyasthor #0" = 10
 
-	"Anni #0" = -10
-	"Aira #0" = -10
-	"Beira #0" = -10
-	"Camali #0" = -10
-	"Darli #0" = -10
-	"Fonzi #0" = -10
-	"Ialis #0" = -10
-	"Sotako #0" = -10
-	"Tamina #0" = -10
-	"Vaalini #0" = -10
+	"Lilyi #0" = -10
+	"Sibo #0" = -10
+	"Mema #0" = -10
+	"Ijo #0" = -10
+	"Besmante #0" = -10
+	"Sanupo #0" = -10
+	"Devhargu #0" = -10
+	"Katucye #0" = -10
+	"Bhusmedveda #0" = -10
+	"Shantothanda #0" = -10
 }
 
 leader_names = {
-    Akola Acho Amazo Anno Anogho Azmo Abhro Ahoga Agol Amol Amon Atol Argol Argom Amogh Abol Bogola Botol Bomz Bonno Bongir Barol Barmol Bahoga Bomol Barmon Bargol Bamazo Bong Bholga Bhola Comon Catal Cotol Conno Comir Congir Carmol Cahoga Carmoga Carmon Cazmon Cong Chola Camogh Dalmon Dotol Donno Dannir Dangir Datol Datmoga Derroga Dazmoga Dongir Deng Dhola Dholap Damoga Dagada Famo Fonnir Fomoga Frengir Fazmoga Faloga Falooda Folo Fhalpaka Fhamada Fongyr Fezola Fringo Fadada Fingoda Gamoga Ganno Gannir Gazmir Galooda Gholo Ghadada Gologa Gapaka Ghogo Gimpo Gadda Ghempo Ghazol Ghent Gingyr Hanno Habama Hannir Hooda Honda Hempo Hoga Holo Hokolo Hadda Jambo Joga Jammir Jangir Jangyz Jingoda Kogola Khola Khega Khemo Kinno Kempo Kangir Kangyz Khent Kadda Kummir Kongo Kagola Kangyr Kanno Lento Langyr Logo Mahega Mahola Makhola Mangyz Marlo Mannir Manno Matola Mazmo Mong Molaz Magada Nigel Nagyz Nanno Ningo Nakada Nahama Ozko Ozo Otala Onnyr Ongyr Omala Odola Okada Omin Pokola Ponzo Ponno Poga Ponnyr Peng Phota Pamyr Qoto Qomyr Qola Qazmodo Qoda Pangol Phong Tamoga Tomo Talco Tamyr Toga Tangyr Tindyr Takola Tazmo Tinko Tongyr Tonkyr Tinto Tengu Tomor Solo Samyr Stento Stoga Soba Syngyr Sinkola Soka Sholo Songyr Sonogo Sol Sun Stun Soho Uzmo Uloho Ulongyr Ubuz Uruku Vali Vangyr Vutol Vuul Vuuzh Vornyr Vanor Von Vento Vooda Zuno Zanno Zingyr Zuul Zhola Raa Rango Rambu Rolla Rangyz Ranno Ranto Rokada Ringo Rooho 
+	Elas Shasvush Ralut Asvan Yucabhan Cajnirtus Prabanut Brirpeyir Hejuhabhay Ibhrarhuvyunt Jorpet Jushmad Alus Guhmas Dajnobay Debirhut Ubhraken Ravarhid Dacurmivor Kalgatyasthor Rundod Suju Vushmus Biskus Udrarmush Kakruptash Argurhoy Bgubhrakun Armengiguy Galanirmer Rana Kibhunt Jobor Rabud Cetuhuy Prarpusthey Ejurtid Yusvushin Gubhrorhabad Argarhabush Dhajnay Sakud Ksijnay Prithu Mahmesthan Ukayud Puskarmosh Mijnuvos Oskirtunghid Ihmoptibhunt Carmar Sovus Aju Hagnay Prabhasthont Ksushmuhunt Dokusthod Vuhmatay Dhusvatyurman Vakrubutyan Prilger Bana Buttash Dindut Vakribho Bgokushun Kulgubuy Tebhrota Amahubhas Nurposhrasthay Ument Korpun Jasvan Yulmint Ubaptish Randaban Dormeved Yegnabhe Ebhuthyutod Sarganusthash Otus Ksacish Juthun Rilgunt Ksarmuyad Bushmava Anatyur Udragush Jagnartatyu Bakarmortad Pelar Nibhrunt Shitha Shehant Dhakuna Nidruthyont Vuhmatyid Tutturmet Dhajavyengha Asvayathyos
 }
 
 ship_names = {
-	Amola Aloko Aloho Anoha Azmi Abhro Agoli Amoni Aboli Anni Ata Aira Alala Atomo Adida Boli Batali Bomali Bonni Baroli Bami Bazmi Barmi Bommi Bholi Beira Bisi Bata Botti Bingomi Cali Cati Camali Caziti Cazmati Cota Camini Choli Cizi Citi Catli Carli Carmini Cinno Domini Doki Dukiz Dura Ditto Deirma Dolini Dizzi Darmani Droni Darmiz Darli Dummiri Dari Dinzii Falini Fomi Fonzi Fontyr Foseti Folo Fhalpaki Fhamadi Fezola Fringi Famoga Gimi Gurni Garimi Ginno Gini Gigo Gigi Gotti Gahami Gammi Gomola Gizmoli Gamini Gholi Ghaxi Geerun Geemu Gamu Ghagoli Haali Hooli Hamriko Huntiko Haggi Hamali Hazmali Heeruni Heemu Hamupi Hogoli Hoogli Heima Hanigo Hatti Iaali Irali Imani Iata Ialis Iara Iwari Imoni Izoli Ianni Ikozhi Iroli Irami Istoli Istiko Jalli Jalla Jahari Johari Jamini Janko Jastiko Jawari Jamani Junoo Jasko Jarmini Jagi Jogino Jatti Koliko Karimo Karziko Kariko Kaiko Kokko Koko Karko Kawari Kanoo Kaoo Kasko Kagi Kagami Kango Mari Mastico Mako Manico Namol Noko Narico Nakko Mantico Mawari Maroli Misi Nimi Ninni Nestico Onico Onimo Oki Omino Oso Owamo Oppo Saami Sani Sini Siko Soko Sotako Sowako Soho Sheko Shelmi Sheti Sago Sawarako Sanada Shako Sheyz Svolini Svarmini Sazmo Sakalo Sinkoli Sohoko Sakaa Taali Toko Tami Takico Tobago Talco Tazmina Tamina Tanico Taco Tanoo Tahomi Tanimi Tiko Tiara Ukoli Umani Unami Udali Urimi Uzmi Uzi Utmo Uramo Uwamo Ugomi Uzmaki Vari Vaalini 
+	Lilyi Sibo Mema Ijo Besmante Sanupo Devhargu Katucye Bhusmedveda Shantothanda Shinta Dhasu Bhidru Vome Dajasmi Praptidi Silyasma Kontatsu Redhrelyemu Bubundayo Ratha Ita Cama Khupta Sittidra Ajaya Bintabhe Kimratha Udhajerga Gasicuna Arga Yusi Soma Khubju Sitesa Bilyuti Untadvu Bhingasmi Ravathubhi Lolabhanti Aksa Hade Yilyi Adi Karkapa Udhana Kamayi Singisna Sholupiya Raviptoca Yadha Kebhi Bhanga Epi Hushusi Burgave Sadrerga Armava Nattanismo Dhuliradhi Varke Vali Batha Bipe Bermumbo Bhilyusho Abjili Ulyande Udvandhithe Dhuntakadra Iptu Ata Margu Natta Huttanda Praniyi Intebha Cadhimba Dedhumasma Shusmabhelya Vanu Adu Bharga Sithu Buhergi Noryamba Votipta Khadhrongi Sipindante Yivatsidve Linda Gutti Edu Avha Ipatra Inithi Eryinta Dhivanda Atraptundha Argacesma
 }
 
 army_names = {

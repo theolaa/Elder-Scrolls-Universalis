@@ -9,45 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"Anaxes #0" = 10
-	"Aruz #0" = 10
-	"Demis #0" = 10
-	"Dias #0" = 10
-	"Erunas #0" = 10
-	"Gatanas #0" = 10
-	"Grel #0" = 10
-	"Ifriz #0" = 10
-	"Ilambris-Athor #0" = 10
-	"Ilambris-Zaven #0" = 10
-	"Kehothar #0" = 10
-	"Khash-Ti #0" = 10
-	"Medrike #0" = 10
-	"Moath #0" = 10
-	"Orthe #0" = 10
-	"Rathine #0" = 10
-	"Tanchelm #0" = 10
-	"Vaekar #0" = 10
-	"Volar #0" = 10
-	"Voriak #0" = 10
+	"Vylon #0" = 10
+	"Ohmvyce #0" = 10
+	"Lohrrenar #0" = 10
+	"Colorad #0" = 10
+	"Thalneth #0" = 10
+	"Yhrrel #0" = 10
+	"Urannear #0" = 10
+	"Dyntaran #0" = 10
+	"Sallyx #0" = 10
+	"Joranlead #0" = 10
+	"Suranan #0" = 10
+	"Nyrtar #0" = 10
+	"Iarylan #0" = 10
+	"Wraxon #0" = 10
+	"Eorynad #0" = 10
+	"Garanlan #0" = 10
+	"Kranrel #0" = 10
+	"Qrinnar #0" = 10
+	"Colel #0" = 10
+	"Lareth #0" = 10
 
-	"Akata #0" = -10
-	"Dekamma #0" = -10
-	"Ephae #0" = -10
-	"Issmi #0" = -10
-	"Kvotai #0" = -10
-	"Lyranth #0" = -10
-	"Mati #0" = -10
-	"Raynia #0" = -10
-	"Velark #0" = -10
-	"Vonshala #0" = -10
+	"Zrixira #0" = -10
+	"Aezaya #0" = -10
+	"Ortyse #0" = -10
+	"Tinaith #0" = -10
+	"Harellenne #0" = -10
+	"Orinevera #0" = -10
+	"Charneth #0" = -10
+	"Keloris #0" = -10
+	"Tryxana #0" = -10
+	"Thelyla #0" = -10
 }
 
-leader_names = {
-    Aez Akezel Amkaos Anaxes Anhaedra Aruz Atris Bha Bogtro Demis Dhrur Dias Dogas Dregas Druitularg Erunas Gamir Gatanas Gnilokelo Grel Grexev Ifriz Ilambris-Athor Ilambris-Zaven Imago Jabran Kathutet Kehothar Khash-Ti Khefletak Kothutuilk Krazzt Kyngogurth Maxus Medrike Methats Mirel Moath Nariam Orthe Ranyu Rathine Reive Riparius Rukhan Sahrith Seris Skoria Solkyn Sumeer Tachnim Tanchelm Tazzak Tuzunkykz Uldun Vaekar Velehk Verkynvayl Volar Voriak Vregas Vyrotesn Xalxorkig Xiven Xvarik Xznotell Ykal Zexxil Zzedenkathik
+leader_names  = {
+    Vylon Ohmvyce Lohrrenar Colorad Thalneth Yhrrel Urannear Dyntaran Sallyx Joranlead Suranan Nyrtar Iarylan Wraxon Eorynad Garanlan Kranrel Qrinnar Colel Lareth ylrahn Azerel Wraxyx Zahrnyx Inorlynx Toryth Jaroriad Iarvahr Dynirad Lanarrenar Laran Dracaris Praxvahr Rharied Praxaxis Caranel Mahrigar Lanarorad Braxlyx Braxlax Ohmorad Pamnex Yhrvile Kuronaris Xahrnyx Kranliar Fornerrith Ohmaer Iarylan Zahrnex Saloth Brenilan Yhrsahr Jhorvix Najix Mahrryd Zohnyth Crynlynx Braxneth Inorvahr Fyzelon Zaelihr Rizarniran Joraner Najyx Qahrnex Maranilan Salex Ryztar Rharovan Ezrinaris Xalsahr Eranoriad Grullax Phiroriad Hyirneth Fharyxir Dyntiran Colerrith Iaryd Gnarvile Dracniran Jarlarin Fyzied Larsahr Iarsan Dharyx Wraxox Igaryxir Borenorin Vohroth Xinear Dyntar Zahraxis Fyzelon Najtrax Xintrax Urtiran Unoranin Lanarixan
 }
 
-ship_names = {
-	Akata Angata Barasatii Brolsgerbwd Chuna Clorsatari Codaermet Davlinn Dayarrus Dekamma Desha Doshia Drulshasa Duneir Ephae Gadrah Gytha-Kitha Issmi Kaneh Kixathi Kvotai Lyranth Marruz Mati Mireh Mirok Nacarra Raynia Rykuna Staada Tephra Ukaezai Urata Valkyn Velark Vintev Vonshala Xxthauaa Zenaida Zudeh 
+ship_names = {   
+	Zrixira Aezaya Ortyse Tinaith Harellenne Orinevera Charneth Keloris Tryxana Thelyla Krynyra Phisthine Yrelyra Ohiraith Zarinoris Ohiryxih Grynera Shynixi Berinona Jilriane Glyselin Sharryss Uhryera Xenyera Daemrelle Dhyseli Dhysaith Ristyse Xislyss Vheslenne Phistia Bwynanya Prisora Usinorin Ohirrya Xensyss Tryxlith Catlyn Wylinesh Azaerney Shareth Xylney Lilysh Carileth Orinith Qyrvynia Qyriana Winess Cahrvyra Meridesha Cahrnore Ohirlith Qhesrelle Sarnore Orlia Cahraela Irinynore Ynisnys Bwynvyra Phisvienne Lilesh Orelin Drenvielle Dhyssea Gryneli Nessysha Lilvia Ryrtyse Ohirvyn Xisoth Lilieth Glysvyra Meridnore Charanya Wylinelin Zelltarish Meztia Shirinnessa Cattia Meridriane Vylneth Mhyrvyn Carilyss Kelixis Shylea Vylysh Jaenesh Cahrielle Mezrahne Brizlea Ohirana Aeztarish Prislyn Lilieth Harelvyra Ysernila Vhesnila Cahrysha Orless Iphisysha
 }
 
 army_names = {

@@ -71,7 +71,7 @@ country_decisions = {
 			trade_goods = slaves
 			has_province_modifier = enslaved_province
 			}
-			remove_province_modifer = enslaved_province
+			remove_province_modifier = enslaved_province
 			add_province_modifier = {
 			name = "liberated_province"
 			duration = 3650
@@ -160,7 +160,7 @@ country_decisions = {
 			trade_goods = wine
 			has_province_modifier = banned_production
 			}
-			remove_province_modifer = banned_production"
+			remove_province_modifier = banned_production
 			}
 			change_price = {
             trade_goods = wine
@@ -260,7 +260,7 @@ country_decisions = {
 			trade_goods = sugar
 			has_province_modifier = banned_production
 			}
-			remove_province_modifer = banned_production"
+			remove_province_modifier = banned_production
 			}
 			change_price = {
             trade_goods = sugar

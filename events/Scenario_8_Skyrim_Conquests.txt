@@ -1,0 +1,275 @@
+namespace = es_8_scenario
+
+country_event = {
+	id = es_8_scenario.1
+	title = es_8_scenario.1.t
+	desc = es_8_scenario.1.d
+	picture = ES_TRIUMPH_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 266
+		NOT = { is_year = 308 }
+		culture_group = northern_cg
+		OR = {
+		owns = 1275
+		owns = 1342
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 15330
+	}
+
+	option = {
+		name = "es_8_scenario.1.a"
+		ai_chance = { factor = 50 }
+		change_tag = OLD
+		if = {
+			limit = {
+				NOT = { government_rank = 5 }
+			}
+			set_government_rank = 5
+			}
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = {
+		limit = {
+		owns = 1342
+		}
+		every_province = {
+		limit = {
+		region = hgh_rock_lr
+		}
+		add_claim = ROOT
+		}
+		}
+		if = {
+		limit = {
+		owns = 1275
+		}
+		every_province = {
+		limit = {
+		region = morrowind_lr
+		}
+		add_claim = ROOT
+		}
+		}
+		add_country_modifier = {
+		name = "08_prepare_for_war"
+		duration = 3650
+		}
+	}
+	option = {
+		name = "es_8_scenario.1.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -25
+	}
+}
+
+country_event = {
+	id = es_8_scenario.2
+	title = es_8_scenario.2.t
+	desc = es_8_scenario.2.d
+	picture = ES_LABOUR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 266
+		NOT = { is_year = 308 }
+		culture_group = cyrodiil_cg
+		owns = 1206
+		any_owned_province = {
+		NOT = { culture = ayleid }
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 750
+	}
+
+	option = {
+		name = "es_8_scenario.2.a"
+		ai_chance = { factor = 50 }
+		random_owned_province = {
+		limit = {
+		NOT = { culture = ayleid }
+		}
+		change_culture = ayleid
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+		add_province_modifier = {
+		name = "08_ayleid_lords"
+		duration = 3650
+		}
+		}
+	}
+	option = {
+		name = "es_8_scenario.2.b"
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = es_8_scenario.3
+	title = es_8_scenario.3.t
+	desc = es_8_scenario.3.d
+	picture = ES_DWEMES_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 266
+		NOT = { is_year = 308 }
+		culture_group = dwemer_cg
+		owns = 970
+    }
+
+	mean_time_to_happen = {
+		days = 15330
+	}
+
+	option = {
+		name = "es_8_scenario.3.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = eastern_skyrim_lr
+		}
+		add_claim = ROOT
+		}
+		add_country_modifier = {
+		name = "08_prepare_for_war"
+		duration = 3650
+		}
+	}
+	option = {
+		name = "es_8_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -25
+	}
+}
+
+country_event = {
+	id = es_8_scenario.4
+	title = es_8_scenario.4.t
+	desc = es_8_scenario.4.d
+	picture = ES_BANK_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 266
+		NOT = { is_year = 308 }
+		culture_group = high_elves_cg
+		owns = 1369
+    }
+
+	mean_time_to_happen = {
+		days = 15330
+	}
+
+	option = {
+		name = "es_8_scenario.4.a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "08_give_autonomy"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_8_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "08_refuse_autonomy"
+		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_8_scenario.5
+	title = es_8_scenario.5.t
+	desc = es_8_scenario.5.d
+	picture = ES_REBELLION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 266
+		NOT = { is_year = 308 }
+		culture_group = dead_cg
+		owns = 1344
+    }
+
+	mean_time_to_happen = {
+		days = 15330
+	}
+
+	option = {
+		name = "es_8_scenario.4.a"
+		ai_chance = { factor = 50 }
+		define_ruler = {
+        name = "Harkon"
+        dynasty = "Volhkihar"
+		culture = vampire
+        adm = 3
+        dip = 5
+        mil = 7
+        age = 40
+        claim = 100
+        }
+		define_heir = {
+        name = "Serana"
+		dynasty = "Volhkihar"
+		culture = vampire
+        age = 14
+        adm = 5
+        dip = 7
+        mil = 3
+        claim = 100 
+        female = yes		
+        }
+		define_consort = {
+		name = "Valerica"
+		dynasty = "Volhkihar"
+		age = 35
+        culture = vampire
+        adm = 7
+        dip = 3
+        mil = 5
+        female = yes
+        }
+	}
+	option = {
+		name = "es_8_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		random_owned_province = { 
+			spawn_rebels = {
+				type = noble_rebels
+				size = 10
+				win = yes
+				unrest = 25
+			}
+		}
+        random_owned_province = { 
+			spawn_rebels = {
+				type = heretic_rebels
+				size = 10
+				win = yes
+				unrest = 25
+			}
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = particularist_rebels
+				size = 10
+				win = yes
+				unrest = 25
+			}
+		}
+	}
+}

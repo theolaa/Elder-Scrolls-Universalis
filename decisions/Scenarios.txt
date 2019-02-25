@@ -3,26 +3,32 @@ country_decisions = {
     es_3_forelhost = {
 	    major = yes
 		potential = {
+		OR = {
         tag = WIN
-		NOT = { is_year = 140 }
+		tag = DRA
+		}
 		owns = 1265
 		NOT = { exists = FOR }
+		NOT = { has_country_flag = es_3_forelhost_flag }
 		}
 		allow = {
-		tag = WIN
-		NOT = { is_year = 140 }
+		OR = {
+        tag = WIN
+		tag = DRA
+		}
 		owns = 1265
 		}
 		effect = {
+		set_country_flag = es_3_forelhost_flag
 		1265 = {
 		cede_province = FOR
 		add_core = FOR
+		}
 		ROOT = {
 		create_subject = {
         subject_type = vassal
         subject = FOR
         }
-		}
 		}
 		}
 		ai_will_do = {
@@ -34,14 +40,12 @@ country_decisions = {
 	    major = yes
 		potential = {
         tag = FOR
-		NOT = { is_year = 140 }
 		1265 = {
 		NOT = { has_province_modifier = 03_walls_of_forelhost }
 		}
 		}
 		allow = {
 		tag = FOR
-		NOT = { is_year = 140 }
 		owns = 1265
 		1265 = {
 		NOT = { has_province_modifier = 03_walls_of_forelhost }
@@ -56,6 +60,43 @@ country_decisions = {
 		duration = -1
 		}
 		add_building = fort_15th
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_4_skaals = {
+	    major = yes
+		potential = {
+        tag = SKY
+		owns = 949
+		owns = 951
+		NOT = { exists = SKA }
+		NOT = { has_country_flag = es_4_skaals_flag }
+		}
+		allow = {
+		tag = SKY
+		owns = 949
+		owns = 951
+		NOT = { exists = SKA }
+		}
+		effect = {
+		set_country_flag = es_4_skaals_flag
+		949 = {
+		cede_province = SKA
+		add_core = SKA
+		}
+		951 = {
+		cede_province = SKA
+		add_core = SKA
+		}
+		ROOT = {
+		create_subject = {
+        subject_type = vassal
+        subject = SKA
+        }
 		}
 		}
 		ai_will_do = {
@@ -117,6 +158,150 @@ country_decisions = {
 		has_province_modifier = 05_elven_slaves
 		}
 		remove_province_modifier = 05_elven_slaves
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_7_alessian_union = {
+	    major = yes
+		potential = {
+        tag = ALE
+		government = monarchy
+		is_year = 266
+		owns = 1265
+		NOT = { exists = COL }
+		NOT = { exists = NIB }
+		NOT = { has_country_flag = es_7_alessian_union_flag }
+		}
+		allow = {
+		tag = ALE
+		is_year = 266
+		owns = 1265
+		NOT = { exists = COL }
+		NOT = { exists = NIB }
+		any_owned_province = {
+		region = western_syrodiil_lr
+		}
+		any_owned_province = {
+		region = eastern_syrodiil_lr
+		NOT = { area = cyrodiil_19_la }
+		NOT = { area = cyrodiil_20_la }
+		NOT = { area = cyrodiil_21_la }
+		NOT = { area = cyrodiil_25_la }
+		NOT = { area = cyrodiil_28_la }
+		}
+		}
+		effect = {
+		set_country_flag = es_7_alessian_union_flag
+		add_stability = 1
+		add_prestige = 50
+		
+		every_owned_province = {
+		limit = {
+	    region = western_syrodiil_lr
+		}
+		cede_province = COL
+		}
+		every_province = {
+		limit = {
+	    region = western_syrodiil_lr
+		}
+		add_core = COL
+		}
+		ROOT = {
+		create_subject = {
+        subject_type = personal_union
+        subject = COL
+        }
+		}
+		
+		every_owned_province = {
+		limit = {
+	    region = eastern_syrodiil_lr
+		NOT = { area = cyrodiil_19_la }
+		NOT = { area = cyrodiil_20_la }
+		NOT = { area = cyrodiil_21_la }
+		NOT = { area = cyrodiil_25_la }
+		NOT = { area = cyrodiil_28_la }
+		}
+		cede_province = NIB
+		}
+		every_province = {
+		limit = {
+	    region = eastern_syrodiil_lr
+		NOT = { area = cyrodiil_19_la }
+		NOT = { area = cyrodiil_20_la }
+		NOT = { area = cyrodiil_21_la }
+		NOT = { area = cyrodiil_25_la }
+		NOT = { area = cyrodiil_28_la }
+		}
+		add_core = NIB
+		}
+		ROOT = {
+		create_subject = {
+        subject_type = personal_union
+        subject = NIB
+        }
+		}
+		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_7_purification = {
+		potential = {
+		tag = ALE
+        any_owned_province = {
+		culture = ayleid
+		}
+		NOT = { is_year = 300 }
+		}
+		allow = {
+		any_owned_province = {
+		culture = ayleid
+		}
+		mil_power = 50
+        }
+		effect = {
+		add_mil_power = -50
+		random_owned_province = {
+		limit = {
+		culture = ayleid
+		}
+		change_culture = nedic
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_vampire_purification = {
+	    major = yes
+		potential = {
+		culture_group = dead_cg
+        any_owned_province = {
+		NOT = { culture = vampire }
+		}
+		}
+		allow = {
+		any_owned_province = {
+		NOT = { culture = vampire }
+		}
+		dip_power = 100
+        }
+		effect = {
+		add_dip_power = -100
+		random_owned_province = {
+		limit = {
+		NOT = { culture = vampire }
+		}
+		change_culture = vampire
 		}
 		}
 		ai_will_do = {

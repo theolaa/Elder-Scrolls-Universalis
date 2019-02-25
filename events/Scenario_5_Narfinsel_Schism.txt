@@ -9,7 +9,10 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
+	    OR = {
 	    culture_group = high_elves_cg
+		culture_group = cyrodiil_cg
+		}
 		is_year = 189
 		NOT = { is_year = 221 }
 		religion_group = daedric_group

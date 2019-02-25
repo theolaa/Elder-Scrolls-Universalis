@@ -74,32 +74,6 @@ country_event = {
 				}
 				save_event_target_as = fourth_ruler_alternative_province
 			}
-			random_province = { #if Circassians are available we prefer those, this check is also less strict.
-				limit = {
-					NOT = { owned_by = ROOT }
-					culture = circassian
-					owner = {
-						NOT = { war_with = ROOT }
-						NOT = { is_rival = ROOT }
-						NOT = { is_enemy = ROOT }
-					}
-					if = {
-						limit = { owner = { has_saved_event_target = first_ruler_alternative_province } }
-						NOT = { culture = event_target:first_ruler_alternative_province }
-					}
-					if = {
-						limit = {
-							owner = { has_saved_event_target = second_ruler_alternative_province }
-						}
-						NOT = { culture = event_target:second_ruler_alternative_province }
-					}
-					if = {
-						limit = { owner = { has_saved_event_target = third_ruler_alternative_province } }
-						NOT = { culture = event_target:third_ruler_alternative_province }
-					}
-				}
-				save_event_target_as = fourth_ruler_alternative_province
-			}
 			random_list = {	#Age Tombola
 				15 = { set_country_flag = age_1 }
 				15 = { set_country_flag = age_2 }
@@ -809,9 +783,6 @@ country_event = {
 
 	option = {
 		name = mamluk_events.7.a #Let us choose a bedouin, the best of our own.
-		trigger = {
-			primary_culture = bedouin_arabic
-		}
 		custom_tooltip = mamluk_events.7.a.tt
 		add_legitimacy = 5
 		add_country_modifier = {
@@ -821,9 +792,6 @@ country_event = {
 	}
 	option = {
 		name = mamluk_events.7.b #Let us choose a bedouin, native to the deserts of Arabia.
-		trigger = {
-			NOT = { primary_culture = bedouin_arabic }
-		}
 		custom_tooltip = mamluk_events.7.a.tt
 		add_prestige = -10
 		add_country_modifier = {
@@ -833,9 +801,6 @@ country_event = {
 	}
 	option = {
 		name = mamluk_events.7.c #Let us choose a skilled warrior for the task.
-		trigger = {
-			NOT = { primary_culture = bedouin_arabic }
-		}
 		custom_tooltip = mamluk_events.7.c.tt
 		add_mil_power = -35
 		add_country_modifier = {

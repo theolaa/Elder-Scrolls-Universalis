@@ -1876,7 +1876,7 @@ FRA_ideas = {
 		global_tax_modifier = 0.1
 	}
 	native_trading_principles = {
-		native_assimilation = 0.10
+		trade_efficiency = 0.10
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.10
@@ -2002,5 +2002,81 @@ SER_ideas = {
 	}	
 	balkan_hajduks = {
 		land_morale = 0.10
+	}
+}
+
+HUN_ideas = {
+	start = {
+		cavalry_power = 0.15
+		recover_army_morale_speed = 0.10
+	}
+	
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	trigger = {
+		tag = FOR
+	}
+	free = yes
+	
+	hun_renaissanse_knowledge = {
+		global_unrest = -1
+	}
+	bulwark_of_christianity = {
+		global_manpower_modifier = 0.1
+	}
+	found_the_black_army = {
+		discipline = 0.05
+	}
+	reformed_coinage = {
+		global_tax_modifier = 0.1
+	}
+	curtailed_peasantry = {
+		production_efficiency = 0.1
+	}
+	strengthened_towns = {
+		global_own_trade_power = 0.10
+	}
+	hungarian_estates_general = {
+		no_religion_penalty = yes
+	}
+}
+
+PAL_ideas = {
+	start = {
+		global_tax_modifier = 0.25
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		improve_relation_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = SKA
+	}
+	free = yes
+	
+	imperial_vicar_and_archsteward = {
+		diplomatic_reputation = 1
+	}
+	heidelberg_university = {
+		advisor_cost = -0.1
+	}
+	center_of_reformation_in_southern_germany = {
+		rebel_support_efficiency = 0.10
+	}
+	bibliotheca_palatina = {
+		technology_cost = -0.05
+	}
+	heidelberg_catechism = {
+		global_missionary_strength = 0.01
+	}
+	hortus_palatinus = {
+		prestige_decay = -0.01	
+	}
+	mannheim_school_of_orchestra = {
+		stability_cost_modifier = -0.10
 	}
 }

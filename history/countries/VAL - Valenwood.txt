@@ -60,3 +60,47 @@ capital = 820
 		mil = 5
 	}
 }
+
+298.1.1 = {
+    monarch = {
+		name = "Nelgorn"
+		dynasty = "Camoran"
+		birth_date = 278.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+
+354.1.1 = {
+    monarch = {
+		name = "Draeg"
+		dynasty = "Camoran"
+		birth_date = 319.1.1
+		adm = 1
+		dip = 2
+		mil = 0
+	}
+}
+
+420.1.1 = {
+    monarch = {
+		name = "Draeg"
+		dynasty = "Camoran"
+		birth_date = 401.1.1
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+
+497.1.1 = {
+    monarch = {
+		name = "Thaurron"
+		dynasty = "Camoran"
+		birth_date = 481.1.1
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}

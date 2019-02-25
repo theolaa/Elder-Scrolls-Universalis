@@ -9,45 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"Aicantar #0" = 10
-	"Aicessar #0" = 10
-	"Aiden #0" = 10
-    "Caelestion #0" = 10
-	"Calcelmo #0" = 10
-	"Celarus #0" = 10
-	"Celedaen #0" = 10
-	"Enrion #0" = 10
-	"Eraamion #0" = 10
-	"Estormo #0" = 10
-	"Faelian #0" = 10
-	"Fainertil #0" = 10
-	"Falanaamo #0" = 10
-	"Nelacar #0" = 10
-	"Nerien #0" = 10
-	"Orthorn #0" = 10
-	"Sinderion #0" = 10
-	"Viarmo #0" = 10
-	"Vingalmo #0" = 10
-	"Yanniss #0" = 10
+	"Athring #0" = 10
+	"Celegriath #0" = 10
+	"Edhelbor #0" = 10
+	"Gelebor #0" = 10
+	"Nirilor #0" = 10
+	"Sidanyis #0" = 10
+	"Vyrthur #0" = 10
+	"Serenarth #0" = 10
+	"Engwe #0" = 10
+	"Emeloth #0" = 10
+	"Mirtil #0" = 10
+	"Angoth #0" = 10
+	"Nirire #0" = 10
+	"Agarloth #0" = 10
+	"Torsur #0" = 10
+	"Shanrawyn #0" = 10
+	"Niribys #0" = 10
+	"Tinparis #0" = 10
+	"Nyrhur #0" = 10
+	"Granmyn #0" = 10
 	
-	"Anaire #0" = -10
-	"Ardaline #0" = -10
-	"Atraena #0" = -10
-	"Celria #0" = -10
-	"Elante #0" = -10
-	"Faire #0" = -10
-	"Faralda #0" = -10
-	"Iniel #0" = -10
-	"Ranaline #0" = -10
-	"Ruma #0" = -10
+	"Rinenyish #0" = -10
+	"Narasaroth #0" = -10
+	"Pryslori #0" = -10
+	"Annoth #0" = -10
+	"Lynzis #0" = -10
+	"Masgarwen #0" = -10
+	"Rynpireth #0" = -10
+	"Loretaroth #0" = -10
+	"Jelori #0" = -10
+	"Leneferys #0" = -10
 }
 
-leader_names = {
-    Aesril Aicantar Aicessar Aiden Aldaril Alinor Almion Aluvus Amballicil Amrod Amroth Amuur Anarenen Ancano Ancotar Andil Angalmo Angoril Angoth Angrod Annanar Apaladith Aramril Aranath Areldil Areldur Aringoth Arkved Armion Arondil Aronil Arrille Arterion Athellor Athring Beladriel Caelestion Calcelmo Calcemo Calindil Carandial Carecalmo Caryarel Cassimoran Celarus Celedaen Celegriath Chimere Cirion Curinure Earil Earmil Edhelbor Eldamil Elidor Emeloth Engwe Enrion Eraamion Errandil Erundil Estormo Faelian Fainertil Falanaamo Falcar Fanildil Fasendil Fiiriel Galgaliel Gelebor Gerrick Gilgondorin Gladroon Gyrnasse Halion Hecerinde Henantier Hindaril Hirtel Honditar Hyarnarenquar Iachesis Ilmiril Inganar Iroroon Itermerel Kardryn Karoodil Kyanka Landorume Lathenil Linwe Lithnilian Mankar Mannimarco Meanen Melaran Merandil Merildor Meryaran Miramor Mirtil Mollimo Moranarg Mororurg Mossanon Muril Naarifin Nande Nelacar Nerien Nirilor Norionil Nurelion Ocato Ohtimbar Olquar Ondolemar Orintur Ormil Orthorn Parmion Qorwynn Quaranir Quarde Raven Rimintil Rulindil Rumare Runil Ryain Rynandor Salmo Sanyon Seanwen Serenarth Seridur Sidanyis Sinderion Sinyaramen Sorcalin Suurootan Taheritae Tandil Tauryon Telinturco Thargallith Tilmo Torval Tragrim Trechtus Tumindil Tunengore Tusamircil Tyermaillin Ugaridge Ulundil Umbacano Undil Ungarion Uulernil Valmir Viarmo Vingalmo Volanaro Voranil Vorian Vorianus Vyrthur Yakov Yanniss Yannod Yarmondur Yarnar 
+leader_names= {
+	Nirire Agarloth Torsur Shanrawyn Niribys Tinparis Nyrhur Granmyn Uresur Yrerawyn Herekaris Shanbath Famhor Orhorith Varriath Daneparwen Athprith Cryntaroth Harkir Isemeloth Wirifaris Prisferys Tereyaris Vrankelor Ydhebor Heneparwen Zargriath Shanbath Parering Wanhan Teretil Vranzoth Jedhur Wanvarys Celesur Lenenoth Nyrdhor Uremeloth Teredanyis Denferys Mirkir Ronemeloth Udhelzius Harwen Celefiath Finbath Herefiath Caermyn Athdhor Lenehan Zidaring Koryloth Celebor Vranferys Kidazius Agzoth Yrgroth Aglen Niriwe Koryrwen awith Maszras Harwe Sindras Parezhor Uredras Prynre Ansaroth Parehis Berelnaris Balprith Agnoth Torsur Leneparis Celering Crynvryn Balgriath Prisbath Yrlor Tintaroth Sidalor Crynyrwen Cenlebor Lenekelor Heregriath Zongarwen Waidhor Agmyn Mirring Unarrenoth Engriath Torlen Zidadhor Pangarwen Glennaris Shanrawyn Kidasebir Anhorith Ydhewith Wanborin
 }
 
 ship_names = {
-	Agarwen Alwaen Anaire Angalsama Anirne Aranalda Ardaline Ardarume Ariente Arivanya Arquen Aryarie Astante Atraena Aurelinwae Calmaninde Camandil Camilonwe Caminalda Carahil Caranya Celria Cindanwe Ciralinde Culumaire Cumanya Curwe Dhaunayne Earana Eilonwy Elanande Elante Eldafire Elenwen Endarie Erissare Erranil Estalenya Estirdalin Estoril Faire Faralda Fistelle Helende Hession Hlidara Iirenoore Imare Iniel Irinwe Karinnarre Lilatha Lilyarel Lorurmend Medora Minorne Mirie Mirkrand Muurine Naenra Nalcarya Nenya Nerussa Niranye Nirya Ohtesse Palonirya Ranaline Reldith Ruma Siltalaure Sirilonwe Sondaale Sontaire Taarie Tandilwe Tarerane Tenyeminwe Termanwe Valie Varulae Viraninde 
+    Rinenyish Narasaroth Pryslori Annoth Lynzis Masgarwen Rynpireth Loretaroth Jelori Leneferys Elthune Kranloth Cendhora Naratan Giskharise Vorgarwen Arivena Emerenoth Sinakharise Vranmyn Vyrfeah Wanfaroth Aithreno Uretaroth Endhora Gangarwen Faepireth Vranhan Lesdenyse Berellen Faezhina Lenetaroth Inherish Caersaroth Prysyis Lenevarys Nirayane Kranyrwen Inhezis Agparwen Venkharise Unaryrwen Kirmeril Oretaroth Haerwen Oregarwen Celeher Irelparis Arithune Hargoth Censelin Loredras Aithvhis Zarrenoth Heledhora Yrendwen Elyane Vorzoth Vyrdenyse Roneparwen Vyrpath Vrantan Rynyis Norvryn Ynhepireth Anmeloth Haershan Krankelor Fairen Zarkelor Faefani Nararenoth Faemeril Agvarys Rynmhes Yrenzras Kirgeth Vorhan Zidalori Oregarwen Minlenor Krankelor Unhelpath Minevarys Uveshan Sinbath Heleselin Henesaris Heleshan Minerenoth Minrae Ganborin Inheselin Agarborin Nirapath Ronetaroth Terbora Ronekelor Melmhes Wasparwen
 }
 
 army_names = {

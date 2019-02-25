@@ -3436,14 +3436,14 @@ country_event = {
 
 	trigger = {
 		any_known_country = {
-			culture_group = latin
+			culture_group = daedra_cg
 		}
 	}
 	
 	immediate = {
 		hidden_effect = {
 			random_known_country = {
-				limit = { culture_group = latin }
+				limit = { culture_group = daedra_cg }
 				save_event_target_as = italian_engineer_country
 			}
 		}
@@ -8426,10 +8426,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		modifier = {
-			factor = 5.0
-			culture_group = germanic
-		}
 	}
 	
 	option = {
@@ -9291,13 +9287,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		
-		modifier = {
-			factor = 2
-			any_owned_province = {
-				culture = english
-			}
-		}
 	}
 	
 	option = {
@@ -9323,9 +9312,6 @@ country_event = {
 			add_horde_unity = 10
 		}
 		every_owned_province = {
-			limit = {
-				culture = english
-			}
 			add_province_modifier = {
 				name = football_modifier
 				duration = 18250

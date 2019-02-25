@@ -12,10 +12,10 @@ capital = "Lorusse"
 is_city = yes
 discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
 
+fort_15th = yes
+
 68.1.1 = {
 	owner = SUM
 	controller = SUM
 	add_core = SUM
 }
-
-fort_15th = yes

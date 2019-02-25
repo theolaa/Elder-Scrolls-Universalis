@@ -16,7 +16,16 @@ country_event = {
 		months = 1
 	}
 	
-	immediate = {		
+	immediate = {
+        if = {
+		limit = {
+		NOT = { is_year = 50 }
+		}
+		add_country_modifier = {
+		name = "antibankrapucy"
+		duration = 1460
+		}
+		}	
 		if = {
 		limit = {
 		NOT = { is_year = 50 }
@@ -147,7 +156,16 @@ country_event = {
 		months = 1
 	}
 	
-	immediate = {			
+	immediate = {	
+        if = {
+		limit = {
+		NOT = { is_year = 50 }
+		}
+		add_country_modifier = {
+		name = "antibankrapucy"
+		duration = 1460
+		}
+		}	
 		if = {
 		limit = {
 		NOT = { is_year = 50 }

@@ -1,3 +1,19 @@
+antibankrapucy = {
+    interest = -5
+    land_morale = 0.50
+	naval_morale = 0.50
+	manpower_recovery_speed = 1.0
+	sailors_recovery_speed = 1.0
+	advisor_cost = -1.0
+    technology_cost = -1.0
+	reinforce_speed = 0.50
+	global_colonial_growth = 250
+	idea_cost = -1.0
+	global_autonomy = -0.1
+	global_institution_spread = 1.0
+	yearly_absolutism = 2.5
+}
+
 01_focus_on_war = {
     land_morale = 0.10
 	global_spy_offence = 0.15
@@ -98,6 +114,32 @@
   devotion = -2.5
   horde_unity = -2.5
   meritocracy = -2.5
+}
+
+06_gradual_massacre = {
+   culture_conversion_cost = -1.0
+}
+
+08_ayleid_lords = {
+  local_unrest = 5
+}
+
+08_prepare_for_war = {
+   global_manpower_modifier = 0.25
+   manpower_recovery_speed = 0.25
+   global_regiment_cost = -0.25
+   free_leader_pool = 1
+   siege_ability = 0.10
+}
+
+08_give_autonomy = {
+   global_tax_modifier = -0.10
+   vassal_income = -1.0
+   vassal_forcelimit_bonus = -1
+}
+
+08_refuse_autonomy = {
+   reduced_liberty_desire = -25
 }
 
 00_far_legend = {

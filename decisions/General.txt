@@ -302,7 +302,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 3600
+         duration = 12775
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -338,7 +338,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 3600
+         duration = 12775
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -374,7 +374,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 3600
+         duration = 12775
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -394,7 +394,8 @@ country_decisions = {
 			NOT = { num_of_loans = 1 }
 			NOT = { has_country_modifier = ai_time }
 			any_owned_province = {
-			NOT = { has_province_modifier = dev } 
+			NOT = { has_province_modifier = dev }
+            NOT = { development = 45 }			
 			}
 		}
 		effect = {
@@ -412,7 +413,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 3600
+         duration = 12775
          }
 		 add_base_tax = 1
          add_base_production = 1

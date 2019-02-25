@@ -36,6 +36,32 @@ country_event = {
 		}
 		change_religion = eight_divines
 		}
+		define_ruler = {
+        name = "Alessia"
+        dynasty = "Nedic"
+        adm = 5
+        dip = 5
+        mil = 3
+        age = 21
+        claim = 100
+		female = yes
+        }
+		define_consort = {
+		name = "Morihaus"
+        dynasty = "Man-Bull"
+        culture = dremora
+        adm = 3
+        dip = 1
+        mil = 7
+        }
+		define_heir = {
+        name = "Belharza"
+		dynasty = "Man-Bull"
+		culture = dremora
+		adm = 5
+		dip = 3
+		mil = 7  
+        }
 	}
 	option = {
 		name = "es_7_scenario.1.b"
@@ -108,6 +134,34 @@ country_event = {
 		limit = { is_capital = no }
 		cede_province = ALE
 		change_religion = eight_divines
+		}
+		ALE = {
+		define_ruler = {
+        name = "Alessia"
+        dynasty = "Nedic"
+        adm = 5
+        dip = 5
+        mil = 3
+        age = 21
+        claim = 100
+		female = yes
+        }
+		define_consort = {
+		name = "Morihaus"
+        dynasty = "Man-Bull"
+        culture = dremora
+        adm = 3
+        dip = 1
+        mil = 7
+        }
+		define_heir = {
+        name = "Belharza"
+		dynasty = "Man-Bull"
+		culture = dremora
+		adm = 5
+		dip = 3
+		mil = 7  
+        }
 		}
 	}
 }

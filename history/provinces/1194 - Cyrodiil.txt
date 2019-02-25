@@ -16,8 +16,10 @@ center_of_trade = 1
 
 fort_15th = yes
 
+211.1.1 = { religion = eight_divines }
+
 266.1.1 = {
-	owner = ALE
+	owner = ALE culture = nedic
 	controller = ALE
 	add_core = ALE
 }

@@ -120,7 +120,7 @@ random_owned_province = {
 			}
 		}
 		
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 	
 	option = {
@@ -223,7 +223,7 @@ random_owned_province = {
 			}
 		}	
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 }
 
@@ -338,7 +338,7 @@ random_owned_province = {
 				unrest = 25
 			}
 		}
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 	
 }
@@ -457,7 +457,7 @@ random_owned_province = {
 			}
 		}	
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 	option = {
 		name = "ge_revolution.23.b"
@@ -557,7 +557,7 @@ random_owned_province = {
 			}
 		}
 		
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 		}
 	option = {
 		name = "ge_revolution.23.c"
@@ -657,7 +657,7 @@ random_owned_province = {
 			}
 		}			
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 }
 	
@@ -773,7 +773,7 @@ random_owned_province = {
 			}
 		}		
 		
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 	
 }
@@ -895,7 +895,7 @@ random_owned_province = {
 			}
 		}		
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 	
 	option = {
@@ -996,7 +996,7 @@ random_owned_province = {
 			}
 		}		
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 }
 
@@ -1112,7 +1112,7 @@ random_owned_province = {
 			}
 		}		
 			
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 
 }
@@ -1164,6 +1164,6 @@ country_event = {
 		add_stability = 1
 		add_prestige = 25
 				
-		remove_country_modifier = political_indefiniteness
+		remove_country_modifier = political_indefiniteness end_disaster= es_revolution
 	}
 }

@@ -174,4 +174,82 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	spriteType = {
+		name = "ES_SPACE_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SPACE_1_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SPACE_2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SPACE_2_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SPACE_3_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SPACE_3_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SPACE_4_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SPACE_4_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_MOOT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MOOT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_CITY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_CITY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ALESSIA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ALESSIA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_TRIUMPH_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_TRIUMPH_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_LABOUR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_LABOUR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DWEMES_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DWEMES_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BANK_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BANK_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_REBELLION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_REBELLION_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_GENOCIDE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_GENOCIDE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 }

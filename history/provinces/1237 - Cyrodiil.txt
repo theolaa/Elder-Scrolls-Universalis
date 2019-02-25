@@ -12,8 +12,10 @@ capital = "Seelia"
 is_city = yes
 discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
 
+211.1.1 = { religion = eight_divines }
+
 266.1.1 = {
-	owner = ALE
+	owner = ALE culture = nedic
 	controller = ALE
 	add_core = ALE
 }

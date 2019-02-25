@@ -29,7 +29,7 @@ country_decisions = {
 		}
 		effect = {
 		    add_stability = -3
-			change_government_via_reform = republic
+			change_government = republic
 		}
 		ai_will_do = {
 			factor = 0
@@ -65,7 +65,7 @@ country_decisions = {
 		}
 		effect = {
 		    add_stability = -3
-			change_government_via_reform = theocracy
+			change_government = theocracy
 		}
 		ai_will_do = {
 			factor = 0
@@ -99,7 +99,7 @@ country_decisions = {
 		}
 		effect = {
 		    add_stability = -3
-			change_government_via_reform = monarchy
+			change_government = monarchy
 		}
 		ai_will_do = {
 			factor = 0

@@ -21,7 +21,9 @@ technology = {
 	may_agitate_for_liberty = yes
 	may_infiltrate_administration = yes
 	
-	trade_range				=	50
+	trade_range				=	100
+	
+	range					=	100
 	
 	enable = T00
 	enable = G00

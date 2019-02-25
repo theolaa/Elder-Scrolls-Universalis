@@ -9,45 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"Agehane #0" = 10
-	"Amthersil #0" = 10
-	"Ashane #0" = 10
-	"Calinden #0" = 10
-	"Ceyran #0" = 10
-	"Delthelel #0" = 10
-	"Dynichi #0" = 10
-	"Endarre #0" = 10
-	"Filestis #0" = 10
-	"Gharomir #0" = 10
-	"Hergor #0" = 10
-	"Laloriaran #0" = 10
-	"Malyon #0" = 10
-	"Odilon #0" = 10
-	"Quaronaldil #0" = 10
-	"Sildane #0" = 10
-	"Thordhul #0" = 10
-    "Varondil #0" = 10
-	"Wendomir #0" = 10
-	"Yeghane #0" = 10
+	"Vanhur #0" = 10
+	"Cyrheganund #0" = 10
+	"Qegylomo #0" = 10
+	"Dondont #0" = 10
+	"Gisegilin #0" = 10
+	"Teymeyladis #0" = 10
+	"Orhualmuunint #0" = 10
+	"Dalin #0" = 10
+	"Ryland #0" = 10
+	"Hegint #0" = 10
+	"Rorguuramis #0" = 10
+	"Narges #0" = 10
+	"Murhyldiment #0" = 10
+	"Tjosaunt #0" = 10
+	"Gemhel #0" = 10
+	"Vingiant #0" = 10
+	"Djel #0" = 10
+	"Djamduusceges #0" = 10
+	"Eguggend #0" = 10
+	"Ragedarel #0" = 10
 	
-	"Amarie #0" = -10
-	"Amtherisaya #0" = -10
-	"Deninque #0" = -10
-	"Denthasque #0" = -10
-	"Elanwe #0" = -10
-	"Iniel #0" = -10
-	"Sendaya #0" = -10
-	"Silque #0" = -10
-	"Velsilsima #0" = -10
-	"Vivicka #0" = -10
+	"Illarrymo #0" = -10
+	"Uzynhoth #0" = -10
+	"Elonlaris #0" = -10
+	"Darammel #0" = -10
+	"Cele #0" = -10
+	"Ymme #0" = -10
+	"Suhe #0" = -10
+	"Lymma #0" = -10
+	"Ynnylsasul #0" = -10
+	"Elis #0" = -10
 }
 
-leader_names = {
-    Agehane Amdir Amthersil Anghaur Angoromir Anumaril Ashane Bokaur Boraril Calinden Celethelel Cenedelin Ceyran Dathomelil Dejaril Delthelel Denhaur Durhane Dynichi Eldhul Endarre Enthelel Ethandane Feluthisimir Filestis Gararil Genethelel Ghahane Gharomir Gordhaur Hadhuul Haromir Henomir Hergor Hinaril Hinmir Hinomir Inachi Kalduril Kindamir Ktamne Laloriaran Lellethel Lenethelel Lexelel Limthelel Lnejhaur Lotlethel Lucaril Mabaril Malimane Malyon Megur Molthoril Naraur Nihanre Nilichi Nodethelel Nym Odilon Ormomir Ostarand Piudanmil Piuthan Quaronaldil Sadhelel Sildane Sutaril Thordhul Thursaladil Tinichi Tjurhane Uluscant Umaril Untamir Uuril Varondil Vayichi Wendomir Xaphane Xolomir Yeghane 
+leader_names= {
+	Cumhul Guumond Qystur Fisno Nimender Lurdon Veruu Genuuladom Djus Tjan Masnam Heystuadhisind Tjughandonos Vossyduron Djun Niruugadant Cogir Lida Cordu Tjimdymegi Tjisneymaulont Heystalero Luudagarund Cam Vunhualdadont Undorrau Cusdar Lymher Tamhuundogo Cossin Fyndiscas Tuanum Nilind Tjuunrerhen Limdardhunur Umhuur Enyrrolum Dedhan Cuussint Lydar Vanhur Cyrheganund Qegylomo Vond Dondont Fin Gisegilin Teymeyladis Min Orhualmuunint Femde Nant Dalin Ryland Hegint Rorguuramis Cyr Nas Narges Murhyldiment Tjosaunt Gemhel Vingiant Djel Djamduusceges Eguggend Lenalmel Toduurhasym Ragedarel Hunro Cosudam Rirgurhand Djangent Nogo Fidhi Tedygedo Qon Dingardigam Cymylmuumer Lunrun Hosnuugaura Mimuurgusen Nisnen Irgogol Gand Lagan Hasind Nugant Leydel Ussamuul Inhuagadom Omashaul Rorhemeras Djador Muanhilan Vem Cur Linduasdesem Qessem Vuudunt
 }
 	
 ship_names = {
-	Acknada Aldicka Altrissimicka Amarie Amtherisaya Ansisila Anurraame Belanda Bokuna Cabinque Canthismulque Cetdaya Clobinque Cowuna Creluna Curano Deldaya Deninque Denthasque Derlata Dominique Dominica Elanwe Emparsilaya Giwuna Gothilma Gullada Halinque Hinodaya Hroma Hrunua Inalada Indosia Iniel Islada Istrimaya Kindslodaya Ktahamaya Kufnada Kununa Lamidana Lanath Lannessa Liticka Lolinique Loruna Losilia Lunasaya Lunicka Malicka Molthorque Mordaya Morilye Napicka Nisthunque Nuralanya Palolel Parthisila Piupaleda Raticka Raynada Resdava Rodlata Ryglada Samlada Saslata Semasila Sendaya Silque Sirdaya Sulanda Syclada Tilimque Urenenya Valasha Velsilsima Vernua Vivicka Wendenque Wynaldia Xessicka 
+	Illarrymo Uzynhoth Elonlaris Darammel Cele Ymme Suhe Lymma Ynnylsasul Ironwymu Elis Puvusadya Lyzelniniath Liva Pehi Yrraldylith Irreshyva Pemu Lonnosson Leru Mene Pallush Mennith Arro Nenemmeve Cimase Came Sezenhuvo Immi Ymmu Immol Hunne Muzos Hunnul Parrunde Hennynlyho Cunylne Emma Cylyris Dynnyan Erridhish Uhidhon Nivo Nula Helydu Summi Dini Monado Vyza Mevirlen Ammas Lomaldydaa Pehyshen Soreshi Ymi Nivi Sullidhash Purru Sumadhiash Hilli Vurel Myzas Nyrrin Illerra Carro Yhu Sylanwesh Allonde Onya Synarlysush Wahemnyhol Himmon Pymmynnenu Lunnu Ivenash Illath Azu Nivo Wuria Wimunmara Mezol Pyziesh Cavannorel Nivi Ymmilune Poman Dyzas Nulynhi Symmu Yve Cyledha Wommi Danasso Puzulnudu Lometh Yrru Honnomule Harrylnes Eradhiho Nanalne
 }
 
 army_names = {

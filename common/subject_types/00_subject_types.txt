@@ -176,20 +176,19 @@ vassal = {
 	can_be_annexed = yes
 	
 	takes_diplo_slot = no
-	gives_daimyo_bonuses = yes
-	gets_help_with_rebels = no
+	gets_help_with_rebels = yes
 	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
 
 	max_government_rank = 1
 
-	has_power_projection = yes
-	liberty_desire_development_ratio = 0.25
+	has_power_projection = no
+	liberty_desire_development_ratio = 0.50
 	pays_overlord = 1.0
 	forcelimit_bonus = 1.0
-	forcelimit_to_overlord = 0.1
+	forcelimit_to_overlord = 0.05
 
-	relative_power_class = 1.5
+	relative_power_class = 1.75
 	
 	can_fight = {
 		same_overlord = vassal
@@ -251,7 +250,7 @@ march = {
 	base_liberty_desire = -9999
 	pays_overlord = 1.0
 	forcelimit_bonus = 2.5
-	forcelimit_to_overlord = 0.1
+	forcelimit_to_overlord = 0
 	
 	relative_power_class = 1
 	

@@ -47,11 +47,6 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				culture_group = turko_semitic
-				NOT = { primary_culture = turkish }
-			}
-			modifier = {
-				factor = 1.5
 				num_of_cities = 35
 			}
 			modifier = {

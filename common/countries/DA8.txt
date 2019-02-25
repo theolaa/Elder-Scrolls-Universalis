@@ -9,45 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"Dallem #0" = 10
-	"Arlem #0" = 10
-	"Adrak #0" = 10
-	"Kedec #0" = 10
-	"Armon #0" = 10
-	"Bishamon #0" = 10
-	"Jermon #0" = 10
-	"Kaemon #0" = 10
-	"Kaimon #0" = 10
-	"Neimon #0" = 10
-	"Raemon #0" = 10
-	"Raholor #0" = 10
-	"Telad #0" = 10
-	"Galem #0" = 10
-	"Haled #0" = 10
-	"Varec #0" = 10
-	"Ollem #0" = 10
-	"Hairmon #0" = 10
-	"Dalmon #0" = 10
-	"Airek #0" = 10
-
-	"Xilir #0" = -10
-	"Tarmia #0" = -10
-	"Ammia #0" = -10
-	"Maelir #0" = -10
-	"Limia #0" = -10
-	"Cadmia #0" = -10
-	"Calamia #0" = -10
-	"Eomia #0" = -10
-	"Femia #0" = -10
-	"Tezia #0" = -10
+	"Deesmal #0" = 10
+	"Finremth #0" = 10
+	"Rhanwall #0" = 10
+	"Tewam #0" = 10
+	"Foermeskr #0" = 10
+	"Bryngeemir #0" = 10
+	"Rurkonneir #0" = 10
+	"Segald #0" = 10
+	"Bretgolak #0" = 10
+	"Stetmak #0" = 10
+	"Jetmenl #0" = 10
+	"Ratmam #0" = 10
+	"Told #0" = 10
+	"Fudemth #0" = 10
+	"Ferleld #0" = 10
+	"Tosgril #0" = 10
+	"Rhasnaskr #0" = 10
+	"Dusnanl #0" = 10
+	"Rholl #0" = 10
+	"Gugnorr #0" = 10
+	
+	"Vudmuldr #0" = -10
+	"Skolnuf #0" = -10
+	"Brinhal #0" = -10
+	"Sogrur #0" = -10
+	"Thrivedraldr #0" = -10
+	"Fragdrudrer #0" = -10
+	"Morvenend #0" = -10
+	"Brotiedr #0" = -10
+	"Vif #0" = -10
+	"Vunheldys #0" = -10
 }
 
-leader_names = {
-    Bashomon Hashlem Shigir Tasyd Shaddid Dallem Shadzaf Jarzaf Bashlad Arlem Jesyd Neihin Dujem Jerak Adrak Kedec Shaluy Hasej Jergir Galuy Admon Durec Kazed Shadorak Samejid Dusherec Agmon Armon Bishamon Comon Daimon Denmon Djimon Dumon Gamon Hamon Jamon Jarmon Jemon Jermon Kaemon Kaimon Kamon Kemon Kermon Lamon Limon Maemon Mamoon Monon Neimon Raemon Rahmon Rymon Sammon Shadmon Shalmon Shamon Shimon Tarmon Tamon Temon Tzalmon Ximon Yemon Zymon Kajem Yezed Raholor Ardid Shilom Jerdid Jalem Bishlor Maezed Zyjem Telad Shaded Lasul Mashrak Kashra Mazul Zaded Haled Raized Vishor Halem Kalem Galem Alem Mudid Muzhdid Ammon Hammon Zamon Zaman Hommo Romen Gaimon Gaymon Surec Mured Harec Korec Varec Vasyd Masyd Hasyd Hosyd Gheysyd Mozaryd Masayd Osaryd Omon Ollem Ozraf Shazryd Beshlyd Jigir Vaygyr Mazgir Hazagir Algyr Falgyr Jalgyr Shagyr Shaid Dozgyr Khelgyr Kolgyr Hamigir Jemogir Limgyr Tamogir Shilgir Silgyr Fahgyr Fehelgyr Furgyr Shurgir Telgyr Hogyr Haigyr Humgyr Hungir Haalgyr Hakkyr Gaggyr Gangyr Gehlgir Gaid Gon Gozraf Gharec Gorek Ghorek Ghozrec Ghamek Kharec Khorez Kholem Khomon Kholon Kylmon Hymon Hyrmon Hairmon Hormon Harek Hozhrec Hetrec Hetgyr Domogyr Dozrec Dymon Dalmon Colmon Cymon Cairmon Carlmon Carec Chorek Caized Borek Bygyr Baragyr Bholmon Bhaalmon Bezgyr Bezmon Belmon Bhuzgir Bhuzmon Bhazarek Barzmon Bazman Borez Bhimon Bhirek Aazmon Aimon Airez Atuzmon Atomon Abzimon Abhigyr Airek Ahaluk Ahilmon Ahzid Yazmon Yaazman Yezgyr Yaragir Yamagyr Yazdid Yadid Yashamon Yazed Yasharec Yaarek 
+leader_names= {
+	Deesmal Finremth Rhanwall Tewam Foermeskr Bryngeemir Rurkonneir Segald Bretgolak Stetmak Jetmenl Ratmam Told Fudemth Ferleld Tosgril Rhasnaskr Dusnanl Rholl Gugnorr Dorkalg Hoksild Tilgeskr Sisgamth Boechyrom Holam Stegnennith Rhenwath Kleelim Sudinl Rondirek Bor Jalsgolein Stegath Gechem Stindurilg Rhilg Roewallom Keewogik Klolsgonl Frelsgel Brelskald Brungolg Frargil Storgath Kosner Kligild Vukniak Thelbell Feld Sungiaskr Frowunnirr Fosmil Skitgerr Gilsganl Thirmoskr Tiwon Kosnorr Bralg Frurramth Gol Keld Rhyrrerik Frechom Folsgold Skendeinl Rotgild Kirkom Valben Sirlannen Dyrulleim Dilg Skoetgogam Kurmok Stisgreskr Dasgron Skylskak Delsgoll Dormam Delorr Klytmor Steedeth Mesmannath Bolbein Finwoskr Jochin Rerlok Feegnerr Moegianl Thangianl Kutgild Tirmonmoll Tusgrirr Frem Brundeskr Thugnom Budek Vilskemild Skechilg Rotmalleskr
 }
 
-ship_names = {
-	Aralir Shalesat Jasaud Duymia Jaemia Xilir Shasaud Zymia Kepey Tayir Djiyir Shadmia Rahlir Tarqab Tarsaud Jarmia Tarmia Maeqab Shiyir Rahalir Ammia Jeralir Katoh Pashsat Shiqab Dalapey Gasap Lashimia Zyir Agomia Temia Shadatoh Maelir Jetoh Limia Matoh Shalalir Amupey Yisholir Kereyir Djitoh Akalir Amalir Analir Atchalir Astalir Azulir Ahilir Ahalir Abhilir Ailir Atolir Atalir Aolir Azalir Amulir Anulir Alesat Amia Ajamia Armia Azmia Atamia Amutmia Atchmia Aylir Camlir Cashmia Cashap Cavir Carmia Casaud Cayvir Cadmia Carlmia Calamia Cashtia Cammia Cagamia Capia Cashyap Cannia Comia Calmia Caelmia Catomia Calamir Castalir Cazulir Carevir Cagomia Cazmia Cummia Cylir Colvir Canalir Conolir Caylir Camia Ceymia Cymia Damia Domia Dymia Dalmia Dunnia Dylir Dolvir Dozvir Danalir Dalmir Datamia Daymona Dazmia Dalalir Datomir Daley Dasaud Dostia Junnia Jaley Jahmey Jorey Jazmia Jamamia Jalmir Jalalir Jymia Jadmia Jomia Jummia Jashlir Jamren Jalolur Jalesat Jagmia Jolvia Joshren Jorez Elilur Etalur Eashmia Eomia Eannia Eozvir Eashren Eadmia Eoren Etamia Ermia Eymia Ezmia Eolyr Erevir Falmyr Falesat Fashtab Fannia Fozren Fomia Foren Fynmia Folvyr Fashren Fozvir Fummia Foley Femia Fanalir Halmir Hammia Hazalur Haley Harevir Haimon Hymia Hatamia Hunnia Huzia Holvir Hamamia Hanamia Hasuad Hesmia Hetmia Pammia Ponnia Pomovir Ponvia Polamia Pomania Patamir Peshren Podomia Tommia Tolovir Tesmia Tashsat Taralir Tilir Tylir Tadmia Tonnia Tolamia Tymia Toren Tagmia Torez Tazalur Tymamia Tylmia Tashlyr Tannia Tazia Tezia
+ship_names= {
+	Vudmuldr Skolnuf Brinhal Sogrur Thrivedraldr Fragdrudrer Morvenend Brotiedr Vif Vunheldys Kamen Hudynd Sogjudrildr Hadrehyldr Heyrmin Hleirjin Hleingrenyl Modmeldil Hlateyldus Hlihuldan Hormeld Frethold Rulur Kadref Geildif Sves Gorjold Hjeijes Kehaldoldr Vodrold Hledrind Hlalmadrun Gagrer Godehedr Svadrinlind Brodrunlyn Sothes Gildaldr Svugjis Veydef Hrovel Veladrys Heylrianlor Homyld Hres Hrialmuhon Bruleihof Thudubyldr Thedrildr Geirvobond Hitys Hjudr Frildiafol Hjir Thimis Hlogren Vogeyfioldr Gendodr Kiaheldir Valdubild Rolrifodr Thol Hrodruldaf Kuvinludr Threidiodr Korveldr Breyld Thelmyn Svedryl Magdrond Geldr Hagrudr Frugdronluldr Thrialder Skodnild Hjialdr Mogibin Fruveld Skolnil Salyld Freldohiof Thovohadr Hreythond Ridyl Thilrif Surjafald Hregjaf Kigrildr Hjemuld Hjangris Briguf Radr Hlolmof Hrund Svednun Gorvar Heirubaf Sarynd Tholnofeldr Frodmeldof
 }
 
 army_names = {

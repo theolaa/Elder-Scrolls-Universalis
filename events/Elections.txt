@@ -60,7 +60,7 @@ country_event = {
 				NOT = { republican_tradition = 20 }
 				NOT = { has_dlc = "Res Publica" }
 			}
-			change_government_via_reform = monarchy
+			change_government = monarchy
 			set_legacy_government = despotic_monarchy
 		}
 		else_if = {

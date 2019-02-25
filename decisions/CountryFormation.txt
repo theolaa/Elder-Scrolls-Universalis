@@ -28,9 +28,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -72,9 +72,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -116,9 +116,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -157,9 +157,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -200,9 +200,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -245,9 +245,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -290,9 +290,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -376,9 +376,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -419,9 +419,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -462,9 +462,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -507,9 +507,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -552,9 +552,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -597,9 +597,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -641,9 +641,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -685,9 +685,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -705,7 +705,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = TAM }
+			OR = {
 			primary_culture = imperial
+			primary_culture = vampire
+			}
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -863,9 +866,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -906,9 +909,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -949,9 +952,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -992,9 +995,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1035,9 +1038,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1078,9 +1081,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1121,9 +1124,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1164,9 +1167,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1207,9 +1210,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1250,9 +1253,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1298,9 +1301,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1341,9 +1344,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1384,9 +1387,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1427,9 +1430,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1471,9 +1474,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1515,9 +1518,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1560,9 +1563,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1603,9 +1606,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1646,9 +1649,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1691,9 +1694,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1734,9 +1737,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1821,9 +1824,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1865,9 +1868,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1909,9 +1912,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1944,9 +1947,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -1987,9 +1990,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -2030,9 +2033,9 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
@@ -2073,9 +2076,82 @@ country_decisions = {
 			#
 			if = {
 				limit = {
-					NOT = { government_rank = 2 }
+					NOT = { government_rank = 3 }
 				}
-				set_government_rank = 2
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	forelhost_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = FOR }
+			NOT = { tag = DRA }
+			primary_culture = atmoran
+		}
+		provinces_to_highlight = {
+			province_id = 1265
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1265
+		}
+		effect = {
+			change_tag = FOR
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	skaal_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = SKA }
+			primary_culture = skaal
+		}
+		provinces_to_highlight = {
+			province_id = 949
+			province_id = 951
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 949
+			owns_core_province = 951
+		}
+		effect = {
+			change_tag = SKA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

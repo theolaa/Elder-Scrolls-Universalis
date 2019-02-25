@@ -248,6 +248,7 @@ yokudan_group = {
 		country = {
 			heir_chance = 1.0
 			trade_efficiency = 0.10
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			heir_chance = 1.0
@@ -336,6 +337,7 @@ kothri_group = {
 		country = {
 		    fire_damage_received = -0.10
 			global_trade_power = 0.10
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			fire_damage_received = -0.10
@@ -616,6 +618,7 @@ sload_group = {
 		country = {
 			advisor_pool = 1
 			advisor_cost = -0.1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			advisor_pool = 1
@@ -656,6 +659,7 @@ serpant_group = {
 		country = {
 			land_morale = 0.10
 			global_unrest = -1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			land_morale = 0.10
@@ -692,6 +696,7 @@ dragon_group = {
 		country = {
 		    tolerance_own = 1
 			stability_cost_modifier = -0.1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			tolerance_own = 1
@@ -1006,6 +1011,7 @@ old_group = {
 		country = {
 			land_morale = 0.10
 		    advisor_cost = -0.1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			land_morale = 0.10
@@ -1039,6 +1045,7 @@ tsaesci_group = {
 		country = {
 			discipline = 0.05
 			global_unrest = -1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			discipline = 0.05
@@ -1138,6 +1145,7 @@ dremora_group = {
 		country = {
 			cav_to_inf_ratio = 0.10
 			global_regiment_cost = -0.10
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			cav_to_inf_ratio = 0.10
@@ -1171,6 +1179,7 @@ daedric_group = {
 		country = {
 			free_leader_pool = 1
 	        heir_chance = 1.0
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			free_leader_pool = 1
@@ -1241,6 +1250,7 @@ daedric_group = {
 		country = {
 			fire_damage = 0.10
 	        loot_amount = 0.10
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			fire_damage = 0.10

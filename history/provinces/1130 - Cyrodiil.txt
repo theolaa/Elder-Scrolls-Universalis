@@ -19,16 +19,17 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+fort_15th = yes
+
 68.1.1 = {
 	owner = AYL
 	controller = AYL
 	add_core = AYL
 }
 
-fort_15th = yes
-
 266.1.1 = {
-	owner = ALE
+	owner = ALE culture = nedic
 	controller = ALE
 	add_core = ALE
+	religion = eight_divines
 }

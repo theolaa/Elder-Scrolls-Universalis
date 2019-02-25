@@ -488,7 +488,7 @@ technology = {
 	# Tech 57
 	year = 1450
 	
-	combat_width = 5
+	land_morale 	= 	0.10
 }
 
 technology = {
@@ -573,7 +573,7 @@ technology = {
 	# Tech 67
 	year = 1700
 	
-	combat_width = 5
+	land_morale 	= 	0.10
 }
 
 technology = {
@@ -657,7 +657,7 @@ technology = {
 	# Tech 77
 	year = 1950
 	
-	combat_width = 5
+	land_morale 	= 	0.10
 }
 
 technology = {
@@ -742,7 +742,7 @@ technology = {
 	# Tech 87
 	year = 2200
 	
-	combat_width = 5
+	land_morale 	= 	0.10
 }
 
 technology = {
@@ -823,7 +823,7 @@ technology = {
 	# Tech 97
 	year = 2450
 	
-	combat_width = 5
+	land_morale 	= 	0.10
 }
 
 technology = {

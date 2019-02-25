@@ -1,5 +1,6 @@
 ﻿l_english:
 
+ antibankrapucy:0 "Anti-Bankruptcy"
  01_focus_on_war:0 "Focus on War"
  01_focus_on_trade:0 "Focus on Trade"
  01_focus_on_internal_sphere:0 "Focus on Internal Sphere"
@@ -14,8 +15,23 @@
  05_elven_slaves:0 "Elven Slaves"
  06_etherial_mine:0 "Etherial Mine"
  06_etherial_crisis:0 "Etherial Crisis"
+ 06_gradual_massacre:0 "Gradual Massacre"
+ 08_ayleid_lords:0 "Ayleid Lords"
+ 08_prepare_for_war:0 "Prepare for War"
+ 08_give_autonomy:0 "Autonomy of Vassals"
+ 08_refuse_autonomy:0 "Disloyal"
  00_far_legend:0 "Far Legend"
  00_tamrilian_tractates:0 "Tamrilian Tractates"
+ 
+ es_culture.1.t:0 "Fall of Solstheim"
+ es_culture.1.d:0 "The last Ayleid state on Solstheim is captured by there enemies."
+ es_culture.2.t:0 "Fall of Direnii State"
+ es_culture.2.d:0 "The last Direnii state is captured by there enemies."
+ es_culture.3.t:0 "Fall of White Elves"
+ es_culture.3.d:0 "The last White-Elven state is captured by there enemies."
+ es_culture.4.t:0 "Fall of Ayleids"
+ es_culture.4.d:0 "The last Ayleid state is captured by there enemies."
+ es_culture.1.a:0 "What a tragedy!"
 
  es_0_scenario.1.t:0 "The Isle of Artaeum"
  es_0_scenario.1.d:0 "The Breton aurthor Voernet writes a tale about magnoficant island of Artaem - the home of mysterious Psijic Order."
@@ -28,9 +44,28 @@
  es_0_scenario.3.t:0 "Tamrilean Tractates"
  es_0_scenario.3.d:0 "Khosey completed his greatest creation - Tamrilean Tractates."
  es_0_scenario.3.a:0 "I definetly should read it."
+ 
+ es_0_scenario.4.t:0 "Fall of White-Gold Tower"
+ es_0_scenario.4.d:0 "Today the great tragedy occured to all Ayleid people - there beautiful capital falled in hands of enemies. We still get reports about resistance in some parts of White-Gold Tower, but it is clear that remaining forces won't take it back. Is it the end of Ayleid State?"
+ es_0_scenario.4.a:0 "Only the Gods know..."
+ 
+ es_0_scenario.5.t:0 "Nords in Daggerfall"
+ es_0_scenario.5.d:0 "Today a huge group of Nordic settlers arrived in province of Daggerfall. They ask your permission to found their colony there. We will definetly get huge economic boost of that region... but what our people will say about that?"
+ es_0_scenario.5.a:0 "Allow Nordic colony."
+ es_0_scenario.5.b:0 "Prohibit creation of the colony."
+ 
+ es_0_scenario.6.t:0 "Apotheosis of Alessia"
+ es_0_scenario.6.d:0 "This morning, after a long illness, Alessia, the Queen of Slaves, passed away. This colossal tragedy is for the entire Nedi people. As the last gift to her people, Alessia left the Amulet of Kings, which should protect them while a particle of her soul burns in it."
+ es_0_scenario.6.a:0 "This is an irreplaceable loss."
+ 
+ es_vampire_purification_title:0 "Vampire Purification"
+ es_vampire_purification_desc:0 "Vampire Purification"
+ 
+ SUNSET_OF_MERETHIC_ERA:0 "§GSunset of Merethic Era§!"
+ SUNSET_OF_MERETHIC_ERA_DESC:0 "The Merethic Era is coming to its logical end. Nirn is divided into many independent states, each of which wants to achieve hegemony not only in its own region, but throughout Nirn. Only time will tell who will ascend and who will fall in Oblivion."
 
  DAWN_OF_FIRST_ERA:0 "Dawn of First Era"
- DAWN_OF_FIRST_ERA_DESC:0 "The dawn of the First Era is the sunset of the elven hegemony in Tamriel. In Valenwood, another war of succession ends, putting a representative of the Camoran dynasty on a wooden throne. Taking advantage of this, the Ayleid Territories were able to gain independence and create own state around the White-Gold Tower. The Colonies in Hammerfell, united around the city of Illiat Bay, Santiel, could also feel the wind of freedom. Even the Hegemony of Direnii, which could barely hold the territory in the North of the country, could not prevent this. The White Elfs are also doing badly, as most of their territory is already under the control of settlers from Atmora."
+ DAWN_OF_FIRST_ERA_DESC:0 "The dawn of the First Era is the sunset of the elven hegemony in Tamriel. In Valenwood, another war of succession ends, putting a representative of the Camoran dynasty on a wooden throne. Taking advantage of this, the Ayleid Territories were able to gain independence and create own state around the White-Gold Tower. The Colonies in Hammerfell, united around the city of Illiac Bay, Santiel, could also feel the wind of freedom. Even the Hegemony of Direnii, which could barely hold the territory in the North of the country, could not prevent this. The White Elfs are also doing badly, as most of their territory is already under the control of settlers from Atmora."
  
  es_1_triumvirate:0 "Triumvirate"
  01_prepare_for_war:0 "Prepare for War"
@@ -128,6 +163,9 @@
  es_4_scenario.5.a:0 "Prepare the invasion!"
  es_4_scenario.5.b:0 "We are not intrested in it."
  
+ es_4_skaals_title:0 "Give Skaals Autonomy"
+ es_4_skaals_desc:0 " "
+ 
  NARFINSEL_SCHISM:0 "Narfinsel Schism"
  NARFINSEL_SCHISM_DESC:0 "The followers of Aedra and Daedra have existed in Cyrodiil since the arrival of the elves into these lands. For a long time they lived side by side and could find opportunities for the peaceful resolution of all disputes that arose. However, over time, the number of contradictions accumulated. And in the end an event occurred, later called, the Schism of Narfinsel."
  
@@ -175,6 +213,21 @@
  es_6_scenario.4.a:0 "We will fight for our country!"
  es_6_scenario.4.b:0 "Accept the Ultimatum."
  
+ es_6_scenario.5.t:0 "Creation of Moot"
+ es_6_scenario.5.d:0 "Our noble court thinks, that we should establish the Moot to guarantee the security of the Crown."
+ es_6_scenario.5.a:0 "Create the Moot!"
+ es_6_scenario.5.b:0 "We don't need it..."
+ 
+ es_6_scenario.6.t:0 "Gradual Massacre"
+ es_6_scenario.6.d:0 "This is a list of provisions that ensure the dominance of the Nords throughout the country and permit the holding of any actions against non-locals, up to direct genocide."
+ es_6_scenario.6.a:0 "Skyrim for Nords!"
+ es_6_scenario.6.b:0 "We always were a multicultural nation..."
+ 
+ es_6_scenario.7.t:0 "Dwemer Cities"
+ es_6_scenario.7.d:0 "The Dwemer are drawn into a bloody internecine war. They have no strength to protect their lands even from ordinary bandits! We can use this to put an end to the power of the Dwemer in Skyrim once and for all."
+ es_6_scenario.7.a:0 "They won't even notice our intervention..."
+ es_6_scenario.7.b:0 "We are not ready for it now..."
+ 
  ALESSIAN_REVOLT:0 "Alessian Revolt"
  ALESSIAN_REVOLT_DESC:0 "Nedian people fell under dependence on the Ayleids, which later become a slavery, many centuries ago. Their labor was used in production, agriculture, they were sacrificed to harsh gods ... and they were simply bullied. Year after year. From century to century. The uprising led by Alessia sprang from a spark. But the flame from it will destroy the verified foundations for centuries."
  
@@ -198,3 +251,37 @@
  es_7_scenario.4.d:0 "Obviously, the Ayleids are weaker than ever. Their end is near. We can use this to regain power over a former colony."
  es_7_scenario.4.a:0 "We will return Cyrodiil!"
  es_7_scenario.4.b:0 "We should focus on other problems..."
+ 
+ es_7_alessian_union_title:0 "Form Alessian Union"
+ es_7_alessian_union_desc:0 " "
+ 
+ es_7_purification_title:0 "Start Purification"
+ es_7_purification_desc:0 " "
+ 
+ SKYRIM_CONQUESTS:0 "Nordic Conquests"
+ SKYRIM_CONQUESTS_DESC:0 "The epoch of the Nordic conquests is the time span during which the Nordic expansion, which had already swallowed the White Elves, continued into the territory of Morrowind and High Rock. As a result of these events, the Old Kingdom arose, which will reach hegemony in the whole north of Tamriel and will be destroyed only by the flames of civil war."
+ 
+ es_8_scenario.1.t:0 "Nordic Empire"
+ es_8_scenario.1.d:0 "We showed everyone what the true descendants of Isgramor are capable of. Our time has come! Long live the Nordic Empire!"
+ es_8_scenario.1.a:0 "Long live the Old Kingdom!"
+ es_8_scenario.1.b:0 "We are not ready for it yet..."
+ 
+ es_8_scenario.2.t:0 "Ayleid Lords"
+ es_8_scenario.2.d:0 "Sadly, Alessia is no longer with us. With her death, the uprising also died. But the country survived. And it must be developed further - the free state of the people is the ideal to which Alessia went. But for this we need money and resources that can be provided by our former opponents - elves. To accept their offer or not, you decide."
+ es_8_scenario.2.a:0 "Elves are not our enemies anymore."
+ es_8_scenario.2.b:0 "We will never exept anything from them!"
+ 
+ es_8_scenario.3.t:0 "Dwemers in Skyrim"
+ es_8_scenario.3.d:0 "Obviously, the expansion of the Nords threatens our people in Skyrim. We are obliged to protect our people. It seems that the only way out is to occupy these territories."
+ es_8_scenario.3.a:0 "Let's bring liberty to Skyrim!"
+ es_8_scenario.3.b:0 "We are not ready for this yet..."
+ 
+ es_8_scenario.4.t:0 "Vassals are Disloyal"
+ es_8_scenario.4.d:0 "Our vassals are tired of hardship and adversity and ask for temporary autonomy. In case of refusal, they threaten to raise a rebellion."
+ es_8_scenario.4.a:0 "Accept the demands."
+ es_8_scenario.4.b:0 "Refuse the demands."
+ 
+ es_8_scenario.5.t:0 "Harkon's Uprising"
+ es_8_scenario.5.d:0 "Our country is in poor condition. The economy has not grown up for many years, and the government is in no hurry to change. This pushes the aristocracy to search for other ways ... This afternoon, a detachment of Lord Harcon broke into our capital, demanding to recognize him as the new ruler. He is greeted by a crowd of ordinary people and the military."
+ es_8_scenario.5.a:0 "Glory to Harkon!"
+ es_8_scenario.5.b:0 "Kill all rebellions!"

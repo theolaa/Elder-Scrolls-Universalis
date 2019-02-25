@@ -296,6 +296,14 @@ on_abandon_colony = {
 on_new_monarch = {
 	crimean_succession_effect = yes #Scripted effect
 	slesvig_question_effect = yes #Scripted effect
+	
+	if = {
+    limit = {
+    ruler_culture = vampire
+    }
+    add_ruler_personality = immortal_personality
+    }
+
 	if = {
 		limit = {
 			has_consort_regency = no
@@ -334,6 +342,14 @@ on_new_monarch = {
 
 on_new_consort = {
 	country_event = { id = consort_events.2 }
+	
+	if = {
+    limit = {
+    consort_culture = vampire
+    }
+    add_queen_personality = immortal_personality
+    }
+	
 	if = {
 		limit = { has_ruler_flag = had_10_years_anniversary }
 		clr_ruler_flag = had_10_years_anniversary
@@ -540,6 +556,14 @@ on_queen_death = {
 
 # country
 on_new_heir = {
+
+    if = {
+    limit = {
+    heir_culture = vampire
+    }
+    add_heir_personality = immortal_personality
+    }
+
 }
 
 # country

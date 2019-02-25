@@ -308,7 +308,7 @@ classical_age_modifier = {
 	development_cost = 1.0
     build_time = 1.0
     culture_conversion_cost = 1.0
-    land_forcelimit_modifier = -0.50	
+    possible_mercenaries = -0.50	
     naval_forcelimit_modifier = -0.50
 
     build_cost = -0.5
@@ -326,7 +326,7 @@ classical_age_modifier_no_cs = {
 
     build_time = 1.0
     culture_conversion_cost = 1.0
-    land_forcelimit_modifier = -0.5	
+    possible_mercenaries = -0.5	
     naval_forcelimit_modifier = -0.5
 
     build_cost = -0.5
@@ -345,7 +345,7 @@ late_classical_age_modifier = {
 	development_cost = 0.85
     build_time = 0.85
     culture_conversion_cost = 0.85
-    land_forcelimit_modifier = -0.65	
+    possible_mercenaries = -0.65	
     naval_forcelimit_modifier = -0.65
 
     build_cost = -0.35
@@ -363,7 +363,7 @@ late_classical_age_modifier_no_cs = {
 
     build_time = 0.85
     culture_conversion_cost = 0.85
-    land_forcelimit_modifier = -0.65	
+    possible_mercenaries = -0.65	
     naval_forcelimit_modifier = -0.65
 
     build_cost = -0.35
@@ -382,7 +382,7 @@ age_of_migrations_modifier = {
 	development_cost = 0.75
     build_time = 0.75
     culture_conversion_cost = 0.75
-    land_forcelimit_modifier = -0.50	
+    possible_mercenaries = -0.50	
     naval_forcelimit_modifier = -0.50
 
     build_cost = -0.25
@@ -400,7 +400,7 @@ age_of_migrations_modifier_no_cs = {
 
     build_time = 0.75
     culture_conversion_cost = 0.75
-    land_forcelimit_modifier = -0.50	
+    possible_mercenaries = -0.50	
     naval_forcelimit_modifier = -0.50
 
     build_cost = -0.25
@@ -419,7 +419,7 @@ dark_age_modifier = {
 	development_cost = 0.50
     build_time = 0.50
     culture_conversion_cost = 0.50
-    land_forcelimit_modifier = -0.35	
+    possible_mercenaries = -0.35	
     naval_forcelimit_modifier = -0.35
 
     build_cost = -0.15
@@ -437,7 +437,7 @@ dark_age_modifier_no_cs = {
 
     build_time = 0.50
     culture_conversion_cost = 0.50
-    land_forcelimit_modifier = -0.35	
+    possible_mercenaries = -0.35	
     naval_forcelimit_modifier = -0.35
 
     build_cost = -0.15
@@ -456,7 +456,7 @@ feudal_age_modifier = {
 	development_cost = 0.35
     build_time = 0.35
     culture_conversion_cost = 0.35
-    land_forcelimit_modifier = -0.25	
+    possible_mercenaries = -0.25	
     naval_forcelimit_modifier = -0.25
 
     build_cost = -0.10
@@ -474,7 +474,7 @@ feudal_age_modifier_no_cs = {
 
     build_time = 0.35
     culture_conversion_cost = 0.35
-    land_forcelimit_modifier = -0.25	
+    possible_mercenaries = -0.25	
     naval_forcelimit_modifier = -0.25
 
     build_cost = -0.10
@@ -493,7 +493,7 @@ high_middle_ages_modifier = {
 	development_cost = 0.25
     build_time = 0.25
     culture_conversion_cost = 0.25
-    land_forcelimit_modifier = -0.15	
+    possible_mercenaries = -0.15	
     naval_forcelimit_modifier = -0.15
 
     build_cost = -0.05
@@ -511,7 +511,7 @@ high_middle_ages_modifier_no_cs = {
 
     build_time = 0.25
     culture_conversion_cost = 0.25
-    land_forcelimit_modifier = -0.15	
+    possible_mercenaries = -0.15	
     naval_forcelimit_modifier = -0.15
 
     build_cost = -0.05
@@ -530,7 +530,7 @@ late_middle_ages_modifier = {
 	development_cost = 0.10
     build_time = 0.10
     culture_conversion_cost = 0.10
-    land_forcelimit_modifier = -0.10	
+    possible_mercenaries = -0.10	
     naval_forcelimit_modifier = -0.10
 }
 
@@ -546,7 +546,7 @@ late_middle_ages_modifier_no_cs = {
 
     build_time = 0.10
     culture_conversion_cost = 0.10
-    land_forcelimit_modifier = -0.10	
+    possible_mercenaries = -0.10	
     naval_forcelimit_modifier = -0.10
 }
 

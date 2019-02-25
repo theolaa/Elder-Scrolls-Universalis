@@ -259,7 +259,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { TAG = RED }
+				NOT = { tag = RED }
 			}
 			random = {
 				chance = 30

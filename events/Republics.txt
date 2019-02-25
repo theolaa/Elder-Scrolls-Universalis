@@ -102,7 +102,7 @@ country_event = {
 		hidden_effect = {
 			if = {
 				limit = { is_tribal = yes }
-				change_government_via_reform = monarchy
+				change_government = monarchy
 				set_legacy_government = despotic_monarchy
 			}
 			if = {
@@ -117,7 +117,7 @@ country_event = {
 					is_tribal = no  
 					NOT = { has_dlc = "Res Publica" }
 				}
-				change_government_via_reform = monarchy
+				change_government = monarchy
 				set_legacy_government = despotic_monarchy
 			}
 		}
@@ -128,7 +128,7 @@ country_event = {
 		tooltip = {
 			if = {
 				limit = { is_tribal = yes }
-				change_government_via_reform = monarchy
+				change_government = monarchy
 				set_legacy_government = despotic_monarchy
 			}
 			if = {
@@ -143,7 +143,7 @@ country_event = {
 					is_tribal = no  
 					NOT = { has_dlc = "Res Publica" }
 				}
-				change_government_via_reform = monarchy
+				change_government = monarchy
 				set_legacy_government = despotic_monarchy
 			}
 		}

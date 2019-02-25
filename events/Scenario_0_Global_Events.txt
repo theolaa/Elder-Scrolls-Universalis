@@ -74,12 +74,124 @@ country_event = {
 	}
 
 	option = {
-		name = "es_0_scenario.2.a"
+		name = "es_0_scenario.3.a"
 		ai_chance = { factor = 100 }
 		add_prestige = 5
 		add_country_modifier = {
 		name = "00_tamrilian_tractates"
 		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_0_scenario.4
+	title = es_0_scenario.4.t
+	desc = es_0_scenario.4.d
+	picture = ES_SIEGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    ai = no
+	    NOT = { is_year = 266 }
+		1206 = {
+		NOT = { owned_by = CA3 }
+		NOT = { owned_by = CA4 }
+		NOT = { owned_by = CA5 }
+		NOT = { owned_by = CA6 }
+		NOT = { owned_by = CB7 }
+		NOT = { owned_by = CB8 }
+		NOT = { owned_by = AYL }
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 1	
+	}
+
+	option = {
+		name = "es_0_scenario.4.a"
+		ai_chance = { factor = 100 }
+		set_global_flag = fall_of_white_tower_flag
+	}
+}
+
+country_event = {
+	id = es_0_scenario.5
+	title = es_0_scenario.5.t
+	desc = es_0_scenario.5.d
+	picture = ES_CITY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	   is_year = 246
+	   owns = 1369
+    }
+
+	mean_time_to_happen = {
+		days = 9125	
+	}
+
+	option = {
+		name = "es_0_scenario.5.a"
+		ai_chance = { factor = 50 }
+        1369 = {
+		change_culture = nord
+		add_base_tax = 5
+		add_base_production = 5
+		add_base_manpower = 5
+		}
+		if = {
+		limit = {
+		NOT = { culture_group = northern_cg }
+		}
+		add_prestige = -25
+		}
+	}
+	option = {
+		name = "es_0_scenario.5.b"
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = es_0_scenario.6
+	title = es_0_scenario.6.t
+	desc = es_0_scenario.6.d
+	picture = ES_ALESSIA_eventPicture	
+	
+	fire_only_once = yes
+	
+	trigger = {
+	   is_year = 266
+    }
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "es_0_scenario.6.a"
+		ai_chance = { factor = 100 }
+        if = {
+		limit = {
+		has_ruler = Alessia
+		}
+		kill_ruler = yes
+		}
+		if = {
+		limit = {
+		religion_group = divines_group
+		}
+		add_stability = 1
+		}
+		if = {
+		limit = {
+		religion_group = daedric_group
+		}
+		add_stability = -1
 		}
 	}
 }

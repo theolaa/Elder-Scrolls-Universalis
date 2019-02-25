@@ -9,56 +9,45 @@ historical_units = {
 }
 
 monarch_names = {
-	"J'Ath #0" = 10
-	"Thr'Ranys #0" = 10
-	"M'Lil #0" = 10
-	"Y'Rax #0" = 10
-	"Zh'En #0" = 10
-	"G'Tin #0" = 10
-	"Per'Rur #0" = 10
-	"Augh'Mor #0" = 10
-	"Ther'Em #0" = 10
-	"R'Ansa #0" = 10
-	"N'Endsa #0" = 10
-	"D'Us #0" = 10
-	"Ar'Arba #0" = 10
-	"R'Otta #0" = 10
-	"V'Ogga #0" = 10
-	"D'Reddon #0" = 10
-	"S'Oregg #0" = 10
-	"Z'Ordo #0" = 10
-	"Ya'Rella #0" = 10
-    "Gr'Ondo #0" = 10
+	"Dhifra #0" = 10
+	"Selri #0" = 10
+	"Drermo #0" = 10
+	"Larno #0" = 10
+	"Dryba #0" = 10
+	"Griba #0" = 10
+	"Cembiviph #0" = 10
+	"Stimleri #0" = 10
+	"Viphlateash #0" = 10
+	"Phruitravi #0" = 10
+	"Drafron #0" = 10
+	"Peva #0" = 10
+	"Stifra #0" = 10
+	"Gefith #0" = 10
+	"Valiph #0" = 10
+	"Dhadno #0" = 10
+	"Cishety #0" = 10
+	"Cylapie #0" = 10
+	"Itsevi #0" = 10
+	"Llipeva #0" = 10
 	
-	"D'Hiv #0" = -10
-	"N'Tanri #0" = -10
-	"H'Rilada #0" = -10
-	"Y'Hny #0" = -10
-	"T'Veskisan #0" = -10
-	"Age'Hor #0" = -10
-	"Z'Iro #0" = -10
-    "Z'Irchos #0" = -10
-	"M'Juj #0" = -10
-	"Nem'Ro #0" = -10
+	"Bormenis #0" = -10
+	"Nemenrane #0" = -10
+	"Ianalina #0" = -10
+	"Bormine #0" = -10
+	"Calyete #0" = -10
+	"Brilyn #0" = -10
+	"Murilyn #0" = -10
+	"Callania #0" = -10
+	"Sheimala #0" = -10
+	"Aquidina #0" = -10
 }
 
 leader_names = {
-    N'Gasta J'Ath Nrij N'Fash Thr'Ranys M'Lil Y'Rax
-    Gyb Rakil Zh'En G'Tin M'Ad Th'Shyz Per'Rur Augh'Mor
-	Therkor Xncha Mor'Job
-	Glom Tham Ther'Em R'Ansa Mor'Chal T'Goz
-	N'Endsa D'Us N'Kara J'Ubba Ar'Arba R'Otta V'Ogga B'Orvo
-	D'Reddon S'Oregg P'Opara J'Ool Z'Ordo Ya'Rella
-	Gr'Ondo
+	Dhifra Selri Drermo Larno Dryba Griba Cembiviph Stimleri Viphlateash Phruitravi Drafron Peva Stifra Gefith Valiph Dhadno Cishety Cylapie Itsevi Llipeva Thaeve Lleasi Piaddi Thacha Iatra Mystri Scilere Tefrala Thamodys Thuiphrane Zhyllash Pydha Threno Imin Phrianza Thymi Zhoensine Ciephnety Thramosi Mnamperin Denshi Seonsha Phryrref Stira Dhaephri Phacha Zhitemyph Zhechame Gaephrima Scuithrira Gymbeph Scansi Sthiadhe Shydo Duifra Eli Yflaviph Dreddida Phryveseph Phrathinih Thryva Llestha Scili Ymbi Neoffesh Zheffi Tynsebe Mermove Llissobi Paemnetash Gaphra Vyle Yrme Mnitha Essi Nelmo Stalrovi Virnaben Gydevas Phastheda Styffi Stheophlo Mnettosh Mninsha Puinef Yntes Tyrnami Itsefyh Mnaphrona Tiflasan Sceane Ziche Itra Naddi Lliles Zhisso Tidhade Llettafia Zylati Mymlosif
 }
 
-ship_names = {
-    Um'Aski T'Veskisan T'Urn Nfir
-	Zhas Zrun T'Bur N'Sony
-	G'Rum Y'Hny S'Sal D'Hiv N'Rann N'Tanri M'Juj Rash
-	Ngha Age'Hor Tas'Arna H'Dim Muntk
-	H'Rilada S'Vini M'Ama
-	G'Olga Nem'Ro Z'Iro Z'Irchos G'Rubo
+ship_names= {
+	Bormenis Nemenrane Ianalina Bormine Calyete Brilyn Murilyn Callania Sheimala Aquidina Corathusa Ateleia Zelimisia Anitheis Melisesis Eirely Viviarith Halilise Zhadenah Adrielure Clalise Adophine Saphapheu Metisise Ianadella Merilora Delorial Raelody Maryrien Shemara Orilophi Calothe Iphagoria Danacea Malimisa Aquirene Nereirissa Raelura Sereithia Jenieria Pidorise Peritai Rhenelea Naigina Nephegina Noefa Analina Adredenah Amalee Siregana Lamephaeia Ianadelia Malinei Hailodia Corosiphe Merilis Vivianoe Adrietune Mirame Vivienne Meticea Poreithea Themisesis Piria Nealyse Sheifa Maryneh Avarial Dorierissa Muriexie Tesiphe Menilira Metiopise Limolopei Calopeia Larairin Aurareida Azana Dalirena Fontaguna Metirose Pilato Piphia Nerigoria Idales Aeririssa Dorieneva Auragana Oarariel Aqeanna Neameria Pinea Palaphine Raiseise Kalliseis Loraithia Meriria Adrearos Corderissa Anata
 }
 
 army_names = {

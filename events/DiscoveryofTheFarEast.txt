@@ -200,7 +200,7 @@ province_event = {
 	
 	trigger = {
 		religion = eight_divines
-		culture_group = japanese_g
+		culture_group = tsaesci_cg
 		can_spawn_rebels = eight_divines_rebels
 		owner = {
 			religion = tsaesci_pantheon

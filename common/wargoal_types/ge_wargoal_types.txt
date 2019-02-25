@@ -7,7 +7,7 @@ ge_empire = {
 	
 	badboy_factor = 1.0
 	prestige_factor = 0.5
-	peace_cost_factor = 0.25
+	peace_cost_factor = 0.35
 	
 	peace_options = {
 		po_demand_provinces

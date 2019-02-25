@@ -4,23 +4,52 @@
  LESS_SLAVES:0 "Less Slaves"
  MORE_WINE:0 "More Wine"
  LESS_WINE:0 "Less Wine"
+ MORE_SUGAR:0 "More Sugar"
+ LESS_SUGAR:0 "Less Sugar"
  
  space_program:0 "Mundus Program"
  space_station:0 "Mundus Station"
  moon_base:0 "Secunda Base"
  mars_base:0 "Masser Base"
  
+ et.EVTNAME90:0 "Mission to Secunda"
+ et.EVTDESC90:0 "After a few hours, the first group of our settlers set off on an extremely dangerous mission — a journey to Secunda. On the other side of the sky, an unknown world awaits them, concealing its wonders and hiding secrets that we may not be able to reveal. Good luck to these brave pioneers!"
+ et.EVTOPTA90:0 "Let the Fortuna help them!"
+ 
+ et.EVTNAME91:0 "We are First!"
+ et.EVTDESC91:0 "We are the first nation, that have settled in Secunda."
+ et.EVTOPTA91:0 "Wonderfull!"
+ 
+ et.EVTNAME92:0 "We are Not First..."
+ et.EVTDESC92:0 "To our sorrow, we have discovered, that another nation has already settled in Secunda."
+ et.EVTOPTA92:0 "We had to hurry..."
+ 
+ et.EVTNAME93:0 "Colony on Secunda"
+ et.EVTDESC93:0 "Our settlers have build a small city on Secunda, allowing us to expand our influence beyond Nirn."
+ et.EVTOPTA93:0 "Greeat News!"
+ 
+ et.EVTNAME94:0 "Colony on Masser"
+ et.EVTDESC94:0 "Our settlers have build a small city on Masser, allowing us to expand our influence beyond Nirn."
+ et.EVTOPTA94:0 "Greeat News!"
+ 
  enslaved_province:0 "Enslaved Province"
  liberated_province:0 "Liberated Province"
  banned_production:0 "Banned Production"
  
- start_space_program:0 "Start Mundus Program"
- end_space_program:0 "End Mundus Program"
- send_a_satellite_into_orbit:0 "Organise the First Mundus Flight"
- establish_a_space_station:0 "Establish a Mundus Station"
- mission_to_moon:0 "Mission to Secunda"
- establish_a_moon_colony:0 "Establish a Secunda Colony"
- establish_a_mars_colony:0 "Establish a Masser Colony"
+ start_space_program_title:0 "Start Mundus Program"
+ end_space_program_title:0 "End Mundus Program"
+ send_a_satellite_into_orbit_title:0 "Organise the First Mundus Flight"
+ establish_a_space_station_title:0 "Establish a Mundus Station"
+ mission_to_moon_title:0 "Mission to Secunda"
+ establish_a_moon_colony_title:0 "Establish a Secunda Colony"
+ establish_a_mars_colony_title:0 "Establish a Masser Colony"
+ start_space_program_desc:0 " "
+ end_space_program_desc:0 " "
+ send_a_satellite_into_orbit_desc:0 " "
+ establish_a_space_station_desc:0 " "
+ mission_to_moon_desc:0 " "
+ establish_a_moon_colony_desc:0 " "
+ establish_a_mars_colony_desc:0 " "
  
  enslave_population_title:0 "Enslave Population"
  enslave_population_desc:0 " "
@@ -259,7 +288,7 @@
  btmb_fixing_area_buildings.1.a:0 " "
 
  es_start.1.t:0 "Welcome to Elder Scrolls Universalis!"
- es_start.1.d:0 "Hello, the one who sits opposite the monitor! I would personally like to thank you for supporting the ESU project - for subscriptions and downloads of this mod, for likes and reposts, for help through Patreon. Have a nice game!"
+ es_start.1.d:0 "Hello, the one who sits opposite the monitor! I would personally like to thank you for supporting the ESU project - for subscriptions and downloads of this mod, for likes and reposts, for adding to 'favorites'. Have a nice game!"
  es_start.1.a:0 "Let the journey begin!"
 
  es_terrain.1.t:0 "Unpleasant Jungles"
@@ -599,7 +628,7 @@
  
  transitional_state_title:0 "Transitional State"
  transitional_state_title_plural:0 "Transitional States"
- transitional_state_long_desc:0 "Transitional state is country that in a short period of time will be integrated. "
+ transitional_state_long_desc:0 "Transitional state is country that in a short period of time will be integrated."
  transitional_state_is_our:0 "$NAME|Y$ is our Transitional State."
  transitional_state_no_overlord_dow:0 "You can't declare war on your own Transitional State."
  
@@ -837,3 +866,8 @@
  es_government.t:0 " "
  es_government.d:0 " "
  es_government.1.a:0 " "
+ 
+ forelhost_nation_title:0 "Form Forelhost"
+ forelhost_nation_desc:0 " "
+ skaal_nation_title:0 "Form Skaal nation"
+ skaal_nation_desc:0 " "

@@ -1,41 +1,41 @@
 vassal = {
 	first = UA3
 	second = UA1
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }
 
 vassal = {
 	first = UA3
 	second = UA2
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }
 
 vassal = {
 	first = UA3
 	second = UA4
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }
 
 vassal = {
 	first = UA3
 	second = UA5
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }
 
 vassal = {
 	first = UA3
 	second = UA6
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }
 
 vassal = {
 	first = UA3
 	second = UA7
-	start_date = 2.1.1
+	start_date = 5.1.1
 	end_date = 9999.1.1
 }

@@ -9,71 +9,46 @@ historical_units = {
 }
 
 monarch_names = {
-	"Gorgos #0" = 10
-	"Gremfell #0" = 10
-	"Otar #0" = 10
-	"Olaf #0" = 10
-	"Svon #0" = 10
-	"Ros #0" = 10
-	"Harald #0" = 10
-	"Ralpagh #0" = 10
-	"Noaheim #0" = 10
-	"Valomar #0" = 10
-	"Einmor #0" = 10
-	"Volsung #0" = 10
-	"Krosis #0" = 10
-	"Jjauf #0" = 10
-	"Korl #0" = 10
-	"Nhsmir #0" = 10
-	"Fhaal #0" = 10
-	"Einhelf #0" = 10
-	"Vrolwyr #0" = 10
-	"Deilmark #0" = 10
+	"Gjals #0" = 10
+	"Braggart #0" = 10
+	"Thuis #0" = 10
+	"Jorgikssen #0" = 10
+	"Vilkred #0" = 10
+	"Fjenrson #0" = 10
+	"Andrlar #0" = 10
+	"Ulfrardeson #0" = 10
+	"Idlgi #0" = 10
+	"Mojardesson #0" = 10
+	"Majdulf #0" = 10
+	"Engmarikessen #0" = 10
+	"Tovesgar #0" = 10
+	"Enraensen #0" = 10
+	"Svogul #0" = 10
+	"Fenaralderson #0" = 10
+	"Aenro #0" = 10
+	"Haransson #0" = 10
+	"Urfill #0" = 10
+	"Gjisversson #0" = 10
 	
-	"Alleir #0" = -10
-	"Thaalma #0" = -10
-	"Yet #0" = -10
-	"Kyetre #0" = -10
-	"Swalne #0" = -10
-	"Jarli #0" = -10
-	"Elja #0" = -10
-	"Mjell #0" = -10
-	"Njemae #0" = -10
-	"Fjorli #0" = -10
+	"Sud #0" = -10
+	"Chokad #0" = -10
+	"Resh #0" = -10
+	"Ginshaz #0" = -10
+	"Shen #0" = -10
+	"Olsaj #0" = -10
+	"Trihsav #0" = -10
+	"Zupre #0" = -10
+	"Tulna #0" = -10
+	"Edosh #0" = -10
 }
 
 leader_names = {
-    Bjor Bjornal Khaalthe Alabar Hegm Bjurl Dahnaor Dahn Gorgos
-	Jeorr Hans Fefmem Gamalleir Dyssl Gremfell Hgmm Febhrad Bhag
-	Ysgrim Ysgramor Hevnoraak Krosis Morokei Nahkrrin Otar Rahgot
-	Ahzidal Dukaan Miraak Vahlok Zahkriisos Vokun Volsung Konahrik
-	Wuuthrad Tsunaltir Stuhnalmir Tstunal Morgan Olaf Hsaarik
-	Gyre Grimwelt Stenv Stenvul Fjurlt Vrolwyr Deilmark Hguelg
-	Frendlmegh Thendjar Unjor Hghewenntar Djaffidd Gfeful Dugal Ttuj
-	Einhelf Amornen Tefflnen Gjaarigh Urul Uru Dgaargl Nenmor
-	Svir Hgelhelm Haalj Crendandel Hfewl Nuil Fvelfrim Nhemakhela
-	Gald Ugawen Thehp Naandl Mjtujjor Jarnnmegh Sveinhelf Nenthwen
-	Jaaril Einmor Mnoor Thurwhn Nhsmir Fhaal Mjaaloc Thletnn
-	Bjrochtehl Fhethe Llaldesmiir Wyndl Maewyn Svenredd Kaene Einnjoral
-	Jjarkaak Ciriul Gwemlthrest Ruald Einndmel Sorshen Thoraj Rrummrir
-	Grethnaal Swemnen Jjauf Korl Jkorl Njimal Bjimal Thalld
-	Valomar Halomar Noaheim Guri Khalokehl Jorgal Ghem Ralpagh
-	Rohard Olwep Kaejis Ysmieil Tethahld Harald Yaljar Lochlet
-	Taloc Hletno Ocne Thethel Neyn Jorel Vrage Hwamjar Hoomdell
-	Hwem Stuhn Olaj Jarmungdrung Ysmalos Gulgar Solst Svon Ros
-	Andl Rald
+	Gjals Braggart Thuis Jorgikssen Vilkred Fjenrson Andrlar Ulfrardeson Idlgi Mojardesson Majdulf Engmarikessen Tovesgar Enraensen Svogul Fenaralderson Aenro Haransson Urfill Gjisversson Knurfrek Wanderer Rogemgar Greycloak Hargny Gjarnssen Mryirod Ahlarnssen Sigdorn Jurgahrsen Stalgrir Tarbarsson Kormoor Alrardeson Lentheim Bjenrson Angvtneld Aservonssen Unminrich Sohraldesen Baslfmare Fenrersen Jolfaul Asarmessen Tharolf Sohrarmeson Sirgdemar Alrorinsson Unmtreid Alrisorssen Hirnrunn Fjorkesen Arrlvaror Ingrarnson Ramtur Asgaldsen Pactlak Gjisssen Gorotgaror Engmanson Crise Alrensvessen Atail Ingmiksson Thonmeskr Alisorsson Stendis Ehrorkessen Hefismod Hahriksen Gutrmoor Fanrehrssen Olfrki Bjansssen Skoirrid Engmehrson Eormund Ulralderssen Ranmkil Smith Londing Asariksen Maullmir Ingmarnesen Havimek Mjorehrsen Hulgwiil Enrornsen Lemarn Mjorarkessen Rorirum Djornsson Batvir Ingmaldersson Hoddur Fenrarnesson Lasnel Fenraldsen Thiengar Alfarikessen Asger Asmund Brant Brandt Colborn Destin Dustin Einar Erik Erikr Erling Falthgaar Fiske Floki Gudmund Guthred Guthram Guthfrith Hakon Haldor Halfdan Halfden Halfdene Halvar Hastan Herleif Herleifr Hjalmar Hrognar Hrolfr Inge Ingvar Ivar Kjeld Kjell Knud Leif Loki Odin Olaf Rangvald Rangvaldr Sigi Sigurd Stig Stigr Sveinn Sven Svend Thor Thorvald Thorvaldr Torbjorn Torsten Torvald Tyr Vidar Viggo Yngvar
 }
 
 ship_names = {
-	Vramali Jarli Alleir Elja Ingridal Mjarili Shanjenen Unalt Krim Kjhelt Fjorli
-	Mjemk Soress Anshalf Khela Akhela Vemmab Borgasa Nem Yet Vashina Frekshild
-	Dahnarlyet Mem Chemua Ghroja Alduga Thaalma Kyetre Miri Hisys Talo Njorna
-	Bjorna Dahna Teb Mbjanal Fehg Tsjari Jeghwyr Shenya Maefwe Mjhro Mjoll
-	Mjuul Swalne Njnenya Frendetter Rebec Heimgrud Marthelk Nbikki Ysmehka
-	Dolweppa Mjanor Ysret Kfalta Gehmora Nue Lundga Bysri Njemae Jora
-	Thoom Sha Mjell
+	Sud Chokad Resh Ginshaz Shen Olsaj Trihsav Zupre Tulna Edosh Unziz Ezda Sojejj Ganshoj Hihjizsa Zallej Trelzazid Nuko Tumjacann Gilzazz Sheg Regrozz Shiz Zeldoj Hed Djonziq Yuehjev Nensosh Nahsag Rikro Zulmij Jopre Jumji Onsed Suijhuzhie Gunshosh Cherzucheejj Yollesh Lehvasse Onsizz Thuenn Vazsas Haj Olra Tej Ekraq Enzu Akrezz Umzi Nanvo Enziz Entrel Lamjijj Djaggroz Thuihvanseg Ovoj Zegichai Zokroq Ajielshug Uzsez Thenn Jivre Sann Yolas Hag Vanrat Rahvaz Vilo Chielmiz Zevvesh Hulmash Rilsa Ahvin Oggro Yuhjejas Egrez Rajuazhin Epret Shuchizhan Ozdut Hejj Chegal Sun Vegro Nush Djazu Shega Janshu Arsa Gikraz Sansun Enro Ruchim Odez Ulmeezhuam Djadri Trahvaina Jenvezz Elsanzi Zagrel Alfhilde Ase Asta Bergljot Bodil Freja Gunhild Gunhilde Helga Helka Hella Helle Inge Ingrid Magnhild Magnhilde Olga Ragnhild Ragnhilde Sigrid Siv Sibi Sibbi Thora Torhild Turid Tyra
 }
-	
 
 army_names = {
 	"Army of $PROVINCE$" 

@@ -7,38 +7,39 @@ es_revolution = {
 		OR = {
 		AND = {
 		government = monarchy
-		NOT = { legitimacy = 35 }
+		NOT = { legitimacy = 25 }
 		}
 		AND = {
 		government = republic
-		NOT = { republican_tradition = 35 }
+		NOT = { republican_tradition = 25 }
 		}
 		AND = {
 		government = theocracy
 		has_dlc = "Common Sense"
-		NOT = { devotion = 35 }
+		NOT = { devotion = 25 }
 		}
 		AND = {
 		government = theocracy
 		NOT = { has_dlc = "Common Sense" }
-		NOT = { legitimacy = 35 }
+		NOT = { legitimacy = 25 }
 		}
 		AND = {
 		is_nomad = yes
 		has_dlc = "The Cossacks"
-		NOT = { horde_unity = 35 }
+		NOT = { horde_unity = 25 }
 		}
 		AND = {
 		is_nomad = yes
 		NOT = { has_dlc = "The Cossacks" }
-		NOT = { legitimacy = 35 }
+		NOT = { legitimacy = 25 }
 		}
 		AND = {
 		is_emperor_of_china = yes
-		NOT = { meritocracy = 35 }
+		NOT = { meritocracy = 25 }
 		}
 		}
 		is_lesser_in_union = no
+		is_free_or_tributary_trigger = yes
 	}
 	
 	
@@ -46,7 +47,6 @@ es_revolution = {
 	    OR = {
 		AND = {
 		ai = no
-	    stability = 3
 		is_at_war = no
 		OR = {
 		    legitimacy = 95
@@ -58,17 +58,15 @@ es_revolution = {
 		}
 		AND = {
 		ai = yes
-	    stability = 0
 		is_at_war = no
 		OR = {
-		    legitimacy = 45
-			republican_tradition = 45
-			devotion = 45
-			horde_unity = 45
-			meritocracy = 45
+		    legitimacy = 50
+			republican_tradition = 50
+			devotion = 50
+			horde_unity = 50
+			meritocracy = 50
 		}
 		}
-		is_lesser_in_union = yes
 		}
 	}
 		
@@ -124,7 +122,7 @@ es_revolution = {
 		}		
 		modifier = {
 			factor = 1
-			NOT = { stability = 3 }
+			NOT = { stability = 0 }
 		}
         modifier = {
 			factor = 1
@@ -135,7 +133,7 @@ es_revolution = {
 	can_end = {
 	    OR = {
 		AND = {
-		stability = 3
+		ai = no
 		is_at_war = no
 		OR = {
 		    legitimacy = 95
@@ -144,9 +142,20 @@ es_revolution = {
 			horde_unity = 95
 			meritocracy = 95
 		}
-		NOT = { war_exhaustion = 1 }
+		}
+		AND = {
+		ai = yes
+		is_at_war = no
+		OR = {
+		    legitimacy = 50
+			republican_tradition = 50
+			devotion = 50
+			horde_unity = 50
+			meritocracy = 50
+		}
 		}
 		is_lesser_in_union = yes
+		is_free_or_tributary_trigger = no
 		}
 	}
 

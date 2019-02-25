@@ -141,3 +141,113 @@ country_event = {
 		remove_core = 1314
 	}
 }
+
+country_event = {
+	id = es_6_scenario.5
+	title = es_6_scenario.5.t
+	desc = es_6_scenario.5.d
+	picture = ES_MOOT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 221
+		NOT = { is_year = 242 }
+        culture_group = northern_cg
+		owns = 1275
+		has_dlc = "Dharma"
+		government = monarchy
+		NOT = { has_reform = elective_monarchy }
+    }
+
+	mean_time_to_happen = {
+		days = 1825		
+	}
+
+	option = {
+		name = "es_6_scenario.5.a"
+		ai_chance = { factor = 50 }
+		add_government_reform = elective_monarchy
+		add_stability = 1
+	}
+	option = {
+		name = "es_6_scenario.5.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		add_legitimacy = -35
+	}
+}
+
+country_event = {
+	id = es_6_scenario.6
+	title = es_6_scenario.6.t
+	desc = es_6_scenario.6.d
+	picture = ES_GENOCIDE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 221
+		NOT = { is_year = 242 }
+        culture_group = northern_cg
+		owns = 1275
+    }
+
+	mean_time_to_happen = {
+		days = 1825		
+	}
+
+	option = {
+		name = "es_6_scenario.6.a"
+		add_stability = -1
+		add_prestige = -25
+		add_country_modifier = {
+		name = "06_gradual_massacre"
+		duration = 18250
+		}
+	}
+	option = {
+		name = "es_6_scenario.6.b"
+		ai_chance = { factor = 50 }
+		add_prestige = 25
+	}
+}
+
+country_event = {
+	id = es_6_scenario.7
+	title = es_6_scenario.7.t
+	desc = es_6_scenario.7.d
+	picture = ES_DWEMES_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 221
+		NOT = { is_year = 242 }
+        culture_group = northern_cg
+		owns = 1275
+    }
+
+	mean_time_to_happen = {
+		days = 1825		
+	}
+
+	option = {
+		name = "es_6_scenario.7.a"
+		every_province = {
+		limit = {
+		OR = {
+		region = western_skyrim_lr
+		region = eastern_skyrim_lr
+		}
+		culture = dwemer
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_6_scenario.7.b"
+		ai_chance = { factor = 50 }
+		add_prestige = 10
+	}
+}

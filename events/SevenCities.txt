@@ -541,12 +541,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		
-		modifier = {
-			factor = 2
-			culture_group = iroquoian
-		}
-		
 		modifier = {
 			factor = 2.0
 			is_empty = no
@@ -630,12 +624,6 @@ province_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-		
-		modifier = {
-			factor = 2
-			culture_group = iroquoian
-		}
-		
 		modifier = {
 			factor = 2.0
 			is_empty = no

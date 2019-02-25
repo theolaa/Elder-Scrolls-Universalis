@@ -17,7 +17,7 @@ Akatosh = {
     }	
 	}
 	
-	sprite = 27
+	sprite = 28
 	
 	ai_will_do = {
 		factor = 1
@@ -425,7 +425,7 @@ Julianos = {
     }	
 	}
 	
-	sprite = 28
+	sprite = 29
 	
 	ai_will_do = {
 		factor = 1
@@ -474,7 +474,7 @@ Kynareth = {
     }	
 	}
 	
-	sprite = 29
+	sprite = 30
 	
 	ai_will_do = {
 		factor = 1
@@ -1048,7 +1048,7 @@ Shezarr = {
     }	
 	}
 	
-	sprite = 30
+	sprite = 3
 	
 	ai_will_do = {
 		factor = 1

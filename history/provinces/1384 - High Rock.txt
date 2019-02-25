@@ -12,10 +12,10 @@ capital = "Camlorn"
 is_city = yes
 discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
 
-68.1.1 = {
+fort_15th = yes
+
+358.1.1 = {
 	owner = DIR
 	controller = DIR
 	add_core = DIR
 }
-
-fort_15th = yes
