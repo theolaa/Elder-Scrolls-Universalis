@@ -19,11 +19,6 @@ es_revolution = {
 		NOT = { devotion = 25 }
 		}
 		AND = {
-		government = theocracy
-		NOT = { has_dlc = "Common Sense" }
-		NOT = { legitimacy = 25 }
-		}
-		AND = {
 		is_nomad = yes
 		has_dlc = "The Cossacks"
 		NOT = { horde_unity = 25 }

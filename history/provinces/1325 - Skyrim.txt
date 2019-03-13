@@ -25,3 +25,9 @@ fort_15th = yes
 189.1.1 = {
 	religion = nordic_pantheon
 }
+
+308.1.1 = {
+	owner = OLD
+	controller = OLD
+	add_core = OLD
+}

@@ -31,3 +31,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	religion = nordic_pantheon
 	culture = nord
 }
+
+308.1.1 = {
+	owner = OLD
+	controller = OLD
+	add_core = OLD
+}

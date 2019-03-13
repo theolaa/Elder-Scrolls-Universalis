@@ -1168,7 +1168,7 @@ large_colonial_nation = {
 }
 
 march_subject = {
-	land_forcelimit = 1
+	land_forcelimit = 5
 }
 
 vassal_subject = {
@@ -1182,13 +1182,13 @@ union_subject = {
 }
 
 all_nations = {
-	global_tax_income = 36
+	global_tax_income = 50
 	land_forcelimit	= 10
 	naval_forcelimit = 10
 }
 
 subject_nation = {
-	global_tax_income = -18
+	global_tax_income = -25
 }
 
 vassal_nation = {

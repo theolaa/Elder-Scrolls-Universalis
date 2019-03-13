@@ -252,4 +252,76 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	spriteType = {
+		name = "ES_CITY_IN_FIRE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_CITY_IN_FIRE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_AKAVIR_CITY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_AKAVIR_CITY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ISLANDS_CITY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ISLANDS_CITY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_OLD_GLORY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_OLD_GLORY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_THRONEROOM_2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_THRONEROOM_2_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_RELIGIOUS_ORDER_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_RELIGIOUS_ORDER_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ELVEN_VILLAGE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ELVEN_VILLAGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BLOOD_RITUAL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BLOOD_RITUAL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ROYAL_BEDROOM_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ROYAL_BEDROOM_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BATTLE_3_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/BATTLE_3_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_PALACE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_PALACE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DAEDRIC_SHRINE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DAEDRIC_SHRINE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 }

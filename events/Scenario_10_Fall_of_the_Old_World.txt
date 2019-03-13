@@ -1,0 +1,308 @@
+namespace = es_10_scenario
+
+country_event = {
+	id = es_10_scenario.1
+	title = es_10_scenario.1.t
+	desc = es_10_scenario.1.d
+	picture = ES_TRADE_GOODS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 337
+		NOT = { is_year = 369 }
+		OR = {
+		culture_group = bosmer_cg
+		culture_group = cyrodiil_cg
+		}
+		OR = {
+		owns = 1206
+		owns = 820
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_10_scenario.1.a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "10_trade_agreement"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_10_scenario.1.b"
+		ai_chance = { factor = 50 }
+		add_prestige = 15
+	}
+}
+
+country_event = {
+	id = es_10_scenario.2
+	title = es_10_scenario.2.t
+	desc = es_10_scenario.2.d
+	picture = ES_THRONEROOM_2_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 337
+		NOT = { is_year = 369 }
+		NOT = { tag = SUM }
+		culture_group = high_elves_cg
+		owns = 1382
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_10_scenario.2.a"
+		ai_chance = { factor = 50 }
+		change_tag = DIR
+		add_country_modifier = {
+		name = "10_rise_of_direnii"
+		duration = 18250
+		}
+		every_province = {
+		limit = {
+		region = hgh_rock_lr
+		}
+		add_claim = ROOT
+		}
+		define_ruler = {
+		dynasty = "Direnii"
+		culture = altmer
+		ADM = 4
+		DIP = 4
+		MIL = 4	
+		claim = 80
+		}
+	}
+	option = {
+		name = "es_10_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_prestige = 35
+	}
+}
+
+country_event = {
+	id = es_10_scenario.3
+	title = es_10_scenario.3.t
+	desc = es_10_scenario.3.d
+	picture = ES_RELIGIOUS_ORDER_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 337
+		NOT = { is_year = 369 }
+		culture_group = cyrodiil_cg
+		owns = 1206
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_10_scenario.3.a"
+		ai_chance = { factor = 50 }
+		change_tag = ORD
+		change_religion = marukhism
+		change_government = theocracy
+		release_all_subjects = yes
+		set_global_flag = marukhism_flag
+	}
+	option = {
+		name = "es_10_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_stability = -3
+		every_province = {
+		limit = {
+		owned_by = ROOT
+		}
+		add_claim = ORD
+		}
+		add_country_modifier = {
+		name = "10_clergy_unrest"
+		duration = 3650
+		}
+		set_global_flag = marukhism_flag
+	}
+}
+
+province_event = {
+	id = es_10_scenario.4
+	title = es_10_scenario.4.t
+	desc = es_10_scenario.4.d
+	picture = ES_RELIGION_CONVERSION_eventPicture
+	
+	trigger = {
+		is_year = 337
+		NOT = { is_year = 369 }
+        NOT = { culture = ayleid }
+        OR = {
+		region = western_syrodiil_lr
+		region = eastern_syrodiil_lr
+		region = central_syrodiil_lr
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 58400
+	}
+
+	option = {
+		name = "es_10_scenario.4.a"
+		ai_chance = { factor = 100 }
+		change_religion = marukhism
+	}
+}
+
+province_event = {
+	id = es_10_scenario.5
+	title = es_10_scenario.5.t
+	desc = es_10_scenario.5.d
+	picture = ES_LABOUR_eventPicture
+	
+	trigger = {
+		has_global_flag = marukhism_flag
+		NOT = { owned_by = ALE }
+		NOT = { is_year = 1250 }
+        OR = {
+		region = western_syrodiil_lr
+		region = eastern_syrodiil_lr
+		region = central_syrodiil_lr
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 58400
+	}
+
+	option = {
+		name = "es_10_scenario.5.a"
+		ai_chance = { factor = 100 }
+		if = {
+		limit = {
+		region = western_syrodiil_lr
+		}
+		change_culture = colovian
+		}
+		if = {
+		limit = {
+		region = eastern_syrodiil_lr
+		}
+		change_culture = nibenean
+		}
+		if = {
+		limit = {
+		region = central_syrodiil_lr
+		}
+		change_culture = imperial
+		}
+	}
+}
+
+country_event = {
+	id = es_10_scenario.6
+	title = es_10_scenario.6.t
+	desc = es_10_scenario.6.d
+	picture = ES_ELVEN_VILLAGE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ORD
+		NOT = { has_country_flag = ord_purge_flag }
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_10_scenario.6.a"
+		ai_chance = { factor = 50 }
+		set_country_flag = ord_purge_flag
+		add_country_modifier = {
+		name = "10_not_tolerant"
+		duration = 36500
+		}
+		every_owned_province = {
+		limit = {
+		culture = ayleid
+		}
+		change_culture = ROOT
+		add_province_modifier = {
+		name = "10_unrest"
+		duration = 3650
+		}
+		add_core = AYL
+		}
+	}
+	option = {
+		name = "es_10_scenario.6.b"
+		ai_chance = { factor = 50 }
+		set_country_flag = ord_purge_flag
+		add_country_modifier = {
+		name = "10_tolerant"
+		duration = 36500
+		}
+	}
+}
+
+country_event = {
+	id = es_10_scenario.7
+	title = es_10_scenario.7.t
+	desc = es_10_scenario.7.d
+	picture = ES_MIGRATION_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    is_year = 337
+		NOT = { is_year = 369 }
+		NOT = { exists = CHI }
+		culture_group = chimeris_cg
+		owns = 1002
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_10_scenario.7.a"
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "10_diplomacy"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_10_scenario.7.b"
+		ai_chance = { factor = 33 }
+        every_province = {
+		limit = {
+		NOT = { owned_by = ROOT }
+		OR = {
+		region = vvardenfell_lr
+		region = morrowind_lr
+		}
+		culture = chimer
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_10_scenario.7.c"
+		ai_chance = { factor = 33 }
+		add_prestige = 10
+	}
+}

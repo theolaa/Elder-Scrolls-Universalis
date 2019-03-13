@@ -302,7 +302,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 12775
+         duration = 9125
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -338,7 +338,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 12775
+         duration = 9125
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -374,7 +374,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 12775
+         duration = 9125
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -413,7 +413,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 12775
+         duration = 9125
          }
 		 add_base_tax = 1
          add_base_production = 1

@@ -5,3 +5,5 @@ technology_group = tamriel_tg
 religion = reason_and_logic_cult
 primary_culture = dwemer
 capital = 970
+
+308.1.1 = { capital = 957 }

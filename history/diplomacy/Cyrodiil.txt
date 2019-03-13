@@ -359,12 +359,61 @@ union = {
     first = ALE
 	second = COL
 	start_date = 266.1.1
-	end_date = 9999.1.1
+	end_date = 369.1.1
 }
 
 union = {
     first = ALE
 	second = NIB
 	start_date = 266.1.1
+	end_date = 369.1.1
+}
+
+alliance = {
+    first = ORD
+	second = COL
+	start_date = 369.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+    first = ORD
+	second = NIB
+	start_date = 369.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+    first = COL
+	second = NIB
+	start_date = 369.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+    first = ALE
+	second = SKY
+	start_date = 266.1.1
+	end_date = 308.1.1
+}
+
+alliance = {
+    first = ALE
+	second = OLD
+	start_date = 308.1.1
+	end_date = 369.1.1
+}
+
+alliance = {
+    first = ORD
+	second = OLD
+	start_date = 369.1.1
+	end_date = 420.1.1
+}
+
+alliance = {
+    first = ORD
+	second = SKY
+	start_date = 420.1.1
 	end_date = 9999.1.1
 }

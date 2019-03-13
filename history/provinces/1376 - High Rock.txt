@@ -12,7 +12,13 @@ capital = "Ilessan Hills"
 is_city = yes
 discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
 
-358.1.1 = {
+308.1.1 = {
+	owner = OLD
+	controller = OLD
+	add_core = OLD
+}
+
+369.1.1 = {
 	owner = DIR
 	controller = DIR
 	add_core = DIR

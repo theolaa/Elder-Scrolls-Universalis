@@ -10,10 +10,11 @@ country_event = {
 	
 	trigger = {
 		is_year = 20
+		NOT = { is_year = 65 }
     }
 
 	mean_time_to_happen = {
-		days = 9125		
+		days = 16425	
 	}
 
 	option = {
@@ -37,11 +38,12 @@ country_event = {
 	
 	trigger = {
 		is_year = 68
+		NOT = { is_year = 109 }
 		capital_scope = { continent = Tamriel }
     }
 
 	mean_time_to_happen = {
-		days = 9125		
+		days = 14965	
 	}
 
 	option = {
@@ -66,11 +68,12 @@ country_event = {
 	
 	trigger = {
 		is_year = 200
+		NOT = { is_year = 242 }
 		capital_scope = { continent = Tamriel }
     }
 
 	mean_time_to_happen = {
-		days = 9125		
+		days = 15330	
 	}
 
 	option = {
@@ -128,10 +131,11 @@ country_event = {
 	trigger = {
 	   is_year = 246
 	   owns = 1369
+	   NOT = { is_year = 369 }
     }
 
 	mean_time_to_happen = {
-		days = 9125	
+		days = 44895	
 	}
 
 	option = {
@@ -166,10 +170,11 @@ country_event = {
 	
 	trigger = {
 	   is_year = 266
+	   NOT = { is_year = 308 }
     }
 
 	mean_time_to_happen = {
-		days = 1
+		days = 15330
 	}
 
 	option = {

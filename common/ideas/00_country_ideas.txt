@@ -2080,3 +2080,41 @@ PAL_ideas = {
 		stability_cost_modifier = -0.10
 	}
 }
+
+DNZ_ideas = {
+	start = {
+		global_own_trade_power = 0.25
+		trade_efficiency = 0.25
+	}
+
+	bonus = {
+		trade_steering = 0.25
+	}
+
+	trigger = {
+		tag = TRA
+	}
+	free = yes
+
+	danzig_law = {
+		diplomatic_upkeep = 1
+	}
+	vistula_river_trade = {
+		global_trade_power = 0.10
+	}
+	centralized_population = {
+		global_manpower_modifier = 0.1
+	}
+	hanseatic_league_member = {
+		merc_maintenance_modifier = -0.10
+	}
+	danziger_shipyard = {
+		light_ship_cost = -0.10
+	}
+	continued_independence = {
+		manpower_recovery_speed = 0.10
+	}
+	lutheran_change = {
+		global_tax_modifier = 0.10
+	}
+}

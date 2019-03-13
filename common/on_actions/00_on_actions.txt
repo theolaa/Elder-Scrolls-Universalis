@@ -299,6 +299,7 @@ on_new_monarch = {
 	
 	if = {
     limit = {
+	has_dlc = "Rights of Man"
     ruler_culture = vampire
     }
     add_ruler_personality = immortal_personality
@@ -345,6 +346,7 @@ on_new_consort = {
 	
 	if = {
     limit = {
+	has_dlc = "Rights of Man"
     consort_culture = vampire
     }
     add_queen_personality = immortal_personality
@@ -559,6 +561,7 @@ on_new_heir = {
 
     if = {
     limit = {
+	has_dlc = "Rights of Man"
     heir_culture = vampire
     }
     add_heir_personality = immortal_personality

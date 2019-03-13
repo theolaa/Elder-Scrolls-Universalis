@@ -252,7 +252,7 @@ country_decisions = {
 			}
 			NOT = { has_country_modifier = the_state_is_me_1 }
 			government = monarchy
-			government_rank = 3
+			government_rank = 10
 		}
 		allow = {
 			current_age = age_of_absolutism

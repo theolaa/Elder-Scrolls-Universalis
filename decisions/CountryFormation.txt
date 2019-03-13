@@ -48,6 +48,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = SUM }
+			NOT = { tag = DIR }
 			primary_culture = altmer
 		}
 		provinces_to_highlight = {
@@ -177,6 +178,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = SKY }
+			NOT = { tag = OLD }
 			primary_culture = nord
 		}
 		provinces_to_highlight = {
@@ -482,8 +484,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = COL }
-			NOT = { exists = CYR }
-			NOT = { exists = TAM }
+			NOT = { tag = CYR }
+			NOT = { tag = NIB }
+			NOT = { tag = HEA }
+			NOT = { tag = TAM }
 			primary_culture = colovian
 		}
 		provinces_to_highlight = {
@@ -527,8 +531,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = HEA }
-			NOT = { exists = CYR }
-			NOT = { exists = TAM }
+			NOT = { tag = CYR }
+			NOT = { tag = NIB }
+			NOT = { tag = COL }
+			NOT = { tag = TAM }
 			primary_culture = imperial
 		}
 		provinces_to_highlight = {
@@ -572,8 +578,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = NIB }
-			NOT = { exists = CYR }
-			NOT = { exists = TAM }
+			NOT = { tag = CYR }
+			NOT = { tag = COL }
+			NOT = { tag = HEA }
+			NOT = { tag = TAM }
 			primary_culture = nibenean
 		}
 		provinces_to_highlight = {
@@ -661,7 +669,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = CYR }
-			NOT = { exists = TAM }
+			NOT = { tag = TAM }
 			primary_culture = imperial
 		}
 		provinces_to_highlight = {
@@ -707,6 +715,8 @@ country_decisions = {
 			NOT = { exists = TAM }
 			OR = {
 			primary_culture = imperial
+			primary_culture = colovian
+			primary_culture = nibenean
 			primary_culture = vampire
 			}
 		}
@@ -929,6 +939,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = DIR }
+			NOT = { tag = SUM }
 			primary_culture = altmer
 		}
 		provinces_to_highlight = {
@@ -1625,6 +1636,7 @@ country_decisions = {
 	po_tun_nation = {
 		major = yes
 		potential = {
+		    NOT = { tag = KAP }
 			NOT = { exists = POT }
 			primary_culture = po_tun
 		}
@@ -2165,4 +2177,91 @@ country_decisions = {
 		}
 	}
 	
+	ka_po_tun_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = KAP }
+			primary_culture = po_tun
+		}
+		provinces_to_highlight = {
+			province_id = 646		
+			province_id = 724
+			province_id = 750
+			province_id = 702
+			province_id = 561
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 646		
+			owns_core_province = 724
+			owns_core_province = 750
+			owns_core_province = 702
+			owns_core_province = 561
+		}
+		effect = {
+			change_tag = POT
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	transakavir_nation = {
+		major = yes
+		potential = {
+		    NOT = { tag = POT }
+			NOT = { tag = KAP }
+			NOT = { exists = TRA }
+			primary_culture = po_tun
+		}
+		provinces_to_highlight = {
+			province_id = 636		
+			province_id = 623
+			province_id = 624
+			province_id = 631
+			province_id = 1694
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 636		
+			owns_core_province = 623
+			owns_core_province = 624
+			owns_core_province = 631
+			owns_core_province = 1694
+		}
+		effect = {
+			change_tag = TRA
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

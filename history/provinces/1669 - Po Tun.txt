@@ -1,6 +1,6 @@
-owner = OA1
-controller = OA1
-add_core = OA1
+owner = OB0
+controller = OB0
+add_core = OB0
 culture = po_tun
 religion = po_tun_pantheon
 hre = no

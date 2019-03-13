@@ -49,3 +49,14 @@ capital = 1275
 		mil = 7
 	}
 }
+
+288.1.1 = {
+	monarch = {
+		name = "Tovesgar"
+		dynasty = "Ysgramor"
+		birth_date = 270.1.1
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}

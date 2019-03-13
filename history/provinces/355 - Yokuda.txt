@@ -1,6 +1,6 @@
-owner = YA7
-controller = YA7
-add_core = YA7
+owner = YA8
+controller = YA8
+add_core = YA8
 culture = yokudan
 religion = yokudan_pantheon
 hre = no

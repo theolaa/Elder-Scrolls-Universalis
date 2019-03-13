@@ -1,0 +1,430 @@
+chimer_group = {
+
+    chimer_pantheon - Catholic
+
+}
+
+sload_group = {
+
+	sload_faith - Anglicanism
+	
+}
+
+serpant_group = {
+ 
+    serpant_king - Nahuatl
+ 
+}
+
+dragon_group = {
+	
+	dragon_cult - Orthodox
+	
+}
+
+marukhism_group = {
+	
+	marukhism - Reformed
+	
+}
+
+hist_group = {
+    
+	hist - Karma Religions
+	
+}
+
+reason_and_logic_group = {
+
+	reason_and_logic_cult - Coptic
+	
+}
+
+old_group = {
+
+	old_gods_cult - Muslim
+	
+}
+
+tsaesci_group = {
+	
+	tsaesci_pantheon - Shinto
+	
+}
+
+daedric_group = {
+	
+	Protestant:
+	
+	meridia_cult
+	mehrunes_dagon_cult
+	hermeus_mora_cult
+	malacath_cult
+	
+}
+
+po_tun_group = {
+    
+	po_tun_pantheon - Confucian
+	
+}
+
+tang_mo_group = {
+	
+	tang_mo_pantheon - Mayan
+	
+}
+
+kamal_group = {
+   
+	kamal_pantheon - Inti
+	
+}
+
+dremora_group = {
+	
+	dremora_pantheon - Tengri
+
+}
+
+nordic_solsteim_flag
+dwemer_dissapearence_flag
+ayleid_fall_flag
+fall_of_white_elves_flag
+redguard_migration_flag
+fall_of_direnii_flag
+
+Dynasties:
+- Valenwood
+- Skyrim
+- Alessian
+- Direnii
+
++ ages - localization and pictures
++ ranks names
++ vampire heirs
++ culture appearance events
+	
+1E 358Edit
+The Direnni Hegemony occurs, during which Skyrim loses significant amounts of land to the Direnni.[11]
+1E 361Edit
+Ayleid lordships are outlawed.[24]
+Little resistance to this, and so most Ayleids simply left Cyrodiil, and many are absorbed into the native population of Elves in Valenwood.[24]
+
+1E 369Edit
+The Wild Hunt takes place, and King Borgas of Winterhold is killed.[2][9][14][29]
+War of Succession begins.[2][9][29][11]
+Skyrim begins to lose its holdings in High Rock and Morrowind.[9]
+1E 376Edit
+The traditional rule of Yokuda's emperors is overthrown. Each successive emperor, though they maintained the status of figurehead of the empire, had their powers very much reduced. Since then, 300 years of almost continuous civil war ensues between the Yokeda warlords, warrior monks and brigands, all fighting each other for land and power.[30]
+1E 393Edit
+The Holy Brothers of Marukh are lead by Abbott Cosmas to Malada, with the intent of cleansing it.[27][31][32]
+5th CenturyEdit
+1E 401Edit
+Skyrim loses its foreign territory during the War of Succession.[11]
+1E 415Edit
+End of the Skyrim Conquests.[18]
+
+1E 416Edit
+Indoril Nerevar and Dumac Dwarfking form an official alliance to together protect Resdayn against the Nordic Invasion.[3][20][33][34]
+1E 420Edit
+Olaf One-Eye becomes High King of Skyrim after defeating Numinex.[35][14][36]
+The Pact of Chieftains is signed formally.[14][37][38][39]
+Rourken Clan of Dwemer arrives in Hammerfell, arriving in the "Deathlands."[40][39]
+Dwemer establish Volenfell as their capital.[40][39]
+1E 448Edit
+Rislav Larich, the future King of Skingrad, is born to King Mhorus.[28]
+Queen Lynada, Rislav's mother, dies shortly after giving birth to her son.[28]
+1E 452Edit
+End of Olaf One-Eye's 32-year reign.[36][note 1]
+1E 461Edit
+Rislav Larich is mentioned as part of the rolls of honor for the coronation of Emperor Gorieus.[28]
+1E 472Edit
+The formerly warring Kingdoms of Skingrad and Kvatch declare peace.[28]
+It can be presumed that the children, Rislav and Belene, daughter of King Justinius of Kvatch were married here to make peace.[28]
+1E 477Edit
+Clan Direnni gains control of significant portions of Hammerfell and Skyrim.[11]
+1E 478Edit
+Battle of Sungard: The High Chieftain of Skyrim (Kjoric the White) is killed by Emperor Gorieus.[28]
+Rislav Larich is known to be in Kvatch, with Belene.[28]
+A great plague sweeps through Cyrodiil, wiping out King Mhorus and the rest of the Larich family, excepting Dorald, who had survived, as he was in Imperial City, as a priest of Marukh.[28]
+Dorald returns home and assumes the throne of King of Skingrad.[28]
+Dorald cedes the kingdom of Skingrad to the Empire, as he had been taught by the Alessian monks of Marukh that "to resist the Empire was to resist the Gods."[28]
+Rislav Larich rides from Kvatch with his wife and two dozen of the King of Kvatch's cavalry, they arrive at Skingrad and easily defeat the city's guards, as they hated the new ruler. He kills Dorald, and is crowned King of Skingrad.[28]
+Rislav Larich vows to fight Emperor Gorieus, despite having little experience at either warfare or kingship. When Gorieus arrives, he tells him that his force is "too large for Skingrad" and to "Next time, write before you come."[28]
+Rislav defeats the army of the Emperor, using archers to pick off an army that has no choice but to follow him.[28]
+The Direnni clan is inspired by these events and starts making plans to rebel.[28]
+1E 479Edit
+Ryain Direnni outlaws the Alessian Reform.[28]
+1E 480Edit
+Aiden Direnni wins many battles against the Alessians.[2][41]
+1E 482Edit
+Raven Direnni secures final victory of the reformists at Glenumbria Moors.[2][19]
+"The Last King of the Ayleids" joins the battle at Glenumbria Moors, on the side of the Direnni Clan.[24] Nenalata is a possible resting place for this final Ayleid king, although this is uncertain.[2][24]
+1E 498Edit
+End of the "Late Ayleid Period," as the Alessian Order gains power and influence while the Elves of High Rock lose it.[24][19]
+The Direnni Clan falls out of power.[11]
+6th CenturyEdit
+1E 500Edit
+A song is made about Wulfharth of Atmora. Following the death of King Hoag Merkiller of the Alessian armies at Glenumbria Moors, Wulfharth is made King following the Pact of Chieftains.[38][42]
+High Rock is freed from Aldmeri tyranny around this time.[19]
+7th CenturyEdit
+1E 609Edit
+King Thagore of Daggerfall defeats the army of Glenpoint.[2]
+Daggerfall becomes "the preeminent economic, cultural, and military force in southern High Rock, a position the kingdom has precariously kept ever since."[2]
+Mansel Sesnit becomes prominent in Redguard society.[30]
+1E 617Edit
+Mansel Sesnit is assassinated, and a commoner takes over the government. Randic Torn continues Sesnit's work, solidifying much of the Empire.[30]
+1E 660Edit
+Mauloch is defeated at the Battle of Dragon Wall at this time, and legend credits the eruption of Red Mountain eight years later to his ensuing rage.[43][20]
+1E 668Edit
+Historian Borgusilus Mailer theorizes that it was in this year that the Dwemer enclaves were called together by one of their powerful philosopher-sorcerers, possibly "Kagrenak," to embark on a great journey, one of such sublime profundity that they abandoned all their cities and lands to join the quest to foreign climes as an entire culture.[44]
+Red Mountain erupts, and the Sun's Death occurs.[20]
+It is supposed that the "Sun's Death" event greatly affected the Nirnroot plant species.[45]
+1E 675Edit
+The events of Poison Song take place in Gorne.[46]
+8th CenturyEdit
+1E 700Edit
+A Dragon Break occurs; as such, no account of what transpires at Red Mountain in this year is necessarily any more accurate than any other.[47]
+Battle of Red Mountain.[21][40][48]
+War of the First Council ends: A religious conflict between the secular Dunmer Houses Dwemer and Dagoth and the orthodox Dunmer Houses Indoril, Redoran, Dres, Hlaalu, and Telvanni. The First Council was the first pan-Dunmer governing body, which collapsed over disputes about sorceries and enchantments practiced by the Dwemer and declared profane by the other Houses."[3][49][21][39][42][50]
+Disappearance of the Dwemer. ca. 1E700.[39][48]
+1E 720Edit
+Frandar Hunding (Redguard) was born in this approximate year.[30]
+1E 734Edit
+Frandar's father dies.[30]
+1E 737Edit
+Randic Torn dies.[30]
+1E 750Edit
+By this approximate year, Frandar Hunding has won over ninety battles; having killed his opponents in each, he is deemed "virtually invincible with a sword."[30]
+1E 760Edit
+Divad Hunding, known as 'The Singer', son of Frandar Hunding, and "most well known of Redguard heroes," was born in this year.[51]
+1E 771Edit
+Divad Hunding enters the Hall of the Virtues of War and begins his training there.[51]
+1E 776Edit
+Divad Hunding leaves the Hall of the Virtues of War in anger, breaks his swords, and vows to "become an acrobat in a traveling circus."[51]
+1E 780Edit
+Frandar Hunding, retired and living as a hermit in Mount Hattu, writes the Book of Circles, a book for Sword-Singers to emulate his fighting style.[30]
+1E 792Edit
+The Hiradirge, a rebel Ansei group, destroy Yokuda, sinking it beneath the waves.[52]
+9th CenturyEdit
+1E 800Edit
+It is suggested that Wayrest was founded at around this time.[53]
+1E 803Edit
+Redguards arrive in the Iliac Bay and Daggerfall area after fleeing their sinking homeland.[37][54]
+1E 808Edit
+Ra Gada (Warrior Wave) from Yokuda arrive in Volenfell.[3][9][39][52][55][56]
+1E 874Edit
+Thulgeg's army of Orcs and Goblins are forced to flee northeast after being stopped at Bangkorai Pass.[57]
+10th CenturyEdit
+1E 907Edit
+Peregrine Direnni repels the Redguard invasion of Balfiera.[58][59]
+1E 937Edit
+Gaiden Shinji (Blademaster) is quoted as saying "The best techniques are passed on by the survivors."[60]
+1E 948Edit
+First official historical reference to Wayrest, a letter by King Joile, to Gaiden Shinji of the Order of Diagna, which reads: "The Orcs have been much plaguing the Wayresters and impeding traffic to the heart of that land."[53]
+1E 950Edit
+The Siege of Orsinium begins.[46][61][62] (This last reference mentions this occurrence, although, it does not make a reference of the year this occurred, and elsewhere, it suggests the events of the book took place in 1E 675)[40][39][55][63][11]
+Gaiden Shinji dies during the Siege of Orsinium.[64]
+1E 973Edit
+The Battle at Bankorai Pass takes place.[65]
+1E 980Edit
+The combined armies of Daggerfall, Sentinel, and the Order of Diagna cause the fall of Orsinium.[2][64][39][43][53][55][61][62][63][64][65][66][11]
+1E 983Edit
+The city of Evermore is founded by the River Horse Bretons.[67]
+The Bjoulsae River opens and much trade occurs, spurring on technological advancements such as writing.[11]
+1E 989Edit
+Wayrest has a significant boost in population and size, growing from a small village to a large city.[11]
+11th CenturyEdit
+1E 1030Edit
+The legendary Reachman known as Red Eagle is said to have existed around this time.[68]
+Empress Hestra attempts to expand the empire into the Reach and High Rock.[68]
+1E 1033Edit
+Empress Hestra demands "the head of the most infamous of the brigadiers," Red Bramman.[26]
+12th CenturyEdit
+1E 1100Edit
+Farangel Gardner, from a successful mercantile family, is proclaimed as the first King of Wayrest after being accepted by ambassadors from the Camorian Empire. The city would then have four major dynasties in later times: that of Gardner, Cumberland, Horley, and finally Septim.[53]
+Wayrest becomes a city-state.[11]
+1E 1102Edit
+Ceyran, a minor Ayleid warlord, is killed by an unknown assassin.[69]
+1E 1188Edit
+Fervidius Tharn becomes the leader of the Marukhati Selective.[13]
+13th CenturyEdit
+1E 1200Edit
+The Middle Dawn begins.[UL 2]
+The Marukhati Selective accidentally (or purposefully) create a Dragon Break that lasts one thousand and eight years. The few texts that survive this period are known to conflict with each other greatly due to the lack of a linear timeline.[47][UL 2]
+1E 1250Edit
+The Encyclopedia Tamrielica suggests the end of the Alessian Order occurs in this year.[32]
+14th CenturyEdit
+1E 1301Edit
+The Sack of Skywatch occurs, from the Sloads of Thras attack on the Summerset Isles.[70]
+15th CenturyEdit
+1E 1427Edit
+Battle of Duncreigh Bridge: The "famous victory" of Anticlere's Duke over the neighboring hamlet of Sensford is celebrated in High Rock each year by the people marching down Sensford's main street. This results in numerous injuries on both sides, even when it doesn't provoke a brief war between the two "knightly orders" of the two villages. The battle itself achieved nothing, because both villages still boast about their ruling families' antique lineage.[19]
+23rd CenturyEdit
+1E 2200Edit
+Thrassian Plague begins, killing half of Tamriel's population.[2][3][9][19][25][63][53][11]
+1E 2208Edit
+The Middle Dawn ends.[UL 2]
+After one thousand and eight years of conflicting nonlinear time, the Dragon Break ends.[47]
+1E 2260Edit
+Thrassian Plague reaches Elsweyr.[25][56]
+24th CenturyEdit
+1E 2305Edit
+The Alessian Order attempts to bring High Rock back into the First Empire but fails.[57]
+1E 2321Edit
+War of Righteousness: Alessian war begins.[9][27][71]
+The monastery at Lake Canulus, amongst other locales, is destroyed.[27][71]
+End of the Alessian Order.[18]
+Most of the historic texts of this time were destroyed during the War of Righteousness.[54][71]
+War of Righteousness significantly reduces the population of Daggerfall.[2]
+1E 2331Edit
+After ten years of warfare, the War of Righteousness comes to an end[9]
+28th CenturyEdit
+1E 2702Edit
+Most of Wayrest is forced to move to the Gardner estate, to protect themselves against pirates, the Akaviri, and the Thrassian Plague.[53]
+1E 2703Edit
+The Akaviri attack Tamriel.[3][9][21][72][73]
+Battle of Pale Pass is fought. Akaviri army defeated.[9][37][74]
+Reman Cyrodiil becomes Emperor of the Cyrodilic Empire.[9][21][75]
+1E 2704Edit
+The Reach is split between High Rock and Skyrim by Reman Cyrodiil in order to stop the Reachmen from forming plots against him, and to stop any one entity or group from gaining full control over the region's silver mines.[UL 3]
+Reman Cyrodiil solidifies his control over his territories.[22]
+1E 2714Edit
+Valenwood cedes to the Cyrodilic Empire.[4]
+1E 2762Edit
+Reman Cyrodiil dies.[76][note 2]
+1E 2790Edit
+The Ayleid, Tjurhane Fyrre, is born.[77]
+1E 2794Edit
+Reman Cyrodiil II is born.[78][note 3]
+29th CenturyEdit
+1E 2801Edit
+Kastav rules the Empire.[79]
+Kastav orders the seizing of hostages in Markarth and Hroldan.[79]
+1E 2804Edit
+The Winterhold Rebellion breaks out in the Reman Empire due to the implementation of extremely high taxes by Emperor Kastav, and harsh policies to ensure that said taxes were paid. The Dragonguard take no action,—because doing so would violate their Oath of Allegiance—so supplies to them are cut.[79]
+Forsworn noted as helping the Akaviri in Sky Haven Temple.[79]
+1E 2805Edit
+Emperor Kastav besieges Sky Haven Temple.[79]
+Kalien, a failed recruit to the Dragonguard, attacks Winterhold, sacking it.[79]
+1E 2806Edit
+Reman Cyrodiil II becomes Emperor, according to the Annals of the Dragonguard.[79]
+The siege on Sky Haven Temple is lifted.[79]
+1E 2809Edit
+Reports of a Dragon in Skyrim.[79]
+1E 2811Edit
+The Battle of Argonia is fought, and the Cyrodilic Empire defeats the Argonians in what is to be their last organized army.[26]
+The Argonians retreat to Helstrom.[26]
+General Bucco takes command of the Fourth Imperial Legion and begins his campaign to conquer the inner swamps of Argonia.[80]
+1E 2812Edit
+Reman Cyrodiil II is crowned Emperor, according to his tomb in Sancre Tor.[78]
+Black Marsh is officially incorporated into the Cyrodilic Empire.[26]
+Alduin's Wall officially begins construction.[79]
+1E 2813Edit
+Work on Alduin's wall slows when several craftsmen are dismissed from service.[79]
+The language Cyrodilic replaces High Elven as the dominant language for legal documents in Tamriel.[11]
+1E 2815Edit
+Grandmaster of the Dragonguard visits Sky Haven Temple, to investigate rumors of the cost of Alduin's Wall, and consequently writes a Writ of Requisition for more supplies.[79]
+1E 2816Edit
+General Bucco's legion is depleted to a mere six cohorts. Reinforcements are brought in to aid his conquest but are instead used to build a supply highway.[81]
+1E 2818Edit
+Alduin's Wall officially completed.[79]
+1E 2820Edit
+Eric of Guis is Ambassador of the Reman Dynasty to the Altmer of Summerset Isles.[29]
+After an attempted mutiny, General Bucco orders a retreat from Argonia. The entire Fourth Legion is lost in the process, with Bucco along with it.[82]
+The Elder Council reconstitutes the Fourth Legion and puts it under the command of General Regulus Sardecus, beginning the second campaign of the Blackwater War.[82]
+1E 2823Edit
+General Sardecus reacquires all the territory lost in General Bucco's retreat.[83]
+1E 2828Edit
+A widespread forest fire, later known as the "Great Burn" occurs in Black Marsh, forcing General Sardecus to retreat from the region. Sardecus dies in the process.[84]
+General Lucinia Falco is placed in command of the legion shortly after Sardecus' death.[85]
+1E 2833Edit
+The "Falco Doctrine" is put in full effect, completely revising the Imperial battle-plan in the Blackwater War.[85]
+1E 2834Edit
+The Blackwater War evolves into a guerilla conflict.[85]
+1E 2836Edit
+The Argonians inexplicably stop fighting and return to their homes, bringing an informal end to the Blackwater war.[85]
+1E 2837Edit
+The Second Empire annexation of Argonia is complete, officially creating the province of Black Marsh.[63][85]
+1E 2840Edit
+Four Score War begins, between Morrowind and the Cyrodilic Empire.[21]
+1E 2843Edit
+Reman Cyrodiil II dies, according to Reman II: The Limits of Ambition.[86]
+1E 2851Edit
+Reman Cyrodiil II dies, according to the date on his tomb in Sancre Tor.[78]
+1E 2871Edit
+The dragon Krahjotdaan is slain somewhere in the Jerall Mountains.[87]
+1E 2877Edit
+Reman III succeeds to the throne.[88][note 4]
+1E 2899Edit
+Empress Tavia (wife of Reman Cyrodiil III) is sent to Gideon, Black Marsh, and accused of treason.[26]
+30th CenturyEdit
+1E 2903Edit
+Almalexia leaves Morrowind for the Isle of Artaeum.[89]
+1E 2911Edit
+Beginning of the War of the Uvichil, a war between the Sload of Thras and the Altmer of the Summerset Isles.[70]
+1E 2917Edit
+The end of the War of the Uvichil, a war between the Sload of Thras and the Altmer of the Summerset Isles.[70]
+1E 2920Edit
+Morag Tong assassinates Emperor Reman Cyrodiil III.[3][21][75][90][88]
+Old Mournhold is destroyed by Mehrunes Dagon.[91]
+
+ Diplomacy: - DIP
+#11) Citizenship Policy - diplomatic_annexation_cost = -0.43	
+#12) Centralization Policy - global_autonomy = -0.6	
+#13) Language Policy - culture_conversion_cost = -0.30
+#14) Embassy Policy - rebel_support_efficiency = 0.61
+#15) Relations Policy - improve_relation_modifier = 0.67
+#16) Immigration Policy - global_spy_defence = 0.13	
+#17) Espionage Plicy - spy_offence = 0.53
+#18) Refugees Policy - diplomatic_reputation = 16
+#19) Tax Shelters Policy - global_foreign_trade_power = 0.15
+#110) Trade Policy - trade_efficiency = 0.34	
+
+ Economy: - ADM
+#21) Agriculture Policy - global_manpower_modifier = 0.1								  
+#22) Taxation Policy - global_tax_modifier = 0.7
+#23) Labour Policy - global_tariffs = 0.8
+#24) Pollution Policy - prestige = 0.64
+#25) Infrastructure Policy - build_cost = -0.29	
+#26) Sales Policy - inflation_reduction = 0.84
+#27) Water Policy - garrison_size = 0.24
+#28) Production Policy - production_efficiency = 0.59
+#29) Working Policy - global_ship_cost = -0.18
+#210) Safety Policy - discipline = 0.06
+
+ Science&Religion: - ADM
+#31) Culture Policy - num_accepted_cultures = 83	
+#32) Education Policy - advisor_pool = 22
+#33) Missionary Policy - global_missionary_strength = 0.5	
+#34) Religion Policy - missionaries = 68
+#35) Science Policy - technology_cost = -0.19
+#36) Schools Policy - idea_cost = -0.69
+#37) Astronomy Policy - naval_attrition = -0.10
+#38) Technology policy - build_time = -2.0
+#39) Grants Policy - embracement_cost = -0.08
+#310) University Policy - global_institution_spread = 0.11
+
+ Security: - MIL
+#41) Community Policy - stability_cost_modifier = -0.15	
+#42) Crime Policy - global_unrest = -3	
+#43) Penalty Policy - yearly_corruption = -0.35
+#44) Court Policy - reduced_liberty_desire = 13
+#45) Detention Policy - claim_duration = 0.25
+#46) Army Policy - land_forcelimit_modifier = 0.85	
+#47) Containment Policy - core_creation = -0.51
+#48) Prisons Policy - years_of_nationalism = -5
+#49) Tortures Policy - harsh_treatment_cost = -0.25
+#410) Security policy - defensiveness = 0.73
+
+ Society: - DIP/MIL
+#51) Alcohol Policy - global_sailors_modifier = 0.20	
+#52) Marriage Policy - tolerance_own = 13	
+#53) Homelessness Policy - global_regiment_cost = -0.19
+#54) Jury Policy - unjustified_demands = -0.45	
+#55) Narcotics Policy - global_trade_goods_size_modifier = 0.02
+#56) Discrimination Policy - tolerance_heathen = 2
+#57) Health Policy - manpower_recovery_speed = 0.96
+#58) Pensions Policy - army_tradition_decay = -0.21
+#59) Unemployment Policy - development_cost = -0.56

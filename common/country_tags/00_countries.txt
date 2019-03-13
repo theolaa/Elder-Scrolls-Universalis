@@ -56,6 +56,7 @@ DRE = "countries/DRE.txt"
 KOT = "countries/KOT.txt"
 FOR = "countries/FOR.txt"
 SKA = "countries/SKA.txt"
+TRA = "countries/TRA.txt"
 
 # Pyandonea
 PA1	= "countries/PA1.txt"

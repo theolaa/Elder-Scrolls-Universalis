@@ -2119,7 +2119,7 @@ medicine = {
 	history = {
 		OR = {
 			AND = {
-				is_year = 100
+				is_year = 1300
 				development = 12
 				owner = {
 					NOT = { government = tribal }

@@ -1,0 +1,388 @@
+namespace = es_11_scenario
+
+country_event = {
+	id = es_11_scenario.1
+	title = es_11_scenario.1.t
+	desc = es_11_scenario.1.d
+	picture = BATTLE_3_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 369
+		NOT = { is_year = 420 }
+		OR = {
+		tag = OLD
+		AND = {
+		NOT = { exists = OLD}
+		tag = SKY
+		}
+		}
+		
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_11_scenario.1.a"
+		ai_chance = { factor = 33 }
+		change_tag = WSK
+		
+		every_owned_province = {
+		limit = {
+		region = eastern_skyrim_lr
+		}
+		cede_province = ESK
+		add_core = ESK
+		add_claim = WSK
+		}
+		
+		every_owned_province = {
+		limit = {
+		region = western_skyrim_lr
+		}
+		add_claim = ESK
+		}
+		
+		every_owned_province = {
+		limit = {
+		NOT = { region = western_skyrim_lr }
+		NOT = { region = eastern_skyrim_lr }
+		}
+		cede_province = OLD
+		add_core = OLD
+		}
+		
+		kill_ruler = yes
+		kill_heir = yes
+		
+        define_ruler = {
+        name = "Olaf"
+        dynasty = "Whitehold"
+        adm = 2
+        dip = 5
+        mil = 3
+        age = 30
+        claim = 100
+        }
+		
+		ESK = {
+		define_ruler = {
+        name = "Hanse"
+        dynasty = "Winterhold"
+        adm = 5
+        dip = 3
+        mil = 2
+        age = 30
+        claim = 100
+        }
+		}
+		
+		OLD = {
+		change_government = republic
+		define_ruler = {
+        name = "Vulard"
+        adm = 3
+        dip = 2
+        mil = 5
+        age = 30
+        claim = 100
+        }
+		}
+	}
+	
+	option = {
+		name = "es_11_scenario.1.b"
+		ai_chance = { factor = 33 }
+		change_tag = ESK
+		
+		every_owned_province = {
+		limit = {
+		region = western_skyrim_lr
+		}
+		cede_province = WSK
+		add_core = WSK
+		add_claim = ESK
+		}
+		
+		every_owned_province = {
+		limit = {
+		region = eastern_skyrim_lr
+		}
+		add_claim = WSK
+		}
+		
+		every_owned_province = {
+		limit = {
+		NOT = { region = western_skyrim_lr }
+		NOT = { region = eastern_skyrim_lr }
+		}
+		cede_province = OLD
+		add_core = OLD
+		}
+		
+		kill_ruler = yes
+		kill_heir = yes
+		
+		WSK = {
+        define_ruler = {
+        name = "Olaf"
+        dynasty = "Whitehold"
+        adm = 2
+        dip = 5
+        mil = 3
+        age = 30
+        claim = 100
+        }
+		}
+		
+		define_ruler = {
+        name = "Hanse"
+        dynasty = "Winterhold"
+        adm = 5
+        dip = 3
+        mil = 2
+        age = 30
+        claim = 100
+        }
+		
+		OLD = {
+		change_government = republic
+		define_ruler = {
+        name = "Vulard"
+        adm = 3
+        dip = 2
+        mil = 5
+        age = 30
+        claim = 100
+        }
+		}
+	}
+	
+	option = {
+		name = "es_11_scenario.1.c"
+		ai_chance = { factor = 33 }
+		
+		trigger = {
+		any_owned_province = {
+		NOT = { region = western_skyrim_lr }
+		NOT = { region = eastern_skyrim_lr }
+		}
+		}
+		
+		every_owned_province = {
+		limit = {
+		region = western_skyrim_lr
+		}
+		cede_province = WSK
+		add_core = WSK
+		add_claim = ESK
+		}
+		
+		every_owned_province = {
+		limit = {
+		region = eastern_skyrim_lr
+		}
+		cede_province = ESK
+		add_core = ESK
+		add_claim = WSK
+		}
+		
+		kill_ruler = yes
+		kill_heir = yes
+		
+		WSK = {
+        define_ruler = {
+        name = "Olaf"
+        dynasty = "Whitehold"
+        adm = 2
+        dip = 5
+        mil = 3
+        age = 30
+        claim = 100
+        }
+		}
+		
+		ESK = {
+		define_ruler = {
+        name = "Hanse"
+        dynasty = "Winterhold"
+        adm = 5
+        dip = 3
+        mil = 2
+        age = 30
+        claim = 100
+        }
+		}
+		
+		change_government = republic
+		define_ruler = {
+        name = "Vulard"
+        adm = 3
+        dip = 2
+        mil = 5
+        age = 30
+        claim = 100
+        }
+		
+	}
+}
+
+country_event = {
+	id = es_11_scenario.2
+	title = es_11_scenario.2.t
+	desc = es_11_scenario.2.d
+	picture = ES_CITY_IN_FIRE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 369
+		NOT = { is_year = 420 }
+		culture_group = dwemer_cg
+		is_free_or_tributary_trigger = yes
+		capital_scope = { 
+		OR = {
+		region = vvardenfell_lr
+		region = morrowind_lr
+		}
+		}
+		NOT = { owns = 970 }
+		OR = {
+		exists = CHI
+		exists = MB9
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_11_scenario.2.a"
+		ai_chance = { factor = 50 }
+	    if = {
+		limit = {
+		exists = MB9
+		NOT = { exists = CHI }
+		}
+		MB9 = {
+		create_subject = {
+        subject_type = vassal
+        subject = ROOT
+        }
+		}
+		}
+		if = {
+		limit = {
+		exists = CHI
+		}
+		CHI = {
+		create_subject = {
+        subject_type = vassal
+        subject = ROOT
+        }
+		}
+		}
+	}
+	
+	option = {
+		name = "es_11_scenario.2.b"
+		ai_chance = { factor = 50 }
+	    add_prestige = 10
+	}
+	
+}
+
+country_event = {
+	id = es_11_scenario.3
+	title = es_11_scenario.3.t
+	desc = es_11_scenario.3.d
+	picture = ES_PALACE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 369
+		NOT = { is_year = 420 }
+		culture_group = yokudan-redguardian_cg
+		capital_scope = { 
+		region = yokuda_lr
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+	
+	immediate = {
+	    add_country_modifier = {
+		name = "11_political_instability"
+		duration = 9125
+		}
+	}
+
+	option = {
+		name = "es_11_scenario.3.a"
+		ai_chance = { factor = 50 }
+	    kill_ruler = yes
+		add_stability = -3
+		add_years_of_income = -2.5
+		random_owned_province = { 
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 10
+				unrest = 25
+			}
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 10
+				unrest = 25
+			}
+		}
+		random_owned_province = { 
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 10
+				unrest = 25
+			}
+		}
+	}
+	
+	option = {
+		name = "es_11_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "11_succesion_war"
+		duration = 9125
+		}
+	}
+	
+}
+
+province_event = {
+	id = es_11_scenario.4
+	title = es_11_scenario.4.t
+	desc = es_11_scenario.4.d
+	picture = ES_DAEDRIC_SHRINE_eventPicture
+	
+	trigger = {
+	    is_year = 369
+		NOT = { is_year = 420 }
+		religion = marukhism
+    }
+
+	mean_time_to_happen = {
+		days = 93075
+	}
+
+	option = {
+		name = "es_11_scenario.4.a"
+		ai_chance = { factor = 100 }
+		change_religion = dremora_pantheon 
+	}
+}

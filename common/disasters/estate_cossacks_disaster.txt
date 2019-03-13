@@ -25,7 +25,7 @@ estate_cossacks_disaster = {
 			NOT = {
 				estate_influence = {
 					estate = estate_cossacks
-					influence = 50
+					influence = 80
 				}		
 			}
 		}
@@ -40,7 +40,7 @@ estate_cossacks_disaster = {
 			factor = 5
 			estate_influence = {
 				estate = estate_cossacks
-				influence = 50
+				influence = 80
 			}
 		}		
 	}

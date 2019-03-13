@@ -29,3 +29,9 @@ fort_15th = yes
 	controller = DWE
 	add_core = DWE
 }
+
+308.1.1 = {
+	owner = OLD
+	controller = OLD
+	add_core = OLD
+}

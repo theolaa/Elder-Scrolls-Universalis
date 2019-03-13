@@ -15,3 +15,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 center_of_trade = 2
 
 fort_15th = yes
+
+369.1.1 = {
+	owner = CHI
+	controller = CHI
+	add_core = CHI
+}

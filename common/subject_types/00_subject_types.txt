@@ -186,7 +186,7 @@ vassal = {
 	liberty_desire_development_ratio = 0.50
 	pays_overlord = 1.0
 	forcelimit_bonus = 1.0
-	forcelimit_to_overlord = 0.05
+	forcelimit_to_overlord = 0
 
 	relative_power_class = 1.75
 	

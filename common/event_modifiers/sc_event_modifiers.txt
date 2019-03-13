@@ -142,10 +142,96 @@ antibankrapucy = {
    reduced_liberty_desire = -25
 }
 
+09_revolution = {
+   global_unrest = 10
+}
+
+09_nobility = {
+   diplomats = 1
+   land_morale = 0.10
+   global_manpower_modifier = 0.10
+}
+
+09_merchants = {
+   merchants = 1
+   trade_efficiency = 0.10
+   global_foreign_trade_power = 0.10
+}
+
+09_clergy = {
+   missionaries = 1
+   tolerance_own = 1
+   global_missionary_strength = 0.01
+}
+
+09_transakavir = {
+   trade_efficiency = 0.25
+   trade_steering = 0.15
+   global_trade_goods_size_modifier = 0.10
+}
+
+09_indepandence = {
+   liberty_desire = 50
+   land_forcelimit_modifier = 0.35
+   possible_mercenaries = 0.15
+}
+
 00_far_legend = {
   range = 1.0
   global_ship_cost = -0.50
   naval_maintenance_modifier = -0.25
+}
+
+10_trade_agreement = {
+   trade_efficiency = 0.25
+   trade_steering = 0.15
+   global_trade_goods_size_modifier = 0.10
+}
+
+10_rise_of_direnii = {
+   global_manpower_modifier = 0.50
+   land_forcelimit_modifier = 0.35
+   land_morale = 0.25
+   discipline = 0.10
+   recover_army_morale_speed = 0.05
+}
+
+10_clergy_unrest = {
+   global_unrest = 10
+}
+
+10_not_tolerant = {
+    global_heretic_missionary_strength = 0.05
+	tolerance_heretic = -3								 	
+    tolerance_own = 1					
+    tolerance_heathen = -5
+}
+
+10_tolerant = {
+    global_heretic_missionary_strength = -0.05
+	tolerance_heretic = 5								 	
+    tolerance_own = -3					
+    tolerance_heathen = 3
+}
+
+10_unrest = {
+    local_unrest = 10
+}
+
+10_diplomacy = {
+    diplomats = 1
+	diplomatic_annexation_cost = -0.35
+	diplomatic_reputation = 1.5
+}
+
+11_political_instability = {
+    liberty_desire = 50
+}
+
+11_succesion_war = {
+    global_unrest = 10
+	stability_cost_modifier = 1.0
+	harsh_treatment_cost = 1.0
 }
 
 00_tamrilian_tractates = {
@@ -153,4 +239,3 @@ antibankrapucy = {
   core_creation = -0.15
   global_unrest = -1
 }
-   

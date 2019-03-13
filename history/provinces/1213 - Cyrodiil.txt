@@ -19,3 +19,10 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = ALE
 	add_core = ALE
 }
+
+369.1.1 = {
+	owner = ORD
+	controller = ORD
+	add_core = ORD
+	religion = marukhism
+}

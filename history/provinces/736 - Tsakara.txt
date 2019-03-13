@@ -15,3 +15,9 @@ discovered_by = akavir_tg discovered_by = thousand_tg discovered_by = kamal_tg
 center_of_trade = 1
 
 fort_15th = yes
+
+337.1.1 = {
+	owner = TSA
+	controller = TSA
+	add_core = TSA
+}
