@@ -28,3 +28,9 @@ fort_15th = yes
 	controller = COL
 	add_core = COL
 }
+
+548.1.1 = {
+    owner = CA7
+	controller = CA7
+	add_core = CA7
+}

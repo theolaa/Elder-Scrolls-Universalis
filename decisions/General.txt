@@ -211,6 +211,7 @@ country_decisions = {
 		}
 		allow = {
             ai = no
+			NOT = { inflation = 100 }
 		}
 		effect = {
 		

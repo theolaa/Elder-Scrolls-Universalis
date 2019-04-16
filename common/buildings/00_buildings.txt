@@ -1159,7 +1159,7 @@ temple = {
 			continent = Akavir
 			NOT = { has_terrain = glacier }
 			FROM = {
-				religion_group = divines_group
+				religion_group = polytheistic_group
 				OR = {
 					is_colonial_nation = yes
 					is_former_colonial_nation = yes

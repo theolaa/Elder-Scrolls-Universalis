@@ -14,7 +14,7 @@ monarch_names = {
 	"Clauore #0" = 10
 	"Bonie #0" = 10
 	"Bennhul #0" = 10
-	"Farrrose #0" = 10
+	"Farrose #0" = 10
 	"Jadieraud #0" = 10
 	"LaRhad #0" = 10
 	"Achinude #0" = 10
@@ -43,7 +43,7 @@ monarch_names = {
 }
 
 leader_names  = {
-    Frannd Nestoin Clauore Bonie Bennhul Farrrose Jadieraud LaRhad Achinude Hastdwulf Clingonav Petis Alenneond Lirinne Blaysch Frasnnitte Detrciusine Lyltieve Joncourtaine Nermelred Flonven Masolory Irbnneond Surieton Stanven Panorel Agrrdand Suriius Chriieucel Rannand Creninere Vannchamp Elbeasien Ashthwode Stauldlip Dieone Hanitusentien Matrarc Blailest Merelie Belctonian Blaaire Therndre Ogesion Cynrnric Ildecques Jerthachber Meroeinace Tutvoine Chrlle Pauionthel Gevegette Mattndre Gernck Dariickin Valrles Franstiencel Eardick Paurustrel Frenlion Mebane Birisaud Juisg Laroelle Simiyval Nestee Octhiashieu Ephrrienele Tynmmubin Nororard Vinbinastian Matrerre Inwoeus Aulierk Imedccer Motalaine Damivoine Yvirrienele Ronulmas Cieph Albefreben Limane Sylosis Cannhaire Juinnran Lylveance Haskickin Nororic Ainealdald Moronds Phinnis Blaya Mordandien Ephiich Guistar Panonc Jerian Sylston Eltrntax Motiuette
+    Frannd Nestoin Clauore Bonie Bennhul Farrose Jadieraud LaRhad Achinude Hastdwulf Clingonav Petis Alenneond Lirinne Blaysch Frasnnitte Detrciusine Lyltieve Joncourtaine Nermelred Flonven Masolory Irbnneond Surieton Stanven Panorel Agrrdand Suriius Chriieucel Rannand Creninere Vannchamp Elbeasien Ashthwode Stauldlip Dieone Hanitusentien Matrarc Blailest Merelie Belctonian Blaaire Therndre Ogesion Cynrnric Ildecques Jerthachber Meroeinace Tutvoine Chrlle Pauionthel Gevegette Mattndre Gernck Dariickin Valrles Franstiencel Eardick Paurustrel Frenlion Mebane Birisaud Juisg Laroelle Simiyval Nestee Octhiashieu Ephrrienele Tynmmubin Nororard Vinbinastian Matrerre Inwoeus Aulierk Imedccer Motalaine Damivoine Yvirrienele Ronulmas Cieph Albefreben Limane Sylosis Cannhaire Juinnran Lylveance Haskickin Nororic Ainealdald Moronds Phinnis Blaya Mordandien Ephiich Guistar Panonc Jerian Sylston Eltrntax Motiuette
 }
 
 ship_names = {

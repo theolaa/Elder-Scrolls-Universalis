@@ -18,6 +18,10 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	add_core = AYL
 }
 
+242.1.1 = {
+    add_core = ALE
+}
+
 266.1.1 = {
 	owner = ALE culture = nedic
 	controller = ALE
@@ -30,4 +34,16 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = ORD
 	add_core = ORD
 	religion = marukhism
+}
+
+478.1.1 = {
+	owner = CA7
+	controller = CA7
+	add_core = CA7
+}
+
+548.1.1 = {
+	owner = ORD
+	controller = ORD
+	add_core = ORD
 }

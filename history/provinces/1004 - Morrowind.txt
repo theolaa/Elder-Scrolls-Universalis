@@ -17,3 +17,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = CHI
 	add_core = CHI
 }
+
+420.1.1 = {
+	owner = UNI
+	controller = UNI
+	add_core = UNI
+}

@@ -9,7 +9,20 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
+	if = {
+	limit = {
+	ai = no
+	}
 	add_stability = -5
+	add_war_exhaustion = 5
+	}
+	if = {
+	limit = {
+	ai = yes
+	}
+	add_stability = 5
+	end_disaster = es_country_collapse
+	}
 	}
 	
 	option = {

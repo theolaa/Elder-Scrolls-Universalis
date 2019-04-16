@@ -20,8 +20,9 @@ fort_15th = yes
 	add_core = AYL
 }
 
-
-221.1.1 = { religion = eight_divines }
+242.1.1 = {
+    add_core = ALE
+}
 
 266.1.1 = {
 	owner = ALE culture = nedic

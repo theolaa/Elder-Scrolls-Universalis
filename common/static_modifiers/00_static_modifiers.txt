@@ -684,8 +684,7 @@ war = {
 	mercenary_cost = -0.25										  
     merc_maintenance_modifier = 0.25
 	reinforce_cost_modifier = -0.25
-	army_tradition = 0.15
-	army_tradition_decay = -0.15
+	army_tradition = 1.0
 	global_regiment_recruit_speed = -0.25
 	reinforce_speed = 0.25
 	production_efficiency = -0.25
@@ -1116,7 +1115,7 @@ in_golden_era = {
 }
 
 absolutism = {
-	administrative_efficiency = 0.5
+	administrative_efficiency = 0.25
 	discipline = 0.10
 	core_decay_on_your_own = -0.5
 }

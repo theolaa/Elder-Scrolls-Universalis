@@ -18,6 +18,10 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	add_core = AYL
 }
 
+242.1.1 = {
+    add_core = ALE
+}
+
 266.1.1 = {
 	owner = ALE culture = nedic
 	controller = ALE

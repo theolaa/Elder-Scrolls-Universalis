@@ -11,16 +11,6 @@ country_decisions = {
 			is_emperor = no
 		}
 		allow =  {
-		    OR = {
-			AND = {
-			government = monarchy
-		    NOT = { legitimacy = 50 }
-			}
-			AND = {
-			government = theocracy
-		    NOT = { devotion = 50 }
-			}
-			}
 			stability = 3
 			full_idea_group = administrative_ideas
 			full_idea_group = economic_ideas
@@ -47,16 +37,6 @@ country_decisions = {
 			is_emperor = no
 		}
 		allow =  {
-		    OR = {
-			AND = {
-			government = monarchy
-		    NOT = { legitimacy = 50 }
-			}
-			AND = {
-			government = republic
-		    NOT = { republican_tradition = 50 }
-			}
-			}
 			stability = 3
 			full_idea_group = religious_ideas
 			full_idea_group = diplomatic_ideas
@@ -81,16 +61,6 @@ country_decisions = {
 			NOT = { government = native }
 		}
 		allow =  {
-		    OR = {
-			AND = {
-			government = republic
-		    NOT = { republican_tradition = 50 }
-			}
-			AND = {
-			government = theocracy
-		    NOT = { devotion = 50 }
-			}
-			}
 			stability = 3
 			full_idea_group = influence_ideas
 			full_idea_group = expansion_ideas

@@ -143,7 +143,7 @@ altmeri_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = ancient_group
+			religion_group = polytheistic_group
 			dominant_religion = altmeri_pantheon
 		}
 	}
@@ -160,7 +160,7 @@ altmeri_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = ancient_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -197,7 +197,7 @@ altmeri_pantheon_rebels = {
 			limit = {
 				NOT = { religion = altmeri_pantheon }
 				NOT = { dominant_religion = altmeri_pantheon }
-				religion_group = ancient_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -352,7 +352,7 @@ snow_elves_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = ancient_group
+			religion_group = polytheistic_group
 			dominant_religion = snow_elves_pantheon
 		}
 	}
@@ -369,7 +369,7 @@ snow_elves_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = ancient_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -406,7 +406,7 @@ snow_elves_pantheon_rebels = {
 			limit = {
 				NOT = { religion = snow_elves_pantheon }
 				NOT = { dominant_religion = snow_elves_pantheon }
-				religion_group = ancient_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -561,7 +561,7 @@ nordic_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = northern_group
+			religion_group = polytheistic_group
 			dominant_religion = nordic_pantheon
 		}
 	}
@@ -578,7 +578,7 @@ nordic_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = northern_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -615,7 +615,7 @@ nordic_pantheon_rebels = {
 			limit = {
 				NOT = { religion = nordic_pantheon }
 				NOT = { dominant_religion = nordic_pantheon }
-				religion_group = northern_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -770,7 +770,7 @@ bosmer_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = bosmer_group
+			religion_group = polytheistic_group
 			dominant_religion = bosmer_pantheon
 		}
 	}
@@ -787,7 +787,7 @@ bosmer_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = bosmer_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -824,7 +824,7 @@ bosmer_pantheon_rebels = {
 			limit = {
 				NOT = { religion = bosmer_pantheon }
 				NOT = { dominant_religion = bosmer_pantheon }
-				religion_group = bosmer_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -979,7 +979,7 @@ eight_divines_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = divines_group
+			religion_group = polytheistic_group
 			dominant_religion = eight_divines
 		}
 	}
@@ -996,7 +996,7 @@ eight_divines_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = divines_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1033,7 +1033,7 @@ eight_divines_rebels = {
 			limit = {
 				NOT = { religion = eight_divines }
 				NOT = { dominant_religion = eight_divines }
-				religion_group = divines_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -1188,7 +1188,7 @@ nine_divines_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = divines_group
+			religion_group = polytheistic_group
 			dominant_religion = nine_divines
 		}
 	}
@@ -1205,7 +1205,7 @@ nine_divines_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = divines_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1242,7 +1242,7 @@ nine_divines_rebels = {
 			limit = {
 				NOT = { religion = nine_divines }
 				NOT = { dominant_religion = nine_divines }
-				religion_group = divines_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -1397,7 +1397,7 @@ twelve_divines_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = divines_group
+			religion_group = polytheistic_group
 			dominant_religion = twelve_divines
 		}
 	}
@@ -1414,7 +1414,7 @@ twelve_divines_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = divines_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1451,7 +1451,7 @@ twelve_divines_rebels = {
 			limit = {
 				NOT = { religion = twelve_divines }
 				NOT = { dominant_religion = twelve_divines }
-				religion_group = divines_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -1606,7 +1606,7 @@ khajiiti_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = khajiiti_group
+			religion_group = polytheistic_group
 			dominant_religion = khajiiti_pantheon
 		}
 	}
@@ -1623,7 +1623,7 @@ khajiiti_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = khajiiti_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1660,7 +1660,7 @@ khajiiti_pantheon_rebels = {
 			limit = {
 				NOT = { religion = khajiiti_pantheon }
 				NOT = { dominant_religion = khajiiti_pantheon }
-				religion_group = khajiiti_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -1815,7 +1815,7 @@ yokudan_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = yokudan_group
+			religion_group = polytheistic_group
 			dominant_religion = yokudan_pantheon
 		}
 	}
@@ -1832,7 +1832,7 @@ yokudan_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = yokudan_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -1869,7 +1869,7 @@ yokudan_pantheon_rebels = {
 			limit = {
 				NOT = { religion = yokudan_pantheon }
 				NOT = { dominant_religion = yokudan_pantheon }
-				religion_group = yokudan_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -2024,7 +2024,7 @@ redguard_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = yokudan_group
+			religion_group = polytheistic_group
 			dominant_religion = redguard_pantheon
 		}
 	}
@@ -2041,7 +2041,7 @@ redguard_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = yokudan_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -2078,7 +2078,7 @@ redguard_pantheon_rebels = {
 			limit = {
 				NOT = { religion = redguard_pantheon }
 				NOT = { dominant_religion = redguard_pantheon }
-				religion_group = yokudan_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -2233,7 +2233,7 @@ malacath_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = orsimer_group
+			religion_group = polytheistic_group
 			dominant_religion = malacath_cult
 		}
 	}
@@ -2250,7 +2250,7 @@ malacath_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = orsimer_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -2287,7 +2287,7 @@ malacath_cult_rebels = {
 			limit = {
 				NOT = { religion = malacath_cult }
 				NOT = { dominant_religion = malacath_cult }
-				religion_group = orsimer_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -2442,7 +2442,7 @@ kothri_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = kothri_group
+			religion_group = polytheistic_group
 			dominant_religion = kothri_pantheon
 		}
 	}
@@ -2459,7 +2459,7 @@ kothri_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = kothri_group }
+				NOT = { religion_group = polytheistic_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -2496,7 +2496,7 @@ kothri_pantheon_rebels = {
 			limit = {
 				NOT = { religion = kothri_pantheon }
 				NOT = { dominant_religion = kothri_pantheon }
-				religion_group = kothri_group
+				religion_group = polytheistic_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -2592,14 +2592,14 @@ chimer_pantheon_rebels = {
 		}
 		modifier = {
 			factor = 0.0
-			religion = chimer_pantheon
-			owner = { religion = chimer_pantheon }
+			religion_group = occult_group
+			owner = { religion_group = occult_group }
 		}
 		modifier = {
 			factor = 2.0
-			NOT = { religion = chimer_pantheon }
+			NOT = { religion_group = occult_group }
 			any_neighbor_province = {
-	 			religion = chimer_pantheon
+	 			religion_group = occult_group
 	 			NOT = { has_province_modifier = "forced_conversion" }
 	 		}
 	 	}
@@ -2638,7 +2638,7 @@ chimer_pantheon_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = chimer_pantheon }
+				NOT = { religion_group = occult_group }
 			}
 			change_religion = chimer_pantheon
 			add_province_modifier = {
@@ -2651,7 +2651,7 @@ chimer_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = chimer_group
+			religion_group = occult_group
 			dominant_religion = chimer_pantheon
 		}
 	}
@@ -2668,7 +2668,7 @@ chimer_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = chimer_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -2686,7 +2686,7 @@ chimer_pantheon_rebels = {
 		}
 		if = {
 			limit = {
-				religion = chimer_pantheon
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "religious_intolerance"
@@ -2695,7 +2695,7 @@ chimer_pantheon_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = chimer_pantheon }
+				NOT = { religion_group = occult_group }
 				dominant_religion = chimer_pantheon
 			}
 			change_religion = chimer_pantheon
@@ -2703,9 +2703,9 @@ chimer_pantheon_rebels = {
 		}
 		if = {
 			limit = {
-				NOT = { religion = chimer_pantheon }
+				NOT = { religion_group = occult_group }
 				NOT = { dominant_religion = chimer_pantheon }
-				religion_group = chimer_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -2860,7 +2860,7 @@ tribunal_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = chimer_group
+			religion_group = occult_group
 			dominant_religion = tribunal_pantheon
 		}
 	}
@@ -2877,7 +2877,7 @@ tribunal_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = chimer_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -2914,7 +2914,7 @@ tribunal_pantheon_rebels = {
 			limit = {
 				NOT = { religion = tribunal_pantheon }
 				NOT = { dominant_religion = tribunal_pantheon }
-				religion_group = chimer_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -3069,7 +3069,7 @@ reclamations_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = chimer_group
+			religion_group = occult_group
 			dominant_religion = reclamations_pantheon
 		}
 	}
@@ -3086,7 +3086,7 @@ reclamations_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = chimer_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3123,7 +3123,7 @@ reclamations_pantheon_rebels = {
 			limit = {
 				NOT = { religion = reclamations_pantheon }
 				NOT = { dominant_religion = reclamations_pantheon }
-				religion_group = chimer_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -3278,7 +3278,7 @@ sload_faith_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = sload_group
+			religion_group = elemental_group
 			dominant_religion = sload_faith
 		}
 	}
@@ -3295,7 +3295,7 @@ sload_faith_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = sload_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3332,7 +3332,7 @@ sload_faith_rebels = {
 			limit = {
 				NOT = { religion = sload_faith }
 				NOT = { dominant_religion = sload_faith }
-				religion_group = sload_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -3487,7 +3487,7 @@ serpant_king_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = serpant_group
+			religion_group = occult_group
 			dominant_religion = serpant_king
 		}
 	}
@@ -3504,7 +3504,7 @@ serpant_king_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = serpant_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3541,7 +3541,7 @@ serpant_king_rebels = {
 			limit = {
 				NOT = { religion = serpant_king }
 				NOT = { dominant_religion = serpant_king }
-				religion_group = serpant_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -3696,7 +3696,7 @@ dragon_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = dragon_group
+			religion_group = occult_group
 			dominant_religion = dragon_cult
 		}
 	}
@@ -3713,7 +3713,7 @@ dragon_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = dragon_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3750,7 +3750,7 @@ dragon_cult_rebels = {
 			limit = {
 				NOT = { religion = dragon_cult }
 				NOT = { dominant_religion = dragon_cult }
-				religion_group = dragon_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -3905,7 +3905,7 @@ marukhism_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = marukhism_group
+			religion_group = occult_group
 			dominant_religion = marukhism
 		}
 	}
@@ -3922,7 +3922,7 @@ marukhism_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = marukhism_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -3959,7 +3959,7 @@ marukhism_rebels = {
 			limit = {
 				NOT = { religion = marukhism }
 				NOT = { dominant_religion = marukhism }
-				religion_group = marukhism_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -4114,7 +4114,7 @@ hist_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = hist_group
+			religion_group = elemental_group
 			dominant_religion = hist
 		}
 	}
@@ -4131,7 +4131,7 @@ hist_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = hist_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4168,7 +4168,7 @@ hist_rebels = {
 			limit = {
 				NOT = { religion = hist }
 				NOT = { dominant_religion = hist }
-				religion_group = hist_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -4323,7 +4323,7 @@ reason_and_logic_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = reason_and_logic_group
+			religion_group = occult_group
 			dominant_religion = reason_and_logic_cult
 		}
 	}
@@ -4340,7 +4340,7 @@ reason_and_logic_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = reason_and_logic_group }
+				NOT = { religion_group = occult_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4377,7 +4377,7 @@ reason_and_logic_cult_rebels = {
 			limit = {
 				NOT = { religion = reason_and_logic_cult }
 				NOT = { dominant_religion = reason_and_logic_cult }
-				religion_group = reason_and_logic_group
+				religion_group = occult_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -4532,7 +4532,7 @@ old_gods_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = old_group
+			religion_group = elemental_group
 			dominant_religion = old_gods_cult
 		}
 	}
@@ -4549,7 +4549,7 @@ old_gods_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = old_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4586,7 +4586,7 @@ old_gods_cult_rebels = {
 			limit = {
 				NOT = { religion = old_gods_cult }
 				NOT = { dominant_religion = old_gods_cult }
-				religion_group = old_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -4741,7 +4741,7 @@ tsaesci_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = tsaesci_group
+			religion_group = elemental_group
 			dominant_religion = tsaesci_pantheon
 		}
 	}
@@ -4758,7 +4758,7 @@ tsaesci_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = tsaesci_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -4795,7 +4795,7 @@ tsaesci_pantheon_rebels = {
 			limit = {
 				NOT = { religion = tsaesci_pantheon }
 				NOT = { dominant_religion = tsaesci_pantheon }
-				religion_group = tsaesci_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -4950,7 +4950,7 @@ tang_mo_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = tang_mo_group
+			religion_group = elemental_group
 			dominant_religion = tang_mo_pantheon
 		}
 	}
@@ -4967,7 +4967,7 @@ tang_mo_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = tang_mo_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5004,7 +5004,7 @@ tang_mo_pantheon_rebels = {
 			limit = {
 				NOT = { religion = tang_mo_pantheon }
 				NOT = { dominant_religion = tang_mo_pantheon }
-				religion_group = tang_mo_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -5159,7 +5159,7 @@ kamal_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = kamal_group
+			religion_group = elemental_group
 			dominant_religion = kamal_pantheon
 		}
 	}
@@ -5176,7 +5176,7 @@ kamal_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = kamal_group }
+				NOT = { religion_group = elemental_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5213,7 +5213,7 @@ kamal_pantheon_rebels = {
 			limit = {
 				NOT = { religion = kamal_pantheon }
 				NOT = { dominant_religion = kamal_pantheon }
-				religion_group = kamal_group
+				religion_group = elemental_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -5368,7 +5368,7 @@ dremora_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = dremora_group
+			religion_group = daedric_group_1
 			dominant_religion = dremora_pantheon
 		}
 	}
@@ -5385,7 +5385,7 @@ dremora_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = dremora_group }
+				NOT = { religion_group = daedric_group_1 }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5422,7 +5422,7 @@ dremora_pantheon_rebels = {
 			limit = {
 				NOT = { religion = dremora_pantheon }
 				NOT = { dominant_religion = dremora_pantheon }
-				religion_group = dremora_group
+				religion_group = daedric_group_1
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -5577,7 +5577,7 @@ molog_bal_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			dominant_religion = molog_bal_cult
 		}
 	}
@@ -5594,7 +5594,7 @@ molog_bal_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = daedric_group }
+				NOT = { religion_group = daedric_group_1 }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5631,7 +5631,7 @@ molog_bal_cult_rebels = {
 			limit = {
 				NOT = { religion = molog_bal_cult }
 				NOT = { dominant_religion = molog_bal_cult }
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -5786,7 +5786,7 @@ meridia_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			dominant_religion = meridia_cult
 		}
 	}
@@ -5803,7 +5803,7 @@ meridia_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = daedric_group }
+				NOT = { religion_group = daedric_group_1 }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -5840,7 +5840,7 @@ meridia_cult_rebels = {
 			limit = {
 				NOT = { religion = meridia_cult }
 				NOT = { dominant_religion = meridia_cult }
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -5995,7 +5995,7 @@ mehrunes_dagon_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			dominant_religion = mehrunes_dagon_cult
 		}
 	}
@@ -6012,7 +6012,7 @@ mehrunes_dagon_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = daedric_group }
+				NOT = { religion_group = daedric_group_1 }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6049,7 +6049,7 @@ mehrunes_dagon_cult_rebels = {
 			limit = {
 				NOT = { religion = mehrunes_dagon_cult }
 				NOT = { dominant_religion = mehrunes_dagon_cult }
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -6204,7 +6204,7 @@ hermeus_mora_cult_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			dominant_religion = hermeus_mora_cult
 		}
 	}
@@ -6221,7 +6221,7 @@ hermeus_mora_cult_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = daedric_group }
+				NOT = { religion_group = daedric_group_1 }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6258,7 +6258,7 @@ hermeus_mora_cult_rebels = {
 			limit = {
 				NOT = { religion = hermeus_mora_cult }
 				NOT = { dominant_religion = hermeus_mora_cult }
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"
@@ -6413,7 +6413,7 @@ po_tun_pantheon_rebels = {
 	# Country scope
 	can_negotiate_trigger = {
 		OR = {
-			religion_group = po_tun_group
+			religion_group = harmony_group
 			dominant_religion = po_tun_pantheon
 		}
 	}
@@ -6430,7 +6430,7 @@ po_tun_pantheon_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
-				NOT = { religion_group = po_tun_group }
+				NOT = { religion_group = harmony_group }
 			}
 			add_prestige = -50
 			every_owned_province = {
@@ -6467,7 +6467,7 @@ po_tun_pantheon_rebels = {
 			limit = {
 				NOT = { religion = po_tun_pantheon }
 				NOT = { dominant_religion = po_tun_pantheon }
-				religion_group = po_tun_group
+				religion_group = harmony_group
 			}
 			add_country_modifier = {
 				name = "heretic_tolerance"

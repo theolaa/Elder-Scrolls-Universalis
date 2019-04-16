@@ -702,7 +702,7 @@ country_event = {
 		religion = dremora_pantheon
 		secondary_religion = old_gods_cult
 		any_owned_province = {
-			religion_group = old_group
+			religion_group = elemental_group
 		}
 		NOT = { has_ruler_modifier = tengri_devout_muslim }
 	}

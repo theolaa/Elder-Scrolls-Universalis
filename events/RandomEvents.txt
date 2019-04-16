@@ -9818,7 +9818,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		owns = 385 # Mecca
+		owns = 373
 		NOT = {
 			has_country_modifier = mecca_timer
 		}

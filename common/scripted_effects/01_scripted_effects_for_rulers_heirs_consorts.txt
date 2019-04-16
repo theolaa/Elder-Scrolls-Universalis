@@ -68,7 +68,7 @@ divorce_consort_effect = {
 
 	#Set aside first wife and select another
 	if = {
-		limit = { NOT = { religion_group = chimer_group } }
+		limit = { NOT = { religion_group = occult_group } }
 
 		custom_tooltip = divorce.a.tt
 

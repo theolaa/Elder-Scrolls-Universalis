@@ -59,7 +59,7 @@ technology = {
 	# Tech 5
 	year = 120
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -96,7 +96,7 @@ technology = {
 	# Tech 10
 	year = 270
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -136,7 +136,7 @@ technology = {
 	# Tech 15
 	year = 400
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -174,7 +174,7 @@ technology = {
 	# Tech 20
 	year = 525
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -215,7 +215,7 @@ technology = {
 	# Tech 25
 	year = 650
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -251,7 +251,7 @@ technology = {
 	# Tech 30
 	year = 775
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 	mint = yes
 }
@@ -291,7 +291,7 @@ technology = {
 	# Tech 35
 	year = 900
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -329,7 +329,7 @@ technology = {
 	# Tech 40
 	year = 1025
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -369,7 +369,7 @@ technology = {
 	# Tech 45
 	year = 1150
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -407,7 +407,7 @@ technology = {
 	# Tech 50
 	year = 1275
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -448,7 +448,7 @@ technology = {
 	# Tech 55
 	year = 1400
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -484,7 +484,7 @@ technology = {
 	# Tech 60
 	year = 1525
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 	university = yes
 }
@@ -524,7 +524,7 @@ technology = {
 	# Tech 65
 	year = 1650
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -562,7 +562,7 @@ technology = {
 	# Tech 70
 	year = 1775
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -602,7 +602,7 @@ technology = {
 	# Tech 75
 	year = 1900
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -640,7 +640,7 @@ technology = {
 	# Tech 80
 	year = 2025
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -679,7 +679,7 @@ technology = {
 	# Tech 85
 	year = 2150
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -715,7 +715,7 @@ technology = {
 	# Tech 90
 	year = 2275
 
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 
@@ -754,7 +754,7 @@ technology = {
 	# Tech 95
 	year = 2400
 	
-	administrative_efficiency = 0.05
+	administrative_efficiency = 0.025
 	
 }
 

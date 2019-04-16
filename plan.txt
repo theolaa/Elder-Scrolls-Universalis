@@ -99,75 +99,19 @@ Dynasties:
 - Skyrim
 - Alessian
 - Direnii
+- Order
+- Kvatch
 
++ advisor portraits
 + ages - localization and pictures
++ leaders update
 + ranks names
-+ vampire heirs
-+ culture appearance events
-	
-1E 358Edit
-The Direnni Hegemony occurs, during which Skyrim loses significant amounts of land to the Direnni.[11]
-1E 361Edit
-Ayleid lordships are outlawed.[24]
-Little resistance to this, and so most Ayleids simply left Cyrodiil, and many are absorbed into the native population of Elves in Valenwood.[24]
++ random events - dragon sanctuary
++ culture/religion appearing system
 
-1E 369Edit
-The Wild Hunt takes place, and King Borgas of Winterhold is killed.[2][9][14][29]
-War of Succession begins.[2][9][29][11]
-Skyrim begins to lose its holdings in High Rock and Morrowind.[9]
-1E 376Edit
-The traditional rule of Yokuda's emperors is overthrown. Each successive emperor, though they maintained the status of figurehead of the empire, had their powers very much reduced. Since then, 300 years of almost continuous civil war ensues between the Yokeda warlords, warrior monks and brigands, all fighting each other for land and power.[30]
-1E 393Edit
-The Holy Brothers of Marukh are lead by Abbott Cosmas to Malada, with the intent of cleansing it.[27][31][32]
-5th CenturyEdit
-1E 401Edit
-Skyrim loses its foreign territory during the War of Succession.[11]
-1E 415Edit
-End of the Skyrim Conquests.[18]
++++ HIGH ROCK - 12 Divines, Nibenay valley, King Thagore elections, fall of direnii flag
 
-1E 416Edit
-Indoril Nerevar and Dumac Dwarfking form an official alliance to together protect Resdayn against the Nordic Invasion.[3][20][33][34]
-1E 420Edit
-Olaf One-Eye becomes High King of Skyrim after defeating Numinex.[35][14][36]
-The Pact of Chieftains is signed formally.[14][37][38][39]
-Rourken Clan of Dwemer arrives in Hammerfell, arriving in the "Deathlands."[40][39]
-Dwemer establish Volenfell as their capital.[40][39]
-1E 448Edit
-Rislav Larich, the future King of Skingrad, is born to King Mhorus.[28]
-Queen Lynada, Rislav's mother, dies shortly after giving birth to her son.[28]
-1E 452Edit
-End of Olaf One-Eye's 32-year reign.[36][note 1]
-1E 461Edit
-Rislav Larich is mentioned as part of the rolls of honor for the coronation of Emperor Gorieus.[28]
-1E 472Edit
-The formerly warring Kingdoms of Skingrad and Kvatch declare peace.[28]
-It can be presumed that the children, Rislav and Belene, daughter of King Justinius of Kvatch were married here to make peace.[28]
-1E 477Edit
-Clan Direnni gains control of significant portions of Hammerfell and Skyrim.[11]
-1E 478Edit
-Battle of Sungard: The High Chieftain of Skyrim (Kjoric the White) is killed by Emperor Gorieus.[28]
-Rislav Larich is known to be in Kvatch, with Belene.[28]
-A great plague sweeps through Cyrodiil, wiping out King Mhorus and the rest of the Larich family, excepting Dorald, who had survived, as he was in Imperial City, as a priest of Marukh.[28]
-Dorald returns home and assumes the throne of King of Skingrad.[28]
-Dorald cedes the kingdom of Skingrad to the Empire, as he had been taught by the Alessian monks of Marukh that "to resist the Empire was to resist the Gods."[28]
-Rislav Larich rides from Kvatch with his wife and two dozen of the King of Kvatch's cavalry, they arrive at Skingrad and easily defeat the city's guards, as they hated the new ruler. He kills Dorald, and is crowned King of Skingrad.[28]
-Rislav Larich vows to fight Emperor Gorieus, despite having little experience at either warfare or kingship. When Gorieus arrives, he tells him that his force is "too large for Skingrad" and to "Next time, write before you come."[28]
-Rislav defeats the army of the Emperor, using archers to pick off an army that has no choice but to follow him.[28]
-The Direnni clan is inspired by these events and starts making plans to rebel.[28]
-1E 479Edit
-Ryain Direnni outlaws the Alessian Reform.[28]
-1E 480Edit
-Aiden Direnni wins many battles against the Alessians.[2][41]
-1E 482Edit
-Raven Direnni secures final victory of the reformists at Glenumbria Moors.[2][19]
-"The Last King of the Ayleids" joins the battle at Glenumbria Moors, on the side of the Direnni Clan.[24] Nenalata is a possible resting place for this final Ayleid king, although this is uncertain.[2][24]
-1E 498Edit
-End of the "Late Ayleid Period," as the Alessian Order gains power and influence while the Elves of High Rock lose it.[24][19]
-The Direnni Clan falls out of power.[11]
-6th CenturyEdit
-1E 500Edit
-A song is made about Wulfharth of Atmora. Following the death of King Hoag Merkiller of the Alessian armies at Glenumbria Moors, Wulfharth is made King following the Pact of Chieftains.[38][42]
-High Rock is freed from Aldmeri tyranny around this time.[19]
+The Coral Kingdom:
 7th CenturyEdit
 1E 609Edit
 King Thagore of Daggerfall defeats the army of Glenpoint.[2]
@@ -175,6 +119,7 @@ Daggerfall becomes "the preeminent economic, cultural, and military force in sou
 Mansel Sesnit becomes prominent in Redguard society.[30]
 1E 617Edit
 Mansel Sesnit is assassinated, and a commoner takes over the government. Randic Torn continues Sesnit's work, solidifying much of the Empire.[30]
+
 1E 660Edit
 Mauloch is defeated at the Battle of Dragon Wall at this time, and legend credits the eruption of Red Mountain eight years later to his ensuing rage.[43][20]
 1E 668Edit
@@ -183,6 +128,7 @@ Red Mountain erupts, and the Sun's Death occurs.[20]
 It is supposed that the "Sun's Death" event greatly affected the Nirnroot plant species.[45]
 1E 675Edit
 The events of Poison Song take place in Gorne.[46]
+
 8th CenturyEdit
 1E 700Edit
 A Dragon Break occurs; as such, no account of what transpires at Red Mountain in this year is necessarily any more accurate than any other.[47]
@@ -205,6 +151,7 @@ Divad Hunding enters the Hall of the Virtues of War and begins his training ther
 Divad Hunding leaves the Hall of the Virtues of War in anger, breaks his swords, and vows to "become an acrobat in a traveling circus."[51]
 1E 780Edit
 Frandar Hunding, retired and living as a hermit in Mount Hattu, writes the Book of Circles, a book for Sword-Singers to emulate his fighting style.[30]
+
 1E 792Edit
 The Hiradirge, a rebel Ansei group, destroy Yokuda, sinking it beneath the waves.[52]
 9th CenturyEdit
@@ -428,3 +375,80 @@ Old Mournhold is destroyed by Mehrunes Dagon.[91]
 #57) Health Policy - manpower_recovery_speed = 0.96
 #58) Pensions Policy - army_tradition_decay = -0.21
 #59) Unemployment Policy - development_cost = -0.56
+
+    Pantheons Group: local_missionary_strength = -0.015
+	altmeri_pantheon unjustified_demands = 0.10
+	snow_elves_pantheon global_regiment_recruit_speed = 0.10
+	nordic_pantheon land_maintenance_modifier = 0.10
+	bosmer_pantheon sailor_maintenance_modifer = 0.10
+	eight_divines reinforce_speed = -0.10
+	nine_divines global_spy_defence = -0.10
+	twelve_divines spy_offence = -0.10
+	khajiiti_pantheon naval_forcelimit_modifier = -0.10
+	yokudan_pantheon naval_maintenance_modifier = 0.10
+	redguard_pantheon possible_mercenaries = -0.10
+	malacath_cult stability_cost_modifier = 0.10
+	kothri_pantheon fabricate_claims_cost = 0.10
+	
+	Cults Group: local_missionary_strength = -0.025
+	dragon_cult ae_impact = 0.10
+	marukhism global_unrest = 1
+	serpant_king global_regiment_cost = 0.10
+	chimer_pantheon garrison_size = -0.10
+	tribunal_pantheon tolerance_heathen = -1
+	reclamations_pantheon tolerance_heretic = -1
+	reason_and_logic_cult culture_conversion_cost = 0.10
+	
+	Nature Group: local_missionary_strength = -0.010
+	hist core_creation = 0.10
+	sload_faith state_maintenance_modifier = 0.10
+	tsaesci_pantheon vassal_income = -0.10
+	old_gods_cult fort_maintenance_modifier = 0.10
+	tang_mo_pantheon harsh_treatment_cost = 0.10
+	kamal_pantheon claim_duration = -0.10
+	
+	Immortals Group: local_missionary_strength = -0.015
+	dremora_pantheon reduced_liberty_desire = -10
+	molog_bal_cult years_of_nationalism = 10
+	meridia_cult diplomatic_annexation_cost = 0.10
+	mehrunes_dagon_cult improve_relation_modifier = -0.10
+	hermeus_mora_cult embracement_cost = 0.10
+
+	Harmony Group: local_missionary_strength = -0.005
+	po_tun_pantheon idea_cost = 0.10
+	
+	altmeri_pantheon
+	snow_elves_pantheon
+	nordic_pantheon
+	bosmer_pantheon
+	eight_divines
+	nine_divines
+	twelve_divines
+	khajiiti_pantheon
+	yokudan_pantheon
+	redguard_pantheon
+	malacath_cult
+	kothri_pantheon
+	
+	chimer_pantheon
+	tribunal_pantheon
+	reclamations_pantheon
+	serpant_king
+	dragon_cult
+	marukhism
+	reason_and_logic_cult
+	
+	hist
+	sload_faith
+	old_gods_cult
+	tsaesci_pantheon
+	tang_mo_pantheon 
+	kamal_pantheon
+	
+	molog_bal_cult
+	meridia_cult
+	mehrunes_dagon_cult
+	hermeus_mora_cult
+	dremora_pantheon
+	
+	po_tun_pantheon

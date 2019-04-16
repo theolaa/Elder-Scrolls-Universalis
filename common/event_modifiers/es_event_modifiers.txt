@@ -124,107 +124,22 @@ crisis_time = {
 rise_time = {
 }
 
-harmonized_ancient_group = {
+harmonized_polytheistic_group = {
    religious_unity = 0.10
    religion = yes
 }
 
-harmonized_northern_group = {
-   land_forcelimit_modifier  = 0.10
-   religion = yes
-}
-
-harmonized_bosmer_group = {
-   land_attrition = -0.10
-   religion = yes
-}
-
-harmonized_divines_group = {
-   diplomatic_reputation = 1
-   religion = yes
-}
-
-harmonized_khajiiti_group = {
-   recover_army_morale_speed = 0.10
-   religion = yes
-}
-
-harmonized_yokudan_group = {
-   trade_efficiency = 0.10
-   religion = yes
-}
-
-harmonized_orcish_group = {
-   army_tradition_decay = -0.10
-   religion = yes
-}
-
-harmonized_kothri_group = {
-   global_trade_power = 0.10
-   religion = yes
-}
-
-harmonized_chimer_group = {
+harmonized_occult_group = {
    global_missionary_strength = 0.01
    religion = yes
 }
 
-harmonized_sload_group = {
-   advisor_pool = 1
-   religion = yes
-}
-
-harmonized_serpant_group = {
-   land_morale = 0.10
-   religion = yes
-}
-
-harmonized_marukhism_group = {
-   culture_conversion_cost = -0.10
-   religion = yes
-}
-
-harmonized_dragon_group = {
-   tolerance_own = 1
-   religion = yes
-}
-
-harmonized_hist_group = {
-   development_cost = -0.1
-   religion = yes
-}
-
-harmonized_reason_and_logic_group = {
+harmonized_elemental_group = {
    defensiveness = 0.10
    religion = yes
 }
 
-harmonized_old_group = {
-   advisor_cost = -0.1
-   religion = yes
-}
-
-harmonized_tsaesci_group = {
-   global_unrest = -1
-   religion = yes
-}
-
-harmonized_tang_mo_group = {
-   stability_cost_modifier = -0.10
-   religion = yes
-}
-
-harmonized_kamal_group = {
-   global_autonomy = -0.05
-   religion = yes
-}
-
-harmonized_dremora_group = {
-   global_regiment_cost = -0.10
-   religion = yes
-}
-
-harmonized_daedra_group = {
+harmonized_daedric_group_1 = {
    free_leader_pool = 1
    religion = yes
 }

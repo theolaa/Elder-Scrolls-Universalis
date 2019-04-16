@@ -1454,7 +1454,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion_group = old_group
+				religion = old_gods_cult
 			}
 			add_piety = -0.10
 		}
@@ -1534,7 +1534,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				religion_group = old_group
+				religion = old_gods_cult
 			}
 			add_piety = -0.10
 		}

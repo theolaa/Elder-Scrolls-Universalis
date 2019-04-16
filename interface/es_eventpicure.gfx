@@ -324,4 +324,124 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	spriteType = {
+		name = "ES_AEDRIC_TEMPLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_AEDRIC_TEMPLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DRAGON_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DRAGON_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_CITY_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_CITY_1_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_EMPEROR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_EMPEROR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_04_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_04_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_05_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_05_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_06_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_06_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_07_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_07eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_08_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_08_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "SCQ_VILLAGES_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/SCQ_VILLAGES_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ELVEN_WARRIOR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ELVEN_WARRIOR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ELVEN_VILLAGE2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ELVEN_VILLAGE2_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_COLOVIA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_COLOVIA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "BATTLE_4_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/BATTLE_4_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BRUMA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BRUMA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SKINGRAD_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SKINGRAD_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_REVOLT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_REVOLT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_MAUSOLEUM_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MAUSOLEUM_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_THRONEROOM_3_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_THRONEROOM_3_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_12RELIGION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_12RELIGION_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
 }

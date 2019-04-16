@@ -149,61 +149,82 @@ vassal = {
 	first = CHI
 	second = MA8
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MA9
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB0
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB2
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB3
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB4
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB5
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB6
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
 }
 
 vassal = {
 	first = CHI
 	second = MB7
 	start_date = 369.1.1
-	end_date = 9999.1.1
+	end_date = 420.1.1
+}
+
+vassal = {
+	first = UNI
+	second = MB5
+	start_date = 420.1.1
+	end_date = 700.1.1
+}
+
+vassal = {
+	first = UNI
+	second = MB6
+	start_date = 420.1.1
+	end_date = 700.1.1
+}
+
+vassal = {
+	first = UNI
+	second = MB7
+	start_date = 420.1.1
+	end_date = 700.1.1
 }

@@ -63,7 +63,7 @@ technology = {
 	enable = C01
 	enable = C02
 	
-	barracks = yes
+	fort_15th = yes
 }
 
 technology = {
@@ -100,7 +100,7 @@ technology = {
 
 	land_morale 	= 	0.25
 	
-	fort_15th = yes
+	barracks = yes
 }
 
 #######################################################################

@@ -13,3 +13,11 @@ is_city = yes
 discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg discovered_by = orsimer_tg
 
 center_of_trade = 1
+
+548.1.1 = {
+	owner = DIR
+	controller = DIR
+	add_core = DIR
+	religion = altmeri_pantheon
+	culture = altmer
+}

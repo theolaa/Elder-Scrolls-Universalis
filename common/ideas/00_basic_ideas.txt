@@ -1569,7 +1569,7 @@ early_religious_ideas = {
 	}
 
 	early_tolerance = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	converting = {
 		missionaries = 1

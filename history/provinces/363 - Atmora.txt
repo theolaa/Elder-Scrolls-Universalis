@@ -8,7 +8,7 @@ base_tax = 3
 base_production = 3
 trade_goods = unknown
 base_manpower = 3
-capital = "SNaugrheim"
+capital = "Naugrheim"
 is_city = yes
 discovered_by = atmora_tg
 

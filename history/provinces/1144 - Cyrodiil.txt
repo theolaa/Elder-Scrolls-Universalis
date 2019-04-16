@@ -22,6 +22,10 @@ fort_15th = yes
 	add_core = AYL
 }
 
+242.1.1 = {
+    add_core = ALE
+}
+
 266.1.1 = {
 	owner = ALE culture = nedic
 	controller = ALE
@@ -34,4 +38,16 @@ fort_15th = yes
 	controller = ORD
 	add_core = ORD
 	religion = marukhism
+}
+
+478.1.1 = {
+	owner = CA7
+	controller = CA7
+	add_core = CA7
+}
+
+548.1.1 = {
+	owner = ORD
+	controller = ORD
+	add_core = ORD
 }

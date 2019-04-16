@@ -16,7 +16,6 @@ capital = 1344
 		dip = 5
 		mil = 7
 	}
-	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
 }
 
@@ -26,12 +25,12 @@ capital = 1344
         dynasty = "Volhkihar"
 		culture = vampire
 		birth_date = 294.1.1
+		death_date = 9999.1.1
 		claim = 100
 		adm = 5
 		dip = 7
 		mil = 3
 	}
-	clear_scripted_personalities = yes
 	add_heir_personality = immortal_personality
 }
 
@@ -41,10 +40,10 @@ capital = 1344
         dynasty = "Volhkihar"
 		culture = vampire
 		birth_date = 273.1.1
+		death_date = 9999.1.1
 		adm = 7
 		dip = 3
 		mil = 5
 	}
-	clear_scripted_personalities = yes
 	add_queen_personality = immortal_personality
 }

@@ -19,3 +19,9 @@ fort_15th = yes
 	controller = REA
 	add_core = REA
 }
+
+478.1.1 = {
+	owner = SKY
+	controller = SKY
+	add_core = SKY
+}

@@ -1,0 +1,510 @@
+namespace = es_12_scenario
+
+country_event = {
+	id = es_12_scenario.1
+	title = es_12_scenario.1.t
+	desc = es_12_scenario.1.d
+	picture = ES_DRAGON_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		owns = 1319
+    }
+
+	mean_time_to_happen = {
+		days = 21170
+	}
+
+	option = {
+		name = "es_12_scenario.1.a"
+		ai_chance = { factor = 50 }
+		random_list = {
+		75 = {
+		add_prestige = 25
+		}
+		25 = {
+		kill_ruler = yes
+		}
+		}
+	}
+	option = {
+		name = "es_12_scenario.1.b"
+		ai_chance = { factor = 50 }
+		random_list = {
+		50 = {
+		define_general = {
+		name = "Dovahkiin"
+        shock = 5
+        fire = 5
+        manuever = 5
+        siege = 5
+        }
+		add_prestige = -25
+		}
+		50 = {
+		add_stability = -1
+		}
+		}
+	}
+}
+
+country_event = {
+	id = es_12_scenario.2
+	title = es_12_scenario.2.t
+	desc = es_12_scenario.2.d
+	picture = ES_MOOT_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = northern_cg
+		owns = 1342
+		owns = 1275
+		has_dlc = "Dharma"
+		government = monarchy
+		NOT = { has_reform = elective_monarchy }
+    }
+
+	mean_time_to_happen = {
+		days = 21170
+	}
+
+	option = {
+		name = "es_12_scenario.2.a"
+		ai_chance = { factor = 50 }
+		add_government_reform = elective_monarchy
+		add_stability = 1
+	}
+	option = {
+		name = "es_12_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		add_legitimacy = -35
+	}
+}
+
+country_event = {
+	id = es_12_scenario.3
+	title = es_12_scenario.3.t
+	desc = es_12_scenario.3.d
+	picture = ES_CITY_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		any_owned_province = {
+		area = cyrodiil_6_la
+		}
+		NOT = { exists = CE6 }
+    }
+
+	mean_time_to_happen = {
+		days = 21170
+	}
+
+	option = {
+		name = "es_12_scenario.3.a"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = cyrodiil_6_la
+		}
+		add_core = CE6
+		add_province_modifier = {
+		name = "12_local_unrest"
+		duration = 9125
+		}
+		}
+	}
+	option = {
+		name = "es_12_scenario.3.b"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = cyrodiil_6_la
+		}
+		add_core = CE6
+		cede_province = CE6
+		}
+		create_subject = {
+        subject_type = vassal
+        subject = CE6
+        }
+	}
+}
+
+country_event = {
+	id = es_12_scenario.4
+	title = es_12_scenario.4.t
+	desc = es_12_scenario.4.d
+	picture = ES_CITY_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		any_owned_province = {
+		area = cyrodiil_7_la
+		}
+		NOT = { exists = CA7 }
+    }
+
+	mean_time_to_happen = {
+		days = 21170
+	}
+
+	option = {
+		name = "es_12_scenario.4.a"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = cyrodiil_7_la
+		}
+		add_core = CA7
+		add_province_modifier = {
+		name = "12_local_unrest"
+		duration = 9125
+		}
+		}
+	}
+	option = {
+		name = "es_12_scenario.4.b"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = cyrodiil_7_la
+		}
+		add_core = CA7
+		cede_province = CA7
+		}
+		create_subject = {
+        subject_type = vassal
+        subject = CA7
+        }
+	}
+}
+
+country_event = {
+	id = es_12_scenario.5
+	title = es_12_scenario.5.t
+	desc = es_12_scenario.5.d
+	picture = ES_EMPEROR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = cyrodiil_cg
+		owns = 1206
+		NOT = { government = monarchy }
+    }
+
+	mean_time_to_happen = {
+		days = 21170
+	}
+
+	option = {
+		name = "es_12_scenario.5.a"
+		ai_chance = { factor = 50 }
+		change_government = monarchy
+		define_ruler = {
+		name = "Gorieus"
+        dynasty = "Alessian"
+        adm = 3
+        dip = 5
+        mil = 4
+        age = 35
+        claim = 100
+		}
+	}
+	option = {
+		name = "es_12_scenario.5.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+	}
+}
+
+country_event = {
+	id = es_12_scenario.6
+	title = es_12_scenario.6.t
+	desc = es_12_scenario.6.d
+	picture = ES_GENOCIDE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = high_elves_cg
+		owns = 1379
+    }
+
+	mean_time_to_happen = {
+		days = 18250		
+	}
+
+	option = {
+		name = "es_12_scenario.6.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = western_skyrim_lr
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_12_scenario.6.b"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = hammerfell_lr
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_12_scenario.6.c"
+		ai_chance = { factor = 50 }
+		add_prestige = -10
+	}
+}
+
+country_event = {
+	id = es_12_scenario.7
+	title = es_12_scenario.7.t
+	desc = es_12_scenario.7.d
+	picture = BATTLE_3_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = northern_cg
+		owns = 1277
+    }
+
+	mean_time_to_happen = {
+		days = 18250		
+	}
+
+	option = {
+		name = "es_12_scenario.7.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		OR = {
+		area = skyrim_7_la
+		area = skyrim_14_la
+		area = skyrim_19_la
+		}
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_12_scenario.7.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -10
+	}
+}
+
+country_event = {
+	id = es_12_scenario.8
+	title = es_8_scenario.4.t
+	desc = es_8_scenario.4.d
+	picture = ES_BANK_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = high_elves_cg
+		owns = 1474
+    }
+
+	mean_time_to_happen = {
+		days = 18250
+	}
+
+	option = {
+		name = "es_8_scenario.4.a"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "08_give_autonomy"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_8_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "08_refuse_autonomy"
+		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_12_scenario.9
+	title = es_12_scenario.9.t
+	desc = es_12_scenario.9.d
+	picture = ES_DWEMERS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		owns = 1476
+    }
+
+	mean_time_to_happen = {
+		days = 18250
+	}
+
+	option = {
+		name = "es_12_scenario.9.a"
+		ai_chance = { factor = 33 }
+		trigger = {
+		ai = no
+		}
+		change_tag = ROU
+		set_capital = 1476
+		change_religion = reason_and_logic_cult
+		change_primary_culture = dwemer
+	}
+	option = {
+		name = "es_12_scenario.9.a"
+		ai_chance = { factor = 33 }
+		trigger = {
+		ai = yes
+		capital_scope = { region = hammerfell_lr}
+		}
+		change_tag = ROU
+		set_capital = 1474
+		change_religion = reason_and_logic_cult
+		change_primary_culture = dwemer
+	}
+	option = {
+		name = "es_12_scenario.9.a"
+		ai_chance = { factor = 33 }
+		every_owned_province = {
+		limit = {
+		area = hammerfell_8_la
+		}
+		cede_province = ROU
+		add_core = ROU
+		change_religion = reason_and_logic_cult
+		change_culture = dwemer
+		}
+	}
+	option = {
+		name = "es_12_scenario.9.b"
+		ai_chance = { factor = 33 }
+		every_owned_province = {
+		limit = {
+		area = hammerfell_8_la
+		}
+		add_province_modifier = {
+		name = "12_local_unrest"
+		duration = 9125
+		}
+		add_core = ROU
+		change_religion = reason_and_logic_cult
+		change_culture = dwemer
+		}
+	}
+}
+
+country_event = {
+	id = es_12_scenario.10
+	title = es_4_scenario.2.t
+	desc = es_4_scenario.2.d
+	picture = ES_WAR_IS_NEAR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+	    culture_group = half_blood_cg
+		is_year = 420
+		NOT = { is_year = 478 }
+		owns = 1355
+    }
+
+	mean_time_to_happen = {
+		days = 18250		
+	}
+
+	option = {
+		name = "es_4_scenario.2.a"
+		ai_chance = { factor = 50 }
+		define_general = {
+        shock = 5
+        fire = 5
+        manuever = 5
+        siege = 5
+        }
+	}
+	option = {
+		name = "es_4_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+		name = "04_last_stand_defence"
+		duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_12_scenario.11
+	title = es_12_scenario.11.t
+	desc = es_12_scenario.11.d
+	picture = GE_HRE_CRUSADE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 420
+		NOT = { is_year = 478 }
+		culture_group = cyrodiil_cg
+		owns = 1206
+    }
+
+	mean_time_to_happen = {
+		days = 18250
+	}
+
+	option = {
+		name = "es_12_scenario.11.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		OR = {
+		area = cyrodiil_12_la
+        area = cyrodiil_13_la
+        area = cyrodiil_14_la
+        area = cyrodiil_15_la
+		}
+		NOT = { owned_by = ROOT }
+		}
+		add_core = ROOT
+		}
+	}
+	option = {
+		name = "es_12_scenario.11.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -10
+	}
+}

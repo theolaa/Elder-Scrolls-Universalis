@@ -19,3 +19,9 @@ center_of_trade = 1
 	controller = CHI
 	add_core = CHI
 }
+
+420.1.1 = {
+	owner = UNI
+	controller = UNI
+	add_core = UNI
+}

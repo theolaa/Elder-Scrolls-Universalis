@@ -82,6 +82,8 @@ country_event = {
 		MIL = 4	
 		claim = 80
 		}
+		
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
 	option = {
 		name = "es_10_scenario.2.b"
@@ -117,6 +119,8 @@ country_event = {
 		change_government = theocracy
 		release_all_subjects = yes
 		set_global_flag = marukhism_flag
+		
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
 	option = {
 		name = "es_10_scenario.3.b"

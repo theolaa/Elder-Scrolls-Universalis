@@ -2440,7 +2440,7 @@ country_event = {
 	option = {
 		name = ideagroups.604.b
 		trigger = {
-			religion_group = old_group
+			religion = old_gods_cult
 		}
 		add_piety = 0.5
 	}

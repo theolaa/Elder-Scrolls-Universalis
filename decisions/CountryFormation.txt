@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = PYA }
 			primary_culture = maorner
+			NOT = { has_country_flag = formed_pya_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 224		
@@ -25,6 +26,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PYA
+			set_country_flag = formed_pya_flag
 			#
 			if = {
 				limit = {
@@ -50,6 +52,7 @@ country_decisions = {
 			NOT = { exists = SUM }
 			NOT = { tag = DIR }
 			primary_culture = altmer
+			NOT = { has_country_flag = formed_sum_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 271		
@@ -70,6 +73,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SUM
+			set_country_flag = formed_sum_flag
 			#
 			if = {
 				limit = {
@@ -94,6 +98,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = YOK }
 			primary_culture = yokudan
+			NOT = { has_country_flag = formed_yok_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 335		
@@ -114,6 +119,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = YOK
+			set_country_flag = formed_yok_flag
 			#
 			if = {
 				limit = {
@@ -138,6 +144,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = THR }
 			primary_culture = sload
+			NOT = { has_country_flag = formed_thr_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 320		
@@ -155,6 +162,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = THR
+			set_country_flag = formed_thr_flag
 			#
 			if = {
 				limit = {
@@ -180,6 +188,7 @@ country_decisions = {
 			NOT = { exists = SKY }
 			NOT = { tag = OLD }
 			primary_culture = nord
+			NOT = { has_country_flag = formed_sky_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1342		
@@ -199,6 +208,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SKY
+			set_country_flag = formed_sky_flag
 			#
 			if = {
 				limit = {
@@ -225,6 +235,7 @@ country_decisions = {
 			NOT = { exists = SKY }
 			NOT = { exists = OLD }
 			primary_culture = nord
+			NOT = { has_country_flag = formed_wsk_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1342		
@@ -244,6 +255,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = WSK
+			set_country_flag = formed_wsk_flag
 			#
 			if = {
 				limit = {
@@ -270,6 +282,7 @@ country_decisions = {
 			NOT = { exists = SKY }
 			NOT = { exists = OLD }
 			primary_culture = nord
+			NOT = { has_country_flag = formed_esk_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1275		
@@ -289,6 +302,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ESK
+			set_country_flag = formed_esk_flag
 			#
 			if = {
 				limit = {
@@ -313,6 +327,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = OLD }
 			primary_culture = nord
+			NOT = { has_country_flag = formed_old_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1342		
@@ -332,6 +347,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = OLD
+			set_country_flag = formed_old_flag
 			#
 			if = {
 				limit = {
@@ -356,6 +372,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = VOL }
 			primary_culture = vampire
+			NOT = { has_country_flag = formed_vol_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1344		
@@ -375,6 +392,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = VOL
+			set_country_flag = formed_vol_flag
 			#
 			if = {
 				limit = {
@@ -399,6 +417,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = WIN }
 			primary_culture = snow_elven
+			NOT = { has_country_flag = formed_win_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1313		
@@ -418,6 +437,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = WIN
+			set_country_flag = formed_win_flag
 			#
 			if = {
 				limit = {
@@ -442,6 +462,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = REA }
 			primary_culture = reachmen
+			NOT = { has_country_flag = formed_rea_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1355		
@@ -461,6 +482,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = REA
+			set_country_flag = formed_rea_flag
 			#
 			if = {
 				limit = {
@@ -489,6 +511,7 @@ country_decisions = {
 			NOT = { tag = HEA }
 			NOT = { tag = TAM }
 			primary_culture = colovian
+			NOT = { has_country_flag = formed_col_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1161		
@@ -508,6 +531,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = COL
+			set_country_flag = formed_col_flag
 			#
 			if = {
 				limit = {
@@ -536,6 +560,7 @@ country_decisions = {
 			NOT = { tag = COL }
 			NOT = { tag = TAM }
 			primary_culture = imperial
+			NOT = { has_country_flag = formed_hea_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -555,6 +580,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HEA
+			set_country_flag = formed_hea_flag
 			#
 			if = {
 				limit = {
@@ -583,6 +609,7 @@ country_decisions = {
 			NOT = { tag = HEA }
 			NOT = { tag = TAM }
 			primary_culture = nibenean
+			NOT = { has_country_flag = formed_nib_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1120		
@@ -602,6 +629,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = NIB
+			set_country_flag = formed_nib_flag
 			#
 			if = {
 				limit = {
@@ -627,6 +655,7 @@ country_decisions = {
 			NOT = { exists = AYL }
 			NOT = { tag = HAM }
 			primary_culture = ayleid
+			NOT = { has_country_flag = formed_ayl_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -646,6 +675,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AYL
+			set_country_flag = formed_ayl_flag
 			#
 			if = {
 				limit = {
@@ -671,6 +701,7 @@ country_decisions = {
 			NOT = { exists = CYR }
 			NOT = { tag = TAM }
 			primary_culture = imperial
+			NOT = { has_country_flag = formed_cyr_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -690,6 +721,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = CYR
+			set_country_flag = formed_cyr_flag
 			#
 			if = {
 				limit = {
@@ -719,6 +751,7 @@ country_decisions = {
 			primary_culture = nibenean
 			primary_culture = vampire
 			}
+			NOT = { has_country_flag = formed_tam_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -738,6 +771,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TAM
+			set_country_flag = formed_tam_flag
 			#
 			if = {
 				limit = {
@@ -763,6 +797,7 @@ country_decisions = {
 			NOT = { exists = ALE }
 			NOT = { government = theocracy }
 			primary_culture = nedic
+			NOT = { has_country_flag = formed_ale_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -782,6 +817,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ALE
+			set_country_flag = formed_ale_flag
+			set_capital = 1206
 			#
 			if = {
 				limit = {
@@ -805,8 +842,9 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = ORD }
-		    government = theocracy
+		    religion = marukhism
 			primary_culture = nedic
+			NOT = { has_country_flag = formed_ord_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1206		
@@ -826,6 +864,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ORD
+			change_government = theocracy
+			set_country_flag = formed_ord_flag
 			#
 			if = {
 				limit = {
@@ -854,6 +894,7 @@ country_decisions = {
 			primary_culture = ayleid
 			primary_culture = redguard
 			}
+			NOT = { has_country_flag = formed_ham_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1510		
@@ -873,6 +914,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HAM
+			set_country_flag = formed_ham_flag
 			#
 			if = {
 				limit = {
@@ -897,6 +939,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = HIG }
 			primary_culture = breton
+			NOT = { has_country_flag = formed_hig_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1369		
@@ -916,6 +959,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = HIG
+			set_country_flag = formed_hig_flag
 			#
 			if = {
 				limit = {
@@ -941,6 +985,7 @@ country_decisions = {
 			NOT = { exists = DIR }
 			NOT = { tag = SUM }
 			primary_culture = altmer
+			NOT = { has_country_flag = formed_dir_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1369		
@@ -960,6 +1005,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DIR
+			set_country_flag = formed_dir_flag
 			#
 			if = {
 				limit = {
@@ -984,6 +1030,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = ORS }
 			primary_culture = orsimer
+			NOT = { has_country_flag = formed_ors_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1391		
@@ -1003,6 +1050,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ORS
+			set_country_flag = formed_ors_flag
 			#
 			if = {
 				limit = {
@@ -1027,6 +1075,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = ELS }
 			primary_culture = khajiiti
+			NOT = { has_country_flag = formed_els_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 922		
@@ -1046,6 +1095,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ELS
+			set_country_flag = formed_els_flag
 			#
 			if = {
 				limit = {
@@ -1070,6 +1120,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = ANE }
 			primary_culture = anequinan
+			NOT = { has_country_flag = formed_ane_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 889		
@@ -1089,6 +1140,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ANE
+			set_country_flag = formed_ane_flag
 			#
 			if = {
 				limit = {
@@ -1113,6 +1165,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = PEL }
 			primary_culture = pellitinian
+			NOT = { has_country_flag = formed_pel_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 922		
@@ -1132,6 +1185,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PEL
+			set_country_flag = formed_pel_flag
 			#
 			if = {
 				limit = {
@@ -1156,6 +1210,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = VAL }
 			primary_culture = bosmer
+			NOT = { has_country_flag = formed_val_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 820		
@@ -1175,6 +1230,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = VAL
+			set_country_flag = formed_val_flag
 			#
 			if = {
 				limit = {
@@ -1199,6 +1255,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = SOR }
 			primary_culture = wood_orsimer
+			NOT = { has_country_flag = formed_sor_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 815		
@@ -1218,6 +1275,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SOR
+			set_country_flag = formed_sor_flag
 			#
 			if = {
 				limit = {
@@ -1242,6 +1300,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = IMG }
 			primary_culture = imga
+			NOT = { has_country_flag = formed_img_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 820		
@@ -1261,6 +1320,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = IMG
+			set_country_flag = formed_img_flag
 			#
 			if = {
 				limit = {
@@ -1290,6 +1350,7 @@ country_decisions = {
 			primary_culture = agaceph
 			primary_culture = naga
 			}
+			NOT = { has_country_flag = formed_arg_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1075		
@@ -1309,6 +1370,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ARG
+			set_country_flag = formed_img_flag
 			#
 			if = {
 				limit = {
@@ -1332,7 +1394,9 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = CHI }
+			NOT = { tag = UNI }
 			primary_culture = chimer
+			NOT = { has_country_flag = formed_chi_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1002		
@@ -1352,6 +1416,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = CHI
+			set_country_flag = formed_chi_flag
 			#
 			if = {
 				limit = {
@@ -1376,6 +1441,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = DWE }
 			primary_culture = dwemer
+			NOT = { has_country_flag = formed_dwe_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 970		
@@ -1395,6 +1461,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DWE
+			set_country_flag = formed_dwe_flag
 			#
 			if = {
 				limit = {
@@ -1418,7 +1485,9 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = ASH }
+			NOT = { tag = RED }
 			primary_culture = ashlander
+			NOT = { has_country_flag = formed_ash_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1043		
@@ -1438,6 +1507,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ASH
+			set_country_flag = formed_ash_flag
 			#
 			if = {
 				limit = {
@@ -1463,6 +1533,7 @@ country_decisions = {
 			NOT = { exists = ATM }
 			primary_culture = atmoran
 			NOT = { religion = dragon_cult }
+			NOT = { has_country_flag = formed_atm_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 357		
@@ -1482,6 +1553,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ATM
+			set_country_flag = formed_atm_flag
 			#
 			if = {
 				limit = {
@@ -1507,6 +1579,7 @@ country_decisions = {
 			NOT = { exists = DRA }
 			primary_culture = atmoran
 			religion = dragon_cult
+			NOT = { has_country_flag = formed_dra_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 357		
@@ -1526,6 +1599,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DRA
+			set_country_flag = formed_dra_flag
 			#
 			if = {
 				limit = {
@@ -1550,8 +1624,10 @@ country_decisions = {
 		potential = {
 			NOT = { exists = ROS }
 			NOT = { tag = ATM }
+			NOT = { tag = FOR }
 			NOT = { tag = DRA }
 			primary_culture = atmoran
+			NOT = { has_country_flag = formed_ros_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 389		
@@ -1571,6 +1647,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ROS
+			set_country_flag = formed_ros_flag
 			#
 			if = {
 				limit = {
@@ -1595,6 +1672,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = TSA }
 			primary_culture = tsaesci
+			NOT = { has_country_flag = formed_tsa_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 724		
@@ -1614,6 +1692,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TSA
+			set_country_flag = formed_tsa_flag
 			#
 			if = {
 				limit = {
@@ -1639,6 +1718,7 @@ country_decisions = {
 		    NOT = { tag = KAP }
 			NOT = { exists = POT }
 			primary_culture = po_tun
+			NOT = { has_country_flag = formed_pot_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 611		
@@ -1658,6 +1738,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = POT
+			set_country_flag = formed_pot_flag
 			#
 			if = {
 				limit = {
@@ -1684,6 +1765,7 @@ country_decisions = {
 			NOT = { tag = ISL }
 			NOT = { tag = ESR }
 			primary_culture = islander
+			NOT = { has_country_flag = formed_cat_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 407		
@@ -1703,6 +1785,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = CAT
+			set_country_flag = formed_cat_flag
 			#
 			if = {
 				limit = {
@@ -1727,6 +1810,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = TAN }
 			primary_culture = tangmo
+			NOT = { has_country_flag = formed_tan_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 561		
@@ -1746,6 +1830,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TAN
+			set_country_flag = formed_tan_flag
 			#
 			if = {
 				limit = {
@@ -1770,6 +1855,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = AKA }
 			primary_culture = akaviri
+			NOT = { has_country_flag = formed_aka_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 724		
@@ -1789,6 +1875,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AKA
+			set_country_flag = formed_aka_flag
 			#
 			if = {
 				limit = {
@@ -1814,6 +1901,7 @@ country_decisions = {
 			NOT = { exists = UPP }
 			NOT = { tag = AKA }
 			primary_culture = akaviri
+			NOT = { has_country_flag = formed_upp_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 750		
@@ -1833,6 +1921,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = UPP
+			set_country_flag = formed_upp_flag
 			#
 			if = {
 				limit = {
@@ -1858,6 +1947,7 @@ country_decisions = {
 			NOT = { exists = ISL }
 			NOT = { tag = CAT }
 			primary_culture = islander
+			NOT = { has_country_flag = formed_isl_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 800		
@@ -1877,6 +1967,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ISL
+			set_country_flag = formed_isl_flag
 			#
 			if = {
 				limit = {
@@ -1902,6 +1993,7 @@ country_decisions = {
 			NOT = { exists = ESR }
 			NOT = { tag = ISL }
 			primary_culture = islander
+			NOT = { has_country_flag = formed_esr_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1549		
@@ -1921,6 +2013,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ESR
+			set_country_flag = formed_esr_flag
 			#
 			if = {
 				limit = {
@@ -1945,6 +2038,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = RED }
 			owns = 1062
+			NOT = { has_country_flag = formed_red_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1062	
@@ -1956,6 +2050,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = RED
+			set_country_flag = formed_red_flag
 			#
 			if = {
 				limit = {
@@ -1980,6 +2075,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = KAM }
 			primary_culture = kamal
+			NOT = { has_country_flag = formed_kam_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 479		
@@ -1999,6 +2095,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = KAM
+			set_country_flag = formed_kam_flag
 			#
 			if = {
 				limit = {
@@ -2023,6 +2120,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = DRE }
 			primary_culture = dremora
+			NOT = { has_country_flag = formed_dre_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 426		
@@ -2042,6 +2140,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DRE
+			set_country_flag = formed_dre_flag
 			#
 			if = {
 				limit = {
@@ -2066,6 +2165,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = KOT }
 			primary_culture = kothringi
+			NOT = { has_country_flag = formed_kot_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1075		
@@ -2085,6 +2185,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = KOT
+			set_country_flag = formed_kot_flag
 			#
 			if = {
 				limit = {
@@ -2108,8 +2209,11 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = FOR }
+			NOT = { tag = ATM }
+			NOT = { tag = ROS }
 			NOT = { tag = DRA }
 			primary_culture = atmoran
+			NOT = { has_country_flag = formed_for_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 1265
@@ -2121,6 +2225,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = FOR
+			set_country_flag = formed_for_flag
 			#
 			if = {
 				limit = {
@@ -2145,6 +2250,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = SKA }
 			primary_culture = skaal
+			NOT = { has_country_flag = formed_ska_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 949
@@ -2158,6 +2264,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SKA
+			set_country_flag = formed_ska_flag
 			#
 			if = {
 				limit = {
@@ -2182,6 +2289,7 @@ country_decisions = {
 		potential = {
 			NOT = { exists = KAP }
 			primary_culture = po_tun
+			NOT = { has_country_flag = formed_kap_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 646		
@@ -2201,6 +2309,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = POT
+			set_country_flag = formed_kap_flag
 			#
 			if = {
 				limit = {
@@ -2227,6 +2336,7 @@ country_decisions = {
 			NOT = { tag = KAP }
 			NOT = { exists = TRA }
 			primary_culture = po_tun
+			NOT = { has_country_flag = formed_tra_flag }
 		}
 		provinces_to_highlight = {
 			province_id = 636		
@@ -2246,6 +2356,212 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TRA
+			set_country_flag = formed_tra_flag
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rourken_clan_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = DWE }
+			NOT = { exists = ROU }
+			primary_culture = dwemer
+			NOT = { has_country_flag = formed_rou_flag }
+		}
+		provinces_to_highlight = {
+			province_id = 1481		
+			province_id = 1482
+			province_id = 1483
+			province_id = 1484
+			province_id = 1515
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1481		
+			owns_core_province = 1482
+			owns_core_province = 1483
+			owns_core_province = 1484
+			owns_core_province = 1515
+		}
+		effect = {
+			change_tag = ROU
+			set_country_flag = formed_rou_flag
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ca7_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = CA7 }
+			NOT = { tag = COL }
+			NOT = { tag = NIB }
+			NOT = { tag = HEA }
+			NOT = { tag = CYR }
+			NOT = { tag = TAM }
+			NOT = { tag = ORD }
+			NOT = { tag = ALE }
+			NOT = { exists = CA7 }
+			OR = {
+			primary_culture = imperial
+			primary_culture = nedic
+			}
+			NOT = { has_country_flag = formed_ca7_flag }
+		}
+		provinces_to_highlight = {
+			province_id = 1151	
+			province_id = 1150
+			province_id = 1149
+			province_id = 1148
+			province_id = 1147
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1151		
+			owns_core_province = 1150
+			owns_core_province = 1149
+			owns_core_province = 1148
+			owns_core_province = 1147
+		}
+		effect = {
+			change_tag = CA7
+			set_capital = 1150
+			set_country_flag = formed_ca7_flag
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ca6_nation = {
+		major = yes
+		potential = {
+			NOT = { tag = CA7 }
+			NOT = { tag = COL }
+			NOT = { tag = NIB }
+			NOT = { tag = HEA }
+			NOT = { tag = CYR }
+			NOT = { tag = TAM }
+			NOT = { tag = ORD }
+			NOT = { tag = ALE }
+			NOT = { exists = CA6 }
+			OR = {
+			primary_culture = imperial
+			primary_culture = nedic
+			}
+			NOT = { has_country_flag = formed_ca6_flag }
+		}
+		provinces_to_highlight = {
+			province_id = 1146	
+			province_id = 1145
+			province_id = 1144
+			province_id = 1143
+			province_id = 1142
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1146		
+			owns_core_province = 1145
+			owns_core_province = 1144
+			owns_core_province = 1143
+			owns_core_province = 1142
+		}
+		effect = {
+			change_tag = CA6
+			set_capital = 1144
+			set_country_flag = formed_ca6_flag
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	resdayn-dwemeret_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = UNI }
+			primary_culture = chimer
+			NOT = { has_country_flag = formed_chi_flag }
+		}
+		provinces_to_highlight = {
+			province_id = 1002		
+			province_id = 970
+			province_id = 995
+			province_id = 965
+			province_id = 990
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 1002		
+			owns_core_province = 970
+			owns_core_province = 995
+			owns_core_province = 965
+			owns_core_province = 990
+		}
+		effect = {
+			change_tag = UNI
+			set_country_flag = formed_uni_flag
 			#
 			if = {
 				limit = {

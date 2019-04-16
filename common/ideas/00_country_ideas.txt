@@ -1069,7 +1069,7 @@ NED_ideas = {
 		leader_naval_fire = 1
 	}
 	embrace_humanism = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	army_sappers = {
 		siege_ability = 0.10
@@ -1082,7 +1082,7 @@ NED_ideas = {
 TUR_ideas = {
 	start = {
 		discipline = 0.10
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	
 	bonus = {
@@ -1367,7 +1367,7 @@ VIJ_ideas = {
 	}
 	
 	bonus = {
-		possible_mercenaries = 0.25
+		possible_mercenaries = 0.5
 	}
 	
 	trigger = {
@@ -1495,7 +1495,7 @@ BOH_ideas = {
 	free = yes
 	
 	compacta_of_prague = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	boh_elective_monarchy = {
 		legitimacy = 0.25
@@ -1885,7 +1885,7 @@ FRA_ideas = {
 		technology_cost = -0.05
 	}
 	liberty_egalite_fraternity = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 }
 
@@ -2116,5 +2116,128 @@ DNZ_ideas = {
 	}
 	lutheran_change = {
 		global_tax_modifier = 0.10
+	}
+}
+
+BUR_Ideas = {
+	start = {
+		land_morale = 0.15
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = ROU
+	}
+	free = yes
+	
+	golden_fleece = {
+		prestige = 0.25
+	}
+	compagnies_ordonnance = {
+		merc_maintenance_modifier = -0.10
+	}
+	bur_estates_general = {
+		possible_mercenaries = 0.25
+	}
+	reform_of_feudal_army = {
+		discipline = 0.05
+	}
+	integrated_towns = {
+		trade_efficiency = 0.10
+	}
+	freedom_of_worship = {
+		tolerance_heretic = 1
+	}
+	bur_regimental_system = {
+		global_manpower_modifier = 0.10
+	}
+}
+
+SAV_ideas = {
+	start = {
+		diplomatic_upkeep = 1
+		improve_relation_modifier = 0.25
+	}
+	
+	bonus = {
+		global_tax_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = CA7
+	}
+	free = yes
+	
+	repel_the_french = {
+		defensiveness = 0.10
+	}
+	the_shroud_of_turin = {
+		tolerance_own = 1
+	}
+	sav_mercenary_tradition = {
+		merc_maintenance_modifier = -0.10
+	}
+	crush_the_vaudois = {
+		global_missionary_strength = 0.01
+	}
+	savoyard_flexibility = {
+		idea_cost = -0.1
+	}
+	alpine_tolls = {
+   		global_prov_trade_power_modifier = 0.10
+
+	}
+	savoyard_legitimacy = {
+		legitimacy = 0.25
+		republican_tradition = 0.25
+		devotion = 0.25							
+        horde_unity = 0.25
+        meritocracy = 0.25  
+	}
+}
+
+BUL_ideas = {
+	start = {	
+		merchants = 1
+		core_creation = -0.25		
+	}
+	
+	bonus = {
+		infantry_power = 0.15
+	}
+	
+	trigger = {
+		tag = CA6
+	}
+	free = yes
+	
+	bul_idea_1 = {
+		stability_cost_modifier = -0.1
+	}
+	bul_idea_2 = {
+		global_heretic_missionary_strength = 0.01	
+	}
+	bul_idea_3 = {
+ 		global_unrest = -1
+	}
+	bul_idea_4 = {
+		infantry_cost = -0.1
+	}
+	bul_idea_5 = {
+		prestige = 0.25
+	}
+	bul_idea_6 = {
+		land_morale = 0.10
+	}
+	bul_idea_7 = {
+		legitimacy = 0.25
+		republican_tradition = 0.25
+		devotion = 0.25							
+        horde_unity = 0.25
+        meritocracy = 0.25
 	}
 }

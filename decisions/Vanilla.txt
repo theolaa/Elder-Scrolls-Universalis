@@ -289,16 +289,55 @@ country_decisions = {
 		}
 		effect = {
 			1572 = {
-				add_base_tax = 6 
-				add_base_manpower = 3
+				add_base_tax = 5
+				add_base_production = 5
+				add_base_manpower = 5
 				change_culture = capital
 			}
 			set_country_flag = relocated_capital_st_petersburg
 			add_years_of_income = -1
-			add_prestige = 100
+			add_prestige = 25
 			1572 = {
 				move_capital_effect = yes
 			}						
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { years_of_income = 1.25 }
+			}
+		}
+	}
+	
+	make_st_petersburg_capital_2 = {
+		potential = {
+			OR = {
+			tag = ALE
+			tag = ORD
+			tag = HEA
+			}
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			owns = 1206
+			NOT = { capital = 1206 }
+			NOT = { has_country_flag = relocated_capital_st_petersburg_1 }
+		}
+		allow = {
+			is_core = 1206
+			is_at_war = no
+		}
+		effect = {
+
+			set_country_flag = relocated_capital_st_petersburg_1
+			add_years_of_income = -1
+			1206 = {
+				move_capital_effect = yes
+			}						
+			add_prestige = 25
 		}
 		ai_will_do = {
 			factor = 1

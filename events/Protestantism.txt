@@ -14,14 +14,14 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
 		NOT = { has_country_modifier = harbouring_reformer }
 		any_known_country = {
 			num_of_cities = 5
-			NOT = { religion_group = daedric_group }
+			NOT = { religion_group = daedric_group_1 }
 			OR = {
 				has_country_modifier = counter_reformation
 				has_idea_group = religious_ideas
@@ -34,7 +34,7 @@ country_event = {
 		hidden_effect = {
 			random_known_country = {
 				limit = {
-					NOT = { religion_group = daedric_group }
+					NOT = { religion_group = daedric_group_1 }
 					num_of_cities = 5
 					OR = {
 						has_country_modifier = counter_reformation
@@ -51,7 +51,7 @@ country_event = {
 		modifier = {
 			factor = 0.7
 			any_known_country = {
-				NOT = { religion_group = daedric_group }
+				NOT = { religion_group = daedric_group_1 }
 				OR = {
 					has_country_modifier = counter_reformation
 					has_idea_group = religious_ideas
@@ -123,7 +123,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		
 		has_country_modifier = harbouring_reformer
@@ -194,7 +194,7 @@ country_event = {
 	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -242,8 +242,8 @@ province_event = {
 	picture = PROTESTANT_RELIGIOUS_TENSIONS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
-		owner = { religion_group = daedric_group }
+		religion_group = daedric_group_1
+		owner = { religion_group = daedric_group_1 }
 		has_dlc = "Common Sense"
 		is_capital = no
 		NOT = { has_province_modifier = millenarianism }
@@ -327,7 +327,7 @@ country_event = {
 	picture = PROTESTANT_PRINTED_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -406,7 +406,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		church_power = 50
@@ -508,19 +508,19 @@ province_event = {
 	picture = PROTESTANT_RELIGIOUS_TENSIONS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		owner = {
 			NOT = { num_of_aspects = 3 }
 			NOT = { church_power = 200 }
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			num_of_cities = 2
 		}
 		is_capital = no
 		is_reformation_center = no
 		OR = {
-			religion_group = daedric_group
-			NOT = { religion_group = daedric_group }
+			religion_group = daedric_group_1
+			NOT = { religion_group = daedric_group_1 }
 		}
 	}
 	
@@ -606,7 +606,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -687,7 +687,7 @@ country_event = {
 	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		has_regency = no
 		government = monarchy
@@ -727,7 +727,7 @@ country_event = {
 	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		is_lesser_in_union = no
 		has_ruler_flag = personal_catholic_sympathies
@@ -793,7 +793,7 @@ country_event = {
 	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		has_regency = no
 		has_country_flag = catholic_leaning_heir
@@ -908,7 +908,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -979,7 +979,7 @@ country_event = {
 	picture = RELIGION_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1047,12 +1047,12 @@ country_event = {
 	picture = CITY_DEVELOPMENT_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
 		any_known_country = {
-			NOT = { religion_group = daedric_group }
+			NOT = { religion_group = daedric_group_1 }
 			NOT = { has_country_flag = fleeing_protestants }
 		}
 	}
@@ -1081,27 +1081,27 @@ country_event = {
 		hidden_effect = {
 			random_known_country = {
 				limit = {
-					NOT = { religion_group = daedric_group }
+					NOT = { religion_group = daedric_group_1 }
 				}
 				set_country_flag = fleeing_protestants
 			}
 			random_owned_province = {
 				limit = {
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 					NOT = { has_province_flag = protestants_arrived }
 				}
 				set_province_flag = protestants_arrived
 			}
 			random_owned_province = {
 				limit = {
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 					NOT = { has_province_flag = protestants_arrived }
 				}
 				set_province_flag = protestants_arrived
 			}
 			random_owned_province = {
 				limit = {
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 					NOT = { has_province_flag = protestants_arrived }
 				}
 				set_province_flag = protestants_arrived
@@ -1144,7 +1144,7 @@ country_event = {
 		}
 		random_owned_province = {
 			limit = {
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 				NOT = { has_province_flag = protestants_arrived }
 			}
 			add_province_modifier = {
@@ -1212,7 +1212,7 @@ country_event = {
 	picture = PROTESTANT_PRINTED_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1254,7 +1254,7 @@ country_event = {
 	picture = PROTESTANT_RELIGIOUS_DOUBTS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1350,7 +1350,7 @@ country_event = {
 		every_known_country = {
 			limit = {
 				OR = {
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 					marriage_with = ROOT
 				}
 				NOT = { has_ruler_modifier = protestant_bigamy }
@@ -1371,7 +1371,7 @@ country_event = {
 	picture = PROTESTANT_PRINTED_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		always = no #Removed
 		#has_church_aspect = mosaic_law_aspect
@@ -1442,7 +1442,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1510,7 +1510,7 @@ province_event = {
 	picture = PROTESTANT_RELIGIOUS_TENSIONS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { has_province_modifier = local_witch_hunts }
 		NOT = { has_province_modifier = prot_witch_trials }
@@ -1518,7 +1518,7 @@ province_event = {
 		owner = {
 			NOT = { num_of_aspects = 3 }
 			NOT = { church_power = 200 }
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			NOT = { has_country_modifier = nationwide_witch_hunts }
 			NOT = { has_country_modifier = forbade_witch_hunts }
 			OR = {
@@ -1585,7 +1585,7 @@ country_event = {
 	picture = PROTESTANT_PRINTED_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1619,7 +1619,7 @@ country_event = {
 	picture = BIG_BOOK_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { church_power = 200 }
@@ -1629,7 +1629,7 @@ country_event = {
 			NOT = { has_province_flag = parish_register_new }
 			has_siege = no
 			is_city = yes
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 		}
 	}
 	
@@ -1641,7 +1641,7 @@ country_event = {
 					NOT = { has_province_flag = parish_register_new }
 					has_siege = no
 					is_city = yes
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 				}	
 			set_province_flag = parish_register_new
 			}
@@ -1671,7 +1671,7 @@ country_event = {
 	picture = PROTESTANT_GREAT_REFORMER_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
 		NOT = { num_of_aspects = 3 }
@@ -1748,8 +1748,8 @@ province_event = {
 	picture = PROTESTANT_RELIGIOUS_TENSIONS_eventPicture
 	
 	trigger = {
-		religion_group = daedric_group
-		owner = { religion_group = daedric_group }
+		religion_group = daedric_group_1
+		owner = { religion_group = daedric_group_1 }
 		is_capital = no
 		has_dlc = "Common Sense"
 		owner = {
@@ -1795,12 +1795,12 @@ province_event = {
 		NOT = { has_province_modifier = patriot_preacher }
 		NOT = { has_province_modifier = loyalist_preacher }
 		NOT = { has_province_modifier = colonial_religious_tensions }
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		owner = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			is_colonial_nation = yes
 			colonial_parent = {
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 				has_church_aspect = heretics_deported_aspect_1
 			}
 		}
@@ -1848,12 +1848,12 @@ province_event = {
 		has_dlc = "Common Sense"
 		
 		NOT = { has_province_modifier = loyalist_preacher }
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		owner = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 			is_colonial_nation = yes
 			colonial_parent = {
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 				has_church_aspect = heretics_deported_aspect_1
 				NOT = { num_of_aspects = 3 }
 				NOT = { church_power = 200 }
@@ -1949,7 +1949,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		NOT = { num_of_aspects = 3 }
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 		any_owned_province = {
 			has_province_modifier = prot_witch_trials
 			base_tax = 2
@@ -2003,7 +2003,7 @@ country_event = {
 		has_dlc = "Common Sense"
 		has_ruler_flag = heir_catholic
 		has_heir = no
-		religion_group = daedric_group
+		religion_group = daedric_group_1
 	}
 	
 	

@@ -26,6 +26,10 @@ create_transitional_state = {
 		OR = {
 		is_subject_of_type = client_vassal
 		is_subject_of_type = vassal
+		AND = {
+		is_subject_of_type = personal_union
+		total_development = 350
+		}
 		}
 		is_subject_of = ROOT
 		is_lesser_in_union = no
@@ -243,6 +247,7 @@ create_personal_union = {
 	prestige = FROM
 	dynasty = ROOT
 	government = monarchy
+	NOT = { is_subject_of_type = personal_union }
 	}
 	}
 	on_accept = {
@@ -265,6 +270,6 @@ create_personal_union = {
 	}
 
 	ai_will_do = {
-	     always = yes
+	    always = yes
 	}
 }

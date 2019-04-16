@@ -120,6 +120,13 @@ antibankrapucy = {
    culture_conversion_cost = -1.0
 }
 
+07_aedric_blessing = {
+   land_morale = 0.10
+   discipline = 0.05
+   recover_army_morale_speed = 0.05
+   tolerance_heathen = -5
+}
+
 08_ayleid_lords = {
   local_unrest = 5
 }
@@ -232,6 +239,49 @@ antibankrapucy = {
     global_unrest = 10
 	stability_cost_modifier = 1.0
 	harsh_treatment_cost = 1.0
+}
+
+11_offence_doctrine = {
+    fire_damage = 0.10
+	shock_damage = 0.10
+	siege_ability = 0.10
+}
+
+11_defence_doctrine = {
+    fire_damage_received = -0.10
+	shock_damage_received = -0.10
+    defensiveness = 0.10
+}
+
+12_local_unrest = {
+    local_unrest = 10
+}
+
+13_great_plague = {
+    local_unrest = 10
+	local_development_cost = 1.0
+	local_manpower_modifier = -1.0
+}
+
+13_anti-alessian_reforms = {
+    global_missionary_strength = 0.025
+	stability_cost_modifier = 0.25
+    tolerance_heretic = -3
+	tolerance_heathen = -5
+}
+
+13_internal_instability = {
+    stability_cost_modifier = 1.0
+	reduced_liberty_desire = -35
+    global_manpower_modifier = -0.25
+    manpower_recovery_speed = -0.25
+    global_regiment_cost = 0.25	
+}
+
+14_intolerance = {
+    stability_cost_modifier = 1.0
+    tolerance_heretic = -3
+	tolerance_heathen = -5
 }
 
 00_tamrilian_tractates = {

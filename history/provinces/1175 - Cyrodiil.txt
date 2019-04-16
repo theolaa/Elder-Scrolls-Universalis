@@ -19,3 +19,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = COL
 	add_core = COL
 }
+
+478.1.1 = {
+	owner = ORD
+	controller = ORD
+	add_core = ORD
+}

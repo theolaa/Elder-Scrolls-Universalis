@@ -16,6 +16,7 @@
  06_etherial_mine:0 "Etherial Mine"
  06_etherial_crisis:0 "Etherial Crisis"
  06_gradual_massacre:0 "Gradual Massacre"
+ 07_aedric_blessing:0 "Aedric Blessing"
  08_ayleid_lords:0 "Ayleid Lords"
  08_prepare_for_war:0 "Prepare for War"
  08_give_autonomy:0 "Autonomy of Vassals"
@@ -35,6 +36,13 @@
  10_diplomacy:0 "Diplomatic Unification"
  11_succesion_war:0 "Succession War"
  11_political_instability:0 "Political Instability"
+ 11_offence_doctrine:0 "Offensive Doctrine"
+ 11_defence_doctrine:0 "Defensive Doctrine"
+ 12_local_unrest:0 "Local Unrest"
+ 13_great_plague:0 "Great Plague"
+ 13_anti-alessian_reforms:0 "Anti-Alessian Reforms"
+ 13_internal_instability:0 "Internal Instability"
+ 14_intolerance:0 "Intolerance"
  00_far_legend:0 "Far Legend"
  00_tamrilian_tractates:0 "Tamrilian Tractates"
  
@@ -72,6 +80,35 @@
  es_0_scenario.6.t:0 "Apotheosis of Alessia"
  es_0_scenario.6.d:0 "This morning, after a long illness, Alessia, the Queen of Slaves, passed away. This colossal tragedy is for the entire Nedi people. As the last gift to her people, Alessia left the Amulet of Kings, which should protect them while a particle of her soul burns in it."
  es_0_scenario.6.a:0 "This is an irreplaceable loss."
+ 
+ es_0_scenario.7.t:0 "Rislav Larich"
+ es_0_scenario.7.d:0 "Great news comes to us from Skingrad. A son was born to King Mhorus - Rislav. This event will surely strengthen the formally existing kingdom and perhaps push the nobility to seek greater autonomy."
+ es_0_scenario.7.a:0 "Send gifts to Skingrad."
+ es_0_scenario.7.b:0 "Send official congradulations."
+ 
+ es_0_scenario.8.t:0 "Death of Queen Lynada"
+ es_0_scenario.8.d:0 "Sad news came to the country. Our beloved queen Linada from Skingrad passed away yesterday, as she did not manage to recover from previous childbirth. This tragedy shook not only the small kingdom but all Tamriel."
+ es_0_scenario.8.a:0 "We will pay for funeral ceremony."
+ es_0_scenario.8.b:0 "Send official condolences."
+ 
+ es_0_scenario.9.t:0 "Nine Divines"
+ es_0_scenario.9.d:0 "We have subjugated all of Tamriel. No other country dares to doubt our greatness. Obviously, this act was not a power to the common man, therefore, the clergy proposes to declare our ruler the ninth saint."
+ es_0_scenario.9.a:0 "Glory to our God-Ruler!"
+ es_0_scenario.9.b:0 "It is too much honour."
+ 
+ es_0_scenario.10.t:0 "Eight or Nine"
+ es_0_scenario.10.d:0 "The clergy in one of our neighboring countries declared their ruler the ninth saint. Of course, his actions are hardly subject to the mere mortal. However, shall we declare a nirnborn a god?"
+ es_0_scenario.10.a:0 "Glory to new Divine!"
+ es_0_scenario.10.b:0 "It is too much honour."
+ 
+ es_0_scenario.11.t:0 "Sweetrolle"
+ es_0_scenario.11.d:0 "My congratulations! You were able to conquer every corner of Nirn. Of course, your name will go down in history forever! On this occasion, the royal chef baked a Sweetroll for you."
+ es_0_scenario.11.a:0 "I hope no one steals it from me."
+ 
+ es_0_scenario.12.t:0 "Arrow in the Knee"
+ es_0_scenario.12.d:0 "A monstrous tragedy happened to our ruler in the last battle. The enemy's arrow hit him right in the kneecap! It seems that his adventure has come to an end."
+ es_0_scenario.12.a:0 "Call the healers, let them treat the leg!"
+ es_0_scenario.12.b:0 "Send this pseudo-warrior to guard the city streets!"
  
  es_vampire_purification_title:0 "Vampire Purification"
  es_vampire_purification_desc:0 "Vampire Purification"
@@ -149,6 +186,9 @@
  
  es_3_repair_walls_of_forelhost_title:0 "Repair Walls of Forelhost"
  es_3_repair_walls_of_forelhost_desc:0 " "
+ 
+ es_3_destroy_forelhost_title:0 "Destroy Forelhost"
+ es_3_destroy_forelhost_desc:0 " "
  
  THIRD_NORDIC_ELVEN_WAR:0 "Third Nordic-Elven War"
  THIRD_NORDIC_ELVEN_WAR_DESC:0 "Elves have always been a threat to humans. False, envious, intolerant. We lived under their yoke, suffered defeats from their armies, bowed before their every whim. But it's time to put an end to this."
@@ -266,6 +306,11 @@
  es_7_scenario.4.d:0 "Obviously, the Ayleids are weaker than ever. Their end is near. We can use this to regain power over a former colony."
  es_7_scenario.4.a:0 "We will return Cyrodiil!"
  es_7_scenario.4.b:0 "We should focus on other problems..."
+ 
+ es_7_scenario.5.t:0 "Aedric Blessing"
+ es_7_scenario.5.d:0 "We can recieve a blessing from Aedric Gods, that will improve spirit of our army and justify our claims on Heartlands. However, in this case, all relationships with heathens will be banned. So... are we going to pray for Aedric Gods?"
+ es_7_scenario.5.a:0 "We need that blessing!"
+ es_7_scenario.5.b:0 "Religious tolerance is more important."
  
  es_7_alessian_union_title:0 "Form Alessian Union"
  es_7_alessian_union_desc:0 " "
@@ -391,6 +436,18 @@
  es_11_scenario.4.d:0 "We found a new hotbed of Daedric corruption. The sanctuary is located in a secluded place, and to get to it, we need some time, however during it, people can choose the wrong path of salvation."
  es_11_scenario.4.a:0 "Send inquisitors to this province!"
  
+ es_11_scenario.5.t:0 "Civil War in Skyrim"
+ es_11_scenario.5.d:0 "Horrible Cvil War is up to start in Skyrim. We can only hope, that it won't affect us, however, it is still possible to make some steps in order to guaratee it - for example, we can support one of the sides of the conflict."
+ es_11_scenario.5.a:0 "Support Western Skyrim!"
+ es_11_scenario.5.b:0 "Support Eastern Skyrim!"
+ es_11_scenario.5.b:0 "We only recognise the Old Kingdom."
+ 
+ es_11_scenario.6.t:0 "Question of Doctrines"
+ es_11_scenario.6.d:0 "Our contry is standing on the edge of the new War and we need to decide, how we plan to coduct it."
+ es_11_scenario.5.a:0 "Let's focus on offence."
+ es_11_scenario.5.b:0 "Let's focus on defence."
+ es_11_scenario.5.c:0 "Our focus is perfect right now."
+ 
  es_general.1.t:0 "The Gift of the Curse"
  es_general.1.d:0 "Our heir has grown enough to take part in the Ritual."
  es_general.1.a:0 "It's time for him to become a member of the Family..."
@@ -399,3 +456,137 @@
  es_general.2.d:0 "Our country is under threat, since the throne still has no heir. Maybe we should adopt a child from a noble family?"
  es_general.2.a:0 "Our King is not too old yet!"
  es_general.2.b:0 "It is a good idea..."
+ 
+ INTERVATION_INTO_HAMMERFELL:0 "Intervention in Hammerfell"
+ INTERVATION_INTO_HAMMERFELL_DESC:0 "For many years, Hammerfell remained the island of Ayleid culture on Tamriel. However, now these territories are declining due to the ever-growing disagreements between the Ayleid rulers. It is obvious that soon the Kingdom will have nothing to oppose to the neighbors, who are just waiting for the opportunity to destroy the last bastion of Daedric Lords and gain control over the strategically important lands."
+ 
+ es_12_scenario.1.t:0 "Numinex"
+ es_12_scenario.1.d:0 "A huge dragon appeared in our lands. he burns our villages, kills our people and wreaks havoc throughout the country. He must be caught and killed! But who will take up that dangerous business?"
+ es_12_scenario.1.a:0 "Our fearless ruler!"
+ es_12_scenario.1.b:0 "Maybe we should find a Dragonborn?"
+ 
+ es_12_scenario.2.t:0 "Pact of Chieftains"
+ es_12_scenario.2.d:0 "Our country has been on the edge of the abyss many times because of internal strife. However, today, leaders from all over Skyrim gathered in Windhelm to discuss the new treaty, which, although it limits the power of the High King, but also prevents the outbreak of civil wars in the future."
+ es_12_scenario.2.a:0 "Sign the Pact."
+ es_12_scenario.2.b:0 "Refuse to sign the Pact."
+ 
+ es_12_scenario.3.t:0 "Nationalism in Skingrad"
+ es_12_scenario.3.d:0 "For many years, Skingrad was part of our country, retaining only formal independence. However, now the nobility demands to give them even more autonomy, threatening otherwise to raise the population to revolt."
+ es_12_scenario.3.a:0 "Refuse to frant autonomy.."
+ es_12_scenario.3.b:0 "Grant autonomy."
+ 
+ es_12_scenario.4.t:0 "Nationalism in Kvatch"
+ es_12_scenario.4.d:0 "For many years, Kvatch was part of our country, retaining only formal independence. However, now the nobility demands to give them even more autonomy, threatening otherwise to raise the population to revolt."
+ es_12_scenario.4.a:0 "Refuse to frant autonomy.."
+ es_12_scenario.4.b:0 "Grant autonomy."
+ 
+ es_12_scenario.5.t:0 "Rise of General Gorieus"
+ es_12_scenario.5.d:0 "The power of the clergy is weakening. The army and the generals in the provinces are deciding more and more. If it goes on like this, then very soon someone will go hiking on the White-Gold Tower. So maybe you can transfer part of the power to someone yourself? For example, to general Gorieus, who is very popular among people."
+ es_12_scenario.5.a:0 "Long Life, Emperor Gorieus!"
+ es_12_scenario.5.b:0 "We are able to coup with our problems."
+ 
+ es_12_scenario.6.t:0 "Further Expansion"
+ es_12_scenario.6.d:0 "Control of High Rock is only the beginning of the ambitions of our aristocracy. Now they believe that our troops should move further east. The only question is what country is next?"
+ es_12_scenario.6.a:0 "March on Skyrim!"
+ es_12_scenario.6.b:0 "March on Hammerfell!"
+ es_12_scenario.6.c:0 "We are not ready for further conquests yet."
+ 
+ es_12_scenario.7.t:0 "The Reach"
+ es_12_scenario.7.d:0 "The Reach was always so close to us and at the same time so far away. None of our predecessors could not permanently gain a foothold in the region due to the resistance of the local population. However, maybe we should try again?"
+ es_12_scenario.7.a:0 "Prepare to invade the Reach!"
+ es_12_scenario.7.b:0 "We are not ready for it yet..."
+ 
+ es_12_scenario.9.t:0 "Rourken Clan"
+ es_12_scenario.9.d:0 "Thouands of dwemers, disgruntled at there own government, who ceded Dwemeret in the dirty hands of Chimers, arrive on our lands to establish a new country. There culture and religion is hostal to us, however they have advanced technologies and knowledges, which can be discovered if we agree with such neighbourhood. But the last voice in this question is after our wise ruler."
+ es_12_scenario.9.a:0 "Welcome to Rourken Clan!"
+ es_12_scenario.9.b:0 "We will never allow pagans to live near our borders!"
+ 
+ es_12_scenario.11.t:0 "Colovian Lands"
+ es_12_scenario.11.d:0 "Colovia is rich country, however last events shaked there power and made them vulnurable. Probably, it is time to declare our claims on territories, which always were an indivisible part for our peopele."
+ es_12_scenario.11.a:0 "We re ought to return these lands!"
+ es_12_scenario.11.b:0 "We will never betray our neighbors!"
+ 
+ es_12_purification_title:0 "Destroy Dedric Sanctuary"
+ es_12_purification_desc:0 " "
+ 
+ CLASH_OF_THE_GREATS:0 "Clash of the Greats"
+ CLASH_OF_THE_GREATS_DESC:0 "A new conflict is ready to break out on Tamriel. The young state of Direnii, which in less than a hundred years had succeeded in conquest of all High Rock and much of Hammerfel, approached the fertile lands of Colovia, which have long been in the sphere of interests of the Ayleid state, then the Alessian Empire, and now the Order of the First Cyrodiilian Saint, whose ruler, after a successful coup, became an ambitious general Gorieus. Obviously, these confrontations will be able to exploit the still less visible countries, so that the political map of Nirn can again change beyond recognition."
+ 
+ es_13_scenario.1.t:0 "The Great Plague"
+ es_13_scenario.1.d:0 "A terrible plague is ravaging the land in our province. The number of victims already exceeds one million people. They die in their homes, on the streets and squares. Their bodies do not rot, but even rats and crows are afraid to touch them. Is it the Gods who cursed us for our sins?"
+ es_13_scenario.1.a:0 "Order to provide medical care to all patients!"
+ 
+ es_13_scenario.2.t:0 "Glory of Noble Warrior"
+ es_13_scenario.2.d:0 "Recently, a blue-blooded warrior named Aiden has become famous. He took part in many battles, where he provided invaluable assistance to our army. Aiden is popular among the soldiers, and the inhabitants of our country have already begun to tell legends about him. It would be an omission not to use such an image ..."
+ es_13_scenario.2.a:0 "Make him a General!"
+ es_13_scenario.2.b:0 "Let him go to work in the government!"
+ 
+ es_13_scenario.3.t:0 "Anti-Alessian Reforms"
+ es_13_scenario.3.d:0 "It is obvious that the reforms of Saint Alessi are a threat to all non-human races of Nirn. We position ourselves as a champion of the ancient traditions and our people will not fail, therefore, these reforms of heretics have power in our land?"
+ es_13_scenario.3.a:0 "Ban the heretical reforms immediately!"
+ es_13_scenario.3.b:0 "Reforms are indeed unjust, but rejecting them will lead to even more misfortunes."
+ 
+ es_13_scenario.4.t:0 "Colovian Question"
+ es_13_scenario.4.d:0 "Colovia lies between Hammerfell and Heartlands - this advantageous position made these lands extremely important for trade, which subsequently caused unprecedented economic growth compared with its neighbors. But now Colovia has become vulnerable - the incessant internecine feuds and the intervention of the Alessian Order made her weaker than ever. If we want to regain power over the White-Gold Tower, we need to conquer these lands, and it seems that now is the perfect time for this."
+ es_13_scenario.4.a:0 "Prepare to invade Colovia!"
+ es_13_scenario.4.b:0 "This lands belong to Alessian Order."
+ 
+ es_13_scenario.5.t:0 "Battle of Glenumbria Moors"
+ es_13_scenario.5.d:0 "Intelligence reports that our opponents are concentrating significant forces in the Glenumbria Moors for a further campaign against us. We can take a chance and attack them while they do not expect it, but in case of failure, we risk losing something more than international prestige. At the same time, if we ignore this challenge, it can lead to the loss of our popularity, among officers and people."
+ es_13_scenario.5.a:0 "Send our army to Glenumbria Moors now!"
+ es_13_scenario.5.b:0 "We need to avoid this battle."
+ 
+ es_13_scenario.6.t:0 "Bruman Question"
+ es_13_scenario.6.d:0 "Bruman lands guard Cyrodiil from the North. For centuries? they were used to prepare armies of our enemies to long crossing of Middle Mountains. It's time to secure these lands and guarantee the safety of our borders!"
+ es_13_scenario.6.a:0 "Our flag will rise among Bruman Stronghold!"
+ es_13_scenario.6.b:0 "This plan is too risky..."
+ 
+ es_13_scenario.7.t:0 "Death of our Ruler"
+ es_13_scenario.7.d:0 "Terrible news comes from distant lands - our brave ruler led a cavalry detachment to attack, but a stray arrow struck him right into the knee and was trampled by his own horse. Once again our throne was cast off without a ruler and without a legitimate heir. Therefore, Moot gathered in the Winter Castle to decide who would occupy the empty throne."
+ es_13_scenario.7.a:0 "Follow the Pact of Chieftains."
+ es_13_scenario.7.b:0 "Ignore the Pact of Chieftains."
+ 
+ es_13_scenario.8.t:0 "Stronghold of Skingrad"
+ es_13_scenario.8.d:0 "Skingrad lands provide access to the Western Seas, therefore these lands are extremely important for us and should be declared part of our national heritage."
+ es_13_scenario.8.a:0 "We will never loose the Fortress of Skingrad!"
+ es_13_scenario.8.b:0 "We cannot afford such risky affair..."
+ 
+ es_13_scenario.9.t:0 "Breton Uprising"
+ es_13_scenario.9.d:0 "For centuries, the Bretons lived side by side with elves as slaves or even domestic animals, whose opinion could always be ignored. However, times are changing. Seeing how the power of Mers is falling on Tamriel, rebellions begin to break out here and there. Perhaps the revolution is already inevitable."
+ es_13_scenario.9.a:0 "Rebels have captured the city of Daggerfall!"
+ es_13_scenario.9.b:0 "We will never give anything to our slaves!"
+ es_13_scenario.9.c:0 "It is better to accept the will of rebels..."
+ 
+ es_13_scenario.10.t:0 "Death of Laloriaran Dynar"
+ es_13_scenario.10.d:0 "Laloriaran Dynar one of the gretest Elven Kings, has passed away this morning from sudden heart attack. It is the real tragedy for whole merkind, that won't be forgotten soon. Laloriaran will be buried with all honors in the Mausoleum of the city Nenalata, which became his home for last decades."
+ es_13_scenario.10.a:0 "Rest in peace, Laloriaran Dynar!"
+ 
+ RISE_OF_HIGH_ROCK:0 "Rise of High Rock"
+ RISE_OF_HIGH_ROCK_DESC:0 "The unrest in the Hegemony of Direnii among the dominant Breton population, caused by the tightening of laws, the consolidation of racial segregation and the prohibition of Alessian reforms, developed into a global uprising, which even a large and well-prepared army, hardened in battles for deserts and steppes of Hammerell, rich in resources and unique flora and fauna. A fire of rebellion swept the whole north of High Rock. Angry mobs, led by the nobility of Bretonsim, seize the castle behind the castle, exterminating all the elves in their path. And their path lies to Daggerfall."
+ 
+ es_14_scenario.1.t:0 "New Religion"
+ es_14_scenario.1.d:0 "For centuries we have professed the faith of our conquerors. Cruel, alien and hated by all. The time has come to find new gods who will patronize us, not the pathetic migrants from the Summerset Islands! The priests propose to unite the pantheon of the Nine Deities, protecting the descendants of Alesia with the saints of our lands, thereby forming the religion of 12 Saints."
+ es_14_scenario.1.a:0 "Praise Twelve Divines!"
+ es_14_scenario.1.b:0 "Such changes may trigger to much unrest..."
+ 
+ es_14_scenario.2.t:0 "Twelve Divines"
+ es_14_scenario.2.d:0 "Another settlement succumbed to the preaching of wandering missionaries and turned to 12 Saints. Only you Gods can decise, this are bad news or good ones..."
+ es_14_scenario.2.a:0 "The religious war is comming..."
+ 
+ es_14_scenario.3.t:0 "Fall of Direnii Hegemony"
+ es_14_scenario.3.d:0 "Direnni's hegemony no longer controls Daggerfall, the pearl city at the gate to the bay. Obviously, her strength is hidden every day. The end of another elven nation is as close as ever."
+ es_14_scenario.3.a:0 "It is a great achievement for our people!"
+ 
+ es_14_scenario.4.t:0 "Question of Succession"
+ es_14_scenario.4.d:0 "The old dynasty has sunk into oblivion along with our past. It's time to choose a new ruler who will lead us to a bright future! Several noble families claim the crown, but who will be chosen by the people and put on the Marble Throne?"
+ es_14_scenario.4.a:0 "Thagore Daggerfall!"
+ es_14_scenario.4.b:0 "Farrose Breton!"
+ es_14_scenario.4.c:0 "None of candidates were approved."
+ 
+ es_14_scenario.5.t:0 "Succesion Crisis"
+ es_14_scenario.5.d:0 "Several powerful neighbors have declared themselves legitimate aspirants to our throne. If the people consider their claims legitimate, then the war for the throne succession can start. However, we can pay applicants to go far away and do not bother us anymore. Of course, this amount is not small, but does the world have a high price?"
+ es_14_scenario.5.a:0 "We won't pay them any gold coin!"
+ es_14_scenario.5.b:0 "Just give them money and put on the ship."
+ 
+ es_14_purification_title:0 "Evict Altmeri Citizens"
+ es_14_purification_desc:0 " "

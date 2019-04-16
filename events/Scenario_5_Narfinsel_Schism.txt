@@ -15,7 +15,7 @@ country_event = {
 		}
 		is_year = 189
 		NOT = { is_year = 221 }
-		religion_group = daedric_group
+		religion_group = daedric_group_1
     }
 
 	mean_time_to_happen = {
@@ -157,7 +157,7 @@ province_event = {
 	   NOT = { culture = vampire }
        is_year = 189
 	   NOT = { is_year = 221 }
-	   religion_group = daedric_group
+	   religion_group = daedric_group_1
     }
 
 	mean_time_to_happen = {

@@ -654,7 +654,7 @@ country_event = {
 		any_owned_province = {
 			is_state = yes
 			is_capital = no
-			religion_group = old_group
+			religion = old_gods_cult
 			NOT = { has_province_modifier = social_unrest_mysticism }
 		}
 	}
@@ -669,7 +669,7 @@ country_event = {
 				limit = {
 					is_state = yes
 					is_capital = no
-					religion_group = old_group
+					religion = old_gods_cult
 					NOT = { has_province_modifier = social_unrest_mysticism }
 				}
 				save_event_target_as = popular_sufism_province
@@ -678,7 +678,7 @@ country_event = {
 				limit = {
 					is_state = yes
 					is_capital = no
-					religion_group = old_group
+					religion = old_gods_cult
 					development = 10
 					NOT = { has_province_modifier = social_unrest_mysticism }
 				}
@@ -688,7 +688,7 @@ country_event = {
 				limit = {
 					is_state = yes
 					is_capital = no
-					religion_group = old_group
+					religion = old_gods_cult
 					development = 15
 					NOT = { has_province_modifier = social_unrest_mysticism }
 				}
@@ -698,7 +698,7 @@ country_event = {
 				limit = {
 					is_state = yes
 					is_capital = no
-					religion_group = old_group
+					religion = old_gods_cult
 					development = 20
 					NOT = { has_province_modifier = social_unrest_mysticism }
 				}

@@ -1,4 +1,4 @@
-ancient_group = {
+polytheistic_group = {
 
 	flags_with_emblem_percentage = 0
 	flag_emblem_index_range = { 1 18 }
@@ -20,7 +20,7 @@ ancient_group = {
 			tolerance_heretic = 1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -40,7 +40,7 @@ ancient_group = {
 			religious_unity = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -50,51 +50,25 @@ ancient_group = {
 		misguided_heretic = yes
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_ancient_group
-}
-
-northern_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-
 	nordic_pantheon = {
 		color = { 77 145 138 }
 		icon = 3
 		country = {
 		    land_morale = 0.10
 			land_forcelimit_modifier  = 0.10
-			
 		}
 		country_as_secondary = {
 			land_morale = 0.10
 			land_forcelimit_modifier  = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
 		
 		heretic = { NORDIC_PANTHEON_HERETIC }	
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_northern_group
-}
-
-bosmer_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	bosmer_pantheon = {
 		color = { 24 137 43 }
@@ -108,26 +82,13 @@ bosmer_group = {
 		    garrison_size = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
 		
 		heretic = { BOSMER_HERETIC }	
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_bosmer_group
-}
-
-divines_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	eight_divines = {
 		color = { 77 101 198 }
@@ -141,7 +102,7 @@ divines_group = {
 		    enemy_core_creation = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -163,7 +124,7 @@ divines_group = {
 		    prestige_decay = -0.01
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -185,7 +146,7 @@ divines_group = {
 			num_accepted_cultures = 1
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -194,19 +155,6 @@ divines_group = {
 		
 		misguided_heretic = yes
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_divines_group
-}
-
-khajiiti_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	khajiiti_pantheon = {
 		color = { 202 230 59 }
@@ -220,7 +168,7 @@ khajiiti_group = {
 			recover_army_morale_speed = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -228,34 +176,21 @@ khajiiti_group = {
 		heretic = { KHAJIITI_HERETIC }	
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_khajiiti_group
-}
-
-yokudan_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-	
 	yokudan_pantheon = {
 		color = { 230 167 40 }
 		icon = 9
 		country = {
-			heir_chance = 1.0
+		    heir_chance = 1.0
 			trade_efficiency = 0.10
 			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			heir_chance = 1.0
 			trade_efficiency = 0.10
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -275,7 +210,7 @@ yokudan_group = {
 			land_morale = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -284,19 +219,6 @@ yokudan_group = {
 		
 		misguided_heretic = yes
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_yokudan_group
-}
-
-orsimer_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	malacath_cult = {
 		color = { 24 122 14 }
@@ -310,26 +232,13 @@ orsimer_group = {
 	        defensiveness = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
 		
 		heretic = { MALACATH_HERETIC }	
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_orcish_group
-}
-
-kothri_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	kothri_pantheon = {
 		color = { 236 201 26 }
@@ -342,9 +251,10 @@ kothri_group = {
 		country_as_secondary = {
 			fire_damage_received = -0.10
 			global_trade_power = 0.10
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		personal_deity = yes
@@ -353,10 +263,11 @@ kothri_group = {
 	}
 	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_kothri_group
+	harmonized_modifier = harmonized_polytheistic_group
+	
 }
 
-chimer_group = {
+occult_group = {
     flags_with_emblem_percentage = 0
 	flag_emblem_index_range = { 1 18 }
 	
@@ -377,7 +288,7 @@ chimer_group = {
 			papal_influence = 1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.025
 		}
 		
 		heretic = { CHIMER_HERETIC }	
@@ -588,7 +499,7 @@ chimer_group = {
 		    religious_unity = 0.1
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.025
 		}
 		
 		personal_deity = yes
@@ -596,63 +507,6 @@ chimer_group = {
 		heretic = { RECLAMATIONS_HERETIC }	
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_chimer_group
-}
-
-#######################################################################
-
-sload_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-
-	sload_faith = {
-		color = { 42 174 208 }
-		icon = 16
-		country = {
-			advisor_pool = 1
-			advisor_cost = -0.1
-			may_perform_slave_raid = yes
-		}
-		country_as_secondary = {
-			advisor_pool = 1
-			advisor_cost = -0.1
-		}
-		
-		uses_anglican_power = yes
-		aspects = {
-			divorce_consort_aspect
-			gain_consort_aspect
-			dissolve_monasteries_aspect
-			monopoly_aspect
-			stability_aspect
-		}
-		aspects_name = ANGLICAN_ASPECTS
-		
-		heretic = { SLOAD_HERETIC }	
-		
-	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_sload_group
-}
-
-serpant_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-
 	serpant_king = {
 		color = { 130 210 96 }
 		icon = 17
@@ -664,6 +518,7 @@ serpant_group = {
 		country_as_secondary = {
 			land_morale = 0.10
 			global_unrest = -1
+			may_perform_slave_raid = yes
 		}
 		province = {
 			local_missionary_strength = -0.025
@@ -677,19 +532,6 @@ serpant_group = {
 		heretic = { SERPANT_KING_HERETIC }	
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_serpant_group
-}
-
-dragon_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-	
 	dragon_cult = {
 		color = { 202 208 43 }
 		icon = 18
@@ -699,8 +541,9 @@ dragon_group = {
 			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
-			tolerance_own = 1
+			 tolerance_own = 1
 			stability_cost_modifier = -0.1
+			may_perform_slave_raid = yes
 		}
 		province = {
 			local_missionary_strength = -0.025
@@ -883,19 +726,6 @@ dragon_group = {
 		}
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_dragon_group
-}
-
-marukhism_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-	
 	marukhism = {
 		color = { 243 212 12 }
 		icon = 19
@@ -916,11 +746,39 @@ marukhism_group = {
 		fervor = yes
 	}
 	
+	reason_and_logic_cult = {
+		color = { 40 40 166 }
+		icon = 21
+		country = {
+		    siege_ability = 0.10
+			defensiveness = 0.10
+		}
+		country_as_secondary = {
+			siege_ability = 0.10
+			defensiveness = 0.10
+		}
+		province = {
+			local_missionary_strength = -0.025
+		}
+		
+		heretic = { REASON_AND_LOGIC_HERETIC }	
+		
+		holy_sites = { 970 1044 1314 1329 1484 }
+		
+		blessings = {
+			caldera_research_hub
+			main_research_hub
+			black_reach_research_hub
+			aethereal_research_hub
+			western_research_hub
+		}
+	}
+	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_marukhism_group
+	harmonized_modifier = harmonized_occult_group
 }
 
-hist_group = {
+elemental_group = {
     flags_with_emblem_percentage = 0
 	flag_emblem_index_range = { 1 18 }
 	
@@ -941,7 +799,7 @@ hist_group = {
 		    tolerance_heathen = 1
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.010
 		}
 		
 		heretic = { HIST_HERETIC }	
@@ -949,95 +807,58 @@ hist_group = {
 		uses_karma = yes
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_hist_group
-}
-
-reason_and_logic_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-
-	reason_and_logic_cult = {
-		color = { 40 40 166 }
-		icon = 21
+	sload_faith = {
+		color = { 42 174 208 }
+		icon = 16
 		country = {
-		    siege_ability = 0.10
-			defensiveness = 0.10
+		    advisor_pool = 1
+			advisor_cost = -0.1
+			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
-			siege_ability = 0.10
-			defensiveness = 0.10
+			advisor_pool = 1
+			advisor_cost = -0.1
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.005
+			local_missionary_strength = -0.010
 		}
 		
-		heretic = { REASON_AND_LOGIC_HERETIC }	
-		
-		holy_sites = { 970 1044 1314 1329 1484 }
-		
-		blessings = {
-			caldera_research_hub
-			main_research_hub
-			black_reach_research_hub
-			aethereal_research_hub
-			western_research_hub
+		uses_anglican_power = yes
+		aspects = {
+			divorce_consort_aspect
+			gain_consort_aspect
+			dissolve_monasteries_aspect
+			monopoly_aspect
+			stability_aspect
 		}
+		aspects_name = ANGLICAN_ASPECTS
+		
+		heretic = { SLOAD_HERETIC }	
+		
 	}
 	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_reason_and_logic_group
-}
-
-old_group = {
-
-	flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-
 	old_gods_cult = {
 		color = { 239 110 217 }
 		icon = 22
 		country = {
 			land_morale = 0.10
-		    advisor_cost = -0.1
+			advisor_cost = -0.1
 			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			land_morale = 0.10
-		    advisor_cost = -0.1
+			advisor_cost = -0.1
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.010
 		}
 		
 		heretic = { OLD_GODS_CULT_HERETIC }	
 		
 		uses_piety = yes
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_old_group
-}
-
-tsaesci_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	tsaesci_pantheon = {
 		color = { 138 44 85 }
@@ -1050,28 +871,16 @@ tsaesci_group = {
 		country_as_secondary = {
 			discipline = 0.05
 			global_unrest = -1
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.010
 		}
 		
 		heretic = { TSAESCI_HERETIC }	
 		
 		uses_isolationism = yes
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_tsaesci_group
-}
-
-tang_mo_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	tang_mo_pantheon = {
 		color = { 22 232 127 }
@@ -1085,7 +894,7 @@ tang_mo_group = {
 			stability_cost_modifier = -0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.010
 		}
 		
 		religious_reforms = yes
@@ -1094,19 +903,6 @@ tang_mo_group = {
 		heretic = { TANG_MO_HERETIC }	
 		
 	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_tang_mo_group
-}
-
-kamal_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
 	
 	kamal_pantheon = {
 		color = { 233 172 30 }
@@ -1120,51 +916,17 @@ kamal_group = {
 			global_autonomy = -0.05
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.010
 		}
 		
 		heretic = { KAMAL_HERETIC }	
 	}
 	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_kamal_group
+	harmonized_modifier = harmonized_elemental_group
 }
 
-dremora_group = {
-    flags_with_emblem_percentage = 0
-	flag_emblem_index_range = { 1 18 }
-	
-	ai_will_propagate_through_trade = yes
-	
-	defender_of_faith = yes
-	can_form_personal_unions = yes
-	
-	dremora_pantheon = {
-		color = { 121 15 117 }
-		icon = 26
-		country = {
-			cav_to_inf_ratio = 0.10
-			global_regiment_cost = -0.10
-			may_perform_slave_raid = yes
-		}
-		country_as_secondary = {
-			cav_to_inf_ratio = 0.10
-			global_regiment_cost = -0.10
-		}
-		province = {
-			local_missionary_strength = -0.025
-		}
-		
-		can_have_secondary_religion = yes
-		
-		heretic = { DREMORA_HERETIC }	
-	}
-	
-	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_dremora_group
-}
-
-daedric_group = {
+daedric_group_1 = {
     flags_with_emblem_percentage = 0
 	flag_emblem_index_range = { 1 18 }
 	
@@ -1178,15 +940,16 @@ daedric_group = {
 		icon = 27
 		country = {
 			free_leader_pool = 1
-	        heir_chance = 1.0
+			heir_chance = 1.0
 			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			free_leader_pool = 1
-	        heir_chance = 1.0
+			heir_chance = 1.0
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		uses_church_power = yes
@@ -1221,7 +984,7 @@ daedric_group = {
 			global_manpower_modifier = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		uses_church_power = yes
@@ -1249,15 +1012,16 @@ daedric_group = {
 		icon = 29
 		country = {
 			fire_damage = 0.10
-	        loot_amount = 0.10
+			loot_amount = 0.10
 			may_perform_slave_raid = yes
 		}
 		country_as_secondary = {
 			fire_damage = 0.10
-	        loot_amount = 0.10
+			loot_amount = 0.10
+			may_perform_slave_raid = yes
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		uses_church_power = yes
@@ -1292,7 +1056,7 @@ daedric_group = {
 	        global_institution_spread = 0.10
 		}
 		province = {
-			local_missionary_strength = -0.025
+			local_missionary_strength = -0.015
 		}
 		
 		uses_church_power = yes
@@ -1315,13 +1079,31 @@ daedric_group = {
 		heretic = { HERMEUS_MORA_HERETIC }	
 	}
 	
+	dremora_pantheon = {
+		color = { 121 15 117 }
+		icon = 26
+		country = {
+			global_regiment_cost = -0.10
+			may_perform_slave_raid = yes
+		}
+		country_as_secondary = {
+			global_regiment_cost = -0.10
+			may_perform_slave_raid = yes
+		}
+		province = {
+			local_missionary_strength = -0.015
+		}
+		
+		can_have_secondary_religion = yes
+		
+		heretic = { DREMORA_HERETIC }	
+	}
+	
 	crusade_name = CRUSADE
-	harmonized_modifier = harmonized_daedra_group
+	harmonized_modifier = harmonized_daedric_group_1
 }
 
-#######################################################################
-
-po_tun_group = {
+harmony_group = {
     flags_with_emblem_percentage = 0
 	flag_emblem_index_range = { 1 18 }
 	
@@ -1342,12 +1124,12 @@ po_tun_group = {
 			adm_tech_cost_modifier = -0.10
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.005
 		}
 		
 		heretic = { PO_TUN_HERETIC }	
 		
-		uses_harmony = no
+		uses_harmony = yes
 	}
 	
 	crusade_name = CRUSADE

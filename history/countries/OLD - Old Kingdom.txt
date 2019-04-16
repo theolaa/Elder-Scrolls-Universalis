@@ -16,3 +16,16 @@ capital = 1275
 		mil = 6
 	}
 }
+
+369.1.1 = {
+    government = republic
+	monarch = {
+		name = "Vulard"
+		birth_date = 319.1.1
+        adm = 3
+        dip = 2
+        mil = 5
+	}
+	
+	capital = 952
+}

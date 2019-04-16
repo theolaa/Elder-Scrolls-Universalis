@@ -266,10 +266,7 @@ es_large_empire = {
 		NOT = { num_of_cities = 250 }
 	}
 
-	land_forcelimit_modifier = -0.1
 	global_manpower_modifier = -0.1
-	naval_forcelimit_modifier = -0.1
-	global_sailors_modifier = -0.1
 	yearly_corruption = 0.1
 	global_tax_modifier = -0.05
 	global_unrest = 1
@@ -285,10 +282,7 @@ es_huge_empire = {
 		num_of_cities = 250
 	}
 
-	land_forcelimit_modifier = -0.25
 	global_manpower_modifier = -0.25
-	naval_forcelimit_modifier = -0.25
-	global_sailors_modifier = -0.25
 	yearly_corruption = 0.25
 	global_tax_modifier = -0.10
 	global_unrest = 2.5

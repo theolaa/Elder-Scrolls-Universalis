@@ -62,6 +62,7 @@ country_event = {
 		dip = 3
 		mil = 7  
         }
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
 	option = {
 		name = "es_7_scenario.1.b"
@@ -308,5 +309,45 @@ country_event = {
 		name = "es_7_scenario.4.b"
 		ai_chance = { factor = 50 }
 		add_prestige = -25
+	}
+}
+
+country_event = {
+	id = es_7_scenario.5
+	title = es_7_scenario.5.t
+	desc = es_7_scenario.5.d
+	picture = ES_AEDRIC_TEMPLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 242
+		NOT = { is_year = 266 }
+		culture_group = cyrodiil_cg
+		owns = 1221
+    }
+
+	mean_time_to_happen = {
+		days = 3650
+	}
+
+	option = {
+		name = "es_7_scenario.5.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		region = central_syrodiil_lr
+		}
+		add_core = ROOT
+		}
+		add_country_modifier = {
+		name = "07_aedric_blessing"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_7_scenario.5.b"
+		ai_chance = { factor = 50 }
+		add_prestige = 10
 	}
 }

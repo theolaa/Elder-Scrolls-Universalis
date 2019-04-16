@@ -2062,7 +2062,7 @@ country_event = {
 		has_country_modifier = vajrayana_lama
 		NOT = { has_country_flag = burned_figures }
 		any_owned_province = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 		}
 	}
 

@@ -246,7 +246,7 @@ country_event = {
 			development = 10
 			is_capital = no
 			any_neighbor_province = {
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 		}
 	}
@@ -258,7 +258,7 @@ country_event = {
 					development = 10
 					is_capital = no
 					any_neighbor_province = {
-						religion_group = daedric_group
+						religion_group = daedric_group_1
 					}
 				}
 				set_province_flag = prov_wants_rel_free
@@ -613,7 +613,7 @@ country_event = {
 		uses_devotion = yes
 		OR = {
 			religion = marukhism
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 		}
 		has_country_flag = theo_influential_reformer_flag
 	}
@@ -638,7 +638,7 @@ country_event = {
 			add_fervor = 15
 		}
 		if = { 
-			limit = { religion_group = daedric_group }
+			limit = { religion_group = daedric_group_1 }
 			add_church_power = 15
 		}
 	}
@@ -1656,7 +1656,7 @@ country_event = {
 		trigger = {
 			OR = {
 				religion = marukhism
-				religion_group = daedric_group
+				religion_group = daedric_group_1
 			}
 		}
 		add_stability_or_adm_power = yes
@@ -1668,7 +1668,7 @@ country_event = {
 			NOT = {
 				OR = {
 					religion = marukhism
-					religion_group = daedric_group
+					religion_group = daedric_group_1
 				}
 			}
 		}
@@ -1776,7 +1776,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		religion_group = old_group
+		religion = old_gods_cult
 		uses_devotion = yes
 		piety = 0.2
 	}
@@ -2164,7 +2164,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		religion_group = old_group
+		religion = old_gods_cult
 		uses_devotion = yes
 		devotion = 50
 		piety = 0
@@ -2279,7 +2279,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Common Sense"
 		uses_devotion = yes
-		religion_group = old_group
+		religion = old_gods_cult
 	}
 	
 	is_triggered_only = yes
@@ -2326,7 +2326,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		religion_group = old_group
+		religion = old_gods_cult
 		uses_devotion = yes
 		devotion = 75
 		piety = 0.10
@@ -2511,7 +2511,7 @@ country_event = {
 	
 	trigger = {
 		has_dlc = "Common Sense"
-		religion_group = old_group
+		religion = old_gods_cult
 		uses_devotion = yes
 		NOT = {
 			OR = {

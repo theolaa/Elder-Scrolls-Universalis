@@ -1,121 +1,379 @@
-heretic_religion = {
+altmeri_pantheon_modifier = {
 	potential = {
-		always = yes
+		religion = altmeri_pantheon
 	}
 
-	trigger = {	
-        OR = {
-		 AND = {
-		 religion = tribunal_pantheon
-		 has_personal_deity = Nerevar
-		 }
-		 AND = {
-		 religion = malacath_cult
-		 OR = {
-		 has_personal_deity = Mauloch
-		 has_personal_deity = Trinimac
-		 }
-		 }
-		 AND = {
-		 religion = reclamations_pantheon
-		 OR = {
-		 has_personal_deity = Almalexia
-		 has_personal_deity = Sotha_Sil
-		 has_personal_deity = Vivec
-		 }
-		 }
-		}	
+	trigger = {
+		religion = altmeri_pantheon
 	}
-    global_unrest = 1
-	diplomatic_reputation = -1.0
-	ae_impact = 0.10
-	
+
+	unjustified_demands = 0.10
 }
 
-daedra_religion = {
+snow_elves_pantheon_modifier = {
 	potential = {
-	    always = yes
+		religion = snow_elves_pantheon
 	}
 
-	trigger = {	
-        OR = {
-		religion_group = daedric_group
-		 AND = {
-		 religion = nordic_pantheon
-		 OR = {
-		 has_personal_deity = Mora
-		 has_personal_deity = Maloch
-		 }
-		 }
-		 AND = {
-		 religion = bosmer_pantheon
-		 has_personal_deity = Mora
-		 }
-		 AND = {
-		 religion = tribunal_pantheon
-		 OR = {
-		 has_personal_deity = Azura
-		 has_personal_deity = Boethiah
-		 has_personal_deity = Lorkhan
-		 has_personal_deity = Mephala
-		 }
-		 }
-		 AND = {
-		 religion = khajiiti_pantheon
-		 OR = {
-		 has_personal_deity = Azurah
-		 has_personal_deity = Hermorah
-		 has_personal_deity = Hircine
-		 has_personal_deity = Merrunz
-		 has_personal_deity = Mafala
-		 has_personal_deity = Namiira
-		 has_personal_deity = Sheoggorath
-		 }
-		 }
-		 AND = {
-		 religion = kothri_pantheon
-		 has_personal_deity = Clavicus_Vile
-		 }
-		 }	
+	trigger = {
+		religion = snow_elves_pantheon
 	}
-    reduced_liberty_desire = -10
-	stability_cost_modifier = 0.25
-	harsh_treatment_cost = 0.35
+
+	global_regiment_recruit_speed = 0.10
 }
 
-
-evil_religion = {
+nordic_pantheon_modifier = {
 	potential = {
-	    always = yes
+		religion = nordic_pantheon
 	}
 
-	trigger = {	
-		OR = {
-		religion = dremora_pantheon
+	trigger = {
+		religion = nordic_pantheon
+	}
+
+	land_maintenance_modifier = 0.10
+}
+
+bosmer_pantheon_modifier = {
+	potential = {
+		religion = bosmer_pantheon
+	}
+
+	trigger = {
+		religion = bosmer_pantheon
+	}
+
+	sailor_maintenance_modifer = 0.10
+}
+
+eight_divines_modifier = {
+	potential = {
+		religion = eight_divines
+	}
+
+	trigger = {
+		religion = eight_divines
+	}
+
+	reinforce_speed = -0.10
+}
+
+nine_divines_modifier = {
+	potential = {
+		religion = nine_divines
+	}
+
+	trigger = {
+		religion = nine_divines
+	}
+
+	global_spy_defence = -0.10
+}
+
+twelve_divines_modifier = {
+	potential = {
+		religion = twelve_divines
+	}
+
+	trigger = {
+		religion = twelve_divines
+	}
+
+	spy_offence = -0.10
+}
+
+khajiiti_pantheon_modifier = {
+	potential = {
+		religion = khajiiti_pantheon
+	}
+
+	trigger = {
+		religion = khajiiti_pantheon
+	}
+
+	naval_forcelimit_modifier = -0.10
+}
+
+yokudan_pantheon_modifier = {
+	potential = {
+		religion = yokudan_pantheon
+	}
+
+	trigger = {
+		religion = yokudan_pantheon
+	}
+
+	naval_maintenance_modifier = 0.10
+}
+
+redguard_pantheon_modifier = {
+	potential = {
+		religion = redguard_pantheon
+	}
+
+	trigger = {
+		religion = redguard_pantheon
+	}
+
+	possible_mercenaries = -0.10
+}
+
+malacath_cult_modifier = {
+	potential = {
+		religion = malacath_cult
+	}
+
+	trigger = {
+		religion = malacath_cult
+	}
+
+	stability_cost_modifier = 0.10
+}
+
+kothri_pantheon_modifier = {
+	potential = {
+		religion = kothri_pantheon
+	}
+
+	trigger = {
+		religion = kothri_pantheon
+	}
+
+	fabricate_claims_cost = 0.10
+}
+
+#######################################################################
+
+chimer_pantheon_modifier = {
+	potential = {
+		religion = chimer_pantheon
+	}
+
+	trigger = {
+		religion = chimer_pantheon
+	}
+
+	garrison_size = -0.10
+}
+
+tribunal_pantheon_modifier = {
+	potential = {
+		religion = tribunal_pantheon
+	}
+
+	trigger = {
+		religion = tribunal_pantheon
+	}
+
+	tolerance_heathen = -1
+}
+
+reclamations_pantheon_modifier = {
+	potential = {
+		religion = reclamations_pantheon
+	}
+
+	trigger = {
+		religion = reclamations_pantheon
+	}
+
+	tolerance_heretic = -1
+}
+
+serpant_king_modifier  = {
+	potential = {
+		religion = serpant_king
+	}
+
+	trigger = {
+		religion = serpant_king
+	}
+
+	global_regiment_cost = 0.10
+}
+
+dragon_cult_modifier = {
+	potential = {
 		religion = dragon_cult
-		 AND = {
-		 religion = nordic_pantheon
-		 OR = {
-		 has_personal_deity = Alduin
-		 has_personal_deity = Orkey
-		 }
-		 }
-		 AND = {
-		 religion = tribunal_pantheon
-		 OR = {
-		 has_personal_deity = Malacath
-		 has_personal_deity = Mehrunes
-		 has_personal_deity = Bal
-		 has_personal_deity = Sheogorath
-		 }
-		 }
-		 AND = {
-		 religion_group = yokudan_group
-		 has_personal_deity = Malooc
-		 }
-		}
 	}
-    diplomatic_reputation = -1.0
-	ae_impact = 0.25
-	harsh_treatment_cost = 0.50
+
+	trigger = {
+		religion = dragon_cult
+	}
+
+	ae_impact = 0.10
+}
+
+marukhism_modifier = {
+	potential = {
+		religion = marukhism
+	}
+
+	trigger = {
+		religion = marukhism
+	}
+
+	global_unrest = 1
+}
+
+reason_and_logic_cult_modifier = {
+	potential = {
+		religion = reason_and_logic_cult
+	}
+
+	trigger = {
+		religion = reason_and_logic_cult
+	}
+
+	culture_conversion_cost = 0.10
+}
+
+#######################################################################
+
+hist_modifier = {
+	potential = {
+		religion = hist
+	}
+
+	trigger = {
+		religion = hist
+	}
+
+	core_creation = 0.10
+}
+
+sload_faith_modifier = {
+	potential = {
+		religion = sload_faith
+	}
+
+	trigger = {
+		religion = sload_faith
+	}
+
+	state_maintenance_modifier = 0.10
+}
+
+old_gods_cult_modifier = {
+	potential = {
+		religion = old_gods_cult
+	}
+
+	trigger = {
+		religion = old_gods_cult
+	}
+
+	fort_maintenance_modifier = 0.10
+}
+
+tsaesci_pantheon_modifier = {
+	potential = {
+		religion = tsaesci_pantheon
+	}
+
+	trigger = {
+		religion = tsaesci_pantheon
+	}
+
+	vassal_income = -0.10
+}
+
+tang_mo_pantheon_modifier = {
+	potential = {
+		religion = tang_mo_pantheon
+	}
+
+	trigger = {
+		religion = tang_mo_pantheon
+	}
+
+	harsh_treatment_cost = 0.10
+}
+
+kamal_pantheon_modifier = {
+	potential = {
+		religion = kamal_pantheon
+	}
+
+	trigger = {
+		religion = kamal_pantheon
+	}
+
+	claim_duration = -0.10
+}
+
+#######################################################################
+
+molog_bal_cult_modifier = {
+	potential = {
+		religion = molog_bal_cult
+	}
+
+	trigger = {
+		religion = molog_bal_cult
+	}
+
+	years_of_nationalism = 10
+}
+
+meridia_cult_modifier = {
+	potential = {
+		religion = meridia_cult
+	}
+
+	trigger = {
+		religion = meridia_cult
+	}
+
+	diplomatic_annexation_cost = 0.10
+}
+
+mehrunes_dagon_cult_modifier = {
+	potential = {
+		religion = mehrunes_dagon_cult
+	}
+
+	trigger = {
+		religion = mehrunes_dagon_cult
+	}
+
+	improve_relation_modifier = -0.10
+}
+
+hermeus_mora_cult_modifier = {
+	potential = {
+		religion = hermeus_mora_cult
+	}
+
+	trigger = {
+		religion = hermeus_mora_cult
+	}
+
+	embracement_cost = 0.10
+}
+
+dremora_pantheon_modifier = {
+	potential = {
+		religion = dremora_pantheon
+	}
+
+	trigger = {
+		religion = dremora_pantheon
+	}
+
+	reduced_liberty_desire = -10
+}
+
+#######################################################################
+
+po_tun_pantheon_modifier = {
+	potential = {
+		religion = po_tun_pantheon
+	}
+
+	trigger = {
+		religion = po_tun_pantheon
+	}
+
+	idea_cost = 0.10
 }

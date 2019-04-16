@@ -36,6 +36,9 @@
  liberated_province:0 "Liberated Province"
  banned_production:0 "Banned Production"
  
+ make_st_petersburg_capital_2_title:0 "Move Capital to Imperial City"
+ make_st_petersburg_capital_2_desc:0 " "
+ 
  start_space_program_title:0 "Start Mundus Program"
  end_space_program_title:0 "End Mundus Program"
  send_a_satellite_into_orbit_title:0 "Organise the First Mundus Flight"
@@ -875,3 +878,11 @@
  ka_po_tun_nation_desc:0 " "
  transakavir_nation_title:0 "Form Transakavir"
  transakavir_nation_desc:0 " "
+ rourken_clan_nation_title:0 "Form Rourken Clan"
+ rourken_clan_nation_desc:0 " "
+ ca7_nation_title:0 "Form Kvatch"
+ ca7_nation_desc:0 " "
+ ca6_nation_title:0 "Form Skingrad"
+ ca6_nation_desc:0 " "
+ resdayn-dwemeret_nation_title:0 "Form Resdayn-Dwemeret"
+ resdayn-dwemeret_nation_desc:0 " "

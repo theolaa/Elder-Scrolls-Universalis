@@ -6,8 +6,10 @@ bookmark = {
 	center = 1313
 	default = yes
 	
+	country = WSK
+	country = ESK
 	country = OLD
-	country = ALE
+	country = ODR
 	country = DWE
     country = CHI
 	country = YA7

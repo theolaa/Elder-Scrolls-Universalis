@@ -158,7 +158,7 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_PIOUS
 		trigger = {
-			religion_group = old_group
+			religion = old_gods_cult
 			piety = 0.5
 			NOT = { piety = 0.75 }
 		}
@@ -167,7 +167,7 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_VERY_PIOUS
 		trigger = {
-			religion_group = old_group
+			religion = old_gods_cult
 			piety = 0.75
 		}
 		loyalty = 10
@@ -175,7 +175,7 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_NOT_PIOUS
 		trigger = {
-			religion_group = old_group
+			religion = old_gods_cult
 			NOT = { piety = -0.5 }
 			piety = -0.75
 		}
@@ -184,7 +184,7 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_VERY_UNPIOUS
 		trigger = {
-			religion_group = old_group
+			religion = old_gods_cult
 			NOT = { piety = -0.75 }
 		}
 		loyalty = -10
@@ -192,7 +192,7 @@ estate_church =
 	loyalty_modifier = {
 		desc = EST_VAL_PROTESTANT
 		trigger = {
-			religion_group = daedric_group
+			religion_group = daedric_group_1
 		}
 		loyalty = 10
 	}
@@ -404,7 +404,7 @@ estate_church =
 			add_devotion = -3
 			add_piety = 0.05
 			if = {
-				limit = { religion_group = daedric_group }
+				limit = { religion_group = daedric_group_1 }
 				add_church_power = 10
 			}
 			add_patriarch_authority = 0.05

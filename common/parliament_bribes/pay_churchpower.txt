@@ -2,8 +2,8 @@ pay_churchpower = {
 	trigger = {
 		OR = {
 			AND = {
-				religion_group = daedric_group
-				FROM = { religion_group = daedric_group }
+				religion_group = daedric_group_1
+				FROM = { religion_group = daedric_group_1 }
 			}
 			AND = {
 				religion = sload_faith

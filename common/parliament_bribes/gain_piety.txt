@@ -1,6 +1,6 @@
 gain_piety = {
 	trigger = {
-		religion_group = old_group
+		religion = old_gods_cult
 		NOT = {
 			piety = -0.25
 		}

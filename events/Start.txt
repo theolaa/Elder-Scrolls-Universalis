@@ -71,6 +71,39 @@ country_event = {
 		    discover_country = ROOT
 		}
 		}
+		
+		if = {
+		limit = {
+		is_year = 266
+		}
+		set_global_flag = ayleid_fall_flag
+		}
+		if = {
+		limit = {
+		is_year = 369
+		}
+		set_global_flag = marukhism_flag
+		}
+		if = {
+		limit = {
+		is_year = 242
+		}
+		set_global_flag = etherial_crisis_flag
+		set_global_flag = alessian_rebellion_flag
+		}
+		if = {
+		limit = {
+		is_year = 609
+		}
+		set_global_flag = fall_of_direnii_flag
+		}
+		
+		if = {
+		limit = {
+		is_free_or_tributary_trigger = yes
+		}
+		set_country_flag = arrow_in_the_knee_flag
+		}
 	}
 	
 	

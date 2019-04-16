@@ -1162,7 +1162,7 @@ kurdish_ideas = {
 		hostile_attrition = 1
 	}
 	li_gora_gawiri_kurd_misilman = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	kurdish_tribes = {
 		global_manpower_modifier = 0.1
@@ -1573,7 +1573,7 @@ luzon_ideas = {
 		global_ship_trade_power = 0.10
 	}
 	luzon_tagalog_syncretism = {
-		tolerance_heathen = 1
+		tolerance_heretic = 1
 	}
 	luzon_sailors = {
 		navy_tradition_decay = -0.01

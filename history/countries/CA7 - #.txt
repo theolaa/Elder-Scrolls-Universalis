@@ -7,3 +7,14 @@ primary_culture = nedic
 capital = 1150
 
 221.1.1 = { religion = eight_divines }
+
+478.1.1 = {
+	monarch = {
+		name = "Rislav"
+		dynasty = "Larich"
+		birth_date = 460.1.1
+		adm = 3
+        dip = 5
+        mil = 7
+	}
+}

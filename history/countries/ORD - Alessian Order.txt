@@ -5,3 +5,15 @@ technology_group = tamriel_tg
 religion = marukhism
 primary_culture = nedic
 capital = 1206
+
+478.1.1 = {
+    government = monarchy
+	monarch = {
+		name = "Gorieus"
+		dynasty = "Alessian"
+		birth_date = 443.1.1
+		adm = 3
+        dip = 5
+        mil = 4
+	}
+}

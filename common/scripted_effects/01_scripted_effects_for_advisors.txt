@@ -239,7 +239,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 		heathen_advisor = {
 			if = {
 				limit = {
-					religion_group = christian
+					religion_group = polytheistic_group
 					capital_scope = { continent = europe }
 				}
 				define_advisor = {
@@ -251,7 +251,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = christian
+					religion_group = polytheistic_group
 					capital_scope = { continent = asia }
 				}
 				define_advisor = {
@@ -263,7 +263,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = christian
+					religion_group = polytheistic_group
 					capital_scope = { continent = africa }
 				}
 				define_advisor = {
@@ -275,7 +275,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = muslim
+					religion_group = elemental_group
 					continent = europe
 				}
 				define_advisor = {
@@ -287,7 +287,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = muslim
+					religion_group = elemental_group
 				}
 				define_advisor = {
 					type = $advisor_type_if_not_state$
@@ -298,7 +298,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = eastern #Most likely won't come here but could.
+					religion_group = harmony_group #Most likely won't come here but could.
 				}
 				define_advisor = {
 					type = $advisor_type_if_not_state$
@@ -309,7 +309,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = dharmic #Most likely won't come here but could.
+					religion_group = elemental_group #Most likely won't come here but could.
 				}
 				define_advisor = {
 					type = $advisor_type_if_not_state$
@@ -320,7 +320,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = dharmic #Most likely won't come here but could.
+					religion_group = elemental_group #Most likely won't come here but could.
 				}
 				define_advisor = {
 					type = $advisor_type_if_not_state$
@@ -339,7 +339,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 		}
 		heathen_advisor = {
 			if = {
-				limit = { religion_group = christian }
+				limit = { religion_group = polytheistic_group }
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$
@@ -349,7 +349,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 			}
 			else_if = {
 				limit = {
-					religion_group = muslim
+					religion_group = elemental_group
 					capital_scope = {
 						OR = {
 							superregion = near_east_superregion
@@ -365,7 +365,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				}
 			}
 			else_if = {
-				limit = { religion_group = muslim }
+				limit = { religion_group = elemental_group }
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$
@@ -374,7 +374,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				}
 			}
 			else_if = {
-				limit = { religion_group = dharmic }
+				limit = { religion_group = elemental_group }
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$
@@ -439,7 +439,7 @@ internal_advisor_generation_effect = { #Only used within generate_advisor_of_typ
 				}
 			}
 			else_if = {
-				limit = { religion_group = muslim }
+				limit = { religion_group = elemental_group }
 				define_advisor = {
 					type = $advisor_type_if_not_state$
 					skill = $skill$

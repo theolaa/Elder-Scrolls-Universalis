@@ -4,7 +4,7 @@ country_decisions = {
 	    major = yes
 		potential = {
 		OR = {
-        tag = WIN
+        NOT = { culture_group = northern_cg }
 		tag = DRA
 		}
 		owns = 1265
@@ -12,10 +12,6 @@ country_decisions = {
 		NOT = { has_country_flag = es_3_forelhost_flag }
 		}
 		allow = {
-		OR = {
-        tag = WIN
-		tag = DRA
-		}
 		owns = 1265
 		}
 		effect = {
@@ -59,7 +55,41 @@ country_decisions = {
 		name = "03_walls_of_forelhost"
 		duration = -1
 		}
+		if = {
+		limit = {
+		NOT = { has_building = fort_15th }
+		NOT = { has_building = fort_16th }
+		NOT = { has_building = fort_17th }
+		NOT = { has_building = fort_18th }
+		}
 		add_building = fort_15th
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_3_destroy_forelhost = {
+	    major = yes
+		potential = {
+        NOT = { tag = FOR }
+		NOT = { tag = DRA }
+		culture_group = northern_cg
+		1265 = {
+		owned_by = ROOT
+		NOT = { culture = nord }
+		}
+		}
+		allow = {
+		mil_power = 100
+		}
+		effect = {
+		add_mil_power = -100
+		1265 = {
+		remove_province_modifier = 03_walls_of_forelhost
+		change_culture = nord
 		}
 		}
 		ai_will_do = {
@@ -302,6 +332,78 @@ country_decisions = {
 		NOT = { culture = vampire }
 		}
 		change_culture = vampire
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_12_purification = {
+	    major = yes
+		potential = {
+		is_year = 420
+		NOT = { is_year = 548 }
+		capital_scope = { NOT = { region = hammerfell_lr } }
+		NOT = { religion_group = daedric_group_1 }
+		}
+		allow = {
+		any_owned_province = {
+		region = hammerfell_lr
+		religion_group = daedric_group_1
+		}
+		mil_power = 100
+        }
+		effect = {
+		add_mil_power = -100
+		random_owned_province = {
+		limit = {
+		region = hammerfell_lr
+		religion_group = daedric_group_1
+		}
+		change_religion = ROOT
+		change_culture = ROOT
+		add_core = HAM
+		add_province_modifier = {
+			name = "12_local_unrest"
+			duration = 9125
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_14_purification = {
+	    major = yes
+		potential = {
+		is_year = 548
+		NOT = { is_year = 660 }
+		capital_scope = { region = hgh_rock_lr }
+		culture_group = half_blood_cg
+		religion = twelve_divines
+		}
+		allow = {
+		any_owned_province = {
+		region = hgh_rock_lr
+		culture = altmer
+		}
+		adm_power = 100
+        }
+		effect = {
+		add_adm_power = -100
+		random_owned_province = {
+		limit = {
+		region = hgh_rock_lr
+		culture = altmer
+		}
+		change_religion = ROOT
+		change_culture = ROOT
+		add_province_modifier = {
+			name = "12_local_unrest"
+			duration = 9125
+		}
 		}
 		}
 		ai_will_do = {

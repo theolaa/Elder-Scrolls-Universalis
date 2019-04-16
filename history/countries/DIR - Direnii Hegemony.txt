@@ -5,3 +5,139 @@ technology_group = tamriel_tg
 religion = altmeri_pantheon
 primary_culture = altmer
 capital = 1382
+
+369.1.1 = {
+	monarch = {
+		name = "Asliel"
+		dynasty = "Direnii"
+		birth_date = 339.1.1
+		adm = 5
+        dip = 5
+        mil = 3
+	}
+}
+
+409.1.1 = {
+	monarch = {
+		name = "Cygnus"
+		dynasty = "Direnii"
+		birth_date = 384.1.1
+		adm = 3
+        dip = 7
+        mil = 2
+	}
+}
+
+478.1.1 = {
+	monarch = {
+		name = "Ryain"
+		dynasty = "Direnii"
+		birth_date = 460.1.1
+		adm = 3
+        dip = 5
+        mil = 7
+	}
+}
+
+521.1.1 = {
+	monarch = {
+		name = "Raven"
+		dynasty = "Direnii"
+		birth_date = 494.1.1
+		adm = 5
+        dip = 4
+        mil = 5
+		female = yes
+	}
+}
+
+553.1.1 = {
+	monarch = {
+		name = "Aiden"
+		dynasty = "Direnii"
+		birth_date = 535.1.1
+		adm = 2
+        dip = 3
+        mil = 6
+	}
+}
+
+610.1.1 = {
+	monarch = {
+		name = "Pelladil"
+		dynasty = "Direnii"
+		birth_date = 591.1.1
+		adm = 6
+        dip = 5
+        mil = 3
+	}
+}
+
+688.1.1 = {
+	monarch = {
+		name = "Utheilla"
+		dynasty = "Direnii"
+		birth_date = 667.1.1
+		adm = 3
+        dip = 4
+        mil = 5
+		female = yes
+	}
+}
+
+734.1.1 = {
+	monarch = {
+		name = "Jovron"
+		dynasty = "Direnii"
+		birth_date = 716.1.1
+		adm = 2
+        dip = 5
+        mil = 4
+	}
+}
+
+781.1.1 = {
+	monarch = {
+		name = "Medora"
+		dynasty = "Direnii"
+		birth_date = 753.1.1
+		adm = 4
+        dip = 4
+        mil = 3
+		female = yes
+	}
+}
+
+812.1.1 = {
+	monarch = {
+		name = "Vorian"
+		dynasty = "Direnii"
+		birth_date = 791.1.1
+		adm = 7
+        dip = 3
+        mil = 1
+	}
+}
+
+872.1.1 = {
+	monarch = {
+		name = "Peregrine"
+		dynasty = "Direnii"
+		birth_date = 847.1.1
+		adm = 3
+        dip = 2
+        mil = 5
+		female = yes
+	}
+}
+
+907.1.1 = {
+	monarch = {
+		name = "Corvus"
+		dynasty = "Direnii"
+		birth_date = 889.1.1
+		adm = 5
+        dip = 4
+        mil = 3
+	}
+}

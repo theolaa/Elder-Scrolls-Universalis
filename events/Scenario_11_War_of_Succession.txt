@@ -11,14 +11,9 @@ country_event = {
 	trigger = {
 		is_year = 369
 		NOT = { is_year = 420 }
-		OR = {
-		tag = OLD
-		AND = {
-		NOT = { exists = OLD}
-		tag = SKY
-		}
-		}
-		
+		culture_group = northern_cg
+		owns = 1342
+		owns = 1275
     }
 
 	mean_time_to_happen = {
@@ -87,10 +82,12 @@ country_event = {
         adm = 3
         dip = 2
         mil = 5
-        age = 30
+        age = 50
         claim = 100
         }
 		}
+		
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
 	
 	option = {
@@ -159,6 +156,8 @@ country_event = {
         claim = 100
         }
 		}
+		
+		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
 	
 	option = {
@@ -384,5 +383,99 @@ province_event = {
 		name = "es_11_scenario.4.a"
 		ai_chance = { factor = 100 }
 		change_religion = dremora_pantheon 
+	}
+}
+
+country_event = {
+	id = es_11_scenario.5
+	title = es_11_scenario.5.t
+	desc = es_11_scenario.5.d
+	picture = ES_MILITARY_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 369
+		NOT = { is_year = 420 }
+		exists = WSK
+		exists = ESK
+		culture_group = cyrodiil_cg
+		owns = 1206
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_11_scenario.5.a"
+		ai_chance = { factor = 33 }
+		add_treasury = -500
+		add_manpower = -10
+		WSK = {
+		add_treasury = 500
+		add_manpower = 10
+		}
+	}
+	option = {
+		name = "es_11_scenario.5.b"
+		ai_chance = { factor = 33 }
+		add_treasury = -500
+		add_manpower = -10
+		ESK = {
+		add_treasury = 500
+		add_manpower = 10
+		}
+	}
+	option = {
+		name = "es_11_scenario.5.b"
+		ai_chance = { factor = 33 }
+		add_prestige = 5
+	}
+}
+
+country_event = {
+	id = es_11_scenario.6
+	title = es_11_scenario.6.t
+	desc = es_11_scenario.6.d
+	picture = ES_MILITARY_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 369
+		NOT = { is_year = 420 }
+		NOT = { tag = OLD }
+		culture_group = northern_cg
+		OR = {
+		owns = 1342
+		owns = 1275
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_11_scenario.5.a"
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "11_offence_doctrine"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_11_scenario.5.b"
+		ai_chance = { factor = 33 }
+		add_country_modifier = {
+		name = "11_defence_doctrine"
+		duration = 9125
+		}
+	}
+	option = {
+		name = "es_11_scenario.5.c"
+		ai_chance = { factor = 33 }
+		add_prestige = 10
 	}
 }

@@ -23,3 +23,14 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = DIR
 	add_core = DIR
 }
+
+548.1.1 = {
+    owner = HIG
+	controller = HIG
+	add_core = HIG
+}
+
+609.1.1 = {
+	culture = breton
+	religion = twelve_divines
+}

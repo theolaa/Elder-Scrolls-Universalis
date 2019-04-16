@@ -255,17 +255,26 @@ on_siege_won_country = {
 		100 = 0
 	}
 	from = {
+	    random_list = {
+		50 = {
 	    if = { 
+		    NOT = { owned_by = root }
 			limit = { base_tax = 2 }
 			add_base_tax = -1
 		}
 		if = { 
+		    NOT = { owned_by = root }
 			limit = { base_production = 2 }
 			add_base_production = -1
 		}
 		if = { 
+		    NOT = { owned_by = root }
 			limit = { base_manpower = 2 }
 			add_base_manpower = -1
+		}
+		}
+		50 = {
+		}
 		}
 	}
 }
@@ -1060,7 +1069,6 @@ on_bi_yearly_pulse = {
 		125 = streltsy_events.3
 		125 = streltsy_events.4
 		125 = streltsy_events.5
-		100 = streltsy_events.6
 
 		#Orthodox Metropolitans
 		125 = patriarch_events.1
@@ -2463,109 +2471,24 @@ on_parliament_debate_succeeded = {
 }
 
 # country
-on_harmonized_ancient_group = {
+on_harmonized_polytheistic_group = {
 	events = {
 		confucian_events.101
 	}
 }
-on_harmonized_northern_group = {
+on_harmonized_occult_group = {
 	events = {
 		confucian_events.102
 	}
 }
-on_harmonized_bosmer_group = {
+on_harmonized_elemental_group = {
 	events = {
 		confucian_events.103
 	}
 }
-on_harmonized_divines_group = {
+on_harmonized_daedric_group_1 = {
 	events = {
 		confucian_events.104
-	}
-}
-on_harmonized_khajiiti_group = {
-	events = {
-		confucian_events.105
-	}
-}
-on_harmonized_yokudan_group = {
-	events = {
-		confucian_events.106
-	}
-}
-on_harmonized_orsimer_group = {
-	events = {
-		confucian_events.107
-	}
-}
-on_harmonized_kothri_group = { #Theravada
-	events = {
-		confucian_events.108
-	}
-}
-on_harmonized_chimer_group = {
-	events = {
-		confucian_events.109
-	}
-}
-on_harmonized_sload_group = {
-	events = {
-		confucian_events.110
-	}
-}
-on_harmonized_serpant_group = {
-	events = {
-		confucian_events.111
-	}
-}
-on_harmonized_dragon_group = {
-	events = {
-		confucian_events.112
-	}
-}
-on_harmonized_marukhism_group = {
-	events = {
-		confucian_events.113
-	}
-}
-on_harmonized_hist_group = {
-	events = {
-		confucian_events.114
-	}
-}
-on_harmonized_reason_and_logic_group = {
-	events = {
-		confucian_events.115
-	}
-}
-on_harmonized_old_group = {
-	events = {
-		confucian_events.116
-	}
-}
-on_harmonized_tsaesci_group = {
-	events = {
-		confucian_events.117
-	}
-}
-on_harmonized_tang_mo_group = {
-	events = {
-		confucian_events.118
-	}
-}
-on_harmonized_kamal_group = {
-	events = {
-		confucian_events.119
-	}
-}
-on_harmonized_dremora_group = {
-	events = {
-		confucian_events.120
-	}
-}
-on_harmonized_daedric_group = {
-	events = {
-		confucian_events.121
 	}
 }
 
