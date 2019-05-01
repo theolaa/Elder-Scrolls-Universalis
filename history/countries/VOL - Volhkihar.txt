@@ -30,6 +30,7 @@ capital = 1344
 		adm = 5
 		dip = 7
 		mil = 3
+		female = yes
 	}
 	add_heir_personality = immortal_personality
 }
@@ -44,6 +45,7 @@ capital = 1344
 		adm = 7
 		dip = 3
 		mil = 5
+		female = yes
 	}
 	add_queen_personality = immortal_personality
 }

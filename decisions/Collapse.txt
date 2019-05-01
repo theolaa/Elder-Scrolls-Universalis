@@ -3,12 +3,11 @@ country_decisions = {
 	ME1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA1
 			has_global_flag = nordic_solsteim_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME1
@@ -22,12 +21,11 @@ country_decisions = {
 	ME2_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA2
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME2
@@ -41,12 +39,11 @@ country_decisions = {
 	ME3_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA3
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME3
@@ -60,12 +57,11 @@ country_decisions = {
 	CE3_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CA3
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CE3
@@ -79,12 +75,11 @@ country_decisions = {
 	CE4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CA4
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CE4
@@ -98,12 +93,11 @@ country_decisions = {
 	CE5_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CA5
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CE5
@@ -117,12 +111,11 @@ country_decisions = {
 	CE6_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CA6
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CE6
@@ -136,12 +129,11 @@ country_decisions = {
 	CF7_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CB7
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CF7
@@ -155,12 +147,11 @@ country_decisions = {
 	CF8_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = CB8
 			has_global_flag = ayleid_fall_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = CF8
@@ -174,12 +165,11 @@ country_decisions = {
 	NA1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NA1
 			has_global_flag = fall_of_white_elves_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NE1
@@ -193,12 +183,11 @@ country_decisions = {
 	NA2_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NA2
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NE2
@@ -212,12 +201,11 @@ country_decisions = {
 	NA4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NA4
 			has_global_flag = fall_of_white_elves_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NE4
@@ -231,12 +219,11 @@ country_decisions = {
 	NA5_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NA5
 			has_global_flag = fall_of_white_elves_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NE5
@@ -250,12 +237,11 @@ country_decisions = {
 	NF0_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NB0
 			has_global_flag = fall_of_white_elves_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NF0
@@ -269,12 +255,11 @@ country_decisions = {
 	NF1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NB1
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NF1
@@ -288,12 +273,11 @@ country_decisions = {
 	HE1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA1
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE1
@@ -307,12 +291,11 @@ country_decisions = {
 	HE2_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA2
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE2
@@ -326,12 +309,11 @@ country_decisions = {
 	HE3_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA3
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE3
@@ -345,12 +327,11 @@ country_decisions = {
 	HE4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA4
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE4
@@ -364,12 +345,11 @@ country_decisions = {
 	HE5_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA5
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE5
@@ -383,12 +363,11 @@ country_decisions = {
 	HE6_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA6
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE6
@@ -402,12 +381,11 @@ country_decisions = {
 	HE7_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA7
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE7
@@ -421,12 +399,11 @@ country_decisions = {
 	HE8_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA8
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE8
@@ -440,12 +417,11 @@ country_decisions = {
 	HE9_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HA9
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HE9
@@ -459,12 +435,11 @@ country_decisions = {
 	HF0_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HB0
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HF0
@@ -478,12 +453,11 @@ country_decisions = {
 	HF1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HB1
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HF1
@@ -497,12 +471,11 @@ country_decisions = {
 	HF2_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HB2
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HF2
@@ -516,12 +489,11 @@ country_decisions = {
 	HF3_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HB3
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HF3
@@ -535,12 +507,11 @@ country_decisions = {
 	HF4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = HB4
 			has_global_flag = redguard_migration_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = HF4
@@ -554,12 +525,11 @@ country_decisions = {
 	BE1_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = BA1
 			has_global_flag = fall_of_direnii_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = BE1
@@ -573,12 +543,11 @@ country_decisions = {
 	BE2_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = BA2
 			has_global_flag = fall_of_direnii_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = BE2
@@ -592,12 +561,11 @@ country_decisions = {
 	BE3_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = BA3
 			has_global_flag = fall_of_direnii_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = BE3
@@ -611,12 +579,11 @@ country_decisions = {
 	BE4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = BA4
 			has_global_flag = fall_of_direnii_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = BE4
@@ -630,12 +597,11 @@ country_decisions = {
 	ME4_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA4
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME4
@@ -649,12 +615,11 @@ country_decisions = {
 	ME5_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA5
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME5
@@ -668,12 +633,11 @@ country_decisions = {
 	ME6_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA6
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME6
@@ -687,12 +651,11 @@ country_decisions = {
 	ME7_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = MA7
 			has_global_flag = dwemer_dissapearence_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = ME7
@@ -706,12 +669,11 @@ country_decisions = {
 	NE6_nation = {
 		major = yes
 		potential = {
-		    ai = yes
 			tag = NA6
 			has_global_flag = fall_of_white_elves_flag
 		}
 		allow = {
-			ai = yes
+			always = yes
 		}
 		effect = {
 			change_tag = NE6

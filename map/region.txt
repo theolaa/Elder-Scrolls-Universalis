@@ -22,9 +22,9 @@ dead_white_sea_sr = {
  }
 }
 
-sea_of_yqtwer_sr = {
+sea_of_deathlands_sr = {
  areas = {
- sea_of_yqtwer_sa
+ sea_of_deathlands_sa
  }
 }
 
@@ -34,9 +34,9 @@ aetherial_sea_sr = {
  } 
 }
 
-sea_of_sulvan_sr = {
+sea_of_old_harbour_sr = {
  areas = {
- sea_of_sulvan_sa
+ sea_of_old_harbour_sa
  }
 }
 
@@ -94,9 +94,9 @@ southern_summerset_sea_sr = {
  }
 }
 
-eltheric_sea_sr = {
+lygian_sea_sr = {
  areas = {
- eltheric_sea_sa
+ lygian_sea_sa
  }
 }
 
@@ -112,9 +112,21 @@ southern_coast_of_tamriel_sea_sr = {
  }
 }
 
-padomaic_sea_sr = {
+aldmeris_sea_sr = {
  areas = {
- padomaic_sea_sa
+ aldmeris_sea_sa
+ }
+}
+
+western_aldmeris_lakes_sr = {
+ areas = {
+ western_aldmeris_lakes_sa
+ }
+}
+
+estern_aldmeris_lakes_sr = {
+ areas = {
+ estern_aldmeris_lakes_sa
  }
 }
 
@@ -130,21 +142,39 @@ black_marsh_lakes_sr = {
  }
 }
 
-tropical_sea_sr = {
+northern_shivering_sea_sr = {
  areas = {
- tropical_sea_sa
+ northern_shivering_sea_sa
  }
 }
 
-sea_of_ratel_sr = {
+southern_shivering_sea_sr = {
  areas = {
- sea_of_ratel_sa
+ southern_shivering_sea_sa
+ }
+}
+
+western_daedric_sea_sr = {
+ areas = {
+ western_daedric_sea_sa
+ }
+}
+
+eastern_daedric_sea_sr = {
+ areas = {
+ eastern_daedric_sea_sa
  }
 }
 
 ever_frozen_sea_sr = {
  areas = {
  ever_frozen_sea_sa
+ }
+}
+
+transkamalian_sea_sr = {
+ areas = {
+ transkamalian_sea_sa
  }
 }
 
@@ -196,6 +226,12 @@ new_sea_lr = {
  }
 }
 
+ko_ra_sea_lr = {
+ areas = {
+ ko_ra_sea_la
+ }
+}
+
 pyandonea_lr = {
  areas = {
  pyandonea_1_la
@@ -205,6 +241,14 @@ pyandonea_lr = {
  pyandonea_5_la
  pyandonea_6_la
  pyandonea_7_la
+ pyandonea_8_la
+ pyandonea_9_la
+ pyandonea_10_la
+ pyandonea_11_la
+ pyandonea_12_la
+ pyandonea_13_la
+ pyandonea_14_la
+ pyandonea_15_la
  }
  monsoon = {
 		00.06.01
@@ -243,6 +287,10 @@ yokuda_lr = {
  yokuda_6_la
  yokuda_7_la
  yokuda_8_la
+ yokuda_9_la
+ yokuda_10_la
+ yokuda_11_la
+ yokuda_12_la
  }
  monsoon = {
 		00.06.01
@@ -262,6 +310,28 @@ atmora_lr = {
  atmora_8_la
  atmora_9_la
  atmora_10_la
+ atmora_11_la
+ atmora_12_la
+ atmora_13_la
+ atmora_14_la
+ atmora_15_la
+ atmora_16_la
+ atmora_17_la
+ atmora_18_la
+ atmora_19_la
+ atmora_20_la
+ atmora_21_la
+ atmora_22_la
+ atmora_23_la
+ atmora_24_la
+ atmora_25_la
+ atmora_26_la
+ atmora_27_la
+ atmora_28_la
+ atmora_29_la
+ atmora_30_la
+ atmora_31_la
+ atmora_32_la
  }
 }
 
@@ -277,6 +347,10 @@ southern_kamal_lr = {
  kamal_8_la
  kamal_9_la
  kamal_10_la
+ kamal_22_la
+ kamal_23_la
+ kamal_24_la
+ kamal_25_la
  }
 }
 
@@ -293,6 +367,17 @@ northern_kamal_lr = {
  kamal_19_la
  kamal_20_la
  kamal_21_la
+ kamal_26_la
+ kamal_27_la
+ kamal_28_la
+ kamal_29_la
+ kamal_30_la
+ }
+}
+
+black_mountain_lr = {
+ areas = {
+ black_mountain_la
  }
 }
 
@@ -333,6 +418,8 @@ po_tun_lr = {
  po_tun_10_la
  po_tun_11_la
  po_tun_12_la
+ po_tun_13_la
+ po_tun_14_la
  }
  monsoon = {
 		00.06.01
@@ -375,6 +462,8 @@ upper_tsakara_lr = {
  upper_tsakara_10_la
  upper_tsakara_11_la
  upper_tsakara_12_la
+ upper_tsakara_13_la
+ upper_tsakara_14_la
  }
 }
 

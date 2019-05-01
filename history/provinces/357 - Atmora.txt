@@ -20,5 +20,4 @@ fort_15th = yes
 	owner = DRA
 	controller = DRA
 	add_core = DRA
-	religion = dragon_cult
 }

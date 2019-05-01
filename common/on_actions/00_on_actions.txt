@@ -258,18 +258,24 @@ on_siege_won_country = {
 	    random_list = {
 		50 = {
 	    if = { 
-		    NOT = { owned_by = root }
-			limit = { base_tax = 2 }
+			limit = {
+			NOT = { owned_by = root }
+			base_tax = 2 
+			}
 			add_base_tax = -1
 		}
 		if = { 
-		    NOT = { owned_by = root }
-			limit = { base_production = 2 }
+			limit = {
+			NOT = { owned_by = root }
+			base_production = 2
+			}
 			add_base_production = -1
 		}
 		if = { 
-		    NOT = { owned_by = root }
-			limit = { base_manpower = 2 }
+			limit = { 
+			NOT = { owned_by = root }
+			base_manpower = 2
+			}
 			add_base_manpower = -1
 		}
 		}

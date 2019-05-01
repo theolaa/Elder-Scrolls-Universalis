@@ -43,44 +43,6 @@ BAV_ideas = {
 	}
 }
 
-AYU_ideas = {
-	start = {
-		religious_unity = 0.20
-		num_accepted_cultures = 1
-	}
-	
-	bonus = {
-		vassal_income = 0.25
-	}
-	
-	trigger = {
-		tag = AYU
-	}
-	free = yes
-	
-	white_elephant = {
-		global_tax_modifier = 0.10
-	}
-	corvee_system = {
-		global_manpower_modifier = 0.10
-	}
-	ayu_foreign_mercenaries = {
-		merc_maintenance_modifier = -0.15
-	}
-	ayu_embassies = {
-		diplomats = 1
-	}
-	trading_links = {
-		trade_range_modifier = 0.20
-	}
-	personal_executions = {
-		stability_cost_modifier = -0.1
-	}
-	phrai_luang = {
-		global_unrest = -1
-	}
-}
-
 ITA_ideas = {
 	start = {
 		global_trade_power = 0.20
@@ -526,86 +488,6 @@ SWI_ideas = {
 		production_efficiency = 0.1
 	}
 }
-
-
-SON_ideas = {
-	start = {
-		infantry_power = 0.1
-		army_tradition = 0.5
-	}
-	
-	bonus = {
-		discipline = 0.05
-	}
-	
-	trigger = {
-		tag = SON
-	}
-	free = yes		#will be added at load
-
-	gold_to_salt_trade =  {
-		global_trade_power = 0.1
-	}
-	independence_from_mali = {
-		defensiveness = 0.15
-	}
-	jihad_against_the_pagans = {
-		land_morale = 0.10
-	}
-	sankore_madrassah = {
-		global_institution_spread = 0.1
-	}
-	the_hajj = {
-		prestige = 1
-	}
-	sharia = {
-		tolerance_own = 2
-	}
-	trans_sahara_trade = {
-		caravan_power = 0.2
-	}
-}
-
-
-BRI_ideas = {
-	start = {
-		navy_tradition = 1
-		trade_steering = 0.10
-	}
-	
-	bonus = {
-		naval_forcelimit_modifier = 0.25
-	}
-	
-	trigger = {
-		tag = BRI
-	}
-	free = yes
-	
-	legacy_of_breton_independence = {
-		enemy_core_creation = 0.25
-	}
-	estates_of_brittany = {
-		global_unrest = -1		
-	}
-	breton_march = {
-		defensiveness = 0.2
-	}
-	breton_catholicism = {
-		papal_influence = 2
-		global_missionary_strength = 0.01
-	}
-	protect_the_coastline = {
-		global_ship_cost = -0.1
-	}
-	league_of_the_public_weal = {
-		diplomatic_reputation = 1
-	}
-	catholicon = {
-		prestige = 1
- 	}
-}
-
 
 NAJ_ideas = {
 	start = {
@@ -1179,48 +1061,6 @@ TRE_ideas = {
 	}
 	greek_scholars_abroad = {
 		spy_offence = 0.2
-	}
-}
-
-GEO_ideas = {
-	start = {
-		defensiveness = 0.25
-		infantry_power = 0.1
-	}
-	
-	bonus = {
-		infantry_cost = -0.2
-	}
-	
-	trigger = {
-		OR = {
-			tag = GEO
-			tag = IME
-		}
-	}
-	free = yes
-	
-	bagrationi_dynasty = {
-		heir_chance = 0.5
-		legitimacy = 0.5
-	}
-	georgian_isolation = {
-		improve_relation_modifier = 0.3
-	}
-	geo_legacy_of_saint_nino = {
-		tolerance_own = 2
-	}
-	restoration_of_fortresses_and_churches = {
-		build_cost = -0.1
-	}
-	sadrosho_districts = {
-		manpower_recovery_speed = 0.2
-	}
-	geo_dasturlamali = {
-		war_exhaustion = -0.02
-	}
-	georgian_embassies = {
-		diplomatic_reputation = 1
 	}
 }
 
@@ -10250,42 +10090,6 @@ ILK_ideas = {
 	}
 	ilk_recruit_turkoman_gunners = {
 		fire_damage = 0.1
-	}
-}
-
-SYN_ideas = {
-	start = {
-		global_regiment_cost = -0.85
-		fire_damage_received = 0.5
-	}
-	bonus = {
-		production_efficiency = 0.15
-	}
-	trigger = {
-		tag = SYN
-	}
-	free = yes
-	synth_logic_engines = {
-		technology_cost = -0.25
-	}
-	synth_loyalty_circuits = {
-		land_morale = 0.2
-	}
-	synth_durable = {
-		shock_damage_received = -0.25
-	}
-	synth_mass_produced = {
-		land_forcelimit_modifier = 0.25
-		global_regiment_recruit_speed = -0.25
-	}
-	synth_propaganda_machines = {
-		ae_impact = -0.2
-	}
-	synth_harvesters = {
-		global_tax_modifier = 0.2
-	}
-	synth_emotion_emulators = {
-		diplomatic_reputation = 1
 	}
 }
 

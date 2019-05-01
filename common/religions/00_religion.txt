@@ -224,11 +224,11 @@ polytheistic_group = {
 		color = { 24 122 14 }
 		icon = 11
 		country = {
-			army_tradition_decay = -0.10
+			army_tradition_decay = -0.01
 	        defensiveness = 0.10
 		}
 		country_as_secondary = {
-			army_tradition_decay = -0.10
+			army_tradition_decay = -0.01
 	        defensiveness = 0.10
 		}
 		province = {

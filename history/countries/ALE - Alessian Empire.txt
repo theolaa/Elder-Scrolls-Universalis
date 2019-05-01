@@ -50,10 +50,23 @@ capital = 1221
 		name = "Belharza"
 		dynasty = "Man-Bull"
 		culture = dremora
+		birth_date = 242.1.1
 		adm = 5
 		dip = 3
 		mil = 7
 	}
 	
 	capital = 1206
+}
+
+312.1.1 = {
+	monarch = {
+		name = "Lysteth"
+		dynasty = "Man-Bull"
+		culture = nedic
+		birth_date = 291.1.1
+		adm = 2
+		dip = 4
+		mil = 3
+	}
 }

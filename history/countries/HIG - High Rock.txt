@@ -9,4 +9,67 @@ capital = 1394
 609.1.1 = {
     capital = 1369
 	religion = twelve_divines
+	monarch = {
+		name = "Thagore"
+		dynasty = "Daggerfall"
+		birth_date = 588.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+653.1.1 = {
+	monarch = {
+		name = "Petis"
+		dynasty = "Daggerfall"
+		birth_date = 635.1.1
+		adm = 5
+		dip = 3
+		mil = 4
+	}
+}
+
+705.1.1 = {
+	monarch = {
+		name = "Alenneond"
+		dynasty = "Daggerfall"
+		birth_date = 684.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+734.1.1 = {
+	monarch = {
+		name = "Lirinne"
+		dynasty = "Daggerfall"
+		birth_date = 716.1.1
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+768.1.1 = {
+	monarch = {
+		name = "Frannd"
+		dynasty = "Daggerfall"
+		birth_date = 766.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+
+792.1.1 = {
+	monarch = {
+		name = "Clauore"
+		dynasty = "Daggerfall"
+		birth_date = 774.1.1
+		adm = 5
+		dip = 3
+		mil = 2
+	}
 }

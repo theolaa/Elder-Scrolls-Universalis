@@ -94,13 +94,36 @@ fall_of_white_elves_flag
 redguard_migration_flag
 fall_of_direnii_flag
 
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int i;
+for(i=2027;i<2096;i++)
+cout<<i<<" ";
+	return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+	int i;
+for(i=2027;i<2096;i++)
+cout<<"PROV"<<i<<":0 #"<<endl;
+	return 0;
+}
+
 Dynasties:
 - Valenwood
 - Skyrim
-- Alessian
 - Direnii
 - Order
 - Kvatch
+- High Rock
+- Yokuda
 
 + advisor portraits
 + ages - localization and pictures
@@ -109,16 +132,17 @@ Dynasties:
 + random events - dragon sanctuary
 + culture/religion appearing system
 
-+++ HIGH ROCK - 12 Divines, Nibenay valley, King Thagore elections, fall of direnii flag
++ Force Vassal CB - Colonies
++ balance Dragon Cult
++ country collapse problem
++ age mechanics
++ terrain bonuses
++ technology mechanics
++ Colours problem
 
-The Coral Kingdom:
-7th CenturyEdit
-1E 609Edit
-King Thagore of Daggerfall defeats the army of Glenpoint.[2]
-Daggerfall becomes "the preeminent economic, cultural, and military force in southern High Rock, a position the kingdom has precariously kept ever since."[2]
-Mansel Sesnit becomes prominent in Redguard society.[30]
-1E 617Edit
-Mansel Sesnit is assassinated, and a commoner takes over the government. Randic Torn continues Sesnit's work, solidifying much of the Empire.[30]
++ lakes problem
+
+ESU_BETA_TEST_15_04_2019
 
 1E 660Edit
 Mauloch is defeated at the Battle of Dragon Wall at this time, and legend credits the eruption of Red Mountain eight years later to his ensuing rage.[43][20]
@@ -161,6 +185,7 @@ It is suggested that Wayrest was founded at around this time.[53]
 Redguards arrive in the Iliac Bay and Daggerfall area after fleeing their sinking homeland.[37][54]
 1E 808Edit
 Ra Gada (Warrior Wave) from Yokuda arrive in Volenfell.[3][9][39][52][55][56]
+
 1E 874Edit
 Thulgeg's army of Orcs and Goblins are forced to flee northeast after being stopped at Bangkorai Pass.[57]
 10th CenturyEdit

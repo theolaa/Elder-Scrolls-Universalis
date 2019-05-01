@@ -6,10 +6,10 @@ country_event = {
 	desc = es_start.1.d
 	picture = ES_START_eventPicture
 	
-	fire_only_once = yes
 
 	trigger = {
 	ai = no
+	NOT = { has_country_flag = es_start_ai_no_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -104,6 +104,16 @@ country_event = {
 		}
 		set_country_flag = arrow_in_the_knee_flag
 		}
+		
+		every_owned_province = {
+		remove_estate = estate_church
+		remove_estate = estate_nobles
+		remove_estate = estate_burghers
+		remove_estate = estate_cossacks
+		remove_estate = estate_nomadic_tribes
+		}
+		
+		set_country_flag = es_start_ai_no_flag
 	}
 	
 	
@@ -117,11 +127,10 @@ country_event = {
 	title = es_start.1.t
 	desc = es_start.1.d
 	picture = ES_START_eventPicture
-	
-	fire_only_once = yes
 
 	trigger = {
 	tag = RED
+	NOT = { has_country_flag = es_start_red_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -163,8 +172,10 @@ country_event = {
 					name = "ever-ashland"
 					duration = -1
 			    }
-		}			
+		}		
         }
+		
+		set_country_flag = es_start_red_flag
 	}
 	
 	
@@ -178,11 +189,10 @@ country_event = {
 	title = es_start.1.t
 	desc = es_start.1.d
 	picture = ES_START_eventPicture
-	
-	fire_only_once = yes
 
 	trigger = {
 	ai = yes
+	NOT = { has_country_flag = es_start_ai_yes_flag }
 	}
 	
 	mean_time_to_happen = {
@@ -244,6 +254,15 @@ country_event = {
 		    discover_country = ROOT
 		}
 		}
+		every_owned_province = {
+		remove_estate = estate_church
+		remove_estate = estate_nobles
+		remove_estate = estate_burghers
+		remove_estate = estate_cossacks
+		remove_estate = estate_nomadic_tribes
+		}
+		
+		set_country_flag = es_start_ai_yes_flag
 	}
 	
 	

@@ -24,6 +24,7 @@ country_event = {
 		is_emperor_of_china = no
 		is_emperor = no
 		NOT = { tag = RED }
+		NOT = { tag = BLA }
 		is_colonial_nation = no
 	}
 	

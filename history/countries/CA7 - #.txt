@@ -18,3 +18,36 @@ capital = 1150
         mil = 7
 	}
 }
+
+525.1.1 = {
+	monarch = {
+		name = "Blacilius"
+		dynasty = "Larich"
+		birth_date = 507.1.1
+		adm = 4
+        dip = 3
+        mil = 5
+	}
+}
+
+566.1.1 = {
+	monarch = {
+		name = "Krexarnian"
+		dynasty = "Larich"
+		birth_date = 547.1.1
+		adm = 3
+        dip = 2
+        mil = 3
+	}
+}
+
+609.1.1 = {
+	monarch = {
+		name = "Laenich"
+		dynasty = "Larich"
+		birth_date = 588.1.1
+		adm = 7
+        dip = 5
+        mil = 5
+	}
+}

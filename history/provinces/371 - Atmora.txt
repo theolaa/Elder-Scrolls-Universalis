@@ -11,16 +11,3 @@ base_manpower = 1
 capital = "Braras"
 is_city = yes
 discovered_by = atmora_tg
-
-65.1.1 = {
-	owner = DRA
-	controller = DRA
-	add_core = DRA
-}
-
-109.1.1 = {
-	owner = DA7
-	controller = DA7
-	add_core = DA7
-	religion = nordic_pantheon
-}

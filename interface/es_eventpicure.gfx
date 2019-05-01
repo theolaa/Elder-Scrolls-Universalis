@@ -444,4 +444,28 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	
+	spriteType = {
+		name = "ES_ASSASIN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ASSASIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_CROWD1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_CROWD1_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_THRAS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_THRAS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ASSEMBLY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ASSEMBLY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+
 }

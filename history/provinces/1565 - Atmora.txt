@@ -16,5 +16,4 @@ discovered_by = atmora_tg
 	owner = DRA
 	controller = DRA
 	add_core = DRA
-	religion = dragon_cult
 }

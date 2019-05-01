@@ -155,7 +155,6 @@ country_event = {
 		NOT = { is_year = 242 }
         culture_group = northern_cg
 		owns = 1275
-		has_dlc = "Dharma"
 		government = monarchy
 		NOT = { has_reform = elective_monarchy }
     }

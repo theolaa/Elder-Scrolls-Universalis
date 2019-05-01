@@ -143,6 +143,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = THR }
+			NOT = { tag = COR }
 			primary_culture = sload
 			NOT = { has_country_flag = formed_thr_flag }
 		}
@@ -796,6 +797,9 @@ country_decisions = {
 		potential = {
 			NOT = { exists = ALE }
 			NOT = { government = theocracy }
+			NOT = { tag = ORD }
+			NOT = { tag = CYR }
+			NOT = { tag = TAM }
 			primary_culture = nedic
 			NOT = { has_country_flag = formed_ale_flag }
 		}
@@ -2568,6 +2572,51 @@ country_decisions = {
 					NOT = { government_rank = 3 }
 				}
 				set_government_rank = 3
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	coral_kingdom_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = COR }
+			primary_culture = sload
+			NOT = { has_country_flag = formed_cor_flag }
+		}
+		provinces_to_highlight = {
+			province_id = 323		
+			province_id = 271
+			province_id = 335
+			province_id = 1510
+			province_id = 284
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 323		
+			owns_core_province = 271
+			owns_core_province = 335
+			owns_core_province = 1510
+			owns_core_province = 284
+		}
+		effect = {
+			change_tag = COR
+			set_country_flag = formed_cor_flag
+			#
+			if = {
+				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"

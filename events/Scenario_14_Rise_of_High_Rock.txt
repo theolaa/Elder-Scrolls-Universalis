@@ -126,7 +126,7 @@ country_event = {
         adm = 3
         dip = 3
         mil = 5
-        age = 30
+        age = 21
         claim = 100
         }
 	}
@@ -139,7 +139,7 @@ country_event = {
         adm = 5
         dip = 3
         mil = 3
-        age = 30
+        age = 21
         claim = 100
         }
 	}

@@ -1,7 +1,120 @@
 type={
+	type="imperial_city"
+	use_animation=no
+	scale=5.000000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
+	object={
+		name="imperial_city"
+		hidden_on_start=no
+		position={
+			1442.000 0.000 1619.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
+	type="frame_top_left_entity"
+	use_animation=no
+	always_visible=yes
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			0.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			512.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			1024.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			2048.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			1536.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			3072.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			2560.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+	object={
+		name="frame_top_left_entity05"
+		hidden_on_start=no
+		position={
+			3584.000 18.000 2816.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+type={
 	type="frame_bottom_left_entity"
 	use_animation=no
 	always_visible=yes
+	object={
+		name="frame_top_left_entity"
+		hidden_on_start=no
+		position={
+			512.000 18.000 1.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
 	object={
 		name="frame_top_left_entity"
 		hidden_on_start=no
@@ -17,16 +130,6 @@ type={
 		hidden_on_start=no
 		position={
 			1024.000 18.000 1.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity"
-		hidden_on_start=no
-		position={
-			512.000 18.000 1.000 
 		}
 		rotation={
 			0.000 0.000 0.000 
@@ -112,91 +215,6 @@ type={
 		hidden_on_start=no
 		position={
 			5120.000 18.000 1.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-}
-type={
-	type="frame_top_left_entity"
-	use_animation=no
-	always_visible=yes
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			0.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			3072.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			512.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			1024.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			2560.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			2048.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			1536.000 18.000 2816.000 
-		}
-		rotation={
-			0.000 0.000 0.000 
-		}
-	}
-	object={
-		name="frame_top_left_entity05"
-		hidden_on_start=no
-		position={
-			3584.000 18.000 2816.000 
 		}
 		rotation={
 			0.000 0.000 0.000 

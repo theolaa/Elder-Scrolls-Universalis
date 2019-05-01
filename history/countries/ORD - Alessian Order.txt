@@ -6,6 +6,36 @@ religion = marukhism
 primary_culture = nedic
 capital = 1206
 
+369.1.1 = {
+	monarch = {
+		name = "Ridravin"
+		birth_date = 330.1.1
+		adm = 3
+        dip = 5
+        mil = 4
+	}
+}
+
+389.1.1 = {
+	monarch = {
+		name = "Nharmok"
+		birth_date = 364.1.1
+		adm = 5
+        dip = 3
+        mil = 7
+	}
+}
+
+434.1.1 = {
+	monarch = {
+		name = "Bauvmith"
+		birth_date = 419.1.1
+		adm = 2
+        dip = 1
+        mil = 1
+	}
+}
+
 478.1.1 = {
     government = monarchy
 	monarch = {
@@ -14,6 +44,50 @@ capital = 1206
 		birth_date = 443.1.1
 		adm = 3
         dip = 5
+        mil = 4
+	}
+}
+
+508.1.1 = {
+	monarch = {
+		name = "Zerlec"
+		dynasty = "Alessian"
+		birth_date = 489.1.1
+		adm = 4
+        dip = 5
+        mil = 3
+	}
+}
+
+548.1.1 = {
+	monarch = {
+		name = "Yhin"
+		dynasty = "Alessian"
+		birth_date = 530.1.1
+		adm = 5
+        dip = 7
+        mil = 7
+	}
+}
+
+570.1.1 = {
+	monarch = {
+		name = "Rukec"
+		dynasty = "Alessian"
+		birth_date = 545.1.1
+		adm = 3
+        dip = 5
+        mil = 5
+	}
+}
+
+609.1.1 = {
+	monarch = {
+		name = "Vinhylak"
+		dynasty = "Alessian"
+		birth_date = 545.1.1
+		adm = 5
+        dip = 3
         mil = 4
 	}
 }

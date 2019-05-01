@@ -99,8 +99,41 @@ capital = 820
 		name = "Thaurron"
 		dynasty = "Camoran"
 		birth_date = 481.1.1
-		adm = 3
-		dip = 5
+		adm = 4
+		dip = 2
+		mil = 5
+	}
+}
+
+555.1.1 = {
+    monarch = {
+		name = "Dornlake"
+		dynasty = "Camoran"
+		birth_date = 531.1.1
+		adm = 2
+		dip = 1
 		mil = 3
+	}
+}
+
+580.1.1 = {
+    monarch = {
+		name = "Dornlake"
+		dynasty = "Camoran"
+		birth_date = 557.1.1
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+609.1.1 = {
+    monarch = {
+		name = "Allihor"
+		dynasty = "Camoran"
+		birth_date = 591.1.1
+		adm = 4
+		dip = 5
+		mil = 1
 	}
 }

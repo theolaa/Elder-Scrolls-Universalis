@@ -43,6 +43,8 @@
  13_anti-alessian_reforms:0 "Anti-Alessian Reforms"
  13_internal_instability:0 "Internal Instability"
  14_intolerance:0 "Intolerance"
+ 15_coral_trade:0 "Coral Trade"
+ 15_glenpoint_assembly:0 "Glenpoint Assembly"
  00_far_legend:0 "Far Legend"
  00_tamrilian_tractates:0 "Tamrilian Tractates"
  
@@ -590,3 +592,26 @@
  
  es_14_purification_title:0 "Evict Altmeri Citizens"
  es_14_purification_desc:0 " "
+ 
+ CORAL_KINGDOM:0 "Coral Kingdom"
+ CORAL_KINGDOM_DESC:0 "Thras is an archipelago, forever surrounded by legends and tales. Since the time of the Merethic Era, it has been inhabited by the Sloads, a mysterious race that left the seabed at the times when the elves did not colonised the Summerset Islands. The coral reefs of Thras provide isolation of the region, however, they prohibit the further expansion of Sloads, which, however, did not prevent them from devastating attacks on the nearby lands. But now the the elven hegemony in the Western Ocean has come to an end with the cede of High Rock to Bretons, and the Sloads got a chance to remind of themselves again and realize their ancient dream of founding the Coral Kingdom in the middle of the warm waters of Nirn."
+ 
+ es_15_scenario.1.t:0 "Glenpoint Assembly"
+ es_15_scenario.1.d:0 "Riots continue in Glenpoint caused by discontent of merchants and industrialists. They believe that our government is too centralized and is obliged not to interfere in such eonomic areas as trade. Today, protesters organized an assembly to coordinate their actions and put forward a final list of demands. In the event of non-compliance with the requirements of these requirements, the Glenpoints Assembly threatens to provoke unrest throughout the country."
+ es_15_scenario.1.a:0 "Send the army to Glenpoint now!"
+ es_15_scenario.1.b:0 "Fulfill the demands of the protesters."
+ 
+ es_15_scenario.2.t:0 "Rise of the Coral Kingdom"
+ es_15_scenario.2.d:0 "For centuries, we were content with little and lived in harmony with the nature around us. However, the lower land civilizations are increasingly developing the ocean - our native home, which leaves us no choice. We can no longer oversee how they desecrate our ancestor - it's time to fulfill the prophecy and establish the Coral Kingdom of Thras!"
+ es_15_scenario.2.a:0 "Glory to Coral Kingdom!"
+ es_15_scenario.2.b:0 "We already rule this world via trade and sea!"
+ 
+ es_15_scenario.3.t:0 "Mansel Sesnit"
+ es_15_scenario.3.d:0 "Our society has always been divided into eternally warring clans. However, now a new talented and ambitious player, Mansel Sesnit, has gathered in the political arena, gathering around himself powerful like-minded people. If we directly transfer to him the throne, the throne, then we will start a new Empire, in the head of which our country will rise, otherwise he definetly will start a war against us."
+ es_15_scenario.3.a:0 "Long live Mansel Sesnit!"
+ es_15_scenario.3.b:0 "We will never cede our throne!"
+ 
+ es_15_scenario.4.t:0 "Tragedy in Royal Palace"
+ es_15_scenario.4.d:0 "That night the irreparable happened - an assassin penetrated the chambers of Masel Sesnit and stabbed him while he was sleeping. As soon as news of our leader’s tragic death was spread around the country, a crowd led by Randik Thorn, a commoner, asserting that he was the rightful heir to the throne, began to gather in the square, for the deceased himself bequeathed that way. Randik is clearly suffering from mental illness, but he has a great influence on the crowd."
+ es_15_scenario.4.a:0 "Glory to Randik Thorn!"
+ es_15_scenario.4.b:0 "Execute him for treason!"

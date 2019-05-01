@@ -41,9 +41,9 @@ northern_ocean_superregion = {
 	sea_of_ghosts_sr
 	sea_of_storms_sr
 	dead_white_sea_sr
-	sea_of_yqtwer_sr
+	sea_of_deathlands_sr
 	aetherial_sea_sr
-	sea_of_sulvan_sr
+	sea_of_old_harbour_sr
 }
 
 eastern_ocean_superregion = {
@@ -72,14 +72,18 @@ western_ocean_superregion = {
     sundered_sea_sr
 	northern_summerset_sea_sr
 	southern_summerset_sea_sr
-	eltheric_sea_sr
+	lygian_sea_sr
 	pyandonea_sea_sr
 }
 
 southern_ocean_superregion = {
-   padomaic_sea_sr
-   tropical_sea_sr
-   sea_of_ratel_sr
+   aldmeris_sea_sr
+   western_aldmeris_lakes_sr
+   estern_aldmeris_lakes_sr
+   northern_shivering_sea_sr
+   southern_shivering_sea_sr
+   western_daedric_sea_sr
+   eastern_daedric_sea_sr
    ever_frozen_sea_sr
    dread_sea_sr
 }

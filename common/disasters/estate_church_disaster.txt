@@ -1,7 +1,6 @@
 estate_church_disaster = {
 	potential = {
 		has_estate = estate_church
-		ai = no
 	}
 
 

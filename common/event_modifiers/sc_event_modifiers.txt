@@ -16,7 +16,7 @@ antibankrapucy = {
 
 01_focus_on_war = {
     land_morale = 0.10
-	global_spy_offence = 0.15
+	spy_offence = 0.15
 	global_regiment_cost = -0.15
 	reduced_liberty_desire = -15
 	stability_cost_modifier = 0.25
@@ -282,6 +282,18 @@ antibankrapucy = {
     stability_cost_modifier = 1.0
     tolerance_heretic = -3
 	tolerance_heathen = -5
+}
+
+15_coral_trade = {
+    trade_efficiency = 0.25
+	trade_steering = 0.15
+	global_trade_goods_size_modifier = 0.10
+}
+
+15_glenpoint_assembly = {
+    local_manpower_modifier = 0.75
+    local_unrest = 5
+	trade_goods_size = -0.25
 }
 
 00_tamrilian_tractates = {

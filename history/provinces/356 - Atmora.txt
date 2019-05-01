@@ -12,9 +12,8 @@ capital = "Jylkurfyk"
 is_city = yes
 discovered_by = atmora_tg
 
-109.1.1 = {
+65.1.1 = {
 	owner = DRA
 	controller = DRA
 	add_core = DRA
-	religion = dragon_cult
 }

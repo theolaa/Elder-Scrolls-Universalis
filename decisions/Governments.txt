@@ -16,6 +16,7 @@ country_decisions = {
 			full_idea_group = economic_ideas
 			is_at_war = no 
 			is_subject = no
+			NOT = { primitives = yes }
 		}
 		effect = {
 		    add_stability = -3
@@ -42,6 +43,7 @@ country_decisions = {
 			full_idea_group = diplomatic_ideas
 			is_at_war = no 
 			is_subject = no
+			NOT = { primitives = yes }
 		}
 		effect = {
 		    add_stability = -3
@@ -66,6 +68,7 @@ country_decisions = {
 			full_idea_group = expansion_ideas
 			is_at_war = no 
 			is_subject = no
+			NOT = { primitives = yes }
 		}
 		effect = {
 		    add_stability = -3

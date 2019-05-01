@@ -65,7 +65,6 @@ country_event = {
 		culture_group = northern_cg
 		owns = 1342
 		owns = 1275
-		has_dlc = "Dharma"
 		government = monarchy
 		NOT = { has_reform = elective_monarchy }
     }

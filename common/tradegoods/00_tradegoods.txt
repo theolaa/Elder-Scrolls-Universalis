@@ -238,14 +238,14 @@ fish = {
 			NOT = { has_port = yes }
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.15
 			OR = {
 				has_terrain = coastline
 				has_terrain = coastal_desert
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.25
 			has_terrain = glacier
 		}
 	}
@@ -529,7 +529,7 @@ tea = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.25
 			has_terrain = farmlands
 		}
 		modifier = {
@@ -1236,7 +1236,7 @@ algae = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.25
 			has_terrain = glacier
 		}
 	}
@@ -1257,6 +1257,10 @@ corals = {
 			NOT = { has_port = yes }
 		}
 		modifier = {
+			factor = 5
+			area = yokuda_1_la
+		}
+		modifier = {
 			factor = 1.5
 			OR = {
 				has_terrain = coastline
@@ -1264,7 +1268,7 @@ corals = {
 			}
 		}
 		modifier = {
-			factor = 1.2
+			factor = 1.25
 			has_terrain = glacier
 		}
 	}
@@ -1389,7 +1393,7 @@ manganates = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.15
 			OR = {
 				has_terrain = mountain
 				has_terrain = highlands
@@ -1419,7 +1423,7 @@ light_metals = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.15
 			OR = {
 				has_terrain = mountain
 				has_terrain = highlands
@@ -1454,7 +1458,7 @@ wood = {
 			}
 		}
 		modifier = {
-			factor = 1.1
+			factor = 1.15
 			OR = {
 				has_terrain = woods
 				has_terrain = forest

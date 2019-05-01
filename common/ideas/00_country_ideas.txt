@@ -117,7 +117,7 @@ MOS_ideas = {
 		fort_maintenance_modifier = -0.10
 	}
 	descendants_of_byzantine_emperors = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 
 }
@@ -430,7 +430,7 @@ HAB_ideas = {
 		inflation_reduction = 0.10
 	}
 	habsburg_dominance = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	edict_of_restitution = {
 		global_missionary_strength = 0.01
@@ -679,7 +679,7 @@ MCH_ideas = {
 NOV_ideas = {
 	start = {
 		merc_maintenance_modifier = -0.25
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	
 	bonus = {
@@ -750,7 +750,7 @@ ETH_ideas = {
 		defensiveness = 0.10
 	}
 	diplomatic_demeanor = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	the_ark_of_the_covenant = {
 		missionaries = 1
@@ -765,7 +765,7 @@ ETH_ideas = {
 
 PAP_ideas = {
 	start = {
-		diplomatic_reputation = 2.5
+		diplomatic_reputation = 1
 		religious_unity = 0.25
 	}
 
@@ -910,7 +910,7 @@ HUR_ideas = {
 		global_unrest = -1
 	}
 	missionary_welcome = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	feast_of_the_dead = {
 		stability_cost_modifier = -0.1
@@ -1030,7 +1030,7 @@ CAS_ideas = {
 		idea_claim_colonies = yes
 	}
 	infantas = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	salamanca_scholars = {
 		global_institution_spread = 0.1
@@ -1545,7 +1545,7 @@ ROM_ideas = {
 		global_unrest = -1
 	}
 	legacy_of_rome = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	spqr = {
 		stability_cost_modifier = -0.1
@@ -1649,7 +1649,7 @@ PUN_ideas = {
 RYU_ideas = {
 	start = {
 		trade_steering = 0.25
-		diplomatic_reputation = 2.5
+		diplomatic_reputation = 1
 	}
 	
 	bonus = {
@@ -1688,7 +1688,7 @@ RYU_ideas = {
 IRO_ideas = {
 	start = {
 		infantry_power = 0.15
-		diplomatic_reputation = 2.5
+		diplomatic_reputation = 1
 	}
 	
 	bonus = {
@@ -1791,7 +1791,7 @@ FEO_ideas = {
 		heir_chance = 0.10	
 	}
 	aristocracy_in_moskovia = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	avlita_port = {
 		trade_efficiency = 0.1
@@ -1831,7 +1831,7 @@ DAN_ideas = {
 		manpower_recovery_speed = 0.1
 	}
 	old_naval_traditions = {
-		navy_tradition = 0.5
+		navy_tradition = 0.25
 	}
 	rentekammer = {
 		global_tax_modifier = 0.10
@@ -1852,7 +1852,7 @@ DAN_ideas = {
 
 FRA_ideas = {
 	start = {
-		diplomatic_reputation = 2.5
+		diplomatic_reputation = 1
 		global_manpower_modifier = 0.25
 	}
 	
@@ -2059,7 +2059,7 @@ PAL_ideas = {
 	free = yes
 	
 	imperial_vicar_and_archsteward = {
-		diplomatic_reputation = 1
+		diplomatic_reputation = 0.5
 	}
 	heidelberg_university = {
 		advisor_cost = -0.1
@@ -2239,5 +2239,117 @@ BUL_ideas = {
 		devotion = 0.25							
         horde_unity = 0.25
         meritocracy = 0.25
+	}
+}
+
+BRI_ideas = {
+	start = {
+		navy_tradition = 0.5
+		trade_steering = 0.25
+	}
+	
+	bonus = {
+		naval_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = COR
+	}
+	free = yes
+	
+	legacy_of_breton_independence = {
+		enemy_core_creation = 0.10
+	}
+	estates_of_brittany = {
+		global_unrest = -1		
+	}
+	breton_march = {
+		defensiveness = 0.1
+	}
+	breton_catholicism = {
+		global_missionary_strength = 0.01
+	}
+	protect_the_coastline = {
+		global_ship_cost = -0.1
+	}
+	league_of_the_public_weal = {
+		diplomatic_reputation = 0.5
+	}
+	catholicon = {
+		prestige = 0.25
+ 	}
+}
+
+AYU_ideas = {
+	start = {
+		religious_unity = 0.25
+		num_accepted_cultures = 1
+	}
+	
+	bonus = {
+		vassal_income = 0.25
+	}
+	
+	trigger = {
+		tag = SIN
+	}
+	free = yes
+	
+	white_elephant = {
+		global_tax_modifier = 0.10
+	}
+	corvee_system = {
+		global_manpower_modifier = 0.10
+	}
+	ayu_foreign_mercenaries = {
+		merc_maintenance_modifier = -0.10
+	}
+	ayu_embassies = {
+		diplomats = 1
+	}
+	trading_links = {
+		trade_range_modifier = 0.10
+	}
+	personal_executions = {
+		stability_cost_modifier = -0.10
+	}
+	phrai_luang = {
+		global_unrest = -1.0
+	}
+}
+
+SYN_ideas = {
+	start = {
+		global_regiment_cost = -0.25
+		fire_damage_received = -0.25
+	}
+	bonus = {
+		production_efficiency = 0.25
+	}
+	trigger = {
+		tag = BLA
+	}
+	free = yes
+	
+	synth_logic_engines = {
+		technology_cost = -0.10
+	}
+	synth_loyalty_circuits = {
+		land_morale = 0.10
+	}
+	synth_durable = {
+		shock_damage_received = -0.10
+	}
+	synth_mass_produced = {
+		land_forcelimit_modifier = 0.10
+	}
+	synth_propaganda_machines = {
+		ae_impact = -0.10
+	}
+	synth_harvesters = {
+		global_tax_modifier = 0.10
+	}
+	synth_emotion_emulators = {
+		diplomatic_reputation = 0.5
 	}
 }

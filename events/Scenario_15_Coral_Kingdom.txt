@@ -1,0 +1,175 @@
+namespace = es_15_scenario
+
+country_event = {
+	id = es_15_scenario.1
+	title = es_15_scenario.1.t
+	desc = es_15_scenario.1.d
+	picture = ES_ASSEMBLY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 609
+		NOT = { is_year = 660 }
+		culture_group = half_blood_cg
+		owns = 1369
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_15_scenario.1.a"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		every_owned_province = {
+		add_province_modifier = {
+			name = "15_glenpoint_assembly"
+			duration = 3650
+		}
+		}
+	}
+	option = {
+		name = "es_15_scenario.1.b"
+		ai_chance = { factor = 50 }
+		add_stability = 1
+		every_owned_province = {
+		add_local_autonomy = 35
+		}
+	}
+}
+
+country_event = {
+	id = es_15_scenario.2
+	title = es_15_scenario.2.t
+	desc = es_15_scenario.2.d
+	picture = ES_THRAS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 609
+		NOT = { is_year = 660 }
+		culture_group = sload_cg
+		owns = 323
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_15_scenario.2.a"
+		ai_chance = { factor = 50 }
+		every_province = {
+		limit = {
+		OR = {
+		region = summerset_lr
+		region = yokuda_lr
+		region = hammerfell_lr
+		}
+		}
+		add_claim = ROOT
+		}
+	}
+	option = {
+		name = "es_15_scenario.2.b"
+		ai_chance = { factor = 50 }
+		add_stability = 1
+		add_country_modifier = {
+			name = "15_coral_trade"
+			duration = 36500
+		}
+	}
+}
+
+country_event = {
+	id = es_15_scenario.3
+	title = es_15_scenario.3.t
+	desc = es_15_scenario.3.d
+	picture = ES_CROWD1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 609
+		NOT = { is_year = 660 }
+		culture_group = yokudan-redguardian_cg
+		owns = 323
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_15_scenario.3.a"
+		ai_chance = { factor = 50 }
+		add_stability = 1
+		kill_heir = yes
+		define_ruler = {
+        name = "Mansel"
+        dynasty = "Sesnit"
+        adm = 5
+        dip = 7
+        mil = 3
+        age = 18
+        claim = 100
+        }
+		set_country_flag = 15_mansel_sesnit_flag
+	}
+	option = {
+		name = "es_15_scenario.3.b"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		add_country_modifier = {
+			name = "11_succesion_war"
+			duration = 9125
+		}
+	}
+}
+
+country_event = {
+	id = es_15_scenario.4
+	title = es_15_scenario.4.t
+	desc = es_15_scenario.4.d
+	picture = ES_ASSASIN_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		has_country_flag = 15_mansel_sesnit_flag
+    }
+
+	mean_time_to_happen = {
+		days = 18615
+	}
+
+	option = {
+		name = "es_15_scenario.4.a"
+		ai_chance = { factor = 50 }
+		add_stability = -1
+		kill_heir = yes
+		define_ruler = {
+        name = "Randic"
+        dynasty = "Torn"
+        adm = 2
+        dip = 2
+        mil = 3
+        age = 25
+        claim = 100
+        }
+		every_province = {
+		limit = {
+		region = yokuda_lr
+		}
+		add_core = ROOT
+		}
+	}
+	option = {
+		name = "es_15_scenario.4.b"
+		ai_chance = { factor = 50 }
+		add_stability = 1
+	}
+}

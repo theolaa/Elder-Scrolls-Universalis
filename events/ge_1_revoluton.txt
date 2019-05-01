@@ -130,6 +130,7 @@ country_event = {
 		is_tribal = no
 		is_nomad = no
 		NOT = { tag = RED }
+		NOT = { tag = BLA }
 		}
 		hidden_effect = {
 		country_event = { id = ge_revolution.2 days = 31 tooltip = ge_revolution.2.a.tt }
@@ -258,6 +259,7 @@ country_event = {
 		is_tribal = no
 		is_nomad = no
 		NOT = { tag = RED }
+		NOT = { tag = BLA }
 		}
 		hidden_effect = {
 		country_event = { id = ge_revolution.2 days = 31 tooltip = ge_revolution.2.a.tt }
@@ -405,6 +407,7 @@ country_event = {
 		is_tribal = no
 		is_nomad = no
 		NOT = { tag = RED }
+		NOT = { tag = BLA }
 		}
 		hidden_effect = {
 		country_event = { id = ge_revolution.2 days = 31 tooltip = ge_revolution.2.a.tt }

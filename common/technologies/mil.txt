@@ -18,7 +18,7 @@ technology = {
 	artillery_fire		=	1.0
 	artillery_shock 	=	0.10
 	
-	land_morale 		= 	1.0
+	land_morale 		= 	1.75
 
 	enable = I00
 	enable = C00
