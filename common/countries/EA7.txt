@@ -1,6 +1,6 @@
 graphical_culture = northamericagfx
 
-color = { 224 246 25 }
+color = { 5 238 52 }
 
 historical_idea_groups = {
 }

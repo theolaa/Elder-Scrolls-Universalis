@@ -303,7 +303,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 9125
+         duration = 15330
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -339,7 +339,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 9125
+         duration = 15330
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -375,7 +375,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 9125
+         duration = 15330
          }
 		 add_base_tax = 1
          add_base_production = 1
@@ -404,8 +404,8 @@ country_decisions = {
 		add_treasury = -250
 		add_country_modifier = {
 		  name = "ai_time"
-          duration = 360
-		  }
+          duration = 1800
+		}
 		random_owned_province = {
          limit = { 
          NOT = { has_province_modifier = dev }
@@ -414,7 +414,7 @@ country_decisions = {
 		 
 		 add_province_modifier = {
          name = "dev"
-         duration = 9125
+         duration = 15330
          }
 		 add_base_tax = 1
          add_base_production = 1

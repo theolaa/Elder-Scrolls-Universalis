@@ -8,7 +8,7 @@ estate_church_disaster = {
 		has_any_disaster = no
 		estate_influence = {
 			estate = estate_church
-			influence = 80
+			influence = 100
 		}
 	}
 	
@@ -18,7 +18,7 @@ estate_church_disaster = {
 			NOT = {
 				estate_influence = {
 					estate = estate_church
-					influence = 50
+					influence = 80
 				}
 			}
 		}
@@ -33,7 +33,7 @@ estate_church_disaster = {
 			factor = 5
 			estate_influence = {
 				estate = estate_church
-				influence = 50
+				influence = 80
 			}
 		}		
 	}

@@ -21,7 +21,6 @@ replace_path="history/provinces"
 replace_path="history/wars"
 replace_path="map"
 replace_path="missions"
-replace_path="music"
 tags={
 	"Alternative History"
 	"Balance"

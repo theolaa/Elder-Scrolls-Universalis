@@ -1581,7 +1581,10 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { exists = DRA }
+			OR = {
 			primary_culture = atmoran
+			primary_culture = glacial
+			}
 			religion = dragon_cult
 			NOT = { has_country_flag = formed_dra_flag }
 		}

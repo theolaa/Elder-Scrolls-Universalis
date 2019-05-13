@@ -15,7 +15,7 @@ estate_cossacks_disaster = {
 		has_any_disaster = no
 		estate_influence = {
 			estate = estate_cossacks
-			influence = 80
+			influence = 100
 		}
 	}
 	

@@ -144,3 +144,59 @@ spriteTypes = {
 		texturefile = "gfx//interface//government_reform_icons//51_d.dds"
 	}
 }
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_12_a"
+		texturefile = "gfx//interface//government_reform_icons//12_a.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_12_b"
+		texturefile = "gfx//interface//government_reform_icons//12_b.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_12_c"
+		texturefile = "gfx//interface//government_reform_icons//12_c.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_12_d"
+		texturefile = "gfx//interface//government_reform_icons//12_d.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_22_a"
+		texturefile = "gfx//interface//government_reform_icons//22_a.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_22_b"
+		texturefile = "gfx//interface//government_reform_icons//22_b.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_22_c"
+		texturefile = "gfx//interface//government_reform_icons//22_c.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = {
+		name = "government_reform_22_d"
+		texturefile = "gfx//interface//government_reform_icons//22_d.dds"
+	}
+}

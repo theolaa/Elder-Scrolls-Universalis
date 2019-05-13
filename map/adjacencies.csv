@@ -111,10 +111,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 318;2141;sea;80;-1;-1;-1;-1;Yokuda
 2141;2160;sea;80;-1;-1;-1;-1;Yokuda
 2160;2161;sea;80;-1;-1;-1;-1;Yokuda
+2141;2159;sea;80;-1;-1;-1;-1;Yokuda
 2156;2164;sea;79;-1;-1;-1;-1;Yokuda
 2156;2157;sea;79;-1;-1;-1;-1;Yokuda
 2155;2153;sea;79;-1;-1;-1;-1;Yokuda
+2158;2164;sea;79;-1;-1;-1;-1;Yokuda
 2123;2146;sea;78;-1;-1;-1;-1;Yokuda
+2152;2154;sea;78;-1;-1;-1;-1;Yokuda
 2146;2148;sea;78;-1;-1;-1;-1;Yokuda
 2147;2148;sea;78;-1;-1;-1;-1;Yokuda
 2148;2149;sea;78;-1;-1;-1;-1;Yokuda
@@ -124,6 +127,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 329;2151;sea;78;-1;-1;-1;-1;Yokuda
 2168;2173;sea;76;-1;-1;-1;-1;Yokuda
 2125;2168;sea;76;-1;-1;-1;-1;Yokuda
+2131;2166;sea;76;-1;-1;-1;-1;Yokuda
+2166;2167;sea;76;-1;-1;-1;-1;Yokuda
 326;329;sea;77;-1;-1;-1;-1;Yokuda
 342;348;sea;77;-1;-1;-1;-1;Yokuda
 2236;2419;sea;23;-1;-1;-1;-1;Atmora
@@ -444,10 +449,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2667;2670;sea;36;-1;-1;-1;-1;Akavir
 2667;2668;sea;36;-1;-1;-1;-1;Akavir
 795;2668;sea;36;-1;-1;-1;-1;Akavir
-2647;2654;sea;1183;-1;-1;-1;-1;Akavir
-2647;2649;sea;1183;-1;-1;-1;-1;Akavir
-2647;2648;sea;1183;-1;-1;-1;-1;Akavir
-2648;2651;sea;1183;-1;-1;-1;-1;Akavir
+2647;2654;sea;1983;-1;-1;-1;-1;Akavir
+2647;2649;sea;1983;-1;-1;-1;-1;Akavir
+2647;2648;sea;1983;-1;-1;-1;-1;Akavir
+2648;2651;sea;1983;-1;-1;-1;-1;Akavir
 270;271;sea;1887;-1;-1;-1;-1;Tamriel
 250;268;sea;1885;-1;-1;-1;-1;Tamriel
 257;260;sea;81;-1;-1;-1;-1;Tamriel
@@ -457,6 +462,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 865;866;sea;107;-1;-1;-1;-1;Tamriel
 1087;1099;sea;121;-1;-1;-1;-1;Tamriel
 1092;1098;sea;202;-1;-1;-1;-1;Tamriel
+1106;1108;sea;205;-1;-1;-1;-1;Tamriel
+1004;1006;sea;208;-1;-1;-1;-1;Tamriel
 1092;1113;sea;1927;-1;-1;-1;-1;Tamriel
 1110;1113;sea;1927;-1;-1;-1;-1;Tamriel
 1110;1113;sea;1927;-1;-1;-1;-1;Tamriel

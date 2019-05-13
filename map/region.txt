@@ -682,3 +682,6 @@ hammerfell_lr = {
  hammerfell_14_la
  }
 }
+
+random_new_world_region = {
+}

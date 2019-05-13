@@ -8,6 +8,13 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = {
+	    add_country_modifier = {
+			name = "vassal_autonomy"
+			duration = 9125
+		}
+	}
+	
 	option = {
 		name = es_collapse.2.a
 		ai_chance = { factor = 75 }

@@ -133,12 +133,12 @@ Dynasties:
 + culture/religion appearing system
 
 + Force Vassal CB - Colonies
-+ balance Dragon Cult
-+ country collapse problem
 + age mechanics
 + terrain bonuses
 + technology mechanics
 + Colours problem
+
++female advisors chance
 
 + lakes problem
 
@@ -477,3 +477,50 @@ Old Mournhold is destroyed by Mehrunes Dagon.[91]
 	dremora_pantheon
 	
 	po_tun_pantheon
+
+	
+######################################################
+# Administrative Advisors
+######################################################
+
+philosopher 
+natural_scientist
+
+artist
+
+treasurer
+master_of_mint
+
+theologian
+inquisitor
+
+######################################################
+# Diplomatic Advisors
+######################################################
+
+statesman
+colonial_governor
+
+naval_reformer
+navigator
+
+trader
+diplomat
+
+spymaster
+
+######################################################
+# Military Advisors
+######################################################
+
+######################################################
+army_reformer 
+grand_captain 
+
+army_organiser
+commandant
+
+quartermaster 
+recruitmaster
+
+fortification_expert

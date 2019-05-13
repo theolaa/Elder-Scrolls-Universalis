@@ -114,6 +114,17 @@ country_event = {
 		}
 		
 		set_country_flag = es_start_ai_no_flag
+		
+		add_country_modifier = {
+			name = "vassal_autonomy"
+			duration = 9125
+		}
+		
+		add_country_modifier = {
+			name = "es_female_advisors"
+			duration = -1
+			hidden = yes
+		}
 	}
 	
 	
@@ -158,24 +169,15 @@ country_event = {
 				name = "trade_time"
 				duration = 365
 				hidden = yes
-			}
-        every_province = {
-		        limit = {
-		        OR = {
-				area = morrowind_21_la
-				area = morrowind_20_la
-				area = morrowind_19_la
-				area = morrowind_18_la
-				}
-			    }
-			add_province_modifier = {
-					name = "ever-ashland"
-					duration = -1
-			    }
-		}		
+			}		
         }
 		
 		set_country_flag = es_start_red_flag
+		
+		add_country_modifier = {
+			name = "vassal_autonomy"
+			duration = 9125
+		}
 	}
 	
 	
@@ -263,6 +265,11 @@ country_event = {
 		}
 		
 		set_country_flag = es_start_ai_yes_flag
+		
+		add_country_modifier = {
+			name = "vassal_autonomy"
+			duration = 9125
+		}
 	}
 	
 	

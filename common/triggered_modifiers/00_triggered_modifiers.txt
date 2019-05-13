@@ -303,7 +303,7 @@ classical_age_modifier = {
     build_time = 1.0
     culture_conversion_cost = 1.0
     possible_mercenaries = -0.50	
-    naval_forcelimit_modifier = -0.50
+    naval_forcelimit_modifier = -0.75
 
     build_cost = -0.5
 }
@@ -321,7 +321,7 @@ classical_age_modifier_no_cs = {
     build_time = 1.0
     culture_conversion_cost = 1.0
     possible_mercenaries = -0.5	
-    naval_forcelimit_modifier = -0.5
+    naval_forcelimit_modifier = -0.75
 
     build_cost = -0.5
 }

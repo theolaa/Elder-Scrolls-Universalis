@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 239 223 117 }
+color = { 37 101 144 }
 
 historical_idea_groups = {
 }

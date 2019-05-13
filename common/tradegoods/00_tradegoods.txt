@@ -423,6 +423,12 @@ copper = {
 
 gold = {
 	color = { 1.0 0.84 0.19 }
+	modifier = {
+		global_tax_modifier = 0.10
+	}
+	province = {
+		local_production_efficiency = 0.10
+	}
 	chance = {
 		factor = 5
 		modifier = {

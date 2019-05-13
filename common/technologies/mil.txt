@@ -13,8 +13,8 @@ technology = {
 	
 	infantry_fire		= 	0.50
 	infantry_shock 		= 	0.25	
-	cavalry_fire  		= 	0.15
-	cavalry_shock  		= 	0.75
+	cavalry_fire  		= 	0.50
+	cavalry_shock  		= 	0.50
 	artillery_fire		=	1.0
 	artillery_shock 	=	0.10
 	

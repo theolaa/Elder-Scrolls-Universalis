@@ -318,3 +318,24 @@ mars_base = {
 	technology_cost = -0.05
 	global_tax_income = 25
 }
+
+sacrificed_ruler = {
+    discipline = 0.10
+	fire_damage = 0.10
+	shock_damage = 0.10
+	siege_ability = 0.1
+	fort_maintenance_modifier = 0.15
+	land_maintenance_modifier = 0.15
+	naval_maintenance_modifier = 0.10
+}
+
+sacrificed_ruler_timer = {
+}
+
+vassal_autonomy = {
+    diplomatic_annexation_cost = 2.5
+}
+
+es_female_advisors = {
+    female_advisor_chance = 0.15
+}
