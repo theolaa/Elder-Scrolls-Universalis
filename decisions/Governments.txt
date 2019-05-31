@@ -79,6 +79,33 @@ country_decisions = {
 		}
 	}
 	
+	es_tribal_reform = {
+		major = yes
+		potential = {
+		    has_dlc = "Common Sense"
+			government = tribal
+		}
+		allow =  {
+			stability = 3
+			full_idea_group = administrative_ideas
+			full_idea_group = economic_ideas
+			full_idea_group = religious_ideas
+			full_idea_group = diplomatic_ideas
+			full_idea_group = influence_ideas
+			full_idea_group = expansion_ideas
+			is_at_war = no 
+			is_subject = no
+			NOT = { primitives = yes }
+		}
+		effect = {
+		    add_stability = -3
+			change_government = monarchy
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
 	formalize_separation_of_powers = {
 		potential = {
 			has_parliament = yes

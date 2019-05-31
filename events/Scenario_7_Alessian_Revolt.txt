@@ -16,7 +16,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 8760	
+		days = 4380	
 	}
 
 	option = {
@@ -89,51 +89,61 @@ country_event = {
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		random_owned_province = {
 		limit = { is_capital = no }
 		cede_province = ALE
+		add_core = ALE
 		change_religion = eight_divines
 		}
 		ALE = {
@@ -187,7 +197,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 1	
+		days = 31	
 	}
 
 	option = {
@@ -258,7 +268,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 3650	
+		days = 1825	
 	}
 
 	option = {
@@ -294,7 +304,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 3650
+		days = 1825	
 	}
 
 	option = {
@@ -330,7 +340,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 3650
+		days = 1825	
 	}
 
 	option = {

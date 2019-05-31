@@ -340,7 +340,6 @@ occult_group = {
 			indulgence_for_sins = {
 				cost = 50
 				potential = {
-					government = monarchy
 					NOT = { tag = RED }
 				}
 				allow = {

@@ -296,8 +296,64 @@ antibankrapucy = {
 	trade_goods_size = -0.25
 }
 
+16_good_reputation = {
+    diplomatic_reputation = 2.5
+	improve_relation_modifier = 0.25
+	vassal_income = 0.25
+}
+
+16_n_orsinium = {
+    local_defensiveness = 1.0
+	garrison_growth = 1.0
+	local_hostile_attrition = 1
+	local_development_cost = -0.5
+	local_tax_modifier = 0.5
+}
+
+16_s_orsinium = {
+    local_defensiveness = 1.0
+	garrison_growth = 1.0
+	local_hostile_attrition = 1
+	local_development_cost = -0.5
+	local_tax_modifier = 0.5
+}
+
+17_liberty_desire = {
+    liberty_desire = 9999
+}
+
+17_neutrality = {
+    stability_cost_modifier = -0.25
+	diplomatic_reputation = 2.5
+	improve_relation_modifier = 0.25
+}
+
+17_the_tribunal = {
+    stability_cost_modifier = -0.10
+	global_missionary_strength = 0.01
+	global_unrest = -1
+}
+
+17_disapearence_of_dwemers = {
+    technology_cost_modifier = 0.35
+	idea_cost_modifer = 0.25
+	advisor_cost_modifer = 0.15
+}
+
+17_curse_of_azura = {
+    diplomatic_reputation = -1
+	tolerance_own = -1
+	years_of_nationalism = 10
+}
+
 00_tamrilian_tractates = {
   stability_cost_modifier = -0.25
   core_creation = -0.15
   global_unrest = -1
+}
+
+00_year_without_sun = {
+    global_unrest = 10
+	stability_cost_modifier = 1.0
+	tolerance_own = -5
 }

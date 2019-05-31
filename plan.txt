@@ -116,7 +116,7 @@ cout<<"PROV"<<i<<":0 #"<<endl;
 	return 0;
 }
 
-Dynasties:
+Dynasties: + appearence events
 - Valenwood
 - Skyrim
 - Direnii
@@ -127,44 +127,18 @@ Dynasties:
 
 + advisor portraits
 + ages - localization and pictures
-+ leaders update
-+ ranks names
-+ random events - dragon sanctuary
++ random events
 + culture/religion appearing system
++ trade nodes and positions
+
++ educate heirs
 
 + Force Vassal CB - Colonies
-+ age mechanics
-+ terrain bonuses
-+ technology mechanics
-+ Colours problem
++ CKII personality events
++ random terrain bonuses
 
-+female advisors chance
++ devastation causes unrest
 
-+ lakes problem
-
-ESU_BETA_TEST_15_04_2019
-
-1E 660Edit
-Mauloch is defeated at the Battle of Dragon Wall at this time, and legend credits the eruption of Red Mountain eight years later to his ensuing rage.[43][20]
-1E 668Edit
-Historian Borgusilus Mailer theorizes that it was in this year that the Dwemer enclaves were called together by one of their powerful philosopher-sorcerers, possibly "Kagrenak," to embark on a great journey, one of such sublime profundity that they abandoned all their cities and lands to join the quest to foreign climes as an entire culture.[44]
-Red Mountain erupts, and the Sun's Death occurs.[20]
-It is supposed that the "Sun's Death" event greatly affected the Nirnroot plant species.[45]
-1E 675Edit
-The events of Poison Song take place in Gorne.[46]
-
-8th CenturyEdit
-1E 700Edit
-A Dragon Break occurs; as such, no account of what transpires at Red Mountain in this year is necessarily any more accurate than any other.[47]
-Battle of Red Mountain.[21][40][48]
-War of the First Council ends: A religious conflict between the secular Dunmer Houses Dwemer and Dagoth and the orthodox Dunmer Houses Indoril, Redoran, Dres, Hlaalu, and Telvanni. The First Council was the first pan-Dunmer governing body, which collapsed over disputes about sorceries and enchantments practiced by the Dwemer and declared profane by the other Houses."[3][49][21][39][42][50]
-Disappearance of the Dwemer. ca. 1E700.[39][48]
-1E 720Edit
-Frandar Hunding (Redguard) was born in this approximate year.[30]
-1E 734Edit
-Frandar's father dies.[30]
-1E 737Edit
-Randic Torn dies.[30]
 1E 750Edit
 By this approximate year, Frandar Hunding has won over ninety battles; having killed his opponents in each, he is deemed "virtually invincible with a sword."[30]
 1E 760Edit
@@ -175,7 +149,6 @@ Divad Hunding enters the Hall of the Virtues of War and begins his training ther
 Divad Hunding leaves the Hall of the Virtues of War in anger, breaks his swords, and vows to "become an acrobat in a traveling circus."[51]
 1E 780Edit
 Frandar Hunding, retired and living as a hermit in Mount Hattu, writes the Book of Circles, a book for Sword-Singers to emulate his fighting style.[30]
-
 1E 792Edit
 The Hiradirge, a rebel Ansei group, destroy Yokuda, sinking it beneath the waves.[52]
 9th CenturyEdit
@@ -186,6 +159,10 @@ Redguards arrive in the Iliac Bay and Daggerfall area after fleeing their sinkin
 1E 808Edit
 Ra Gada (Warrior Wave) from Yokuda arrive in Volenfell.[3][9][39][52][55][56]
 
+#############
+### Kamal ###
+#############
+
 1E 874Edit
 Thulgeg's army of Orcs and Goblins are forced to flee northeast after being stopped at Bangkorai Pass.[57]
 10th CenturyEdit
@@ -195,6 +172,7 @@ Peregrine Direnni repels the Redguard invasion of Balfiera.[58][59]
 Gaiden Shinji (Blademaster) is quoted as saying "The best techniques are passed on by the survivors."[60]
 1E 948Edit
 First official historical reference to Wayrest, a letter by King Joile, to Gaiden Shinji of the Order of Diagna, which reads: "The Orcs have been much plaguing the Wayresters and impeding traffic to the heart of that land."[53]
+
 1E 950Edit
 The Siege of Orsinium begins.[46][61][62] (This last reference mentions this occurrence, although, it does not make a reference of the year this occurred, and elsewhere, it suggests the events of the book took place in 1E 675)[40][39][55][63][11]
 Gaiden Shinji dies during the Siege of Orsinium.[64]
@@ -207,12 +185,14 @@ The city of Evermore is founded by the River Horse Bretons.[67]
 The Bjoulsae River opens and much trade occurs, spurring on technological advancements such as writing.[11]
 1E 989Edit
 Wayrest has a significant boost in population and size, growing from a small village to a large city.[11]
+
 11th CenturyEdit
 1E 1030Edit
 The legendary Reachman known as Red Eagle is said to have existed around this time.[68]
 Empress Hestra attempts to expand the empire into the Reach and High Rock.[68]
 1E 1033Edit
 Empress Hestra demands "the head of the most infamous of the brigadiers," Red Bramman.[26]
+
 12th CenturyEdit
 1E 1100Edit
 Farangel Gardner, from a successful mercantile family, is proclaimed as the first King of Wayrest after being accepted by ambassadors from the Camorian Empire. The city would then have four major dynasties in later times: that of Gardner, Cumberland, Horley, and finally Septim.[53]
@@ -233,6 +213,7 @@ The Sack of Skywatch occurs, from the Sloads of Thras attack on the Summerset Is
 15th CenturyEdit
 1E 1427Edit
 Battle of Duncreigh Bridge: The "famous victory" of Anticlere's Duke over the neighboring hamlet of Sensford is celebrated in High Rock each year by the people marching down Sensford's main street. This results in numerous injuries on both sides, even when it doesn't provoke a brief war between the two "knightly orders" of the two villages. The battle itself achieved nothing, because both villages still boast about their ruling families' antique lineage.[19]
+
 23rd CenturyEdit
 1E 2200Edit
 Thrassian Plague begins, killing half of Tamriel's population.[2][3][9][19][25][63][53][11]

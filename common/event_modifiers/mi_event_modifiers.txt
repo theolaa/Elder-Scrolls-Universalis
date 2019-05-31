@@ -255,7 +255,7 @@ es_more_forts = {
 }
 
 es_more_training_fields = {
-    reinforce_cost_modifier = 0.10
+    reinforce_cost_modifier = -0.10
 }
 
 es_more_conscription_center = {

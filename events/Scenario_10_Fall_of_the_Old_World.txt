@@ -22,7 +22,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 11680
+		days = 5840
 	}
 
 	option = {
@@ -57,7 +57,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 11680
+		days = 5840
 	}
 
 	option = {
@@ -108,7 +108,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 11680
+		days = 5840
 	}
 
 	option = {
@@ -158,7 +158,7 @@ province_event = {
     }
 
 	mean_time_to_happen = {
-		days = 58400
+		days = 29200
 	}
 
 	option = {
@@ -186,7 +186,7 @@ province_event = {
     }
 
 	mean_time_to_happen = {
-		days = 58400
+		days = 29200
 	}
 
 	option = {
@@ -227,7 +227,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 11680
+		days = 5840
 	}
 
 	option = {
@@ -278,7 +278,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 11680
+		days = 5840
 	}
 
 	option = {

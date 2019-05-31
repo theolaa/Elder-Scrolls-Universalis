@@ -212,7 +212,7 @@ vassal = {
 	first = UNI
 	second = MB5
 	start_date = 420.1.1
-	end_date = 700.1.1
+	end_date = 750.1.1
 }
 
 vassal = {
@@ -226,5 +226,103 @@ vassal = {
 	first = UNI
 	second = MB7
 	start_date = 420.1.1
-	end_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = REO
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = DWE
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = HLA
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = SAD
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = DAG
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = DRS
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = IND
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = UNI
+	second = TEL
+	start_date = 700.1.1
+	end_date = 750.1.1
+}
+
+vassal = {
+	first = MOR
+	second = REO
+	start_date = 750.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = MOR
+	second = HLA
+	start_date = 750.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = MOR
+	second = SAD
+	start_date = 750.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = MOR
+	second = DRS
+	start_date = 750.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = MOR
+	second = IND
+	start_date = 750.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = MOR
+	second = TEL
+	start_date = 750.1.1
+	end_date = 9999.1.1
 }

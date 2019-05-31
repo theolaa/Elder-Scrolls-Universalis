@@ -38,3 +38,8 @@ fort_15th = yes
 	controller = SKY
 	add_core = SKY
 }
+
+750.1.1 = {
+    culture = falmer
+    religion = snow_elves_pantheon
+}

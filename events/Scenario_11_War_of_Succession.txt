@@ -17,7 +17,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18615
+		days = 9125		
 	}
 
 	option = {
@@ -256,7 +256,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18615
+		days = 9125		
 	}
 
 	option = {
@@ -313,7 +313,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18615
+		days = 9125		
 	}
 	
 	immediate = {
@@ -376,7 +376,7 @@ province_event = {
     }
 
 	mean_time_to_happen = {
-		days = 93075
+		days = 46355
 	}
 
 	option = {
@@ -404,7 +404,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18615
+		days = 9125		
 	}
 
 	option = {
@@ -454,7 +454,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18615
+		days = 9125		
 	}
 
 	option = {

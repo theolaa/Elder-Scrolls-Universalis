@@ -14,7 +14,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 16425	
+		days = 8030	
 	}
 
 	option = {
@@ -43,7 +43,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 14965	
+		days = 7300	
 	}
 
 	option = {
@@ -73,7 +73,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330	
+		days = 7665	
 	}
 
 	option = {
@@ -110,7 +110,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 1	
+		days = 31	
 	}
 
 	option = {
@@ -138,7 +138,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 44895	
+		days = 22265	
 	}
 
 	option = {
@@ -146,9 +146,9 @@ country_event = {
 		ai_chance = { factor = 50 }
         1369 = {
 		change_culture = nord
-		add_base_tax = 3
-		add_base_production = 3
-		add_base_manpower = 3
+		add_base_tax = 5
+		add_base_production = 5
+		add_base_manpower = 5
 		}
 		if = {
 		limit = {
@@ -178,7 +178,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330
+		days = 7665
 	}
 
 	option = {
@@ -220,7 +220,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 18250
+		days = 9125
 	}
 
 	option = {
@@ -438,6 +438,35 @@ country_event = {
 		is_subject_of_type = personal_union
 		}
         add_prestige = -25
+		}
+	}
+}
+
+country_event = {
+	id = es_0_scenario.13
+	title = es_0_scenario.13.t
+	desc = es_0_scenario.13.d
+	picture = ES_VOLCANIC_SMOKE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 660
+		NOT = { is_year = 700 }
+		has_global_flag = es_16_eruption_flag
+    }
+
+	mean_time_to_happen = {
+		days = 365
+	}
+
+	option = {
+		name = "es_0_scenario.13.a"
+		ai_chance = { factor = 100 }
+		add_stability = -1
+		add_country_modifier = {
+		name = "00_year_without_sun"
+		duration = 3650
 		}
 	}
 }

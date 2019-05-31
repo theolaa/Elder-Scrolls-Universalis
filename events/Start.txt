@@ -17,9 +17,10 @@ country_event = {
 	}
 	
 	immediate = {
+	    hidden_effect = {
         if = {
 		limit = {
-		NOT = { is_year = 50 }
+		is_bankrupt = yes
 		}
 		add_country_modifier = {
 		name = "antibankrapucy"
@@ -97,6 +98,12 @@ country_event = {
 		}
 		set_global_flag = fall_of_direnii_flag
 		}
+		if = {
+		limit = {
+		is_year = 750
+		}
+		set_global_flag = dwemer_dissapearence_flag
+		}
 		
 		if = {
 		limit = {
@@ -124,6 +131,7 @@ country_event = {
 			name = "es_female_advisors"
 			duration = -1
 			hidden = yes
+		}
 		}
 	}
 	

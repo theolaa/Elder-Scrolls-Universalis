@@ -16,7 +16,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 16060		
+		days = 8030		
 	}
 
 	option = {
@@ -87,7 +87,7 @@ country_event = {
 		}
 	}
 	mean_time_to_happen = {
-		months = 1
+		days = 31
 	}
 	
 	option = {
@@ -130,7 +130,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 60
+		days = 10950
 	}
 	
 	option = {
@@ -188,7 +188,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 1
+		days = 31
 	}
 	
 	option = {
@@ -227,7 +227,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 60
+		days = 10950
 	}
 	
 	option = {

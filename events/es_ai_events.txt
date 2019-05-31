@@ -1,0 +1,44 @@
+namespace = es_ai_events
+
+country_event = {
+	id = es_ai_events.1
+	title = es_ai_events.1.t
+	desc = es_ai_events.1.d
+	picture = ES_DRAGON_WAR_eventPicture
+
+	trigger = {
+	    ai = yes
+		OR = {
+		is_subject_of_type = vassal
+		is_subject_of_type = march
+		is_subject_of_type = client_vassal
+		is_subject_of_type = client_march
+		is_subject_of_type = holy_order_1
+		is_subject_of_type = transitional_state
+		is_subject_of_type = native_reservation
+		}
+		is_at_war = no
+		NOT = { num_of_rebel_armies = 1 }
+		NOT = { war_exhaustion = 10 }
+		manpower_percentage = 0.75
+		any_neighbor_country= { overlord = { overlord_of = ROOT } }
+	}
+
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = es_ai_events.1.a
+		ai_chance = { factor = 100 }
+		random_neighbor_country = {
+			limit = { overlord = { overlord_of = ROOT } }
+			ROOT = {
+				declare_war_with_cb = {
+					who = PREV
+					casus_belli = cb_vassal_annex
+				}
+			}
+		}
+	} 
+}

@@ -397,6 +397,7 @@ devastation = {
 	local_sailors_modifier = -1.0
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
+	local_unrest = 10
 }
 
 prosperity = {
@@ -540,7 +541,7 @@ stability = {
 }
 
 positive_stability = {
-	global_unrest = -1.15					
+	global_unrest = -1.75					
 	global_tax_modifier = 0.05
 	global_missionary_strength = 0.005
 	temples_influence = 0.025

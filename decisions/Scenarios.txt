@@ -410,4 +410,133 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
+	es_16_rebuild_northern_orsinium = {
+	    major = yes
+		potential = {
+		culture_group = orsimer_cg
+		1391 = {
+		NOT = { has_province_modifier = 16_n_orsinium }
+		}
+		}
+		allow = {
+		treasury = 5000
+		owns = 1391
+        }
+		effect = {
+		add_treasury = -5000
+		1391 = {
+		add_province_modifier = {
+			name = "16_n_orsinium"
+			duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_16_rebuild_southern_orsinium = {
+	    major = yes
+		potential = {
+		culture_group = orsimer_cg
+		827 = {
+		NOT = { has_province_modifier = 16_s_orsinium }
+		}
+		}
+		allow = {
+		treasury = 5000
+		owns = 827
+        }
+		effect = {
+		add_treasury = -5000
+		827 = {
+		add_province_modifier = {
+			name = "16_s_orsinium"
+			duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_16_sack_orsinium = {
+	    major = yes
+		potential = {
+		NOT = { culture_group = orsimer_cg }
+		OR = {
+		owns = 1391
+		owns = 827
+		}
+		OR = {
+		1391 = {
+		has_province_modifier = 16_n_orsinium
+		}
+		827 = {
+		has_province_modifier = 16_s_orsinium
+		}
+		}
+		}
+		allow = {
+		OR = {
+		owns = 1391
+		owns = 827
+		}
+        }
+		effect = {
+		if = {
+		limit = {
+		owns = 1391
+		1391 = {
+		has_province_modifier = 16_n_orsinium
+		}
+		}
+		1391 = {
+		remove_province_modifier = 16_n_orsinium
+		}
+		add_treasury = 2500
+		}
+		if = {
+		limit = {
+		owns = 827
+		827 = {
+		has_province_modifier = 16_s_orsinium
+		}
+		}
+		827 = {
+		remove_province_modifier = 16_s_orsinium
+		}
+		add_treasury = 2500
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_17_enpower_tribunal = {
+	    major = yes
+		potential = {
+		culture_group = chimeris_cg
+		religion = tribunal_pantheon
+		NOT = { has_country_flag = es_17_enpower_tribunal_flag }
+		}
+		allow = {
+		owns_core_province = 1002
+		owns_core_province = 970
+		owns_core_province = 990
+		owns_core_province = 957
+		owns_core_province = 1028
+        }
+		effect = {
+		country_event = { id = es_17_scenario.15 days = 31 tooltip = es_17_scenario.15.a.tt }
+		set_country_flag = es_17_enpower_tribunal_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

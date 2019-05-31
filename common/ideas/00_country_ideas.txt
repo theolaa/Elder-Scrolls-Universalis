@@ -2353,3 +2353,406 @@ SYN_ideas = {
 		diplomatic_reputation = 0.5
 	}
 }
+
+SAX_ideas = {
+	start = {
+	   	advisor_cost = -0.25
+		development_cost = -0.25
+	}
+	
+	bonus = {
+		prestige = 0.5
+	}
+	
+	trigger = {
+		tag = SAD
+	}
+	free = yes
+	
+	albertine_and_ernestine = {
+		monarch_diplomatic_power = 1
+	}
+	meissner_porcelain = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	the_zwinger = {
+		diplomatic_reputation = 0.5
+	}
+	wittenberg_university = {
+	 	tolerance_heretic = 1
+	}
+	corpus_evangelicorum = {
+		diplomatic_upkeep = 1
+	}
+	sax_principal_line = {
+		global_tax_modifier = 0.10
+	}
+	the_saxon_circle = {
+		discipline = 0.05
+	}
+}
+
+SIL_ideas = {
+	start = {
+		prestige = 0.5
+		diplomatic_reputation = 1
+	}
+
+	bonus = {
+	 	global_tax_modifier = 0.25
+	}
+
+	trigger = {
+		tag = DRS
+	}
+	free = yes
+
+	under_the_infuence = {
+		improve_relation_modifier = 0.10
+	}
+	silesian_duchies = {
+		stability_cost_modifier = -0.10
+	}
+	german_settlers = {
+		build_cost = -0.1
+	}
+	raubritter = {
+		trade_steering = 0.10
+	}
+	via_regia = {
+		trade_efficiency = 0.1
+	}
+	hanseatic_ties = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	black_gold = {
+		production_efficiency = 0.1
+	}
+}
+
+HED_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		cavalry_cost = -0.25
+	}
+	
+	bonus = {
+		cavalry_power = 0.15
+	}
+	
+	trigger = {
+		tag = IND
+	}
+	free = yes
+	
+	custodian_of_the_two_holy_cities = {
+		tolerance_own = 1
+	}
+	hed_red_sea_trade = {
+		global_own_trade_power = 0.1
+	}
+	sharifs_of_mecca = {
+		ae_impact = -0.1
+	}
+	hed_desert_warfare = {
+		land_attrition = -0.10
+	}
+	cradle_of_gold = {
+		global_tax_modifier = 0.1
+	}
+	hajj = {
+		global_missionary_strength = 0.01
+	}
+	successor_to_the_caliphate = {
+		prestige = 0.5
+	}
+}
+
+NPL_ideas = {
+	start = {
+		land_forcelimit_modifier = 0.25
+		manpower_recovery_speed = 0.25		
+	}
+	
+	bonus = {
+		discipline = 0.10
+	}
+	
+	trigger = {
+		tag = REO
+	}
+	free = yes
+	
+	divya_upadesh = {
+		diplomatic_reputation = 0.5
+	}
+	land_of_peaks = {
+		defensiveness = 0.10
+	}
+	valleys_united = {
+		global_manpower_modifier = 0.10
+	}
+	rajput_refugees = {
+		army_tradition = 0.25
+	}    
+	royal_kumari = {
+		land_morale = 0.10
+	}
+	gurkha_recruits = {
+		infantry_power = 0.1
+	}
+	envelopment_and_blockade = {
+		leader_siege = 1
+	}
+}
+
+TUS_ideas = {
+	start = {
+		technology_cost = -0.10
+		development_cost = -0.10
+	}
+	
+	bonus = {
+		discipline = 0.10
+	}
+	
+	trigger = {
+		tag = TEL
+	}
+	free = yes
+	
+	birthplace_of_the_renaissance = {
+		idea_cost = -0.10
+	}
+	tuscan_condottieri = {
+		merc_maintenance_modifier = -0.10
+	}
+	tuscan_banking = {
+		interest = -0.25
+	}
+	tuscan_arts = {
+		prestige = 0.5
+	}
+	porto_franco = {
+		trade_efficiency = 0.10
+	}
+	tuscan_administrative_reforms = {
+		production_efficiency = 0.10
+	}
+	tuscan_grand_duchy = {
+		global_manpower_modifier = 0.10
+ 	}
+}
+
+RUM_ideas = {
+	start = {
+		manpower_recovery_speed = 0.25
+		land_morale = 0.15
+	}
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	trigger = {
+		tag = DAG
+	}
+	free = yes
+	
+	rum_abul_fath = {
+		discipline = 0.05
+	}
+	rum_king_of_the_east_and_west = {
+		core_creation = -0.10
+	}
+	rum_shahanshah = {
+		legitimacy = 0.25
+		republican_tradition = 0.25
+		devotion = 0.25							
+        horde_unity = 0.25
+        meritocracy = 0.25
+	}
+	rum_sultan_of_rum = {
+		tolerance_heathen = 1
+	}
+	rum_sulan_al_bahrayn = {
+		naval_maintenance_modifier = -0.10
+	}
+	rum_sultan_al_muazzam = {
+		build_cost = -0.10
+	}
+	rum_protector_of_dar_al_islam = {
+		global_missionary_strength = 0.01
+	}
+}
+
+ASA_ideas = {
+	start = {
+		production_efficiency = 0.25
+		discipline = 0.10
+	}
+	bonus = {
+		stability_cost_modifier = -0.25
+	}
+	
+	trigger = {
+		tag = HLA
+	}
+	
+	free = yes
+	
+	asa_hidden_diplomacy = {
+		diplomatic_upkeep = 1
+	}
+	asa_echizen_paper = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	asa_ichijodani_city = {
+		development_cost = -0.1
+	}
+	asa_teach_of_asakura_soteki = {
+		infantry_power = 0.1
+	}
+	asa_seventeen_clan_code = {
+		legitimacy = 0.25
+		republican_tradition = 0.25
+		devotion = 0.25							
+        horde_unity = 0.25
+        meritocracy = 0.25
+	}
+	asa_control_of_buddhist_sects = {
+		tolerance_own = 1
+	}
+	asa_legacy_of_emperor_keitai = {
+		ae_impact = -0.1
+	}
+}
+
+TEU_ideas = {
+	start = {
+		cavalry_power = 0.15
+		discipline = 0.10
+	}
+	
+	bonus = {
+		infantry_cost = -0.25
+	}
+	
+	trigger = {
+		tag = FAL
+	}
+	free = yes
+	
+	teu_idea_1 = {
+		cavalry_cost = -0.1	
+	}
+	teu_idea_2 = {
+		manpower_recovery_speed = 0.10
+	}
+	teu_idea_3 = {
+		infantry_power = 0.1
+	}
+	teu_idea_4 = {
+		global_missionary_strength = 0.01
+	}
+	teu_idea_5 = {
+		defensiveness = 0.1
+	}
+	teu_idea_6 = {
+		missionaries = 1
+	}
+	teu_idea_7 = {
+		tolerance_own = 1
+	}
+}
+
+IMG_ideas = {
+	start = {
+		land_forcelimit_modifier = 0.25
+		discipline = 0.10
+	}
+	
+	bonus = {
+		legitimacy = 0.5
+		republican_tradition = 0.5
+		devotion = 0.5							
+        horde_unity = 0.5
+        meritocracy = 0.5
+	}
+
+	trigger = {
+		tag = TRI
+	}
+	free = yes
+	
+	IMG_claim_to_shogunate = {
+		unjustified_demands = -0.1
+	}
+	
+	IMG_supreme_ruler_of_tokaido = {
+		trade_efficiency = 0.1
+	}
+	
+	IMG_history_of_imagawa = {
+		idea_cost = -0.1
+	}
+	
+	IMG_revised_clan_law = {
+		global_unrest = -1
+	}
+	
+	IMG_triple_alliance = {
+		diplomatic_upkeep = 1
+	}
+	
+	IMG_mount_fuji = {
+		prestige = 0.25
+	}
+	
+	IMG_march_to_kyoto = {
+		core_creation = -0.1
+	}
+}
+
+AMA_ideas = {
+	start = {
+		land_maintenance_modifier = -0.25
+		inflation_reduction = 0.1
+	}
+	
+	bonus = {
+		discipline = 0.10
+	}
+
+	trigger = {
+		tag = MOR
+	}
+	free = yes
+	
+	ama_omi_genji = {
+		army_tradition_decay = -0.01
+	}
+	
+	ama_izumo_shugo = {
+		infantry_power = 0.1
+	}
+	
+	ama_gassan_toda_castle = {
+		defensiveness = 0.10
+	}
+	
+	ama_ten_brave_warriors = {
+		land_morale = 0.1
+	}
+	
+	ama_coastal_trade = {
+		global_prov_trade_power_modifier = 0.1
+	}
+	
+	ama_kizuki_shrine = {
+		tolerance_own = 1
+	}
+	
+	ama_iwami_ginzan = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+}

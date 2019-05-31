@@ -400,7 +400,7 @@ country_event = {
 }
 
 country_event = {
-	id = es_general.7
+	id = es_general.8
 	title = es_general.2.t
 	desc = es_general.2.d
 	picture = ES_ROYAL_BEDROOM_eventPicture

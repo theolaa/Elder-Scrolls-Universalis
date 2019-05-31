@@ -3,7 +3,7 @@ bookmark = {
 	desc = CORAL_KINGDOM_DESC
 	date = 609.1.1
 	
-	center = 323
+	center = 320
 	default = yes
 	
 	country = THR

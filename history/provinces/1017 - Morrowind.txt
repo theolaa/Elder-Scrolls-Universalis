@@ -25,3 +25,14 @@ center_of_trade = 1
 	controller = UNI
 	add_core = UNI
 }
+
+700.1.1 = {
+    owner = IND
+	controller = IND
+	add_core = IND
+}
+
+750.1.1 = {
+    culture = dunmer
+	religion = tribunal_pantheon
+}

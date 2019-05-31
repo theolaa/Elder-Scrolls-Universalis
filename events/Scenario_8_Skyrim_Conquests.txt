@@ -19,7 +19,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330
+		days = 7665
 	}
 
 	option = {
@@ -67,26 +67,28 @@ country_event = {
 	}
 }
 
-country_event = {
+province_event = {
 	id = es_8_scenario.2
 	title = es_8_scenario.2.t
 	desc = es_8_scenario.2.d
 	picture = ES_LABOUR_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
 		is_year = 266
 		NOT = { is_year = 308 }
-		culture_group = cyrodiil_cg
-		owns = 1206
+		culture = nedic
+		OR = {
+		region = western_syrodiil_lr
+		region = eastern_syrodiil_lr
+		region = central_syrodiil_lr
+		}
 		any_owned_province = {
 		NOT = { culture = ayleid }
 		}
     }
 
 	mean_time_to_happen = {
-		days = 750
+		days = 22995
 	}
 
 	option = {
@@ -97,9 +99,9 @@ country_event = {
 		NOT = { culture = ayleid }
 		}
 		change_culture = ayleid
-		add_base_tax = 1
-		add_base_production = 1
-		add_base_manpower = 1
+		add_base_tax = 3
+		add_base_production = 3
+		add_base_manpower = 3
 		add_province_modifier = {
 		name = "08_ayleid_lords"
 		duration = 3650
@@ -128,7 +130,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330
+		days = 7665
 	}
 
 	option = {
@@ -168,7 +170,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330
+		days = 7665
 	}
 
 	option = {
@@ -205,7 +207,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 15330
+		days = 7665
 	}
 
 	option = {

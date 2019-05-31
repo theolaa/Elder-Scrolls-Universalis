@@ -15,3 +15,14 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 center_of_trade = 1
 
 fort_15th = yes
+
+700.1.1 = {
+    owner = TEL
+	controller = TEL
+	add_core = TEL
+}
+
+750.1.1 = {
+    culture = dunmer
+	religion = tribunal_pantheon
+}

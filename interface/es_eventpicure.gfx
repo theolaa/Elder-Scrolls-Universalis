@@ -467,5 +467,89 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ASSEMBLY_eventPicture.dds"
 		allwaystransparent = yes
 	}
+	
+	spriteType = {
+		name = "ES_ORCS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ORCS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BATTLE_WITH_ORCS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BATTLE_WITH_ORCS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_VOLCANO_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_VOLCANO_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_VOLCANIC_SMOKE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_VOLCANIC_SMOKE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DWEMER_PROPHET_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DWEMER_PROPHET_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BURNING_CITY_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BURNING_CITY_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_NUMIDIUM_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_NUMIDIUM_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_NEREVAR_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_NEREVAR_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DWEMER_KNIFE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DWEMER_KNIFE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_CASTLE_ON_RED_MOUNTAIN_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_CASTLE_ON_RED_MOUNTAIN_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DISAPEARENCE_OF_DWEMERS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DISAPEARENCE_OF_DWEMERS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_TRIBUNAL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_TRIBUNAL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_TRIBUNAL_TEMPLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_TRIBUNAL_TEMPLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DUNMER_VILLAGE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DUNMER_VILLAGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
 
 }

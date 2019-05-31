@@ -33,3 +33,17 @@ fort_15th = yes
 	controller = UNI
 	add_core = UNI
 }
+
+700.1.1 = {
+    owner = DWE
+	controller = DWE
+	add_core = DWE
+}
+
+750.1.1 = {
+    owner = HLA
+	controller = HLA
+	add_core = HLA
+    culture = dunmer
+	religion = tribunal_pantheon
+}

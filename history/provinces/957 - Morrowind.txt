@@ -25,3 +25,16 @@ fort_15th = yes
 	controller = UNI
 	add_core = UNI
 }
+
+700.1.1 = {
+    owner = REO
+	controller = REO
+	add_core = REO
+	culture = chimer
+	religion = chimer_pantheon
+}
+
+750.1.1 = {
+    culture = dunmer
+	religion = tribunal_pantheon
+}

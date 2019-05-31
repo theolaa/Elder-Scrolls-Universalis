@@ -21,3 +21,11 @@ fort_15th = yes
 	religion = reason_and_logic_cult
 	culture = dwemer
 }
+
+750.1.1 = {
+    owner = FAL
+	controller = FAL
+	add_core = FAL
+	culture = falmer
+	religion = snow_elves_pantheon
+}

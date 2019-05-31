@@ -377,3 +377,61 @@ po_tun_pantheon_modifier = {
 
 	idea_cost = 0.10
 }
+
+#######################################################################
+
+dwemer_technologies_modifier = {
+	potential = {
+		NOT = { has_global_flag = dwemer_dissapearence_flag }
+	}
+
+	trigger = {
+	    OR = {
+		primary_culture = dwemer
+		tag = UNI
+		}
+	}
+
+	global_institution_spread = 0.25
+	idea_cost = -0.15
+	technology_cost = -0.10
+	years_of_nationalism = 15
+	harsh_treatment_cost = 0.25
+}
+
+neighbour_dwemer_technologies_modifier = {
+	potential = {
+		NOT = { has_global_flag = dwemer_dissapearence_flag }
+	}
+
+	trigger = {
+		any_neighbor_country = {
+		    primary_culture = dwemer
+		}
+	}
+
+	global_institution_spread = 0.15
+	idea_cost = -0.10
+	technology_cost = -0.05
+	years_of_nationalism = 10
+	harsh_treatment_cost = 0.15
+}
+
+dwemer_research_hubs_modifier = {
+	potential = {
+		NOT = { primary_culture = dwemer }
+		any_owned_province = { continent = Tamriel }
+	}
+
+	trigger = {
+		owns = 970 
+		owns = 1044
+		owns = 1314
+		owns = 1329
+		owns = 1484
+	}
+
+	global_institution_spread = 0.15
+	idea_cost = -0.10
+	technology_cost = -0.05
+}

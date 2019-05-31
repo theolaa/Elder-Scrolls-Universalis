@@ -23,3 +23,11 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = UNI
 	add_core = UNI
 }
+
+750.1.1 = {
+    owner = DRS
+	controller = DRS
+	add_core = DRS
+    culture = dunmer
+	religion = tribunal_pantheon
+}

@@ -45,8 +45,17 @@
  14_intolerance:0 "Intolerance"
  15_coral_trade:0 "Coral Trade"
  15_glenpoint_assembly:0 "Glenpoint Assembly"
+ 16_good_reputation:0 "Good Reputation"
+ 16_n_orsinium:0 "Orsinium"
+ 16_s_orsinium:0 "Southern Orsinium"
+ 17_liberty_desire:0 "Liberty Desire"
+ 17_neutrality:0 "Neutrality"
+ 17_the_tribunal:0 "The Tribunal"
+ 17_disapearence_of_dwemers:0 "Disappearance of Dwemers"
+ 17_curse_of_azura:0 "Curse of Azura"
  00_far_legend:0 "Far Legend"
  00_tamrilian_tractates:0 "Tamrilian Tractates"
+ 00_year_without_sun:0 "Year Without Sun"
  
  es_culture.1.t:0 "Fall of Solstheim"
  es_culture.1.d:0 "The last Ayleid state on Solstheim is captured by there enemies."
@@ -111,6 +120,10 @@
  es_0_scenario.12.d:0 "A monstrous tragedy happened to our ruler in the last battle. The enemy's arrow hit him right in the kneecap! It seems that his adventure has come to an end."
  es_0_scenario.12.a:0 "Call the healers, let them treat the leg!"
  es_0_scenario.12.b:0 "Send this pseudo-warrior to guard the city streets!"
+ 
+ es_0_scenario.13.t:0 "A Year without Sun"
+ es_0_scenario.13.d:0 "Due to the eruption of the volcano, tons of ash and dust rose in the air, which covered the surface of Nirn from the sun's rays. Worldwide temperatures are plummeting - in Elsweier and the desert of Po Tun snow fall in the middle of summer. Also we could not collect the harvest for this year - it died under a meter layer of asphyxiating ash, so we expect riots due to food shortages start in the country. All forces will be left to fight them, but what will we do when we have nothing to feed our soldiers?"
+ es_0_scenario.13.a:0 "Hard times a waiting for us ahead."
  
  es_vampire_purification_title:0 "Vampire Purification"
  es_vampire_purification_desc:0 "Vampire Purification"
@@ -245,8 +258,8 @@
  es_5_remove_slaves_title:0 "Remove Slaves"
  es_5_remove_slaves_desc:0 " "
  
- es_5_scenario.4.t:0 "Herecy in a province"
- es_5_scenario.4.d:0 "Herecy spreads to one of our provinces. Majority of population is already converted. We must stop it!"
+ es_5_scenario.4.t:0 "Heresy in a province"
+ es_5_scenario.4.d:0 "Heresy spreads to one of our provinces. Majority of population is already converted. We must stop it!"
  es_5_scenario.4.a:0 "Disaster!"
  
  ETHERIAL_WAR:0 "Etherial Crisis"
@@ -615,3 +628,113 @@
  es_15_scenario.4.d:0 "That night the irreparable happened - an assassin penetrated the chambers of Masel Sesnit and stabbed him while he was sleeping. As soon as news of our leader’s tragic death was spread around the country, a crowd led by Randik Thorn, a commoner, asserting that he was the rightful heir to the throne, began to gather in the square, for the deceased himself bequeathed that way. Randik is clearly suffering from mental illness, but he has a great influence on the crowd."
  es_15_scenario.4.a:0 "Glory to Randik Thorn!"
  es_15_scenario.4.b:0 "Execute him for treason!"
+ 
+ RISE_OF_ORCS:0 "The Poison Song"
+ RISE_OF_ORCS_DESC:0 "Over the Tamriel, the Poison Song is pouring. She began to sound in the highlands of the Vvardenfell, among the hills of Morrowind, and in the gorges of High Rock. The Song takes possession of the minds of people and beasts, awakens in them all the most forbidden desires, ranging from envy and greed to lust and pushes the limp creatures on terrible deeds. And now the tribes of the Orcs begin the next internecine war. Chimeras, which ones were wandering on ash-covered hills and plains, begin to settle down to increase their wealth. And people suddenly decide to cleanse the world of those who have threatened their lives for centuries. How much more will we hear the sound of Poison Song? Nobody knows. But all will be horrified after she stops her singing."
+ 
+ es_16_scenario.1.t:0 "Unification of Orsinium"
+ es_16_scenario.1.d:0 "For too long, our people were divided into scattered clans, incapable of either major forays for prey, or serious defense against punitive campaigns of people. Rumors spread throughout Orsinium. It is said that Mauloch himself came from Oblivion to lead our hordes. It's time to unite all the orcs under one power. And show the whole Tamriel what the mountain people are about!"
+ es_16_scenario.1.a:0 "Glory to Orsinium!"
+ es_16_scenario.1.b:0 "We are absolutely satisfied with federation..."
+ 
+ es_16_scenario.2.t:0 "Purification Campaign"
+ es_16_scenario.2.d:0 "For too long, we suffered the raids of bloodthirsty orcs, who left orphans more than one thousand children, burned more than one hundred trees, and did not forget more than one dozen cities. Rumors say that they are planning another campaign to plunder our fertile lands. It was time once and for all to destroy this evil and clean High Rock from the defilement of cruelty and chaos."
+ es_16_scenario.2.a:0 "Prepare to march into Orsinium!"
+ es_16_scenario.2.b:0 "Better prepare for defense..."
+ 
+ es_16_scenario.3.t:0 "Eruption of Red Mountain"
+ es_16_scenario.3.d:0 "This morning the eruption of Red Mountain began. The explosion was of such strength that the entire upper part of the volcano in one second turned into ashes and dust. Streams of lava have already burned several villages at the foot of the mountain and are already approaching the cities on the coast of the Inland Sea. At the same time, clouds of volcanic gas and dust covered the sky over all of Morrowind. The exact number of victims has yet to be established, but it is already clear that this year Nirn will remain without the light of Magnus."
+ es_16_scenario.3.a:0 "What a disaster!"
+ 
+ es_16_scenario.4.t:0 "Followers of Kagrenak"
+ es_16_scenario.4.d:0 "The population of another city succumbed to the prophecies of Kagrenak, the philosopher-sorcerer, who claims that he visited each city of Tamriel, and was going after him to leave their homes and go on a journey to some place where his faithful followers should find strength and greatness."
+ es_16_scenario.4.a:0 "Let them go..."
+ es_16_scenario.4.a:0 "If they leave, then other nations will take our place. Stop them!"
+ 
+ es_16_scenario.5.t:0 "Provinces Demand Autonomy"
+ es_16_scenario.5.d:0 "There are fewer and fewer migrating tribes in Morrowind. It is difficult to say what caused this. The increased standard of living, our military or trade successes, and maybe the will of the gods. Nevertheless, even now many leaders have become the actual owners of some territories, which they ask to transfer to them, in exchange for faithful service."
+ es_16_scenario.5.a:0 "Glory to new House of Morrowind!"
+ es_16_scenario.5.b:0 "They should not forget, in what state they live! Arrest disloyal Chiefs!"
+ es_16_scenario.5.c:0 "Glory to Our House!"
+ 
+ es_16_rebuild_northern_orsinium_title:0 "Rebuild Orsinium"
+ es_16_rebuild_northern_orsinium_desc:0 " "
+ es_16_rebuild_southern_orsinium_title:0 "Rebuild Southern Orsinium"
+ es_16_rebuild_southern_orsinium_desc:0 " "
+ es_16_sack_orsinium_title:0 "Plunder Orsinium"
+ es_16_sack_orsinium_desc:0 " "
+ 
+ GREAT_SCHISM:0 "The Great Schism"
+ GREAT_SCHISM_DESC:0 "The events that took place in the vastness of Morrowind after the establishment of the Resdine-Dwemeret hegemony on these lands are called the Great Schism. Its main reason was the disunity of the ruling elites of the country, which, due to the absence of an external threat that previously united them, began to divide into groups seeking to control all the limited resources of Morrowind, ranging from money to religion policies and population. As a result of this policy, Resdine-Dwemeret in 40 years turned from a dominant player on the political map of Tamriel into a quasi-state facing a threat of civil war, willing to destroy or change once and for all those who decide to participate in it."
+ 
+ es_17_enpower_tribunal_title:0 "Rise of the Tribunal"
+ es_17_enpower_tribunal_desc:0 " "
+ 
+ es_17_scenario.1.t:0 "The Great Schism"
+ es_17_scenario.1.d:0 "The contradictions between Chimeri and the Dwemer nations have been exacerbated in recent years on a variety of occasions, ranging from trade to religious issues. However, it is now clear that the latest unrest is beginning to take on a much wider scale than the expected United Government in Mournhold. And now the fate of these two nations hangs in the balance separating them from the chaos of civil war."
+ es_17_scenario.1.a:0 "We are sure that this crisis will be overcomed."
+ 
+ es_17_scenario.2.t:0 "Unrest in Kragenmoor"
+ es_17_scenario.2.d:0 "Thousands of Dwemers protest throughout the city against the latest government reforms. They demand that the power be handed over to their representatives, who are just waiting for the opportunity to use people's anger to overthrow the existing regime. However, if we ignore the demands of the crowd, then the protesters will surely go on the storming of government buildings. Therefore, maybe we should at least partially fulfill their requirements and declare a vote of no confidence in the United Government?"
+ es_17_scenario.2.a:0 "The United Government is already dead."
+ es_17_scenario.2.b:0 "We will never betray our government! §GLeads to dissapearence of Dwemers.§!"
+ es_17_scenario.2.c:0 "We are not intrested in increasing the tension in provinces."
+ 
+ es_17_scenario.3.t:0 "Unrest in Mournhold"
+ es_17_scenario.3.d:0 "Thousands of Chimeri people protest throughout the city against the latest government reforms. They demand that the power be handed over to their representatives, who are just waiting for the opportunity to use people's anger to overthrow the existing regime. However, if we ignore the demands of the crowd, then the protesters will surely go on the storming of government buildings. Therefore, maybe we should at least partially fulfill their requirements and declare a vote of no confidence in the United Government?"
+ es_17_scenario.3.a:0 "The United Government is already dead."
+ es_17_scenario.3.b:0 "We will never betray our government! §GLeads to rise of the Tribunal.§!"
+ es_17_scenario.3.c:0 "We are not intrested in increasing the tension in provinces."
+ 
+ es_17_scenario.4.t:0 "Creation of Numidium"
+ es_17_scenario.4.d:0 "It is obvious that the civil war will not stop. Therefore, we need a weapon that can ensure our victory in it. Our engineers propose the creation of Numidium, a giant robot capable of leading our troops into battle."
+ es_17_scenario.4.a:0 "Build it! §RLeads to rise of the Tribunal.§"
+ es_17_scenario.4.b:0 "True peace cannot be acquired by force."
+ 
+ es_17_scenario.5.t:0 "General Nerevar"
+ es_17_scenario.5.d:0 "It is obvious that the civil war will not stop. Therefore, we need a hero that can ensure our victory in it. We even have a worthy candidate for these purposes - General Nerevar, who has never missed a single battle of his own."
+ es_17_scenario.5.a:0 "Make him our commander! §RLeads to dissapearence of Dwemers.§!"
+ es_17_scenario.5.b:0 "True peace cannot be acquired by force."
+ 
+ es_17_scenario.6.t:0 "Battle of Red Mountain"
+ es_17_scenario.6.d:0 "During the civil war, the Chimeri army managed to corner the Dwemer government in the catacombs of Red Mountain, leaving them no other hope of salvation, except for using an unknown ancient artifact found in one of the extinct volcano vents."
+ es_17_scenario.6.a:0 "This is a turning point in the war."
+ 
+ es_17_scenario.7.t:0 "Catacombs of Red Mountain"
+ es_17_scenario.7.d:0 "During the civil war, the Chimeri army managed to corner the Dwemer government in the catacombs of Red Mountain. To capture them we have sent our most experienced warriors - Nerevar, Vorin Dagoth, Sotha Sil, Almalexia and Vivec."
+ es_17_scenario.7.a:0 "This is a turning point in the war."
+ 
+ es_17_scenario.8.t:0 "Disappearance of Dwemers"
+ es_17_scenario.8.d:0 "During the battle for Red Mountain, the Dwemers managed to use an ancient artifact, but their hopes were not realized. Instead of obtaining boundless power, all the Dwemer across Nirn disappeared, leaving behind empty cities, unknown technologies and thousands of enslaved creatures."
+ es_17_scenario.8.a:0 "Dwemer culture won't be forgotten!"
+ es_17_scenario.8.b:0 "Empty cities were resettled by local neigbours."
+ es_17_scenario.8.c:0 "Former slaves became new owners of Dwemer Cities."
+ 
+ es_17_scenario.9.t:0 "Rise of the Tribunal"
+ es_17_scenario.9.d:0 "During the battle in the catacombs of the Red Mountain with the Dwemers, Nerevar was mortally wounded, and the Vorin Dagoth went missing. The survivors were able to reach the ancient artifact and found a way to use it for the sake of gaining immortality. Coming out of the dungeons of an active volcano, they called themselves the Tribunal, and vowed to bring true light throughout Tamriel, whatever it may be for other races. However, this angered the Daedric Princess Azura, who cursed all the Chimeri people and turned them into Dunmers."
+ es_17_scenario.9.a:0 "We will never accept False, once Mortal Gods! Azura will forgive us!"
+ es_17_scenario.9.b:0 "Glory to the Tribunal!"
+ 
+ es_17_scenario.10.t:0 "Noble Houses"
+ es_17_scenario.10.d:0 "Some aristocratic houses in our country have claims for neighboring lands that do not yet belong to us. We can use it to enlarge our influence, but our neighbors do not like it. But if we give up these claims, we can achieve much greater success in the diplomatic arena."
+ es_17_scenario.10.a:0 "Let's prepare for War!"
+ es_17_scenario.10.b:0 "There cannot be too high price for peace."
+ 
+ es_17_scenario.11.t:0 "Frandar Hunding"
+ es_17_scenario.11.d:0 "Despite the fact that the civil war has already ended, clashes between the remnants of the separatist armies and government forces are still continuing in the provinces. During these battles, one of our generals noticed a brave young man who desperately fought with our enemies. Although he comes from a poor and homely family, this general believes that we should accept him into our officer corps."
+ es_17_scenario.11.a:0 "Let's give that boy a chance..."
+ es_17_scenario.11.b:0 "Only noblility can command our warriors!"
+ 
+ es_17_scenario.12.t:0 "Death of Randic Torne"
+ es_17_scenario.12.d:0 "This morning, after a long illness, Randic Torne, our second post civil war ruler, passed away. Despite the fact, that he was not popular among the majority of people and took power by military coup, this is a tragedy for all Yokudans, as a new civil war can arise."
+ es_17_scenario.12.a:0 "Awful news!"
+ 
+ es_17_scenario.15.t:0 "Tribunal and Our State"
+ es_17_scenario.15.d:0 "In recent years, the influence of the Tribunal in our country has increased markedly. And now the ministers of this cult are also willing to take part in the political life of the state. Will our governmental system theocratic? Or we should let Tribunal help us only from their temples?"
+ es_17_scenario.15.a:0 "Glory to the Tribunal!"
+ es_17_scenario.15.b:0 "Our governmental system will stay secular."
+ 
+ es_17_scenario.16.t:0 "Lucky Opportunity"
+ es_17_scenario.16.d:0 "Across Morrowind, there is a wave of unrest that is about to escalate into a civil war. We could use this to declare our claims to the ancestral lands of the Old Kingdom. Of course, not everyone will like the violation of the peace treaty, which determined the political map of the North after the Wars of Succession. But we cannot miss such an opportunity to return what rightfully belongs to us."
+ es_17_scenario.16.a:0 "Prepare for intervention!"
+ es_17_scenario.16.b:0 "We will not violate the signed treaty."

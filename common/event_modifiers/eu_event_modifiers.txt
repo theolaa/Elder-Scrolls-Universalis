@@ -6,7 +6,7 @@ papal_sanction_for_church_taxes_1 = {
 
 papal_indulgence_1 = {
 	legitimacy = 1
-	republican_tradition = 0.01
+	republican_tradition = 1.0
 	devotion = 1
 	horde_unity = 1
 	meritocracy = 1

@@ -65,21 +65,21 @@ alliance = {
 	first = BA5
 	second = BA8
 	start_date = 5.1.1
-	end_date = 9999.1.1
+	end_date = 700.1.1
 }
 
 alliance = {
 	first = BA5
 	second = BB3
 	start_date = 5.1.1
-	end_date = 9999.1.1
+	end_date = 700.1.1
 }
 
 alliance = {
 	first = BA8
 	second = BB3
 	start_date = 5.1.1
-	end_date = 9999.1.1
+	end_date = 700.1.1
 }
 
 vassal = {

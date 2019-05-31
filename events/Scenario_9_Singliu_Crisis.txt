@@ -16,7 +16,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 10585
+		days = 5110
 	}
 
 	option = {
@@ -191,7 +191,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 10585
+		days = 5110
 	}
 
 	option = {
@@ -306,7 +306,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 10585
+		days = 5110
 	}
 
 	option = {
@@ -341,7 +341,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 10585
+		days = 5110
 	}
 
 	option = {
@@ -385,7 +385,7 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 10585
+		days = 5110
 	}
 
 	option = {
