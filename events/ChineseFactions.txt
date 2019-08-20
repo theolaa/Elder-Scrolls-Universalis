@@ -1107,11 +1107,9 @@ country_event = {
 		name = "china_events.23.a" #Charge with Corruption
 		boost_bureaucrats_effect = yes
 		add_corruption = 1
-		if = {
-			limit = {
-				any_owned_province = {
-					has_province_modifier = domain_of_spouses_family
-				}
+		every_owned_province = {
+		    limit = {
+				has_province_modifier = domain_of_spouses_family
 			}
 			add_province_modifier = {
 				name = "chi_upset_local_nobles"

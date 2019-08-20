@@ -382,7 +382,13 @@ province_event = {
 	option = {
 		name = "es_11_scenario.4.a"
 		ai_chance = { factor = 100 }
-		change_religion = dremora_pantheon 
+		change_religion = dremora_pantheon
+		spawn_rebels = {
+			type = dremora_pantheon_rebels
+			size = 5
+			win = yes
+			unrest = 10
+		}
 	}
 }
 

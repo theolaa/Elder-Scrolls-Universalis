@@ -245,11 +245,11 @@ country_decisions = {
 			years_of_income = 0.15
 		}
 		effect = {
-			add_adm_power = -50
-			add_years_of_income = -0.15
+			add_adm_power = -100
+			add_years_of_income = -0.25
 			add_country_modifier = {
 				name = "gods_pleased"
-				duration = 365
+				duration = 3650
 			}
 		}
 		ai_will_do = {

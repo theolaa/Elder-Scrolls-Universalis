@@ -1473,9 +1473,7 @@ civil_service = {
 
 	history = {
 		OR = {
-			AND = {
-				is_year = 900
-			}
+			is_year = 900
 			AND = {
 				is_year = 1000
 				development = 9
@@ -2444,12 +2442,8 @@ renaissance = {
 	
 	can_start = {
 		is_year = 1500
-		OR = {
-			AND = {
-				development = 20
-				is_capital = yes
-			}
-		}
+		development = 20
+		is_capital = yes
 		is_island = no
 	}
 	
@@ -3109,10 +3103,8 @@ manufactories = {
 	historical_start_province = 970
 
 	history = {
-			AND = {
-				is_year = 1900
-				owner = { NOT = { government = tribal } }
-			}
+		is_year = 1900
+		owner = { NOT = { government = tribal } }
 	}
 	
 	can_start = {
@@ -3283,10 +3275,8 @@ enlightenment = {
 	historical_start_province = 263
 
 	history = {
-			AND = {
-				is_year = 2000
-				owner = { NOT = { government = tribal } }
-			}
+		is_year = 2000
+		owner = { NOT = { government = tribal } }
 	}
 	
 	can_start = {
@@ -3658,12 +3648,8 @@ industrialization = {
 	historical_start_province = 224
 
 	history = {
-		OR = {
-			AND = {
-				is_year = 2200
-				development = 12
-			}
-		}
+		is_year = 2200
+		development = 12
 	}
 	
 	can_start = {
@@ -3798,9 +3784,7 @@ nationalism_institution = {
 	historical_start_province = 1342
 
 	history = {
-		OR = {
-			is_year = 2300
-		}
+		is_year = 2300
 	}
 	
 	can_start = {
@@ -3939,10 +3923,8 @@ electrification = {
 	historical_start_province = 1206
 
 	history = {
-			AND = {
-				is_year = 2400
-				development = 15
-			}
+		is_year = 2400
+		development = 15
 	}
 	
 	can_start = {

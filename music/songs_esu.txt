@@ -1015,7 +1015,9 @@ song = {
 		modifier = {
 			factor = 0
 			NOT = {
-					religion_group = divines_group
+					religion = eight_divines
+					religion = nine_divines
+					religion = twelve_divines
 			}
 		}
 		modifier = {
@@ -1034,4 +1036,193 @@ song = {
 			is_at_war = yes
 			}
 		}
+}
+
+song = {
+	name = "Ares - Yokuda"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = yokudan-redguardian_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+song = {
+	name = "Ares - Akavir"
+	chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = transpandomaic_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+song = {
+	name = "Ares - Thras"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					primary_culture = sload
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+song = {
+	name = "Ares - Kitchens of the Gourmet"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ares - Heroes and Gods"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					religion = eight_divines
+					religion = nine_divines
+					religion = twelve_divines
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+song = {
+	name = "Ares - Essence of Magicka"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ares - Mara Grace"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					religion = eight_divines
+					religion = nine_divines
+					religion = twelve_divines
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+song = {
+	name = "Ares - Stendarr Night"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					religion = eight_divines
+					religion = nine_divines
+					religion = twelve_divines
+					religion = altmeri_pantheon
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+song = {
+	name = "Ares - Gifts of Kynareth"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					religion = eight_divines
+					religion = nine_divines
+					religion = twelve_divines
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+song = {
+	name = "Ares - Lost Cities"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = high_elves_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
+}
+
+song = {
+	name = "Ares - Knowledge and Ancestry"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					religion = altmeri_pantheon
+					religion = snow_elves_pantheon
+					religion = bosmer_pantheon
+					religion = malacath_cult
+					religion = chimer_pantheon
+					religion = tribunal_pantheon
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = yes
+		}
+	}
 }

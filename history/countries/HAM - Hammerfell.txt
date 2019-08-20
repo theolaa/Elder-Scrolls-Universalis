@@ -5,4 +5,13 @@ technology_group = tamriel_tg
 religion = hermeus_mora_cult
 primary_culture = ayleid
 capital = 1510
-# = 1510
+
+810.1.1 = {
+    capital = 1478
+	religion = redguard_pantheon
+	primary_culture = redguard
+}
+
+939.1.1 = {
+    capital = 1510
+}

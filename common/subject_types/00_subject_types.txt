@@ -172,6 +172,8 @@ vassal = {
 	diplomacy_subject_sprite = GFX_diplomacy_amvassal
 
 	# Properties:
+	has_power_projection = yes
+	gives_daimyo_bonuses = yes
 	transfer_trade_if_merchant_republic = yes
 	can_be_annexed = yes
 	
@@ -179,28 +181,41 @@ vassal = {
 	gets_help_with_rebels = yes
 	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
+	
+	can_send_missionary_to_subject = yes
+	counts_for_borders = yes
+	share_rebel_popup = yes	
+	can_have_subjects_of_other_types = yes
+	overlord_can_be_subject = yes
+	overlord_protects_external = yes
 
 	max_government_rank = 1
 
-	has_power_projection = no
 	liberty_desire_development_ratio = 0.50
 	pays_overlord = 1.0
 	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0
+	
+	military_focus = 1.25
 
 	relative_power_class = 1.75
 	
 	can_fight = {
 		same_overlord = vassal
+		same_overlord = client_vassal
 	}
 	can_rival = {
 		same_overlord = vassal
+		same_overlord = client_vassal
 	}
 	can_ally = {
 		same_overlord = vassal
+		same_overlord = client_vassal
 	}
 	can_marry = {
 		same_overlord = vassal
+		same_overlord = client_vassal
+		same_overlord = march
 	}
 	
 	restoration_cb = cb_disloyal_vassal
@@ -217,6 +232,10 @@ vassal = {
 	contribute_to_capital = yes
 	return_land = yes
 	conscript_general = yes
+	
+	sword_hunt = yes
+	sankin_kotai = yes
+	expel_ronin = yes
 
 	# Modifiers:
 	modifier_subject = {
@@ -245,19 +264,20 @@ march = {
 	has_power_projection = yes
 	takes_diplo_slot = no
 	gets_help_with_rebels = yes
-
+	
+	sword_hunt = yes
+	sankin_kotai = yes
+	expel_ronin = yes
 
 	base_liberty_desire = -9999
-	pays_overlord = 1.0
-	forcelimit_bonus = 2.5
+	pays_overlord = 0.5
+	forcelimit_bonus = 1.0
 	forcelimit_to_overlord = 0
 	
 	relative_power_class = 1
 	
 	can_marry = {
 		same_overlord = vassal
-	}
-	can_marry = {
 		same_overlord = march
 	}
 
@@ -360,8 +380,6 @@ client_vassal = {
 	# Properties:
 	created_by_overlord = yes
 
-	base_liberty_desire = -9999.0
-
 	# Subject Interactions:
 	customize_subject = yes
 }
@@ -378,6 +396,8 @@ client_march = {
 	created_by_overlord = yes
 
 	base_liberty_desire = -9999.0
+	pays_overlord = 1.0
+	forcelimit_bonus = 2.5
 
 	# Subject Interactions:
 	customize_subject = yes
@@ -570,7 +590,8 @@ native_reservation = {
 	sprite = GFX_icon_federation
 	diplomacy_overlord_sprite = GFX_diplomacy_federation
 	diplomacy_subject_sprite = GFX_diplomacy_federation
-
+	
+	pays_overlord = 3.5
 }
 
 holy_order_1 = {

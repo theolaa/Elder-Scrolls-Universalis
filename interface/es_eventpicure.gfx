@@ -1,5 +1,65 @@
 spriteTypes = {
 
+    spriteType = {
+        name = "GFX_faction_bg_es_warriors"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_warriors"	
+        texturefile = "gfx//interface//es_warriors.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_faction_bg_es_merchants"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_merchants"	
+        texturefile = "gfx//interface//es_merchants.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_faction_bg_es_clergy"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_clergy"	
+        texturefile = "gfx//interface//es_clergy.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_faction_bg_es_knights"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_knights"	
+        texturefile = "gfx//interface//es_knights.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_faction_bg_es_priests"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_priests"	
+        texturefile = "gfx//interface//es_priests.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_faction_bg_es_monks"	
+        texturefile = "gfx//interface//faction_blue_frame.tga"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_faction_es_monks"	
+        texturefile = "gfx//interface//es_monks.dds"
+    }
+
 	spriteType = {
 		name = "ES_BLACK_MARSH_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BLACK_MARSH_eventPicture.dds"
@@ -421,12 +481,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "ES_REVOLT_eventPicture"
-		texturefile = "gfx/event_pictures/event_pictures_ES/ES_REVOLT_eventPicture.dds"
-		allwaystransparent = yes
-	}
-	
-	spriteType = {
 		name = "ES_MAUSOLEUM_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MAUSOLEUM_eventPicture.dds"
 		allwaystransparent = yes
@@ -549,6 +603,96 @@ spriteTypes = {
 	spriteType = {
 		name = "ES_DUNMER_VILLAGE_eventPicture"
 		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DUNMER_VILLAGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_MILITARY_CAMP_2_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_MILITARY_CAMP_2_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_HALL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_HALL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_REVOLUTION_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_REVOLUTION_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_WAVE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_WAVE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SMALL_VILLAGE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SMALL_VILLAGE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_REDGUARDS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_REDGUARDS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_HAMMERFELL_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_HAMMERFELL_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SNOWY_CASTLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SNOWY_CASTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_ICY_DESERT_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_ICY_DESERT_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_AKAVIRI_CASTLE_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_AKAVIRI_CASTLE_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_GOBLINS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_GOBLINS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DESERT_RIDERS_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DESERT_RIDERS_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_BALFIERA_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_BALFIERA_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_SIEGE_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_SIEGE_1_eventPicture.dds"
+		allwaystransparent = yes
+	}
+	
+	spriteType = {
+		name = "ES_DUNMER_CITY_1_eventPicture"
+		texturefile = "gfx/event_pictures/event_pictures_ES/ES_DUNMER_CITY_1_eventPicture.dds"
 		allwaystransparent = yes
 	}
 

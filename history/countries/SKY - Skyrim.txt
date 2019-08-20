@@ -139,3 +139,91 @@ capital = 1275
         mil = 3
 	}
 }
+
+655.1.1 = {
+    monarch = {
+		name = "Svogul"
+        dynasty = "Whitehold"
+		birth_date = 637.1.1
+		adm = 3
+        dip = 4
+        mil = 5
+	}
+}
+
+705.1.1 = {
+    monarch = {
+		name = "Tovesgar"
+        dynasty = "Whitehold"
+		birth_date = 687.1.1
+		adm = 2
+        dip = 1
+        mil = 3
+	}
+}
+
+742.1.1 = {
+    monarch = {
+		name = "Vilkred"
+        dynasty = "Whitehold"
+		birth_date = 723.1.1
+		adm = 4
+        dip = 5
+        mil = 5
+	}
+}
+
+802.1.1 = {
+    monarch = {
+		name = "Haransson"
+        dynasty = "Whitehold"
+		birth_date = 782.1.1
+		adm = 5
+        dip = 2
+        mil = 3
+	}
+}
+
+854.1.1 = {
+    monarch = {
+		name = "Jorgikssen"
+        dynasty = "Whitehold"
+		birth_date = 836.1.1
+		adm = 3
+        dip = 4
+        mil = 2
+	}
+}
+
+903.1.1 = {
+    monarch = {
+		name = "Fenaralderson"
+        dynasty = "Whitehold"
+		birth_date = 880.1.1
+		adm = 5
+        dip = 4
+        mil = 1
+	}
+}
+
+948.1.1 = {
+    monarch = {
+		name = "Aenro"
+        dynasty = "Whitehold"
+		birth_date = 930.1.1
+		adm = 4
+        dip = 3
+        mil = 5
+	}
+}
+
+1002.1.1 = {
+    monarch = {
+		name = "Ulfrardeson"
+        dynasty = "Whitehold"
+		birth_date = 979.1.1
+		adm = 5
+        dip = 5
+        mil = 7
+	}
+}

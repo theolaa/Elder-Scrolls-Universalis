@@ -118,7 +118,7 @@ capital = 820
 
 580.1.1 = {
     monarch = {
-		name = "Dornlake"
+		name = "Manalem"
 		dynasty = "Camoran"
 		birth_date = 557.1.1
 		adm = 2
@@ -135,5 +135,93 @@ capital = 820
 		adm = 4
 		dip = 5
 		mil = 1
+	}
+}
+
+656.1.1 = {
+    monarch = {
+		name = "Sagewood"
+		dynasty = "Camoran"
+		birth_date = 638.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+708.1.1 = {
+    monarch = {
+		name = "Dangdulain"
+		dynasty = "Camoran"
+		birth_date = 687.1.1
+		adm = 5
+		dip = 4
+		mil = 5
+	}
+}
+
+762.1.1 = {
+    monarch = {
+		name = "Oakenrock"
+		dynasty = "Camoran"
+		birth_date = 742.1.1
+		adm = 3
+		dip = 3
+		mil = 7
+	}
+}
+
+810.1.1 = {
+    monarch = {
+		name = "Fillgan"
+		dynasty = "Camoran"
+		birth_date = 792.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+
+861.1.1 = {
+    monarch = {
+		name = "Fernlake"
+		dynasty = "Camoran"
+		birth_date = 841.1.1
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+914.1.1 = {
+    monarch = {
+		name = "Ungeorolros"
+		dynasty = "Camoran"
+		birth_date = 896.1.1
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+961.1.1 = {
+    monarch = {
+		name = "Softlock"
+		dynasty = "Camoran"
+		birth_date = 941.1.1
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1004.1.1 = {
+    monarch = {
+		name = "Celadras"
+		dynasty = "Camoran"
+		birth_date = 986.1.1
+		adm = 2
+		dip = 2
+		mil = 5
 	}
 }

@@ -73,3 +73,47 @@ capital = 1394
 		mil = 2
 	}
 }
+
+845.1.1 = {
+	monarch = {
+		name = "Petis"
+		dynasty = "Daggerfall"
+		birth_date = 827.1.1
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+}
+
+902.1.1 = {
+	monarch = {
+		name = "Alenneond"
+		dynasty = "Daggerfall"
+		birth_date = 884.1.1
+		adm = 5
+		dip = 7
+		mil = 4
+	}
+}
+
+962.1.1 = {
+	monarch = {
+		name = "Lirinne"
+		dynasty = "Daggerfall"
+		birth_date = 943.1.1
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}
+
+1013.1.1 = {
+	monarch = {
+		name = "Blaysch"
+		dynasty = "Daggerfall"
+		birth_date = 995.1.1
+		adm = 5
+		dip = 5
+		mil = 7
+	}
+}

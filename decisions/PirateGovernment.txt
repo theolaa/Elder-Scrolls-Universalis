@@ -15,14 +15,20 @@ country_decisions = {
 				government = monarchy
 				government = republic
 			}
+			OR = {
+			NOT = { num_of_cities = 10 }
 			capital_scope = {
 			is_island = yes
+			}
 			}
 		}
 		allow = {
 			stability = 3
 			is_bankrupt = no
 			is_at_war = no
+			capital_scope = {
+			is_island = yes
+			}
 		}
 		effect = {
 			add_stability = -3
@@ -39,6 +45,10 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+			tag = VOL
+			factor = 0
+			}
 		}
 	}
 }

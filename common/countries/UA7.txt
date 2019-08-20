@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = greekgfx
 
 color = { 144 226 255 }
 

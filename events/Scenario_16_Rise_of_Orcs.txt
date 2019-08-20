@@ -159,8 +159,6 @@ province_event = {
 	desc = es_16_scenario.4.d
 	picture = ES_DWEMER_PROPHET_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
 		is_year = 660
 		NOT = { is_year = 700 }
@@ -251,7 +249,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = TEL
+		create_subject = {
+        subject_type = vassal
+        subject = TEL
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -329,7 +330,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = REO
+		create_subject = {
+        subject_type = vassal
+        subject = REO
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -407,7 +411,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = IND
+		create_subject = {
+        subject_type = vassal
+        subject = IND
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -485,7 +492,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = HLA
+		create_subject = {
+        subject_type = vassal
+        subject = HLA
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -563,7 +573,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = DRS
+		create_subject = {
+        subject_type = vassal
+        subject = DRS
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -641,7 +654,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = DAG
+		create_subject = {
+        subject_type = vassal
+        subject = DAG
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -719,7 +735,10 @@ country_event = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = SAD
+		create_subject = {
+        subject_type = vassal
+        subject = SAD
+        }
 	}
 	option = {
 		name = "es_16_scenario.5.b"
@@ -793,11 +812,14 @@ country_event = {
 		cede_province = DWE
 		add_core = DWE
 		}
+		create_subject = {
+        subject_type = vassal
+        subject = DWE
+        }
 		add_country_modifier = {
 			name = "vassal_autonomy"
 			duration = 9125
 		}
-		create_vassal = DWE
 	}
 	option = {
 		name = "es_16_scenario.5.b"

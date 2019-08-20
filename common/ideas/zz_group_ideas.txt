@@ -85,7 +85,7 @@ colonial_ideas = {
 
 mesoamerican_ideas = {
 	start = {
-		heir_chance = 0.25
+		heir_chance = 0.50
 		vassal_income = 0.25
 	}
 	
@@ -182,7 +182,7 @@ andean_ideas = {
 		devotion = 0.5						
         horde_unity = 0.5
         meritocracy = 0.5
-		heir_chance = 0.25
+		heir_chance = 0.50
 	}
 	
 	bonus = {
@@ -501,7 +501,7 @@ french_culture_ideas = {
 highland_scottish_ideas = {
 	start = {
 		garrison_size = 0.25
-		heir_chance = 0.25
+		heir_chance = 0.50
 	}
 	bonus = {
 		manpower_recovery_speed = 0.25
@@ -1059,7 +1059,7 @@ guajiro_ideas = {
 
 shan_ideas = {
 	start = {
-		heir_chance = 0.25
+		heir_chance = 0.50
 		num_accepted_cultures = 1
 	}
 	
@@ -1367,7 +1367,7 @@ african_great_lakes_ideas = {
 		prestige = 0.25
 	}
 	no_illegitimate_children = {
-		heir_chance = 0.10
+		heir_chance = 0.25
 	}
 	cwezy_religion = {
 		tolerance_own = 1

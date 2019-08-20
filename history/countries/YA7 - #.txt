@@ -38,3 +38,24 @@ capital = 335
 		mil = 0
 	}
 }
+
+792.1.1 = {
+	monarch = {
+		name = "Sticert"
+		dynasty = "Torn"
+		birth_date = 772.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+810.1.1 = {
+    monarch = {
+		name = "(Regency Council)"
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}

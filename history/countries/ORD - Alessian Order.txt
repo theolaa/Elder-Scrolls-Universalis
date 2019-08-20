@@ -81,12 +81,100 @@ capital = 1206
 	}
 }
 
-609.1.1 = {
+616.1.1 = {
 	monarch = {
 		name = "Vinhylak"
 		dynasty = "Alessian"
-		birth_date = 545.1.1
+		birth_date = 598.1.1
 		adm = 5
+        dip = 3
+        mil = 4
+	}
+}
+
+673.1.1 = {
+	monarch = {
+		name = "Yhin"
+		dynasty = "Alessian"
+		birth_date = 652.1.1
+		adm = 7
+        dip = 3
+        mil = 5
+	}
+}
+
+723.1.1 = {
+	monarch = {
+		name = "Zerlec"
+		dynasty = "Alessian"
+		birth_date = 705.1.1
+		adm = 5
+        dip = 5
+        mil = 7
+	}
+}
+
+778.1.1 = {
+	monarch = {
+		name = "Aroc"
+		dynasty = "Alessian"
+		birth_date = 759.1.1
+		adm = 3
+        dip = 3
+        mil = 5
+	}
+}
+
+837.1.1 = {
+	monarch = {
+		name = "Tudaarin"
+		dynasty = "Alessian"
+		birth_date = 819.1.1
+		adm = 4
+        dip = 5
+        mil = 4
+	}
+}
+
+887.1.1 = {
+	monarch = {
+		name = "Dulros"
+		dynasty = "Alessian"
+		birth_date = 867.1.1
+		adm = 3
+        dip = 5
+        mil = 4
+	}
+}
+
+926.1.1 = {
+	monarch = {
+		name = "Kaahlec"
+		dynasty = "Alessian"
+		birth_date = 908.1.1
+		adm = 2
+        dip = 4
+        mil = 5
+	}
+}
+
+980.1.1 = {
+	monarch = {
+		name = "Kaomrar"
+		dynasty = "Alessian"
+		birth_date = 961.1.1
+		adm = 1
+        dip = 3
+        mil = 2
+	}
+}
+
+1030.1.1 = {
+	monarch = {
+		name = "Ridravin"
+		dynasty = "Alessian"
+		birth_date = 1007.1.1
+		adm = 2
         dip = 3
         mil = 4
 	}

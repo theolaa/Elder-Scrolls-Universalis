@@ -25,7 +25,7 @@ create_transitional_state = {
 		FROM = {
 		OR = {
 		is_subject_of_type = client_vassal
-		is_subject_of_type = vassal
+		is_subject_of_type = client_march
 		AND = {
 		is_subject_of_type = personal_union
 		total_development = 350
@@ -99,21 +99,18 @@ create_holy_order_1 = {
 	
 	is_visible = {
 		is_subject = no
-		ROOT = {
-		government = theocracy
-		}
-		FROM = {
+	}
+	is_allowed = {
+        FROM = {
 		OR = {
 	    is_subject_of_type = vassal
-		is_subject_of_type = client_vassal
+		is_subject_of_type = march
 		}
-		NOT = { is_subject_of_type = daimyo_vassal }
+		NOT = { is_subject_of_type = client_vassal }
+		NOT = { is_subject_of_type = client_march }
 		is_subject_of = ROOT
 		is_lesser_in_union = no
 		}
-	}
-	is_allowed = {
-    
 	}
 	on_accept = {
 		create_subject = {
@@ -128,7 +125,7 @@ create_holy_order_1 = {
 	}
 
 	ai_will_do = { 
-		always = yes
+		government = theocracy
 	}
 }
 
@@ -152,7 +149,7 @@ dissolve_holy_order_1  =  {
 
 	}
 	ai_will_do = {
-		always = no
+		NOT = { government = theocracy }
 	}
 }
 
@@ -195,7 +192,7 @@ create_native_reservation = {
 	}
 
 	ai_will_do = {
-	     always = yes
+	    NOT = { government = native }
 	}
 }
 
@@ -219,7 +216,7 @@ dissolve_native_reservation  =  {
 
 	}
 	ai_will_do = {
-		always = no
+		government = native
 	}
 }
 
@@ -248,6 +245,8 @@ create_personal_union = {
 	dynasty = ROOT
 	government = monarchy
 	NOT = { is_subject_of_type = personal_union }
+	NOT = { is_subject_of_type = march }
+	NOT = { is_subject_of_type = client_march }
 	}
 	}
 	on_accept = {

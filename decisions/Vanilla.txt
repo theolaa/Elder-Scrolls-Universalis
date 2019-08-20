@@ -316,6 +316,7 @@ country_decisions = {
 			tag = ALE
 			tag = ORD
 			tag = HEA
+			tag = TAM
 			}
 			normal_or_historical_nations = yes
 			OR = {

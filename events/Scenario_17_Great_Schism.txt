@@ -785,6 +785,7 @@ country_event = {
         manuever = 5
         siege = 5
 		}
+		set_country_flag = frandar_hunding_flag
 	}
 	option = {
 		name = "es_17_scenario.11.b"

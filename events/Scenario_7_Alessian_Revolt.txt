@@ -284,6 +284,7 @@ country_event = {
 	option = {
 		name = "es_7_scenario.3.b"
 		ai_chance = { factor = 50 }
+		add_prestige = -10
 	}
 }
 

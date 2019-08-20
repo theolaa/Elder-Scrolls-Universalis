@@ -58,9 +58,9 @@ estate_cossacks = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		cavalry_cost = -0.10
-		cavalry_power = 0.10
-		cav_to_inf_ratio = 0.10
+		cavalry_cost = -0.15
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.15
 	}
 	country_modifier_neutral = {
 	}	
@@ -71,8 +71,8 @@ estate_cossacks = {
 	
 	# These do not scale, but only applied in provinces owned by the estate
 	province_modifier_happy = {	
-		local_hostile_attrition = 1
-		local_manpower_modifier = 0.1
+		local_hostile_attrition = 1.5
+		local_manpower_modifier = 0.15
 	}
 	province_modifier_neutral = {
 	}	

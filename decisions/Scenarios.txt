@@ -539,4 +539,5 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	
 }

@@ -411,7 +411,7 @@ HAB_ideas = {
 	}
 	
 	bonus = {
-		heir_chance = 0.25
+		heir_chance = 0.50
 	}
 	
 	trigger = {
@@ -744,7 +744,7 @@ ETH_ideas = {
 		prestige = 0.25
 	}
 	nagusa_negast = {
-		heir_chance = 0.10
+		heir_chance = 0.25
 	}
 	hostile_borders = {
 		defensiveness = 0.10
@@ -1788,7 +1788,7 @@ FEO_ideas = {
 		merc_maintenance_modifier = -0.10
 	}
 	komnin_paleolog_gavras = {
-		heir_chance = 0.10	
+		heir_chance = 0.25	
 	}
 	aristocracy_in_moskovia = {
 		diplomatic_reputation = 0.5

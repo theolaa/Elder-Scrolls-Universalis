@@ -1,0 +1,416 @@
+# latingfx
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 1                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "westerngfx_INFANTRY_1"
+	name = "latingfx_INFANTRY_1"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 2                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "westerngfx_INFANTRY_2"
+	name = "latingfx_INFANTRY_2"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 3                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "westerngfx_INFANTRY_3"
+	name = "latingfx_INFANTRY_3"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 4                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "westerngfx_INFANTRY_4"
+	name = "latingfx_INFANTRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   CAVALRY                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "westerngfx_CAVALRY_1"
+	name = "latingfx_CAVALRY_1"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_1_rider"
+	name = "latingfx_CAVALRY_1_rider"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_2_rider"
+	name = "latingfx_CAVALRY_2_rider"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_3_rider"
+	name = "latingfx_CAVALRY_3_rider"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_4_rider"
+	name = "latingfx_CAVALRY_4_rider"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_2"
+	name = "latingfx_CAVALRY_2"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_3"
+	name = "latingfx_CAVALRY_3"
+}
+
+entity = {
+	clone = "westerngfx_CAVALRY_4"
+	name = "latingfx_CAVALRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   ARTILLERY                                             #####
+#####                                                                                                         #####
+###################################################################################################################
+
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1_cannon"
+	name = "latingfx_ARTILLERY_1_cannon"	
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1_cannon"
+	name = "latingfx_ARTILLERY_2_cannon"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1_cannon"
+	name = "latingfx_ARTILLERY_3_cannon"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1_cannon"
+	name = "latingfx_ARTILLERY_4_cannon"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "latingfx_ARTILLERY_1"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "latingfx_ARTILLERY_2_generic"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "latingfx_ARTILLERY_3_generic"
+}
+
+entity = {
+	clone = "westerngfx_ARTILLERY_1"
+	name = "latingfx_ARTILLERY_4_generic"
+}
+
+# greekfx
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 1                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "easterngfx_INFANTRY_1"
+	name = "greekgfx_INFANTRY_1"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 2                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "easterngfx_INFANTRY_2"
+	name = "greekgfx_INFANTRY_2"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 3                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "easterngfx_INFANTRY_3"
+	name = "greekgfx_INFANTRY_3"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 4                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "easterngfx_INFANTRY_4"
+	name = "greekgfx_INFANTRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   CAVALRY                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "easterngfx_CAVALRY_1"
+	name = "greekgfx_CAVALRY_1"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_1_rider"
+	name = "greekgfx_CAVALRY_1_rider"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_2_rider"
+	name = "greekgfx_CAVALRY_2_rider"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_3_rider"
+	name = "greekgfx_CAVALRY_3_rider"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_4_rider"
+	name = "greekgfx_CAVALRY_4_rider"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_2"
+	name = "greekgfx_CAVALRY_2"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_3"
+	name = "greekgfx_CAVALRY_3"
+}
+
+entity = {
+	clone = "easterngfx_CAVALRY_4"
+	name = "greekgfx_CAVALRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   ARTILLERY                                             #####
+#####                                                                                                         #####
+###################################################################################################################
+
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1_cannon"
+	name = "greekgfx_ARTILLERY_1_cannon"	
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1_cannon"
+	name = "greekgfx_ARTILLERY_2_cannon"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1_cannon"
+	name = "greekgfx_ARTILLERY_3_cannon"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1_cannon"
+	name = "greekgfx_ARTILLERY_4_cannon"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1"
+	name = "greekgfx_ARTILLERY_1"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1"
+	name = "greekgfx_ARTILLERY_2_generic"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1"
+	name = "greekgfx_ARTILLERY_3_generic"
+}
+
+entity = {
+	clone = "easterngfx_ARTILLERY_1"
+	name = "greekgfx_ARTILLERY_4_generic"
+}
+
+# turkishfx
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 1                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "muslimgfx_INFANTRY_1"
+	name = "turkishgfx_INFANTRY_1"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 2                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "muslimgfx_INFANTRY_2"
+	name = "turkishgfx_INFANTRY_2"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 3                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "muslimgfx_INFANTRY_3"
+	name = "turkishgfx_INFANTRY_3"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 4                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "muslimgfx_INFANTRY_4"
+	name = "turkishgfx_INFANTRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   CAVALRY                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	clone = "muslimgfx_CAVALRY_1"
+	name = "turkishgfx_CAVALRY_1"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_1_rider"
+	name = "turkishgfx_CAVALRY_1_rider"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_2_rider"
+	name = "turkishgfx_CAVALRY_2_rider"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_3_rider"
+	name = "turkishgfx_CAVALRY_3_rider"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_4_rider"
+	name = "turkishgfx_CAVALRY_4_rider"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_2"
+	name = "turkishgfx_CAVALRY_2"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_3"
+	name = "turkishgfx_CAVALRY_3"
+}
+
+entity = {
+	clone = "muslimgfx_CAVALRY_4"
+	name = "turkishgfx_CAVALRY_4"
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   ARTILLERY                                             #####
+#####                                                                                                         #####
+###################################################################################################################
+
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1_cannon"
+	name = "turkishgfx_ARTILLERY_1_cannon"	
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1_cannon"
+	name = "turkishgfx_ARTILLERY_2_cannon"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1_cannon"
+	name = "turkishgfx_ARTILLERY_3_cannon"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1_cannon"
+	name = "turkishgfx_ARTILLERY_4_cannon"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1"
+	name = "turkishgfx_ARTILLERY_1"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1"
+	name = "turkishgfx_ARTILLERY_2_generic"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1"
+	name = "turkishgfx_ARTILLERY_3_generic"
+}
+
+entity = {
+	clone = "muslimgfx_ARTILLERY_1"
+	name = "turkishgfx_ARTILLERY_4_generic"
+}

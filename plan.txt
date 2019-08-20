@@ -136,15 +136,10 @@ Dynasties: + appearence events
 + Force Vassal CB - Colonies
 + CKII personality events
 + random terrain bonuses
-
-+ devastation causes unrest
++ Akaviri invasion
 
 1E 750Edit
 By this approximate year, Frandar Hunding has won over ninety battles; having killed his opponents in each, he is deemed "virtually invincible with a sword."[30]
-1E 760Edit
-Divad Hunding, known as 'The Singer', son of Frandar Hunding, and "most well known of Redguard heroes," was born in this year.[51]
-1E 771Edit
-Divad Hunding enters the Hall of the Virtues of War and begins his training there.[51]
 1E 776Edit
 Divad Hunding leaves the Hall of the Virtues of War in anger, breaks his swords, and vows to "become an acrobat in a traveling circus."[51]
 1E 780Edit
@@ -192,6 +187,10 @@ The legendary Reachman known as Red Eagle is said to have existed around this ti
 Empress Hestra attempts to expand the empire into the Reach and High Rock.[68]
 1E 1033Edit
 Empress Hestra demands "the head of the most infamous of the brigadiers," Red Bramman.[26]
+
+##############
+### Akavir ###
+##############
 
 12th CenturyEdit
 1E 1100Edit
@@ -322,6 +321,23 @@ The end of the War of the Uvichil, a war between the Sload of Thras and the Altm
 1E 2920Edit
 Morag Tong assassinates Emperor Reman Cyrodiil III.[3][21][75][90][88]
 Old Mournhold is destroyed by Mehrunes Dagon.[91]
+
+southamericagfx: kamal-maorner
+westerngfx:      altmer-ayleid-sinistral
+muslimgfx:       yokudan-redguard 
+easterngfx:      atmoran-nord-skaal-breton
+latingfx:        nedic-imperial-nibenean-colovian
+africangfx:      orsimer-wood_orsimer 
+XXX:             po_tun-khajiiti-anequinan-pellitinian
+asiangfx:        tsaesci-argonian-archein-agaceph-naga
+turkishgfx:      ashlander-dunmer-chimer 
+greekgfx:        snow_elven-akaviri-islander 
+northamericagfx: native-reachmen-glacial-kothringi-falmer 
+indiangfx:       tangmo-imga
+YYY:             dremora-sload
+ZZZ:             bosmer
+VVV:             vampire
+DDD:             dwemer
 
  Diplomacy: - DIP
 #11) Citizenship Policy - diplomatic_annexation_cost = -0.43	

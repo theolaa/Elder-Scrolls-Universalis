@@ -22,6 +22,7 @@ capital = 1344
 308.1.1 = {
 	heir = {
 		name = "Serana"
+		monarch_name = "Serana I"
         dynasty = "Volhkihar"
 		culture = vampire
 		birth_date = 294.1.1

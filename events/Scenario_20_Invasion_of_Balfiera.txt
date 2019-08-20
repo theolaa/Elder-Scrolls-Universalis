@@ -1,0 +1,232 @@
+namespace = es_20_scenario
+
+country_event = {
+	id = es_20_scenario.1
+	title = es_20_scenario.1.t
+	desc = es_20_scenario.1.d
+	picture = ES_GOBLINS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = orsimer_cg
+		owns = 1391
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_20_scenario.1.a"
+		ai_chance = { factor = 33 }
+		add_prestige = -25
+		add_country_modifier = {
+		name = "20_grand_army"
+		duration = 12775
+		}
+		every_province = {
+		limit = {
+		OR = {
+		region = hgh_rock_lr
+		region = hammerfell_lr
+		region = western_skyrim_lr
+		}
+		}
+		add_core = ROOT
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.1.b"
+		ai_chance = { factor = 33 }
+		add_prestige = -10
+		add_country_modifier = {
+		name = "01_focus_on_trade"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.1.c"
+		ai_chance = { factor = 33 }
+		add_stability = 1
+		add_prestige = 25
+	}
+	
+}
+
+country_event = {
+	id = es_20_scenario.2
+	title = es_20_scenario.2.t
+	desc = es_20_scenario.2.d
+	picture = ES_DESERT_RIDERS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = high_elves_cg
+		owns = 1382
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_20_scenario.2.a"
+		ai_chance = { factor = 33 }
+		add_stability = -1
+		add_country_modifier = {
+		name = "19_offensive_strategy"
+		duration = 12775
+		}
+		every_province = {
+		limit = {
+		region = hammerfell_lr
+		}
+		add_core = ROOT
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.2.b"
+		ai_chance = { factor = 33 }
+		add_prestige = -10
+		add_country_modifier = {
+		name = "20_new_forts"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.2.c"
+		ai_chance = { factor = 33 }
+		add_stability = 1
+		add_prestige = 10
+	}
+	
+}
+
+country_event = {
+	id = es_20_scenario.3
+	title = es_20_scenario.3.t
+	desc = es_20_scenario.3.d
+	picture = ES_BALFIERA_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = high_elves_cg
+		owns = 1382
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_20_scenario.3.a"
+		ai_chance = { factor = 33 }
+		add_prestige = 10
+		every_province = {
+		limit = {
+		OR = {
+		region = hammerfell_lr
+		AND = {
+		region = hgh_rock_lr
+		culture = altmer
+		}
+		}
+		}
+		add_core = ROOT
+		}
+		add_country_modifier = {
+		name = "20_surival_tactics"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.3.b"
+		ai_chance = { factor = 33 }
+		add_prestige = -10
+		add_country_modifier = {
+		name = "01_focus_on_trade"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.3.c"
+		ai_chance = { factor = 33 }
+		add_prestige = -25
+		add_country_modifier = {
+		name = "01_focus_on_trade"
+		duration = 12775
+		}
+		add_country_modifier = {
+		name = "17_neutrality"
+		duration = 12775
+		}
+	}
+	
+}
+
+country_event = {
+	id = es_20_scenario.4
+	title = es_20_scenario.4.t
+	desc = es_20_scenario.4.d
+	picture = ES_SIEGE_1_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = half_blood_cg
+		owns = 1369
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+
+	option = {
+		name = "es_20_scenario.4.a"
+		ai_chance = { factor = 33 }
+		add_prestige = -10
+		add_years_of_income = -1.0
+		add_country_modifier = {
+		name = "20_order_of_diagna"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.4.b"
+		ai_chance = { factor = 33 }
+		add_stability = -1
+		add_country_modifier = {
+		name = "02_prepare_for_war"
+		duration = 12775
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.4.c"
+		ai_chance = { factor = 33 }
+		add_prestige = 10
+		add_country_modifier = {
+		name = "10_unrest"
+		duration = 3650
+		}
+	}
+	
+}

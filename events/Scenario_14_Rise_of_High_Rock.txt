@@ -164,7 +164,7 @@ country_event = {
 		NOT = { is_year = 609 }
 		is_free_or_tributary_trigger = yes
 		capital_scope = {
-		region = eastern_syrodiil_lr
+		region = central_syrodiil_lr
 		}
 		OR = {
 		exists = ORD

@@ -397,7 +397,7 @@ devastation = {
 	local_sailors_modifier = -1.0
 	local_hostile_movement_speed = -0.25
 	local_friendly_movement_speed = -0.25
-	local_unrest = 10
+	local_unrest = 25
 }
 
 prosperity = {
@@ -554,6 +554,9 @@ positive_stability = {
 	yearly_harmony = 0.25
 	caravan_power = 0.05
 	
+	es_warriors_influence = 0.025
+	es_knights_influence = 0.025
+	
 	legitimacy = 0.33
 	republican_tradition = 0.33
 	devotion = 0.33
@@ -580,6 +583,9 @@ negative_stability = {
 	monthly_militarized_society = -0.05
 	global_institution_spread = 0.15
 	yearly_harmony = 0.25
+	
+	es_warriors_influence = 0.025
+	es_knights_influence = 0.025
 	
 	legitimacy = 2.5
 	republican_tradition = 2.5
@@ -656,6 +662,9 @@ bankruptcy = {
 	yearly_absolutism = -2.5
 	technology_cost = 1.0
 	idea_cost = 1.0
+	
+	es_clergy_influence = 0.25
+	es_monks_influence = 0.25
 }
 
 
@@ -689,6 +698,9 @@ war = {
 	global_regiment_recruit_speed = -0.25
 	reinforce_speed = 0.25
 	production_efficiency = -0.25
+	
+	es_warriors_influence = 0.1
+	es_knights_influence = 0.1
 }
 
 peace = {
@@ -699,6 +711,9 @@ peace = {
 	rr_girondists_influence = -0.1
 	pr_smugglers_influence = 0.1
 	global_manpower_modifier = 0.25
+	
+	es_warriors_influence = -0.1
+	es_knights_influence = -0.1
 }
 
 unconditional_surrender = {
@@ -731,6 +746,11 @@ war_exhaustion = {
 	horde_unity = -0.25
 	devotion = -0.25
 	republican_tradition = -0.25
+	
+	es_warriors_influence = -0.05
+	es_merchants_influence = 0.05
+	es_knights_influence = -0.05
+	es_priests_influence = 0.05
 }
 
 doom = {
@@ -773,6 +793,9 @@ army_tradition = {
 	mr_aristocrats_influence = 0.1
 	rr_girondists_influence = 0.1
 	monthly_militarized_society = 0.1
+	
+	es_warriors_influence = 0.1
+	es_knights_influence = 0.1
 }
 
 navy_tradition = {
@@ -784,6 +807,9 @@ navy_tradition = {
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
 	sailors_recovery_speed = 0.2
+	
+	es_merchants_influence = 0.1
+	es_priests_influence = 0.1
 }
 
 positive_piety = {
@@ -960,6 +986,9 @@ over_extension = {
 	harsh_treatment_cost = 1.0
 	bureaucrats_influence = 0.5
 	mr_guilds_influence = 0.5
+	
+	es_clergy_influence = 0.5
+	es_monks_influence = 0.5
 }
 
 territory_very_easy_difficulty = { 
@@ -1017,11 +1046,17 @@ republican_tradition = {
 	diplomatic_reputation = 1
 	vassal_income = 0.25
 	rr_jacobins_influence = 0.1
+	
+	es_merchants_influence = 0.1
+	es_priests_influence = 0.1
 }
 
 inverse_republican_tradition = {
 	stability_cost_modifier = 2.5
 	rr_jacobins_influence = -0.1
+	
+	es_merchants_influence = -0.1
+	es_priests_influence = -0.1
 }
 
 

@@ -1,6 +1,6 @@
-graphical_culture = westerngfx
+graphical_culture = latingfx
 
-color = { 135 43 181 }
+color = { 203 203 203 }
 
 historical_idea_groups = {
 }

@@ -1267,15 +1267,42 @@ yokudan-redguardian_government = {
 
 gov_papal_government = {
 	rank = {
+		1 = HOLY_PRINCIPALITY
+		2 = HOLY_PRINCIPALITY
+		3 = HOLY_PRINCIPALITY
+		4 = HOLY_PRINCIPALITY
+		5 = HOLY_STATE
+		6 = HOLY_STATE
 		7 = HOLY_STATE
+		8 = HOLY_STATE
+		9 = HOLY_STATE
+		10 = HOLY_EMPIRE
 	}
 	
 	ruler_male = {
+		1 = PRIEST
+		2 = PRIEST
+		3 = PRIEST
+		4 = PRIEST
+		5 = HIGH_PRIEST
+		6 = HIGH_PRIEST
 		7 = HIGH_PRIEST
+		8 = HIGH_PRIEST
+		9 = HIGH_PRIEST
+		10 = PARAMOUNT_PRIEST
 	}
-	
-	ruler_female  ={
+
+	ruler_female = {
+		1 = PRIESTESS
+		2 = PRIESTESS
+		3 = PRIESTESS
+		4 = PRIESTESS
+		5 = HIGH_PRIESTESS
+		6 = HIGH_PRIESTESS
 		7 = HIGH_PRIESTESS
+		8 = HIGH_PRIESTESS
+		9 = HIGH_PRIESTESS
+		10 = PARAMOUNT_PRIESTESS
 	}
 	
 	trigger = {
@@ -1585,7 +1612,7 @@ gov_free_city = {
 	trigger = {
 	    OR = {
 		has_reform = free_city
-		has_reform = imperial_city
+		has_reform = imperial_city_legacy
 		}
 	}
 }

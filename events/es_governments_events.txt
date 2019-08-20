@@ -15,6 +15,7 @@ country_event = {
 		government = republic
 		government = theocracy
 		}
+		NOT = { has_reform = pirate_kingdom }
 		NOT = { has_reform = pirate_republic_reform }
 		NOT = { has_reform = noble_elite_reform }
 		NOT = { has_reform = presidential_despot_reform }
@@ -39,17 +40,29 @@ country_event = {
 		government = monarchy
 		}
 		random_list = {
-		50 = {
+		35 = {
 		add_government_reform = autocracy_reform
 		}
 		15 = {
 		add_government_reform = elective_monarchy
 		}
-		25 = {
+		15 = {
 		add_government_reform = english_monarchy
 		}
-		10 = {
+		15 = {
 		add_government_reform = mamluk_government
+		}
+		5 = {
+		add_government_reform = pirate_kingdom
+		}
+		5 = {
+		add_government_reform = ottoman_government
+		}
+		5 = {
+		add_government_reform = shogunate
+		}
+		5 = {
+		add_government_reform = mughal_government
 		}
 		}
 		}
@@ -59,17 +72,29 @@ country_event = {
 		government = republic
 		}
 		random_list = {
-		50 = {
+		35 = {
 		add_government_reform = dutch_republic
 		}
-		25 = {
+		15 = {
 		add_government_reform = oligarchy_reform
 		}
 		15 = {
 		add_government_reform = merchants_reform
 		}
-		10 = {
+		15 = {
 		add_government_reform = peasants_republic
+		}
+		5 = {
+		add_government_reform = pirate_republic_reform
+		}
+		5 = {
+		add_government_reform = noble_elite_reform
+		}
+		5 = {
+		add_government_reform = bureaucratic_despotism_reform
+		}
+		5 = {
+		add_government_reform = consortium_government_reform
 		}
 		}
 		}
@@ -79,14 +104,29 @@ country_event = {
 		government = theocracy
 		}
 		random_list = {
-		33 = {
+		35 = {
 		add_government_reform = leading_clergy_reform
 		}
-		33 = {
+		15 = {
 		add_government_reform = monastic_order_reform
 		}
-		33 = {
+		15 = {
 		add_government_reform = religious_republic_reform
+		}
+		15 = {
+		add_government_reform = papacy_reform
+		}
+		5 = {
+		add_government_reform = holy_republic_reform
+		}
+		5 = {
+		add_government_reform = college_of_mages_reform
+		}
+		5 = {
+		add_government_reform = secret_order_reform
+		}
+		5 = {
+		add_government_reform = holy_city_reform
 		}
 		}
 		}
@@ -96,17 +136,29 @@ country_event = {
 		government = tribal
 		}
 		random_list = {
-		25 = {
+		35 = {
 		add_government_reform = steppe_horde
 		}
-		25 = {
+		15 = {
 		add_government_reform = tribal_federation
 		}
-		25 = {
+		15 = {
 		add_government_reform = tribal_kingdom
 		}
-		25 = {
+		15 = {
 		add_government_reform = tribal_despotism
+		}
+		5 = {
+		add_government_reform = nomad_state_reform
+		}
+		5 = {
+		add_government_reform = war_against_the_world_reform
+		}
+		5 = {
+		add_government_reform = tribal_republic
+		}
+		5 = {
+		add_government_reform = tribal_theocratic_state
 		}
 		}
 		}

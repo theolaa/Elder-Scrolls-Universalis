@@ -462,3 +462,187 @@ country_event = {
 		}
 	}
 }
+
+province_event = {
+	id = es_general.9
+	title = es_general.2.t
+	desc = es_general.2.d
+	picture = ES_ROYAL_BEDROOM_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_city = yes
+		development = 9
+		NOT = { development = 15 }
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	immediate = {
+	    hidden_effect = {
+			remove_province_modifier = medium_city
+			remove_province_modifier = large_city
+			remove_province_modifier = huge_city
+			remove_province_modifier = giant_city
+			add_province_modifier = {
+				name = small_city
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name =  es_general.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+province_event = {
+	id = es_general.10
+	title = es_general.2.t
+	desc = es_general.2.d
+	picture = ES_ROYAL_BEDROOM_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_city = yes
+		development = 15
+		NOT = { development = 21 }
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		    remove_province_modifier = small_city
+			remove_province_modifier = large_city
+			remove_province_modifier = huge_city
+			remove_province_modifier = giant_city
+			add_province_modifier = {
+				name = medium_city
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name =  es_general.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+province_event = {
+	id = es_general.11
+	title = es_general.2.t
+	desc = es_general.2.d
+	picture = ES_ROYAL_BEDROOM_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_city = yes
+		development = 21
+		NOT = { development = 27 }
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		    remove_province_modifier = small_city
+			remove_province_modifier = medium_city
+			remove_province_modifier = huge_city
+			remove_province_modifier = giant_city
+			add_province_modifier = {
+				name = large_city
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name =  es_general.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+province_event = {
+	id = es_general.12
+	title = es_general.2.t
+	desc = es_general.2.d
+	picture = ES_ROYAL_BEDROOM_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_city = yes
+		development = 27
+		NOT = { development = 33 }
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		    remove_province_modifier = small_city
+			remove_province_modifier = medium_city
+			remove_province_modifier = large_city
+			remove_province_modifier = giant_city
+			add_province_modifier = {
+				name = huge_city
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name =  es_general.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+province_event = {
+	id = es_general.13
+	title = es_general.2.t
+	desc = es_general.2.d
+	picture = ES_ROYAL_BEDROOM_eventPicture
+	
+	hidden = yes
+	
+	trigger = {
+		is_city = yes
+		development = 33
+	}
+
+	mean_time_to_happen = {
+		days = 31
+	}
+	
+	immediate = {
+	    hidden_effect = {
+		    remove_province_modifier = small_city
+			remove_province_modifier = medium_city
+			remove_province_modifier = large_city
+			remove_province_modifier = huge_city
+			add_province_modifier = {
+				name = giant_city
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name =  es_general.2.a
+		ai_chance = { factor = 100 }
+	}
+}

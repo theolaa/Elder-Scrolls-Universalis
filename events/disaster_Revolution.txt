@@ -31,8 +31,6 @@ country_event = {
 		}
 		add_stability = -3
 	
-	
-	
 		set_country_flag = had_revolution
 	}
 	
@@ -41,7 +39,6 @@ country_event = {
 		add_prestige = -10
 	}
 }
-
 
 # Religious intolerance
 country_event = {
@@ -465,7 +462,6 @@ country_event = {
 			has_dlc = "Art of War"
 		}
 	}
-	
 	
 	is_triggered_only = yes
 

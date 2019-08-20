@@ -335,15 +335,114 @@ antibankrapucy = {
 }
 
 17_disapearence_of_dwemers = {
-    technology_cost_modifier = 0.35
-	idea_cost_modifer = 0.25
-	advisor_cost_modifer = 0.15
+    technology_cost = 0.35
+	idea_cost = 0.25
+	advisor_cost = 0.15
 }
 
 17_curse_of_azura = {
     diplomatic_reputation = -1
 	tolerance_own = -1
 	years_of_nationalism = 10
+}
+
+18_hall_of_virtues = {
+    global_regiment_recruit_speed = -0.1
+    infantry_power = 0.1
+	reinforce_speed = 0.10
+	land_maintenance_modifier = 0.1
+	possible_mercenaries = -0.10
+}
+
+18_book_of_circles = {
+    discipline = 0.05
+	land_morale = 0.15
+	movement_speed = 0.10
+}
+
+18_ra_gada = {
+    possible_mercenaries = 1.0
+	merc_maintenance_modifier = -0.50
+	mercenary_cost = -0.25
+	free_leader_pool = 1
+}
+
+19_integration = {
+    diplomats = 1
+    diplomatic_annexation_cost = -0.25
+	diplomatic_reputation = 2.5
+}
+
+19_decentralization = {
+    improve_relation_modifier = 0.25
+    vassal_forcelimit_bonus = 0.25
+	vassal_income = 0.25
+}
+
+19_colonization = {
+    colonists = 1
+	range = 0.25
+	global_colonial_growth = 25
+}
+
+19_offensive_strategy = {
+    siege_ability = 0.25
+	manpower_recovery_speed = 0.25
+	global_regiment_cost = -0.25
+}
+
+19_devensive_strategy = {
+    defensiveness = 0.25
+	garrison_size = 0.25
+	fort_maintenance_modifier = -0.25
+}
+
+19_balanced_strategy = {
+    free_leader_pool = 1
+    global_manpower_modifier = 0.25
+	merc_maintenance_modifier = -0.25
+}
+
+19_non-melting_ice = {
+    local_hostile_attrition = 1
+	local_hostile_movement_speed = -0.25
+	supply_limit_modifier = -0.25
+	local_years_of_nationalism = 25
+	local_core_creation = 1.0
+}
+
+19_expansion_via_trade = {
+    global_foreign_trade_power = 0.25
+	global_trade_goods_size_modifier = 0.25
+	trade_efficiency = 0.25
+}
+
+20_grand_army = {
+    land_forcelimit_modifier = 0.50
+	land_maintenance_modifier = -0.35
+	land_morale = 0.25
+	discipline = 0.10
+	ae_impact = 0.35
+	diplomatic_reputation = -2.5
+	core_creation = 0.1
+}
+
+20_new_forts = {
+    defensiveness = 0.35
+	garrison_size = 0.25
+	manpower_recovery_speed = 0.10
+}
+
+20_surival_tactics = {
+    global_regiment_cost = 0.25
+	global_regiment_recruit_speed = -0.15
+    discipline = 0.10
+}
+
+20_order_of_diagna = {
+    infantry_cost = -0.25
+	infantry_power = 0.15
+	land_morale = 0.10
 }
 
 00_tamrilian_tractates = {

@@ -1,0 +1,375 @@
+#latingfx
+#greekgfx
+#turkishgfx
+
+#### Latin buildings ########################################################
+
+entity = {
+	name = "latingfx_port"
+	pdxmesh = "latingfx_port_mesh"
+}
+entity = {
+	name = "greekgfx_port"
+	pdxmesh = "greekgfx_port_mesh"
+}
+entity = {
+	name = "turkishgfx_port"
+	pdxmesh = "turkishgfx_port_mesh"
+}
+
+###############################################################
+#######   												 ######
+#######                    Latin			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	clone = westerngfx_city_0
+	name = "latingfx_city_0"
+	pdxmesh = "latingfx_city_0"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "latingfx_city_1"
+	pdxmesh = "latingfx_city_1"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "latingfx_city_2"
+	pdxmesh = "latingfx_city_2"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "latingfx_city_3"
+	pdxmesh = "latingfx_city_3"
+}
+entity = {
+	name = "latingfx_castle_1"
+	pdxmesh = "latingfx_castle_1"
+}
+entity = {
+	name = "latingfx_castle_2"
+	pdxmesh = "latingfx_castle_2"
+}
+entity = {
+	name = "latingfx_castle_3"
+	pdxmesh = "latingfx_castle_3"
+}
+entity = {
+	name = "latingfx_house_1_1"
+	pdxmesh = "latingfx_house_1_1"
+}
+entity = {
+	name = "latingfx_house_1_2"
+	pdxmesh = "latingfx_house_1_2"
+}
+entity = {
+	name = "latingfx_house_1_3"
+	pdxmesh = "latingfx_house_1_3"
+}
+entity = {
+	name = "latingfx_house_1_4"
+	pdxmesh = "latingfx_house_1_4"
+}
+entity = {
+	name = "latingfx_house_2_1"
+	pdxmesh = "latingfx_house_2_1"
+}
+entity = {
+	name = "latingfx_house_2_2"
+	pdxmesh = "latingfx_house_2_2"
+}
+entity = {
+	name = "latingfx_house_2_3"
+	pdxmesh = "latingfx_house_2_3"
+}
+entity = {
+	name = "latingfx_house_2_4"
+	pdxmesh = "latingfx_house_2_4"
+}
+entity = {
+	name = "latingfx_house_3_1"
+	pdxmesh = "latingfx_house_3_1"
+}
+entity = {
+	name = "latingfx_house_3_2"
+	pdxmesh = "latingfx_house_3_2"
+}
+entity = {
+	name = "latingfx_house_3_3"
+	pdxmesh = "latingfx_house_3_3"
+}
+entity = {
+	name = "latingfx_house_3_4"
+	pdxmesh = "latingfx_house_3_4"
+}
+entity = {
+	name = "latingfx_house_4_1"
+	pdxmesh = "latingfx_house_4_1"
+}
+entity = {
+	name = "latingfx_house_4_2"
+	pdxmesh = "latingfx_house_4_2"
+}
+entity = {
+	name = "latingfx_house_4_3"
+	pdxmesh = "latingfx_house_4_3"
+}
+entity = {
+	name = "latingfx_house_4_4"
+	pdxmesh = "latingfx_house_4_4"
+}
+entity = {
+	name = "latingfx_fort_15th"
+	pdxmesh = "latingfx_fort_15th"
+}
+entity = {
+	name = "latingfx_fort_16th"
+	pdxmesh = "latingfx_fort_16th"
+}
+entity = {
+	name = "latingfx_fort_17th"
+	pdxmesh = "latingfx_fort_17th"
+}
+entity = {
+	name = "latingfx_fort_18th"
+	pdxmesh = "latingfx_fort_18th"
+}
+
+###############################################################
+#######   												 ######
+#######                    Greek			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	clone = westerngfx_city_0
+	name = "greekgfx_city_0"
+	pdxmesh = "greekgfx_city_0"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "greekgfx_city_1"
+	pdxmesh = "greekgfx_city_1"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "greekgfx_city_2"
+	pdxmesh = "greekgfx_city_2"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "greekgfx_city_3"
+	pdxmesh = "greekgfx_city_3"
+}
+entity = {
+	name = "greekgfx_castle_1"
+	pdxmesh = "greekgfx_castle_1"
+}
+entity = {
+	name = "greekgfx_castle_2"
+	pdxmesh = "greekgfx_castle_2"
+}
+entity = {
+	name = "greekgfx_castle_3"
+	pdxmesh = "greekgfx_castle_3"
+}
+entity = {
+	name = "greekgfx_house_1_1"
+	pdxmesh = "greekgfx_house_1_1"
+}
+entity = {
+	name = "greekgfx_house_1_2"
+	pdxmesh = "greekgfx_house_1_2"
+}
+entity = {
+	name = "greekgfx_house_1_3"
+	pdxmesh = "greekgfx_house_1_3"
+}
+entity = {
+	name = "greekgfx_house_1_4"
+	pdxmesh = "greekgfx_house_1_4"
+}
+entity = {
+	name = "greekgfx_house_2_1"
+	pdxmesh = "greekgfx_house_2_1"
+}
+entity = {
+	name = "greekgfx_house_2_2"
+	pdxmesh = "greekgfx_house_2_2"
+}
+entity = {
+	name = "greekgfx_house_2_3"
+	pdxmesh = "greekgfx_house_2_3"
+}
+entity = {
+	name = "greekgfx_house_2_4"
+	pdxmesh = "greekgfx_house_2_4"
+}
+entity = {
+	name = "greekgfx_house_3_1"
+	pdxmesh = "greekgfx_house_3_1"
+}
+entity = {
+	name = "greekgfx_house_3_2"
+	pdxmesh = "greekgfx_house_3_2"
+}
+entity = {
+	name = "greekgfx_house_3_3"
+	pdxmesh = "greekgfx_house_3_3"
+}
+entity = {
+	name = "greekgfx_house_3_4"
+	pdxmesh = "greekgfx_house_3_4"
+}
+entity = {
+	name = "greekgfx_house_4_1"
+	pdxmesh = "greekgfx_house_4_1"
+}
+entity = {
+	name = "greekgfx_house_4_2"
+	pdxmesh = "greekgfx_house_4_2"
+}
+entity = {
+	name = "greekgfx_house_4_3"
+	pdxmesh = "greekgfx_house_4_3"
+}
+entity = {
+	name = "greekgfx_house_4_4"
+	pdxmesh = "greekgfx_house_4_4"
+}
+entity = {
+	name = "greekgfx_fort_15th"
+	pdxmesh = "greekgfx_fort_15th"
+}
+entity = {
+	name = "greekgfx_fort_16th"
+	pdxmesh = "greekgfx_fort_16th"
+}
+entity = {
+	name = "greekgfx_fort_17th"
+	pdxmesh = "greekgfx_fort_17th"
+}
+entity = {
+	name = "greekgfx_fort_18th"
+	pdxmesh = "greekgfx_fort_18th"
+}
+
+###############################################################
+#######   												 ######
+#######                    Turkish			     		 ######
+#######   												 ######
+###############################################################
+
+entity = {
+	clone = westerngfx_city_0
+	name = "turkishgfx_city_0"
+	pdxmesh = "turkishgfx_city_0"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "turkishgfx_city_1"
+	pdxmesh = "turkishgfx_city_1"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "turkishgfx_city_2"
+	pdxmesh = "turkishgfx_city_2"
+}
+entity = {
+	clone = westerngfx_city_0
+	name = "turkishgfx_city_3"
+	pdxmesh = "turkishgfx_city_3"
+}
+entity = {
+	name = "turkishgfx_castle_1"
+	pdxmesh = "turkishgfx_castle_1"
+}
+entity = {
+	name = "turkishgfx_castle_2"
+	pdxmesh = "turkishgfx_castle_2"
+}
+entity = {
+	name = "turkishgfx_castle_3"
+	pdxmesh = "turkishgfx_castle_3"
+}
+entity = {
+	name = "turkishgfx_house_1_1"
+	pdxmesh = "turkishgfx_house_1_1"
+}
+entity = {
+	name = "turkishgfx_house_1_2"
+	pdxmesh = "turkishgfx_house_1_2"
+}
+entity = {
+	name = "turkishgfx_house_1_3"
+	pdxmesh = "turkishgfx_house_1_3"
+}
+entity = {
+	name = "turkishgfx_house_1_4"
+	pdxmesh = "turkishgfx_house_1_4"
+}
+entity = {
+	name = "turkishgfx_house_2_1"
+	pdxmesh = "turkishgfx_house_2_1"
+}
+entity = {
+	name = "turkishgfx_house_2_2"
+	pdxmesh = "turkishgfx_house_2_2"
+}
+entity = {
+	name = "turkishgfx_house_2_3"
+	pdxmesh = "turkishgfx_house_2_3"
+}
+entity = {
+	name = "turkishgfx_house_2_4"
+	pdxmesh = "turkishgfx_house_2_4"
+}
+entity = {
+	name = "turkishgfx_house_3_1"
+	pdxmesh = "turkishgfx_house_3_1"
+}
+entity = {
+	name = "turkishgfx_house_3_2"
+	pdxmesh = "turkishgfx_house_3_2"
+}
+entity = {
+	name = "turkishgfx_house_3_3"
+	pdxmesh = "turkishgfx_house_3_3"
+}
+entity = {
+	name = "turkishgfx_house_3_4"
+	pdxmesh = "turkishgfx_house_3_4"
+}
+entity = {
+	name = "turkishgfx_house_4_1"
+	pdxmesh = "turkishgfx_house_4_1"
+}
+entity = {
+	name = "turkishgfx_house_4_2"
+	pdxmesh = "turkishgfx_house_4_2"
+}
+entity = {
+	name = "turkishgfx_house_4_3"
+	pdxmesh = "turkishgfx_house_4_3"
+}
+entity = {
+	name = "turkishgfx_house_4_4"
+	pdxmesh = "turkishgfx_house_4_4"
+}
+entity = {
+	name = "turkishgfx_fort_15th"
+	pdxmesh = "turkishgfx_fort_15th"
+}
+entity = {
+	name = "turkishgfx_fort_16th"
+	pdxmesh = "turkishgfx_fort_16th"
+}
+entity = {
+	name = "turkishgfx_fort_17th"
+	pdxmesh = "turkishgfx_fort_17th"
+}
+entity = {
+	name = "turkishgfx_fort_18th"
+	pdxmesh = "turkishgfx_fort_18th"
+}

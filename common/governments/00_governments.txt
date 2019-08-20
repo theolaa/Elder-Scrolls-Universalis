@@ -7,6 +7,10 @@ monarchy = {
 				celestial_empire
 				english_monarchy
 				mamluk_government
+				pirate_kingdom
+				ottoman_government
+				mughal_government
+				shogunate
 			}
 		}
 		citizenship_policy = {
@@ -411,6 +415,10 @@ monarchy = {
 		elective_monarchy_legacy
 		celestial_empire_legacy
 		mamluk_government_legacy
+		pirate_kingdom_legacy
+		ottoman_government_legacy
+		shogunate_legacy
+		mughal_government_legacy
 	}
 
 	color = { 179 25 25 }
@@ -431,6 +439,8 @@ republic = {
 		trading_city_legacy
 		colonial_government_legacy
 		peasants_republic_legacy
+		consortium_republic
+		bureaucratic_despotism
 	}
 	reform_levels = {
 		government_policy = {
@@ -439,6 +449,10 @@ republic = {
 				oligarchy_reform
 				merchants_reform
 				peasants_republic
+				pirate_republic_reform
+				noble_elite_reform
+				bureaucratic_despotism_reform
+				consortium_government_reform
 			}
 		}
 		citizenship_policy = {
@@ -846,7 +860,11 @@ tribal = {
 				tribal_federation
 				tribal_kingdom
 				tribal_despotism
-			}
+				nomad_state_reform
+				war_against_the_world_reform
+				tribal_republic
+				tribal_theocratic_state
+				}
 		}
 		citizenship_policy = {
 			reforms = {
@@ -1243,6 +1261,13 @@ tribal = {
     }
 	legacy_government = {
 		steppe_horde_legacy
+		tribal_federation_legacy
+		tribal_kingdom_legacy
+		tribal_despotism_legacy
+		nomad_state_legacy
+		war_against_the_world_legacy
+		tribal_republic_legacy
+		tribal_theocratic_state_legacy
 	}
 
 }
@@ -1265,6 +1290,11 @@ theocracy = {
 		papal_government
 		theocratic_government
 		monastic_order_government
+		holy_republic_government
+		religious_republic_government
+		college_of_mages_government
+		secret_order_government
+		holy_city_government
 	}
 	reform_levels = {
 		government_policy = {
@@ -1273,7 +1303,10 @@ theocracy = {
 				monastic_order_reform
 				papacy_reform
 				religious_republic_reform
-				military_order_reform
+				holy_republic_reform
+				college_of_mages_reform
+				secret_order_reform
+				holy_city_reform
 			}
 		}
 		citizenship_policy = {
@@ -1672,79 +1705,80 @@ theocracy = {
 }
 
 pre_dharma_mapping = {
-	despotic_monarchy = {
+	autocracy_reform = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
-	merchant_republic = {
-		government = republic
-		legacy_government = merchant_republic
-	}
-	oligarchic_republic = {
-		government = republic
-		legacy_government = oligarchic_republic
-	}
-	noble_republic = {
-		government = republic
-		legacy_government = noble_republic
-	}
-	republican_dictatorship = {
-		government = republic
-		legacy_government = republican_dictatorship
-	}
-	theocratic_government = {
-		government = theocracy
-		legacy_government = theocratic_government
-	}
-	religious_republic_reform = {
-		government = theocracy
-		legacy_government = theocratic_government
-	}
-	monastic_order_government = {
-		government = theocracy
-		legacy_government = monastic_order_government
-	}
-	military_order_reform = {
-		government = theocracy
-		legacy_government = monastic_order_government
-	}
-	papal_government = {
-		government = theocracy
-		legacy_government = papal_government
-	}
-	steppe_horde = {
-		government = tribal
-		legacy_government = steppe_horde_legacy
-	}
-	tribal_federation = {
-		government = tribal
-		legacy_government = steppe_horde_legacy
-	}
-	tribal_kingdom = {
-		government = tribal
-		legacy_government = steppe_horde_legacy
-	}
-	tribal_despotism = {
-		government = tribal
-		legacy_government = steppe_horde_legacy
-	}
-	native_council = {
-		government = native
-		legacy_government = native_council_legacy
+	celestial_empire = {
+		government = monarchy
+		legacy_government = celestial_empire_legacy
 	}
 	english_monarchy = {
 		government = monarchy
 		legacy_government = english_monarchy_legacy
 	}
-	mamluk_government = {
-		government = monarchy
-		legacy_government = mamluk_government_legacy
-	}
 	elective_monarchy = {
 		government = monarchy
 		legacy_government = elective_monarchy_legacy
 	}
-	imperial_city = {
+	mamluk_government = {
+		government = monarchy
+		legacy_government = mamluk_government_legacy
+	}
+	pirate_kingdom = {
+		government = monarchy
+		legacy_government = pirate_kingdom_legacy
+	}
+	ottoman_government = {
+		government = monarchy
+		legacy_government = ottoman_government_legacy
+	}
+	shogunate = {
+		government = monarchy
+		legacy_government = shogunate_legacy
+	}
+	mughal_government = {
+		government = monarchy
+		legacy_government = mughal_government_legacy
+	}
+	
+	dutch_republic = {
+		government = republic
+		legacy_government = dutch_republic_legacy
+	}
+	oligarchy_reform = {
+		government = republic
+		legacy_government = oligarchic_republic
+	}
+	merchant_reform = {
+		government = republic
+		legacy_government = merchant_republic
+	}
+	pirate_republic_reform = {
+		government = republic
+		legacy_government = pirate_republic
+	}
+	noble_elite_reform = {
+		government = republic
+		legacy_government = noble_republic
+	}
+	bureaucratic_despotism_reform = {
+		government = republic
+		legacy_government = bureaucratic_despotism
+	}
+	consortium_government_reform = {
+		government = republic
+		legacy_government = consortium_republic
+	}
+	presidential_despot_reform = {
+		government = republic
+		legacy_government = republican_dictatorship
+	}
+	peasants_republic = {
+		government = republic
+		legacy_government = peasants_republic_legacy
+	}
+	free_city = {
 		government = republic
 		legacy_government = imperial_city_legacy
 	}
@@ -1752,26 +1786,82 @@ pre_dharma_mapping = {
 		government = republic
 		legacy_government = imperial_city_legacy
 	}
-	dutch_republic = {
-		government = republic
-		legacy_government = dutch_republic_legacy
-	}
-	celestial_empire = {
-		government = monarchy
-		legacy_government = celestial_empire_legacy
-	}
 	colonial_government = {
 		government = republic
 		legacy_government = colonial_government_legacy
 	}
-	peasants_republic = {
-		government = republic
-		legacy_government = peasants_republic_legacy
+	
+	leading_clergy_reform = {
+		government = theocracy
+		legacy_government = theocratic_government
 	}
-	pirate_republic_reform = {
-		government = republic
-		legacy_government = pirate_republic
+	monastic_order_reform = {
+		government = theocracy
+		legacy_government = monastic_order_government
 	}
+	papacy_reform = {
+		government = theocracy
+		legacy_government = papal_government
+	}
+	holy_republic_reform = {
+		government = theocracy
+		legacy_government = holy_republic_government
+	}
+	religious_republic_reform = {
+		government = theocracy
+		legacy_government = religious_republic_government
+	}
+	college_of_mages_reform = {
+		government = theocracy
+		legacy_government = college_of_mages_government
+	}
+	secret_order_reform = {
+		government = theocracy
+		legacy_government = secret_order_government
+	}
+	holy_city_reform = {
+		government = theocracy
+		legacy_government = holy_city_government
+	}
+	
+	steppe_horde = {
+		government = tribal
+		legacy_government = steppe_horde_legacy
+	}
+	tribal_federation = {
+		government = tribal
+		legacy_government = tribal_federation_legacy
+	}
+	tribal_kingdom = {
+		government = tribal
+		legacy_government = tribal_kingdom_legacy
+	}
+	tribal_despotism = {
+		government = tribal
+		legacy_government = tribal_despotism_legacy
+	}
+	nomad_state_reform = {
+		government = tribal
+		legacy_government = nomad_state_legacy
+	}
+	war_against_the_world_reform = {
+		government = tribal
+		legacy_government = war_against_the_world_legacy
+	}
+	tribal_republic = {
+		government = tribal
+		legacy_government = tribal_republic_legacy
+	}
+	tribal_theocratic_state = {
+		government = tribal
+		legacy_government = tribal_theocratic_state_legacy
+	}
+	
+	native_basic_reform = {
+		government = native
+		legacy_government = native_council_legacy
+	}
+	
 	all_mechanics = {
 		government = monarchy
 		legacy_government = despotic_monarchy

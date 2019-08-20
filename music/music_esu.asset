@@ -411,3 +411,58 @@ music = {
 	name = "Ares - A Meeting under the Stars"
 	file = "Ares - A Meeting under the Stars.ogg"
 }
+
+music = {
+	name = "Ares - Yokuda"
+	file = "Ares - Yokuda.ogg"
+}
+
+music = {
+	name = "Ares - Akavir"
+	file = "Ares - Akavir.ogg"
+}
+
+music = {
+	name = "Ares - Thras"
+	file = "Ares - Thras.ogg"
+}
+
+music = {
+	name = "Ares - Kitchens of the Gourmet"
+	file = "Ares - Kitchens of the Gourmet.ogg"
+}
+
+music = {
+	name = "Ares - Heroes and Gods"
+	file = "Ares - Heroes and Gods.ogg"
+}
+
+music = {
+	name = "Ares - Essence of Magicka"
+	file = "Ares - Essence of Magicka.ogg"
+}
+
+music = {
+	name = "Ares - Mara Grace"
+	file = "Ares - Mara Grace.ogg"
+}
+
+music = {
+	name = "Ares - Stendarr Night"
+	file = "Ares - Stendarr Night.ogg"
+}
+
+music = {
+	name = "Ares - Gifts of Kynareth"
+	file = "Ares - Gifts of Kynareth.ogg"
+}
+
+music = {
+	name = "Ares - Lost Cities"
+	file = "Ares - Lost Cities.ogg"
+}
+
+music = {
+	name = "Ares - Knowledge and Ancestry"
+	file = "Ares - Knowledge and Ancestry.ogg"
+}

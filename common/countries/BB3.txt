@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = turkishgfx
 
 color = { 230  209  14 }
 

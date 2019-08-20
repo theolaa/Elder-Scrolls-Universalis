@@ -121,7 +121,7 @@ capital = 1382
 
 872.1.1 = {
 	monarch = {
-		name = "Peregrine"
+		name = "Larethifeth"
 		dynasty = "Direnii"
 		birth_date = 847.1.1
 		adm = 3
@@ -133,11 +133,33 @@ capital = 1382
 
 907.1.1 = {
 	monarch = {
-		name = "Corvus"
+		name = "Peregrine"
 		dynasty = "Direnii"
 		birth_date = 889.1.1
 		adm = 5
         dip = 4
         mil = 3
+	}
+}
+
+961.1.1 = {
+	monarch = {
+		name = "Thaoroth"
+		dynasty = "Direnii"
+		birth_date = 940.1.1
+		adm = 3
+        dip = 4
+        mil = 2
+	}
+}
+
+1012.1.1 = {
+	monarch = {
+		name = "Aedeus"
+		dynasty = "Direnii"
+		birth_date = 994.1.1
+		adm = 5
+        dip = 3
+        mil = 4
 	}
 }

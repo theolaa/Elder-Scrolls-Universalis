@@ -33,7 +33,7 @@ east_akaviri_trade_route = {
 		}
 	}
 
-	trade_efficiency = 0.05	
+	trade_efficiency = 0.10
 }
 
 #######################################################################
@@ -214,7 +214,7 @@ the_pentarchy = {
 11_holy_city = { potential = { has_discovered = 1406 religion = malacath_cult } trigger = { owns = 1406 } prestige = 0.5 missionaries = 1 }
 12_holy_city = { potential = { has_discovered = 1085 religion = kothri_pantheon } trigger = { owns = 1085 } prestige = 0.5 missionaries = 1 }
 13_holy_city = { potential = { has_discovered = 1043 religion = chimer_pantheon } trigger = { owns = 1043 } prestige = 0.5 missionaries = 1 }
-14_holy_city = { potential = { has_discovered = 1002 religion = tribunal_pantheon } trigger = { owns =1002 } prestige = 0.5 missionaries = 1 }
+14_holy_city = { potential = { has_discovered = 1002 religion = tribunal_pantheon } trigger = { owns = 1002 } prestige = 0.5 missionaries = 1 }
 15_holy_city = { potential = { has_discovered = 985 religion = reclamations_pantheon } trigger = { owns = 985 } prestige = 0.5 missionaries = 1 }
 16_holy_city = { potential = { has_discovered = 323 religion = sload_faith } trigger = { owns = 323 } prestige = 0.5 missionaries = 1 }
 17_holy_city = { potential = { has_discovered = 224 religion = serpant_king } trigger = { owns = 224 } prestige = 0.5 missionaries = 1 }
@@ -256,292 +256,130 @@ submission_to_emperor = {
 
 #######################################################################
 
-es_large_empire = {
-	potential = {
-		always = yes
-	}
-
-	trigger = {
-		num_of_cities = 100
-		NOT = { num_of_cities = 250 }
-	}
-
-	global_manpower_modifier = -0.1
-	yearly_corruption = 0.1
-	global_tax_modifier = -0.05
-	global_unrest = 1
-	stability_cost_modifier = 0.1
-}
-
-es_huge_empire = {
-	potential = {
-		always = yes
-	}
-
-	trigger = {
-		num_of_cities = 250
-	}
-
-	global_manpower_modifier = -0.25
-	yearly_corruption = 0.25
-	global_tax_modifier = -0.10
-	global_unrest = 2.5
-	stability_cost_modifier = 0.25
-}
-
 classical_age_modifier = {
 	potential = {
 		current_age = classical_age
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = classical_age
 	}
 
-	development_cost = 1.0
-    build_time = 1.0
-    culture_conversion_cost = 1.0
-    possible_mercenaries = -0.50	
-    naval_forcelimit_modifier = -0.75
-
-    build_cost = -0.5
-}
-
-classical_age_modifier_no_cs = {
-	potential = {
-		current_age = classical_age
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = classical_age
-	}
-
-    build_time = 1.0
-    culture_conversion_cost = 1.0
-    possible_mercenaries = -0.5	
-    naval_forcelimit_modifier = -0.75
-
-    build_cost = -0.5
+    possible_mercenaries = 0.50	
+	merc_maintenance_modifier = -0.50
+	
+    naval_forcelimit_modifier = -0.50
+    sailor_maintenance_modifer = 0.50
+	
+	colonist_placement_chance = -0.15
 }
 
 late_classical_age_modifier = {
 	potential = {
 		current_age = late_classical_age
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = late_classical_age
 	}
-
-	development_cost = 0.85
-    build_time = 0.85
-    culture_conversion_cost = 0.85
-    possible_mercenaries = -0.65	
-    naval_forcelimit_modifier = -0.65
-
-    build_cost = -0.35
-}
-
-late_classical_age_modifier_no_cs = {
-	potential = {
-		current_age = late_classical_age
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = late_classical_age
-	}
-
-    build_time = 0.85
-    culture_conversion_cost = 0.85
-    possible_mercenaries = -0.65	
-    naval_forcelimit_modifier = -0.65
-
-    build_cost = -0.35
+	
+    possible_mercenaries = 0.40
+	merc_maintenance_modifier = -0.40
+	
+    naval_forcelimit_modifier = -0.40
+    sailor_maintenance_modifer = 0.40
+	
+	colonist_placement_chance = -0.10
 }
 
 age_of_migrations_modifier = {
 	potential = {
 		current_age = age_of_migrations
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = age_of_migrations
 	}
 
-	development_cost = 0.75
-    build_time = 0.75
-    culture_conversion_cost = 0.75
-    possible_mercenaries = -0.50	
-    naval_forcelimit_modifier = -0.50
-
-    build_cost = -0.25
-}
-
-age_of_migrations_modifier_no_cs = {
-	potential = {
-		current_age = age_of_migrations
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = age_of_migrations
-	}
-
-    build_time = 0.75
-    culture_conversion_cost = 0.75
-    possible_mercenaries = -0.50	
-    naval_forcelimit_modifier = -0.50
-
-    build_cost = -0.25
+    possible_mercenaries = 0.30
+	merc_maintenance_modifier = -0.30
+	
+    naval_forcelimit_modifier = -0.30
+    sailor_maintenance_modifer = 0.30
+	
+	colonist_placement_chance = -0.05
 }
 
 dark_age_modifier = {
 	potential = {
 		current_age = dark_age
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = dark_age
 	}
 
-	development_cost = 0.50
-    build_time = 0.50
-    culture_conversion_cost = 0.50
-    possible_mercenaries = -0.35	
-    naval_forcelimit_modifier = -0.35
-
-    build_cost = -0.15
-}
-
-dark_age_modifier_no_cs = {
-	potential = {
-		current_age = dark_age
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = dark_age
-	}
-
-    build_time = 0.50
-    culture_conversion_cost = 0.50
-    possible_mercenaries = -0.35	
-    naval_forcelimit_modifier = -0.35
-
-    build_cost = -0.15
+    possible_mercenaries = 0.20
+	merc_maintenance_modifier = -0.20
+	
+    naval_forcelimit_modifier = -0.20
+    sailor_maintenance_modifer = 0.20
+	
+	yearly_corruption = 0.05
 }
 
 feudal_age_modifier = {
 	potential = {
 		current_age = feudal_age
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = feudal_age
 	}
 
-	development_cost = 0.35
-    build_time = 0.35
-    culture_conversion_cost = 0.35
-    possible_mercenaries = -0.25	
-    naval_forcelimit_modifier = -0.25
-
-    build_cost = -0.10
-}
-
-feudal_age_modifier_no_cs = {
-	potential = {
-		current_age = feudal_age
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = feudal_age
-	}
-
-    build_time = 0.35
-    culture_conversion_cost = 0.35
-    possible_mercenaries = -0.25	
-    naval_forcelimit_modifier = -0.25
-
-    build_cost = -0.10
+    possible_mercenaries = 0.10
+	merc_maintenance_modifier = -0.10
+	
+    naval_forcelimit_modifier = -0.10
+    sailor_maintenance_modifer = 0.10
+	
+	yearly_corruption = 0.10
 }
 
 high_middle_ages_modifier = {
 	potential = {
 		current_age = high_middle_ages
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = high_middle_ages
 	}
-
-	development_cost = 0.25
-    build_time = 0.25
-    culture_conversion_cost = 0.25
-    possible_mercenaries = -0.15	
-    naval_forcelimit_modifier = -0.15
-
-    build_cost = -0.05
-}
-
-high_middle_ages_modifier_no_cs = {
-	potential = {
-		current_age = high_middle_ages
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = high_middle_ages
-	}
-
-    build_time = 0.25
-    culture_conversion_cost = 0.25
-    possible_mercenaries = -0.15	
-    naval_forcelimit_modifier = -0.15
-
-    build_cost = -0.05
+	
+	num_accepted_cultures = 1
+	years_of_nationalism = 5
+	
+    land_maintenance_modifier = 0.10
+    naval_maintenance_modifier = 0.10
+	
+	yearly_corruption = 0.15
 }
 
 late_middle_ages_modifier = {
 	potential = {
 		current_age = late_middle_ages
-		has_dlc = "Common Sense"
 	}
 
 	trigger = {
 		current_age = late_middle_ages
 	}
-
-	development_cost = 0.10
-    build_time = 0.10
-    culture_conversion_cost = 0.10
-    possible_mercenaries = -0.10	
-    naval_forcelimit_modifier = -0.10
-}
-
-late_middle_ages_modifier_no_cs = {
-	potential = {
-		current_age = late_middle_ages
-		NOT = { has_dlc = "Common Sense" }
-	}
-
-	trigger = {
-		current_age = late_middle_ages
-	}
-
-    build_time = 0.10
-    culture_conversion_cost = 0.10
-    possible_mercenaries = -0.10	
-    naval_forcelimit_modifier = -0.10
+	
+    num_accepted_cultures = 2
+	years_of_nationalism = 10
+	
+    land_maintenance_modifier = 0.20
+    naval_maintenance_modifier = 0.20
+	
+	yearly_corruption = 0.20
 }
 
 industrial_age_modifier = {
@@ -552,14 +390,18 @@ industrial_age_modifier = {
 	trigger = {
 		current_age = industrial_age
 	}
+	
 
+	num_accepted_cultures = 3
+	years_of_nationalism = 15
+	
+    land_maintenance_modifier = 0.30
+    naval_maintenance_modifier = 0.30
+	
+	yearly_corruption = 0.25
+	
 	diplomatic_upkeep = 1
-	free_leader_pool = 1
-	siege_ability = 0.5
-	build_time = -0.10
-	technology_cost = 0.10
-    land_maintenance_modifier = 0.10
-    naval_maintenance_modifier = 0.10
+	free_leader_pool = 1   
 }
 
 great_war_age_modifier = {
@@ -570,14 +412,17 @@ great_war_age_modifier = {
 	trigger = {
 		current_age = great_war_age
 	}
+	
+	num_accepted_cultures = 4
+	years_of_nationalism = 20
+	
+    land_maintenance_modifier = 0.40
+    naval_maintenance_modifier = 0.40
+	
+	yearly_corruption = 0.30
 
 	diplomatic_upkeep = 2
 	free_leader_pool = 2
-	siege_ability = 0.75
-	build_time = -0.25
-	technology_cost = 0.25
-    land_maintenance_modifier = 0.25
-    naval_maintenance_modifier = 0.25
 }
 
 information_age_modifier = {
@@ -588,12 +433,15 @@ information_age_modifier = {
 	trigger = {
 		current_age = information_age
 	}
+	
+	num_accepted_cultures = 5
+	years_of_nationalism = 25
+	
+    land_maintenance_modifier = 0.50
+    naval_maintenance_modifier = 0.50
+	
+	yearly_corruption = 0.35
 
 	diplomatic_upkeep = 3
 	free_leader_pool = 3
-	siege_ability = 1.0
-	build_time = -0.35
-	technology_cost = 0.35
-    land_maintenance_modifier = 0.35
-    naval_maintenance_modifier = 0.35
 }

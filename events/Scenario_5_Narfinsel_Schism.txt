@@ -121,6 +121,7 @@ country_event = {
 	option = {
 		name = "es_5_scenario.2.b"
 		ai_chance = { factor = 50 }
+		set_country_flag = es_5_scenario.2_flag
 	}
 }
 

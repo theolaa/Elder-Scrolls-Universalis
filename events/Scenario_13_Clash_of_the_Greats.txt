@@ -405,7 +405,7 @@ country_event = {
 	id = es_13_scenario.9
 	title = es_13_scenario.9.t
 	desc = es_13_scenario.9.d
-	picture = ES_REVOLT_eventPicture
+	picture = ES_REVOLUTION_eventPicture
 	
 	fire_only_once = yes
 	

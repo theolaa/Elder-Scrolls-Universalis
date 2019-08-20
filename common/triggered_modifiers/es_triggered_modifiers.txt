@@ -402,6 +402,7 @@ dwemer_technologies_modifier = {
 neighbour_dwemer_technologies_modifier = {
 	potential = {
 		NOT = { has_global_flag = dwemer_dissapearence_flag }
+		NOT = { primary_culture = dwemer }
 	}
 
 	trigger = {
