@@ -647,7 +647,7 @@ country_event = {
 	id = colonial_nation.15
 	title = "colonial_nation.EVTNAME14"
 	desc = "colonial_nation.EVTDESC15"
-	picture = WOUNDED_SOLDIER_eventPicture
+	picture = ES_WAR_IS_NEAR_eventPicture
 	
 	is_triggered_only = yes
 

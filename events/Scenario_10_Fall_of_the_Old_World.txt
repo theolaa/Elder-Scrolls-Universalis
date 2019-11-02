@@ -6,9 +6,8 @@ country_event = {
 	desc = es_10_scenario.1.d
 	picture = ES_TRADE_GOODS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_10_scenario.1_flag }
 		is_year = 337
 		NOT = { is_year = 369 }
 		OR = {
@@ -23,6 +22,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840
+	}
+	
+	immediate = {
+	    set_country_flag = es_10_scenario.1_flag
 	}
 
 	option = {
@@ -45,10 +48,9 @@ country_event = {
 	title = es_10_scenario.2.t
 	desc = es_10_scenario.2.d
 	picture = ES_THRONEROOM_2_eventPicture
-	
-	fire_only_once = yes
-	
+
 	trigger = {
+	    NOT = { has_country_flag = es_10_scenario.2_flag }
 		is_year = 337
 		NOT = { is_year = 369 }
 		NOT = { tag = SUM }
@@ -58,6 +60,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840
+	}
+	
+	immediate = {
+	    set_country_flag = es_10_scenario.2_flag
 	}
 
 	option = {
@@ -81,9 +87,71 @@ country_event = {
 		DIP = 4
 		MIL = 4	
 		claim = 80
+		fixed = yes
+		}
+		
+		if = {
+		limit = {
+		exists = HIG
+		NOT = { alliance_with = HIG }
+		NOT = { overlord_of = HIG }
+		}
+		declare_war_with_cb = {
+			who = HIG
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA6
+		NOT = { alliance_with = BA6 }
+		NOT = { overlord_of = BA6 }
+		}
+		declare_war_with_cb = {
+			who = BA6
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA9
+		NOT = { alliance_with = BA9 }
+		NOT = { overlord_of = BA9 }
+		}
+		declare_war_with_cb = {
+			who = BA9
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BB0
+		NOT = { alliance_with = BB0 }
+		NOT = { overlord_of = BB0 }
+		}
+		declare_war_with_cb = {
+			who = BB0
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BB1
+		NOT = { alliance_with = BB1 }
+		NOT = { overlord_of = BB1 }
+		}
+		declare_war_with_cb = {
+			who = BB1
+			casus_belli = cb_es_scenario
+		}
 		}
 		
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 5 } } set_government_rank = 5 }
 	}
 	option = {
 		name = "es_10_scenario.2.b"
@@ -98,9 +166,8 @@ country_event = {
 	desc = es_10_scenario.3.d
 	picture = ES_RELIGIOUS_ORDER_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_10_scenario.3_flag }
 		is_year = 337
 		NOT = { is_year = 369 }
 		culture_group = cyrodiil_cg
@@ -109,6 +176,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840
+	}
+	
+	immediate = {
+	    set_country_flag = es_10_scenario.3_flag
 	}
 
 	option = {
@@ -119,6 +190,7 @@ country_event = {
 		change_government = theocracy
 		release_all_subjects = yes
 		set_global_flag = marukhism_flag
+		if = { limit = { NOT = { government_rank = 7 } } set_government_rank = 7 }
 		
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 	}
@@ -177,16 +249,17 @@ province_event = {
 	trigger = {
 		has_global_flag = marukhism_flag
 		NOT = { owned_by = ALE }
-		NOT = { is_year = 1250 }
+		NOT = { is_year = 1309 }
         OR = {
 		region = western_syrodiil_lr
 		region = eastern_syrodiil_lr
 		region = central_syrodiil_lr
 		}
+		culture = nedic
     }
 
 	mean_time_to_happen = {
-		days = 41000
+		months = 21600
 	}
 
 	option = {
@@ -219,15 +292,18 @@ country_event = {
 	desc = es_10_scenario.6.d
 	picture = ES_ELVEN_VILLAGE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_10_scenario.6_flag }
 		tag = ORD
 		NOT = { has_country_flag = ord_purge_flag }
     }
 
 	mean_time_to_happen = {
 		days = 5840
+	}
+	
+	immediate = {
+	    set_country_flag = es_10_scenario.6_flag
 	}
 
 	option = {
@@ -267,9 +343,8 @@ country_event = {
 	desc = es_10_scenario.7.d
 	picture = ES_MIGRATION_CAMP_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_10_scenario.7_flag }
 	    is_year = 337
 		NOT = { is_year = 369 }
 		NOT = { exists = CHI }
@@ -279,6 +354,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840
+	}
+	
+	immediate = {
+	    set_country_flag = es_10_scenario.7_flag
 	}
 
 	option = {
@@ -302,6 +381,66 @@ country_event = {
 		culture = chimer
 		}
 		add_claim = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = MA9
+		NOT = { alliance_with = MA9 }
+		NOT = { overlord_of = MA9 }
+		}
+		declare_war_with_cb = {
+			who = MA9
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = MB0
+		NOT = { alliance_with = MB0 }
+		NOT = { overlord_of = MB0 }
+		}
+		declare_war_with_cb = {
+			who = MB0
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = MB2
+		NOT = { alliance_with = MB2 }
+		NOT = { overlord_of = MB2 }
+		}
+		declare_war_with_cb = {
+			who = MB2
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = MB3
+		NOT = { alliance_with = MB3 }
+		NOT = { overlord_of = MB3 }
+		}
+		declare_war_with_cb = {
+			who = MB3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = MB4
+		NOT = { alliance_with = MB4 }
+		NOT = { overlord_of = MB4 }
+		}
+		declare_war_with_cb = {
+			who = MB4
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {

@@ -1,4 +1,4 @@
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 185 14 71 }
 
@@ -47,7 +47,7 @@ leader_names = {
 }
 
 ship_names  = {
-	Sabrione Demelza Senna Gretchen Galexialyn Rhapsody Kat Felicia Antoinette Wanette Scarlett Stefania Levana Fleurdelice Lynexia Gabrielle Ellena Kolfinna Morrisey Crimson Skylar Deliliah Lullaby Ivory Raelinn Star Zephirah Kiara Clara Permelia Osanna Angelina Lucilla Sapphira Kafara Purity Venus Brigid Riah Julienne Rhapsody Cassandra Levana Ennata Raelinn Lullaby Iona Chaseleigh Phaelyn Quintella Kiara Violet Renita Leandra Esther Senna Esmeralda Lisha Lechsinska Isolabella Tierney Drusilla Amelie Misty Eunice Lyra Layla Kat Valentina Ana Janet Rowena Niamh Julia Jacqueline Mira Lucia Anastasia Artemia HecateEva Myvanwy Victoire Melantha Nebula Joliette Sabina Emma Asphodel Tanith Violeta Nokomis Velvet Sky Buffy Xena Delia Isolabella Selina Kali Erylis
+	Sabrione Demelza Senna Gretchen Galexialyn Rhapsody Kat Felicia Antoinette Wanette Scarlett Stefania Levana Fleurdelice Lynexia Gabrielle Ellena Kolfinna Morrisey Crimson Skylar Deliliah Lullaby Ivory Raelinn Star Zephirah Kiara Clara Permelia Osanna Angelina Lucilla Sapphira Kafara Purity Venus Brigid Riah Julienne Cassandra Ennata Iona Chaseleigh Phaelyn Quintella Violet Renita Leandra Esther Esmeralda Lisha Lechsinska Isolabella Tierney Drusilla Amelie Misty Eunice Lyra Layla Valentina Ana Janet Rowena Niamh Julia Jacqueline Mira Lucia Anastasia Artemia HecateEva Myvanwy Victoire Melantha Nebula Joliette Sabina Emma Asphodel Tanith Violeta Nokomis Velvet Sky Buffy Xena Delia Selina Kali Erylis
 }
 
 army_names = {

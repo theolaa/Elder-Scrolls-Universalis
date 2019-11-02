@@ -3388,45 +3388,6 @@ CEY_ideas = {
 	}
 }
  
-CND_ideas = {
-	start = {
-		naval_morale = 0.1
-		core_creation = -0.2
-	}
-
-	bonus = {
-		navy_tradition_decay = -0.01
-	}
-	
-	trigger = {
-		tag = CND
-	}
-	free = yes		#will be added at load.
-	
-	genoese_connections = {
-		merchants = 1
-	}
-	candarid_literature = {
-		adm_tech_cost_modifier = -0.1
-	}
-	ismail_bey_complex = {
-		development_cost = -0.1
-	}
-	anatolian_center_of_learning = {
-		advisor_cost = -0.1
-		advisor_pool = 1
-	}
-	candar_corps = {
-		discipline = 0.05	
-	}
-	sinop_shipyard = {
-		naval_forcelimit_modifier = 0.25
-	}
-	kure_copper_mine = {
-		global_trade_goods_size_modifier = 0.1
-	}
-}
-
 BRZ_ideas = {
 	start = {
 		hostile_attrition = 1
@@ -3917,44 +3878,6 @@ LNA_ideas = {
     }
 	lna_dynastic_spread = {
         diplomatic_upkeep = 1
-    }
-}
-
-PGR_ideas = {
-    start = {
-		defensiveness = 0.1
-		tolerance_heathen = 2
-    }
- 
-    bonus = {
-		trade_efficiency = 0.1
-    }
- 
-    trigger = {
-		tag = PGR
-    }
-    free = yes
- 
-    pgr_tantric_legacy = {
-		global_missionary_strength = 0.02
-    }
-    pgr_gold_trade = {
-		global_trade_power = 0.1
-    }
-    pgr_istano_basa = {
-		legitimacy = 1
-    }
-    pgr_rajo_tigo_selo = {
-		global_unrest = -1
-    }
-    pgr_high_education = {
-		global_institution_spread = 0.1
-    }
-    pgr_rumah_gadang = {
-		prestige = 1
-    }
-    pgr_matrilinear_culture = {
-		stability_cost_modifier = -0.1
     }
 }
 
@@ -7949,121 +7872,6 @@ TKG_ideas = {
 	}
 }
 
-MAS_ideas = {
-	start = {
-		leader_naval_manuever = 1
-		sailor_maintenance_modifer = -0.1
-	}
-	bonus = {
-		leader_naval_fire = 1
-	}
-	
-	trigger = {
-		tag = MAS
-	}
-	
-	free = yes
-	
-	mas_hinalliwood = {
-		idea_cost = -0.1
-	}
-	mas_legacy_of_panai = {
-		naval_morale = 0.15
-	}
-	mas_riches_of_the_visayas = {
-		development_cost = -0.1
-	}
-	mas_masters_of_maritime_warfare = {
-		leader_naval_shock = 1
-	}
-	mas_articles_of_the_confederation = {
-		prestige = 1
-	}
-	mas_kinaduatan = {
-		stability_cost_modifier = -0.1
-	}
-	mas_expand_the_shipbuilding_sector = {
-		ship_durability = 0.05
-	}
-}
-
-BTU_ideas = {
-	start = {
-		trade_efficiency = 0.1
-		light_ship_cost = -0.2
-	}
-	bonus = {
-		global_own_trade_power = 0.1
-	}
-	
-	trigger = {
-		tag = BTU
-	}
-	
-	free = yes
-	
-	btu_indianized_society = {
-		diplomatic_upkeep = 1
-	}
-	btu_northern_nusantara = {
-		global_trade_power = 0.1
-	}
-	btu_butuan_trade_connections = {
-		merchants = 1
-	}
-	btu_butuan_goldwork = {
-		diplomatic_reputation = 1
-	}
-	btu_balangay = {
-		global_prov_trade_power_modifier = 0.1
-	}
-	btu_protect_the_coastlines = {
-		heavy_ship_power = 0.1
-	}
-	btu_long_range_diplomacy = {
-		diplomats = 1
-	}
-}
-
-CEB_ideas = {
-	start = {
-		global_trade_goods_size_modifier = 0.1
-		galley_power = 0.2
-	}
-	bonus = {
-		global_trade_power = 0.1
-	}
-	
-	trigger = {
-		tag = CEB
-	}
-	
-	free = yes
-	
-	ceb_lumayas_ambition = {
-		land_morale = 0.1
-	}
-	ceb_chola_legacy = {
-		legitimacy = 1
-	}
-	ceb_protect_against_the_magalos = {
-		navy_tradition = 1
-	}
-	ceb_pacify_the_islands = {
-		global_autonomy = -0.05
-	}
-	ceb_place_for_trading = {
-		embargo_efficiency = 0.1	
-		privateer_efficiency = 0.25
-	}
-	ceb_befriend_the_europeans = {
-		global_institution_spread = 0.1
-	}
-	ceb_expansion_of_the_capital = {
-		development_cost = -0.1
-	}
-}
-
 ANU_ideas = {
 	start = {
 		land_attrition = -0.15
@@ -8175,44 +7983,6 @@ CSK_ideas = {
 	}
 	csk_active_support_of_temples = {
 		tolerance_own = 2
-	}
-}
-
-MRI_ideas = {
-	start = {
-		navy_tradition = 1
-		diplomats = 1
-	}
-	bonus = {
-		leader_land_fire = 1
-	}
-	
-	trigger = {
-		tag = MRI
-	}
-	
-	free = yes
-	
-	mri_descendant_of_oe_hiromoto = {
-		adm_tech_cost_modifier = -0.1
-	}
-	mri_leader_of_kokujin_ikki = {
-		land_forcelimit_modifier = 0.2
-	}
-	mri_diplomatic_intrigues = {
-		diplomatic_upkeep = 1
-	}
-	mri_three_arrows = {
-		global_autonomy = -0.05
-	}
-	mri_hiroshima_castle = {
-		development_cost = -0.1
-	}
-	mri_itsukushima_shrine = {
-		ship_durability = 0.05
-	}
-	mri_hagi_ware = {
-		prestige = 1
 	}
 }
 
@@ -8643,44 +8413,6 @@ CRN_ideas = {
 		prestige_decay = -0.01
 	}
 }
-# Manx ideas
-KOI_ideas = {
-	start = {
-		global_sailors_modifier = 0.2
-		global_ship_cost = -0.1
-	}
-	
-	bonus = {
-		discipline = 0.05
-	}
-	
-	trigger = {
-		tag = KOI
-	}
-	free = yes
-	
-	mann_stanleys = {
-		diplomats = 1
-	}
-	mann_kings = {
-		core_creation = -0.10
-	}
-	mann_tynwald = {
-		advisor_pool = 1
-	}
-	mann_and_the_isles = {
-		naval_morale = 0.15
-	}
-	mann_act_of_settlement = {
-		global_unrest = -1
-	}
-	mann_burn_the_heretic = {
-		global_heretic_missionary_strength = 0.02
-	}
-	mann_act_of_revestment = {
-		diplomatic_annexation_cost = -0.15
-	}
-}
 
 MTH_ideas = {
 	start = {
@@ -8918,80 +8650,6 @@ LIE_ideas = {
 	lie_rights_of_man = {
 		global_unrest = -1
 	}	
-}
-
-GEL_ideas = {
-	start = {
-		stability_cost_modifier = -0.1
-		naval_maintenance_modifier = -0.10
-	}
-	
-	bonus = {
-		tolerance_heretic = 2
-	}
-	
-	trigger = {
-		tag = GEL
-	}
-	free = yes
-	gel_county_duchy = {
-		diplomats = 1
-	}
-	gel_hanseatic = {
-		trade_efficiency = 0.1
-	}
-	gel_defy_burgundy = {
-		legitimacy = 1
-	}
-	gel_rivers = {
-		development_cost = -0.1
-	}
-	gel_gelderland_wars = {
-		land_morale = 0.10
-	}
-	gel_looting = {
-		loot_amount = 0.25
-	}
-	gel_diplomatic_expansion = {
-		diplomatic_annexation_cost = -0.15
-	}
-}
-
-EFR_ideas = {
-	start = {
-		privateer_efficiency = 0.15
-		heir_chance = 0.5
-	}
-	
-	bonus = {
-		navy_tradition = 1
-	}
-	
-	trigger = {
-		tag = EFR
-	}
-	free = yes
-	efr_chiefs = {
-		global_unrest = -1
-	}
-	efr_saxon_feud = {
-		army_tradition_decay = -0.01
-	}
-	efr_religious_thought = {
-		religious_unity = 0.2
-	}
-	efr_dutch_migrants = {
-		advisor_pool = 1
-	}
-	efr_mennonism = {
-		tolerance_heretic = 2
-	}
-	efr_city_autonomy = {
-		trade_efficiency = 0.1
-	}
-	efr_emden_company = {
-		trade_steering = 0.2
-	}
 }
 
 AAC_ideas = {
@@ -9664,83 +9322,6 @@ ILK_ideas = {
 	}
 	ilk_recruit_turkoman_gunners = {
 		fire_damage = 0.1
-	}
-}
-
-MOR_ideas = {
-	start = {
-		may_perform_slave_raid = yes
-		naval_forcelimit_modifier = 0.25
-	}
-	bonus = {
-		hostile_attrition = 1
-	}
-	trigger = {
-		tag = MOR
-	}
-	free = yes
-	mor_powerful_viziers = {
-		same_culture_advisor_cost = -0.2
-	}
-	mor_marabouts = {
-		idea_cost = -0.1
-		monthly_piety = -0.001
-	}
-	trans_saharan_trade = {
-		trade_efficiency = 0.1
-		caravan_power = 0.2
-	}
-	mor_fleet = {
-		galley_power = 0.2
-	}
-	mor_pirate_republics = {
-		privateer_efficiency = 0.15
-	}
-	mor_slave_soldiers = {
-		land_maintenance_modifier = -0.05
-		cavalry_power = 0.1
-	}
-	mor_curb_power_of_the_tribes = {
-		global_autonomy = -0.05
-	}
-}
-
-TUN_ideas = {
-	start = {
-		may_perform_slave_raid = yes
-		galley_power = 0.2		
-	}
-	bonus = {
-		naval_forcelimit_modifier = 0.25
-	}
-	trigger = {
-		tag = TUN
-	}
-	free = yes
-	tun_catalan_guard = {
-		mercenary_discipline = 0.05
-		infantry_power = 0.05
-	}
-	dual_diplomacy = {
-		diplomatic_upkeep = 1
-	}
-	corsairs = {
-		navy_tradition = 1
-		privateer_efficiency = 0.10
-	}
-	tun_attract_foreign_pirates = {
-		global_sailors_modifier = 0.25
-	}
-	tun_board_of_captains = {
-		leader_naval_fire = 1
-	}
-	tun_export_monopolies = {
-		global_own_trade_power = 0.2
-		trade_efficiency = 0.05
-	}
-	tun_caliphate = {
-		tolerance_own = 1
-		monthly_piety = 0.001
 	}
 }
 

@@ -17,3 +17,15 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	controller = ORS
 	add_core = ORS
 }
+
+990.1.1 = {
+    owner = HIG
+	controller = HIG
+	add_core = HIG
+}
+
+1045.1.1 = {
+    owner = BA6
+	controller = BA6
+	add_core = BA6
+}

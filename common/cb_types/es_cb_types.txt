@@ -48,3 +48,13 @@ cb_vassal_annex = {
 
 	war_goal = annex_country
 }
+
+cb_es_scenario = {
+	valid_for_subject = yes
+
+	prerequisites = {
+		always = no
+	}
+
+	war_goal = es_scenario
+}

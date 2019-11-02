@@ -405,23 +405,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					printing_press = 100
-					has_owner_culture = yes
-					OR = {
-						has_building = university
-						development = 15
-						is_capital = yes
-					}
-				}
-				save_event_target_as = university_province
-			}
-		}
-	}
-	
 	mean_time_to_happen = {
 		days = 1
 	}
@@ -696,7 +679,7 @@ country_event = {
 	id = innovativeness_events.14
 	title = "innovativeness_events.14.t"
 	desc = "innovativeness_events.14.d"
-	picture = INDUSTRIALIZATION_eventPictures
+	picture = ES_MIGRATION_CAMP_eventPicture
 	
 	is_triggered_only = yes
 	

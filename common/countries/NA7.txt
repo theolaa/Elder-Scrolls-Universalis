@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = northamericagfx
 
 color = { 255 36 36 }
 

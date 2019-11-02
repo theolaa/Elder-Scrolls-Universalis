@@ -2,6 +2,14 @@ tribe_mechanic = {
 	tribal = yes
 	basic_reform = yes # = invisible/does not take up a slot
 	valid_for_nation_designer = no
+	
+	modifiers = {
+	embracement_cost = 0.15
+    global_institution_spread = -0.15
+	technology_cost = 0.15
+	idea_cost = 0.15
+	advisor_cost = 0.15
+	}
 }
 
 steppe_horde = {
@@ -202,6 +210,7 @@ war_against_the_world_reform = {
 		naval_forcelimit_modifier = 0.10
 		land_forcelimit_modifier = 0.10
 		possible_mercenaries = 0.10
+		may_perform_slave_raid_on_same_religion = yes
 	}
 	factions = {
 		pr_buccaneers

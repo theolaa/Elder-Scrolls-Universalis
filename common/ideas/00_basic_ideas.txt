@@ -234,7 +234,7 @@ diplomatic_ideas = {
 		war_exhaustion_cost = -0.10
 	}
 	benign_diplomats = {
-		improve_relation_modifier = 0.10
+		improve_relation_modifier = 0.15
 	}
 	experienced_diplomats  = {
 		diplomatic_reputation = 1
@@ -432,7 +432,7 @@ exploration_ideas = {
 		colonists = 1
 	}
 	overseas_exploration = {
-		range = 0.10
+		range = 0.50
 	}
 	land_of_opportunity = {
 		global_colonial_growth = 10
@@ -684,7 +684,7 @@ humanist_ideas = {
 		num_accepted_cultures = 1
 	}
 	benevolence = {
-		improve_relation_modifier = 0.10
+		improve_relation_modifier = 0.15
 	}
 	humanist_tolerance = {
 		tolerance_heathen = 1
@@ -997,7 +997,7 @@ gesellschaft0 = {
 		land_maintenance_modifier = -0.05
 	}
 	gesellschaft2 = {
-		improve_relation_modifier = 0.10
+		improve_relation_modifier = 0.15
 	}
 	gesellschaft3 = {
 		global_institution_spread = 0.1
@@ -1038,7 +1038,7 @@ propaganda0 = {
 		diplomats = 1
 	}
 	propaganda3 = {
-		improve_relation_modifier = 0.10
+		improve_relation_modifier = 0.15
 	}
 	propaganda4 = {
 		diplomatic_reputation = 1
@@ -1459,7 +1459,7 @@ formation0 = {
 		shock_damage = 0.10
 	}
 	formation3 = {
-		cav_to_inf_ratio = 0.10
+		cav_to_inf_ratio = 0.25
 	}
 	formation4 = {
 		shock_damage_received = -0.10

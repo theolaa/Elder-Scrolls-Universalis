@@ -14,10 +14,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		months = 1		
-	}
-	
 	immediate = {
 	add_stability = -5
 	hidden_effect = {
@@ -62,7 +58,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -71,7 +67,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -80,7 +76,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -97,10 +93,6 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.11.a"
@@ -152,19 +144,19 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -199,7 +191,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -212,7 +204,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -225,7 +217,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -242,10 +234,6 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.12.a"
@@ -281,19 +269,19 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -328,7 +316,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -341,7 +329,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -354,7 +342,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -371,10 +359,6 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.13.a"
@@ -429,19 +413,19 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -476,7 +460,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -489,7 +473,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25
@@ -502,7 +486,7 @@ country_event = {
 			spawn_rebels = {
 				type = 	pretender_rebels
 				religion = ROOT
-				size = 10
+				size = 5
 				win = yes
 			}
 			add_local_autonomy = 25

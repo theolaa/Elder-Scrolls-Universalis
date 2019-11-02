@@ -125,35 +125,6 @@ country_event = {
 			is_capital = no
 		}
 	}
-	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					religion = dragon_cult
-					is_capital = no
-				}
-				save_event_target_as = michael_icon_church_province
-			}
-			random_owned_province = {
-				limit = {
-					religion = dragon_cult
-					has_owner_culture = yes
-					is_capital = no
-				}
-				save_event_target_as = michael_icon_church_province
-			}
-			random_owned_province = {
-				limit = {
-					religion = dragon_cult
-					has_owner_culture = yes
-					base_manpower = 5
-					is_capital = no
-				}
-				save_event_target_as = michael_icon_church_province
-			}
-		}
-	}
 
 	mean_time_to_happen = {
 		days = 1

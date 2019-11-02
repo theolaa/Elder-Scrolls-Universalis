@@ -188,6 +188,8 @@ vassal = {
 	can_have_subjects_of_other_types = yes
 	overlord_can_be_subject = yes
 	overlord_protects_external = yes
+	
+	is_voluntary = yes	
 
 	max_government_rank = 1
 

@@ -36,3 +36,9 @@ fort_15th = yes
 609.1.1 = {
 	religion = twelve_divines
 }
+
+1045.1.1 = {
+    owner = WAY
+	controller = WAY
+	add_core = WAY
+}

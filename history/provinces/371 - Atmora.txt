@@ -11,3 +11,7 @@ base_manpower = 1
 capital = "Braras"
 is_city = yes
 discovered_by = atmora_tg
+
+139.1.1 = {
+    religion = nordic_pantheon
+}

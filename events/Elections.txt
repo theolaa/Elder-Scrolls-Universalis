@@ -54,14 +54,13 @@ country_event = {
 		change_dip = 1
 		change_mil = 1
 		if = {
-			limit = {
-				is_tribal = no  
+			limit = { 
+				is_tribal = yes
 				government = republic
-				NOT = { republican_tradition = 20 }
-				NOT = { has_dlc = "Res Publica" }
-			}
-			change_government = monarchy
-			set_legacy_government = despotic_monarchy
+				NOT = { has_dlc = "Dharma" }
+				NOT = { republican_tradition = 20 }	
+			}	
+			set_legacy_government = tribal_despotism_legacy
 		}
 		else_if = {
 			limit = {
@@ -72,7 +71,24 @@ country_event = {
 			}
 			add_government_reform = presidential_despot_reform	
 		}
-		add_scaled_republican_tradition = -10
+		else_if = {
+			limit = {
+				government = republic
+				NOT = { republican_tradition = 20 }	
+			}
+			change_government = monarchy
+		}
+		if = {
+			limit = {
+				is_tribal = no  
+				government = republic
+				NOT = { republican_tradition = 20 }
+				NOT = { has_dlc = "Res Publica" }
+			}
+			change_government = monarchy
+			set_legacy_government = despotic_monarchy
+		}
+		add_scaled_republican_tradition = -15
 		random_list = {
 			10 = {
 				add_adm_power = 50
@@ -183,6 +199,45 @@ country_event = {
 		add_karma = 10
 	}
 
+	option = { # Nepotism choice, re-electing within dynasty
+		name = "EVTOPTE700"
+		trigger = {
+			has_government_attribute = enables_nepotism
+		}
+		ai_chance = { factor = 10 }
+		add_scaled_republican_tradition = -7
+		if = {
+			limit = { has_active_policy = mandatory_service }
+			define_ruler = {
+				mil = -2
+				adm = -2
+				dip = -2
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else = {
+			define_ruler = {
+				mil = -2
+				adm = -2
+				dip = -2
+				min_age = 30
+				max_age = 50
+				name = "lastname"
+			}
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 10
+			}				
+		}
+	}
 }
 
 # Election!
@@ -293,6 +348,43 @@ country_event = {
 			}				
 		}		
 	}
+	option = { # Nepotism choice, re-electing within dynasty
+		name = "EVTOPTE700"
+		trigger = {
+			has_government_attribute = enables_nepotism
+		}
+		ai_chance = { factor = 10 }
+		add_scaled_republican_tradition = -7
+		if = {
+			limit = { has_active_policy = mandatory_service }
+			define_ruler = {
+				mil = -2
+				adm = -2
+				dip = -2
+				age = 30
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else = {
+			define_ruler = {
+				mil = -2
+				adm = -2
+				dip = -2
+				age = 30
+				name = "lastname"
+			}
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 10
+			}				
+		}
+	}
 }
 
 ########################################
@@ -368,6 +460,27 @@ country_event = {
 	}
 }
 
+## Winds of Liberty
+#country_event = {
+#	id = elections.712
+#	title = "elections.EVTNAME712"
+#	desc = "elections.EVTDESC712"
+#	picture = ELECTION_REPUBLICAN_eventPicture
+#	
+#	is_triggered_only = yes
+#
+#	option = {
+#		name = "elections.EVTOPTB712"	# Most worrisome...
+#		tooltip = {
+#			FROM = {
+#				add_liberty_desire = -25
+#			}
+#		}
+#	}
+#}
+
+
+
 # Dutch Republic
 country_event = {
 	id = elections.720
@@ -403,6 +516,9 @@ country_event = {
 	option = {
 		trigger = { has_reform = dutch_republic }
 		name = elections.720.b
+		define_ruler = {
+			dynasty = "van Oranje"
+		}
 		change_statists_vs_orangists = 0.33
 	}
 
@@ -450,6 +566,9 @@ country_event = {
 	option = {
 		trigger = { has_reform = dutch_republic }
 		name = elections.720.b
+		define_ruler = {
+			dynasty = "van Oranje"
+		}
 		change_statists_vs_orangists = 0.33
 	}
 
@@ -490,7 +609,6 @@ country_event = {
 					adm = 2
 					dip = -1
 					mil = -1
-					option = 0
 				}
 			}
 			else = {
@@ -501,7 +619,6 @@ country_event = {
 					adm = 2
 					dip = -1
 					mil = -1
-					option = 0
 				}
 			}
 			if = {
@@ -517,7 +634,6 @@ country_event = {
 					dip = 2
 					mil = -1
 					random_gender = yes
-					option = 1
 				}
 			}
 			else = {
@@ -528,7 +644,6 @@ country_event = {
 					adm = -1
 					dip = 2
 					mil = -1
-					option = 1
 				}
 			}
 			if = {
@@ -544,7 +659,6 @@ country_event = {
 					dip = -1
 					mil = 2
 					random_gender = yes
-					option = 2
 				}
 			}
 			else = {
@@ -555,7 +669,6 @@ country_event = {
 					adm = -1
 					dip = -1
 					mil = 2
-					option = 2
 				}
 			}
 		}
@@ -583,6 +696,7 @@ country_event = {
 				influence = 20
 			}				
 		}
+		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
 		name = elections.800.b
@@ -600,6 +714,7 @@ country_event = {
 				influence = 20
 			}				
 		}
+		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = {
 		name = elections.800.c
@@ -617,6 +732,7 @@ country_event = {
 				influence = 20
 			}				
 		}
+		custom_tooltip = lottery_candidate_bonus_one
 	}
 	option = { # lottery
 		name = elections.800.da
@@ -687,6 +803,48 @@ country_event = {
 					}				
 				}
 			}
+		}
+		custom_tooltip = lottery_candidate_bonus_plural
+	}
+	option = { # nepotism
+		name = elections.800.e
+		trigger = {
+			has_government_attribute = enables_nepotism
+		}
+		ai_chance = { factor = 10 }
+		add_republican_tradition = -15
+		if = {
+			limit = { has_active_policy = mandatory_service }
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				mil = -1
+				adm = -1
+				dip = -1
+				age = 30
+				name = "lastname"
+				random_gender = yes # Allows random gender for republics
+			}
+		}
+		else = {
+			define_ruler = {
+				min_age = 30
+				max_age = 50
+				mil = -1
+				adm = -1
+				dip = -1
+				age = 30
+				name = "lastname"
+			}
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 10
+			}				
 		}
 	}
 }

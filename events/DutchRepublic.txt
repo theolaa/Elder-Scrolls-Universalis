@@ -1370,14 +1370,7 @@ country_event = {
 province_event = {
 	id = dutch_republic.28
 	title = "dutch_republic.28.t"
-	desc = {
-		trigger = { has_reform = dutch_republic }
-		desc = dutch_republic.28.da
-	}
-	desc = {
-		trigger = { NOT = { has_reform = dutch_republic } }
-		desc = dutch_republic.28.db
-	}
+	desc = dutch_republic.28.db
 	picture = BORDER_TENSION_eventPicture
 
 	is_mtth_scaled_to_size = 1
@@ -1461,14 +1454,7 @@ province_event = {
 province_event = {
 	id = dutch_republic.30
 	title = "dutch_republic.30.t"
-	desc = {
-		trigger = { has_reform = dutch_republic }
-		desc = dutch_republic.30.da
-	}
-	desc = {
-		trigger = { NOT = { has_reform = dutch_republic } }
-		desc = dutch_republic.30.db
-	}
+	desc = dutch_republic.30.db
 	picture = DEBATE_REPUBLICAN_eventPicture
 
 	is_mtth_scaled_to_size = 1
@@ -1478,47 +1464,16 @@ province_event = {
 		owner = {
 			has_states_general_mechanic = yes
 		}
-		OR = {
-			AND = {
-				NOT = { has_reform = dutch_republic }
-				development = 15
-				is_core = owner
-			}
-			province_id = 96
-			province_id = 97
-			province_id = 98
-			province_id = 99
-			province_id = 100
-		}
+		development = 15
+		is_core = owner
 	}
 
 	mean_time_to_happen = {
 		months = 1000
 	}
 
-	# Send someone to argue in favor of Orangists
-	option = {
-		trigger = { has_reform = dutch_republic }
-		name = "dutch_republic.30.a"
-		owner = {
-			change_statists_vs_orangists = 0.15
-		}
-		if = {
-			limit = {
-				owner = {
-					is_statists_in_power = no
-				}
-			}
-			add_province_modifier = {
-				name = local_regenten_upset
-				duration = 1095
-			}
-		}
-	}
-
 	# Send someone to argue in favor of Monarchists
 	option = {
-		trigger = { NOT = { has_reform = dutch_republic } }
 		name = "dutch_republic.30.c"
 		owner = {
 			change_statists_vs_orangists = 0.15
@@ -1597,7 +1552,7 @@ country_event = {
 	option = {
 		name = "dutch_republic.32.a"
 		hidden_effect = {
-			change_statists_vs_monarchists = 2
+			change_statists_vs_orangists = 2
 		}
 		custom_tooltip = STATES_GENERAL_PU_ELECTION_DISABLED
 	}

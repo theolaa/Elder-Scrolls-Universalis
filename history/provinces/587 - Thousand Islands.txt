@@ -26,3 +26,7 @@ fort_15th = yes
 	controller = POT
 	add_core = POT
 }
+
+1100.1.1 = {
+	religion = po_tun_pantheon
+}

@@ -3077,7 +3077,7 @@ immortal_personality = {
 	
 	chance = {
 		modifier = {
-			factor = 0.01
+			factor = 0.05
 			NOT = { primary_culture = vampire }
 		}
 		modifier = {

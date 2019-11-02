@@ -31,3 +31,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	culture = breton
 	religion = twelve_divines
 }
+
+1152.1.1 = {
+    owner = BE1
+	controller = BE1
+	add_core = BE1
+}

@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = new_southamericagfx
 
 color = { 178 11 22 }
 

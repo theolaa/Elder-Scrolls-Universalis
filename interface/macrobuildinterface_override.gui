@@ -1525,37 +1525,36 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "influence_button"
-				position = { x= 94 y = -6 }
+				position = { x= 9999 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_influence"
-				shortcut = "d"
 			}
 			guiButtonType = {
 				name = "dynastic_button"
-				position = { x= 145 y = -6 }
+				position = { x= 94 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_dynastic"
 				shortcut = "g"
 			}
 			guiButtonType = {
 				name = "economic_button"
-				position = { x= 196 y = -6 }
+				position = { x= 145 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_economic"
 				shortcut = "z"
 			}
 			guiButtonType = {
 				name = "papal_button"
-				position = { x= 247 y = -6 }
+				position = { x= 196 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_papal"
 				shortcut = "x"
 			}
 			guiButtonType = {
 				name = "hre_button"
-				position = { x= 298 y = -6 }
+				position = { x= 247 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_hre"
 				shortcut = "c"
 			}
 			guiButtonType = {
 				name = "great_power_button"
-				position = { x= 349 y = -6 }
+				position = { x= 298 y = -6 }
 				quadTextureSprite ="GFX_macro_diplomacy_tab_great_power"
 				shortcut = "v"
 			}

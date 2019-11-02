@@ -104,7 +104,7 @@ administrative_missions = {
 	increase_innocatives_mission = {
 		icon = mission_early_modern_university
 		required_missions = { fill_1_treasury_mission }
-		trigger = { innovativeness = 10 }
+		trigger = { if = { limit = { has_dlc = "Rule Britannia" } innovativeness = 10 } else = { num_of_owned_and_controlled_institutions = 1 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_1_innovatives_increased"
@@ -459,7 +459,7 @@ adm_missions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = "es_more_churches"
+				name = "es_more_monuments"
 				duration = -1
 			}
 		}
@@ -517,7 +517,7 @@ adm_missions = {
 	increase_1_innocatives_mission = {
 		icon = mission_early_modern_university
 		required_missions = { build_more_universities_mission }
-		trigger = { innovativeness = 25 }
+		trigger = { if = { limit = { has_dlc = "Rule Britannia" } innovativeness = 25 } else = { num_of_owned_and_controlled_institutions = 2 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_2_innovatives_increased"
@@ -529,7 +529,7 @@ adm_missions = {
 	increase_2_innocatives_mission = {
 		icon = mission_early_modern_university
 		required_missions = { increase_1_innocatives_mission }
-		trigger = { innovativeness = 50 }
+		trigger = { if = { limit = { has_dlc = "Rule Britannia" } innovativeness = 50 } else = { num_of_owned_and_controlled_institutions = 3 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_3_innovatives_increased"
@@ -541,7 +541,7 @@ adm_missions = {
 	increase_3_innocatives_mission = {
 		icon = mission_early_modern_university
 		required_missions = { increase_2_innocatives_mission }
-		trigger = { innovativeness = 75 }
+		trigger = { if = { limit = { has_dlc = "Rule Britannia" } innovativeness = 75 } else = { num_of_owned_and_controlled_institutions = 4 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_4_innovatives_increased"
@@ -1246,7 +1246,7 @@ dip_missions = {
 		}
 		effect = {
 			add_country_modifier = {
-				name = "es_more_shipyards"
+				name = "es_more_embassies"
 				duration = -1
 			}
 		}
@@ -1467,9 +1467,7 @@ military_missions = {
 	es_1_drill_army = {
 		icon = mission_italian_condottiere
 		required_missions = { es_1_new_lands }
-		trigger = {
-			army_professionalism = 0.25
-		}
+		trigger = { if = { limit = { has_dlc = "Cradle of Civilization" } army_professionalism = 0.25 } else = { army_size_percentage = 1.25 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_1_proffesional_army"
@@ -1517,9 +1515,7 @@ military_missions = {
 	es_2_drill_army = {
 		icon = mission_italian_condottiere
 		required_missions = { es_2_new_lands }
-		trigger = {
-			army_professionalism = 0.50
-		}
+		trigger = { if = { limit = { has_dlc = "Cradle of Civilization" } army_professionalism = 0.5 } else = { army_size_percentage = 1.5 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_2_proffesional_army"
@@ -1613,9 +1609,7 @@ military_missions = {
 	es_3_drill_army = {
 		icon = mission_italian_condottiere
 		required_missions = { increase_2_development_mission }
-		trigger = {
-			army_professionalism = 0.75
-		}
+		trigger = { if = { limit = { has_dlc = "Cradle of Civilization" } army_professionalism = 0.75 } else = { army_size_percentage = 1.75 } }
 		effect = {
 			add_country_modifier = {
 				name = "es_3_proffesional_army"

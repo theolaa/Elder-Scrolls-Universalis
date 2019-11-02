@@ -202,6 +202,210 @@ country_event = {
 		create_vassal = DB0
 		}
 		
+		if = {
+		limit = {
+		atmora_19_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DB9 }
+		NOT = { capital_scope = { area = atmora_19_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_19_la
+		}
+		add_core = DB9
+		}
+		create_vassal = DB9
+		}
+		
+		if = {
+		limit = {
+		atmora_20_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC0 }
+		NOT = { capital_scope = { area = atmora_20_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_20_la
+		}
+		add_core = DC0
+		}
+		create_vassal = DC0
+		}
+		
+		if = {
+		limit = {
+		atmora_21_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC1 }
+		NOT = { capital_scope = { area = atmora_21_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_21_la
+		}
+		add_core = DC1
+		}
+		create_vassal = DC1
+		}
+		
+		if = {
+		limit = {
+		atmora_22_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC2 }
+		NOT = { capital_scope = { area = atmora_22_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_22_la
+		}
+		add_core = DC2
+		}
+		create_vassal = DC2
+		}
+		
+		if = {
+		limit = {
+		atmora_23_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC3 }
+		NOT = { capital_scope = { area = atmora_23_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_23_la
+		}
+		add_core = DC3
+		}
+		create_vassal = DC3
+		}
+		
+		if = {
+		limit = {
+		atmora_24_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC4 }
+		NOT = { capital_scope = { area = atmora_24_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_24_la
+		}
+		add_core = DC4
+		}
+		create_vassal = DC4
+		}
+		
+		if = {
+		limit = {
+		atmora_25_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC5 }
+		NOT = { capital_scope = { area = atmora_25_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_25_la
+		}
+		add_core = DC5
+		}
+		create_vassal = DC5
+		}
+		
+		if = {
+		limit = {
+		atmora_26_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC6 }
+		NOT = { capital_scope = { area = atmora_26_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_26_la
+		}
+		add_core = DC6
+		}
+		create_vassal = DC6
+		}
+		
+		if = {
+		limit = {
+		atmora_27_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC7 }
+		NOT = { capital_scope = { area = atmora_27_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_27_la
+		}
+		add_core = DC7
+		}
+		create_vassal = DC7
+		}
+		
+		if = {
+		limit = {
+		atmora_28_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC8 }
+		NOT = { capital_scope = { area = atmora_28_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_28_la
+		}
+		add_core = DC8
+		}
+		create_vassal = DC8
+		}
+		
+		if = {
+		limit = {
+		atmora_29_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DC9 }
+		NOT = { capital_scope = { area = atmora_29_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_29_la
+		}
+		add_core = DC9
+		}
+		create_vassal = DC9
+		}
+		
+		if = {
+		limit = {
+		atmora_30_la = {
+		owned_by = ROOT
+		}
+		NOT = { exists = DD0 }
+		NOT = { capital_scope = { area = atmora_30_la } }
+		}
+		every_owned_province = {
+		limit = {
+		area = atmora_30_la
+		}
+		add_core = DD0
+		}
+		create_vassal = DD0
+		}
+		
 	    }
 	}
 	
@@ -256,6 +460,8 @@ country_event = {
 	    }
 		else = {
 		create_alliance = ATM
+		add_opinion = { who = ROOT modifier = es_friendly_nation }
+		add_opinion = { who = ATM modifier = es_friendly_nation }
 		}
 	}
 }

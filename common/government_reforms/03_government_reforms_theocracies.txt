@@ -35,6 +35,8 @@ leading_clergy_reform = {
 		global_missionary_strength = 0.01
 		global_autonomy = -0.05
 		missionaries = 1
+		
+		free_adm_policy = 1
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -70,6 +72,8 @@ monastic_order_reform = {
 		fort_maintenance_modifier = -0.10
 		defensiveness = 0.10
 	    land_morale = 0.10
+		
+		free_mil_policy = 1
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -102,6 +106,8 @@ papacy_reform = {
 		prestige = 0.5
 		diplomatic_reputation = 1
 		global_autonomy = -0.05
+		
+		free_adm_policy = 1
 	}
 
 	conditional = {
@@ -128,6 +134,8 @@ holy_republic_reform = {
 		global_own_trade_power = 0.1
 		global_trade_goods_size_modifier = 0.1
 		trade_steering = 0.10
+		
+		free_dip_policy = 1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -181,6 +189,8 @@ religious_republic_reform = {
 		tolerance_heathen = 1
         tolerance_heretic = 1
 		num_accepted_cultures = 1
+		
+		free_mil_policy = 1
 	}
 	
 	valid_for_nation_designer = yes
@@ -216,6 +226,8 @@ college_of_mages_reform = {
 		idea_cost = -0.10
 		advisor_cost = -0.1
 		advisor_pool = 1
+		
+		free_adm_policy = 1
 	}
 	
 	valid_for_nation_designer = yes
@@ -245,6 +257,8 @@ secret_order_reform = {
 		spy_offence = 0.1
 		rebel_support_efficiency = 0.1
 		discovered_relations_impact = -0.10
+		
+		free_dip_policy = 1
 	}
 	
 	valid_for_nation_designer = yes
@@ -278,6 +292,8 @@ holy_city_reform = {
 		navy_tradition_decay = -0.01
 		army_tradition_decay = -0.01
 		naval_forcelimit = 0.10
+		
+		free_dip_policy = 1
 	}
 	
 	conditional = {

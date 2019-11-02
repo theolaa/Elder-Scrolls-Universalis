@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = turkishgfx
 
 color = { 255  0  0 }
 
@@ -47,7 +47,7 @@ leader_names = {
 }
 
 ship_names= {
-	Ariahil Adihre Vallene Silinore Estsion Sillonus Farine Khraemoth Reldalinde Anaedahl Valnya Elsinaire Astadaale Sillonal Dhanirya Laraethal Erisaen Korlock Tandnil Laemaere Angeminwe Gaean Sondaen Jaerus Ohtedith Thramoth Elaalinde Thilinour Arierume Caemus Elanmanwe Grayoth Muurne Highlock Elentaire Grayus Ayruen Loraethious Calssa Kaeiane Endaalaure Grayuseus Nirynil Elsinahl Siltelle Anaedan Estalia Saelinihle Taaraya Chameus Eldassare Laraethkaender Elanalda Thilinal Soneminwe Jaeriane Anirrine Sillonbinder Arisephona Thramaine Estosephona Salingifeth Cinna Koriuth Caralinwae Silinaerith Heleorne Joriane Terenn Kaeifeth Earenoore Thilinbinder Sontrae Charmael Calmrane Thilinthar Camaanya Spellaere Giaanya Laraethus Karlonwe Caemahl Mirilina Aelsonian Eleith Faeore Ohtine Adfhar Arydanwe Elsineus Virasara Adihre Caraarume Aelsoniath Angaath Larethihre Araarume Korthius Psydara Aelsonthaer
+	Ariahil Adihre Vallene Silinore Estsion Sillonus Farine Khraemoth Reldalinde Anaedahl Valnya Elsinaire Astadaale Sillonal Dhanirya Laraethal Erisaen Korlock Tandnil Laemaere Angeminwe Gaean Sondaen Jaerus Ohtedith Thramoth Elaalinde Thilinour Arierume Caemus Elanmanwe Grayoth Muurne Highlock Elentaire Grayus Ayruen Loraethious Calssa Kaeiane Endaalaure Grayuseus Nirynil Elsinahl Siltelle Anaedan Estalia Saelinihle Taaraya Chameus Eldassare Laraethkaender Elanalda Thilinal Soneminwe Jaeriane Anirrine Sillonbinder Arisephona Thramaine Estosephona Salingifeth Cinna Koriuth Caralinwae Silinaerith Heleorne Joriane Terenn Kaeifeth Earenoore Thilinbinder Sontrae Charmael Calmrane Thilinthar Camaanya Spellaere Giaanya Laraethus Karlonwe Caemahl Mirilina Aelsonian Eleith Faeore Ohtine Adfhar Arydanwe Elsineus Virasara Caraarume Aelsoniath Angaath Larethihre Araarume Korthius Psydara Aelsonthaer
 }
 
 army_names = {

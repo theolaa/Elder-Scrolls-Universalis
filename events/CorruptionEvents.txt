@@ -262,17 +262,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					has_owner_culture = no
-				}
-				save_event_target_as = culture_province
-			}
-		}
-	}
-	
 	trigger = {
 		corruption = 25
 		NOT = { corruption = 50 }
@@ -350,14 +339,6 @@ country_event = {
 	
 	trigger = {
 		corruption = 10
-	}
-	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				save_event_target_as = trade_goods_province
-			}
-		}
 	}
 	
 	option = {
@@ -440,7 +421,7 @@ country_event = {
 	id = corruption_event.15
 	title = "corruption_event.15.t"
 	desc = "corruption_event.15.d"
-	picture = BANKRUPCY_eventPicture
+	picture = GE_GOLD_COINS_eventPicture
 	
 	is_triggered_only = yes
 	

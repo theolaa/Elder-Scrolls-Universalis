@@ -1804,7 +1804,6 @@ country_event = {
 				reverse_has_opinion = { who = ROOT value = 75 }
 				is_free_or_tributary_trigger = yes
 			}
-			save_event_target_as = nameless_neighbor_no_more
 		}
 	}
 	

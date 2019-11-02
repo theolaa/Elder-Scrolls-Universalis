@@ -466,3 +466,50 @@ music = {
 	name = "Ares - Knowledge and Ancestry"
 	file = "Ares - Knowledge and Ancestry.ogg"
 }
+
+music = {
+	name = "Ares - Way of the Sword"
+	file = "Ares - Way of the Sword.ogg"
+}
+
+music = {
+	name = "Ares - Invasion of Akavir"
+	file = "Ares - Invasion of Akavir.ogg"
+}
+
+music = {
+	name = "Ares - Might of the Imperials"
+	file = "Ares - Might of the Imperials.ogg"
+}
+
+##Ronald van Deurzen
+
+music = {
+	name = "Ronald van Deurzen - Glorious Era"
+	file = "Ronald van Deurzen - Glorious Era.ogg"
+}
+
+music = {
+	name = "Ronald van Deurzen - Mist At Dawn"
+	file = "Ronald van Deurzen - Mist At Dawn.ogg"
+}
+
+music = {
+	name = "Ronald van Deurzen - Unsafe Forests"
+	file = "Ronald van Deurzen - Unsafe Forests.ogg"
+}
+
+music = {
+	name = "Ronald van Deurzen - Serenity Prayer"
+	file = "Ronald van Deurzen - Serenity Prayer.ogg"
+}
+
+music = {
+	name = "Ronald van Deurzen - Tale of Dreams"
+	file = "Ronald van Deurzen - Tale of Dreams.ogg"
+}
+
+music = {
+	name = "Ronald van Deurzen - Lore of Wisdom"
+	file = "Ronald van Deurzen - Lore of Wisdom.ogg"
+}

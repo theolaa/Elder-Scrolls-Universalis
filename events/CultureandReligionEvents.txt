@@ -1605,13 +1605,6 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			save_event_target_as = advisor_origin #Fallback
-			random_country = { #Better origin
-				limit = {
-					religion = new_variable:FROM:ruler_religion
-				}
-				save_event_target_as = advisor_origin
-			}
 			set_saved_name = { 
 				key = advisor_attracted_by_ruler
 				type = advisor
@@ -3442,16 +3435,12 @@ country_event = {
 			change_heir_dip = -1
 		}
 		else_if = {
-			if = {
-				limit = { heir_mil = 2 }
-				change_heir_mil = -1
-			}
+			limit = { heir_mil = 2 }
+			change_heir_mil = -1
 		}
 		else_if = {
-			if = {
-				limit = { heir_adm = 2 }
-				change_heir_adm = -1
-			}
+			limit = { heir_adm = 2 }
+			change_heir_adm = -1
 		}
 		else = {
 			add_dip_power = -50
@@ -3521,16 +3510,12 @@ country_event = {
 			change_heir_dip = -1
 		}
 		else_if = {
-			if = {
-				limit = { heir_mil = 2 }
-				change_heir_mil = -1
-			}
+			limit = { heir_mil = 2 }
+			change_heir_mil = -1
 		}
 		else_if = {
-			if = {
-				limit = { heir_adm = 2 }
-				change_heir_adm = -1
-			}
+			limit = { heir_adm = 2 }
+			change_heir_adm = -1
 		}
 		else = {
 			add_dip_power = -50
@@ -3588,12 +3573,6 @@ country_event = {
 					any_country = {
 						primary_culture = event_target:family_holdings
 					}
-				}
-				random_country = {
-					limit = {
-						primary_culture = event_target:family_holdings
-					}
-					save_event_target_as = good_name_list
 				}
 				set_saved_name = {
 					key = young_heir

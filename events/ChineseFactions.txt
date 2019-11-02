@@ -2476,14 +2476,6 @@ country_event = {
 		days = 1
 	}
 	
-	immediate = {
-		hidden_effect = {
-			random_subject_country = {
-				save_event_target_as = unruly_subject
-			}
-		}
-	}
-	
 	option = {
 		name = "china_events.51.a"
 		every_subject_country = {
@@ -2719,7 +2711,6 @@ country_event = {
 						}
 					}
 					set_province_flag = here_be_china
-					save_event_target_as = chinese_border_province
 				}
 			}
 		}
@@ -2871,7 +2862,6 @@ country_event = {
 					limit = {
 						NOT = { tag = ROOT }
 					}
-					save_event_target_as = low_mandate_separatism_country
 					every_core_province = {
 						limit = { owned_by = ROOT }
 						set_province_flag = low_mandate_separatism
@@ -2889,7 +2879,6 @@ country_event = {
 					limit = {
 						NOT = { tag = ROOT }
 					}
-					save_event_target_as = low_mandate_separatism_country_2
 					every_core_province = {
 						limit = { owned_by = ROOT }
 						set_province_flag = low_mandate_separatism_2
@@ -2907,7 +2896,6 @@ country_event = {
 					limit = {
 						NOT = { tag = ROOT }
 					}
-					save_event_target_as = low_mandate_separatism_country_3
 					every_core_province = {
 						limit = { owned_by = ROOT }
 						set_province_flag = low_mandate_separatism_3

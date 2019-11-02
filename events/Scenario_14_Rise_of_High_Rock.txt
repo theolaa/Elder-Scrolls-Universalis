@@ -6,9 +6,8 @@ country_event = {
 	desc = es_14_scenario.1.d
 	picture = ES_12RELIGION_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_14_scenario.1_flag }
 		is_year = 548
 		NOT = { is_year = 609 }
 		culture_group = half_blood_cg
@@ -17,6 +16,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 10950
+	}
+	
+	immediate = {
+	    set_country_flag = es_14_scenario.1_flag
 	}
 
 	option = {
@@ -74,9 +77,8 @@ country_event = {
 	desc = es_14_scenario.3.d
 	picture = ES_TRIUMPH_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_14_scenario.3_flag }
 		is_year = 548
 		NOT = { is_year = 609 }
 		culture_group = half_blood_cg
@@ -85,6 +87,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 31
+	}
+	
+	immediate = {
+	    set_country_flag = es_14_scenario.3_flag
 	}
 
 	option = {
@@ -101,9 +107,8 @@ country_event = {
 	desc = es_14_scenario.4.d
 	picture = ES_THRONEROOM_3_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_14_scenario.4_flag }
 		is_year = 548
 		NOT = { is_year = 609 }
 		culture_group = half_blood_cg
@@ -112,6 +117,10 @@ country_event = {
 		owns = 1369
 		}
     }
+	
+	immediate = {
+	    set_country_flag = es_14_scenario.4_flag
+	}
 
 	mean_time_to_happen = {
 		days = 10950
@@ -128,6 +137,7 @@ country_event = {
         mil = 5
         age = 21
         claim = 100
+		fixed = yes
         }
 	}
 	option = {
@@ -141,6 +151,7 @@ country_event = {
         mil = 3
         age = 21
         claim = 100
+		fixed = yes
         }
 	}
 	option = {
@@ -157,9 +168,8 @@ country_event = {
 	desc = es_14_scenario.5.d
 	picture = GE_HRE_CRUSADE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_14_scenario.5_flag }
 		is_year = 548
 		NOT = { is_year = 609 }
 		is_free_or_tributary_trigger = yes
@@ -177,6 +187,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 10950
+	}
+	
+	immediate = {
+	    set_country_flag = es_14_scenario.5_flag
 	}
 
 	option = {

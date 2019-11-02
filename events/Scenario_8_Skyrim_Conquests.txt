@@ -6,9 +6,8 @@ country_event = {
 	desc = es_8_scenario.1.d
 	picture = ES_TRIUMPH_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_8_scenario.1_flag }
 		is_year = 266
 		NOT = { is_year = 308 }
 		culture_group = northern_cg
@@ -21,6 +20,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 7665
 	}
+	
+	immediate = {
+	    set_country_flag = es_8_scenario.1_flag
+	}
 
 	option = {
 		name = "es_8_scenario.1.a"
@@ -28,9 +31,9 @@ country_event = {
 		change_tag = OLD
 		if = {
 			limit = {
-				NOT = { government_rank = 5 }
+				NOT = { government_rank = 7 }
 			}
-			set_government_rank = 5
+			set_government_rank = 7
 			}
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 		if = {
@@ -58,6 +61,66 @@ country_event = {
 		add_country_modifier = {
 		name = "08_prepare_for_war"
 		duration = 3650
+		}
+		
+		if = {
+		limit = {
+		exists = DWE
+		NOT = { alliance_with = DWE }
+		NOT = { overlord_of = DWE }
+		}
+		declare_war_with_cb = {
+			who = DWE
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = DIR
+		NOT = { alliance_with = DIR }
+		NOT = { overlord_of = DIR }
+		}
+		declare_war_with_cb = {
+			who = DIR
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HIG
+		NOT = { alliance_with = HIG }
+		NOT = { overlord_of = HIG }
+		}
+		declare_war_with_cb = {
+			who = HIG
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA1
+		NOT = { alliance_with = BA1 }
+		NOT = { overlord_of = BA1 }
+		}
+		declare_war_with_cb = {
+			who = BA1
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA3
+		NOT = { alliance_with = BA3 }
+		NOT = { overlord_of = BA3 }
+		}
+		declare_war_with_cb = {
+			who = BA3
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {
@@ -120,9 +183,8 @@ country_event = {
 	desc = es_8_scenario.3.d
 	picture = ES_DWEMES_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_8_scenario.3_flag }
 		is_year = 266
 		NOT = { is_year = 308 }
 		culture_group = dwemer_cg
@@ -131,6 +193,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7665
+	}
+	
+	immediate = {
+	    set_country_flag = es_8_scenario.3_flag
 	}
 
 	option = {
@@ -146,6 +212,66 @@ country_event = {
 		name = "08_prepare_for_war"
 		duration = 3650
 		}
+		
+		if = {
+		limit = {
+		exists = SKY
+		NOT = { alliance_with = SKY }
+		NOT = { overlord_of = SKY }
+		}
+		declare_war_with_cb = {
+			who = SKY
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = OLD
+		NOT = { alliance_with = OLD }
+		NOT = { overlord_of = OLD }
+		}
+		declare_war_with_cb = {
+			who = OLD
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NA3
+		NOT = { alliance_with = NA3 }
+		NOT = { overlord_of = NA3 }
+		}
+		declare_war_with_cb = {
+			who = NA3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NA9
+		NOT = { alliance_with = NA9 }
+		NOT = { overlord_of = NA9 }
+		}
+		declare_war_with_cb = {
+			who = NA9
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NB2
+		NOT = { alliance_with = NB2 }
+		NOT = { overlord_of = NB2 }
+		}
+		declare_war_with_cb = {
+			who = NB2
+			casus_belli = cb_es_scenario
+		}
+		}
 	}
 	option = {
 		name = "es_8_scenario.3.b"
@@ -160,9 +286,8 @@ country_event = {
 	desc = es_8_scenario.4.d
 	picture = ES_BANK_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_8_scenario.4_flag }
 		is_year = 266
 		NOT = { is_year = 308 }
 		culture_group = high_elves_cg
@@ -171,6 +296,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7665
+	}
+	
+	immediate = {
+	    set_country_flag = es_8_scenario.4_flag
 	}
 
 	option = {
@@ -197,9 +326,8 @@ country_event = {
 	desc = es_8_scenario.5.d
 	picture = ES_REBELLION_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_8_scenario.5_flag }
 		is_year = 266
 		NOT = { is_year = 308 }
 		culture_group = dead_cg
@@ -208,6 +336,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7665
+	}
+	
+	immediate = {
+	    set_country_flag = es_8_scenario.5_flag
 	}
 
 	option = {
@@ -222,6 +354,7 @@ country_event = {
         mil = 7
         age = 40
         claim = 100
+		fixed = yes
         }
 		define_heir = {
         name = "Serana"
@@ -252,7 +385,7 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -260,7 +393,7 @@ country_event = {
         random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -268,7 +401,7 @@ country_event = {
 		random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}

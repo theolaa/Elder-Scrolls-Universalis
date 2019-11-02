@@ -2,15 +2,10 @@
 
 # country
 on_startup = {
-    if = {
-		limit = {
-		is_bankrupt = yes
-		}
-		add_country_modifier = {
-		name = "antibankrapucy"
-		duration = 1460
-		}
-	}
+	if = { limit = { NOT = { has_country_flag = on_action_setup_flag } }
+	
+	set_country_flag = esu_music_main_flag
+	
 	if = {
 		limit = {
 		NOT = { is_year = 50 }
@@ -55,51 +50,6 @@ on_startup = {
 		akavir_superregion = {
 		    discover_country = ROOT
 		}
-	}
-	
-	if = {
-		limit = {
-		is_year = 266
-		}
-		set_global_flag = ayleid_fall_flag
-	}
-	if = {
-		limit = {
-		is_year = 369
-		}
-		set_global_flag = marukhism_flag
-	}
-	if = {
-		limit = {
-		is_year = 242
-	    }
-		set_global_flag = etherial_crisis_flag
-		set_global_flag = alessian_rebellion_flag
-	}
-	if = {
-		limit = {
-		is_year = 609
-		}
-		set_global_flag = fall_of_direnii_flag
-	}
-	if = {
-		limit = {
-		is_year = 750
-		}
-		set_global_flag = dwemer_dissapearence_flag
-	}
-	if = {
-		limit = {
-		is_year = 810
-		}
-		set_global_flag = redguard_migration_flag
-	}
-	
-	if = {
-		limit = {
-		is_free_or_tributary_trigger = yes
-		}
-		set_country_flag = arrow_in_the_knee_flag
 	}
 	
 	every_owned_province = {
@@ -200,18 +150,6 @@ on_startup = {
 		}
 		}
 	}
-		
-	add_country_modifier = {
-		name = "es_female_advisors"
-		duration = -1
-		hidden = yes
-	}
-	
-	add_legitimacy = 100
-	add_republican_tradition = 100
-	add_devotion = 100
-	add_horde_unity = 100
-	add_meritocracy = 100
 	
 	if = {
 	    limit = {
@@ -220,24 +158,162 @@ on_startup = {
 		add_country_modifier = {
 			name = "red_mountain_eruption"
 			duration = 36500
-			hidden = yes
+		}
+        add_country_modifier = {
+			name = "sand_storm_1"
+			duration = 36500
+		}
+        add_country_modifier = {
+			name = "sand_storm_2"
+			duration = 36500
 		}	
+        add_country_modifier = {
+			name = "sand_storm_3"
+			duration = 36500
+		}
+        add_country_modifier = {
+			name = "tropical_storm_1"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "tropical_storm_2"
+			duration = 36500
+		}
+        add_country_modifier = {
+			name = "tropical_storm_3"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "floods_1"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "floods_2"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "floods_3"
+			duration = 36500
+		}		
+        add_country_modifier = {
+			name = "ice_age_1"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "ice_age_2"
+			duration = 36500
+		}	
+        add_country_modifier = {
+			name = "ice_age_3"
+			duration = 36500
+		}			
 		add_country_modifier = {
 			name = "rise_time"
 			duration = 365
-			hidden = yes
 		}
         add_country_modifier = {
 			name = "crisis_time"
 			duration = 365
-			hidden = yes
 		}	
         add_country_modifier = {
 			name = "trade_time"
 			duration = 365
-			hidden = yes
 		}		
     }
+	
+	if = {
+	    limit = {
+		    culture_group = orsimer_cg
+		}
+		add_country_modifier = {
+			name = "orcish_fury"
+			duration = 3650
+		}	
+		add_country_modifier = {
+		    name = "orcish_fury_timer"
+		    duration = 9125
+		    hidden = yes
+	    }
+		every_neighbor_country = {
+		limit = {
+		ai = no
+		NOT = { culture_group = orsimer_cg }
+		}
+		country_event = { id = es_orcish_flavour.5 days = 31 tooltip = es_orcish_flavour.5.a.tt }
+		}
+	}
+		
+	add_country_modifier = {
+		name = "es_female_advisors"
+		duration = -1
+		hidden = yes
+	}
+	
+	if = {
+		limit = {
+		is_year = 266
+		}
+		set_global_flag = ayleid_fall_flag
+	}
+	if = {
+		limit = {
+		is_year = 369
+		}
+		set_global_flag = marukhism_flag
+	}
+	if = {
+		limit = {
+		is_year = 242
+	    }
+		set_global_flag = etherial_crisis_flag
+		set_global_flag = alessian_rebellion_flag
+	}
+	if = {
+		limit = {
+		is_year = 609
+		}
+		set_global_flag = fall_of_direnii_flag
+	}
+	if = {
+		limit = {
+		is_year = 750
+		}
+		set_global_flag = dwemer_dissapearence_flag
+	}
+	if = {
+		limit = {
+		is_year = 810
+		}
+		set_global_flag = redguard_migration_flag
+		set_global_flag = foundation_of_wayres_flag
+	}
+	
+	if = {
+		limit = {
+		is_free_or_tributary_trigger = yes
+		}
+		set_country_flag = arrow_in_the_knee_flag
+	}
+	
+	if = {
+		limit = {
+		is_bankrupt = yes
+		}
+		add_country_modifier = {
+		name = "antibankrapucy"
+		duration = 1460
+		}
+	}
+	
+	add_legitimacy = 100
+	add_republican_tradition = 100
+	add_devotion = 100
+	add_horde_unity = 100
+	add_meritocracy = 100
+	
+	set_country_flag = on_action_setup_flag
+	}
+	initialize_schools_effect = yes
 }
 
 # country
@@ -554,14 +630,6 @@ on_new_monarch = {
 		}
 		set_country_flag = arrow_in_the_knee_flag
 	}
-	
-	if = {
-    limit = {
-	has_dlc = "Rights of Man"
-    ruler_culture = vampire
-    }
-    add_ruler_personality = immortal_personality
-    }
 
 	if = {
 		limit = {
@@ -596,19 +664,12 @@ on_new_monarch = {
 		100 = inti_events.1		# Birth of a Panaca
 		50 = dynastic_events.4
 		50 = dynastic_events.5
+		25 = harem_events.7
 	}
 }
 
 on_new_consort = {
 	country_event = { id = consort_events.2 }
-	
-	if = {
-    limit = {
-	has_dlc = "Rights of Man"
-    consort_culture = vampire
-    }
-    add_queen_personality = immortal_personality
-    }
 	
 	if = {
 		limit = { has_ruler_flag = had_10_years_anniversary }
@@ -816,15 +877,6 @@ on_queen_death = {
 
 # country
 on_new_heir = {
-
-    if = {
-    limit = {
-	has_dlc = "Rights of Man"
-    heir_culture = vampire
-    }
-    add_heir_personality = immortal_personality
-    }
-
 }
 
 # country
@@ -969,6 +1021,16 @@ on_annexed = {
 			dismantle_empire_of_china = yes
 			set_global_flag = empire_of_china_dismantled
 		}
+        if = {
+			limit = { has_country_modifier = legatus_natus }
+			remove_country_modifier = legatus_natus
+			set_global_flag = no_legatus_natus
+		}
+		if = {
+			limit = { has_country_modifier = primas_germaniae }
+			remove_country_modifier = primas_germaniae
+			set_global_flag = no_primas_germaniae
+        }
 	}
 }
 
@@ -994,6 +1056,10 @@ on_mandate_of_heaven_gained = {
 	}
 	add_government_reform = celestial_empire
 	set_mandate = 60
+	add_country_modifier = {
+		name = new_mandate_holder
+		duration = 9125
+	}
 	if = {
 		limit = {
 			has_dlc = "Mandate of Heaven"
@@ -1278,6 +1344,7 @@ on_bi_yearly_pulse = {
 
 		#Culture and Religion Events
 		125 = culture_religion_events.1
+		125 = culture_religion_events.2
 		125 = culture_religion_events.3
 		125 = culture_religion_events.4
 		125 = culture_religion_events.5
@@ -3032,6 +3099,12 @@ on_grant_estate_land = {
 }
 
 on_death_has_harem = {
+    if = {
+		limit = {
+			has_heir = no
+		}
+		country_event = { id = harem_events.2 }
+	}
 }
 
 on_select_heir_from_harem = {

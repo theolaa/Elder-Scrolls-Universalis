@@ -3,7 +3,6 @@ country_decisions = {
 	republican_administration = {
 		major = yes
 		potential = {
-		    has_dlc = "Common Sense"
 			NOT = { government = republic }
 			NOT = { government = tribal }
 			NOT = { government = native }
@@ -30,7 +29,6 @@ country_decisions = {
 	theocratic_administration = {
 		major = yes
 		potential = {
-		    has_dlc = "Common Sense"
 			NOT = { government = theocracy }
 			NOT = { government = tribal }
 			NOT = { government = native }
@@ -57,7 +55,6 @@ country_decisions = {
 	monarchic_administration = {
 		major = yes
 		potential = {
-		    has_dlc = "Common Sense"
 			NOT = { government = monarchy }
 			NOT = { government = tribal }
 			NOT = { government = native }
@@ -82,7 +79,6 @@ country_decisions = {
 	es_tribal_reform = {
 		major = yes
 		potential = {
-		    has_dlc = "Common Sense"
 			government = tribal
 		}
 		allow =  {
@@ -132,8 +128,8 @@ country_decisions = {
 	transitional_state_integration = {
 	major = yes
 	potential = {
-	        is_subject_of_type = transitional_state
-		}
+	    is_subject_of_type = transitional_state
+	}
 	allow =  {
 	    NOT = { overextension_percentage = 0.01 }
 		}
@@ -152,9 +148,7 @@ country_decisions = {
 	potential = {
 	    is_subject_of_type = holy_order_1
 		NOT = { government = theocracy }
-		has_dlc = "Dharma"
-		has_dlc = "Common Sense"
-		}
+	}
 	allow =  {
 	    NOT = { overextension_percentage = 0.01 }
 		}

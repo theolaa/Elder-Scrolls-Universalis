@@ -17,3 +17,7 @@ discovered_by = atmora_tg
 	controller = DRA
 	add_core = DRA
 }
+
+139.1.1 = {
+    religion = dragon_cult
+}

@@ -472,31 +472,6 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-
-    immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					is_owned_by_trade_company = yes
-					OR = {
-						num_investments_in_trade_company_region = {
-							investment = company_administration
-							value = 3
-						}
-						num_investments_in_trade_company_region = {
-							investment = military_administration
-							value = 3
-						}
-					}
-					has_trade_company_investment_in_area  = {
-						investment = governor_general_mansion
-						investor = ROOT
-					}
-				}
-				save_event_target_as = company_rule_province
-			}
-		}
-	}
 	
     option = {      
         name = investment_events.5.a
@@ -1082,7 +1057,6 @@ country_event = {
 						}	
 					}
 				}
-				save_event_target_as = company_interference_province
 				random_neighbor_province = {
 					limit = {
 						NOT = { owned_by = ROOT }

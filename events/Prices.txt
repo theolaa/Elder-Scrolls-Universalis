@@ -5,35 +5,43 @@ country_event = {
 	title = es_trade.1.t
 	desc = es_trade.1.d
 	picture = ES_TRADE_GOODS_eventPicture
-	
-	major = yes
 
 	trigger = {
 	tag = RED
 	NOT = { has_country_modifier = trade_time }
 	}
+	
 	mean_time_to_happen = {
 		months = 150
 	}
 	
+	immediate = {
+	hidden_effect = {
+	add_country_modifier = {
+		name = "trade_time"
+		duration = 5475
+	}
+	every_country = {
+	limit = {
+	ai = no
+	}
+	country_event = { id = es_trade.4 days = 31 tooltip = es_trade.4.a.tt }
+	}
+	}
+    }
 	
 	option = {
 		name = es_trade.1.a
 		
 		hidden_effect = {
 		
-		add_country_modifier = {
-				name = "trade_time"
-				duration = 5475
-			}
-		
 		random_list = {
 		25 = {
 		change_price = {
 			trade_goods = grain
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -41,7 +49,7 @@ country_event = {
 			trade_goods = grain
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -49,7 +57,7 @@ country_event = {
 			trade_goods = grain
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -57,7 +65,7 @@ country_event = {
 			trade_goods = grain
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -68,7 +76,7 @@ country_event = {
 			trade_goods = wine
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -76,7 +84,7 @@ country_event = {
 			trade_goods = wine
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -84,7 +92,7 @@ country_event = {
 			trade_goods = wine
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -92,7 +100,7 @@ country_event = {
 			trade_goods = wine
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -103,7 +111,7 @@ country_event = {
 			trade_goods = wool
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -111,7 +119,7 @@ country_event = {
 			trade_goods = wool
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -119,7 +127,7 @@ country_event = {
 			trade_goods = wool
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -127,7 +135,7 @@ country_event = {
 			trade_goods = wool
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -138,7 +146,7 @@ country_event = {
 			trade_goods = cloth
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -146,7 +154,7 @@ country_event = {
 			trade_goods = cloth
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -154,7 +162,7 @@ country_event = {
 			trade_goods = cloth
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -162,7 +170,7 @@ country_event = {
 			trade_goods = cloth
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -173,7 +181,7 @@ country_event = {
 			trade_goods = fish
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -181,7 +189,7 @@ country_event = {
 			trade_goods = fish
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -189,7 +197,7 @@ country_event = {
 			trade_goods = fish
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -197,7 +205,7 @@ country_event = {
 			trade_goods = fish
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -208,7 +216,7 @@ country_event = {
 			trade_goods = fur
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -216,7 +224,7 @@ country_event = {
 			trade_goods = fur
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -224,7 +232,7 @@ country_event = {
 			trade_goods = fur
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -232,7 +240,7 @@ country_event = {
 			trade_goods = fur
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -243,7 +251,7 @@ country_event = {
 			trade_goods = salt
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -251,7 +259,7 @@ country_event = {
 			trade_goods = salt
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -259,7 +267,7 @@ country_event = {
 			trade_goods = salt
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -267,7 +275,7 @@ country_event = {
 			trade_goods = salt
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -278,7 +286,7 @@ country_event = {
 			trade_goods = naval_supplies
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -286,7 +294,7 @@ country_event = {
 			trade_goods = naval_supplies
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -294,7 +302,7 @@ country_event = {
 			trade_goods = naval_supplies
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -302,7 +310,7 @@ country_event = {
 			trade_goods = naval_supplies
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -313,7 +321,7 @@ country_event = {
 			trade_goods = copper
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -321,7 +329,7 @@ country_event = {
 			trade_goods = copper
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -329,7 +337,7 @@ country_event = {
 			trade_goods = copper
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -337,7 +345,7 @@ country_event = {
 			trade_goods = copper
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -348,7 +356,7 @@ country_event = {
 			trade_goods = iron
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -356,7 +364,7 @@ country_event = {
 			trade_goods = iron
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -364,7 +372,7 @@ country_event = {
 			trade_goods = iron
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -372,7 +380,7 @@ country_event = {
 			trade_goods = iron
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -383,7 +391,7 @@ country_event = {
 			trade_goods = slaves
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -391,7 +399,7 @@ country_event = {
 			trade_goods = slaves
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -399,7 +407,7 @@ country_event = {
 			trade_goods = slaves
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -407,7 +415,7 @@ country_event = {
 			trade_goods = slaves
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -418,7 +426,7 @@ country_event = {
 			trade_goods = ivory
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -426,7 +434,7 @@ country_event = {
 			trade_goods = ivory
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -434,7 +442,7 @@ country_event = {
 			trade_goods = ivory
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -442,7 +450,7 @@ country_event = {
 			trade_goods = ivory
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -453,7 +461,7 @@ country_event = {
 			trade_goods = tea
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -461,7 +469,7 @@ country_event = {
 			trade_goods = tea
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -469,7 +477,7 @@ country_event = {
 			trade_goods = tea
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -477,7 +485,7 @@ country_event = {
 			trade_goods = tea
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -488,7 +496,7 @@ country_event = {
 			trade_goods = chinaware
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -496,7 +504,7 @@ country_event = {
 			trade_goods = chinaware
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -504,7 +512,7 @@ country_event = {
 			trade_goods = chinaware
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -512,7 +520,7 @@ country_event = {
 			trade_goods = chinaware
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -523,7 +531,7 @@ country_event = {
 			trade_goods = spices
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -531,7 +539,7 @@ country_event = {
 			trade_goods = spices
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -539,7 +547,7 @@ country_event = {
 			trade_goods = spices
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -547,7 +555,7 @@ country_event = {
 			trade_goods = spices
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -558,7 +566,7 @@ country_event = {
 			trade_goods = coffee
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -566,7 +574,7 @@ country_event = {
 			trade_goods = coffee
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -574,7 +582,7 @@ country_event = {
 			trade_goods = coffee
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -582,7 +590,7 @@ country_event = {
 			trade_goods = coffee
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -593,7 +601,7 @@ country_event = {
 			trade_goods = cotton
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -601,7 +609,7 @@ country_event = {
 			trade_goods = cotton
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -609,7 +617,7 @@ country_event = {
 			trade_goods = cotton
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -617,7 +625,7 @@ country_event = {
 			trade_goods = cotton
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -628,7 +636,7 @@ country_event = {
 			trade_goods = sugar
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -636,7 +644,7 @@ country_event = {
 			trade_goods = sugar
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -644,7 +652,7 @@ country_event = {
 			trade_goods = sugar
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -652,7 +660,7 @@ country_event = {
 			trade_goods = sugar
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -663,7 +671,7 @@ country_event = {
 			trade_goods = tobacco
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -671,7 +679,7 @@ country_event = {
 			trade_goods = tobacco
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -679,7 +687,7 @@ country_event = {
 			trade_goods = tobacco
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -687,7 +695,7 @@ country_event = {
 			trade_goods = tobacco
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -698,7 +706,7 @@ country_event = {
 			trade_goods = cocoa
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -706,7 +714,7 @@ country_event = {
 			trade_goods = cocoa
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -714,7 +722,7 @@ country_event = {
 			trade_goods = cocoa
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -722,7 +730,7 @@ country_event = {
 			trade_goods = cocoa
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -733,7 +741,7 @@ country_event = {
 			trade_goods = silk
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -741,7 +749,7 @@ country_event = {
 			trade_goods = silk
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -749,7 +757,7 @@ country_event = {
 			trade_goods = silk
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -757,7 +765,7 @@ country_event = {
 			trade_goods = silk
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -768,7 +776,7 @@ country_event = {
 			trade_goods = dyes
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -776,7 +784,7 @@ country_event = {
 			trade_goods = dyes
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -784,7 +792,7 @@ country_event = {
 			trade_goods = dyes
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -792,7 +800,7 @@ country_event = {
 			trade_goods = dyes
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -803,7 +811,7 @@ country_event = {
 			trade_goods = tropical_wood
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -811,7 +819,7 @@ country_event = {
 			trade_goods = tropical_wood
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -819,7 +827,7 @@ country_event = {
 			trade_goods = tropical_wood
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -827,7 +835,7 @@ country_event = {
 			trade_goods = tropical_wood
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -838,7 +846,7 @@ country_event = {
 			trade_goods = livestock
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -846,7 +854,7 @@ country_event = {
 			trade_goods = livestock
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -854,7 +862,7 @@ country_event = {
 			trade_goods = livestock
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -862,7 +870,7 @@ country_event = {
 			trade_goods = livestock
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -873,7 +881,7 @@ country_event = {
 			trade_goods = incense
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -881,7 +889,7 @@ country_event = {
 			trade_goods = incense
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -889,7 +897,7 @@ country_event = {
 			trade_goods = incense
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -897,7 +905,7 @@ country_event = {
 			trade_goods = incense
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -908,7 +916,7 @@ country_event = {
 			trade_goods = glass
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -916,7 +924,7 @@ country_event = {
 			trade_goods = glass
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -924,7 +932,7 @@ country_event = {
 			trade_goods = glass
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -932,7 +940,7 @@ country_event = {
 			trade_goods = glass
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -943,7 +951,7 @@ country_event = {
 			trade_goods = paper
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -951,7 +959,7 @@ country_event = {
 			trade_goods = paper
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -959,7 +967,7 @@ country_event = {
 			trade_goods = paper
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -967,7 +975,7 @@ country_event = {
 			trade_goods = paper
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -978,7 +986,7 @@ country_event = {
 			trade_goods = gems
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -986,7 +994,7 @@ country_event = {
 			trade_goods = gems
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -994,7 +1002,7 @@ country_event = {
 			trade_goods = gems
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1002,7 +1010,7 @@ country_event = {
 			trade_goods = gems
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1013,7 +1021,7 @@ country_event = {
 			trade_goods = oil
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1021,7 +1029,7 @@ country_event = {
 			trade_goods = oil
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1029,7 +1037,7 @@ country_event = {
 			trade_goods = oil
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1037,7 +1045,7 @@ country_event = {
 			trade_goods = oil
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1048,7 +1056,7 @@ country_event = {
 			trade_goods = uranium
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1056,7 +1064,7 @@ country_event = {
 			trade_goods = uranium
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1064,7 +1072,7 @@ country_event = {
 			trade_goods = uranium
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1072,7 +1080,7 @@ country_event = {
 			trade_goods = uranium
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1083,7 +1091,7 @@ country_event = {
 			trade_goods = coal
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1091,7 +1099,7 @@ country_event = {
 			trade_goods = coal
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1099,7 +1107,7 @@ country_event = {
 			trade_goods = coal
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1107,7 +1115,7 @@ country_event = {
 			trade_goods = coal
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1118,7 +1126,7 @@ country_event = {
 			trade_goods = aluminum
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1126,7 +1134,7 @@ country_event = {
 			trade_goods = aluminum
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1134,7 +1142,7 @@ country_event = {
 			trade_goods = aluminum
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1142,7 +1150,7 @@ country_event = {
 			trade_goods = aluminum
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1153,7 +1161,7 @@ country_event = {
 			trade_goods = cars
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1161,7 +1169,7 @@ country_event = {
 			trade_goods = cars
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1169,7 +1177,7 @@ country_event = {
 			trade_goods = cars
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1177,7 +1185,7 @@ country_event = {
 			trade_goods = cars
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1188,7 +1196,7 @@ country_event = {
 			trade_goods = electronics
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1196,7 +1204,7 @@ country_event = {
 			trade_goods = electronics
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1204,7 +1212,7 @@ country_event = {
 			trade_goods = electronics
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1212,7 +1220,7 @@ country_event = {
 			trade_goods = electronics
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1223,7 +1231,7 @@ country_event = {
 			trade_goods = algae
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1231,7 +1239,7 @@ country_event = {
 			trade_goods = algae
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1239,7 +1247,7 @@ country_event = {
 			trade_goods = algae
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1247,7 +1255,7 @@ country_event = {
 			trade_goods = algae
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1258,7 +1266,7 @@ country_event = {
 			trade_goods = corals
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1266,7 +1274,7 @@ country_event = {
 			trade_goods = corals
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1274,7 +1282,7 @@ country_event = {
 			trade_goods = corals
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1282,7 +1290,7 @@ country_event = {
 			trade_goods = corals
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1293,7 +1301,7 @@ country_event = {
 			trade_goods = rare_metals
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1301,7 +1309,7 @@ country_event = {
 			trade_goods = rare_metals
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1309,7 +1317,7 @@ country_event = {
 			trade_goods = rare_metals
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1317,7 +1325,7 @@ country_event = {
 			trade_goods = rare_metals
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1328,7 +1336,7 @@ country_event = {
 			trade_goods = silicates
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1336,7 +1344,7 @@ country_event = {
 			trade_goods = silicates
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1344,7 +1352,7 @@ country_event = {
 			trade_goods = silicates
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1352,7 +1360,7 @@ country_event = {
 			trade_goods = silicates
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1363,7 +1371,7 @@ country_event = {
 			trade_goods = wood_coal
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1371,7 +1379,7 @@ country_event = {
 			trade_goods = wood_coal
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1379,7 +1387,7 @@ country_event = {
 			trade_goods = wood_coal
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1387,7 +1395,7 @@ country_event = {
 			trade_goods = wood_coal
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1398,7 +1406,7 @@ country_event = {
 			trade_goods = manganates
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1406,7 +1414,7 @@ country_event = {
 			trade_goods = manganates
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1414,7 +1422,7 @@ country_event = {
 			trade_goods = manganates
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1422,7 +1430,7 @@ country_event = {
 			trade_goods = manganates
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1433,7 +1441,7 @@ country_event = {
 			trade_goods = light_metals
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1441,7 +1449,7 @@ country_event = {
 			trade_goods = light_metals
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1449,7 +1457,7 @@ country_event = {
 			trade_goods = light_metals
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1457,7 +1465,7 @@ country_event = {
 			trade_goods = light_metals
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1468,7 +1476,7 @@ country_event = {
 			trade_goods = wood
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1476,7 +1484,7 @@ country_event = {
 			trade_goods = wood
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1484,7 +1492,7 @@ country_event = {
 			trade_goods = wood
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1492,7 +1500,7 @@ country_event = {
 			trade_goods = wood
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1503,7 +1511,7 @@ country_event = {
 			trade_goods = lobsters
 			key = ANNUAL_TRADE
 			value = 0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1511,7 +1519,7 @@ country_event = {
 			trade_goods = lobsters
 			key = ANNUAL_TRADE
 			value = -0.25
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1519,7 +1527,7 @@ country_event = {
 			trade_goods = lobsters
 			key = ANNUAL_TRADE
 			value = 0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		25 = {
@@ -1527,7 +1535,7 @@ country_event = {
 			trade_goods = lobsters
 			key = ANNUAL_TRADE
 			value = -0.10
-			duration = -1
+			duration = 91250
 		}
 		}
 		}
@@ -1542,27 +1550,35 @@ country_event = {
 	title = es_trade.2.t
 	desc = es_trade.2.d
 	picture = ES_TRADE_GOODS_eventPicture
-	
-	major = yes
 
 	trigger = {
 	tag = RED
 	NOT = { has_country_modifier = crisis_time }
 	}
+	
 	mean_time_to_happen = {
 		months = 1500
 	}
 	
+	immediate = {
+	hidden_effect = {
+	add_country_modifier = {
+		name = "crisis_time"
+		duration = 36500
+	}
+	every_country = {
+	limit = {
+	ai = no
+	}
+	country_event = { id = es_trade.5 days = 31 tooltip = es_trade.5.a.tt }
+	}
+	}
+    }
 	
 	option = {
 		name = es_trade.2.a
 		
 		hidden_effect = {
-		
-		add_country_modifier = {
-				name = "crisis_time"
-				duration = 36500
-			}
 		
 		change_price = {
 			trade_goods = grain
@@ -1872,31 +1888,39 @@ country_event = {
 }
 
 country_event = {
-	id = es_trade.4
+	id = es_trade.3
 	title = es_trade.3.t
 	desc = es_trade.3.d
 	picture = ES_TRADE_GOODS_eventPicture
-	
-	major = yes
 
 	trigger = {
 	tag = RED
 	NOT = { has_country_modifier = rise_time }
 	}
+	
 	mean_time_to_happen = {
 		months = 1500
 	}
 	
+	immediate = {
+	hidden_effect = {
+    add_country_modifier = {
+		name = "rise_time"
+		duration = 36500
+	}
+	every_country = {
+	limit = {
+	ai = no
+	}
+	country_event = { id = es_trade.6 days = 31 tooltip = es_trade.6.a.tt }
+	}
+	}
+    }
 	
 	option = {
 		name = es_trade.3.a
 		
 		hidden_effect = {
-		
-		add_country_modifier = {
-				name = "rise_time"
-				duration = 36500
-			}
 		
 		change_price = {
 			trade_goods = grain
@@ -2202,5 +2226,44 @@ country_event = {
 		
 		}
 		
+	}
+}
+
+country_event = {
+	id = es_trade.4
+	title = es_trade.1.t
+	desc = es_trade.1.d
+	picture = ES_TRADE_GOODS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = es_trade.1.a
+	}
+}
+
+country_event = {
+	id = es_trade.5
+	title = es_trade.2.t
+	desc = es_trade.2.d
+	picture = ES_TRADE_GOODS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = es_trade.2.a
+	}
+}
+
+country_event = {
+	id = es_trade.6
+	title = es_trade.3.t
+	desc = es_trade.3.d
+	picture = ES_TRADE_GOODS_eventPicture
+
+	is_triggered_only = yes
+	
+	option = {
+		name = es_trade.3.a
 	}
 }

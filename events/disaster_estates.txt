@@ -177,7 +177,6 @@ country_event = {
 		create_independent_estate = {
 			estate = estate_cossacks
 			government = republic
-			custom_national_ideas = cossack_ideas
 			play_as = no
 		}
 	}
@@ -195,7 +194,6 @@ country_event = {
 		create_independent_estate = {
 			estate = estate_cossacks
 			government = republic
-			custom_national_ideas = cossack_ideas
 			play_as = yes
 		}
 	}

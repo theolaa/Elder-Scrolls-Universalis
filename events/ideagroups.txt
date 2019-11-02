@@ -726,11 +726,6 @@ country_event = {
 			add_corruption = -1
 		}
 		else = {
-			limit = {
-				NOT = {
-					corruption = 0.01
-				}
-			}
 			add_inflation = -2
 		}
 	}
@@ -1539,17 +1534,6 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			random_neighbor_country = {
-				limit = {
-					NOT = { religion = ROOT }
-				}
-				save_event_target_as = infidel_neighbor
-			}
-		}
 	}
 
 	option = {

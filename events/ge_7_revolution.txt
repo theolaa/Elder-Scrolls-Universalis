@@ -16,10 +16,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		months = 1
-	}
-	
 	option = {
 		name = "ge_revolution.21.a"
 		ai_chance = { factor = 50 }
@@ -96,7 +92,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -105,7 +101,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -114,7 +110,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -199,7 +195,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -208,7 +204,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -217,7 +213,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -236,10 +232,6 @@ country_event = {
 	picture = CHURCH_ESTATE_1_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.22.a"
@@ -317,7 +309,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -325,7 +317,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -333,7 +325,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -352,10 +344,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.23.a"
@@ -433,7 +421,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -442,7 +430,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -451,7 +439,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -535,7 +523,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -543,7 +531,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -551,7 +539,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -635,7 +623,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -643,7 +631,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -651,7 +639,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -670,10 +658,6 @@ country_event = {
 	picture = CHURCH_ESTATE_1_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.24.a"
@@ -751,7 +735,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -759,7 +743,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = particularist_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -767,7 +751,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -787,10 +771,6 @@ country_event = {
 	picture = NOBLE_ESTATE_DEMANDS_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.25.a"
@@ -873,7 +853,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -881,7 +861,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -889,7 +869,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -974,7 +954,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -982,7 +962,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -990,7 +970,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = heretic_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -1009,10 +989,6 @@ country_event = {
 	picture = BURGHER_ESTATE_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.26.a"
@@ -1090,7 +1066,7 @@ country_event = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -1098,7 +1074,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -1106,7 +1082,7 @@ random_owned_province = {
 random_owned_province = { 
 			spawn_rebels = {
 				type = noble_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -1126,10 +1102,6 @@ country_event = {
 	picture = THEATRE_eventPicture
 	
 	is_triggered_only = yes
-	
-	mean_time_to_happen = {
-		months = 1
-	}
 	
 	option = {
 		name = "ge_revolution.27.a"

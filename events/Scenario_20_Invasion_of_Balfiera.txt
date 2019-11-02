@@ -6,9 +6,8 @@ country_event = {
 	desc = es_20_scenario.1.d
 	picture = ES_GOBLINS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.1_flag }
 		is_year = 874
 		NOT = { is_year = 939 }
 		culture_group = orsimer_cg
@@ -18,15 +17,21 @@ country_event = {
 	mean_time_to_happen = {
 		days = 11680
 	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.1_flag
+	}
 
 	option = {
 		name = "es_20_scenario.1.a"
 		ai_chance = { factor = 33 }
+		
 		add_prestige = -25
 		add_country_modifier = {
 		name = "20_grand_army"
-		duration = 12775
+		duration = 9125
 		}
+		
 		every_province = {
 		limit = {
 		OR = {
@@ -37,6 +42,54 @@ country_event = {
 		}
 		add_core = ROOT
 		}
+		
+		if = {
+		limit = {
+		exists = HIG
+		NOT = { alliance_with = HIG }
+		NOT = { overlord_of = HIG }
+		}
+		declare_war_with_cb = {
+			who = HIG
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HAM
+		NOT = { alliance_with = HAM }
+		NOT = { overlord_of = HAM }
+		}
+		declare_war_with_cb = {
+			who = HAM
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = SKY
+		NOT = { alliance_with = SKY }
+		NOT = { overlord_of = SKY }
+		}
+		declare_war_with_cb = {
+			who = SKY
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = OLD
+		NOT = { alliance_with = OLD }
+		NOT = { overlord_of = OLD }
+		}
+		declare_war_with_cb = {
+			who = OLD
+			casus_belli = cb_es_scenario
+		}
+		}
 	}
 	
 	option = {
@@ -45,7 +98,7 @@ country_event = {
 		add_prestige = -10
 		add_country_modifier = {
 		name = "01_focus_on_trade"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -64,9 +117,8 @@ country_event = {
 	desc = es_20_scenario.2.d
 	picture = ES_DESERT_RIDERS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.2_flag }
 		is_year = 874
 		NOT = { is_year = 939 }
 		culture_group = high_elves_cg
@@ -76,6 +128,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 11680
 	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.2_flag
+	}
 
 	option = {
 		name = "es_20_scenario.2.a"
@@ -83,13 +139,98 @@ country_event = {
 		add_stability = -1
 		add_country_modifier = {
 		name = "19_offensive_strategy"
-		duration = 12775
+		duration = 9125
 		}
 		every_province = {
 		limit = {
 		region = hammerfell_lr
+		NOT = { owned_by = ROOT }
 		}
 		add_core = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = HAM
+		NOT = { alliance_with = HAM }
+		NOT = { overlord_of = HAM }
+		}
+		declare_war_with_cb = {
+			who = HAM
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HA1
+		NOT = { alliance_with = HA1 }
+		NOT = { overlord_of = HA1 }
+		}
+		declare_war_with_cb = {
+			who = HA1
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HE1
+		NOT = { alliance_with = HE1 }
+		NOT = { overlord_of = HE1 }
+		}
+		declare_war_with_cb = {
+			who = HE1
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HA8
+		NOT = { alliance_with = HA8 }
+		NOT = { overlord_of = HA8 }
+		}
+		declare_war_with_cb = {
+			who = HA8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HE8
+		NOT = { alliance_with = HE8 }
+		NOT = { overlord_of = HE8 }
+		}
+		declare_war_with_cb = {
+			who = HE8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HA7
+		NOT = { alliance_with = HA7 }
+		NOT = { overlord_of = HA7 }
+		}
+		declare_war_with_cb = {
+			who = HA7
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HE7
+		NOT = { alliance_with = HE7 }
+		NOT = { overlord_of = HE7 }
+		}
+		declare_war_with_cb = {
+			who = HE7
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	
@@ -99,7 +240,7 @@ country_event = {
 		add_prestige = -10
 		add_country_modifier = {
 		name = "20_new_forts"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -118,17 +259,20 @@ country_event = {
 	desc = es_20_scenario.3.d
 	picture = ES_BALFIERA_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.3_flag }
 		is_year = 874
 		NOT = { is_year = 939 }
-		culture_group = high_elves_cg
-		owns = 1382
+		culture_group = yokudan-redguardian_cg
+		owns = 1478
     }
 
 	mean_time_to_happen = {
 		days = 11680
+	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.3_flag
 	}
 
 	option = {
@@ -147,6 +291,43 @@ country_event = {
 		}
 		add_core = ROOT
 		}
+		
+		if = {
+		limit = {
+		exists = DIR
+		NOT = { alliance_with = DIR }
+		NOT = { overlord_of = DIR }
+		}
+		declare_war_with_cb = {
+			who = DIR
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA3
+		NOT = { alliance_with = BA3 }
+		NOT = { overlord_of = BA3 }
+		}
+		declare_war_with_cb = {
+			who = BA3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BE3
+		NOT = { alliance_with = BE3 }
+		NOT = { overlord_of = BE3 }
+		}
+		declare_war_with_cb = {
+			who = BE3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
 		add_country_modifier = {
 		name = "20_surival_tactics"
 		duration = 12775
@@ -159,7 +340,7 @@ country_event = {
 		add_prestige = -10
 		add_country_modifier = {
 		name = "01_focus_on_trade"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -169,11 +350,11 @@ country_event = {
 		add_prestige = -25
 		add_country_modifier = {
 		name = "01_focus_on_trade"
-		duration = 12775
+		duration = 9125
 		}
 		add_country_modifier = {
 		name = "17_neutrality"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -185,9 +366,8 @@ country_event = {
 	desc = es_20_scenario.4.d
 	picture = ES_SIEGE_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.4_flag }
 		is_year = 874
 		NOT = { is_year = 939 }
 		culture_group = half_blood_cg
@@ -197,6 +377,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 11680
 	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.4_flag
+	}
 
 	option = {
 		name = "es_20_scenario.4.a"
@@ -205,7 +389,7 @@ country_event = {
 		add_years_of_income = -1.0
 		add_country_modifier = {
 		name = "20_order_of_diagna"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -215,7 +399,7 @@ country_event = {
 		add_stability = -1
 		add_country_modifier = {
 		name = "02_prepare_for_war"
-		duration = 12775
+		duration = 9125
 		}
 	}
 	
@@ -226,6 +410,135 @@ country_event = {
 		add_country_modifier = {
 		name = "10_unrest"
 		duration = 3650
+		}
+	}
+	
+}
+
+country_event = {
+	id = es_20_scenario.5
+	title = es_20_scenario.5.t
+	desc = es_20_scenario.5.d
+	picture = ES_TROPICAL_ISLANDS_eventPicture
+	
+	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.5_flag }
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = yokudan-redguardian_cg
+		owns = 1478
+		any_province = {
+		area = hammerfell_13_la
+		NOT = { owned_by = ROOT }
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 11680
+	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.5_flag
+	}
+
+	option = {
+		name = "es_20_scenario.5.a"
+		ai_chance = { factor = 50 }
+		if = {
+	    	limit = {
+		    exists = HB1
+		    NOT = { overlord_of = HB1 }
+		    NOT = { alliance_with = HB1 }
+		    }
+		    declare_war_with_cb = {
+			who = HB1
+			casus_belli = cb_es_scenario
+		    }
+		    every_province = {
+		    limit = {
+		    area = hammerfell_13_la
+		    NOT = { owned_by = ROOT }
+		    }
+		    add_core = HF1
+		    }
+		}
+		else = {
+		every_province = {
+		limit = {
+		area = hammerfell_13_la
+		NOT = { owned_by = ROOT }
+		}
+		add_core = ROOT
+		}
+		}
+	}
+	
+	option = {
+		name = "es_20_scenario.5.b"
+		ai_chance = { factor = 50 }
+		add_prestige = -15
+	}
+	
+}
+
+country_event = {
+	id = es_20_scenario.6
+	title = es_20_scenario.6.t
+	desc = es_20_scenario.6.d
+	picture = ES_TROPICAL_ISLANDS_2_eventPicture
+	
+	trigger = {
+	    NOT = { has_country_flag = es_20_scenario.6_flag }
+		is_year = 874
+		NOT = { is_year = 939 }
+		culture_group = yokudan-redguardian_cg
+		owns = 1478
+		any_province = {
+		area = hammerfell_13_la
+		owned_by = ROOT
+		}
+    }
+
+	mean_time_to_happen = {
+		days = 365
+	}
+	
+	immediate = {
+	    set_country_flag = es_20_scenario.6_flag
+	}
+
+	option = {
+		name = "es_20_scenario.6.a"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = hammerfell_13_la
+		}
+		cede_province = HF1
+		add_core = HF1
+		}
+		add_country_modifier = {
+			name = "vassal_autonomy"
+			duration = 9125
+		}
+		create_subject = {
+        subject_type = vassal
+        subject = HF1
+        }
+	}
+	
+	option = {
+		name = "es_20_scenario.6.b"
+		ai_chance = { factor = 50 }
+		every_owned_province = {
+		limit = {
+		area = hammerfell_13_la
+		}
+		add_core = HF1
+		add_province_modifier = {
+		name = "10_unrest"
+		duration = 9125
+		}
 		}
 	}
 	

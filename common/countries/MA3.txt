@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = persiangfx
 
 color = { 235 103 26 }
 
@@ -47,7 +47,7 @@ leader_names = {
 }
 
 ship_names  = {
-	Rlovrin Mebchasz Ioranrida Jhonzcharn Mlirtes Carelchanf Ararbira Ksredlin Gonwess Jlethurzch Byrahken Snenard Mlirloar Grigarn Blulnmer Asradlin Bluhzis Snebchasz Chrotwern Nromgunch Rlorlis Nchuzalf Drertes Tchazchyn Czoudrys Carelchanf Ylregriln Asranrynn Cheglas Szozchyn Azsanwess Choadzach Krilnif Izvutchatz Cfradrys Ilzeglan Somzlin Jhomrumhz Shtrozril Banrynn Mravlara Chzefrach Kamzlin Rhothurzch Csilirda Chzegrenz Blunrida Mrotchatz Aravlen Badzach Bluvzal Melchanf Jozlen Choahretz Mrazlen Gzovnorz Yzrahrada Ynzarlakch Ithorves Gzonrynn Aravlen Szoglynsh Cfranhatch Ksrefurn Kridhis Nrotchzan Doudrys Djuhnch Doudhis Jravarn Shtrorlis Krevzyrn Mherbira Mrobwarn Sohner Izvuvretch Aknanwess Ryumorn Krincha Nohnch Damtrin Yabaln Ruerbira Nhetchatz Glibrina Drunrynn Ylrefwinn Dzreglan Jribwyr Chzebchasz Nhezril Nromratz Yzranrida Asratchzan Irdarlis Tronruz Azsamchin Asramrumhz Cheftris Ychohnch
+	Rlovrin Mebchasz Ioranrida Jhonzcharn Mlirtes Carelchanf Ararbira Ksredlin Gonwess Jlethurzch Byrahken Snenard Mlirloar Grigarn Blulnmer Asradlin Bluhzis Snebchasz Chrotwern Nromgunch Rlorlis Nchuzalf Drertes Tchazchyn Czoudrys Ylregriln Asranrynn Cheglas Szozchyn Azsanwess Choadzach Krilnif Izvutchatz Cfradrys Ilzeglan Somzlin Jhomrumhz Shtrozril Banrynn Mravlara Chzefrach Kamzlin Rhothurzch Csilirda Chzegrenz Blunrida Mrotchatz Aravlen Badzach Bluvzal Melchanf Jozlen Choahretz Mrazlen Gzovnorz Yzrahrada Ynzarlakch Ithorves Gzonrynn Szoglynsh Cfranhatch Ksrefurn Kridhis Nrotchzan Doudrys Djuhnch Doudhis Jravarn Shtrorlis Krevzyrn Mherbira Mrobwarn Sohner Izvuvretch Aknanwess Ryumorn Krincha Nohnch Damtrin Yabaln Ruerbira Nhetchatz Glibrina Drunrynn Ylrefwinn Dzreglan Jribwyr Chzebchasz Nhezril Nromratz Yzranrida Asratchzan Irdarlis Tronruz Azsamchin Asramrumhz Cheftris Ychohnch
 }
 
 army_names = {

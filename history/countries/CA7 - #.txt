@@ -9,6 +9,7 @@ capital = 1150
 221.1.1 = { religion = eight_divines }
 
 478.1.1 = {
+    government_rank = 5
 	monarch = {
 		name = "Rislav"
 		dynasty = "Larich"
@@ -96,17 +97,6 @@ capital = 1150
 	}
 }
 
-828.1.1 = {
-	monarch = {
-		name = "Vingiant"
-		dynasty = "Larich"
-		birth_date = 807.1.1
-		adm = 4
-        dip = 5
-        mil = 3
-	}
-}
-
 878.1.1 = {
 	monarch = {
 		name = "Eguggend"
@@ -148,5 +138,49 @@ capital = 1150
 		adm = 3
         dip = 3
         mil = 2
+	}
+}
+
+1091.1.1 = {
+	monarch = {
+		name = "Vingiant"
+		dynasty = "Larich"
+		birth_date = 1072.1.1
+		adm = 4
+        dip = 5
+        mil = 3
+	}
+}
+
+1147.1.1 = {
+	monarch = {
+		name = "Krexarnian"
+		dynasty = "Larich"
+		birth_date = 1129.1.1
+		adm = 3
+        dip = 5
+        mil = 4
+	}
+}
+
+1202.1.1 = {
+	monarch = {
+		name = "Soronymus"
+		dynasty = "Larich"
+		birth_date = 1184.1.1
+		adm = 5
+        dip = 3
+        mil = 2
+	}
+}
+
+1256.1.1 = {
+	monarch = {
+		name = "Blacilius"
+		dynasty = "Larich"
+		birth_date = 1238.1.1
+		adm = 4
+        dip = 4
+        mil = 3
 	}
 }

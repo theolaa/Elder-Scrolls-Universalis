@@ -14,7 +14,7 @@ incident_neo_confucianism = {
 			NOT = { is_incident_active = yes }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -41,30 +41,12 @@ incident_nanban = {
 	}
 
 	trigger = {
-		is_institution_enabled = new_world_i
+		is_institution_enabled = ancient_imperialism
 		num_of_ports = 1
-		if = {
-			limit = {
-				normal_or_historical_nations = yes
-				is_playing_custom_nation = no
-			}
-			custom_trigger_tooltip = {
-				tooltip = japan_has_encountered_the_west_tooltip
-				has_global_flag = japan_has_encountered_the_west
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					normal_or_historical_nations = no
-					is_playing_custom_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = encountered_other_continent_tooltip
-				any_known_country = {
-					NOT = { same_continent = ROOT }
-				}
+		custom_trigger_tooltip = {
+			tooltip = encountered_other_continent_tooltip
+			any_known_country = {
+				NOT = { same_continent = ROOT }
 			}
 		}
 		custom_trigger_tooltip = {
@@ -72,7 +54,7 @@ incident_nanban = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -103,13 +85,14 @@ incident_firearms = {
 	}
 
 	trigger = {
+	    is_institution_enabled = caste_system
 		is_incident_happened = incident_nanban
 		custom_trigger_tooltip = {
 			tooltip = shinto_incident_recent_tooltip
 			is_incident_active = no
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -136,7 +119,7 @@ incident_spread_of_christianity = {
 	}
 
 	trigger = {
-		NOT = { current_age = age_of_discovery }
+		is_institution_enabled = organized_religion
 		if = {
 			limit = {
 				normal_or_historical_nations = yes
@@ -151,7 +134,7 @@ incident_spread_of_christianity = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -179,11 +162,7 @@ incident_shogunate_authority = {
 	}
 
 	trigger = {
-		OR = {
-			current_age = age_of_reformation
-			current_age = age_of_absolutism
-			current_age = age_of_revolutions
-		}
+		is_institution_enabled = early_feudalism
 		OR = {
 			overlord = {
 				legitimacy = 90
@@ -198,7 +177,7 @@ incident_shogunate_authority = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -225,13 +204,13 @@ incident_ikko_shu = {
 	}
 
 	trigger = {
-		NOT = { current_age = age_of_discovery }
+		is_institution_enabled = civil_service
 		custom_trigger_tooltip = {
 			tooltip = shinto_incident_recent_tooltip
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -258,6 +237,7 @@ incident_wokou = {
 	}
 
 	trigger = {
+	    is_institution_enabled = guilds
 		num_of_ports = 1
 		any_known_country = {
 			num_of_ports = 1
@@ -271,7 +251,7 @@ incident_wokou = {
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}
@@ -298,14 +278,14 @@ incident_urbanization = {
 	}
 
 	trigger = {
-		has_institution = global_trade
-		num_of_cities = 2
+		is_institution_enabled = feudalism
+		num_of_cities = 25
 		custom_trigger_tooltip = {
 			tooltip = shinto_incident_recent_tooltip
 			NOT = { has_country_flag = active_incident_flag }
 			OR = {
 				NOT = { has_country_flag = shinto_incident_recent }
-				had_country_flag = { flag = shinto_incident_recent days = 10950 }
+				had_country_flag = { flag = shinto_incident_recent days = 18250 }
 			}
 		}
 	}

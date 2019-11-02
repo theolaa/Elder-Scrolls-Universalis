@@ -1,5 +1,5 @@
 government = monarchy
-government_rank = 3
+government_rank = 5
 mercantilism = 1
 technology_group = tamriel_tg
 religion = nordic_pantheon
@@ -59,6 +59,10 @@ capital = 1275
 		dip = 5
 		mil = 7
 	}
+}
+
+242.1.1 = {
+    add_government_reform = elective_monarchy
 }
 
 288.1.1 = {
@@ -225,5 +229,60 @@ capital = 1275
 		adm = 5
         dip = 5
         mil = 7
+	}
+}
+
+1053.1.1 = {
+    monarch = {
+		name = "Majdulf"
+        dynasty = "Whitehold"
+		birth_date = 1035.1.1
+		adm = 4
+        dip = 3
+        mil = 5
+	}
+}
+
+1108.1.1 = {
+    monarch = {
+		name = "Svogul"
+        dynasty = "Whitehold"
+		birth_date = 1090.1.1
+		adm = 2
+        dip = 5
+        mil = 3
+	}
+}
+
+1163.1.1 = {
+    monarch = {
+		name = "Thuis"
+        dynasty = "Whitehold"
+		birth_date = 1145.1.1
+		adm = 3
+        dip = 4
+        mil = 2
+	}
+}
+
+1216.1.1 = {
+    monarch = {
+		name = "Jorgikssen"
+        dynasty = "Whitehold"
+		birth_date = 1197.1.1
+		adm = 2
+        dip = 3
+        mil = 3
+	}
+}
+
+1271.1.1 = {
+    monarch = {
+		name = "Gjals"
+        dynasty = "Whitehold"
+		birth_date = 1253.1.1
+		adm = 3
+        dip = 4
+        mil = 4
 	}
 }

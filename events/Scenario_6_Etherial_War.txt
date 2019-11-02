@@ -6,9 +6,8 @@ country_event = {
 	desc = es_6_scenario.1.d
 	picture = ES_ETHERIAL_ORE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.1_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
 		ai = no
@@ -16,6 +15,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 31	
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.1_flag
 	}
 
 	option = {
@@ -37,9 +40,8 @@ country_event = {
 	desc = es_6_scenario.2.d
 	picture = ES_DWEMERS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.2_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
         culture_group = dwemer_cg
@@ -48,6 +50,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 1825		
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.2_flag
 	}
 
 	option = {
@@ -68,9 +74,8 @@ country_event = {
 	desc = es_6_scenario.3.d
 	picture = ES_BLACK_REACH_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.3_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
         culture_group = dwemer_cg
@@ -81,6 +86,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 1825		
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.3_flag
 	}
 
 	option = {
@@ -128,7 +137,7 @@ country_event = {
 		}
 		declare_war_with_cb = {
         who = ROOT
-        casus_belli = cb_gn_empire
+        casus_belli = cb_es_scenario
         }
 		}
 	}
@@ -146,9 +155,8 @@ country_event = {
 	desc = es_6_scenario.5.d
 	picture = ES_MOOT_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.5_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
         culture_group = northern_cg
@@ -158,7 +166,11 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 1825		
+		days = 3650		
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.5_flag
 	}
 
 	option = {
@@ -181,9 +193,8 @@ country_event = {
 	desc = es_6_scenario.6.d
 	picture = ES_GENOCIDE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.6_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
         culture_group = northern_cg
@@ -191,7 +202,11 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 1825		
+		days = 3650		
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.6_flag
 	}
 
 	option = {
@@ -216,9 +231,8 @@ country_event = {
 	desc = es_6_scenario.7.d
 	picture = ES_DWEMES_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_6_scenario.7_flag }
 		is_year = 221
 		NOT = { is_year = 242 }
         culture_group = northern_cg
@@ -226,7 +240,11 @@ country_event = {
     }
 
 	mean_time_to_happen = {
-		days = 1825		
+		days = 3650		
+	}
+	
+	immediate = {
+	    set_country_flag = es_6_scenario.7_flag
 	}
 
 	option = {
@@ -240,6 +258,54 @@ country_event = {
 		culture = dwemer
 		}
 		add_claim = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = NA2
+		NOT = { alliance_with = NA2 }
+		NOT = { overlord_of = NA2 }
+		}
+		declare_war_with_cb = {
+			who = NA2
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NB1
+		NOT = { alliance_with = NB1 }
+		NOT = { overlord_of = NB1 }
+		}
+		declare_war_with_cb = {
+			who = NB1
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NE2
+		NOT = { alliance_with = NE2 }
+		NOT = { overlord_of = NE2 }
+		}
+		declare_war_with_cb = {
+			who = NE2
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NF1
+		NOT = { alliance_with = NF1 }
+		NOT = { overlord_of = NF1 }
+		}
+		declare_war_with_cb = {
+			who = NF1
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {

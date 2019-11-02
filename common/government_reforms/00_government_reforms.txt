@@ -1762,6 +1762,7 @@ war_against_the_world_legacy = {
 		naval_forcelimit_modifier = 0.10
 		land_forcelimit_modifier = 0.10
 		possible_mercenaries = 0.10
+		may_perform_slave_raid_on_same_religion = yes
 	}
 	factions = {
 		pr_buccaneers

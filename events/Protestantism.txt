@@ -855,23 +855,6 @@ country_event = {
 	}
 }
 
-#X worth a mass
-country_event = {
-	id = protestantism_events.19
-	title = protestantism_events.19.t
-	desc = protestantism_events.19.d
-	picture = PROTESTANT_GREAT_REFORMER_eventPicture
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = protestantism_events.19.a #
-		add_ruler_modifier = {
-			name = "catholic_zealot"
-		}
-	}
-}
-
 #Heir unwilling to compromise
 country_event = {
 	id = protestantism_events.20

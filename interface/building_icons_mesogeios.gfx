@@ -8,13 +8,28 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 	spriteType = {
+		name = "GFX_temple_greekgfx"
+		texturefile = "gfx//interface//buildings//eastern_temple.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
 		name = "GFX_temple_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_temple.tga"
 		loadType = "INGAME"
 	}
 	spriteType = {
-		name = "GFX_temple_greekgfx"
-		texturefile = "gfx//interface//buildings//eastern_temple.tga"
+		name = "GFX_temple_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_temple.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_temple_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_temple.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_temple_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_temple.tga"
 		loadType = "INGAME"
 	}
 
@@ -33,6 +48,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_courthouse.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_courthouse_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_courthouse.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_courthouse_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_courthouse.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_courthouse_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_courthouse.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_spy_agency_latingfx"
@@ -47,6 +77,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_spy_agency_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_spy_agency.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_spy_agency_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_spy_agency.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_spy_agency_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_spy_agency.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_spy_agency_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_spy_agency.tga"
 		loadType = "INGAME"
 	}
 
@@ -65,6 +110,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_town_hall.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_town_hall_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_town_hall.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_town_hall_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_town_hall.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_town_hall_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_town_hall.tga"
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_college_latingfx"
@@ -79,6 +139,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_college_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_college.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_college_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_college.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_college_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_college.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_college_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_college.tga"
 		loadType = "INGAME"
 	}
 
@@ -97,6 +172,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_cathedral.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_cathedral_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_cathedral.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_cathedral_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_cathedral.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_cathedral_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_cathedral.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_armory_latingfx"
@@ -111,6 +201,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_armory_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_armory.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_armory_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_armory.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_armory_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_armory.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_armory_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_armory.tga"
 		loadType = "INGAME"
 	}
 
@@ -129,6 +234,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_training_fields.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_training_fields_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_training_fields.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_fields_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_training_fields.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_training_fields_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_training_fields.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_barracks_latingfx"
@@ -143,6 +263,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_barracks_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_barracks_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_barracks_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_barracks.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_barracks_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_barracks.tga"
 		loadType = "INGAME"
 	}
 
@@ -161,6 +296,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_regimental_camp.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_regimental_camp_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_regimental_camp_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_regimental_camp_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_regimental_camp.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_arsenal_latingfx"
@@ -175,6 +325,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_arsenal_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_arsenal_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_arsenal_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_arsenal_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_arsenal.tga"
 		loadType = "INGAME"
 	}
 
@@ -193,6 +358,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_conscription_center.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_conscription_center_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_conscription_center.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_conscription_center_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_conscription_center.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_conscription_center_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_conscription_center.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_dock_latingfx"
@@ -207,6 +387,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_dock_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_dock_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_dock_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_dock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_dock_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_dock.tga"
 		loadType = "INGAME"
 	}
 
@@ -225,6 +420,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_drydock.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_drydock_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_drydock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_drydock_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_drydock.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_drydock_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_drydock.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_shipyard_latingfx"
@@ -239,6 +449,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_shipyard_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_shipyard_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_shipyard_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_shipyard_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_shipyard.tga"
 		loadType = "INGAME"
 	}
 
@@ -257,6 +482,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_grand_shipyard.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_grand_shipyard_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_grand_shipyard_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_grand_shipyard_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_naval_arsenal_latingfx"
@@ -271,6 +511,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_naval_arsenal_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_arsenal_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_arsenal_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_arsenal_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_naval_arsenal.tga"
 		loadType = "INGAME"
 	}
 
@@ -289,6 +544,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_naval_base.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_naval_base_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_naval_base.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_base_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_naval_base.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_naval_base_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_naval_base.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_constable_latingfx"
@@ -303,6 +573,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_constable_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_constable_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_constable_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_constable.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_constable_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_constable.tga"
 		loadType = "INGAME"
 	}
 
@@ -321,6 +606,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_workshop.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_workshop_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_workshop.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_workshop_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_workshop.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_workshop_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_workshop.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_counting_house_latingfx"
@@ -335,6 +635,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_counting_house_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_counting_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_counting_house_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_counting_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_counting_house_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_counting_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_counting_house_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_counting_house.tga"
 		loadType = "INGAME"
 	}
 
@@ -353,6 +668,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_treasury_office.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_treasury_office_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_treasury_office.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_treasury_office_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_treasury_office.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_treasury_office_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_treasury_office.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_mint_latingfx"
@@ -367,6 +697,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_mint_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mint_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mint_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_mint.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_mint_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_mint.tga"
 		loadType = "INGAME"
 	}
 
@@ -385,6 +730,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_stock_exchange.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_stock_exchange_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_stock_exchange.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_stock_exchange_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_stock_exchange.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_stock_exchange_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_stock_exchange.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_marketplace_latingfx"
@@ -399,6 +759,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_marketplace_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_marketplace.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_marketplace_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_marketplace.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_marketplace_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_marketplace.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_marketplace_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_marketplace.tga"
 		loadType = "INGAME"
 	}
 
@@ -417,6 +792,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_trade_depot.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_trade_depot_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_trade_depot.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_trade_depot_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_trade_depot.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_trade_depot_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_trade_depot.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_canal_latingfx"
@@ -431,6 +821,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_canal_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_canal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_canal_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_canal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_canal_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_canal.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_canal_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_canal.tga"
 		loadType = "INGAME"
 	}
 
@@ -449,6 +854,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_road_network.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_road_network_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_road_network.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_road_network_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_road_network.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_road_network_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_road_network.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_post_office_latingfx"
@@ -465,6 +885,21 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//muslim_post_office.tga"
 		loadType = "INGAME"
 	}
+	spriteType = {
+		name = "GFX_post_office_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_post_office.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_post_office_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_post_office.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_post_office_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_post_office.tga"
+		loadType = "INGAME"
+	}
 
 	spriteType = {
 		name = "GFX_customs_house_latingfx"
@@ -479,6 +914,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_customs_house_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_customs_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_customs_house_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_customs_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_customs_house_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_customs_house.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_customs_house_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_customs_house.tga"
 		loadType = "INGAME"
 	}
 
@@ -592,8 +1042,112 @@ spriteTypes = {
 		loadType = "INGAME"
 	}
 
-
-
+	spriteType = {
+		name = "GFX_fort0_persiangfx"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_15th_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort01.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_16th_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort02.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_17th_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort03.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_18th_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort04.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort5_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort05.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort6_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort06.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort0_mongolgfx"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_15th_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort01.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_16th_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort02.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_17th_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort03.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_18th_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort04.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort5_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort05.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort6_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort06.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort0_thaigfx"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_15th_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort01.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_16th_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort02.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_17th_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort03.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_18th_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort04.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort5_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort05.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort6_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort06.tga"
+		loadType = "INGAME"
+	}
+	
 	spriteType = {
 		name = "GFX_glorious_monument_latingfx"
 		texturefile = "gfx//interface//buildings//latin_glorious_monument.tga"
@@ -607,6 +1161,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_glorious_monument_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_glorious_monument.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_glorious_monument_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_glorious_monument.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_glorious_monument_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_glorious_monument.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_glorious_monument_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_glorious_monument.tga"
 		loadType = "INGAME"
 	}
 
@@ -623,6 +1192,236 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_fort_turkishgfx"
 		texturefile = "gfx//interface//buildings//muslim_fort.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_persiangfx"
+		texturefile = "gfx//interface//buildings//muslim_fort.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_mongolgfx"
+		texturefile = "gfx//interface//buildings//chinese_fort.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_thaigfx"
+		texturefile = "gfx//interface//buildings//chinese_fort.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort.tga"
+		loadType = "INGAME"
+	}	
+	
+	spriteType = {
+		name = "GFX_glorious_monument_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_glorious_monument.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_fort0_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//latin_fort00.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_15th_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort01.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_16th_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort02.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_17th_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort03.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort_18th_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort04.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort5_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort05.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fort6_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_fort06.tga"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_customs_house_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_customs_house.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_post_office_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_post_office.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_road_network_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_road_network.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_canal_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_canal.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_trade_depot_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_trade_depot.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_marketplace_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_marketplace.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_stock_exchange_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_stock_exchange.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_mint_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_mint.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_treasury_office_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_treasury_office.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_counting_house_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_counting_house.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_workshop_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_workshop.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_constable_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_constable.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_base_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_naval_base.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_naval_arsenal_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_naval_arsenal.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_grand_shipyard_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_grand_shipyard.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_shipyard_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_shipyard.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_drydock_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_drydock.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_dock_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_dock.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_conscription_center_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_conscription_center.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_arsenal_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_arsenal.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_regimental_camp_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_regimental_camp.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_barracks_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_barracks.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_training_fields_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_training_fields.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_armory_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_armory.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_college_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_college.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_town_hall_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_town_hall.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_spy_agency_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_spy_agency.tga"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_courthouse_new_southamericagfx"
+		texturefile = "gfx//interface//buildings//southamerica_courthouse.tga"
 		loadType = "INGAME"
 	}
 }

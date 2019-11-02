@@ -3850,7 +3850,7 @@ inferiority_complex_personality = {
 	
 	chance = {
 		modifier = {
-			factor = 3
+			factor = 1
 			is_great_power = yes
 			NOT = { great_power_rank = 1 }		
 		}
@@ -4751,7 +4751,7 @@ envious_personality = {
 	
 	chance = {
 		modifier = {
-			factor = 2
+			factor = 1
 			is_great_power = yes
 			NOT = { great_power_rank = 1 }		
 		}

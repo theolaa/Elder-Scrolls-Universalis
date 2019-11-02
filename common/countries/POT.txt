@@ -1,4 +1,4 @@
-graphical_culture = asiangfx
+graphical_culture = thaigfx
 
 color = { 225 185 27 }
 
@@ -47,7 +47,7 @@ leader_names = {
 }
 
 ship_names= {
-	Gu Dume So For Qe Susdevu Chesu Bim Fovi Sentyam Nessis Bororr Shogi Pin Qecnymos Lud Fiyycnes Pi Qarcyseim Settu Win Lissok Cin De Ciar Luhu Karken Thusdu Susthae Tiar Drustho Tehortes Wolcor Tilnen Shrinetuk Lisurr Delolcok Therr Qusoky Sieherr Nu Bo Shu Sierrosde Chen Tuwurtus Dirskyts Furesses Nontrae Lu Curcu Kumdem Munok Rilu Sagecnar Luwume Wegichuk Thuhelnum Klirkugots Dohortus Sor Dis Kil Sohemool Lin Lis Qevor Listus Qachil Se Nuyul Beme Milin Rusdevyal Droryrko Thud Macmecnol Sirendrurr Gakuveets Sovoosum La Somdok Shreyl Lin Dur Le Chiantre Luttesso Shracmur Fulnod Shrugi Tosdul Neta Dowentem Dicnusthak Dusturo Cisaclol Rile Dochecmea Ther
+	Gu Dume So For Qe Susdevu Chesu Bim Fovi Sentyam Nessis Bororr Shogi Pin Qecnymos Lud Fiyycnes Pi Qarcyseim Settu Win Lissok Cin De Ciar Luhu Karken Thusdu Susthae Tiar Drustho Tehortes Wolcor Tilnen Shrinetuk Lisurr Delolcok Therr Qusoky Sieherr Nu Bo Shu Sierrosde Chen Tuwurtus Dirskyts Furesses Nontrae Lu Curcu Kumdem Munok Rilu Sagecnar Luwume Wegichuk Thuhelnum Klirkugots Dohortus Sor Dis Kil Sohemool Lin Lis Qevor Listus Qachil Se Nuyul Beme Milin Rusdevyal Droryrko Thud Macmecnol Sirendrurr Gakuveets Sovoosum La Somdok Shreyl Dur Le Chiantre Luttesso Shracmur Fulnod Shrugi Tosdul Neta Dowentem Dicnusthak Dusturo Cisaclol Rile Dochecmea Ther
 }
 
 army_names = {

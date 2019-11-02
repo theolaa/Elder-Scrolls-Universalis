@@ -375,6 +375,29 @@ country_decisions = {
 		}
 	}
 	
+	es_12_kingdom_of_kvatch = {
+	    major = yes
+		potential = {
+		tag = CA7
+		NOT = { government_rank = 5 }
+		}
+		allow = {
+		owns = 1150
+		is_free_or_tributary_trigger = yes
+		}
+		effect = {
+		set_government_rank = 5
+		add_prestige = 25
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	es_14_purification = {
 	    major = yes
 		potential = {
@@ -534,6 +557,57 @@ country_decisions = {
 		effect = {
 		country_event = { id = es_17_scenario.15 days = 31 tooltip = es_17_scenario.15.a.tt }
 		set_country_flag = es_17_enpower_tribunal_flag
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_25_rebuild_imperial_city = {
+		potential = {
+		owns = 1206
+		1206 = { has_province_flag = 25_imperial_city_middle_dawn }
+		}
+		allow = {
+		owns_core_province = 1206
+		treasury = 2500
+        }
+		effect = {
+		add_treasury = -2500
+		1206 = {
+		clr_province_flag = 25_imperial_city_middle_dawn
+		add_base_tax = 3
+		add_base_production = 3
+		add_base_manpower = 3
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_27_gardner_estate = {
+		potential = {
+		owns = 1426
+		NOT = { has_country_modifier = 27_gardner_estate }
+		culture_group = half_blood_cg
+		OR = {
+		    is_year = 1263
+			war_exhaustion = 10
+			NOT = { stability = 0 }
+		}
+		}
+		allow = {
+		stability = -2
+		owns = 1426
+        }
+		effect = {
+		add_stability = -1
+		add_prestige = -25
+		add_country_modifier = {
+		    name = "27_gardner_estate"
+			duration = -1
+		}
 		}
 		ai_will_do = {
 			factor = 1

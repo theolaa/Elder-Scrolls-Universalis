@@ -107,7 +107,7 @@ alliance = {
 	first = WIN
 	second = MA1
 	start_date = 68.1.1
-	end_date = 9999.1.1
+	end_date = 189.1.1
 }
 
 vassal = {
@@ -129,4 +129,18 @@ alliance = {
 	second = REA
 	start_date = 139.1.1
 	end_date = 189.1.1
+}
+
+vassal = {
+	first = SKY
+	second = REA
+	start_date = 990.1.1
+	end_date = 1045.1.1
+}
+
+vassal = {
+	first = ORD
+	second = REA
+	start_date = 1045.1.1
+	end_date = 1309.1.1
 }

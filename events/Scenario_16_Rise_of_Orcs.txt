@@ -6,9 +6,8 @@ country_event = {
 	desc = es_16_scenario.1.d
 	picture = ES_ORCS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.1_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		culture_group = orsimer_cg
@@ -17,6 +16,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.1_flag
 	}
 
 	option = {
@@ -39,6 +42,54 @@ country_event = {
         manuever = 5
         siege = 5
         }
+		
+		if = {
+		limit = {
+		exists = BA5
+		NOT = { alliance_with = BA5 }
+		NOT = { overlord_of = BA5 }
+		}
+		declare_war_with_cb = {
+			who = BA8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA8
+		NOT = { alliance_with = BA8 }
+		NOT = { overlord_of = BA8 }
+		}
+		declare_war_with_cb = {
+			who = BA8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BB3
+		NOT = { alliance_with = BB3 }
+	    NOT = { overlord_of = BB3 }
+		}
+		declare_war_with_cb = {
+			who = BB3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = ORS
+		NOT = { alliance_with = ORS }
+		NOT = { overlord_of = ORS }
+		}
+		declare_war_with_cb = {
+			who = ORS
+			casus_belli = cb_es_scenario
+		}
+		}
 	}
 	option = {
 		name = "es_16_scenario.1.b"
@@ -49,6 +100,7 @@ country_event = {
 		duration = 9125
 		}
 	}
+	
 }
 
 country_event = {
@@ -57,9 +109,8 @@ country_event = {
 	desc = es_16_scenario.2.d
 	picture = ES_BATTLE_WITH_ORCS_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.2_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		culture_group = half_blood_cg
@@ -68,6 +119,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.2_flag
 	}
 
 	option = {
@@ -82,6 +137,54 @@ country_event = {
 		}
 		}
 		add_claim = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = BA5
+		NOT = { alliance_with = BA5 }
+		NOT = { overlord_of = BA5 }
+		}
+		declare_war_with_cb = {
+			who = BA8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BA8
+		NOT = { alliance_with = BA8 }
+		NOT = { overlord_of = BA8 }
+		}
+		declare_war_with_cb = {
+			who = BA8
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = BB3
+		NOT = { alliance_with = BB3 }
+	    NOT = { overlord_of = BB3 }
+		}
+		declare_war_with_cb = {
+			who = BB3
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = ORS
+		NOT = { alliance_with = ORS }
+		NOT = { overlord_of = ORS }
+		}
+		declare_war_with_cb = {
+			who = ORS
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {
@@ -101,9 +204,8 @@ country_event = {
 	desc = es_16_scenario.3.d
 	picture = ES_VOLCANO_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.3_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		capital_scope = {
@@ -120,6 +222,10 @@ country_event = {
 			factor = 0.01
 			has_global_flag = es_16_eruption_flag
 		}
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.3_flag
 	}
 
 	option = {
@@ -220,9 +326,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.5_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = TEL }
@@ -233,6 +338,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.5_flag
 	}
 
 	option = {
@@ -292,6 +401,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -301,9 +411,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.6_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = REO }
@@ -314,6 +423,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.6_flag
 	}
 
 	option = {
@@ -373,6 +486,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -382,9 +496,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.7_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = IND }
@@ -395,6 +508,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.7_flag
 	}
 
 	option = {
@@ -454,6 +571,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -463,9 +581,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.8_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = HLA }
@@ -476,6 +593,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.8_flag
 	}
 
 	option = {
@@ -535,6 +656,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -544,9 +666,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.9_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = DRS }
@@ -557,6 +678,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.9_flag
 	}
 
 	option = {
@@ -616,6 +741,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -625,9 +751,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.10_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = DAG }
@@ -638,6 +763,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.10_flag
 	}
 
 	option = {
@@ -697,6 +826,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -706,9 +836,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DUNMER_CITY_1_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.11_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = SAD }
@@ -719,6 +848,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.11_flag
 	}
 
 	option = {
@@ -778,6 +911,7 @@ country_event = {
 		change_religion = chimer_pantheon
 		change_primary_culture = chimer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 3 } } set_government_rank = 3 }
 	}
 }
 
@@ -787,9 +921,8 @@ country_event = {
 	desc = es_16_scenario.5.d
 	picture = ES_DWEMES_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_16_scenario.12_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		NOT = { exists = DWE }
@@ -800,6 +933,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300
+	}
+	
+	immediate = {
+	    set_country_flag = es_16_scenario.12_flag
 	}
 
 	option = {
@@ -859,5 +996,6 @@ country_event = {
 		change_religion = reason_and_logic_cult
 		change_primary_culture = dwemer
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
+		if = { limit = { NOT = { government_rank = 5 } } set_government_rank = 5 }
 	}
 }

@@ -44,3 +44,10 @@ fort_15th = yes
 	culture = redguard
 	religion = redguard_pantheon
 }
+
+1045.1.1 = {
+    owner = HE1
+	controller = HE1
+	add_core = HE1
+	religion = yokudan_pantheon
+}

@@ -26,3 +26,10 @@ fort_15th = yes
 	controller = UPP
 	add_core = UPP
 }
+
+1100.1.1 = {
+	owner = TSA
+	controller = TSA
+	add_core = TSA
+	religion = tsaesci_pantheon
+}

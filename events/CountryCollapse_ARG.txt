@@ -256,6 +256,8 @@ country_event = {
 	    }
 		else = {
 		create_alliance = ARG
+		add_opinion = { who = ROOT modifier = es_friendly_nation }
+		add_opinion = { who = ARG modifier = es_friendly_nation }
 		}
 	}
 }

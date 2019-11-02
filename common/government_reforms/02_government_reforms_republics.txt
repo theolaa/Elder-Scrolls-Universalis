@@ -38,11 +38,15 @@ dutch_republic = {
 		tolerance_heathen = 1
 		global_autonomy = -0.10
 		max_absolutism = -30
+		
+		free_mil_policy = 1
 	}
 
 	custom_attributes = {
-		enables_plutocratic_idea_group = yes
-		enables_aristocratic_idea_group = no
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
+		enables_nepotism = yes
+		candidate_random_bonus = 1
 	}
 	conditional = {
 		allow = {
@@ -91,6 +95,8 @@ oligarchy_reform = {
 		stability_cost_modifier = -0.10
 		global_autonomy = -0.10
 		max_absolutism = -30
+		
+		free_adm_policy = 1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -119,6 +125,8 @@ merchants_reform = {
 		trade_efficiency = 0.10
 		max_absolutism = -50
     	max_states = 1
+		
+		free_adm_policy = 1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -184,6 +192,8 @@ pirate_republic_reform = {
 		navy_tradition_decay = -0.01
 		capture_ship_chance = 0.10
 		may_perform_slave_raid_on_same_religion = yes
+		
+		free_dip_policy = 1
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -209,6 +219,7 @@ pirate_republic_reform = {
 		lottery_election = yes
 		election_on_death = yes
 		is_merchant_republic = yes
+		gives_war_against_the_world_tooltip_dummy = yes
 	}
 	
 	conditional = {
@@ -272,6 +283,8 @@ noble_elite_reform = {
 		cavalry_power = 0.10
 		free_leader_pool = 1
 		max_absolutism = -35
+		
+		free_mil_policy = 1
 	}
 	duration = 12
 
@@ -280,6 +293,8 @@ noble_elite_reform = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = no
 		enables_aristocratic_idea_group = yes
+		enables_nepotism = yes
+		candidate_random_bonus = 1
 	}
 	conditional = {
 		allow = {
@@ -318,10 +333,14 @@ bureaucratic_despotism_reform = {
 		stability_cost_modifier = -0.10
 		global_unrest = -1
 		harsh_treatment_cost = -0.10
+		
+		free_adm_policy = 1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		lottery_election = yes
+		election_on_death = yes
 	}
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
@@ -356,11 +375,21 @@ consortium_government_reform = {
 		production_efficiency = 0.10
 		global_autonomy = -0.10
 		max_absolutism = -35
+		
+		free_dip_policy = 1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		gives_war_against_the_world_tooltip_dummy = yes
 	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	boost_income = yes
 	conditional = {
 		allow = { has_dlc = "Cradle of Civilization" }
 		government_abilities = {
@@ -392,6 +421,8 @@ presidential_despot_reform = {
 		tolerance_heathen = 1
 		land_morale = 0.1
 		stability_cost_modifier = -0.10
+		
+		free_mil_policy = 1
 	}
 
 	custom_attributes = {
@@ -436,6 +467,8 @@ peasants_republic = {
 		max_absolutism = -50
 		max_states = 1
 		global_autonomy = -0.05
+		
+		free_mil_policy = 1
 	}
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
@@ -478,6 +511,8 @@ free_city = {
 		trade_efficiency = 0.10
 		development_cost = -0.10
 		max_absolutism = -25
+		
+		free_dip_policy = 1
 	}
 	fixed_rank = 4
 
@@ -517,6 +552,8 @@ trading_city = {
 		max_absolutism = -25
 		merchants = 1
     	max_states = 1
+		
+		free_dip_policy = 1
 	}
 
 	custom_attributes = {
@@ -581,6 +618,8 @@ colonial_government = {
 		embracement_cost = -0.10
 		max_states = 1
 		global_institution_spread = 0.10
+		
+		free_dip_policy = 1
 	}
 
 	custom_attributes = {

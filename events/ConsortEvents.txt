@@ -3227,7 +3227,7 @@ country_event = {
 	id = consort_events.206
 	title = none
 	desc = none
-	picture = none
+	picture = ES_WAR_IS_NEAR_eventPicture
 
 	is_triggered_only = yes
 

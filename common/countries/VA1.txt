@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = northamericagfx
 
 color = { 28 111 37 }
 
@@ -47,7 +47,7 @@ leader_names = {
 }
 
 ship_names = {
-	Aglaenena Balfbranch Gelndrae Seedblossom Berndra Shadyvale Huulin Duskgrove Arecialfin Ivyrun Belwgina Bluewood Beorlandra Camorun Larilwen Camoblossom Phyldil Shadylake Minuin Nightrock Degine Appledale Idruin Oakwood Borlyth Greendale Irwnan Mosswood Arddraen Willowblossom Cuuaril Springbrook Elsyrinthil Applelock Galdlerva Bluelake Niladan Riversky Anuaeneth Dornbranch Peneylin Balfgrove Arengil Springbranch Thaesa Oakensky Thiilithil Foresthollow Elraweneth Oakenbranch Giniil Applepool Phylandra Pineblossom Lorcnel Ivypool Naaril Greengrass Eindnel Greenthorn Naetalthir Pinerock Anedlerva Camobranch Deotolian Springwing Gelndrae Nightscrub Eralnmriel Dornwood Allhredhel Elmlock Denna Oakenthorn Areanor Bluewing Estdiir Pinegrass Parwgnan Oakbrook Minnia Oakstone Thiidhael Balfmire Syelna Nightlock Ardhrin Greendale Aerenenor Greenthorn Allenmriel Oakenmire Nonaaril Nightscrub Donrifin Barkrun Aglangil Forestgrass Gladraaendril Rivergrass
+	Aglaenena Balfbranch Gelndrae Seedblossom Berndra Shadyvale Huulin Duskgrove Arecialfin Ivyrun Belwgina Bluewood Beorlandra Camorun Larilwen Camoblossom Phyldil Shadylake Minuin Nightrock Degine Appledale Idruin Oakwood Borlyth Greendale Irwnan Mosswood Arddraen Willowblossom Cuuaril Springbrook Elsyrinthil Applelock Galdlerva Bluelake Niladan Riversky Anuaeneth Dornbranch Peneylin Balfgrove Arengil Springbranch Thaesa Oakensky Thiilithil Foresthollow Elraweneth Oakenbranch Giniil Applepool Phylandra Pineblossom Lorcnel Ivypool Naaril Greengrass Eindnel Greenthorn Naetalthir Pinerock Anedlerva Camobranch Deotolian Springwing Nightscrub Eralnmriel Dornwood Allhredhel Elmlock Denna Oakenthorn Areanor Bluewing Estdiir Pinegrass Parwgnan Oakbrook Minnia Oakstone Thiidhael Balfmire Syelna Nightlock Ardhrin Aerenenor Allenmriel Oakenmire Nonaaril Donrifin Barkrun Aglangil Forestgrass Gladraaendril Rivergrass
 }
 
 army_names = {

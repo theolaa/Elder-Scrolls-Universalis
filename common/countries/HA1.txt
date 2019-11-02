@@ -1,4 +1,4 @@
-graphical_culture = greekgfx
+graphical_culture = turkishgfx
 
 color = { 21 247 58 }
 
@@ -47,7 +47,7 @@ leader_names= {
 }
 	
 ship_names = {
-	Illarrymo Uzynhoth Elonlaris Darammel Cele Ymme Suhe Lymma Ynnylsasul Ironwymu Elis Puvusadya Lyzelniniath Liva Pehi Yrraldylith Irreshyva Pemu Lonnosson Leru Mene Pallush Mennith Arro Nenemmeve Cimase Came Sezenhuvo Immi Ymmu Immol Hunne Muzos Hunnul Parrunde Hennynlyho Cunylne Emma Cylyris Dynnyan Erridhish Uhidhon Nivo Nula Helydu Summi Dini Monado Vyza Mevirlen Ammas Lomaldydaa Pehyshen Soreshi Ymi Nivi Sullidhash Purru Sumadhiash Hilli Vurel Myzas Nyrrin Illerra Carro Yhu Sylanwesh Allonde Onya Synarlysush Wahemnyhol Himmon Pymmynnenu Lunnu Ivenash Illath Azu Nivo Wuria Wimunmara Mezol Pyziesh Cavannorel Nivi Ymmilune Poman Dyzas Nulynhi Symmu Yve Cyledha Wommi Danasso Puzulnudu Lometh Yrru Honnomule Harrylnes Eradhiho Nanalne
+	Illarrymo Uzynhoth Elonlaris Darammel Cele Ymme Suhe Lymma Ynnylsasul Ironwymu Elis Puvusadya Lyzelniniath Liva Pehi Yrraldylith Irreshyva Pemu Lonnosson Leru Mene Pallush Mennith Arro Nenemmeve Cimase Came Sezenhuvo Immi Ymmu Immol Hunne Muzos Hunnul Parrunde Hennynlyho Cunylne Emma Cylyris Dynnyan Erridhish Uhidhon Nivo Nula Helydu Summi Dini Monado Vyza Mevirlen Ammas Lomaldydaa Pehyshen Soreshi Ymi Nivi Sullidhash Purru Sumadhiash Hilli Vurel Myzas Nyrrin Illerra Carro Yhu Sylanwesh Allonde Onya Synarlysush Wahemnyhol Himmon Pymmynnenu Lunnu Ivenash Illath Azu Wuria Wimunmara Mezol Pyziesh Cavannorel Ymmilune Poman Dyzas Nulynhi Symmu Yve Cyledha Wommi Danasso Puzulnudu Lometh Yrru Honnomule Harrylnes Eradhiho Nanalne
 }
 
 army_names = {

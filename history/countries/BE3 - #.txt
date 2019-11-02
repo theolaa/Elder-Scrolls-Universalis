@@ -5,3 +5,7 @@ technology_group = tamriel_tg
 religion = altmeri_pantheon
 primary_culture = breton
 capital = 1379
+
+609.1.1 = {
+	religion = twelve_divines
+}

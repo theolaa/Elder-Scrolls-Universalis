@@ -27,3 +27,15 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 609.1.1 = {
 	religion = twelve_divines
 }
+
+990.1.1 = {
+    base_tax = 5
+    base_production = 5
+	base_manpower = 5
+}
+
+1045.1.1 = {
+    owner = WAY
+	controller = WAY
+	add_core = WAY
+}

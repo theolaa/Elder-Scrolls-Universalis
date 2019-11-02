@@ -14,10 +14,6 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		months = 1		
-	}
-	
 	option = {
 		name = ge_revolution.2.a
 		ai_chance = { factor = 16 }

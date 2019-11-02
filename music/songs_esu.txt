@@ -1226,3 +1226,126 @@ song = {
 		}
 	}
 }
+
+song = {
+	name = "Ares - Way of the Sword"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = po_tun_cg
+					culture_group = tsaesci_cg
+					culture_group = tangmo_cg
+					culture_group = transpandomaic_cg
+					culture_group = kamal_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+song = {
+	name = "Ares - Invasion of Akavir"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = po_tun_cg
+					culture_group = tsaesci_cg
+					culture_group = tangmo_cg
+					culture_group = transpandomaic_cg
+					culture_group = kamal_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+song = {
+	name = "Ares - Might of the Imperials"
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			NOT = {
+					culture_group = cyrodiil_cg
+			}
+		}
+		modifier = {
+			factor = 0
+			is_at_war = no
+		}
+	}
+}
+
+##Ronald van Deurzen
+
+song = {
+	name = "Ronald van Deurzen - Glorious Era"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ronald van Deurzen - Mist At Dawn"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ronald van Deurzen - Unsafe Forests"
+		chance = {
+		factor = 2
+		}
+}
+
+song = {
+	name = "Ronald van Deurzen - Serenity Prayer"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ronald van Deurzen - Tale of Dreams"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}
+
+song = {
+	name = "Ronald van Deurzen - Lore of Wisdom"
+		chance = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_at_war = yes
+			}
+		}
+}

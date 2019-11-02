@@ -683,5 +683,105 @@ hammerfell_lr = {
  }
 }
 
+central_coldharbour_lr = {
+ areas = {
+    central_coldlarbour_la_1
+	central_coldlarbour_la_2
+	central_coldlarbour_la_3
+	central_coldlarbour_la_4
+	central_coldlarbour_la_5
+	central_coldlarbour_la_6
+	central_coldlarbour_la_7
+	central_coldlarbour_la_8
+	central_coldlarbour_la_9
+	central_coldlarbour_la_10
+	central_coldlarbour_la_11
+	central_coldlarbour_la_12
+	central_coldlarbour_la_13
+	central_coldlarbour_la_14
+	central_coldlarbour_la_15
+ }
+}
+
+southern_coldharbour_lr = {
+ areas = {
+    southern_coldharbour_la_1
+	southern_coldharbour_la_2
+	southern_coldharbour_la_3
+	southern_coldharbour_la_4
+	southern_coldharbour_la_5
+	southern_coldharbour_la_6
+	southern_coldharbour_la_7
+	southern_coldharbour_la_8
+	southern_coldharbour_la_9
+	southern_coldharbour_la_10
+	southern_coldharbour_la_11
+	southern_coldharbour_la_12
+	southern_coldharbour_la_13
+	southern_coldharbour_la_14
+	southern_coldharbour_la_15
+ }
+}
+
+eastern_coldharbour_lr = {
+ areas = {
+    eastern_coldharbour_la_1
+	eastern_coldharbour_la_2
+	eastern_coldharbour_la_3
+	eastern_coldharbour_la_4
+	eastern_coldharbour_la_5
+	eastern_coldharbour_la_6
+	eastern_coldharbour_la_7
+	eastern_coldharbour_la_8
+	eastern_coldharbour_la_9
+	eastern_coldharbour_la_10
+	eastern_coldharbour_la_11
+	eastern_coldharbour_la_12
+	eastern_coldharbour_la_13
+	eastern_coldharbour_la_14
+	eastern_coldharbour_la_15
+ }
+}
+
+western_coldharbour_lr = {
+ areas = {
+    western_coldharbour_la_1
+	western_coldharbour_la_2
+	western_coldharbour_la_3
+	western_coldharbour_la_4
+	western_coldharbour_la_5
+	western_coldharbour_la_6
+	western_coldharbour_la_7
+	western_coldharbour_la_8
+	western_coldharbour_la_9
+	western_coldharbour_la_10
+	western_coldharbour_la_11
+	western_coldharbour_la_12
+	western_coldharbour_la_13
+	western_coldharbour_la_14
+	western_coldharbour_la_15
+ }
+}
+
+northern_coldharbour_lr = {
+ areas = {
+    northern_coldharbour_la_1
+	northern_coldharbour_la_2
+	northern_coldharbour_la_3
+	northern_coldharbour_la_4
+	northern_coldharbour_la_5
+	northern_coldharbour_la_6
+	northern_coldharbour_la_7
+	northern_coldharbour_la_8
+	northern_coldharbour_la_9
+	northern_coldharbour_la_10
+	northern_coldharbour_la_11
+	northern_coldharbour_la_12
+	northern_coldharbour_la_13
+	northern_coldharbour_la_14
+	northern_coldharbour_la_15
+ }
+}
+
 random_new_world_region = {
 }

@@ -284,30 +284,30 @@ country_decisions = {
 		ai = no
 		}
 		allow = {
-			treasury = 250
-			manpower = 1
+			treasury = 500
+			manpower = 2.5
 			NOT = { num_of_loans = 1 }
 			any_owned_province = {
 			NOT = { has_province_modifier = dev } 
 			NOT = { development = 15 }
 			}
 		}
-	   effect = {
-	   add_manpower = -1
-	   add_treasury = -250
-	   random_owned_province = {
-         limit = { 
-         NOT = { has_province_modifier = dev }
-		 NOT = { development = 15 }
-         } 
+	    effect = {
+	    add_manpower = -2.5
+	    add_treasury = -500
+	    random_owned_province = {
+            limit = { 
+            NOT = { has_province_modifier = dev }
+		    NOT = { development = 15 }
+        } 
 		 
-		 add_province_modifier = {
-         name = "dev"
-         duration = 15330
-         }
-		 add_base_tax = 1
-         add_base_production = 1
-         add_base_manpower = 1
+		add_province_modifier = {
+            name = "dev"
+            duration = 18250
+        }
+		add_base_tax = 1
+        add_base_production = 1
+        add_base_manpower = 1
         }
 	   }
 	}
@@ -318,8 +318,8 @@ country_decisions = {
 		ai = no
 		}
 		allow = {
-			treasury = 500
-			manpower = 2
+			treasury = 1000
+			manpower = 5
 			NOT = { num_of_loans = 1 }
 			any_owned_province = {
 			NOT = { has_province_modifier = dev } 
@@ -327,23 +327,23 @@ country_decisions = {
 			NOT = { development = 30 }
 			}
 		}
-	   effect = {
-	   add_manpower = -2
-	   add_treasury = -500
-	   random_owned_province = {
-         limit = { 
-         NOT = { has_province_modifier = dev }
-		 development = 15
-		 NOT = { development = 30 }
-         } 
+	    effect = {
+	    add_manpower = -5
+	    add_treasury = -1000
+	    random_owned_province = {
+            limit = { 
+            NOT = { has_province_modifier = dev }
+		    development = 15
+		    NOT = { development = 30 }
+        } 
 		 
-		 add_province_modifier = {
-         name = "dev"
-         duration = 15330
-         }
-		 add_base_tax = 1
-         add_base_production = 1
-         add_base_manpower = 1
+		add_province_modifier = {
+            name = "dev"
+            duration = 18250
+        }
+		add_base_tax = 1
+        add_base_production = 1
+        add_base_manpower = 1
         }
 	   }
 	}
@@ -354,8 +354,8 @@ country_decisions = {
 		ai = no
 		}
 		allow = {
-			treasury = 750
-			manpower = 3
+			treasury = 1500
+			manpower = 7.5
 			NOT = { num_of_loans = 1 }
 			any_owned_province = {
 			NOT = { has_province_modifier = dev } 
@@ -363,30 +363,29 @@ country_decisions = {
 			NOT = { development = 45 }
 			}
 		}
-	   effect = {
-	   add_manpower = -3
-	   add_treasury = -750
-	   random_owned_province = {
-         limit = { 
-         NOT = { has_province_modifier = dev }
-		 development = 30
-		 NOT = { development = 45 }
-         } 
-		 
-		 add_province_modifier = {
-         name = "dev"
-         duration = 15330
-         }
-		 add_base_tax = 1
-         add_base_production = 1
-         add_base_manpower = 1
+	    effect = {
+	    add_manpower = -7.5
+	    add_treasury = -1500
+	    random_owned_province = {
+            limit = { 
+            NOT = { has_province_modifier = dev }
+		    development = 30
+		    NOT = { development = 45 }
+        } 
+		add_province_modifier = {
+            name = "dev"
+            duration = 18250
+        }
+		add_base_tax = 1
+        add_base_production = 1
+        add_base_manpower = 1
         }
 	   }
 	}
 	
-	  
 	ge_ai_province_development = {
 		potential = {
+		NOT = { government = native }
 		ai = yes
 		}
 		allow = {
@@ -404,22 +403,20 @@ country_decisions = {
 		add_treasury = -250
 		add_country_modifier = {
 		  name = "ai_time"
-          duration = 1800
+          duration = 3650
 		}
 		random_owned_province = {
-         limit = { 
-         NOT = { has_province_modifier = dev }
-		 NOT = { development = 45 }
-         } 
-		 
-		 add_province_modifier = {
-         name = "dev"
-         duration = 15330
-         }
-		 add_base_tax = 1
-         add_base_production = 1
-         add_base_manpower = 1
-		 
+           limit = { 
+           NOT = { has_province_modifier = dev }
+		   NOT = { development = 45 }
+        } 
+		add_province_modifier = {
+            name = "dev"
+            duration = 18250
+        }
+		add_base_tax = 1
+        add_base_production = 1
+        add_base_manpower = 1
         }
 		}
 	}
@@ -473,6 +470,7 @@ country_decisions = {
 			adm_tech = 30
 		}
 		effect = {
+		custom_tooltip = do_bonds_emission_tt
 		add_years_of_income = 5
 		add_country_modifier = {
 				name = "bonds_emission"
@@ -501,6 +499,7 @@ country_decisions = {
 			is_at_war = yes
 		}
 		effect = {
+		custom_tooltip = do_bonds_emission_tt
 		add_years_of_income = 2.5
 		add_country_modifier = {
 				name = "war_emission"

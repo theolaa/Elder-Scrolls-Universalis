@@ -1,4 +1,4 @@
-graphical_culture = turkishgfx
+graphical_culture = africangfx
 
 color = { 62  125  52 }
 

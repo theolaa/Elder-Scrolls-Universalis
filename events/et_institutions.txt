@@ -309,7 +309,7 @@ country_event = {
 	id = et_institutions.4
 	title = et_institutions.4.t
 	desc = et_institutions.4.d
-	picture = BUILDING_eventPicture
+	picture = ES_DWEMES_eventPicture
 
 	is_triggered_only = yes
 	
@@ -360,7 +360,7 @@ country_event = {
 	id = et_institutions.400
 	title = et_institutions.4.t
 	desc = et_institutions.400.d
-	picture = BUILDING_eventPicture
+	picture = ES_DWEMES_eventPicture
 
 	is_triggered_only = yes
 	
@@ -400,53 +400,6 @@ country_event = {
 	option = {
 		name = et_institutions.4.a
 		custom_tooltip = et_institutions.4.a.tt
-	}
-}
-
-country_event = {
-	id = et_institutions.600
-	title = et_institutions.6.t
-	desc = et_institutions.600.d
-	picture = BUILDING_eventPicture
-
-	is_triggered_only = yes
-	
-
-	trigger = {
-		always = yes			#
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = et_institutions.6.a
-		custom_tooltip = et_institutions.6.a.tt
-	}
-}
-
-#Far away travellers...
-country_event = {
-	id = et_institutions.601
-	title = et_institutions.6.t
-	desc = et_institutions.601.d
-	picture = MERCHANTS_TALKING_eventPicture
-
-	is_triggered_only = yes
-	
-
-	trigger = {
-		always = yes			#
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = et_institutions.6.a
-		custom_tooltip = et_institutions.6.a.tt
 	}
 }
 
@@ -554,7 +507,7 @@ country_event = {
 	id = et_institutions.12
 	title = et_institutions.12.t
 	desc = et_institutions.12.d
-	picture = ROMAN_ROAD_eventPicture
+	picture = ES_GENOCIDE_eventPicture
 
 	is_triggered_only = yes
 	
@@ -605,7 +558,7 @@ country_event = {
 	id = et_institutions.1200
 	title = et_institutions.12.t
 	desc = et_institutions.1200.d
-	picture = ROMAN_ROAD_eventPicture
+	picture = ES_GENOCIDE_eventPicture
 
 	is_triggered_only = yes
 	

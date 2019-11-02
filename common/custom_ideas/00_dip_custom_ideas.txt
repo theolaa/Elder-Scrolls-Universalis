@@ -432,7 +432,7 @@ dip_idea_modifiers = {
 		}			
 	}	
 	custom_idea_range = {
-		range = 0.1
+		range = 0.10
 		level_cost_2 = 3
 		level_cost_3 = 9
 		level_cost_4 = 18	
@@ -624,4 +624,14 @@ dip_idea_modifiers = {
 			}
 		}			
 	}	
+	custom_idea_free_dip_policy = {
+		free_dip_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+	}
+	custom_idea_possible_dip_policy = {
+		possible_dip_policy = 1
+		max_level = 1
+		level_cost_1 = 30
+	}
 }

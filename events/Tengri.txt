@@ -452,20 +452,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		months = 500
-		modifier = {
-			factor = 0.7
-			num_of_religion = {
-				secondary = yes
-				value = 0.75
-			}
-		}
-		modifier = {
-			factor = 0.6
-			num_of_religion = {
-				secondary = yes
-				value = 0.9
-			}
-		}
 	}
 	
 	option = {
@@ -2183,44 +2169,6 @@ country_event = {
 		add_legitimacy = 10
 		add_devotion = 10
 		add_republican_tradition = 5
-	}
-}
-
-#New Mission Established
-province_event = {
-	id = tengri_events.59
-	title = tengri_events.59.t
-	desc = tengri_events.59.d
-	picture = RELIGIOUS_MIGRANTS_eventPicture
-	
-	
-	trigger = {
-		has_dlc = "The Cossacks"
-		religion = dremora_pantheon
-		secondary_religion = dragon_cult
-		has_empty_adjacent_province = yes
-		owner = { NOT = { num_of_colonies = 2 } }
-	}
-	
-	mean_time_to_happen = {
-		months = 380
-	}
-
-	is_mtth_scaled_to_size = 1
-	
-	option = {
-		name = tengri_events.59.a #
-		random_empty_neighbor_province = {
-			create_colony = 100
-			change_religion = dragon_cult
-		}
-	}
-	option = {
-		name = tengri_events.59.b #
-		random_empty_neighbor_province = {
-			add_base_tax = 1
-			change_religion = dragon_cult
-		}
 	}
 }
 

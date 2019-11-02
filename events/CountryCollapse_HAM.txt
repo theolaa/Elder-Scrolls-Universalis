@@ -338,6 +338,8 @@ country_event = {
 	    }
 		else = {
 		create_alliance = HAM
+		add_opinion = { who = ROOT modifier = es_friendly_nation }
+		add_opinion = { who = HAM modifier = es_friendly_nation }
 		}
 	}
 }

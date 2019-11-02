@@ -90,6 +90,10 @@ es_more_courthouses = {
     core_creation = -0.1
 }
 
+es_more_monuments = {
+    global_unrest = -1
+}
+
 es_more_canals = {
     production_efficiency = 0.1
 }
@@ -168,6 +172,10 @@ es_trusted_alliences = {
 
 es_vassals = {
     vassal_income = 0.1
+}
+
+es_more_embassies = {
+    spy_offence = 0.10
 }
 
 es_more_personal_unions = {

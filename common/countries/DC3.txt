@@ -1,4 +1,4 @@
-graphical_culture = easterngfx
+graphical_culture = mongolgfx
 
 color = { 19 184 202 }
 

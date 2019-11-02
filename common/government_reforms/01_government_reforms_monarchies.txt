@@ -33,11 +33,21 @@ autocracy_reform = {
 		unjustified_demands = -0.10
 		global_autonomy = -0.05
 		max_absolutism = 5
+		
+		free_mil_policy = 1
 	}
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
 		militarised_society = yes
+	}
+	
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		government_abilities = {
+			russian_mechanic
+		}
+		claim_states = yes
 	}
 	
 	ai = {
@@ -73,6 +83,8 @@ celestial_empire = {
 		global_institution_spread = 0.10
 		embracement_cost = -0.10
 		global_autonomy = -0.05
+		
+		free_adm_policy = 1
 	}
 	
 	ai = {
@@ -121,6 +133,8 @@ english_monarchy = {
 		global_unrest = -1
 		global_autonomy = -0.025
 		max_absolutism = -30
+		
+		free_adm_policy = 1
 	}
 
 	conditional = {
@@ -130,6 +144,11 @@ english_monarchy = {
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
 		militarised_society = yes
+	}
+	
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
 	}
 	
 	ai = {
@@ -155,6 +174,8 @@ elective_monarchy = {
 		max_absolutism = -30
 		max_states = 1
 		global_autonomy = -0.025
+		
+		free_mil_policy = 1
 	}
 
 	conditional = {
@@ -164,6 +185,11 @@ elective_monarchy = {
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
 		militarised_society = yes
+	}
+	
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
 	}
 	
 	ai = {
@@ -193,6 +219,8 @@ mamluk_government = {
 		monarch_admin_power = 1
 		same_culture_advisor_cost = -0.10
 		max_states = 1
+		
+		free_adm_policy = 1
 	}
 
 	conditional = {
@@ -200,6 +228,7 @@ mamluk_government = {
 		government_abilities = {
 			mamluk_mechanic
 		}
+		heir = no
 		foreign_slave_rulers = yes
 	}
 	
@@ -230,6 +259,8 @@ pirate_kingdom = {
 		ship_durability = 0.10
 		leader_naval_fire = 1
 		may_perform_slave_raid_on_same_religion = yes
+		
+		free_dip_policy = 1
 	}
 	
 	conditional = {
@@ -255,6 +286,8 @@ ottoman_government = {
 		max_absolutism = 5
 		monarch_diplomatic_power = 1
 		max_states = 1
+		
+		free_mil_policy = 1
 	}
 	
 	factions = {
@@ -304,6 +337,8 @@ shogunate = {
 		global_manpower_modifier = 0.10
 		reduced_liberty_desire = 10
 		max_absolutism = 5
+		
+		free_dip_policy = 1
 	}
 
 	ai = {
@@ -335,6 +370,8 @@ mughal_government = {
 		monarch_military_power = 1
 		global_autonomy = -0.025
 		num_accepted_cultures = 1
+		
+		free_mil_policy = 1
 	}
 
 	assimilation_cultures = {

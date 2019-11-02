@@ -21,3 +21,9 @@ fort_15th = yes
 	controller = TAN
 	add_core = TAN
 }
+
+1100.1.1 = {
+	owner = JA5
+	controller = JA5
+	add_core = JA5
+}

@@ -19,3 +19,18 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
 	religion = altmeri_pantheon
 	culture = altmer
 }
+
+939.1.1 = {
+	owner = HAM
+	controller = HAM
+	add_core = HAM
+	culture = redguard
+	religion = redguard_pantheon
+}
+
+1045.1.1 = {
+    owner = HE5
+	controller = HE5
+	add_core = HE5
+	religion = yokudan_pantheon
+}

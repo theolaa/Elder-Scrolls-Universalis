@@ -1,4 +1,4 @@
-graphical_culture = northamericagfx
+graphical_culture = thaigfx
 
 color = { 159 20 20 }
 

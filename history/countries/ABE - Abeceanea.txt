@@ -1,0 +1,14 @@
+government = republic
+add_government_reform = pirate_republic_reform
+government_rank = 3
+mercantilism = 1
+technology_group = tamriel_tg
+religion = molog_bal_cult
+primary_culture = nedic
+capital = 1168
+
+211.1.1 = { religion = eight_divines }
+
+1309.1.1 = {
+	primary_culture = colovian
+}

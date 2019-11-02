@@ -1111,13 +1111,6 @@ country_event = {
 				}
 				save_event_target_as = industrialization_province
 			}
-			random_province = {
-				limit = {
-					trade_goods = cloth
-					has_discovered = ROOT
-				}
-				save_event_target_as = old_cloth_province
-			}
 		}
 	}
 	

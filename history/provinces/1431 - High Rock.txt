@@ -19,3 +19,15 @@ center_of_trade = 1
 	controller = ORS
 	add_core = ORS
 }
+
+990.1.1 = {
+    owner = HIG
+	controller = HIG
+	add_core = HIG
+}
+
+1045.1.1 = {
+    owner = WAY
+	controller = WAY
+	add_core = WAY
+}

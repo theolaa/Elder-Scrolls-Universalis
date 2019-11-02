@@ -49,9 +49,8 @@ country_event = {
 	desc = es_13_scenario.2.d
 	picture = ES_ELVEN_WARRIOR_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.2_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = high_elves_cg
@@ -60,6 +59,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.2_flag
 	}
 
 	option = {
@@ -88,10 +91,9 @@ country_event = {
 	title = es_13_scenario.3.t
 	desc = es_13_scenario.3.d
 	picture = ES_ELVEN_VILLAGE2_eventPicture
-	
-	fire_only_once = yes
-	
+
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.3_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = high_elves_cg
@@ -100,6 +102,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.3_flag
 	}
 
 	option = {
@@ -124,9 +130,8 @@ country_event = {
 	desc = es_13_scenario.4.d
 	picture = ES_COLOVIA_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.4_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = high_elves_cg
@@ -135,6 +140,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.4_flag
 	}
 
 	option = {
@@ -145,6 +154,66 @@ country_event = {
 		region = western_syrodiil_lr
 		}
 		add_claim = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = SKY
+		NOT = { alliance_with = SKY }
+	    NOT = { overlord_of = SKY }
+		}
+		declare_war_with_cb = {
+			who = SKY
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = OLD
+		NOT = { alliance_with = OLD }
+	    NOT = { overlord_of = OLD }
+		}
+		declare_war_with_cb = {
+			who = OLD
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = WSK
+		NOT = { alliance_with = WSK }
+	    NOT = { overlord_of = WSK }
+		}
+		declare_war_with_cb = {
+			who = WSK
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = REA
+		NOT = { alliance_with = REA }
+	    NOT = { overlord_of = REA }
+		}
+		declare_war_with_cb = {
+			who = REA
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = NB6
+		NOT = { alliance_with = NB6 }
+	    NOT = { overlord_of = NB6 }
+		}
+		declare_war_with_cb = {
+			who = NB6
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {
@@ -160,9 +229,8 @@ country_event = {
 	desc = es_13_scenario.5.d
 	picture = BATTLE_4_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.5_flag }
 	    is_year = 478
 		NOT = { is_year = 548 }
 	    OR = {
@@ -174,6 +242,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840	
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.5_flag
 	}
 
 	option = {
@@ -281,9 +353,8 @@ country_event = {
 	desc = es_13_scenario.6.d
 	picture = ES_BRUMA_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.6_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = northern_cg
@@ -292,6 +363,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.6_flag
 	}
 
 	option = {
@@ -302,6 +377,66 @@ country_event = {
 		area = cyrodiil_16_la
 		}
 		add_claim = ROOT
+		}
+		
+		if = {
+		limit = {
+		exists = ALE
+		NOT = { alliance_with = ALE }
+	    NOT = { overlord_of = ALE }
+		}
+		declare_war_with_cb = {
+			who = ALE
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = ORD
+		NOT = { alliance_with = ORD }
+	    NOT = { overlord_of = ORD }
+		}
+		declare_war_with_cb = {
+			who = ORD
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = COL
+		NOT = { alliance_with = COL }
+	    NOT = { overlord_of = COL }
+		}
+		declare_war_with_cb = {
+			who = COL
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = HEA
+		NOT = { alliance_with = HEA }
+	    NOT = { overlord_of = HEA }
+		}
+		declare_war_with_cb = {
+			who = HEA
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = CB6
+		NOT = { alliance_with = CB6 }
+	    NOT = { overlord_of = CB6 }
+		}
+		declare_war_with_cb = {
+			who = CB6
+			casus_belli = cb_es_scenario
+		}
 		}
 	}
 	option = {
@@ -317,9 +452,8 @@ country_event = {
 	desc = es_13_scenario.7.d
 	picture = BATTLE_3_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.7_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		has_country_flag = death_in_battle_flag
@@ -329,6 +463,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 31
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.7_flag
 	}
 
 	option = {
@@ -342,6 +480,7 @@ country_event = {
         mil = 5
         age = 30
         claim = 100
+		fixed = yes
         }
 		add_stability = -1
 	}
@@ -362,17 +501,23 @@ country_event = {
 	desc = es_13_scenario.8.d
 	picture = ES_SKINGRAD_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.8_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = cyrodiil_cg
 		owns = 1206
+		any_owned_province = {
+		    area = cyrodiil_6_la
+		}
     }
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.8_flag
 	}
 
 	option = {
@@ -385,6 +530,43 @@ country_event = {
 		add_core = ROOT
 		}
 		add_prestige = -10
+		
+		if = {
+		limit = {
+		exists = CA6
+		NOT = { alliance_with = CA6 }
+	    NOT = { overlord_of = CA6 }
+		}
+		declare_war_with_cb = {
+			who = CA6
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = CE6
+		NOT = { alliance_with = CE6 }
+	    NOT = { overlord_of = CE6 }
+		}
+		declare_war_with_cb = {
+			who = CE6
+			casus_belli = cb_es_scenario
+		}
+		}
+		
+		if = {
+		limit = {
+		exists = CA7
+		NOT = { alliance_with = CA7 }
+	    NOT = { overlord_of = CA7 }
+		}
+		declare_war_with_cb = {
+			who = CA7
+			casus_belli = cb_es_scenario
+		}
+		}
+		
 	}
 	option = {
 		name = "es_13_scenario.8.b"
@@ -407,9 +589,8 @@ country_event = {
 	desc = es_13_scenario.9.d
 	picture = ES_REVOLUTION_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.9_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		culture_group = high_elves_cg
@@ -418,6 +599,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.9_flag
 	}
 
 	option = {
@@ -435,6 +620,7 @@ country_event = {
 		change_tag = HIG
 		if = { limit = { has_custom_ideas = no } country_event = { id = ideagroups.1 } }
 		set_capital = 1369
+		if = { limit = { NOT = { government_rank = 5 } } set_government_rank = 5 }
 	}
 	option = {
 		name = "es_13_scenario.9.b"
@@ -477,9 +663,8 @@ country_event = {
 	desc = es_13_scenario.10.d
 	picture = ES_MAUSOLEUM_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.10_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		OR = {
@@ -490,6 +675,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 12775
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.10_flag
 	}
 
 	option = {
@@ -506,9 +695,8 @@ country_event = {
 	desc = es_13_scenario.10.d
 	picture = ES_MAUSOLEUM_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_13_scenario.11_flag }
 		is_year = 478
 		NOT = { is_year = 548 }
 		OR = {
@@ -520,6 +708,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 31
+	}
+	
+	immediate = {
+	    set_country_flag = es_13_scenario.11_flag
 	}
 
 	option = {

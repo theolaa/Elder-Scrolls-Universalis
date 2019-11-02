@@ -87,3 +87,11 @@ southern_ocean_superregion = {
    ever_frozen_sea_sr
    dread_sea_sr
 }
+
+deadric_planes_superregion = {
+    central_coldharbour_lr
+	southern_coldharbour_lr
+	eastern_coldharbour_lr
+	western_coldharbour_lr
+	northern_coldharbour_lr
+}

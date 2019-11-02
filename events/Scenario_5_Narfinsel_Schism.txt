@@ -6,9 +6,8 @@ country_event = {
 	desc = es_5_scenario.1.d
 	picture = ES_SIEGE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_5_scenario.1_flag }
 	    OR = {
 	    culture_group = high_elves_cg
 		culture_group = cyrodiil_cg
@@ -20,6 +19,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 5840		
+	}
+	
+	immediate = {
+	    set_country_flag = es_5_scenario.1_flag
 	}
 
 	option = {
@@ -43,7 +46,7 @@ country_event = {
 		change_religion = eight_divines
 		spawn_rebels = {
 				type = eight_divines_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -60,7 +63,7 @@ country_event = {
 		change_religion = eight_divines
 		spawn_rebels = {
 				type = eight_divines_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -77,7 +80,7 @@ country_event = {
 		change_religion = eight_divines
 		spawn_rebels = {
 				type = eight_divines_rebels
-				size = 10
+				size = 5
 				win = yes
 				unrest = 25
 			}
@@ -106,7 +109,7 @@ country_event = {
 	mean_time_to_happen = {
 		days = 9125		
 	}
-
+	
 	option = {
 		name = "es_5_scenario.2.a"
 		ai_chance = { factor = 50 }
@@ -131,14 +134,17 @@ country_event = {
 	desc = es_5_scenario.3.d
 	picture = BATTLE_2_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_5_scenario.3_flag }
 	    has_country_flag = country_narfinsel_schism_flag 
     }
 
 	mean_time_to_happen = {
 		days = 5840		
+	}
+	
+	immediate = {
+	    set_country_flag = es_5_scenario.3_flag
 	}
 
 	option = {

@@ -1,0 +1,4 @@
+entity = {
+	name = "gate_coldharbour"
+	pdxmesh = "gate_coldharbour"
+}

@@ -142,5 +142,68 @@ vassal = {
 	first = THR
 	second = HB1
 	start_date = 660.1.1
+	end_date = 939.1.1
+}
+
+vassal = {
+	first = HAM
+	second = HF1
+	start_date = 939.1.1
+	end_date = 1152.1.1
+}
+
+vassal = {
+	first = HAM
+	second = HE1
+	start_date = 1045.1.1
+	end_date = 1152.1.1
+}
+
+vassal = {
+	first = HF3
+	second = HF1
+	start_date = 1152.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+	first = HF3
+	second = HE1
+	start_date = 1152.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = HAM
+	second = HE5
+	start_date = 1045.1.1
+	end_date = 1152.1.1
+}
+
+alliance = {
+	first = HF3
+	second = HE5
+	start_date = 1152.1.1
+	end_date = 9999.1.1
+}
+
+vassal = {
+	first = HAM
+	second = HE8
+	start_date = 1045.1.1
+	end_date = 1152.1.1
+}
+
+alliance = {
+	first = HF3
+	second = HE8
+	start_date = 1152.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+	first = HE5
+	second = HE1
+	start_date = 1100.1.1
 	end_date = 9999.1.1
 }

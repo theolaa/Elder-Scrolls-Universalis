@@ -6,15 +6,18 @@ country_event = {
 	desc = es_0_scenario.1.d
 	picture = ES_01_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_0_scenario.1_flag }
 		is_year = 20
 		NOT = { is_year = 65 }
     }
 
 	mean_time_to_happen = {
 		days = 8030	
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.1_flag
 	}
 
 	option = {
@@ -34,9 +37,8 @@ country_event = {
 	desc = es_0_scenario.2.d
 	picture = ES_02_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_0_scenario.2_flag }
 		is_year = 68
 		NOT = { is_year = 109 }
 		capital_scope = { continent = Tamriel }
@@ -44,6 +46,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7300	
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.2_flag
 	}
 
 	option = {
@@ -64,9 +70,8 @@ country_event = {
 	desc = es_0_scenario.3.d
 	picture = ES_03_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_0_scenario.3_flag }
 		is_year = 200
 		NOT = { is_year = 242 }
 		capital_scope = { continent = Tamriel }
@@ -74,6 +79,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 7665	
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.3_flag
 	}
 
 	option = {
@@ -93,9 +102,8 @@ country_event = {
 	desc = es_0_scenario.4.d
 	picture = ES_SIEGE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_0_scenario.4_flag }
 	    ai = no
 	    NOT = { is_year = 266 }
 		1206 = {
@@ -112,6 +120,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 31	
 	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.4_flag
+	}
 
 	option = {
 		name = "es_0_scenario.4.a"
@@ -126,9 +138,8 @@ country_event = {
 	desc = es_0_scenario.5.d
 	picture = ES_CITY_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.5_flag }
 	   is_year = 246
 	   owns = 1369
 	   NOT = { is_year = 369 }
@@ -139,6 +150,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 22265	
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.5_flag
 	}
 
 	option = {
@@ -170,9 +185,8 @@ country_event = {
 	desc = es_0_scenario.6.d
 	picture = ES_ALESSIA_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.6_flag }
 	   is_year = 266
 	   NOT = { is_year = 308 }
     }
@@ -180,10 +194,23 @@ country_event = {
 	mean_time_to_happen = {
 		days = 7665
 	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.6_flag
+	}
 
 	option = {
 		name = "es_0_scenario.6.a"
 		ai_chance = { factor = 100 }
+		if = {
+		limit = {
+		owns = 1206
+		}
+		add_country_modifier = {
+		    name = "amulet_of_kings"
+			duration = -1
+	    }
+		}
         if = {
 		limit = {
 		has_ruler = Alessia
@@ -211,9 +238,8 @@ country_event = {
 	desc = es_0_scenario.7.d
 	picture = ES_04_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.7_flag }
 	   is_year = 420
 	   NOT = { is_year = 478 }
 	   capital_scope = { continent = Tamriel }
@@ -221,6 +247,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 9125
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.7_flag
 	}
 
 	option = {
@@ -245,9 +275,8 @@ country_event = {
 	desc = es_0_scenario.8.d
 	picture = ES_05_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.8_flag }
 	   is_year = 420
 	   NOT = { is_year = 478 }
 	   has_country_flag = rislav_is_born_flag
@@ -256,6 +285,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 3650
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.8_flag
 	}
 
 	option = {
@@ -278,9 +311,8 @@ country_event = {
 	desc = es_0_scenario.9.d
 	picture = ES_06_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.9_flag }
 	   religion = eight_divines
 	   owns = 1206
 	   owns = 1002
@@ -296,6 +328,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 365
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.9_flag
 	}
 
 	option = {
@@ -325,15 +361,18 @@ country_event = {
 	desc = es_0_scenario.10.d
 	picture = ES_06_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.10_flag }
 	   religion = eight_divines
 	   has_global_flag = nine_divines_flag
     }
 
 	mean_time_to_happen = {
 		days = 365
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.10_flag
 	}
 
 	option = {
@@ -361,9 +400,8 @@ country_event = {
 	desc = es_0_scenario.11.d
 	picture = ES_07_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.11_flag }
 	   owns = 357
 	   owns = 335
 	   owns = 224
@@ -391,6 +429,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 365
 	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.11_flag
+	}
 
 	option = {
 		name = "es_0_scenario.11.a"
@@ -407,15 +449,18 @@ country_event = {
 	desc = es_0_scenario.12.d
 	picture = ES_08_eventPicture	
 	
-	fire_only_once = yes
-	
 	trigger = {
+	   NOT = { has_country_flag = es_0_scenario.12_flag }
 	   has_country_flag = arrow_in_the_knee_flag
 	   is_free_or_tributary_trigger = no
     }
 
 	mean_time_to_happen = {
 		days = 365
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.12_flag
 	}
 
 	option = {
@@ -448,9 +493,8 @@ country_event = {
 	desc = es_0_scenario.13.d
 	picture = ES_VOLCANIC_SMOKE_eventPicture
 	
-	fire_only_once = yes
-	
 	trigger = {
+	    NOT = { has_country_flag = es_0_scenario.13_flag }
 		is_year = 660
 		NOT = { is_year = 700 }
 		has_global_flag = es_16_eruption_flag
@@ -458,6 +502,10 @@ country_event = {
 
 	mean_time_to_happen = {
 		days = 365
+	}
+	
+	immediate = {
+	    set_country_flag = es_0_scenario.13_flag
 	}
 
 	option = {

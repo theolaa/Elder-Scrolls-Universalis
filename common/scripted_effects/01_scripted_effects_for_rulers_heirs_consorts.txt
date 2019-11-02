@@ -138,27 +138,6 @@ save_origin_of_consort_effect = { #Used for all internal consorts.
 			save_event_target_as = origin_of_consort
 		}
 	}
-	if = { # finds and saves local province as origin
-		limit = {
-			has_foreign_consort = no
-			any_owned_province = { has_province_modifier = domain_of_spouses_family }
-		}
-		random_owned_province = {
-			limit = { has_province_modifier = domain_of_spouses_family }
-			save_event_target_as = origin_of_consort
-		}
-	}
-	if = { # finds and saves local province as origin
-		limit = {
-			has_foreign_consort = no
-			has_ruler_flag = has_lowborn_consort
-			any_owned_province = { has_province_modifier = home_of_consort }
-		}
-		random_owned_province = {
-			limit = { has_province_modifier = home_of_consort }
-			save_event_target_as = origin_of_consort
-		}
-	}
 	if = { # if all else fails: use this consort_flag to set a triggered desc
 		limit = {
 			NOT = { has_saved_event_target = origin_of_consort }

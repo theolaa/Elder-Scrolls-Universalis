@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = mongolgfx
 
 color = { 32 149 36 }
 

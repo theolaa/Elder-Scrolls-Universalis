@@ -290,6 +290,8 @@ country_event = {
 	    }
 		else = {
 		create_alliance = POT
+		add_opinion = { who = ROOT modifier = es_friendly_nation }
+		add_opinion = { who = POT modifier = es_friendly_nation }
 		}
 	}
 }

@@ -1,5 +1,4 @@
 name="Elder Scrolls Universalis"
-archive="mod/elder_scrolls_universalis.zip"
 replace_path="common/countries"
 replace_path="common/bookmarks"
 replace_path="common/disasters"
@@ -39,5 +38,7 @@ tags={
 	"Trade"
 	"Utilities"
 }
-picture="elder_scrolls_universalis_logo.jpg"
-supported_version="1.28.*.*"
+picture="thumbnail.png"
+version="1.4.0"
+supported_version="1.29.*.*"
+remote_file_id="1449952810"

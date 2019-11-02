@@ -338,17 +338,6 @@ country_event = {
 						NOT = { has_province_flag = caught_foreign_agents }
 					}
 				}
-				random_country = {
-					limit = {
-						NOT = { tag = ROOT }
-						NOT = { war_with = ROOT }
-						trading_policy_in_node = {
-							node = PREV
-							policy = improve_inland_routes
-						}
-					}
-					save_event_target_as = spy_country
-				}
 				random_trade_node_member_province = {
 					limit = {
 						owned_by = ROOT
@@ -811,7 +800,6 @@ country_event = {
 						is_empty = no
 					}
 					save_event_target_as = foreign_province
-					owner = { save_event_target_as = foreign_province_owner }
 				}
 			}
 			random_owned_province = {
@@ -1163,27 +1151,6 @@ country_event = {
 						}
 					}
 				}
-				random_trade_node_member_province = {
-					limit = {
-						owned_by = ROOT
-						base_production = 2
-						NOT = { has_province_modifier = lack_of_demand_for_local_goods }
-						OR = {
-							trade_goods = gems
-							trade_goods = incense
-							trade_goods = spices
-							trade_goods = silk
-							trade_goods = cloth
-							trade_goods = ivory
-							trade_goods = tropical_wood
-							trade_goods = gold
-							trade_goods = glass					
-							trade_goods = paper					
-							trade_goods = chinaware	
-						}
-					}
-					save_event_target_as = trade_province
-				}
 			}
 		}
 	}
@@ -1263,9 +1230,6 @@ country_event = {
 						NOT = { has_province_modifier = influx_of_foreign_ideas }
 						NOT = { has_province_modifier = traditional_values_supported }
 					}
-				}
-				strongest_trade_power = {
-					save_event_target_as = merchant_country
 				}
 				random_trade_node_member_province = {
 					limit = {

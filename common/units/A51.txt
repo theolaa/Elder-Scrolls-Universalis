@@ -5,5 +5,5 @@ offensive_morale = 7
 defensive_morale = 6
 offensive_fire = 7
 defensive_fire = 6
-offensive_shock = 3
-defensive_shock = 3
+offensive_shock = 6
+defensive_shock = 6

@@ -99,6 +99,7 @@ create_holy_order_1 = {
 	
 	is_visible = {
 		is_subject = no
+		NOT = { religion = serpant_king }
 	}
 	is_allowed = {
         FROM = {
@@ -106,6 +107,7 @@ create_holy_order_1 = {
 	    is_subject_of_type = vassal
 		is_subject_of_type = march
 		}
+		NOT = { government = native }
 		NOT = { is_subject_of_type = client_vassal }
 		NOT = { is_subject_of_type = client_march }
 		is_subject_of = ROOT

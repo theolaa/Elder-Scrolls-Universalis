@@ -1,4 +1,4 @@
-graphical_culture = greekgfx
+graphical_culture = asiangfx
 
 color = { 21 217 239 }
 

@@ -17,9 +17,6 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			random_neighbor_country = {
-				save_event_target_as = saved_neighbor
-			}
 			random_known_country = { #Worst fit
 				limit = {
 					num_of_ports = 1
@@ -102,24 +99,6 @@ country_event = {
 	picture = WOKOU_INCIDENT_eventPicture
 	
 	is_triggered_only = yes
-	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = {
-					has_port = yes
-				}
-				save_event_target_as = pirate_coast_province
-			}
-			random_owned_province = { #Better
-				limit = {
-					has_port = yes
-					is_capital = no
-				}
-				save_event_target_as = pirate_coast_province
-			}
-		}
-	}
 	
 	option = {
 		name = "shinto_events.2.a" #We should seek funding from foreign investors.
@@ -219,36 +198,12 @@ country_event = {
 	picture = WOKOU_INCIDENT_eventPicture
 	
 	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			random_owned_province = { #fallback
-				limit = {
-					has_port = yes
-					is_in_capital_area = yes
-				}
-				save_event_target_as = save_wokou_target
-			}
-			random_owned_province = {
-				limit = {
-					has_port = yes
-					is_in_capital_area = yes
-					is_capital = no
-				}
-				save_event_target_as = save_wokou_target
-			}
-		}
-	}
 	
 	option = {
 		name = "shinto_events.3.a" #What do we care if he lives of the wealth of foreigners?
 		custom_tooltip = shinto_events.open.tt
 		
 		event_target:save_wokou_target = {
-			add_province_modifier = {
-				name = wokou_pirate_stronghold_indifferent
-				duration = 3650
-			}
 		}
 		add_incident_variable_value = {
 			incident = incident_wokou
@@ -265,10 +220,6 @@ country_event = {
 			tradition = 50
 		}
 		event_target:save_wokou_target = {
-			add_province_modifier = {
-				name = wokou_pirate_stronghold_friendly
-				duration = 3650
-			}
 		}
 		add_incident_variable_value = {
 			incident = incident_wokou
@@ -282,10 +233,6 @@ country_event = {
 		custom_tooltip = shinto_events.much.isolation.tt
 		add_stability = -1
 		event_target:save_wokou_target = {
-			add_province_modifier = {
-				name = wokou_pirate_stronghold_hostile
-				duration = 3650
-			}
 		}
 		add_incident_variable_value = {
 			incident = incident_wokou
@@ -316,9 +263,6 @@ country_event = { #The Kaizokushu turn to Suigun.
 	
 	immediate = {
 		hidden_effect = {
-			random_neighbor_country = {
-				save_event_target_as = saved_neighbor
-			}
 			random_known_country = { #Worst fit
 				limit = {
 					num_of_ports = 1

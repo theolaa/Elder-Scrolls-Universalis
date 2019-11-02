@@ -1,5 +1,5 @@
 government = monarchy
-government_rank = 3
+government_rank = 5
 mercantilism = 1
 technology_group = tamriel_tg
 religion = altmeri_pantheon
@@ -160,6 +160,61 @@ capital = 1382
 		birth_date = 994.1.1
 		adm = 5
         dip = 3
+        mil = 4
+	}
+}
+
+1069.1.1 = {
+	monarch = {
+		name = "Ancoonrootan"
+		dynasty = "Direnii"
+		birth_date = 1051.1.1
+		adm = 4
+        dip = 5
+        mil = 3
+	}
+}
+
+1125.1.1 = {
+	monarch = {
+		name = "Thramwatch"
+		dynasty = "Direnii"
+		birth_date = 1107.1.1
+		adm = 5
+        dip = 6
+        mil = 6
+	}
+}
+
+1182.1.1 = {
+	monarch = {
+		name = "Orthynnarion"
+		dynasty = "Direnii"
+		birth_date = 1164.1.1
+		adm = 5
+        dip = 6
+        mil = 6
+	}
+}
+
+1236.1.1 = {
+	monarch = {
+		name = "Granthaer"
+		dynasty = "Direnii"
+		birth_date = 1218.1.1
+		adm = 4
+        dip = 5
+        mil = 7
+	}
+}
+
+1291.1.1 = {
+	monarch = {
+		name = "Fasorumeladil"
+		dynasty = "Direnii"
+		birth_date = 1273.1.1
+		adm = 3
+        dip = 5
         mil = 4
 	}
 }

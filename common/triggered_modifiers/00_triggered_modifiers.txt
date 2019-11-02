@@ -268,9 +268,6 @@ classical_age_modifier = {
     possible_mercenaries = 0.50	
 	merc_maintenance_modifier = -0.50
 	
-    naval_forcelimit_modifier = -0.50
-    sailor_maintenance_modifer = 0.50
-	
 	colonist_placement_chance = -0.15
 }
 
@@ -285,9 +282,6 @@ late_classical_age_modifier = {
 	
     possible_mercenaries = 0.40
 	merc_maintenance_modifier = -0.40
-	
-    naval_forcelimit_modifier = -0.40
-    sailor_maintenance_modifer = 0.40
 	
 	colonist_placement_chance = -0.10
 }
@@ -304,9 +298,6 @@ age_of_migrations_modifier = {
     possible_mercenaries = 0.30
 	merc_maintenance_modifier = -0.30
 	
-    naval_forcelimit_modifier = -0.30
-    sailor_maintenance_modifer = 0.30
-	
 	colonist_placement_chance = -0.05
 }
 
@@ -322,9 +313,6 @@ dark_age_modifier = {
     possible_mercenaries = 0.20
 	merc_maintenance_modifier = -0.20
 	
-    naval_forcelimit_modifier = -0.20
-    sailor_maintenance_modifer = 0.20
-	
 	yearly_corruption = 0.05
 }
 
@@ -339,9 +327,6 @@ feudal_age_modifier = {
 
     possible_mercenaries = 0.10
 	merc_maintenance_modifier = -0.10
-	
-    naval_forcelimit_modifier = -0.10
-    sailor_maintenance_modifer = 0.10
 	
 	yearly_corruption = 0.10
 }

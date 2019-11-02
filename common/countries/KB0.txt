@@ -1,4 +1,4 @@
-graphical_culture = latingfx
+graphical_culture = westerngfx
 
 color = { 255 0 0 }
 
@@ -47,7 +47,7 @@ leader_names  = {
 }
 
 ship_names = {   
-	Zrixira Aezaya Ortyse Tinaith Harellenne Orinevera Charneth Keloris Tryxana Thelyla Krynyra Phisthine Yrelyra Ohiraith Zarinoris Ohiryxih Grynera Shynixi Berinona Jilriane Glyselin Sharryss Uhryera Xenyera Daemrelle Dhyseli Dhysaith Ristyse Xislyss Vheslenne Phistia Bwynanya Prisora Usinorin Ohirrya Xensyss Tryxlith Catlyn Wylinesh Azaerney Shareth Xylney Lilysh Carileth Orinith Qyrvynia Qyriana Winess Cahrvyra Meridesha Cahrnore Ohirlith Qhesrelle Sarnore Orlia Cahraela Irinynore Ynisnys Bwynvyra Phisvienne Lilesh Orelin Drenvielle Dhyssea Gryneli Nessysha Lilvia Ryrtyse Ohirvyn Xisoth Lilieth Glysvyra Meridnore Charanya Wylinelin Zelltarish Meztia Shirinnessa Cattia Meridriane Vylneth Mhyrvyn Carilyss Kelixis Shylea Vylysh Jaenesh Cahrielle Mezrahne Brizlea Ohirana Aeztarish Prislyn Lilieth Harelvyra Ysernila Vhesnila Cahrysha Orless Iphisysha
+	Zrixira Aezaya Ortyse Tinaith Harellenne Orinevera Charneth Keloris Tryxana Thelyla Krynyra Phisthine Yrelyra Ohiraith Zarinoris Ohiryxih Grynera Shynixi Berinona Jilriane Glyselin Sharryss Uhryera Xenyera Daemrelle Dhyseli Dhysaith Ristyse Xislyss Vheslenne Phistia Bwynanya Prisora Usinorin Ohirrya Xensyss Tryxlith Catlyn Wylinesh Azaerney Shareth Xylney Lilysh Carileth Orinith Qyrvynia Qyriana Winess Cahrvyra Meridesha Cahrnore Ohirlith Qhesrelle Sarnore Orlia Cahraela Irinynore Ynisnys Bwynvyra Phisvienne Lilesh Orelin Drenvielle Dhyssea Gryneli Nessysha Lilvia Ryrtyse Ohirvyn Xisoth Lilieth Glysvyra Meridnore Charanya Wylinelin Zelltarish Meztia Shirinnessa Cattia Meridriane Vylneth Mhyrvyn Carilyss Kelixis Shylea Vylysh Jaenesh Cahrielle Mezrahne Brizlea Ohirana Aeztarish Prislyn Harelvyra Ysernila Vhesnila Cahrysha Orless Iphisysha
 }
 
 army_names = {

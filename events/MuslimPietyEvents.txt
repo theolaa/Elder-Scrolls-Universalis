@@ -24,15 +24,6 @@ country_event = {
 		days = 1
 	}
 	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = { is_state = yes }
-				save_event_target_as = spread_of_extreme_practices_province
-			}
-		}
-	}
-	
 	option = {
 		name = muslim_piety.1.a #Expel them from our cities
 		ai_chance = {
@@ -465,15 +456,6 @@ country_event = {
 	
 	mean_time_to_happen = {
 		days = 1
-	}
-	
-	immediate = {
-		hidden_effect = {
-			random_owned_province = {
-				limit = { is_state = yes }
-				save_event_target_as = storytellerprovince
-			}
-		}
 	}
 	
 	option = {
@@ -1011,33 +993,6 @@ country_event = {
 			name = "loss_of_legal_competence"
 			duration = 3650
 		}
-	}
-}
-
-
-# Building Restrictions Lapse
-country_event = {
-	id = muslim_piety.17
-	title = muslim_piety.17.t
-	desc = muslim_piety.17.d
-	picture = CITY_VIEW_eventPicture
-	
-	is_triggered_only = yes
-
-	trigger = {
-		uses_piety = yes
-		has_country_modifier = dhimmi_building_restrictions
-		NOT = { piety = -0.1 }
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	option = {
-		name = muslim_piety.17.a
-		add_piety = -0.10
-		remove_country_modifier = dhimmi_building_restrictions
 	}
 }
 

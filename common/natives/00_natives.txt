@@ -1,5 +1,5 @@
 natives_american_inuit = {
-	graphical_culture = inuitgfx
+	graphical_culture = northamericagfx
 	color = { 0 255  255 }
 	icon = 4
 	
@@ -71,7 +71,7 @@ natives_asian = {
 }
 
 natives_siberian = {
-	graphical_culture = inuitgfx
+	graphical_culture = mongolgfx
 	color = { 127  255  255 }
 	icon = 4
 	

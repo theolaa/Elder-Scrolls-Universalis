@@ -514,16 +514,16 @@ highland_scottish_ideas = {
 	free = yes
 	
 	hsc_the_wallace = {
-		land_morale = 0.10
+		fort_maintenance_modifier = -0.1
 	}
 	hsc_highland_clans = {
-		hostile_attrition = 1
+		global_regiment_cost = -0.1
 	}
 	hsc_storm_the_castle = {
-		siege_ability = 0.10
+		discipline = 0.05
 	}
 	hsc_episcopalianism = {
-		stability_cost_modifier = -0.10
+		leader_land_shock = 1
 	}
 	hsc_highland_charge = {
 		shock_damage = 0.10
@@ -893,7 +893,7 @@ aymaran_ideas = {
 tupi_ideas = {
 	start = {
 		reinforce_speed = 0.25
-		manpower_recovery_speed = 0.25
+		trade_efficiency = 0.25
 	}
 	
 	bonus = {
@@ -910,22 +910,22 @@ tupi_ideas = {
 		stability_cost_modifier = -0.1
 	}	
 	two_tribes_myth = {
-		prestige_decay = -0.01
+		hostile_attrition = 1
 	}
 	warrior_tribes = {
 		infantry_power = 0.1	
 	}
 	splash_and_burn = {
-		global_manpower_modifier = 0.10
+		global_trade_goods_size_modifier = 0.1
 	}
 	cultivate_the_land = {
-		production_efficiency = 0.10
+		prestige_from_land = 0.25
 	}
 	head_hunters = {
-		army_tradition_decay = -0.01
+		leader_land_manuever = 1
 	}
 	wall_builders = {
-		defensiveness = 0.10
+		loot_amount = 0.10
 	}
 }
 
@@ -1308,8 +1308,8 @@ moluccan_ideas = {
 
 greek_ideas = {
 	start = {
-		galley_cost = -0.25
-		sailor_maintenance_modifer = -0.25
+		prestige = 0.5
+		advisor_pool = 1
 	}
 	
 	bonus = {
@@ -1323,25 +1323,25 @@ greek_ideas = {
 	free = yes
 	
 	greek_orthodox_faith = {
-		tolerance_own = 1
+		technology_cost = -0.1
 	}
 	greek_maritime_heritage = {
-		navy_tradition = 0.25
+		same_culture_advisor_cost = -0.1
 	}
 	greek_klephtic_irregulars = {
-		infantry_power = 0.1
+		army_tradition = 0.25
 	}
 	greek_phanariotes = {
-		advisor_cost = -0.1
+		diplomatic_upkeep = 1
 	}
 	greek_strengthen_control_over_the_trade_routes = {
 		trade_efficiency = 0.1
 	}
 	greek_philhellenism = {
-		diplomatic_reputation = 1
+		harsh_treatment_cost = -0.1
 	}
 	greek_enlightenment = {
-		idea_cost = -0.1
+		discipline = 0.05
 	}
 }
 
@@ -1364,19 +1364,19 @@ african_great_lakes_ideas = {
 		global_manpower_modifier = 0.10
 	}
 	heirs_of_kitara = {
-		prestige = 0.25
+		ae_impact = -0.1
 	}
 	no_illegitimate_children = {
-		heir_chance = 0.25
+		global_institution_spread = 0.1
 	}
 	cwezy_religion = {
 		tolerance_own = 1
 	}
 	emitwe = {
-		infantry_cost = -0.1
+		years_of_nationalism = -5
 	}
 	unity_of_clans = {
-		infantry_power = 0.1
+		cavalry_power = 0.1
 	}
 	development_of_clientship = {
 		global_tax_modifier = 0.1
@@ -1385,12 +1385,12 @@ african_great_lakes_ideas = {
 
 malagasy_ideas = {
 	start = {
-		stability_cost_modifier = -0.25
-		light_ship_cost = -0.25
+		defensiveness = 0.25
+		vassal_forcelimit_bonus = 0.25
 	}
 	
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		diplomatic_annexation_cost = -0.25
 	}
 	
 	trigger = {
@@ -1400,7 +1400,7 @@ malagasy_ideas = {
 	free = yes
 	
 	malagasy_fortify_coastline = {
-		defensiveness = 0.10
+		global_tax_modifier = 0.1
 	}
 	malagasy_zafivolemena = {
 		legitimacy = 0.25
@@ -1410,30 +1410,30 @@ malagasy_ideas = {
         meritocracy = 0.25
 	}
 	malagasy_pirate_ports = {
-		privateer_efficiency = 0.10
+		fire_damage = 0.1
 	}
 	malagasy_raid_warfare = {
-		global_manpower_modifier = 0.1
+		tolerance_heathen = 1
 	}
 	malagasy_sacred_law = {
-		global_unrest = -1
+		global_ship_trade_power = 0.1
 	}
 	malagasy_foreign_traders = {
-		trade_efficiency = 0.1
+		garrison_size = 0.1
 	}
 	malagasy_permanent_taxation_system = {
-		global_tax_modifier = 0.1
+		leader_land_fire = 1
 	}
 }
 
 zambezi_ideas = {
 	start = {
-		infantry_power = 0.15
-		global_manpower_modifier = 0.25
+		reinforce_cost_modifier = -0.50
+		army_tradition = 0.5
 	}
 	
 	bonus = {
-		vassal_income = 0.25
+		max_states = 5
 	}
 	
 	trigger = {
@@ -1443,7 +1443,7 @@ zambezi_ideas = {
 	free = yes
 	
 	zambezi_warrior_culture = {
-		merc_maintenance_modifier = -0.10
+		infantry_power = 0.10
 	}
 	zambezi_maravi_influences = {
 		stability_cost_modifier = -0.10
@@ -1455,17 +1455,13 @@ zambezi_ideas = {
 		global_unrest = -1
 	}
 	zambezi_centralizing_the_mbona_cult = {
-		legitimacy = 0.25
-		republican_tradition = 0.25
-		devotion = 0.25							
-        horde_unity = 0.25
-        meritocracy = 0.25
+		merchants = 1
 	}
 	zambezi_wealth_of_the_shire_valley = {
-		diplomatic_annexation_cost = -0.10
+		core_creation = -0.1
 	}
 	zambezi_loyal_local_representatives = {
-		global_tax_modifier = 0.1
+		siege_ability = 0.1
 	}
 }
 
@@ -1588,12 +1584,16 @@ luzon_ideas = {
 
 deccani_muslim_ideas = {
 	start = {
-		cavalry_power = 0.15
-		num_accepted_cultures = 1
+		legitimacy = 0.5
+		republican_tradition = 0.5
+		devotion = 0.5						
+        horde_unity = 0.5
+        meritocracy = 0.5
+		global_manpower_modifier = 0.25
 	}
 	
 	bonus = {
-		global_manpower_modifier = 0.25
+		manpower_recovery_speed = 0.25
 	}
 	
 	trigger = {
@@ -1603,29 +1603,25 @@ deccani_muslim_ideas = {
 	free = yes
 	
 	dec_legacy_of_bahmanis = {
-		legitimacy = 0.25
-		republican_tradition = 0.25
-		devotion = 0.25							
-        horde_unity = 0.25
-        meritocracy = 0.25
+		tolerance_own = 1
 	}
 	dec_deccani_identity = {
-		idea_cost = -0.10
+		land_morale = 0.1
 	}
 	dec_brahmin_administrators = {
-		stability_cost_modifier = -0.1
+		movement_speed = 0.1
 	}
 	dec_habshis = {	
-		infantry_power = 0.1
+		idea_cost = -0.1
 	}
 	dec_bargi_giri = {
-		cavalry_flanking = 0.10
+		land_attrition = -0.1
 	}
 	dec_marathi_cultivators = {
-		production_efficiency = 0.1
+		diplomatic_reputation = 1
 	}
 	dec_marathi_habshi_state = {
-		advisor_cost = -0.1
+		shock_damage_received = -0.1
 	}
 }
 
@@ -1728,25 +1724,25 @@ nepalese_minor_ideas = {
 	free = yes
 	
 	nep_construct_temples = {
-		build_cost = -0.1
+		mercenary_cost = -0.1
 	}
 	nep_kashmiri_traders = {
-		merchants = 1
+		fire_damage_received = -0.1
 	}
 	nep_new_festivals = {
-		tolerance_own = 1
+		global_autonomy = -0.05
 	}
 	nep_kavindra = {
 		prestige = 0.25
 	}
 	nep_seize_mountain_passes = {
-		defensiveness = 0.10
+		infantry_power = 0.1	
 	}
 	nep_judicial_reforms = {
-		stability_cost_modifier = -0.1
+		province_warscore_cost = -0.1
 	}
 	nep_end_division_of_domains = {
-		global_autonomy = -0.05
+		build_cost = -0.1
 	}
 }
 
@@ -1774,7 +1770,7 @@ GEO_ideas = {
         meritocracy = 0.25
 	}
 	georgian_isolation = {
-		improve_relation_modifier = 0.10
+		improve_relation_modifier = 0.15
 	}
 	geo_legacy_of_saint_nino = {
 		tolerance_own = 1

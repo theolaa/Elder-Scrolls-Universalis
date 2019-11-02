@@ -28,3 +28,9 @@ discovered_by = tamriel_tg discovered_by = elsweyr_tg discovered_by = marshan_tg
     culture = falmer
 	religion = snow_elves_pantheon
 }
+
+990.1.1 = {
+    owner = REA
+	controller = REA
+	add_core = REA
+}

@@ -1,4 +1,4 @@
-graphical_culture = westerngfx
+graphical_culture = persiangfx
 
 color = { 249 187 41 }
 

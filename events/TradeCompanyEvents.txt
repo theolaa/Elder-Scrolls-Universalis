@@ -522,7 +522,7 @@ province_event = {
 	id = trade_company_events.11
 	title = "trade_company_events.EVTNAME11"
 	desc = "trade_company_events.EVTDESC11"
-	picture = ELECTION_REPUBLIC_eventPicture
+	picture = ES_ASSEMBLY_eventPicture
 	
 	trigger = {
 		is_owned_by_trade_company = yes

@@ -1,4 +1,4 @@
-graphical_culture = northamericagfx
+graphical_culture = mongolgfx
 
 color = { 47 209 242 }
 

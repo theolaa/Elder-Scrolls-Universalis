@@ -278,6 +278,8 @@ country_event = {
 	    }
 		else = {
 		create_alliance = CHI
+		add_opinion = { who = ROOT modifier = es_friendly_nation }
+		add_opinion = { who = CHI modifier = es_friendly_nation }
 		}
 	}
 }
