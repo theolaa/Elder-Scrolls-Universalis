@@ -1,0 +1,4 @@
+animation = {
+	name = "coldharbour_anim"
+	file = "coldharbour_anim.anim"
+}
