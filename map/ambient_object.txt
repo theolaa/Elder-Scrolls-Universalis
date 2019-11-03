@@ -1,19 +1,40 @@
 type={
 	type="gate_coldharbour"
 	use_animation=no
-	scale=0.750
+	scale=0.750000
 	time_duration=300.000000
-	visible_in_all_map_modes = yes
+	always_visible=yes
+	visible_in_all_map_modes=yes
 	object={
 		name="gate_coldharbour"
 		hidden_on_start=no
 		position={
-			1439.000 12.000 1618.000 
+			477.000 12.000 2617.000 
 		}
 		rotation={
 			0.000 0.000 0.000 
 		}
 	}
+	object={
+		name="gate_coldharbour"
+		hidden_on_start=no
+		position={
+			1292.000 12.000 2562.000 
+		}
+		rotation={
+			0.000 0.000 0.000 
+		}
+	}
+}
+
+}
+type={
+	type="gate_deadlands"
+	use_animation=no
+	scale=0.750000
+	time_duration=300.000000
+	always_visible=yes
+	visible_in_all_map_modes=yes
 }
 
 type={
@@ -1707,16 +1728,6 @@ type={
 		name="giraffe"
 		hidden_on_start=no
 		position={
-			1016.000 -0.100 806.000 
-		}
-		rotation={
-			0.000 -30.000 0.000 
-		}
-	}
-	object={
-		name="giraffe"
-		hidden_on_start=no
-		position={
 			833.000 -0.100 680.000 
 		}
 		rotation={
@@ -1731,6 +1742,16 @@ type={
 		}
 		rotation={
 			0.000 30.000 0.000 
+		}
+	}
+	object={
+		name="giraffe"
+		hidden_on_start=no
+		position={
+			1016.000 -0.100 806.000 
+		}
+		rotation={
+			0.000 -30.000 0.000 
 		}
 	}
 	object={

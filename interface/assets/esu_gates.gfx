@@ -5,3 +5,11 @@ objectTypes = {
 		scale = 1.0
 	}
 }
+
+objectTypes = {
+	pdxmesh = {
+		name = "gate_deadlands"
+		file = "gfx\models\Buildings\Gates\Deadlands\deadlands.mesh"
+		scale = 1.0
+	}
+}
