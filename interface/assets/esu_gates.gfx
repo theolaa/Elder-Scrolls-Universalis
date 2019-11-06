@@ -2,7 +2,7 @@ objectTypes = {
 	pdxmesh = {
 		name = "gate_coldharbour"
 		file = "gfx\models\Buildings\Gates\Coldharbour\coldharbour.mesh"
-		scale = 1.0
+		scale = 0.75
 	}
 }
 
