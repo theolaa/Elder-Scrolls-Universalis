@@ -1,9 +1,9 @@
-culture = akaviri
-religion = dragon_cult
+culture = unknown
+religion = unknown_pantheon native_size = 15 native_ferocity = 3 native_hostileness = 7
 hre = no
 base_tax = 1
 base_production = 1
 trade_goods = unknown
 base_manpower = 1
 capital = "Silopei"
-discovered_by = akavir_tg discovered_by = thousand_tg discovered_by = kamal_tg
+

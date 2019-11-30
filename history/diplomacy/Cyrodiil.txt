@@ -424,3 +424,41 @@ union = {
 	start_date = 478.1.1
 	end_date = 1309.1.1
 }
+
+union = {
+    first = CYR
+	second = NIB
+	start_date = 1334.1.1
+	end_date = 1410.1.1
+}
+
+union = {
+    first = CYR
+	second = COL
+	start_date = 1387.1.1
+	end_date = 1472.1.1
+}
+
+dependency = {
+    subject_type = imperial_subject
+    first = CYR
+    second = SKY
+    start_date = 1387.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+    subject_type = imperial_subject
+    first = CYR
+    second = VAL
+    start_date = 1387.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+    subject_type = imperial_subject
+    first = CYR
+    second = ARG
+    start_date = 1472.1.1
+	end_date = 9999.1.1
+}

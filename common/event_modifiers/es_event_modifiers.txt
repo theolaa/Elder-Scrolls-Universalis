@@ -322,7 +322,6 @@ vassal_autonomy = {
 
 es_female_advisors = {
     female_advisor_chance = 0.48
-	may_recruit_female_generals = yes
 }
 
 1_size = {
@@ -452,7 +451,7 @@ es_female_advisors = {
 }
 
 150_size = {
-    global_autonomy = 0.005
+    global_autonomy = 0.05
     harsh_treatment_cost = 0.25
     global_unrest = 1
     yearly_corruption = 0.05
@@ -474,7 +473,7 @@ es_female_advisors = {
 }
 
 200_size = {
-    global_autonomy = 0.01
+    global_autonomy = 0.1
     harsh_treatment_cost = 0.50
     global_unrest = 2.5
     yearly_corruption = 0.10
@@ -515,6 +514,56 @@ es_female_advisors = {
 	global_ship_recruit_speed = 0.5
     global_spy_defence = -0.35
     stability_cost_modifier = 0.5
+}
+
+1_development = {
+    global_manpower_modifier = -0.1
+	manpower_recovery_speed = -0.1
+	global_sailors_modifier = -0.1
+	sailors_recovery_speed = -0.1
+	build_cost = 0.1
+	embracement_cost = 0.1
+	advisor_cost = 0.1
+}
+
+2_development = {
+    global_manpower_modifier = -0.2
+	manpower_recovery_speed = -0.2
+	global_sailors_modifier = -0.2
+	sailors_recovery_speed = -0.2
+	build_cost = 0.25
+	embracement_cost = 0.25
+	advisor_cost = 0.25
+}
+
+3_development = {
+    global_manpower_modifier = -0.3
+	manpower_recovery_speed = -0.3
+	global_sailors_modifier = -0.3
+	sailors_recovery_speed = -0.3
+	build_cost = 0.5
+	embracement_cost = 0.5
+	advisor_cost = 0.5
+}
+
+4_development = {
+    global_manpower_modifier = -0.4
+	manpower_recovery_speed = -0.4
+	global_sailors_modifier = -0.4
+	sailors_recovery_speed = -0.4
+	build_cost = 0.75
+	embracement_cost = 0.75
+	advisor_cost = 0.75
+}
+
+5_development = {
+    global_manpower_modifier = -0.5
+	manpower_recovery_speed = -0.5
+	global_sailors_modifier = -0.5
+	sailors_recovery_speed = -0.5
+	build_cost = 1.0
+	embracement_cost = 1.0
+	advisor_cost = 1.0
 }
 
 small_city = {
@@ -853,4 +902,22 @@ amulet_of_kings = {
 
 es_archeology_expedition = {
     prestige = 0.25
+}
+
+ruler_almalexia = {
+    global_missionary_strength = 0.01
+	administrative_efficiency = 0.10
+	idea_cost = -0.10
+}
+
+ruler_sotha_sil = {
+    technology_cost = -0.10
+	ae_impact = -0.10
+	trade_efficiency = 0.10
+}
+
+ruler_vivec = {
+    free_leader_pool = 1
+	land_morale = 0.10
+	diplomatic_reputation = 1
 }

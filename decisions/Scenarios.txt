@@ -4,7 +4,7 @@ country_decisions = {
 	    major = yes
 		potential = {
 		OR = {
-        NOT = { culture_group = northern_cg }
+        culture_group = snow_elves_cg
 		tag = DRA
 		}
 		owns = 1265
@@ -563,6 +563,29 @@ country_decisions = {
 		}
 	}
 	
+	es_18_hall_of_virtues = {
+	    potential = {
+		is_year = 810
+		owns = 335
+		335 = { NOT = { has_province_modifier = 18_hall_of_virtues } }
+		}
+		allow = {
+		treasury = 1500
+        }
+		effect = {
+		add_treasury = 1500
+		335 = {
+		add_country_modifier = {
+		    name = "18_hall_of_virtues"
+			duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	es_25_rebuild_imperial_city = {
 		potential = {
 		owns = 1206
@@ -607,6 +630,132 @@ country_decisions = {
 		add_country_modifier = {
 		    name = "27_gardner_estate"
 			duration = -1
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_xx_elder_council = {
+	    potential = {
+		owns = 1206
+		OR = {
+		    primary_culture = imperial
+			primary_culture = nibenean
+			primary_culture = colovian
+		}
+		}
+		allow = {
+		OR = {
+		government_rank = 7
+		tag = CYR
+		tag = TAM
+		}
+        }
+		effect = {
+		add_stability = 1
+		add_country_modifier = {
+		    name = "xx_elder_council"
+			duration = -1
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_xx_tomb_of_reman_dynasty = {
+	    potential = {
+		owns = 1181
+		is_year = 1387
+		1181 = { NOT = { has_province_modifier = xx_tomb_of_reman_dynasty } }
+		}
+		allow = {
+		treasury = 2500
+        }
+		effect = {
+		add_treasury = -2500
+		1181 = {
+		add_province_modifier = {
+		    name = "xx_tomb_of_reman_dynasty"
+			duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_xx_alduins_wall = {
+	    potential = {
+		owns = 1352
+		is_year = 1387
+		1352 = { NOT = { has_province_flag = xx_alduin_wall_building_flag } }
+		}
+		allow = {
+		treasury = 2500
+        }
+		effect = {
+		add_treasury = -2500
+		1352 = {
+		set_province_flag = xx_alduin_wall_building_flag
+		add_province_modifier = {
+		    name = "xx_building_alduin_wall"
+			duration = 10950
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_33_build_blackrose_prison = {
+	    potential = {
+		owns = 1090
+		NOT = { culture_group = marsh_cg }
+		NOT = { has_country_modifier = 33_blackrose_prison }
+		}
+		allow = {
+		treasury = 1000
+        }
+		effect = {
+		add_treasury = -1000
+		add_country_modifier = {
+		    name = "33_blackrose_prison"
+			duration = -1
+		}
+		1090 = {
+		add_province_modifier = {
+		    name = "blackrose_prison"
+			duration = -1
+		}
+		}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	es_33_close_blackrose_prison = {
+	    potential = {
+		owns = 1090
+		culture_group = marsh_cg
+		1090 = { has_province_modifier = blackrose_prison }
+		}
+		allow = {
+		treasury = 500
+        }
+		effect = {
+		add_treasury = -500
+		every_country = {
+		limit = { has_country_modifier = 33_blackrose_prison }
+		remove_country_modifier = 33_blackrose_prison
+		}
+		1090 = {
+		remove_province_modifier = blackrose_prison
 		}
 		}
 		ai_will_do = {

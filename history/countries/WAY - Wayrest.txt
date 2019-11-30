@@ -39,6 +39,13 @@ capital = 1426
 	}
 }
 
+1309.1.1 = {
+    add_country_modifier = {
+		name = "27_gardner_estate"
+		duration = -1
+	}
+}
+
 1311.1.1 = {
 	monarch = {
 		name = "Petis"
@@ -47,5 +54,49 @@ capital = 1426
 		adm = 2
 		dip = 3
 		mil = 1
+	}
+}
+
+1366.1.1 = {
+	monarch = {
+		name = "Bennhul"
+		dynasty = "Gardner"
+		birth_date = 1348.1.1
+		adm = 3
+		dip = 4
+		mil = 2
+	}
+}
+
+1421.1.1 = {
+	monarch = {
+		name = "Nestoin"
+		dynasty = "Gardner"
+		birth_date = 1402.1.1
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1470.1.1 = {
+	monarch = {
+		name = "Alenneond"
+		dynasty = "Gardner"
+		birth_date = 1451.1.1
+		adm = 6
+		dip = 2
+		mil = 5
+	}
+}
+
+1524.1.1 = {
+	monarch = {
+		name = "Achinude"
+		dynasty = "Gardner"
+		birth_date = 1506.1.1
+		adm = 3
+		dip = 4
+		mil = 5
 	}
 }
